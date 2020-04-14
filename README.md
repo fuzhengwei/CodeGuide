@@ -21,8 +21,8 @@
 
 |   序号  |   图标  |   专栏文章  |   源码下载  |   状态  |
 |   :---:   |   :---:   |   :---    |   :---    |   :---:   |
-|   1   |   :sound: |   [`Netty4.x专题`](#sound-Netty4.x专题)  |   [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty ) |   [√]   |
-|   2   |   :electric_plug: |   手写RPC框架 |   [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc)  |   [√]     |
+|   1   |   :sound: |   [`Netty4.x专题`](#sound-Netty4专题)  |   [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty ) |   [√]   |
+|   2   |   :electric_plug: |   [`手写RPC框架`](#electric_plug-手写RPC框架) |   [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc)  |   [√]     |
 |   3   |   :computer:  |   用Java实现JVM  |   [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm)  |   [√]     |
 |   4   |   :ghost: |   基于JavaAgent的全链路监控   |   [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent ) |   [√]     |
 |   5   |   :shower:    |   iot-gateway网关案例 |   [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary)    |   [√]     |
@@ -37,7 +37,7 @@
 |   14  |   :paw_prints:    |   我的大学四年到毕业工作5年的学习路线资源和面试汇总   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
 
 
-## :sound: Netty4.x专题
+## :sound: Netty4专题
 
 ### 基础入门篇
 
