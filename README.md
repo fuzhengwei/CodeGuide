@@ -12,17 +12,6 @@
 </div>
 <br/>
 
-|	算法	|	JVM	|	Java/Spring	|	Netty4.x专题	|	字节码编程	|	架构师专题	|	走码观花	|
-|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|	:---	|
-|	野路子搞算法	|	用Java实现JVM	|	基础编程	|	基础入门篇	|	ASM	|	中间件开发	|	故事	|
-|		|		|	源码分析	|	中级拓展篇	|	调用链路监控	|	Drools规则引擎	|	面试	|
-|		|		|	SpringCloud	|	高级应用篇	|		|	DDD领域驱动设计	|		|
-|		|		|		|	源码分析篇	|		|		|		|
-
-| Java基础 | JVM虚拟机| Spring源码 | Netty4.x专题 | 领域驱动设计 | 中间件开发 | JavaAgent | 架构框架搭建 | 
-| :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: |  :---: | 
-| [:coffee:](#coffee-Java基础编程) | [:computer:](#用Java实现jvm虚拟机) | [:pencil2:](#pencil2-Spring系列源码解读) | [:sound:](#sound-Netty4.x专题) | [:triangular_ruler:](#triangular_ruler-DDD领域驱动设计) | [:electric_plug:](#electric_plug-中间件开发) | [:ghost:](#ghost-JavaAgent全链路监控) | [:art:](#art-架构框架搭建) |
-
 | 序号 | 标识 | 名称 | 描述 | 下载 |
 |:---:|:---:|:---|:---|:---:|
 | 1 | :sound: | Netty4.x专题 | Netty实战专题案例，Netty4.x案例从简单入门到应用实战，全篇37节优秀案例+实战源码[基础篇(12)、拓展篇(13)、应用篇(3章+)、源码篇(6)]，以上章节全部完成并不断持续更新中。| [download](#sound-Netty4.x专题) |
@@ -45,10 +34,6 @@
     <a href="https://itstack.org" style="text-decoration:none"><img src="https://itstack.org/_media/icon.svg" width="128px"></a>
 </div>
 <br/>  
-
-
-
-
 
 ## :sound: Netty4.x专题
 
