@@ -19,7 +19,7 @@
 </div>
 <br/>
 
-|   序号  |   标识  |   专栏名称  |   源码下载  |   状态  |
+|   序号  |   图标  |   专栏文章  |   源码下载  |   状态  |
 |   :---:   |   :---:   |   :---    |   :---    |   :---:   |
 |   1   |   :sound: |   [`Netty4.x专题`](#sound-Netty4.x专题)  |   [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty ) |   [√]   |
 |   2   |   :electric_plug: |   手写RPC框架 |   [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc)  |   [√]     |
