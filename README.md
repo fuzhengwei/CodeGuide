@@ -19,22 +19,22 @@
 </div>
 <br/>
 
-|   序号  |   标识  |   名称  |   下载  |
-|   :---:   |   :---    |   :---    |   :---    |
-|   1   |   :sound: |   Netty4.x专题  |   [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty ) |
-|   2   |   :electric_plug: |   手写RPC框架 |   [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc)  |
-|   3   |   :computer:  |   用Java实现JVM  |   [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm)  |
-|   4   |   :ghost: |   基于JavaAgent的全链路监控   |   [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent ) |
-|   5   |   :shower:    |   iot-gateway网关案例 |   [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary)    |
-|   6   |   :triangular_ruler:  |   DDD领域驱动设计落地 |   [itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd)  |
-|   7   |   :outbox_tray:   |   SpringCloud入门案例 |   [itstack-demo-springcloud](https://github.com/fuzhengwei/itstack-demo-springcloud)  |
-|   8   |   :performing_arts:   |   微信公众号开发 |   [itstack-ark-wx](https://github.com/fuzhengwei/itstack-ark-wx-test) |
-|   9   |   :nut_and_bolt:  |   SpringBoot中间件开发 |   [door-spring-boot-starter](https://github.com/fuzhengwei/door-spring-boot-starter)  |
-|   10  |   :art:   |   服务框架搭建  |   [itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame)  |
-|   11  |   :flashlight:    |   源码分析(Spring、Mybatis、Schedule)   |   [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code)    |
-|   12  |   :airplane:  |   Drools规则引擎  |   [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)    |
-|   13  |   :tractor:   |   ASM字节码编程    |   [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)  |
-|   14  |   :paw_prints:    |   我的大学四年到毕业工作5年的学习路线资源和面试汇总   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |
+|   序号  |   标识  |   名称  |   下载  |   状态  |
+|   :---:   |   :---:   |   :---    |   :---    |   :---:   |
+|   1   |   :sound: |   Netty4.x专题  |   [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty ) |   [√]     |
+|   2   |   :electric_plug: |   手写RPC框架 |   [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc)  |   [√]     |
+|   3   |   :computer:  |   用Java实现JVM  |   [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm)  |   [√]     |
+|   4   |   :ghost: |   基于JavaAgent的全链路监控   |   [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent ) |   [√]     |
+|   5   |   :shower:    |   iot-gateway网关案例 |   [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary)    |   [√]     |
+|   6   |   :triangular_ruler:  |   DDD领域驱动设计落地 |   [itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd)  |   [√]     |
+|   7   |   :outbox_tray:   |   SpringCloud入门案例 |   [itstack-demo-springcloud](https://github.com/fuzhengwei/itstack-demo-springcloud)  |   [√]     |
+|   8   |   :performing_arts:   |   微信公众号开发 |   [itstack-ark-wx](https://github.com/fuzhengwei/itstack-ark-wx-test) |   [√]     |
+|   9   |   :nut_and_bolt:  |   SpringBoot中间件开发 |   [door-spring-boot-starter](https://github.com/fuzhengwei/door-spring-boot-starter)  |   [√]     |
+|   10  |   :art:   |   服务框架搭建  |   [itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame)  |   [√]     |
+|   11  |   :flashlight:    |   源码分析(Spring、Mybatis、Schedule)   |   [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code)    |   [√]     |
+|   12  |   :airplane:  |   Drools规则引擎  |   [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)    |   [√]     |
+|   13  |   :tractor:   |   ASM字节码编程    |   [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)  |   [√]     |
+|   14  |   :paw_prints:    |   我的大学四年到毕业工作5年的学习路线资源和面试汇总   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
 
 
 ## :sound: Netty4.x专题
