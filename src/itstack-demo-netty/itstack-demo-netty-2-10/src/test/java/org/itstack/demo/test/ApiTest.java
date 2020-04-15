@@ -8,7 +8,7 @@ package org.itstack.demo.test;
 public class ApiTest {
 
     public static void main(String[] args) {
-        System.out.println("公众号：bugstack虫洞栈 | 获取学习源码");
+        System.out.println("公众号：bugstack虫洞栈 | 获取学习源码 ");
     }
 
 }
