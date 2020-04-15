@@ -4,7 +4,6 @@
 
 > 本代码库是作者小傅哥多年从事一线互联网```Java```开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
 
-
 <br/>
 <div align="center">
     <a href="https://itstack.org" style="text-decoration:none"><img src="https://itstack.org/_media/icon.svg" width="128px"></a>
@@ -34,7 +33,7 @@
 |   11  |   :flashlight:    |   [`源码分析(Spring、Mybatis、Schedule)`](#flashlight-源码分析)   |   [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code)    |   [√]     |
 |   12  |   :airplane:  |   [`Drools规则引擎`](#airplane-Drools规则引擎)  |   [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)    |   [√]     |
 |   13  |   :tractor:   |   [`ASM字节码编程`](#tractor-ASM字节码编程)    |   [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)  |   [√]     |
-|   14  |   :paw_prints:    |   [`大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
+|   14  |   :paw_prints:    |   [`我的大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
 |   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty仿桌面版微信聊天)   |   [itstack-naive-chat](https://github.com/itstack-naive-chat)    |   [√]     |
 |   16  |   :bookmark_tabs:    |   [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)   |   [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8)    |   [√]     |
 
@@ -183,6 +182,7 @@
 
 - [`ASM字节码编程 | 如果你只写CRUD，那这种技术你永远碰不到`](https://bugstack.cn/itstack-demo-agent/2020/03/25/ASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B-%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD-%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
 - [`ASM字节码编程 | JavaAgent+ASM字节码插桩采集方法名称以及入参和出参结果并记录方法耗时`](https://bugstack.cn/itstack-demo-agent/2020/04/05/ASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B-JavaAgent+ASM%E5%AD%97%E8%8A%82%E7%A0%81%E6%8F%92%E6%A1%A9%E9%87%87%E9%9B%86%E6%96%B9%E6%B3%95%E5%90%8D%E7%A7%B0%E4%BB%A5%E5%8F%8A%E5%85%A5%E5%8F%82%E5%92%8C%E5%87%BA%E5%8F%82%E7%BB%93%E6%9E%9C%E5%B9%B6%E8%AE%B0%E5%BD%95%E6%96%B9%E6%B3%95%E8%80%97%E6%97%B6.html)
+- [`源码分析 | 咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？`](https://bugstack.cn/itstack-demo-any/2020/01/06/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E5%92%8B%E5%98%9E-%E4%BD%A0%E7%9A%84IDEA%E8%BF%87%E6%9C%9F%E4%BA%86%E5%90%A7-%E5%8A%A0%E4%B8%AAJar%E5%8C%85%E5%B0%B1%E7%A0%B4%E8%A7%A3%E4%BA%86-%E4%B8%BA%E4%BB%80%E4%B9%88.html)
 
 ## :paw_prints: 我的大学四年到毕业工作5年的学习路线资源和面试汇总
 
