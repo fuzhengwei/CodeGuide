@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://rpc.itstack.org/schema/rpc"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns:beans="http://www.springframework.org/schema/beans"
+            targetNamespace="http://rpc.itstack.org/schema/rpc"
+            elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xsd:import namespace="http://www.springframework.org/schema/beans"/>
+
+    <!-- org.itstack.demo.rpc.config.ServerConfig -->
+    <xsd:element name="server">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="beans:identifiedType">
+                    <xsd:attribute name="host" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 栈台地点 ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="port" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 栈台岸口  ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!-- org.itstack.demo.rpc.config.ConsumerConfig -->
+    <xsd:element name="consumer">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="beans:identifiedType">
+                    <xsd:attribute name="nozzle" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 接口名称 ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="alias" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 服务别名分组信息  ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <!-- org.itstack.demo.rpc.config.ProviderConfig -->
+    <xsd:element name="provider">
+        <xsd:complexType>
+            <xsd:complexContent>
+                <xsd:extension base="beans:identifiedType">
+                    <xsd:attribute name="nozzle" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 接口名称 ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="ref" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 接口实现类  ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                    <xsd:attribute name="alias" type="xsd:string">
+                        <xsd:annotation>
+                            <xsd:documentation><![CDATA[ 服务别名分组信息  ]]></xsd:documentation>
+                        </xsd:annotation>
+                    </xsd:attribute>
+                </xsd:extension>
+            </xsd:complexContent>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

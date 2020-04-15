@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration debug="false">
+
+    <appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %t %5p [%c:%M:%L] - %m%n"/>
+        </layout>
+    </appender>
+
+    <appender name="File" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="encoding" value="utf-8"/>
+        <param name="File" value="jsf-test.log"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %t %5p [%c:%M:%L] - %m%n"/>
+        </layout>
+    </appender>
+
+    <logger name="org.springframework">
+        <level value="INFO"/>
+    </logger>
+
+    <root>
+        <level value="debug"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</log4j:configuration>
