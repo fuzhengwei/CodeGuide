@@ -43,7 +43,7 @@
         <!-- built-in libs -->
         <hessian_version>4.0.7</hessian_version>
         <msgpack_version>0.6.11</msgpack_version>
-        <fastjson_version>1.2.10</fastjson_version>
+        <fastjson_version>1.2.25</fastjson_version>
         <jedis_version>2.6.0</jedis_version>
         <protostuff.version>1.0.10</protostuff.version>
         <objenesis.version>2.4</objenesis.version>
