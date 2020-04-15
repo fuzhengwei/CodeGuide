@@ -21,6 +21,7 @@
         <netty_version>4.1.36.Final</netty_version>
     </properties>
 
+
     <modules>
         <module>itstack-demo-netty-1-00</module>
         <module>itstack-demo-netty-1-01</module>
