@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>WebSocket 管控中心</title>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.serialize-object.min.js"></script>
+<script type="text/javascript" src="js/ws.js"></script>
+
+</head>
+
+<body>
+
+<div style="font-size:18px; font-weight:bolder;">WebSocket 下位机管控中心</div >
+
+<textarea id="msgBox" style="font-size:14px; border:1; width:499px; height:300px; outline:none; padding:15px;font-family:”微软雅黑”;resize: none;"></textarea>
+<hr/>
+<table style="width:499px; border:1px #666666 solid;">
+	<tr>
+		<td>ChannelId</td>
+		<td><input type="text" id="wsChannelId"/></td>
+	</tr>
+	<tr>
+		<td>查询类型</td>
+		<td>
+			<select id="wsMsg">
+				<option selected value="1">查询温度信息</option>
+				<option value="2">查询光谱数据</option>
+			</select>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="submit" value="发送信息" onclick="util.send();"/>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

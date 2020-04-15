@@ -1,0 +1,35 @@
+.combo-arrow {
+  width: 18px;
+  height: 20px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.combo-arrow-hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.combo-panel {
+  overflow: auto;
+}
+.combo-arrow {
+  background: url('images/combo_arrow.png') no-repeat center center;
+}
+.combo-panel {
+  background-color: #ffffff;
+}
+.combo-arrow {
+  background-color: #f5f5f5;
+}
+.combo-arrow-hover {
+  background-color: #eee;
+}
+.combo-arrow:hover {
+  background-color: #eee;
+}
+.combo .textbox-icon-disabled:hover {
+  cursor: default;
+}

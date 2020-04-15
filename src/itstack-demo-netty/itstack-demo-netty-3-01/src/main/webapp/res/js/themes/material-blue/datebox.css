@@ -1,0 +1,36 @@
+.datebox-calendar-inner {
+  height: 250px;
+}
+.datebox-button {
+  padding: 4px 0;
+  text-align: center;
+}
+.datebox-button a {
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+.datebox-button a:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+.datebox-current,
+.datebox-close {
+  float: left;
+}
+.datebox-close {
+  float: right;
+}
+.datebox .combo-arrow {
+  background-image: url('images/datebox_arrow.png');
+  background-position: center center;
+}
+.datebox-button {
+  background-color: #fafafa;
+}
+.datebox-button a {
+  color: #ffffff;
+}

@@ -1,0 +1,639 @@
+*{
+	box-sizing: border-box;
+}
+.f-block{
+	display: block;
+	position: relative;
+}
+.f-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+}
+.f-column{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-direction: normal;
+	-webkit-box-orient: vertical;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+}
+.f-inline-row{
+	white-space: nowrap;
+	display: -webkit-inline-box;
+	display: -ms-inline-box;
+	display: inline-flex;
+	vertical-align: middle;
+	position: relative;
+	align-items: stretch;
+	-webkit-tap-highlight-color: transparent;
+}
+.f-content-center{
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	-moz-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-moz-align-items: center;
+	align-items: center;
+}
+.f-full{
+	-webkit-box-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+.f-hide{
+	display: none;
+}
+.f-order0{
+	order: 0;
+}
+.f-order1{
+	order: 1;
+}
+.f-order2{
+	order: 2;
+}
+.f-order3{
+	order: 3;
+}
+.f-order4{
+	order: 4;
+}
+.f-order5{
+	order: 5;
+}
+.f-order6{
+	order: 6;
+}
+.f-order7{
+	order: 7;
+}
+.f-order8{
+	order: 8;
+}
+.f-noshrink{
+	-webkit-flex-shrink: 0;
+	-moz-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+.f-animate{
+    transition: all .3s;
+}
+
+.scroll-body{
+	overflow: auto;
+	position: relative;
+}
+
+.textbox .textbox-text{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.textbox-addon{
+	align-items: center;
+}
+.textbox-disabled>.textbox-addon .textbox-icon,
+.textbox-readonly>.textbox-addon .textbox-icon{
+	cursor: default;
+}
+.textbox-disabled>.textbox-addon .textbox-icon:hover,
+.textbox-readonly>.textbox-addon .textbox-icon:hover{
+	opacity: 0.6;
+	cursor: default;
+}
+.textbox-addon .textbox-icon{
+	width: 26px;
+	height: 18px;
+}
+
+.spinner .textbox-text{
+	height: auto;
+}
+.spinner-button-left,.spinner-button-right{
+	width: 26px;
+}
+.spinner-button-updown{
+	width: 26px;
+}
+.spinner-button-top,.spinner-button-bottom{
+	position: absolute;
+	width: 100%;
+	height: 26px;
+}
+.spinner-button-top{
+	top: 0;
+}
+.spinner-button-bottom{
+	top: auto;
+	bottom: 0;
+}
+.spinner-button{
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.spinner-arrow{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.textbox-disabled .spinner-arrow:hover,
+.textbox-readonly .spinner-arrow:hover
+{
+	opacity: 0.6;
+	cursor: default;
+}
+.textbox-readonly .spinner-arrow .spinner-arrow-up:hover,
+.textbox-disabled .spinner-arrow .spinner-arrow-up:hover,
+.textbox-readonly .spinner-arrow .spinner-arrow-down:hover,
+.textbox-disabled .spinner-arrow .spinner-arrow-down:hover
+{
+	cursor: default;
+}
+
+.l-btn{
+	width: 100%;
+}
+.l-btn-empty{
+	height: 28px;
+}
+.l-btn-large .l-btn-empty{
+	height: 44px;
+}
+.l-btn-left{
+	overflow: visible;
+}
+.m-btn .l-btn-left .m-btn-line{
+	top: -100px;
+	width: 36px;
+	right: -20px;
+}
+eui-button-group eui-linkbutton.f-inline-row{
+	margin-left: -1px;
+}
+eui-button-group .l-btn:hover{
+	z-index: 99;
+}
+eui-button-group eui-linkbutton:not(:first-child):not(:last-child) .l-btn{
+	border-radius: 0;
+}
+eui-button-group eui-linkbutton:first-child .l-btn{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+eui-button-group eui-linkbutton:last-child .l-btn{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.switchbutton-on,.switchbutton-off{
+	position: absolute;
+	left: 0;
+	width: calc(100% - 15px);
+	height: 100%;
+}
+.switchbutton-on span,.switchbutton-off span,.switchbutton-handle span{
+	height: 100%;
+}
+.switchbutton-on span{
+	text-indent: -15px;
+}
+.switchbutton-off span{
+	text-indent: 15px;
+}
+.switchbutton-off{
+	left: calc(100% - 15px);
+}
+.switchbutton-handle{
+	width: 30px;
+	left: auto;
+	right: 0;
+	z-index: 9;
+}
+.switchbutton-inner{
+	transition: all 200ms ease-out;
+	overflow: visible;
+	position: absolute;
+	width: 100%;
+	top: -1px;
+	bottom: -1px;
+	left: calc(-100% + 30px);
+	right: auto;
+}
+.switchbutton-checked .switchbutton-inner{
+	left: 0;
+}
+.draggable-reverting{
+	transition: all 200ms ease-out;
+}
+.slider-h .slider-tip{
+	transform: translateX(-50%);
+}
+.slider-h .slider-rulelabel span{
+	transform: translateX(-50%);
+}
+.slider-v .slider-tip{
+	margin-top: 0;
+	transform: translate(-100%,-50%);
+}
+.slider-v .slider-rulelabel span{
+	transform: translateY(-50%);
+}
+.slider-v .slider-inner{
+	height: auto;
+}
+
+
+.panel{
+	position:relative;
+}
+.panel-title{
+	height: 20px;
+	line-height: 20px;
+}
+.panel-footer-fixed{
+	position:absolute;
+	width:100%;
+	bottom:0;
+}
+.window{
+	position: absolute;
+}
+.window-mask{
+	position: fixed;
+}
+.window .window-footer{
+	top: 0;
+}
+.dialog-toolbar{
+	border-width: 0 0 1px 0;
+}
+.dialog-button{
+	border-width: 1px 0 0 0;
+	top: 0;
+}
+
+.tabs{
+	width: 100%;
+	height: auto;
+}
+.tabs-scrollable{
+	transition: left 400ms, right 400ms;
+	position: absolute;
+	width: auto;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.tabs li{
+	display: inherit;
+}
+.tabs li a.tabs-inner{
+	height: auto;
+	line-height: normal;
+	display: inherit;
+	overflow: hidden;
+}
+.tabs-title{
+	display: inherit;
+	align-items: center;
+	line-height: normal;
+}
+.tabs-close{
+	outline: none;
+}
+.tabs-scroller-left,.tabs-scroller-right{
+	position: relative;
+	display: block;
+	width: 21px;
+	height: 100%;
+}
+.tabs-header-left .tabs li{
+	right: -1px;
+}
+.tabs-header-left .tabs li,.tabs-header-right .tabs li,
+.tabs-header-left .tabs li a.tabs-inner,
+.tabs-header-right .tabs li a.tabs-inner{
+	display: inherit;
+}
+
+.combo-panel{
+	position: absolute;
+	height: 200px;
+	z-index: 9999;
+}
+.combo-panel eui-virtual-scroll,
+.combo-panel eui-datagrid,
+.combo-panel eui-treegrid{
+	width: 100%;
+	height: 100%;
+}
+.combobox-item{
+	padding: 6px 4px;
+	line-height: 20px;
+}
+.tagbox-labels{
+	padding-bottom: 4px;
+}
+.tagbox-label{
+	height: 20px;
+	line-height: 20px;
+}
+.tagbox .textbox-text{
+	width: 50px;
+	max-width: 100%;
+	margin-top: 4px;
+	padding-top: 0;
+	padding-bottom: 0;
+	height: 20px;
+	line-height: 20px;
+}
+
+.datagrid,eui-datagrid,
+eui-datagrid-view,eui-datagrid-body,
+eui-treegrid-view,eui-treegrid-body{
+	overflow: hidden;
+}
+.datagrid-view,.datagrid-view1,.datagrid-view2{
+	position: relative;
+}
+.datagrid-vbody{
+	overflow: hidden;
+}
+.datagrid-view3{
+	margin-left: -1px;
+}
+.datagrid-view3 .datagrid-body{
+	overflow: hidden;
+}
+.datagrid-view3 .datagrid-body-inner{
+	padding-bottom: 20px;
+}
+.datagrid-view3 .datagrid-header td,
+.datagrid-view3 .datagrid-body td,
+.datagrid-view3 .datagrid-footer td {
+	border-width: 0 0 1px 1px;
+}
+.datagrid-htable,.datagrid-btable,.datagrid-ftable{
+	table-layout: fixed;
+	width: 100%;
+}
+.datagrid-htable{
+	height: 100%;
+}
+.datagrid-header .datagrid-header,
+.datagrid-footer .datagrid-header{
+	border-width: 0 0 0 1px;
+}
+.datagrid-header-inner,.datagrid-footer-inner{
+	overflow: hidden;
+}
+.datagrid-header-row, .datagrid-row{
+	height: 32px;
+}
+.datagrid-cell{
+	text-align: left;
+	height: auto;
+	font-size: inherit;
+}
+.datagrid-cell-group{
+	text-align: center;
+}
+.datagrid .datagrid-pager{
+	padding: 2px 4px;
+	display: inherit;
+}
+.datagrid-loading{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.datagrid-mask{
+	display: block;
+}
+.datagrid-mask-msg{
+	display: block;
+	position: static;
+	line-height: 36px;
+	height: 40px;
+	margin: 0;
+	padding: 0 5px 0 30px;
+	z-index: 9;
+}
+.datagrid-body .datagrid-td-group{
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.datagrid-group-expander{
+	cursor: pointer;
+}
+.datagrid-row-expander{
+	display: inline-block;
+	width: 16px;
+	height: 18px;
+	cursor: pointer;
+}
+.datagrid-group-title{
+	align-self: center;
+	padding: 0 4px;
+	white-space: nowrap;
+	word-break: normal;
+	position: relative;
+}
+.datagrid-editable> .f-field,
+.datagrid-editable> *{
+	width: 100%;
+	height: 31px;
+}
+.datagrid-editable .textbox, .datagrid-editable .textbox-text{
+	border-radius: 0;
+}
+.datagrid-filter-row .textbox{
+	border-radius: 0;
+}
+.datagrid-filter-c{
+	padding: 4px;
+	height: 38px;
+}
+.datagrid-filter-c> .f-field,
+.datagrid-filter-c> *{
+	height: 30px;
+}
+.datagrid-filter-c .datagrid-editable-input{
+	width: 100%;
+}
+.datagrid-filter-btn{
+	width: 30px;
+}
+.datagrid-filter-btn .textbox-icon{
+	width: 28px;
+}
+.datagrid-filter-btn .textbox{
+	background-color: transparent;
+}
+.datagrid-filter-btn-left{
+	margin-right: 4px;
+}
+.datagrid-filter-btn-right{
+	margin-left: 4px;
+}
+
+eui-menu.menu-inline{
+	position: relative;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+eui-menu> .menu-container{
+	position: relative;
+}
+.menu-container{
+	position: absolute;
+	left: 0;
+	top: 0;
+	min-width: 200px;
+}
+.menu{
+	overflow: visible;
+}
+.menu-shadow{
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.menu-item{
+	overflow: visible;
+}
+.menu-text{
+	height: 32px;
+	line-height: 32px;
+	float: none;
+}
+.menu-line{
+	z-index: 9999999;
+	height: 100%;
+}
+.menu-active{
+	z-index: 99999999;
+}
+
+.progressbar-value{
+	overflow: visible;
+}
+
+.searchbox .textbox-button,
+.searchbox .textbox-button:hover{
+	position: inherit;
+}
+
+.calendar-content{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.calendar-menu{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.calendar-menu-month-inner{
+	position: relative;
+}
+
+.f-field{
+	width: 12em;
+	height: 30px;
+}
+eui-tagbox{
+	width: 12em;
+	height: auto;
+	min-height: 30px;
+}
+eui-switchbutton{
+	width: 70px;
+	height: 30px;
+}
+eui-radiobutton{
+	width: 20px;
+	height: 20px;
+}
+eui-checkbox{
+	width: 20px;
+	height: 20px;
+}
+eui-progressbar{
+	height: 24px;
+}
+eui-pagination{
+	height: 34px;
+	padding: 2px;
+}
+eui-layout{
+	display: block;
+}
+.layout{
+	height: 100%;
+}
+.layout-animate{
+	transition: transform 400ms;
+}
+.layout-panel-north,.layout-panel-south{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.layout-panel-south{
+	top: auto;
+	bottom: 0;
+}
+.layout-panel-west,.layout-panel-east{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+}
+.layout-panel-east{
+	left: auto;
+	right: 0;
+}
+.layout-panel-west.layout-collapsed{
+	transform: translate3d(-100%, 0, 0);
+}
+.layout-panel-east.layout-collapsed{
+	transform: translate3d(100%, 0, 0)
+}
+.layout-panel-north.layout-collapsed{
+	transform: translate3d(0, -100%, 0)
+}
+.layout-panel-south.layout-collapsed{
+	transform: translate3d(0, 100%, 0)
+}
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.itatack.demo</groupId>
+    <artifactId>itstack-demo-netty</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <developers>
+        <developer>
+            <name>付政委</name>
+            <email>184172133@qq.com</email>
+            <organization>https://bugstack.cn</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <netty_version>4.1.36.Final</netty_version>
+    </properties>
+
+    <modules>
+        <module>itstack-demo-netty-1-00</module>
+        <module>itstack-demo-netty-1-01</module>
+        <module>itstack-demo-netty-1-02</module>
+        <module>itstack-demo-netty-1-03</module>
+        <module>itstack-demo-netty-1-04</module>
+        <module>itstack-demo-netty-1-05</module>
+        <module>itstack-demo-netty-1-06</module>
+        <module>itstack-demo-netty-1-07</module>
+        <module>itstack-demo-netty-1-08</module>
+        <module>itstack-demo-netty-1-09</module>
+        <module>itstack-demo-netty-1-10</module>
+        <module>itstack-demo-netty-2-01</module>
+        <module>itstack-demo-netty-2-02</module>
+        <module>itstack-demo-netty-2-03</module>
+        <module>itstack-demo-netty-2-04</module>
+        <module>itstack-demo-netty-2-05</module>
+        <module>itstack-demo-netty-2-06</module>
+        <module>itstack-demo-netty-2-07</module>
+        <module>itstack-demo-netty-2-08</module>
+        <module>itstack-demo-netty-2-09</module>
+        <module>itstack-demo-netty-1-11</module>
+        <module>itstack-demo-netty-1-12</module>
+        <module>itstack-demo-netty-2-10</module>
+        <module>itstack-demo-netty-2-11</module>
+        <module>itstack-demo-netty-2-12</module>
+        <module>itstack-demo-netty-2-13</module>
+        <module>itstack-demo-netty-3-01</module>
+    </modules>
+
+    <dependencies>
+        <!-- Netty4.1 -->
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>${netty_version}</version>
+        </dependency>
+        <!-- Log -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.6</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <sourceDirectory>src/main/java</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </resource>
+        </resources>
+        <testSourceDirectory>src/test/java</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </testResource>
+        </testResources>
+    </build>
+
+
+    <profiles>
+        <profile>
+            <id>production</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+                <jdk>1.8</jdk>
+            </activation>
+            <properties>
+                <maven.compiler.source>1.8</maven.compiler.source>
+                <maven.compiler.target>1.8</maven.compiler.target>
+                <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>
