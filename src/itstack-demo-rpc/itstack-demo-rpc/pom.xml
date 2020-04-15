@@ -27,7 +27,7 @@
         <!-- Common libs -->
         <spring_version>3.2.0.RELEASE</spring_version>
         <javassist_version>3.19.0-GA</javassist_version>
-        <netty_version>4.1.36.Final</netty_version>
+        <netty_version>4.1.42.Final</netty_version>
         <!-- 3rd extends libs -->
         <servlet_version>2.5</servlet_version>
         <resteasy_version>3.0.8.Final</resteasy_version>
