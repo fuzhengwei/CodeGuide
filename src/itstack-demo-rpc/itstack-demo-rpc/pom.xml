@@ -25,7 +25,7 @@
 
     <properties>
         <!-- Common libs -->
-        <spring_version>3.2.0.RELEASE</spring_version>
+        <spring_version>5.2.5.RELEASE</spring_version>
         <javassist_version>3.19.0-GA</javassist_version>
         <netty_version>4.1.36.Final</netty_version>
         <!-- 3rd extends libs -->
