@@ -14,7 +14,7 @@
 <div align="center">
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
-<a href="https://itstack.org" target="_blank"><img src="https://itstack.org/_media/onlinebook.svg"></a>
+<a href="https://bugstack.cn" target="_blank"><img src="https://itstack.org/_media/onlinebook.svg"></a>
 <a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
 </div>
 <br/>
@@ -35,7 +35,7 @@
 |   12  |   :airplane:  |   [`Drools规则引擎`](#airplane-Drools规则引擎)  |   [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)    |   [√]     |
 |   13  |   :tractor:   |   [`ASM字节码编程`](#tractor-ASM字节码编程)    |   [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)  |   [√]     |
 |   14  |   :paw_prints:    |   [`大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
-|   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty+JavaFx实战：仿桌面版微信聊天)   |   [itstack-naive-chat](https://github.com/itstack-naive-chat)    |   [√]     |
+|   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty仿桌面版微信聊天)   |   [itstack-naive-chat](https://github.com/itstack-naive-chat)    |   [√]     |
 |   16  |   :bookmark_tabs:    |   [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)   |   [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8)    |   [√]     |
 
 ## :sound: Netty4专题
@@ -191,7 +191,7 @@
 - [`大学四年到毕业工作5年的学习路线资源汇总`](https://bugstack.cn/itstack-code-life/2020/03/31/%E5%A4%A7%E5%AD%A6%E5%9B%9B%E5%B9%B4%E5%88%B0%E6%AF%95%E4%B8%9A%E5%B7%A5%E4%BD%9C5%E5%B9%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html)
 - [`工作两年简历写成这样，谁要你呀！`](https://bugstack.cn/itstack-code-life/2020/04/11/%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7-%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80.html)
 
-## :walking: Netty+JavaFx实战：仿桌面版微信聊天
+## :walking: Netty仿桌面版微信聊天
 
 *使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。如果本项目能为您提供帮助，请给予支持(关注、点赞、分享)！*
 
