@@ -33,7 +33,7 @@
 |   11  |   :flashlight:    |   [`源码分析(Spring、Mybatis、Schedule)`](#flashlight-源码分析)   |   [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code)    |   [√]     |
 |   12  |   :airplane:  |   [`Drools规则引擎`](#airplane-Drools规则引擎)  |   [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)    |   [√]     |
 |   13  |   :tractor:   |   [`ASM字节码编程`](#tractor-ASM字节码编程)    |   [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)  |   [√]     |
-|   14  |   :paw_prints:    |   [`我的大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
+|   14  |   :paw_prints:    |   [`我的大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy - （if链接失效，加我微信：fustack）](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
 |   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty仿桌面版微信聊天)   |   [itstack-naive-chat](https://github.com/itstack-naive-chat)    |   [√]     |
 |   16  |   :bookmark_tabs:    |   [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)   |   [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8)    |   [√]     |
 
