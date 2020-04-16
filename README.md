@@ -6,15 +6,15 @@
 
 <br/>
 <div align="center">
-    <a href="https://itstack.org" style="text-decoration:none"><img src="https://itstack.org/_media/icon.svg" width="128px"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
 </div>
 <br/>  
 
 <div align="center">
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
-<a href="https://bugstack.cn" target="_blank"><img src="https://itstack.org/_media/onlinebook.svg"></a>
-<a href="https://itstack.org/_media/qrcode.png?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
+<a href="https://bugstack.cn" target="_blank"><img src="https://bugstack.cn/assets/images/onlinebook.svg"></a>
+<a href="https://bugstack.cn/assets/images/qrcode.png?x-oss-process=style/may"><img src="https://itstack.org/_media/wxbugstack.svg"></a>
 </div>
 <br/>
 
