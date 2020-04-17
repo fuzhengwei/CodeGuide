@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.itstack.demo.infrastructure.dao.RuleTreeDao">
+
+    <select id="queryRuleTreeByTreeId" resultType="org.itstack.demo.infrastructure.po.RuleTree">
+        SELECT id, treeName, treeDesc, treeRootNodeId, createTime, updateTime
+        FROM rule_tree
+        where id = #{id}
+    </select>
+
+    <select id="queryTreeSummaryInfo" resultType="org.itstack.demo.infrastructure.po.RuleTree">
+        SELECT id, treeName, treeDesc
+        FROM rule_tree
+        where id = #{id}
+    </select>
+
+</mapper>

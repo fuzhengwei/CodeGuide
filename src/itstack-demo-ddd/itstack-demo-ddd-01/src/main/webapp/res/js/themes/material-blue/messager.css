@@ -1,0 +1,44 @@
+.messager-body {
+  padding: 10px 10px 30px 10px;
+  overflow: auto;
+}
+.messager-button {
+  text-align: center;
+  padding: 5px;
+}
+.messager-button .l-btn {
+  width: 70px;
+}
+.messager-icon {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin: 0 10px 10px 0;
+}
+.messager-error {
+  background: url('images/messager_icons.png') no-repeat scroll -64px 0;
+}
+.messager-info {
+  background: url('images/messager_icons.png') no-repeat scroll 0 0;
+}
+.messager-question {
+  background: url('images/messager_icons.png') no-repeat scroll -32px 0;
+}
+.messager-warning {
+  background: url('images/messager_icons.png') no-repeat scroll -96px 0;
+}
+.messager-progress {
+  padding: 10px;
+}
+.messager-p-msg {
+  margin-bottom: 5px;
+}
+.messager-body .messager-input {
+  width: 100%;
+  padding: 4px 0;
+  outline-style: none;
+  border: 1px solid #dfdfdf;
+}
+.window-thinborder .messager-button {
+  padding-bottom: 8px;
+}

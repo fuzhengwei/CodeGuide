@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: itstack-demo-ddd-feign
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8989/eureka/
