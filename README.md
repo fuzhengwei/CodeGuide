@@ -204,7 +204,7 @@
 
 ## :bike: 字节码编程专栏
 
-- [`字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》`](#) - 更新中
+- [`字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》`](https://bugstack.cn/itstack-demo-agent/2020/04/19/%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B-Javassist%E7%AF%87%E4%B8%80-%E5%9F%BA%E4%BA%8Ejavassist%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%A1%88%E4%BE%8Bhelloworld.html)
 
 ---
 
