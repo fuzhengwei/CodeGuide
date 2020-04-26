@@ -1,1 +1,0 @@
-# itstack-demo-ddd
