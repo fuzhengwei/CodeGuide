@@ -200,7 +200,8 @@
 
 *使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。如果本项目能为您提供帮助，请给予支持(关注、点赞、分享)！*
 
-- [`Netty+JavaFx实战：仿桌面版微信聊天`](https://chat.istack.org)
+- [`《Netty+JavaFx实战：仿桌面版微信聊天》`](https://chat.istack.org)
+- [`《Netty+JavaFx实战：仿桌面版微信聊天》代码开源、上云部署、视频讲解，只为让你给点个Star！`](https://mp.weixin.qq.com/s/OmXCY4fTfDpkvjlg5ME0ZA)
 
 ## :bike: 字节码编程专栏
 
