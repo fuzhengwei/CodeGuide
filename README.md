@@ -37,7 +37,8 @@
 |   14  |   :paw_prints:    |   [`我的大学四年到毕业工作5年的学习资源和面试汇总`](#paw_prints-我的大学四年到毕业工作5年的学习路线资源和面试汇总)   |   [https://pan.baidu.com/s/4mmX7sDy - （if链接失效，加我微信：fustack）](https://pan.baidu.com/s/4mmX7sDy)    |   [√]     |
 |   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty仿桌面版微信聊天)   |   [NaiveChat](https://github.com/fuzhengwei/NaiveChat)    |   [√]     |
 |   16  |   :bookmark_tabs:    |   [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)   |   [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8)    |   [√]     |
-|   17  |   :bike:    |   [`字节码编程专栏`](#bike-字节码编程专栏)   |   [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode)    |   [√]     |
+|   17  |   :bike:    |   [`小傅哥的《字节码编程》专栏`](#bike-字节码编程专栏)   |   [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode)    |   [√]     |
+| 18    |   :school_satchel: | [`实战设计模式`](#school_satchel-实战设计模式) | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) | [√]     |
 |   -1  |   :ferris_wheel:    |   [`其他文章`](#ferris_wheel-其他文章)  |   [CodeGuide](https://github.com/fuzhengwei/CodeGuide/tree/master/src)    |   [√]     |
 
 **如果**，以上某些资源不能下载获取，可以添加作者：小傅哥，微信(fustack)
@@ -228,6 +229,10 @@
 - [`字节码编程，Byte-buddy篇二《监控方法执行耗时动态获取出入参类型和值》`](https://bugstack.cn/itstack-demo-agent/2020/05/12/%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B-Byte-buddy%E7%AF%87%E4%BA%8C-%E7%9B%91%E6%8E%A7%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E8%80%97%E6%97%B6%E5%8A%A8%E6%80%81%E8%8E%B7%E5%8F%96%E5%87%BA%E5%85%A5%E5%8F%82%E7%B1%BB%E5%9E%8B%E5%92%8C%E5%80%BC.html)
 - [`字节码编程，Byte-buddy篇三《使用委托实现抽象类方法并注入自定义注解信息》`](https://bugstack.cn/itstack-demo-agent/2020/05/14/%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B-Byte-buddy%E7%AF%87%E4%B8%89-%E4%BD%BF%E7%94%A8%E5%A7%94%E6%89%98%E5%AE%9E%E7%8E%B0%E6%8A%BD%E8%B1%A1%E7%B1%BB%E6%96%B9%E6%B3%95%E5%B9%B6%E6%B3%A8%E5%85%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E6%B3%A8%E8%A7%A3%E4%BF%A1%E6%81%AF.html)
 
+## :school_satchel: 实战设计模式
+
+- [`重学 Java 设计模式：实战工厂方法模式`](https://bugstack.cn/itstack-demo-design/2020/05/20/%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.html)
+
 ## :ferris_wheel: 其他文章
 
 - [`汉字不能编程？别闹了，只是看着有点豪横！容易被开除！`](https://bugstack.cn/itstack-demo-any/2020/05/05/%E6%B1%89%E5%AD%97%E4%B8%8D%E8%83%BD%E7%BC%96%E7%A8%8B-%E5%88%AB%E9%97%B9%E4%BA%86-%E5%8F%AA%E6%98%AF%E7%9C%8B%E7%9D%80%E6%9C%89%E7%82%B9%E8%B1%AA%E6%A8%AA-%E5%AE%B9%E6%98%93%E8%A2%AB%E5%BC%80%E9%99%A4.html) - [源码](https://github.com/fuzhengwei/CodeGuide/tree/master/src/itstack-demo-01)
@@ -263,7 +268,9 @@
 
 ## 致谢
 
-感谢以下人员对本仓库做出的贡献，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。
+感谢以下人员对本仓库做出的贡献或者对小傅哥的赞赏，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。
+
+**:seedling: 感谢大家对仓库建设的贡献**
 
 <a href="https://github.com/linw7">
     <img src="https://avatars0.githubusercontent.com/u/3761578?s=460&v=4" style="border-radius:5px" width="50px">
@@ -274,3 +281,25 @@
 <a href="https://github.com/g10guang">
     <img src="https://avatars1.githubusercontent.com/u/15908832?s=180&v=4" style="border-radius:5px" width="50px">
 </a>
+
+---
+
+**:gift_heart: 感谢大家对我资金的赞赏**
+
+| 时间       | 小伙伴     | 赞赏金额 |
+| ---------- | ---------- | -------- |
+| 2020-05-19 | 王刚       | 20元     |
+| 2020-04-01 | 姬贵阳     | 1元      |
+| 2020-02-29 | 日落黄昏下 | 1元      |
+| 2019-12-26 | clearDay   | 1元      |
+| 2019-11-27 | Jasonzhou  | 1元      |
+| 2019-11-08 | 贺         | 1元      |
+| 2019-08-06 | 贺         | 1元      |
+| 2020-05-19 | 如鱼       | 3元      |
+| 2020-05-18 | 帅地       | 6.66元   |
+| 2020-05-18 | 放飞心情   | 6元      |
+| 2020-05-18 | lemon      | 1元      |
+| 2020-05-18 | 贺         | 1元      |
+| 2020-05-18 | !sssss     | 1元      |
+| 2020-05-18 | ZHANG      | 1元      |
+| 2020-05-18 | vovovov    | 1元      |
