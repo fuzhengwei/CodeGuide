@@ -242,6 +242,7 @@
 ### 结构型模式
 
 - [`1. 重学 Java 设计模式：适配器模式(多样MQ消息抽取需要数据)`](https://bugstack.cn/itstack-demo-design/2020/06/02/%E9%87%8D%E5%AD%A6-Java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.html)
+- [`重学 Java 设计模式：实战桥接模式(多支付渠道「微信支付宝」与多支付模式「刷脸、指纹」场景)`](https://bugstack.cn/itstack-demo-design/2020/06/04/%E9%87%8D%E5%AD%A6-Java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%AE%9E%E6%88%98%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.html)
 
 ## :ferris_wheel: 其他文章
 
