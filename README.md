@@ -38,7 +38,8 @@
 |   15  |   :walking:    |   [`Netty+JavaFx实战：仿桌面版微信聊天`](#walking-Netty仿桌面版微信聊天)   |   [NaiveChat](https://github.com/fuzhengwei/NaiveChat)    |
 |   16  |   :bookmark_tabs:    |   [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)   |   [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8)    |
 |   17  |   :bike:    |   [`小傅哥的《字节码编程》专栏`](#bike-字节码编程专栏)   |   [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode)    |
-| 18    |   :school_satchel: | [`实战设计模式`](#school_satchel-实战设计模式) | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) |
+| 18    |   :school_satchel: | [`重学Java设计模式「真实场景实战」`](#school_satchel-实战设计模式) | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) |
+| 19 | :bookmark_tabs: | [`面经手册`](#bookmark_tabs-面经手册) | [interview](https://github.com/fuzhengwei/interview) |
 |   -1  |   :ferris_wheel:    |   [`其他文章`](#ferris_wheel-其他文章)  |   [CodeGuide](https://github.com/fuzhengwei/CodeGuide/tree/master/src)    |
 
 **如果**，以上某些资源不能下载获取，可以添加作者：小傅哥，微信(fustack)
@@ -262,6 +263,11 @@
 - [`9. 重学 Java 设计模式：实战模版模式「模拟爬虫各类电商商品，生成营销推广海报场景」`](https://bugstack.cn/itstack-demo-design/2020/07/07/%E9%87%8D%E5%AD%A6-Java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%AE%9E%E6%88%98%E6%A8%A1%E6%9D%BF%E6%A8%A1%E5%BC%8F.html)
 - [`10. 重学 Java 设计模式：实战访问者模式「模拟家长与校长，对学生和老师的不同视角信息的访问场景」`](https://bugstack.cn/itstack-demo-design/2020/07/09/%E9%87%8D%E5%AD%A6-Java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%AE%9E%E6%88%98%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.html)
 
+## :bookmark_tabs: 面经手册
+
+- [`面经手册 · 开篇《面试官都问我啥》`](https://bugstack.cn/interview/2020/07/28/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E5%BC%80%E7%AF%87-%E9%9D%A2%E8%AF%95%E5%AE%98%E9%83%BD%E9%97%AE%E6%88%91%E5%95%A5.html)
+- [`面经手册 · 第1篇《认知自己的技术栈盲区》`](https://bugstack.cn/interview/2020/07/30/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC1%E7%AF%87-%E8%AE%A4%E7%9F%A5%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8A%80%E6%9C%AF%E6%A0%88%E7%9B%B2%E5%8C%BA.html)
+
 ## :ferris_wheel: 其他文章
 
 - [`汉字不能编程？别闹了，只是看着有点豪横！容易被开除！`](https://bugstack.cn/itstack-demo-any/2020/05/05/%E6%B1%89%E5%AD%97%E4%B8%8D%E8%83%BD%E7%BC%96%E7%A8%8B-%E5%88%AB%E9%97%B9%E4%BA%86-%E5%8F%AA%E6%98%AF%E7%9C%8B%E7%9D%80%E6%9C%89%E7%82%B9%E8%B1%AA%E6%A8%AA-%E5%AE%B9%E6%98%93%E8%A2%AB%E5%BC%80%E9%99%A4.html) - [源码](https://github.com/fuzhengwei/CodeGuide/tree/master/src/itstack-demo-01)
@@ -313,10 +319,13 @@
 
 ---
 
+<img src="https://bugstack.cn/assets/images/tip.jpg?x-oss-process=style/may" width="180" height="180"/>
+
 **:gift_heart: 感谢大家对我资金的赞赏**
 
 | 时间       | 小伙伴     | 赞赏金额 |
 | ---------- | ---------- | -------- |
+| 2020-07-25 | fun  | 10.00元 |
 | 2020-06-16 | 贾学兵     | 5.00元 |
 | 2020-06-11 | 刘洪泽     | 6.66元 |
 | 2020-06-05 | [时光之刃](https://github.com/996546860) |   5元   |
@@ -336,4 +345,5 @@
 | 2019-11-27 | Jasonzhou  | 1元      |
 | 2019-11-08 | 贺         | 1元      |
 | 2019-08-06 | 贺         | 1元      |
+
 
