@@ -2,6 +2,8 @@
 
 > **作者：** 小傅哥，Java Developer，[:pencil2: 虫洞 · 科技栈，作者](https://bugstack.cn)，[:trophy: CSDN 博客专家](https://bugstack.blog.csdn.net)，[:point_right: Wiki阅读跳转(有目录)](https://github.com/fuzhengwei/CodeGuide/wiki)
 
+> 本代码库是作者小傅哥多年从事一线互联网```Java```开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
+
 <br/>
 <div align="center">
     <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
@@ -38,9 +40,13 @@
 |   17  |   :bike:    |   [`小傅哥的《字节码编程》专栏`](#bike-字节码编程专栏)   |   [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode)    |
 | 18    |   :school_satchel: | [`重学Java设计模式「真实场景实战」`](#school_satchel-实战设计模式) | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) |
 | 19 | :bookmark_tabs: | [`面经手册`](#bookmark_tabs-面经手册) | [interview](https://github.com/fuzhengwei/interview) |
-|   -1  |   :ferris_wheel:    |   [`其他文章`](#ferris_wheel-其他文章)  |   [CodeGuide](https://github.com/fuzhengwei/CodeGuide/tree/master/src)    |
+|   20  |   :racehorse:    |   [`码场故事`](#racehorse-码场故事)  |   -   |
 
 **如果**，以上某些资源不能下载获取，可以添加作者：小傅哥，微信(fustack)
+
+<div align="center">
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/assets/img/stack.png?raw=true"></a>
+</div>
 
 ## :sound: Netty4专题
 
@@ -267,9 +273,41 @@
 - [`面经手册 · 第1篇《认知自己的技术栈盲区》`](https://bugstack.cn/interview/2020/07/30/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC1%E7%AF%87-%E8%AE%A4%E7%9F%A5%E8%87%AA%E5%B7%B1%E7%9A%84%E6%8A%80%E6%9C%AF%E6%A0%88%E7%9B%B2%E5%8C%BA.html)
 - [`面经手册 · 第2篇《数据结构，HashCode为什么使用31作为乘数？》`](https://bugstack.cn/interview/2020/08/04/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC2%E7%AF%87-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-HashCode%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BD%BF%E7%94%A831%E4%BD%9C%E4%B8%BA%E4%B9%98%E6%95%B0.html)
 - [`面经手册 · 第3篇《HashMap核心知识，扰动函数、负载因子、扩容链表拆分，深度学习》`](https://bugstack.cn/interview/2020/08/07/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC3%E7%AF%87-HashMap%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86-%E6%89%B0%E5%8A%A8%E5%87%BD%E6%95%B0-%E8%B4%9F%E8%BD%BD%E5%9B%A0%E5%AD%90-%E6%89%A9%E5%AE%B9%E9%93%BE%E8%A1%A8%E6%8B%86%E5%88%86-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.html)
-## :ferris_wheel: 其他文章
+- [`面经手册 · 第4篇《HashMap数据插入、查找、删除、遍历，源码分析》`](https://bugstack.cn/interview/2020/08/13/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC4%E7%AF%87-HashMap%E6%95%B0%E6%8D%AE%E6%8F%92%E5%85%A5-%E6%9F%A5%E6%89%BE-%E5%88%A0%E9%99%A4-%E9%81%8D%E5%8E%86-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html)
+- [`面经手册 · 第5篇《看图说话，讲解2-3平衡树「红黑树的前身」》`](https://bugstack.cn/interview/2020/08/16/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC5%E7%AF%87-%E7%9C%8B%E5%9B%BE%E8%AF%B4%E8%AF%9D-%E8%AE%B2%E8%A7%A32-3%E5%B9%B3%E8%A1%A1%E6%A0%91-%E7%BA%A2%E9%BB%91%E6%A0%91%E7%9A%84%E5%89%8D%E8%BA%AB.html)
+- [`面经手册 · 第6篇《带着面试题学习红黑树操作原理，解析什么时候染色、怎么进行旋转、与2-3树有什么关联》`](https://bugstack.cn/interview/2020/08/20/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC6%E7%AF%87-%E5%B8%A6%E7%9D%80%E9%9D%A2%E8%AF%95%E9%A2%98%E5%AD%A6%E4%B9%A0%E7%BA%A2%E9%BB%91%E6%A0%91%E6%93%8D%E4%BD%9C%E5%8E%9F%E7%90%86-%E8%A7%A3%E6%9E%90%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%9F%93%E8%89%B2-%E6%80%8E%E4%B9%88%E8%BF%9B%E8%A1%8C%E6%97%8B%E8%BD%AC-%E4%B8%8E2-3%E6%A0%91%E6%9C%89%E4%BB%80%E4%B9%88%E5%85%B3%E8%81%94.html)
+- [`面经手册 · 第7篇《ArrayList也这么多知识？一个指定位置插入就把谢飞机面晕了！》`](https://bugstack.cn/interview/2020/08/27/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC7%E7%AF%87-ArrayList%E4%B9%9F%E8%BF%99%E4%B9%88%E5%A4%9A%E7%9F%A5%E8%AF%86-%E4%B8%80%E4%B8%AA%E6%8C%87%E5%AE%9A%E4%BD%8D%E7%BD%AE%E6%8F%92%E5%85%A5%E5%B0%B1%E6%8A%8A%E8%B0%A2%E9%A3%9E%E6%9C%BA%E9%9D%A2%E6%99%95%E4%BA%86.html)
+- [`面经手册 · 第8篇《LinkedList插入速度比ArrayList快？你确定吗？》`](https://bugstack.cn/interview/2020/08/30/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC8%E7%AF%87-LinkedList%E6%8F%92%E5%85%A5%E9%80%9F%E5%BA%A6%E6%AF%94ArrayList%E5%BF%AB-%E4%BD%A0%E7%A1%AE%E5%AE%9A%E5%90%97.html)
+- [`面经手册 · 第9篇《队列是什么？什么是双端队列、延迟对列、阻塞队列，全是知识盲区！》`](https://bugstack.cn/interview/2020/09/03/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC9%E7%AF%87-%E9%98%9F%E5%88%97%E6%98%AF%E4%BB%80%E4%B9%88-%E4%BB%80%E4%B9%88%E6%98%AF%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97-%E5%BB%B6%E8%BF%9F%E5%AF%B9%E5%88%97-%E9%98%BB%E5%A1%9E%E9%98%9F%E5%88%97-%E5%85%A8%E6%98%AF%E7%9F%A5%E8%AF%86%E7%9B%B2%E5%8C%BA.html)
+- [`面经手册 · 第10篇《扫盲java.util.Collections工具包，学习排序、二分、洗牌、旋转算法》`](https://bugstack.cn/interview/2020/09/10/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC10%E7%AF%87-%E6%89%AB%E7%9B%B2java.util.Collections%E5%B7%A5%E5%85%B7%E5%8C%85-%E5%AD%A6%E4%B9%A0%E6%8E%92%E5%BA%8F-%E4%BA%8C%E5%88%86-%E6%B4%97%E7%89%8C-%E6%97%8B%E8%BD%AC%E7%AE%97%E6%B3%95.html)
+- [`面经手册 · 第11篇《StringBuilder 比 String 快？空嘴白牙的，证据呢！》`](https://bugstack.cn/interview/2020/09/17/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC11%E7%AF%87-StringBuilder-%E6%AF%94-String-%E5%BF%AB-%E7%A9%BA%E5%98%B4%E7%99%BD%E7%89%99%E7%9A%84-%E8%AF%81%E6%8D%AE%E5%91%A2.html)
+- [`面经手册 · 第12篇《面试官，ThreadLocal 你要这么问，我就挂了！》`](https://bugstack.cn/interview/2020/09/23/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC12%E7%AF%87-%E9%9D%A2%E8%AF%95%E5%AE%98-ThreadLocal-%E4%BD%A0%E8%A6%81%E8%BF%99%E4%B9%88%E9%97%AE-%E6%88%91%E5%B0%B1%E6%8C%82%E4%BA%86.html)
+- [`面经手册 · 第13篇《除了JDK、CGLIB，还有3种类代理方式？面试又卡住！》`](https://bugstack.cn/interview/2020/10/14/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC13%E7%AF%87-%E9%99%A4%E4%BA%86JDK-CGLIB-%E8%BF%98%E6%9C%893%E7%A7%8D%E7%B1%BB%E4%BB%A3%E7%90%86%E6%96%B9%E5%BC%8F-%E9%9D%A2%E8%AF%95%E5%8F%88%E5%8D%A1%E4%BD%8F.html)
+- [`面经手册 · 第14篇《volatile 怎么实现的内存可见？没有 volatile 一定不可见吗？》`](https://bugstack.cn/interview/2020/10/21/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC14%E7%AF%87-volatile-%E6%80%8E%E4%B9%88%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%86%85%E5%AD%98%E5%8F%AF%E8%A7%81-%E6%B2%A1%E6%9C%89-volatile-%E4%B8%80%E5%AE%9A%E4%B8%8D%E5%8F%AF%E8%A7%81%E5%90%97.html)
+- [`面经手册 · 第15篇《码农会锁，synchronized 解毒，剖析源码深度分析！》`](https://bugstack.cn/interview/2020/10/28/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC15%E7%AF%87-%E7%A0%81%E5%86%9C%E4%BC%9A%E9%94%81-synchronized-%E8%A7%A3%E6%AF%92-%E5%89%96%E6%9E%90%E6%BA%90%E7%A0%81%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90.html)
+- [`面经手册 · 第16篇《码农会锁，ReentrantLock之公平锁讲解和实现》`](https://bugstack.cn/interview/2020/11/04/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC16%E7%AF%87-%E7%A0%81%E5%86%9C%E4%BC%9A%E9%94%81-ReentrantLock%E4%B9%8B%E5%85%AC%E5%B9%B3%E9%94%81%E8%AE%B2%E8%A7%A3%E5%92%8C%E5%AE%9E%E7%8E%B0.html)
+- [`面经手册 · 第17篇《码农会锁，ReentrantLock之AQS原理分析和实践使用》`](https://bugstack.cn/interview/2020/11/11/%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C-%E7%AC%AC17%E7%AF%87-%E7%A0%81%E5%86%9C%E4%BC%9A%E9%94%81-ReentrantLock%E4%B9%8BAQS%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E5%92%8C%E5%AE%9E%E8%B7%B5%E4%BD%BF%E7%94%A8.html)
 
-- [`汉字不能编程？别闹了，只是看着有点豪横！容易被开除！`](https://bugstack.cn/itstack-demo-any/2020/05/05/%E6%B1%89%E5%AD%97%E4%B8%8D%E8%83%BD%E7%BC%96%E7%A8%8B-%E5%88%AB%E9%97%B9%E4%BA%86-%E5%8F%AA%E6%98%AF%E7%9C%8B%E7%9D%80%E6%9C%89%E7%82%B9%E8%B1%AA%E6%A8%AA-%E5%AE%B9%E6%98%93%E8%A2%AB%E5%BC%80%E9%99%A4.html) - [源码](https://github.com/fuzhengwei/CodeGuide/tree/master/src/itstack-demo-01)
+## :racehorse: 码场故事
+
+- [BATJTMD，大厂招聘，都招什么样Java程序员？](https://bugstack.cn/itstack-code-life/2020/11/15/BATJTMD-大厂招聘-都招什么样Java程序员.html)
+- [一个简单的能力，决定你是否会学习！](https://bugstack.cn/itstack-code-life/2020/11/08/一个简单的能力-决定你是否会学习.html)
+- [刚毕业不久，接私活赚了2万块！](https://bugstack.cn/itstack-code-life/2020/11/01/刚毕业不久-接私活赚了2万块.html)
+- [今天你写博客了吗？](https://bugstack.cn/itstack-code-life/2020/10/25/今天你写博客了吗.html)
+- [UML类图还不懂？来看看这版乡村爱情类图，一把学会！](https://bugstack.cn/itstack-code-life/2020/10/18/UML类图还不懂-来看看这版乡村爱情类图-一把学会.html)
+- [为了省钱，我用1天时间把PHP学了！](https://bugstack.cn/itstack-code-life/2020/10/11/为了省钱-我用1天时间把PHP学了.html)
+- [让人怪不好意思的，粉丝破万，用了1年！](https://bugstack.cn/itstack-code-life/2020/10/09/让人怪不好意思的-粉丝破万-用了1年.html)
+- [PPT画成这样，述职答辩还能过吗？](https://bugstack.cn/itstack-code-life/2020/09/27/PPT画成这样-述职答辩还能过吗.html)
+- [程序员为什么热衷于造轮子，升职加薪吗？](https://bugstack.cn/itstack-code-life/2020/09/20/程序员为什么热衷于造轮子-升职加薪吗.html)
+- [一次代码评审，差点过不了试用期！](https://bugstack.cn/itstack-demo-any/2020/09/14/一次代码评审-差点过不了试用期.html)
+- [握草，你竟然在代码里下毒！](https://bugstack.cn/itstack-demo-any/2020/09/06/握草-你竟然在代码里下毒.html)
+- [13年毕业，用两年时间从外包走进互联网大厂](https://bugstack.cn/itstack-code-life/2020/08/25/13年毕业-用两年时间从外包走进互联网大厂.html)
+- [12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜！](https://bugstack.cn/itstack-code-life/2020/07/25/12天-这本-重学Java设计模式-PDF书籍下载量9k-新增粉丝1400人-Github上全球推荐榜.html)
+- [讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训！](https://bugstack.cn/itstack-code-life/2020/04/30/讲道理-只要你是一个爱折腾的程序员-毕业找工作真的不需要再花钱培训.html)
+- [工作两年简历写成这样，谁要你呀！](https://bugstack.cn/itstack-code-life/2020/04/11/工作两年简历写成这样-谁要你呀.html)
+- [大学四年到毕业工作5年的学习路线资源汇总](https://bugstack.cn/itstack-code-life/2020/03/31/大学四年到毕业工作5年的学习路线资源汇总.html)
+- [20年3月27日，Github被攻击。我的GitPage博客也挂了，紧急修复之路，也教会你搭建 Jekyll 博客！](https://bugstack.cn/itstack-code-life/2020/03/28/GithubAndMyBlogAttacked.html)
+- [汉字不能编程？别闹了，只是看着有点豪横！容易被开除！](https://bugstack.cn/itstack-demo-any/2020/05/05/%E6%B1%89%E5%AD%97%E4%B8%8D%E8%83%BD%E7%BC%96%E7%A8%8B-%E5%88%AB%E9%97%B9%E4%BA%86-%E5%8F%AA%E6%98%AF%E7%9C%8B%E7%9D%80%E6%9C%89%E7%82%B9%E8%B1%AA%E6%A8%AA-%E5%AE%B9%E6%98%93%E8%A2%AB%E5%BC%80%E9%99%A4.html) - [源码](https://github.com/fuzhengwei/CodeGuide/tree/master/src/itstack-demo-01)
 
 ---
 
@@ -324,6 +362,11 @@
 
 | 时间       | 小伙伴     | 赞赏金额 |
 | ---------- | ---------- | -------- |
+| 2020-11-16 | wuyou | 5.00元 |
+| 2020-11-05 | 刘荣清 | 10.00元 |
+| 2020-09-21 | 军 | 10.00元 |
+| 2020-09-16 | 冰水之畔 | 20.00元 |
+| 2020-08-17 | 郭嘉伟 | 5.00元 |
 | 2020-08-07 | Jin Se | 5.00元 |
 | 2020-07-25 | fun  | 10.00元 |
 | 2020-06-16 | 贾学兵     | 5.00元 |
@@ -345,6 +388,7 @@
 | 2019-11-27 | Jasonzhou  | 1元      |
 | 2019-11-08 | 贺         | 1元      |
 | 2019-08-06 | 贺         | 1元      |
+
 
 
 
