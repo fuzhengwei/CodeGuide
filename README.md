@@ -36,7 +36,7 @@
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |  1   | `Netty 4.x 专题源码`                            | [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
 |  2   | `手写 RPC 框架`                                 | [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc) | [itstack-demo-rpc](https://gitee.com/fustack/itstack-demo-rpc) |
-|  3   | `用 Java 实现 JVM`                              | [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm) | [https://gitee.com/bugstack_cn/itstack-demo-jvm](https://gitee.com/bugstack_cn/itstack-demo-jvm) |
+|  3   | `用 Java 实现 JVM`                              | [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm) | [itstack-demo-jvm](https://gitee.com/fustack/itstack-demo-jvm) |
 |  4   | `基于JavaAgent的全链路监控`                     | [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent) | [itstack-demo-agent](https://gitee.com/fustack/itstack-demo-agent) |
 |  5   | `iot-gateway网关案例`                           | [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary) | [itstack-demo-iot-gatewary](https://gitee.com/fustack/itstack-demo-iot-gatewary) |
 |  6   | `DDD领域驱动设计落地`                           | [itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd) | [itstack-demo-ddd](https://gitee.com/fustack/itstack-demo-ddd) |
