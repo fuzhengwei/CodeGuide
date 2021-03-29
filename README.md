@@ -31,7 +31,7 @@
 </div>
 
 <div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/2020/all-5-01.png?raw=true"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/CodeGuide/raw/master/docs/assets/img/stack.png?raw=true?raw=true"></a>
 </div>
 
 ## :octocat: 源码
