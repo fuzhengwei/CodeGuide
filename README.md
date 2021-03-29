@@ -26,7 +26,8 @@
 <a href="https://download.csdn.net/download/Yao__Shun__Yu/14932325">Java面经手册</a> • 
 <a href="https://bugstack.cn/itstack/itstack-demo-design.html">重学Java设计模式</a> • 
 <a href="https://bugstack.cn/itstack/itstack-demo-bytecode.html">字节码编程</a> • 
-<a href="https://bugstack.cn/itstack-demo-netty-3/2020/03/04/Netty+JavaFx%E5%AE%9E%E6%88%98-%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9.html">Netty仿桌面版微信聊天</a> • 
+<a href="https://github.com/fuzhengwei/CodeGuide#%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1">架构设计</a> • 
+<a href="https://bugstack.cn/itstack-demo-netty-3/2020/03/04/Netty+JavaFx%E5%AE%9E%E6%88%98-%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9.html">Netty仿微信聊天</a> • 
 <a href="https://github.com/fuzhengwei/CodeGuide/wiki/%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%A5%BD%E4%B9%A6">PDF书籍列表</a>
 </div>
 
@@ -38,25 +39,25 @@
 
 | 序号 | 专栏名称                                      | GitHub                                                       | Gitee                                                        |
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|  1   | `Netty 4.x 专题源码`                            | [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
-|  2   | `手写 RPC 框架`                                 | [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc) | [itstack-demo-rpc](https://gitee.com/fustack/itstack-demo-rpc) |
-|  3   | `用 Java 实现 JVM`                              | [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm) | [itstack-demo-jvm](https://gitee.com/fustack/itstack-demo-jvm) |
-|  4   | `基于JavaAgent的全链路监控`                     | [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent) | [itstack-demo-agent](https://gitee.com/fustack/itstack-demo-agent) |
-|  5   | `iot-gateway网关案例`                           | [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary) | [itstack-demo-iot-gatewary](https://gitee.com/fustack/itstack-demo-iot-gatewary) |
-|  6   | `DDD领域驱动设计落地`                           | [itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd) | [itstack-demo-ddd](https://gitee.com/fustack/itstack-demo-ddd) |
-|  7   | `SpringCloud入门案例`                           | [itstack-demo-springcloud](https://github.com/fuzhengwei/itstack-demo-springcloud) | [itstack-demo-springcloud](https://gitee.com/fustack/itstack-demo-springcloud) |
-|  8   | `微信公众号开发`                                | [itstack-ark-wx-test](https://github.com/fuzhengwei/itstack-ark-wx-test) | [itstack-ark-wx-test](https://gitee.com/fustack/itstack-ark-wx-test) |
-|  9   | `SpringBoot中间件开发`                          | [door-spring-boot-starter](https://github.com/fuzhengwei/door-spring-boot-starter) | [door-spring-boot-starter](https://gitee.com/fustack/door-spring-boot-starter) |
-|  10  | `服务框架搭建`                                  | [itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame) | [itstack-demo-frame](https://gitee.com/fustack/itstack-demo-frame) |
-|  11  | `源码分析(Spring、Mybatis、Schedule)`           | [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code) | [itstack-demo-code](https://gitee.com/fustack/itstack-demo-code) |
-|  12  | `Drools规则引擎`                                | [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools) | [itstack-demo-drools](https://gitee.com/fustack/itstack-demo-drools) |
-|  13  | `ASM字节码编程`                                 | [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm) | [itstack-demo-asm](https://gitee.com/fustack/itstack-demo-asm) |
-|  14  | `我的大学四年到毕业工作5年的学习资源和面试汇总` | [网盘下载，if链接失效，加微信：fustack](https://pan.baidu.com/s/4mmX7sDy) | -                                                            |
-|  15  | `Netty+JavaFx实战：仿桌面版微信聊天`            | [NaiveChat](https://github.com/fuzhengwei/NaiveChat) | [NaiveChat](https://gitee.com/fustack/NaiveChat) |
-|  16  | `JDK1.8新特性41个案例讲解`                      | [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8) | [itstack-demo-jdk8](https://gitee.com/fustack/itstack-demo-jdk8) |
-|  17  | `小傅哥的《字节码编程》专栏`                    | [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode) | [itstack-demo-bytecode](https://gitee.com/fustack/itstack-demo-bytecode) |
-|  18  | `重学Java设计模式`                              | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
-|  19  | `面经手册`                                      | [interview](https://github.com/fuzhengwei/interview) | [interview](https://gitee.com/fustack/interview) |
+|  1   | [`Netty 4.x 专题`](https://github.com/fuzhengwei/CodeGuide#netty-4x-%E4%B8%93%E9%A2%98)                            | [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
+|  2   | [`手写 RPC 框架`](https://github.com/fuzhengwei/CodeGuide#netty-4x-%E4%B8%93%E9%A2%98)                                 | [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc) | [itstack-demo-rpc](https://gitee.com/fustack/itstack-demo-rpc) |
+|  3   | [`用Java实现JVM`](https://github.com/fuzhengwei/CodeGuide#%E7%94%A8java%E5%AE%9E%E7%8E%B0jvm)                                 | [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm) | [itstack-demo-jvm](https://gitee.com/fustack/itstack-demo-jvm) |
+|  4   | [`基于JavaAgent的全链路监控`](https://github.com/fuzhengwei/CodeGuide#%E5%9F%BA%E4%BA%8Ejavaagent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7)                     | [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent) | [itstack-demo-agent](https://gitee.com/fustack/itstack-demo-agent) |
+|  5   | [`iot-gateway网关案例`](https://mp.weixin.qq.com/s/LLyG2ji2gDR2Fz8uDmfJ7A)                         | [itstack-demo-iot-gatewary](https://github.com/fuzhengwei/itstack-demo-iot-gatewary) | [itstack-demo-iot-gatewary](https://gitee.com/fustack/itstack-demo-iot-gatewary) |
+|  6   | [`DDD领域驱动设计落地`]()                           | [itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd) | [itstack-demo-ddd](https://gitee.com/fustack/itstack-demo-ddd) |
+|  7   | [`SpringCloud入门案例`](https://github.com/fuzhengwei/CodeGuide#springcloud%E5%85%A5%E9%97%A8%E6%A1%88%E4%BE%8B)                           | [itstack-demo-springcloud](https://github.com/fuzhengwei/itstack-demo-springcloud) | [itstack-demo-springcloud](https://gitee.com/fustack/itstack-demo-springcloud) |
+|  8   | [`微信公众号开发`](https://bugstack.cn/itstack-demo-any/2019/11/23/%E5%B9%B6%E4%B8%8D%E6%83%B3%E5%90%B9%E7%89%9B%E7%9A%AE-%E4%BD%86-%E4%B8%BA%E4%BA%86%E6%8A%8AGithub%E5%8D%9A%E5%AE%A2%E7%B2%89%E4%B8%9D%E8%BD%AC%E7%A7%BB%E5%88%B0%E5%85%AC%E4%BC%97%E5%8F%B7-%E6%88%91%E5%B9%B2%E4%BA%86.html)                                | [itstack-ark-wx-test](https://github.com/fuzhengwei/itstack-ark-wx-test) | [itstack-ark-wx-test](https://gitee.com/fustack/itstack-ark-wx-test) |
+|  9   | [`SpringBoot中间件开发`](https://github.com/fuzhengwei/CodeGuide#hammer-%E4%B8%AD%E9%97%B4%E4%BB%B6)                          | [door-spring-boot-starter](https://github.com/fuzhengwei/door-spring-boot-starter) | [door-spring-boot-starter](https://gitee.com/fustack/door-spring-boot-starter) |
+|  10  | [`服务框架搭建`](https://github.com/fuzhengwei/CodeGuide#%E6%9C%8D%E5%8A%A1%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA)                                  | [itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame) | [itstack-demo-frame](https://gitee.com/fustack/itstack-demo-frame) |
+|  11  | [`源码分析(Spring、Mybatis、Schedule)`](https://github.com/fuzhengwei/CodeGuide#%E6%A0%B8%E5%BF%83%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB)           | [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code) | [itstack-demo-code](https://gitee.com/fustack/itstack-demo-code) |
+|  12  | [`Drools规则引擎`](https://github.com/fuzhengwei/CodeGuide#%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9)                                | [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools) | [itstack-demo-drools](https://gitee.com/fustack/itstack-demo-drools) |
+|  13  | [`ASM字节码编程`](https://github.com/fuzhengwei/CodeGuide#asm)                                 | [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm) | [itstack-demo-asm](https://gitee.com/fustack/itstack-demo-asm) |
+|  14  | [`我的大学四年到毕业工作5年的学习资源和面试汇总`](https://bugstack.cn/itstack-code-life/2020/03/31/%E5%A4%A7%E5%AD%A6%E5%9B%9B%E5%B9%B4%E5%88%B0%E6%AF%95%E4%B8%9A%E5%B7%A5%E4%BD%9C5%E5%B9%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html) | [网盘下载，if链接失效，加微信：fustack](https://pan.baidu.com/s/4mmX7sDy) | -                                                            |
+|  15  | [`Netty+JavaFx实战：仿桌面版微信聊天`](https://github.com/fuzhengwei/CodeGuide#nettyjavafx%E5%AE%9E%E6%88%98%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9)            | [NaiveChat](https://github.com/fuzhengwei/NaiveChat) | [NaiveChat](https://gitee.com/fustack/NaiveChat) |
+|  16  | [`JDK1.8新特性41个案例讲解`](https://bugstack.cn/itstack-demo-any/2019/12/10/%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7-Jdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%87(41%E4%B8%AA%E6%A1%88%E4%BE%8B).html)                      | [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8) | [itstack-demo-jdk8](https://gitee.com/fustack/itstack-demo-jdk8) |
+|  17  | [`小傅哥的《字节码编程》专栏`](https://github.com/fuzhengwei/CodeGuide#tractor-%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B)                    | [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode) | [itstack-demo-bytecode](https://gitee.com/fustack/itstack-demo-bytecode) |
+|  18  | [`重学Java设计模式`](https://github.com/fuzhengwei/CodeGuide#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)                             | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
+|  19  | [`面经手册`](https://github.com/fuzhengwei/CodeGuide#java-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C)                                      | [interview](https://github.com/fuzhengwei/interview) | [interview](https://gitee.com/fustack/interview) |
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
@@ -247,12 +248,20 @@
 **源码**
 
 - GitHub：[https://github.com/fuzhengwei/itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame)
-- Gitee： [https://gitee.com/fustack/itstack-demo-frame](https://gitee.com/fustack/itstack-demo-frame) |
+- Gitee： [https://gitee.com/fustack/itstack-demo-frame](https://gitee.com/fustack/itstack-demo-frame)
 
 **目录**
 
 - [第 1 节：单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis](https://bugstack.cn/itstack-demo-frame/2019/12/22/%E6%9E%B6%E6%9E%84%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA(%E4%B8%80)-%E5%8D%95%E4%BD%93%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E4%B9%8BSSM%E6%95%B4%E5%90%88-Spring4-+-SpringMvc-+-Mybatis.html)
 - [第 2 节：Dubbo分布式领域驱动设计架构框体](https://bugstack.cn/itstack-demo-frame/2019/12/31/%E6%9E%B6%E6%9E%84%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA(%E4%BA%8C)-Dubbo%E5%88%86%E5%B8%83%E5%BC%8F%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1%E6%9E%B6%E6%9E%84%E6%A1%86%E4%BD%93.html)
+
+### 领域驱动设计
+
+本专题以DDD实战落地为根本，分章节设计不同的架构模型，学习并实战是奔入应用级开发最快的方法，Hi HelloWorld！我来了。
+
+- [第 1 节：初识领域驱动设计DDD落地](https://bugstack.cn/itstack-demo-ddd/2019/10/15/DDD专题案例一-初识领域驱动设计DDD落地.html)
+- [第 2 节：领域层决策规则树服务设计](https://bugstack.cn/itstack-demo-ddd/2019/10/16/DDD专题案例二-领域层决策规则树服务设计.html)
+- [第 3 节：领域驱动设计架构基于SpringCloud搭建微服务](https://bugstack.cn/itstack-demo-ddd/2019/10/17/DDD专题案例三-领域驱动设计架构基于SpringCloud搭建微服务.html)
 
 ## :hammer: 中间件
 
@@ -451,7 +460,6 @@ ASM是一个java字节码操纵框架，它能被用来动态生成类或者增�
 <div align="center">
     <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/2020/all-5-02.png?raw=true"></a>
 </div>
-
 ---
 
 ##  转载分享
