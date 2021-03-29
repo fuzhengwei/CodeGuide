@@ -30,6 +30,10 @@
 <a href="https://github.com/fuzhengwei/CodeGuide/wiki/%E5%80%BC%E5%BE%97%E4%B8%80%E7%9C%8B%E7%9A%84%E5%A5%BD%E4%B9%A6">PDF书籍列表</a>
 </div>
 
+<div align="center">
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/2020/all-5-01.png?raw=true"></a>
+</div>
+
 ## :octocat: 源码
 
 | 序号 | 专栏名称                                      | GitHub                                                       | Gitee                                                        |
@@ -53,6 +57,8 @@
 |  17  | `小傅哥的《字节码编程》专栏`                    | [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode) | [itstack-demo-bytecode](https://gitee.com/fustack/itstack-demo-bytecode) |
 |  18  | `重学Java设计模式`                              | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
 |  19  | `面经手册`                                      | [interview](https://github.com/fuzhengwei/interview) | [interview](https://gitee.com/fustack/interview) |
+
+**如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
 ## :coffee: Java&Spring
 
@@ -441,6 +447,10 @@ ASM是一个java字节码操纵框架，它能被用来动态生成类或者增�
 - [技术架构涵盖内容和演变过程总结的架构图.pptx](https://download.csdn.net/download/Yao__Shun__Yu/15567125)
 - [elasticsearch-7.10.2、kibana-7.10.2 Mac 版.zip](https://download.csdn.net/download/Yao__Shun__Yu/15729298)
 - [elasticsearch-7.10.2、kibana-7.10.2 Windows 版.zip](https://download.csdn.net/download/Yao__Shun__Yu/15729232)
+
+<div align="center">
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/2020/all-5-02.png?raw=true"></a>
+</div>
 
 ---
 
