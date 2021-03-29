@@ -4,6 +4,12 @@
 
 > 本代码库是作者小傅哥多年从事一线互联网`Java`开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
 
+<br/>
+<div align="center">
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
+</div>
+<br/>
+
 <div align="center">
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
 <a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
@@ -14,7 +20,7 @@
 
 | 源码 | Java&Spring | 算法 | 面向对象 | 中间件 | 网络 | 字节码 | 故事 |  工具&软件  |
 | :--: | :---------: | :--: | :------: | :----: | :--: | :----: | :--: | :--: |
-| [:octocat:](https://github.com/fuzhengwei/CodeGuide#coffee-javaspring) | [:coffee:] | [:pencil2:](https://github.com/fuzhengwei/CodeGuide#pencil2-%E7%AE%97%E6%B3%95) | [:art:](https://github.com/fuzhengwei/CodeGuide#art-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1) | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E4%B8%AD%E9%97%B4%E4%BB%B6) | [:cloud:](https://github.com/fuzhengwei/CodeGuide#cloud-%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1) | [:tractor:](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B) |  [🐾](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B)   | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6)   |
+| [:octocat:](https://github.com/fuzhengwei/CodeGuide#coffee-javaspring) | [:coffee:](https://github.com/fuzhengwei/CodeGuide#coffee-javaspring) | [:pencil2:](https://github.com/fuzhengwei/CodeGuide#pencil2-%E7%AE%97%E6%B3%95) | [:art:](https://github.com/fuzhengwei/CodeGuide#art-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1) | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E4%B8%AD%E9%97%B4%E4%BB%B6) | [:cloud:](https://github.com/fuzhengwei/CodeGuide#cloud-%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1) | [:tractor:](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B) |  [🐾](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B)   | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6)   |
 
 <div align="center">
 <a href="https://download.csdn.net/download/Yao__Shun__Yu/14932325">Java面经手册</a> • 
@@ -24,11 +30,6 @@
 <a href="#">PDF书籍列表</a>
 </div>
 
-<br/>
-<div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/icon.svg" width="128px"></a>
-</div>
-<br/>
 
 ## :octocat: 源码
 
