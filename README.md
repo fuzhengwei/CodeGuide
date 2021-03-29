@@ -51,7 +51,7 @@
 |  11  | `源码分析(Spring、Mybatis、Schedule)`           | [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code) | [itstack-demo-code](https://gitee.com/fustack/itstack-demo-code) |
 |  12  | `Drools规则引擎`                                | [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools) | [itstack-demo-drools](https://gitee.com/fustack/itstack-demo-drools) |
 |  13  | `ASM字节码编程`                                 | [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm) | [itstack-demo-asm](https://gitee.com/fustack/itstack-demo-asm) |
-|  14  | `我的大学四年到毕业工作5年的学习资源和面试汇总` | [https://pan.baidu.com/s/4mmX7sDy - （if链接失效，加我微信：fustack）](https://pan.baidu.com/s/4mmX7sDy) | -                                                            |
+|  14  | `我的大学四年到毕业工作5年的学习资源和面试汇总` | [网盘下载，if链接失效，加微信：fustack](https://pan.baidu.com/s/4mmX7sDy) | -                                                            |
 |  15  | `Netty+JavaFx实战：仿桌面版微信聊天`            | [NaiveChat](https://github.com/fuzhengwei/NaiveChat) | [NaiveChat](https://gitee.com/fustack/NaiveChat) |
 |  16  | `JDK1.8新特性41个案例讲解`                      | [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8) | [itstack-demo-jdk8](https://gitee.com/fustack/itstack-demo-jdk8) |
 |  17  | `小傅哥的《字节码编程》专栏`                    | [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode) | [itstack-demo-bytecode](https://gitee.com/fustack/itstack-demo-bytecode) |
