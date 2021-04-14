@@ -39,7 +39,7 @@
 
 | 序号 | 专栏名称                                      | GitHub                                                       | Gitee                                                        |
 | :--: | --------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|  1   | [`Netty 4.x 专题`](https://github.com/fuzhengwei/CodeGuide#netty-4x-%E4%B8%93%E9%A2%98)                            | [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
+|  1   | [`Netty 4.x 专题`](https://github.com/fuzhengwei/CodeGuide#netty-4x-%E4%B8%93%E9%A2%98)                            | [itstack-demo-netty](https://github.com/fuzhengwei/itstack-demo-netty) | [itstack-demo-netty](https://gitee.com/fustack/itstack-demo-netty) |
 |  2   | [`手写 RPC 框架`](https://github.com/fuzhengwei/CodeGuide#netty-4x-%E4%B8%93%E9%A2%98)                                 | [itstack-demo-rpc](https://github.com/fuzhengwei/itstack-demo-rpc) | [itstack-demo-rpc](https://gitee.com/fustack/itstack-demo-rpc) |
 |  3   | [`用Java实现JVM`](https://github.com/fuzhengwei/CodeGuide#%E7%94%A8java%E5%AE%9E%E7%8E%B0jvm)                                 | [itstack-demo-jvm](https://github.com/fuzhengwei/itstack-demo-jvm) | [itstack-demo-jvm](https://gitee.com/fustack/itstack-demo-jvm) |
 |  4   | [`基于JavaAgent的全链路监控`](https://github.com/fuzhengwei/CodeGuide#%E5%9F%BA%E4%BA%8Ejavaagent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7)                     | [itstack-demo-agent](https://github.com/fuzhengwei/itstack-demo-agent) | [itstack-demo-agent](https://gitee.com/fustack/itstack-demo-agent) |
