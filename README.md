@@ -460,7 +460,9 @@ ASM是一个java字节码操纵框架，它能被用来动态生成类或者增�
 
 ## :cloud: 云服务学习
 
-**学习视频**：[https://www.bilibili.com/video/BV1HK4y1X7Dr](https://www.bilibili.com/video/BV1HK4y1X7Dr)
+- **云服务器**：[79元1年，226元3年，新人服务器](https://dashi.aliyun.com/site/xiaofuge/618)
+- **视频课程**：关注小傅哥的微信视频号，小傅哥の码场
+![小傅哥の码场](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/assets/img/fuvideo.jpeg?raw=true)
 
 - [x] 第1天：购买79元服务器，[https://dashi.aliyun.com/site/xiaofuge/618](https://dashi.aliyun.com/site/xiaofuge/618) 配置云服务器，xshell链接，初始化环境	
 - [x] 第2天：重置系统安装宝塔，配置博客站点 [https://www.bilibili.com/video/BV1HK4y1X7Dr](https://www.bilibili.com/video/BV1HK4y1X7Dr)
