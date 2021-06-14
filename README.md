@@ -18,9 +18,9 @@
 </div>
 <br/>
 
-| 源码下载 | Java&Spring | 算法 | 面向对象 | 中间件 | 网络通信 | 字节码编程 | 成长故事 |  工具&软件  |
-| :--: | :---------: | :--: | :------: | :----: | :--: | :----: | :--: | :--: |
-| [:octocat:](https://github.com/fuzhengwei/CodeGuide#octocat-%E6%BA%90%E7%A0%81) | [:coffee:](https://github.com/fuzhengwei/CodeGuide#coffee-javaspring) | [:pencil2:](https://github.com/fuzhengwei/CodeGuide#pencil2-%E7%AE%97%E6%B3%95) | [:art:](https://github.com/fuzhengwei/CodeGuide#art-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1) | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E4%B8%AD%E9%97%B4%E4%BB%B6) | [:cloud:](https://github.com/fuzhengwei/CodeGuide#cloud-%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1) | [:tractor:](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B) |  [🐾](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B)   | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6)   |
+| 源码 | Java&Spring | 算法 | 面向对象 | 中间件 | 网络通信 | 字节码编程 | 故事 |  工具&软件  | 云服务学习|
+| :--: | :---------: | :--: | :------: | :----: | :--: | :----: | :--: | :--: | :--: |
+| [:octocat:](https://github.com/fuzhengwei/CodeGuide#octocat-%E6%BA%90%E7%A0%81) | [:coffee:](https://github.com/fuzhengwei/CodeGuide#coffee-javaspring) | [:pencil2:](https://github.com/fuzhengwei/CodeGuide#pencil2-%E7%AE%97%E6%B3%95) | [:art:](https://github.com/fuzhengwei/CodeGuide#art-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1) | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E4%B8%AD%E9%97%B4%E4%BB%B6) | [:cloud:](https://github.com/fuzhengwei/CodeGuide#cloud-%E7%BD%91%E7%BB%9C%E9%80%9A%E4%BF%A1) | [:tractor:](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B) |  [🐾](https://github.com/fuzhengwei/CodeGuide#-%E6%95%85%E4%BA%8B)   | [:hammer:](https://github.com/fuzhengwei/CodeGuide#hammer-%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6)   | [:cloud:](#) |
 
 <div align="center">
 <a href="https://juejin.cn/book/6940996508632219689">中间件设计和开发</a> •    
@@ -458,9 +458,27 @@ ASM是一个java字节码操纵框架，它能被用来动态生成类或者增�
 - [elasticsearch-7.10.2、kibana-7.10.2 Mac 版.zip](https://download.csdn.net/download/Yao__Shun__Yu/15729298)
 - [elasticsearch-7.10.2、kibana-7.10.2 Windows 版.zip](https://download.csdn.net/download/Yao__Shun__Yu/15729232)
 
-<div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/assets/images/2020/all-5-02.png?raw=true"></a>
-</div>
+## :cloud: 云服务学习
+
+**学习视频**：[https://www.bilibili.com/video/BV1HK4y1X7Dr](https://www.bilibili.com/video/BV1HK4y1X7Dr)
+
+- [x] 第1天：购买79元服务器，[https://dashi.aliyun.com/site/xiaofuge/618](https://dashi.aliyun.com/site/xiaofuge/618) 配置云服务器，xshell链接，初始化环境	
+- [x] 第2天：重置系统安装宝塔，配置博客站点 [https://www.bilibili.com/video/BV1HK4y1X7Dr](https://www.bilibili.com/video/BV1HK4y1X7Dr)
+- [x] 第3天：购买.cn域名，提交备案操作手册	
+- [x] 第4天：搭建java运行环境、jdk、tomcat、mysql [https://www.bilibili.com/video/BV1BZ4y1W7fC](https://www.bilibili.com/video/BV1BZ4y1W7fC)
+- [x] 第5天：部署Netty聊天室到云环境，与室友测试聊天程序 [https://www.bilibili.com/video/BV1BZ4y1W7fC](https://www.bilibili.com/video/BV1BZ4y1W7fC)
+- [ ] 第6天：安装Elasticsearch、elasticsearch-head、Kibana，测试x-pack-sql-jdbc与云服务es数据交互	
+- [ ] 第7天：安装docker容器，配置云环境，练习命令	
+- [ ] 第8天：又购买2台，搭配使用，部署分布式系统，rpc、mq、分布式任务，测试应用程序	
+- [ ] 第9天：mysql数据通过binlog同步到ES，以及双机备份	
+- [ ] 第10天：域名备案完成，使用宝塔配置域名、ssl、反向代理等，搭建完整博客环境	
+- [ ] 第11天：学习phpwind、Discuz，搭建论坛	
+- [ ] 第12天：搭建个人完整博客系统，采用Jekyll静态博客，本地初始化，通过ftp上传到云服务	
+- [ ] 第13天：搭建wordpress，尝试其他动态博客配置使用	
+- [ ] 第14天：选型Go语言 cloudreve 网盘，进行搭建测试	
+- [ ] 第15天：选型PHP语言 nextcloud网盘，进行搭建测试	
+- [ ] 第16天：承接老舅的需求，把域名和服务器以及一个乡村超时论坛，5万元，卖给老舅。 
+
 ---
 
 ##  转载分享
