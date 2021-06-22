@@ -32,7 +32,7 @@
 </div>
 
 <div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/CodeGuide/raw/master/docs/assets/img/stack.png?raw=true?raw=true"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/assets/img/bugstack-md.png?raw=true"></a>
 </div>
 
 ## :octocat: 源码
