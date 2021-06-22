@@ -58,7 +58,7 @@
 |  17  | [`小傅哥的《字节码编程》专栏`](https://github.com/fuzhengwei/CodeGuide#tractor-%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B)                    | [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode) | [itstack-demo-bytecode](https://gitee.com/fustack/itstack-demo-bytecode) |
 |  18  | [`重学Java设计模式`](https://github.com/fuzhengwei/CodeGuide#%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)                             | [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) | [itstack-demo-design](https://gitee.com/fustack/itstack-demo-design) |
 |  19  | [`面经手册`](https://github.com/fuzhengwei/CodeGuide#java-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C)                                      | [interview](https://github.com/fuzhengwei/interview) | [interview](https://gitee.com/fustack/interview) |
-| 20 | [`Spring手撸专栏`](#seedling-Spring手撸专栏) | [small-spring](https://github.com/fuzhengwei/small-spring) | [small-spring](https://gitee.com/fustack/small-spring) |
+| 20 | [`Spring手撸专栏`](https://github.com/fuzhengwei/CodeGuide/blob/master/README.md#seedling-spring%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F) | [small-spring](https://github.com/fuzhengwei/small-spring) | [small-spring](https://gitee.com/fustack/small-spring) |
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
