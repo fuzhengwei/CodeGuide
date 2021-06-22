@@ -179,6 +179,41 @@
 - [第 5 节：基于jdbc实现一个Demo版的Mybatis](https://bugstack.cn/itstack-demo-any/2020/01/13/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E5%9F%BA%E4%BA%8Ejdbc%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AADemo%E7%89%88%E7%9A%84Mybatis.html)
 - [第 6 节：手写mybait-spring核心功能(干货好文一次学会工厂bean、类代理、bean注册的使用)](https://bugstack.cn/itstack-demo-any/2020/01/20/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90-%E6%89%8B%E5%86%99mybait-spring%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD(%E5%B9%B2%E8%B4%A7%E5%A5%BD%E6%96%87%E4%B8%80%E6%AC%A1%E5%AD%A6%E4%BC%9A%E5%B7%A5%E5%8E%82bean-%E7%B1%BB%E4%BB%A3%E7%90%86-bean%E6%B3%A8%E5%86%8C%E7%9A%84%E4%BD%BF%E7%94%A8).html)
 
+## :seedling: Spring手撸专栏
+
+- [`《Spring 手撸专栏》第 1 章：开篇介绍，我要带你撸 Spring 啦！`](https://bugstack.cn/spring/2021/05/16/%E7%AC%AC1%E7%AB%A0-%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D-%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88.html)
+- [`《Spring 手撸专栏》第 2 章：小试牛刀，实现一个简单的Bean容器`](https://bugstack.cn/spring/2021/05/20/%E7%AC%AC2%E7%AB%A0-%E5%B0%8F%E8%AF%95%E7%89%9B%E5%88%80-%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84Bean%E5%AE%B9%E5%99%A8.html)
+- [`《Spring 手撸专栏》第 3 章：初显身手，运用设计模式，实现 Bean 的定义、注册、获取`](https://bugstack.cn/spring/2021/05/23/%E7%AC%AC3%E7%AB%A0-%E5%88%9D%E6%98%BE%E8%BA%AB%E6%89%8B-%E8%BF%90%E7%94%A8%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%AE%9E%E7%8E%B0-Bean-%E7%9A%84%E5%AE%9A%E4%B9%89-%E6%B3%A8%E5%86%8C-%E8%8E%B7%E5%8F%96.html)
+- [`《Spring 手撸专栏》第 4 章：崭露头角，基于Cglib实现含构造函数的类实例化策略`](https://bugstack.cn/spring/2021/05/30/%E7%AC%AC4%E7%AB%A0-%E5%B4%AD%E9%9C%B2%E5%A4%B4%E8%A7%92-%E5%9F%BA%E4%BA%8ECglib%E5%AE%9E%E7%8E%B0%E5%90%AB%E6%9E%84%E9%80%A0%E5%87%BD%E6%95%B0%E7%9A%84%E7%B1%BB%E5%AE%9E%E4%BE%8B%E5%8C%96%E7%AD%96%E7%95%A5.html)
+- [`《Spring 手撸专栏》第 5 章：一鸣惊人，为Bean对象注入属性和依赖Bean的功能实现`](https://bugstack.cn/spring/2021/06/02/%E7%AC%AC5%E7%AB%A0-%E4%B8%80%E9%B8%A3%E6%83%8A%E4%BA%BA-%E4%B8%BABean%E5%AF%B9%E8%B1%A1%E6%B3%A8%E5%85%A5%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%9D%E8%B5%96Bean%E7%9A%84%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0.html)
+- [`《Spring 手撸专栏》第 6 章：气吞山河，设计与实现资源加载器，从Spring.xml解析和注册Bean对象`](https://bugstack.cn/spring/2021/06/09/%E7%AC%AC6%E7%AB%A0-%E6%B0%94%E5%90%9E%E5%B1%B1%E6%B2%B3-%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E5%99%A8-%E4%BB%8ESpring.xml%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8CBean%E5%AF%B9%E8%B1%A1.html)
+- [`《Spring 手撸专栏》第 7 章：所向披靡，实现应用上下文，自动识别、资源加载、扩展机制`](https://bugstack.cn/spring/2021/06/17/%E7%AC%AC7%E7%AB%A0-%E6%89%80%E5%90%91%E6%8A%AB%E9%9D%A1-%E5%AE%9E%E7%8E%B0%E5%BA%94%E7%94%A8%E4%B8%8A%E4%B8%8B%E6%96%87-%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB-%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%A9%E5%B1%95%E6%9C%BA%E5%88%B6.html)
+
+## :cloud: 云服务学习
+
+**云服务器**：[79元1年，226元3年，新人服务器](https://dashi.aliyun.com/site/xiaofuge/618)
+
+**视频课程**：关注小傅哥的微信视频号，[`小傅哥の码场`](https://www.yuque.com/fuzhengwei/hzgecg/hvoy2a)
+
+---
+
+- [x] 第1天：购买79元服务器，[https://dashi.aliyun.com/site/xiaofuge/618](https://dashi.aliyun.com/site/xiaofuge/618) 配置云服务器，xshell链接，初始化环境	
+- [x] 第2天：重置系统安装宝塔，配置博客站点 [https://www.bilibili.com/video/BV1HK4y1X7Dr](https://www.bilibili.com/video/BV1HK4y1X7Dr)
+- [x] 第3天：购买.cn域名，提交备案操作手册	
+- [x] 第4天：搭建java运行环境、jdk、tomcat、mysql [https://www.bilibili.com/video/BV1BZ4y1W7fC](https://www.bilibili.com/video/BV1BZ4y1W7fC)
+- [x] 第5天：部署Netty聊天室到云环境，与室友测试聊天程序 [https://www.bilibili.com/video/BV1BZ4y1W7fC](https://www.bilibili.com/video/BV1BZ4y1W7fC)
+- [ ] 第6天：安装Elasticsearch、elasticsearch-head、Kibana，测试x-pack-sql-jdbc与云服务es数据交互	
+- [ ] 第7天：安装docker容器，配置云环境，练习命令	
+- [ ] 第8天：又购买2台，搭配使用，部署分布式系统，rpc、mq、分布式任务，测试应用程序	
+- [ ] 第9天：mysql数据通过binlog同步到ES，以及双机备份	
+- [ ] 第10天：域名备案完成，使用宝塔配置域名、ssl、反向代理等，搭建完整博客环境	
+- [ ] 第11天：学习phpwind、Discuz，搭建论坛	
+- [ ] 第12天：搭建个人完整博客系统，采用Jekyll静态博客，本地初始化，通过ftp上传到云服务	
+- [ ] 第13天：搭建wordpress，尝试其他动态博客配置使用	
+- [ ] 第14天：选型Go语言 cloudreve 网盘，进行搭建测试	
+- [ ] 第15天：选型PHP语言 nextcloud网盘，进行搭建测试	
+- [ ] 第16天：承接老舅的需求，把域名和服务器以及一个乡村超时论坛，5万元，卖给老舅。 
+
 ### 其他内容
 
 *Drools 是 Java 语言基于Rete算法编写的规则引擎，可以方便的使用声明表达业务逻辑，非常简单易用。本专题会从入门开始逐步完成对Drools的讲解。*
