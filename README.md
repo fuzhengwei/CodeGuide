@@ -189,6 +189,7 @@
 - [`《Spring 手撸专栏》第 5 章：一鸣惊人，为Bean对象注入属性和依赖Bean的功能实现`](https://bugstack.cn/spring/2021/06/02/%E7%AC%AC5%E7%AB%A0-%E4%B8%80%E9%B8%A3%E6%83%8A%E4%BA%BA-%E4%B8%BABean%E5%AF%B9%E8%B1%A1%E6%B3%A8%E5%85%A5%E5%B1%9E%E6%80%A7%E5%92%8C%E4%BE%9D%E8%B5%96Bean%E7%9A%84%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0.html)
 - [`《Spring 手撸专栏》第 6 章：气吞山河，设计与实现资源加载器，从Spring.xml解析和注册Bean对象`](https://bugstack.cn/spring/2021/06/09/%E7%AC%AC6%E7%AB%A0-%E6%B0%94%E5%90%9E%E5%B1%B1%E6%B2%B3-%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD%E5%99%A8-%E4%BB%8ESpring.xml%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8CBean%E5%AF%B9%E8%B1%A1.html)
 - [`《Spring 手撸专栏》第 7 章：所向披靡，实现应用上下文，自动识别、资源加载、扩展机制`](https://bugstack.cn/spring/2021/06/17/%E7%AC%AC7%E7%AB%A0-%E6%89%80%E5%90%91%E6%8A%AB%E9%9D%A1-%E5%AE%9E%E7%8E%B0%E5%BA%94%E7%94%A8%E4%B8%8A%E4%B8%8B%E6%96%87-%E8%87%AA%E5%8A%A8%E8%AF%86%E5%88%AB-%E8%B5%84%E6%BA%90%E5%8A%A0%E8%BD%BD-%E6%89%A9%E5%B1%95%E6%9C%BA%E5%88%B6.html)
+- [`《Spring 手撸专栏》第 8 章：龙行有风，向虚拟机注册钩子，实现Bean对象的初始化和销毁方法`](https://bugstack.cn/spring/2021/06/23/%E7%AC%AC8%E7%AB%A0-%E9%BE%99%E8%A1%8C%E6%9C%89%E9%A3%8E-%E5%90%91%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%B3%A8%E5%86%8C%E9%92%A9%E5%AD%90-%E5%AE%9E%E7%8E%B0Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%88%9D%E5%A7%8B%E5%8C%96%E5%92%8C%E9%94%80%E6%AF%81%E6%96%B9%E6%B3%95.html)
 
 ## :cloud: 云服务学习
 
