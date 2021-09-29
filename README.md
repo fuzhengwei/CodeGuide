@@ -193,7 +193,13 @@
 - [`《Spring 手撸专栏》第 9 章：虎行有雨，定义标记类型Aware接口，实现感知容器对象`](https://bugstack.cn/spring/2021/06/28/%E7%AC%AC9%E7%AB%A0-%E8%99%8E%E8%A1%8C%E6%9C%89%E9%9B%A8-%E5%AE%9A%E4%B9%89%E6%A0%87%E8%AE%B0%E7%B1%BB%E5%9E%8BAware%E6%8E%A5%E5%8F%A3-%E5%AE%9E%E7%8E%B0%E6%84%9F%E7%9F%A5%E5%AE%B9%E5%99%A8%E5%AF%B9%E8%B1%A1.html)
 - [`《Spring 手撸专栏》第 10 章：横刀跃马，关于Bean对象作用域以及FactoryBean的实现和使用`](https://bugstack.cn/spring/2021/06/30/%E7%AC%AC10%E7%AB%A0-%E6%A8%AA%E5%88%80%E8%B7%83%E9%A9%AC-%E5%85%B3%E4%BA%8EBean%E5%AF%B9%E8%B1%A1%E4%BD%9C%E7%94%A8%E5%9F%9F%E4%BB%A5%E5%8F%8AFactoryBean%E7%9A%84%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8.html)
 - [`《Spring 手撸专栏》第 11 章：更上层楼，基于观察者实现，容器事件和事件监听器`](https://bugstack.cn/spring/2021/07/07/%E7%AC%AC11%E7%AB%A0-%E6%9B%B4%E4%B8%8A%E5%B1%82%E6%A5%BC-%E5%9F%BA%E4%BA%8E%E8%A7%82%E5%AF%9F%E8%80%85%E5%AE%9E%E7%8E%B0-%E5%AE%B9%E5%99%A8%E4%BA%8B%E4%BB%B6%E5%92%8C%E4%BA%8B%E4%BB%B6%E7%9B%91%E5%90%AC%E5%99%A8.html)
-
+- [`《Spring 手撸专栏》第 12 章：炉火纯青，基于JDK和Cglib动态代理，实现AOP核心功能`](https://bugstack.cn/spring/2021/07/13/%E7%AC%AC12%E7%AB%A0-%E7%82%89%E7%81%AB%E7%BA%AF%E9%9D%92-%E5%9F%BA%E4%BA%8EJDK%E5%92%8CCglib%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86-%E5%AE%9E%E7%8E%B0AOP%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD.html)
+- [`《Spring 手撸专栏》第 13 章：行云流水，把AOP动态代理，融入到Bean的生命周期`](https://bugstack.cn/spring/2021/07/22/%E7%AC%AC13%E7%AB%A0-%E8%A1%8C%E4%BA%91%E6%B5%81%E6%B0%B4-%E6%8A%8AAOP%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86-%E8%9E%8D%E5%85%A5%E5%88%B0Bean%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.html)
+- [`《Spring 手撸专栏》第 14 章：笑傲江湖，通过注解配置和包自动扫描的方式完成Bean对象的注册`](https://bugstack.cn/spring/2021/07/27/%E7%AC%AC14%E7%AB%A0-%E7%AC%91%E5%82%B2%E6%B1%9F%E6%B9%96-%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E5%92%8C%E5%8C%85%E8%87%AA%E5%8A%A8%E6%89%AB%E6%8F%8F%E7%9A%84%E6%96%B9%E5%BC%8F%E5%AE%8C%E6%88%90Bean%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%B3%A8%E5%86%8C.html)
+- [`《Spring 手撸专栏》第 15 章：万人之敌，通过注解给属性注入配置和Bean对象`](https://bugstack.cn/spring/2021/08/03/%E7%AC%AC15%E7%AB%A0-%E4%B8%87%E4%BA%BA%E4%B9%8B%E6%95%8C-%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E7%BB%99%E5%B1%9E%E6%80%A7%E6%B3%A8%E5%85%A5%E9%85%8D%E7%BD%AE%E5%92%8CBean%E5%AF%B9%E8%B1%A1.html)
+- [x] [`【PDF专属】第 16 章：战无不胜，给代理对象的属性设置值`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
+- [x] [`【PDF专属】第 17 章：攻无不克，通过三级缓存解决循环依赖`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
+- [x] [`【PDF专属】第 18 章：挂印封刀，数据类型转换工厂设计实现`](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 ## :cloud: 云服务学习
 
 **云服务器**：[79元1年，226元3年，新人服务器](https://dashi.aliyun.com/site/xiaofuge/618)
