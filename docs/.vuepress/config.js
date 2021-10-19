@@ -230,6 +230,59 @@ module.exports = {
                         ]
                     },
                     {
+                        text: '专栏|小册|PDF',
+                        items: [
+                            {
+                                text: '我的图书', items: [
+                                    {
+                                        text: '《重学Java设计模式》',
+                                        link: '/md/knowledge/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '知识星球', items: [
+                                    {
+                                        text: '码农会锁',
+                                        link: '/md/knowledge/knowledge-planet/2021-08-22-带头撸项目，《DDD + RPC 开发分布式架构，抽奖系统》.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '小册', items: [
+                                    {
+                                        text: 'Netty+JavaFx实战：仿桌面版微信聊天',
+                                        link: '/md/knowledge/booklet/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                                    },
+                                    {
+                                        text: 'SpringBoot 中间件设计和开发',
+                                        link: '/md/knowledge/booklet/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'PDF', items: [
+                                    {
+                                        text: 'Java 面经手册',
+                                        link: '/md/knowledge/pdf/2021-01-26-Java面经手册PDF下载.md'
+                                    },
+                                    {
+                                        text: '手撸 Spring',
+                                        link: '/md/knowledge/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
+                                    },
+                                    {
+                                        text: '重学Java设计模式',
+                                        link: '/md/knowledge/pdf/2020-07-12-重学 Java 设计模式.md'
+                                    },
+                                    {
+                                        text: '字节码编程',
+                                        link: '/md/knowledge/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         text: '字节码编程',
                         items: [
                             {
@@ -266,9 +319,9 @@ module.exports = {
                     {
                         text: '关于',
                         items: [
-                            {text: '关于自己', link: '/md/about/me/graduate.md'},
-                            {text: '关于学习', link: '/md/about/study/2021-01-17-数学，离一个程序员有多近？.md'},
-                            {text: '关于职场', link: '/md/about/job/2020-11-15-BATJTMD，大厂招聘，都招什么样Java程序员？.md'}
+                            {text: '关于自己', link: '/md/about/me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md'},
+                            {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
+                            {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
                         ]
                     }
                 ],
@@ -284,6 +337,7 @@ module.exports = {
                     "/md/develop/standard/": genBarDevelopStandard(),
                     "/md/assembly/": genBarAssembly(),
                     "/md/netty/": genBarNetty(),
+                    "/md/knowledge/": genBarKnowledge(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
@@ -708,6 +762,56 @@ function genBarNetty() {
     ]
 }
 
+// knowledge
+function genBarKnowledge() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "knowledge.md",
+            ]
+        },
+        {
+            title: "我的图书",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
+            ]
+        },
+        {
+            title: "知识星球",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "knowledge-planet/2021-08-22-带头撸项目，《DDD + RPC 开发分布式架构，抽奖系统》.md",
+            ]
+        },
+        {
+            title: "小册",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "booklet/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md",
+                "booklet/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md"
+            ]
+        },
+        {
+            title: "PDF",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
+                "pdf/2020-07-12-重学 Java 设计模式.md",
+                "pdf/2021-01-26-Java面经手册PDF下载.md",
+                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+            ]
+        }
+    ]
+}
+
 function genBarBytecodeAsmJavassistByteBuddy() {
     return [
         {
@@ -883,8 +987,19 @@ function genBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "me/graduate.md",
-                "me/beijing-drifter.md"
+                "me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md",
+                "me/2020-07-25-12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜.md",
+                "me/2020-08-25-13年毕业，用两年时间从外包走进互联网大厂.md",
+                "me/2020-10-09-让人怪不好意思的，粉丝破万，用了1年！.md",
+                "me/2020-10-25-今天你写博客了吗.md",
+                "me/2020-11-01-刚毕业不久，接私活赚了2万块！.md",
+                "me/2020-11-29-北漂码农的我，把在大城市过成了屯子一样舒服，哈哈哈哈哈！.md",
+                "me/2020-12-27-2020总结 | 作为技术号主的一年！.md",
+                "me/2021-01-31-这一年，想踏码进货一样！.md",
+                "me/2021-05-26-小傅哥，一个有副业的码农.md",
+                "me/2021-06-20-我，有10万+粉丝啦！.md",
+                "me/2021-07-03-以一己之力，生抗美团技术博客！.md",
+                "me/2021-09-05-我在CSDN赚了1.2万.md",
             ]
         },
         {
@@ -892,7 +1007,15 @@ function genBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md",
+                "study/2020-10-11-为了省钱，我用1天时间把PHP学了！.md",
+                "study/2020-10-18-UML类图还不懂？来看看这版乡村爱情类图，一把学会！.md",
+                "study/2020-11-08-一个简单的能力，决定你是否会学习！.md",
+                "study/2020-12-06-90Per的程序员，都没用过多线程和锁，怎么成为架构师？.md",
+                "study/2020-12-13-码德需求，这不就是产品给我留的数学作业！.md",
+                "study/2020-12-20-工作3年，看啥资料能月薪30K？.md",
                 "study/2021-01-17-数学，离一个程序员有多近？.md",
+                "study/2021-05-09-大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？.md"
             ]
         },
         {
@@ -900,8 +1023,12 @@ function genBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "job/2020-04-11-工作两年简历写成这样，谁要你呀！.md",
+                "job/2020-09-20-程序员为什么热衷于造轮子，升职加薪吗？.md",
+                "job/2020-09-27-PPT画成这样，述职答辩还能过吗？.md",
                 "job/2020-11-15-BATJTMD，大厂招聘，都招什么样Java程序员？.md",
                 "job/2020-12-20-工作3年，看啥资料能月薪30K？.md",
+                "job/2021-02-24-半年筛选了400+份简历，告诉你怎么写会被撩.md"
             ]
         }
     ];
