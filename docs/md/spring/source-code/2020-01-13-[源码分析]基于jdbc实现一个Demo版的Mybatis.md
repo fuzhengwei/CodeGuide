@@ -8,6 +8,8 @@ excerpt: 在前面一篇分析了 mybatis 源码，从它为什么之后接口�
 lock: need
 ---
 
+# 源码分析 | 基于jdbc实现一个Demo版的Mybatis
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
@@ -378,7 +380,7 @@ private Map<String, XNode> mapperElement(List<Element> list) {
 
 - 这个过程首先包括是解析所有的sql语句，目前为了测试只解析 select 相关
 - 所有的 sql 语句为了确认唯一，都是使用；namespace + select中的id进行拼接，作为 key，之后与sql一起存放到 map 中。
-- 在 mybaits 的 sql 语句配置中，都有占位符，用于传参。where id = #{id} 所以我们需要将占位符设置为问号，另外需要将占位符的顺序信息与名称存放到 map 结构，方便后续设置查询时候的入参。
+- 在 mybatis 的 sql 语句配置中，都有占位符，用于传参。`where id = #{id}` 所以我们需要将占位符设置为问号，另外需要将占位符的顺序信息与名称存放到 map 结构，方便后续设置查询时候的入参。
 
 ### 4. 创建DefaultSqlSessionFactory
 
@@ -425,7 +427,7 @@ public class DefaultSqlSessionFactory implements SqlSessionFactory {
 SqlSession session = sqlMapper.openSession();
 ```
 
-上面这一步就是创建了DefaultSqlSession，比较简单。如下；
+上面这一步就是创建了 DefaultSqlSession，比较简单。如下；
 
 ```java
 @Override
@@ -480,7 +482,7 @@ public <T> T selectOne(String statement, Object parameter) {
 }
 ```
 
-- selectOne 就objects.get(0);，selectList 就全部返回 
+- selectOne 就`objects.get(0)`;，selectList 就全部返回 
 - 通过 statement 获取最初解析 xml 时候的存储的 select 标签信息；
 	
 	```xml
@@ -648,11 +650,5 @@ Process finished with exit code 0
 - 学习完 Mybaits 核心源码，再实现一下核心过程，那么就会很清晰这个过程是怎么个流程，也就不会觉得自己知识栈有漏洞
 - 只有深入的学习才能将这样的技术赋能于其他开发上，例如给ES增加这样查询包，让ES更加容易操作。其实还可以有很多创造
 - 知识往往是综合的使用，将各个知识点综合起来使用，才能更加熟练。不要总看不做，否则全套的流程不能在自己脑子流程下什么印象
-
-## 六、文末惊喜
-
->小傅哥 | 沉淀、分享、成长，让自己和他人都能有所收获！
-
-![微信公众号：bugstack虫洞栈](https://bugstack.cn/assets/images/qrcode2020.png)
 
 

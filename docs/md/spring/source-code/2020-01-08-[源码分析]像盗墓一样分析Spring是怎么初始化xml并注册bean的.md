@@ -8,6 +8,8 @@ excerpt: 往往简单的背后都有人为你承担着不简单，Spring 就是�
 lock: need
 ---
 
+# 源码分析 | 像盗墓一样分析Spring是怎么初始化xml并注册bean的
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

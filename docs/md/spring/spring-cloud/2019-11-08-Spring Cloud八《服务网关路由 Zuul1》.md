@@ -1,10 +1,10 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(三)《应用服务快速失败熔断降级保护 Hystrix》
+title: 第8章：服务网关路由 Zuul1
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
-excerpt: 在互联网开发中经常会听到雪崩效应，比如某明星发一些状态某猿就要回去加班了！那么为了应对雪崩我们经常会进行服务扩容、添加缓存、优化流程但往往突发的事件依然有击穿缓存、应用负载、数据库IO、网络异常等等带来的风险，所以一些常见的做法有服务降级、限流、熔断，在逐步恢复系统可用率来保护系统。
+excerpt: Spring Cloud Zuul 路由是微服务架构的不可或缺的一部分，提供动态路由、监控、弹性、安全等的边缘服务。Zuul 是 Netflix 出品的一个基于 JVM 路由和服务端的负载均衡器。
 lock: need
 ---
 
@@ -14,24 +14,21 @@ lock: need
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 ## 前言介绍
-在互联网开发中经常会听到雪崩效应，比如某明星发一些状态某猿就要回去加班了！那么为了应对雪崩我们经常会进行服务扩容、添加缓存、优化流程但往往突发的事件依然有击穿缓存、应用负载、数据库IO、网络异常等等带来的风险，所以一些常见的做法有服务降级、限流、熔断，在逐步恢复系统可用率来保护系统。
+为什么会有路由层？因为在微服务架构设计中，往往并不会直接将服务暴漏给调用端，而是通过调用路由层进行业务隔离，以达到不同的业务调用对应的服务模块。
 
-**Hystrix** 是一种熔断降级的中间件，由 Spring Cloud 集成整合后在Ribbon与Fegin中提供使用。
->Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
+**Spring Cloud Zuul**
 
-![微信公众号：bugstack虫洞栈 & Hystrix工作原理(官网)](https://bugstack.cn/assets/images/pic-content/2019/11/SpringCloud-3-1.png)
-
-## 案例说明
-本案例在itstack-demo-springcloud-02的基础上添加Hystrix服务，当我们的itstack-demo-springcloud-eureka-client尚未启动或主动停止后，我们在调用接口服务时候会进行熔断保护。
+Spring Cloud Zuul 路由是微服务架构的不可或缺的一部分，提供动态路由、监控、弹性、安全等的边缘服务。Zuul 是 Netflix 出品的一个基于 JVM 路由和服务端的负载均衡器。
+![微信公众号：bugstack虫洞栈 & Spring Cloud Zuul](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-8-1.jpg)
 
 ## 环境准备
-1. jdk 1.8
+1. jdk 1.8、idea2018、Maven3
 2. Spring Boot 2.0.6.RELEASE
 3. Spring Cloud Finchley.SR2
 
 ## 代码示例
 ```java
-itstack-demo-springcloud-03
+itstack-demo-springcloud-08
 ├── itstack-demo-springcloud-eureka-client
 │   └── src
 │       └── main
@@ -64,28 +61,33 @@ itstack-demo-springcloud-03
 │           │        └── FeignApplication.java
 │           └── resources   
 │               └── application.yml
-└── itstack-demo-springcloud-hystrix-ribbon
+├── itstack-demo-springcloud-hystrix-ribbon
+│   └── src
+│       └── main
+│           ├── java
+│           │   └── org.itstack.demo
+│           │        ├── service
+│           │        │   └── RibbonService.java
+│           │        ├── web
+│           │        │   └── RibbonController.java      
+│           │        └── RibbonApplication.java
+│           └── resources   
+│               └── application.yml
+└── itstack-demo-springcloud-zuul
     └── src
         └── main
             ├── java
-            │   └── org.itstack.demo
-            │        ├── service
-            │        │   └── RibbonService.java
-            │        ├── web
-            │        │   └── RibbonController.java		
-            │        └── RibbonApplication.java
+            │   └── org.itstack.demo   
+            │        └── ZuulApplication.java
             └── resources   
                 └── application.yml
+
 ```
 
-**完整代码欢迎关注公众号：bugstack虫洞栈 | 回复“SpringCloud专题”进行下载**
-
 ### itstack-demo-springcloud-eureka-client | 服务提供方
-
 提供一个查询用户信息的简单方法，在配置文件中通过修改端口启动2次，模拟双实例应用，为调用方负载做准备。
 
->web/EurekaClientController.java | 注意@EnableEurekaClient用于向注册中心提供服务
-
+>web/EurekaClientController.java & 注意@EnableEurekaClient用于向注册中心提供服务
 ```java
 /**
  * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
@@ -107,8 +109,7 @@ public class EurekaClientController {
 }
 ```
 
->EurekaClientApplication.java | 服务启动类
-
+>EurekaClientApplication.java & 服务启动类
 ```java
 /**
  * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
@@ -125,11 +126,10 @@ public class EurekaClientApplication {
 }
 ```
 
->application.yml | 配置文件链接服务注册中心,8001\8002分别配置启动
-
+>pom.xml & 配置文件指向注册中心
 ```java
 server:
-  port: 8001 / 8002
+  port: 8001
 
 spring:
   application:
@@ -142,13 +142,10 @@ eureka:
 ```
 
 ### itstack-demo-springcloud-eureka-server | 单个服务注册中心
-
 服务注册中心用于承载接口提供方向上注册，同时正在调用方链接后可以获取指定应用的服务实例。
 
->EurekaServerApplication.java | 通过注解@EnableEurekaServer启动服务注册与发现中心
-
+>EurekaServerApplication.java & 通过注解@EnableEurekaServer启动服务注册与发现中心
 ```java
-
 /**
  * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
  * 论坛：http://bugstack.cn
@@ -165,8 +162,7 @@ public class EurekaServerApplication {
 }
 ```
 
->application.yml | 服务注册中心配置文件，端口7397和我们之前写netty的服务的端口一致
-
+>pom.xml & 服务注册中心
 ```java
 server:
   port: 7397
@@ -185,7 +181,7 @@ spring:
     name: itstack-demo-springcloud-eureka-server
 ```
 
-### itstack-demo-springcloud-feign | Feign服务调用方，添加熔断Hystrix
+### itstack-demo-springcloud-feign | Feign服务调用方
 
 Feign 是一个声明式的 Web Service 客户端，它的目的就是让 Web Service 调用更加简单。它整合了 Ribbon 和 Hystrix，从而让我们不再需要显式地使用这两个组件。Feign 还提供了 HTTP 请求的模板，通过编写简单的接口和插入注解，我们就可以定义好 HTTP 请求的参数、格式、地址等信息。接下来，Feign 会完全代理 HTTP 的请求，我们只需要像调用方法一样调用它就可以完成服务请求。
 
@@ -267,6 +263,7 @@ public class FeignController {
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
+@EnableHystrix
 public class FeignApplication {
 
     public static void main(String[] args) {
@@ -292,6 +289,7 @@ eureka:
       defaultZone: http://localhost:7397/eureka/
 
 feign.hystrix.enabled: true
+
 ```
 
 ### itstack-demo-springcloud-ribbon | Ribbon服务调用方
@@ -433,28 +431,73 @@ eureka:
       defaultZone: http://localhost:7397/eureka/
 ```
 
+### itstack-demo-springcloud-zuul | Zull路由层
+Spring Cloud Zuul 路由是微服务架构的不可或缺的一部分，提供动态路由、监控、弹性、安全等的边缘服务。Zuul 是 Netflix 出品的一个基于 JVM 路由和服务端的负载均衡器。
+  
+>ZuulApplication.java & 路由服务启动
+```java
+/**
+ * 微信公众号：bugstack虫洞栈 | 专注原创技术专题案例
+ * 论坛：http://bugstack.cn
+ * Create by 付政委 on @2019
+ */
+@SpringBootApplication
+@EnableZuulProxy
+@EnableEurekaClient
+@EnableDiscoveryClient
+public class ZuulApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ZuulApplication.class, args);
+    }
+
+}
+```
+
+>pom.mxl & 路由配置
+```java
+server:
+  port: 10001
+
+spring:
+  application:
+    name: itstack-demo-ddd-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:7397/eureka/
+
+# http://localhost:10001/route-a/api/queryUserInfo?userId=111
+# http://localhost:10001/route-b/api/queryUserInfo?userId=111
+zuul:
+  routes:
+    api-a:
+      path: /route-a/**
+      serviceId: itstack-demo-springcloud-feign
+    api-b:
+      path: /route-b/**
+      serviceId: itstack-demo-springcloud-ribbon
+```
+
 ## 测试验证
-1. 启动服务注册中心itstack-demo-springcloud-eureka-server
-2. 本地测试不启动eureka-client，以达到服务不可以用的效果
-3. 启动itstack-demo-springcloud-feign 
-4. 启动itstack-demo-springcloud-ribbon
-5. 访问Feign服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9001/api/queryUserInfo?userId=1024
-
-```java
-queryUserInfo by userId：1024 err！from feign hystrix From Feign
-queryUserInfo by userId：1024 err！from feign hystrix From Feign
-```
-6. 访问Ribbon服务调用方，在熔断的保护下会返回预定熔断结果：http://localhost:9002/api/queryUserInfo?userId=1024
-
-```java
-queryUserInfo by userId：1024 err！from ribbon hystrix From Ribbon
-queryUserInfo by userId：1024 err！from ribbon hystrix From Ribbon
-```
-
+1. 分别启动如下系统模拟；
+	1. itstack-demo-springcloud-eureka-server  服务注册发现中心
+	2. itstack-demo-springcloud-eureka-client  测试接口提供方
+	3. itstack-demo-springcloud-hystrix-feign  接口调用方Feign
+	4. itstack-demo-springcloud-hystrix-ribbon 接口调用方Ribbon
+	5. itstack-demo-springcloud-zuul	       路由服务
+	
+2. 测试接口
+   1. 访问Feign、Ribbon接口，验证服务是否可用；http://localhost:9001/api/queryUserInfo?userId=111、http://localhost:9002/api/queryUserInfo?userId=111
+   2. 访问路由接口A；http://localhost:10001/route-a/api/queryUserInfo?userId=111
+   3. 访问路由接口B；http://localhost:10001/route-b/api/queryUserInfo?userId=111
+	  >Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001 From Ribbon
+	  
 ## 综上总结
-1. Spring Cloud 将Hystrix整合后提供非常简单的使用方式，并且提供了丰富的配置可以满足实际应用开发
-2. Hystrix Git开源代码；https://github.com/Netflix/Hystrix
-3. 在熔断降级就像是电闸的保险丝，可以在非常重要的时刻快速失败保护系统
+1. zuul目前SpringCloud结合的是zuul 1， Netflix 已经发布了 Zuul 2但目前还未整合
+2. SpringCloud还有自己的网关服务；Spring Cloud Gateway
+3. 通过最上层的路由功能可以很方便的隔离业务，但是路由层一定是高可用的，否则路由瘫痪整个服务将不可用
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
-
+  

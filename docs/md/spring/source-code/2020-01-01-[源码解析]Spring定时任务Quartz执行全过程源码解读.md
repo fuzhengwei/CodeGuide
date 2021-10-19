@@ -8,6 +8,8 @@ excerpt: 在日常开发中经常会用到定时任务，用来；库表扫描�
 lock: need
 ---
 
+# 源码分析 | Spring定时任务Quartz执行全过程源码解读
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
@@ -216,7 +218,7 @@ methodInvokingJobDetailFactoryBean.afterPropertiesSet();
 - concurrent：是否并行执行，非并行执行任务，如果上一个任务没有执行完，下一刻不会执行
 - name：xml配置非必传，源码中可以获取beanName
 
-最后我们通过手动调用 afterPropertiesSet() 来模拟初始化。如果我们的类是交给 Spring 管理的，那么在实现了 InitializingBean 接口的类，在类配置信息加载后会自动执行 afterPropertiesSet() 。一般实现了 InitializingBean 接口的类，同时也会去实现 FactoryBean<T> 接口，因为这个接口实现后就可以通过 T getObject() 获取自己自定义初始化的类。这也常常用在一些框架开发中。
+最后我们通过手动调用 afterPropertiesSet() 来模拟初始化。如果我们的类是交给 Spring 管理的，那么在实现了 InitializingBean 接口的类，在类配置信息加载后会自动执行 afterPropertiesSet() 。一般实现了 InitializingBean 接口的类，同时也会去实现 `FactoryBean<T>` 接口，因为这个接口实现后就可以通过 T getObject() 获取自己自定义初始化的类。这也常常用在一些框架开发中。
  
 >MethodInvokingJobDetailFactoryBean.afterPropertiesSet()
 
@@ -495,7 +497,7 @@ private boolean addTriggerToScheduler(Trigger trigger) throws SchedulerException
 }
 ```
 
-- **源码299行：** addJobToScheduler(jobDetail) 一直会调用到 RAMJobStore	进行存放任务信息到 HashMap<JobKey, JobWrapper>(100)
+- **源码299行：** addJobToScheduler(jobDetail) 一直会调用到 RAMJobStore	进行存放任务信息到 `HashMap<JobKey, JobWrapper>(100)`
 
 	```java
 	public void storeJob(JobDetail newJob,

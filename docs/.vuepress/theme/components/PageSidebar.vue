@@ -126,10 +126,9 @@
         <span class="show-txt">站点图</span>
         <div class="sitemap-container">
             <h4>站点导航图
-              <router-link class="sitemap-top-link" key="/md/about/me/about-me.html" to="/md/about/me/about-me.html" > 关于我</router-link>
-              <router-link class="sitemap-top-link" key="/md/about/blog/blog-build-vuepress.html" to="/md/about/blog/blog-build-vuepress.html" > 关于站点</router-link>
-              <router-link class="sitemap-top-link" key="/md/about/me/blog-changelist.html" to="/md/about/me/blog-changelist.html" > 最近更新记录</router-link>
-              <router-link class="sitemap-top-link" key="/md/about/me/blog-question.html" to="/md/about/me/blog-question.html" > <font style="color:red;background-color:yellow;">问题反馈</font></router-link>
+              <router-link class="sitemap-top-link" key="/md/about/me/2020-08-25-13年毕业，用两年时间从外包走进互联网大厂.html" to="/md/about/me/2020-08-25-13年毕业，用两年时间从外包走进互联网大厂.html" > 关于我</router-link>
+              <router-link class="sitemap-top-link" key="/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.html" to="/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.html" > 关于学习</router-link>
+              <router-link class="sitemap-top-link" key="/md/about/job/2020-11-15-BATJTMD，大厂招聘，都招什么样Java程序员？.html" to="/md/about/job/2020-11-15-BATJTMD，大厂招聘，都招什么样Java程序员？.html" > 关于职场</router-link>
             </h4>
             <SiteMap />
         </div>

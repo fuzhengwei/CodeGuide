@@ -108,7 +108,7 @@ public class GlobalTrafficShapingHandler extends AbstractTrafficShapingHandler {
 ```
 
 这实现了AbstractTrafficShapingHandler的全局流量整形，也就是说它限制了全局的带宽，无论开启了几个channel。
-注意『 OutboundBuffer.setUserDefinedWritability(index, boolean)』中索引使用’2’。
+注意`『 OutboundBuffer.setUserDefinedWritability(index, boolean)』`中索引使用’2’。
 
 一般用途如下：
 创建一个唯一的GlobalTrafficShapingHandler
@@ -134,7 +134,7 @@ GlobalTrafficShapingHandler中持有一个Channel的哈希表，用于存储当�
 private final ConcurrentMap<Integer, PerChannel> channelQueues = PlatformDependent.newConcurrentHashMap();
 ```
 key为Channel的hashCode；value是一个PerChannel对象。
-PerChannel对象中维护有该Channel的待发送数据的消息队列（ArrayDeque<ToSend> messagesQueue）。
+PerChannel对象中维护有该Channel的待发送数据的消息队列`ArrayDeque<ToSend> messagesQueue`。
 
 >ChannelTrafficShapingHandler.java | 功能介绍
 

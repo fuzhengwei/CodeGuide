@@ -6,12 +6,13 @@ tagline: by 付政委
 tag: [jvm,itstack-demo-jvm]
 ---
 
+# 用Java实现JVM第二章《搜索class文件》
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-# 用Java实现JVM第二章《搜索class文件》
 
 ## 案例简述
 本章节主要了解Java虚拟机从哪里寻找class文件并且读取class内字节码

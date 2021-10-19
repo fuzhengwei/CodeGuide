@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(九)《服务网关Zuul 动态路由与权限过滤器》
+title: 第9章：服务网关Zuul 动态路由与权限过滤器
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
 excerpt: 在实际的业务开发中不只是将路由配置放到文件中，而是需要进行动态管理并且可以在变化时不用重启系统就可以更新。与此同时还需要在接口访问的时候，可以增加一些权限验证以防止恶意访问。

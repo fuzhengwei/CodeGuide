@@ -35,8 +35,8 @@ module.exports = {
             {
                 charset: 'utf-8',
                 async: 'async',
-                src: 'https://code.jquery.com/jquery-3.5.1.min.js',
-                // src: '/js/jquery.min.js',
+                // src: 'https://code.jquery.com/jquery-3.5.1.min.js',
+                src: '/js/jquery.min.js',
             },
             'script',
             {
@@ -47,7 +47,7 @@ module.exports = {
     ],
     plugins: [
         [
-            {globalUIComponents: ['LockArticle']}
+            // {globalUIComponents: ['LockArticle']}
         ],
         // ['@vuepress/back-to-top', true], replaced with inject page-sidebar
         ['@vuepress/medium-zoom', {
@@ -139,7 +139,7 @@ module.exports = {
                             },
                             {
                                 text: 'Spring Cloud',
-                                link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud(零)《总有一偏概述告诉你SpringCloud是什么》.md'
+                                link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
                             },
                             {
                                 text: '源码分析(Mybatis、Quartz)',
@@ -230,6 +230,40 @@ module.exports = {
                         ]
                     },
                     {
+                        text: '字节码编程',
+                        items: [
+                            {
+                                text: '框架', items: [
+                                    {
+                                        text: 'ASM',
+                                        link: '/md/bytecode/asm/2020-03-25-[ASM字节码编程]如果你只写CRUD，那这种技术你永远碰不到.md'
+                                    },
+                                    {
+                                        text: 'Javassist',
+                                        link: '/md/bytecode/javassist/2020-04-19-字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》.md'
+                                    },
+                                    {
+                                        text: 'Byte-Buddy',
+                                        link: '/md/bytecode/byte-buddy/2020-05-08-字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '全链路监控', items: [
+                                    {
+                                        text: 'JavaAgent',
+                                        link: '/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '文档', items: [
+                                    {text: 'ASM-DOC', link: '/md/bytecode/asm-document/1引言.md'}
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         text: '专栏|小册|PDF',
                         items: [
                             {
@@ -283,46 +317,16 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '字节码编程',
-                        items: [
-                            {
-                                text: '框架', items: [
-                                    {
-                                        text: 'ASM',
-                                        link: '/md/bytecode/asm/2020-03-25-[ASM字节码编程]如果你只写CRUD，那这种技术你永远碰不到.md'
-                                    },
-                                    {
-                                        text: 'Javassist',
-                                        link: '/md/bytecode/javassist/2020-04-19-字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》.md'
-                                    },
-                                    {
-                                        text: 'Byte-Buddy',
-                                        link: '/md/bytecode/byte-budy/2020-05-08-字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '全链路监控', items: [
-                                    {
-                                        text: 'JavaAgent',
-                                        link: '/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '文档', items: [
-                                    {text: 'ASM-DOC', link: '/md/bytecode/asm-document/1引言.md'}
-                                ]
-                            }
-                        ]
-                    },
-                    {
                         text: '关于',
                         items: [
                             {text: '关于自己', link: '/md/about/me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md'},
                             {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
                             {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
                         ]
+                    },
+                    {
+                        text: 'Github',
+                        link: 'https://github.com/fuzhengwei/CodeGuide/Wiki'
                     }
                 ],
                 sidebar: {
@@ -461,6 +465,8 @@ function genBarJavaCore() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2019-12-10-[有点干货]Jdk1.8新特性实战篇41个案例.md",
+                "2019-12-21-[有点干货]JDK、CGLIB动态代理使用以及源码分析.md",
                 "2020-01-06-[源码分析]咋嘞？你的IDEA过期了吧！加个Jar包就破解了，为什么？.md",
                 "2020-01-18-似乎你总也记不住，byte的取值范围是 -127~128 还是 -128~127.md",
                 "2020-03-07-这种场景你还写ifelse你跟孩子坐一桌去吧.md",
@@ -525,16 +531,16 @@ function genBarSpringSpringCloud() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2019-10-31-Spring Cloud(零)《总有一偏概述告诉你SpringCloud是什么》.md",
-                "2019-11-01-Spring Cloud(一)《服务集群注册与发现 Eureka》.md",
-                "2019-11-02-Spring Cloud(二)《服务提供与负载均衡调用 Eureka》.md",
-                "2019-11-03-Spring Cloud(三)《应用服务快速失败熔断降级保护 Hystrix》.md",
-                "2019-11-04-Spring Cloud(四)《服务响应性能成功率监控 Hystrix》.md",
-                "2019-11-05-Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》.md",
-                "2019-11-06-Spring Cloud(六)《基于Github Webhook动态刷新服务配置》.md",
-                "2019-11-07-Spring Cloud(七)《基于RabbitMQ消息总线方式刷新配置服务》.md",
-                "2019-11-08-Spring Cloud(八)《服务网关路由 Zuul1》.md",
-                "2019-11-24-Spring Cloud(九)《服务网关Zuul 动态路由与权限过滤器》.md"
+                "2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md",
+                "2019-11-01-Spring Cloud一《服务集群注册与发现 Eureka》.md",
+                "2019-11-02-Spring Cloud二《服务提供与负载均衡调用 Eureka》.md",
+                "2019-11-03-Spring Cloud三《应用服务快速失败熔断降级保护 Hystrix》.md",
+                "2019-11-04-Spring Cloud四《服务响应性能成功率监控 Hystrix》.md",
+                "2019-11-05-Spring Cloud五《Turbine 监控信息聚合展示 Hystrix》.md",
+                "2019-11-06-Spring Cloud六《基于Github Webhook动态刷新服务配置》.md",
+                "2019-11-07-Spring Cloud七《基于RabbitMQ消息总线方式刷新配置服务》.md",
+                "2019-11-08-Spring Cloud八《服务网关路由 Zuul1》.md",
+                "2019-11-24-Spring Cloud九《服务网关Zuul 动态路由与权限过滤器》.md"
             ]
         }
     ]
@@ -552,7 +558,7 @@ function genBarSpringSourceCode() {
                 "2020-01-01-[源码解析]Spring定时任务Quartz执行全过程源码解读.md",
                 "2020-01-08-[源码分析]像盗墓一样分析Spring是怎么初始化xml并注册bean的.md",
                 "2020-01-13-[源码分析]基于jdbc实现一个Demo版的Mybatis.md",
-                "2020-01-20-[源码分析]手写mybait-spring核心功能(干货好文一次学会工厂bean、类代理、bean注册的使用).md"
+                "2020-01-20-[源码分析]手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用.md"
             ]
         }
     ]

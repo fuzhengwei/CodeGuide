@@ -1,10 +1,10 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(四)《服务响应性能成功率监控 Hystrix》
+title: 第2章：服务提供与负载均衡调用 Eureka
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
-excerpt: Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
+excerpt: 本章节提供一个基于Eurka的服务注册中心，两个服务提供者之后分别使用Ribbon、Fegin方式进行调用，测试负载均衡。
 lock: need
 ---
 
@@ -14,10 +14,20 @@ lock: need
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 ## 前言介绍
-Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
+本章节提供一个基于Eurka的服务注册中心，两个服务提供者之后分别使用Ribbon、Fegin方式进行调用，测试负载均衡。
+![微信公众号：bugstack虫洞栈 & 服务注册与调用](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-2-1.png)
+
+服务提供者Service Provider 本质上是一个 Eureka Client，它在服务启动时，会调用服务注册方法，向 Eureka Server注册接口服务信息，包括地址、端口、服务名、入参、返回值等。当Eureka Server收到注册信息后，会维护在自己的注册列表，如下；
+
+```java
+private final ConcurrentHashMap<String, Map<String, Lease<InstanceInfo>>> registry
+        = new ConcurrentHashMap<String, Map<String, Lease<InstanceInfo>>>();
+```
+
+服务消费者Service Consumer 本质也是一个 Eureka Client，它在服务启动时，也会向 Eureka Server 注册服务信息。同时在启动后会从Eureka Server 上获取所有实例的注册信息，包括 IP 地址、端口等，并缓存到本地。这个获取有一定的延时，因此我们在实际开发过程中如果服务方尚未启动完成，调用方不要着急启动避免造成调用失败。
 
 ## 案例说明
-结合上一章节案例，通过添加配置启动Hystrix Dashboard，来监控服务实时运行状态；服务信息、接口名、调用次数、响应时间、可用率、延迟、熔断状态等。
+本案例在itstack-demo-springcloud-02工程中提供单个服务注册、服务提供方、Ribbon调用、Fegin调用，通过修改端口启动2个提供方来模拟测试负载均衡。
 
 ## 环境准备
 1. jdk 1.8
@@ -25,9 +35,8 @@ Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内�
 3. Spring Cloud Finchley.SR2
 
 ## 代码示例
-
 ```java
-itstack-demo-springcloud-04
+itstack-demo-springcloud-02
 ├── itstack-demo-springcloud-eureka-client
 │   └── src
 │       └── main
@@ -46,29 +55,19 @@ itstack-demo-springcloud-04
 │           │        └── EurekaServerApplication.java
 │           └── resources   
 │               └── application.yml
-├── itstack-demo-springcloud-hystrix-dashboard
-│   └── src
-│       └── main
-│           ├── java
-│           │   └── org.itstack.demo
-│           │        └── DashboardApplication.java
-│           └── resources   
-│               └── application.yml
-├── itstack-demo-springcloud-hystrix-feign
+├── itstack-demo-springcloud-feign
 │   └── src
 │       └── main
 │           ├── java
 │           │   └── org.itstack.demo
 │           │        ├── service
-│           │        │   ├── hystrix
-│           │        │   │   └── FeignServiceHystrix.java
 │           │        │   └── FeignService.java
 │           │        ├── web
 │           │        │   └── FeignController.java
 │           │        └── FeignApplication.java
 │           └── resources   
 │               └── application.yml
-└── itstack-demo-springcloud-hystrix-ribbon
+└── itstack-demo-springcloud-ribbon
     └── src
         └── main
             ├── java
@@ -76,7 +75,7 @@ itstack-demo-springcloud-04
             │        ├── service
             │        │   └── RibbonService.java
             │        ├── web
-            │        │   └── RibbonController.java      
+            │        │   └── RibbonController.java		
             │        └── RibbonApplication.java
             └── resources   
                 └── application.yml
@@ -189,46 +188,7 @@ spring:
     name: itstack-demo-springcloud-eureka-server
 ```
 
-### itstack-demo-springcloud-hystrix-dashboard | 服务监控像仪表盘一样透视系统健康度
-Spring Cloud Hystrix Dashboard只是spring cloud基于Hystrix Dashboard，将实时监控数据通过页面呈现出来。Spring Cloud Hystrix Dashboard的底层原理是间隔一定时间去“Ping”目标服务，返回的结果是最新的监控数据，最后将数据显示出来。
-
-```java
-Cluster via Turbine (default cluster): http://turbine-hostname:port/turbine.stream 
-Cluster via Turbine (custom cluster): http://turbine-hostname:port/turbine.stream?cluster=[clusterName]
-Single Hystrix App: http://hystrix-app:port/actuator/hystrix.stream 
-```
-
->DashboardApplication.java | 配置@EnableHystrixDashboard启动服务
-
-```java
-/**
- * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
- * 论坛：http://bugstack.cn
- * Create by 付政委 on @2019
- */
-@EnableHystrixDashboard
-@SpringBootApplication
-public class DashboardApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(DashboardApplication.class, args);
-    }
-
-}
-```
-
->application.yml | 通用配置信息
-
-```java
-server:
-  port: 8989
-
-spring:
-  application:
-    name: itstack-demo-springcloud-hystrix-dashboard
-```
-
-### itstack-demo-springcloud-feign | Feign服务调用方，添加熔断Hystrix
+### itstack-demo-springcloud-feign | Feign服务调用方
 
 Feign 是一个声明式的 Web Service 客户端，它的目的就是让 Web Service 调用更加简单。它整合了 Ribbon 和 Hystrix，从而让我们不再需要显式地使用这两个组件。Feign 还提供了 HTTP 请求的模板，通过编写简单的接口和插入注解，我们就可以定义好 HTTP 请求的参数、格式、地址等信息。接下来，Feign 会完全代理 HTTP 的请求，我们只需要像调用方法一样调用它就可以完成服务请求。
 
@@ -248,31 +208,12 @@ Feign 具有如下特性：
  * 论坛：http://bugstack.cn
  * Create by 付政委 on @2019
  */
-@FeignClient(value = "itstack-demo-springcloud-eureka-client", fallback = FeignServiceHystrix.class)
+@FeignClient(value = "itstack-demo-springcloud-eureka-client")
 public interface FeignService {
 
     @RequestMapping(value = "/api/queryUserInfo", method = RequestMethod.GET)
     String queryUserInfo(@RequestParam String userId);
 
-}
-```
-
->service/hystrix/FeignServiceHystrix.java | 提供熔断服务，当发生异常时主动返回预定结果
-
-```java
-/**
- * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
- * 论坛：http://bugstack.cn
- * Create by 付政委 on @2019
- */
-@Component
-public class FeignServiceHystrix implements FeignService {
-
-    @Override
-    public String queryUserInfo(String userId) {
-        return "queryUserInfo by userId：" + userId + " err！from feign hystrix";
-    }
-    
 }
 ```
 
@@ -310,7 +251,6 @@ public class FeignController {
 @EnableEurekaClient
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableHystrix
 public class FeignApplication {
 
     public static void main(String[] args) {
@@ -320,7 +260,7 @@ public class FeignApplication {
 }
 ```
 
->application.yml | eureka服务配置，从注册中心获取可用服务。开启hystrix=true，并设置hystrix.stream
+>application.yml | eureka服务配置，从注册中心获取可用服务
 
 ```java
 server:
@@ -334,14 +274,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:7397/eureka/
-
-feign.hystrix.enabled: true
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: hystrix.stream
 ```
 
 ### itstack-demo-springcloud-ribbon | Ribbon服务调用方
@@ -350,7 +282,7 @@ Ribbon是一个基于 HTTP 和 TCP 的客户端负载均衡器。它可以通过
 
 当 Ribbon 与 Eureka 联合使用时，ribbonServerList 会被 DiscoveryEnabledNIWSServerList 重写，扩展成从 Eureka 注册中心中获取服务实例列表。同时它也会用 NIWSDiscoveryPing 来取代 IPing，它将职责委托给 Eureka 来确定服务端是否已经启动。
 
->service/RibbonService.java | 接口式硬编码调用不太易于维护，因此也是比较少用的方式。hystrix实际通过getFallback()返回熔断结果
+>service/RibbonService.java | 接口式硬编码调用不太易于维护，因此也是比较少用的方式
 
 ```java
 /**
@@ -364,55 +296,8 @@ public class RibbonService {
     @Autowired
     private RestTemplate restTemplate;
 
-    @HystrixCommand(fallbackMethod = "queryUserInfoFallback")
     public String queryUserInfo(String userId) {
         return restTemplate.getForObject("http://ITSTACK-DEMO-SPRINGCLOUD-EUREKA-CLIENT/api/queryUserInfo?userId=" + userId, String.class);
-    }
-
-    /**
-     * Specifies a method to process fallback logic.
-     * A fallback method should be defined in the same class where is HystrixCommand.
-     * Also a fallback method should have same signature to a method which was invoked as hystrix command.
-     * for example:
-     * <code>
-     *      @HystrixCommand(fallbackMethod = "getByIdFallback")
-     *      public String getById(String id) {...}
-     *
-     *      private String getByIdFallback(String id) {...}
-     * </code>
-     * Also a fallback method can be annotated with {@link HystrixCommand}
-     * <p/>
-     * default => see {@link com.netflix.hystrix.contrib.javanica.command.GenericCommand#getFallback()}
-     *
-     * @return method name
-     *
-     * getFallback()
-     * 
-     * @Override
-     * protected Object getFallback() {
-     *     final CommandAction commandAction = getFallbackAction();
-     *     if (commandAction != null) {
-     *         try {
-     *             return process(new Action() {
-     *                 @Override
-     *                 Object execute() {
-     *                     MetaHolder metaHolder = commandAction.getMetaHolder();
-     *                     Object[] args = createArgsForFallback(metaHolder, getExecutionException());
-     *                     return commandAction.executeWithArgs(metaHolder.getFallbackExecutionType(), args);
-     *                 }
-     *             });
-     *         } catch (Throwable e) {
-     *             LOGGER.error(FallbackErrorMessageBuilder.create()
-     *                     .append(commandAction, e).build());
-     *             throw new FallbackInvocationException(unwrapCause(e));
-     *         }
-     *     } else {
-     *         return super.getFallback();
-     *     }
-     * }
-     */
-    public String queryUserInfoFallback(String userId) {
-        return "queryUserInfo by userId：" + userId + " err！from ribbon hystrix";
     }
 
 }
@@ -440,7 +325,7 @@ public class RibbonController {
 }
 ```
 
->RibbonApplication.java | 通过注解@LoadBalanced注册rest模版，用于Ribbon接口调用。并启动@EnableHystrix
+>RibbonApplication.java | 通过注解@LoadBalanced注册rest模版，用于Ribbon接口调用
 
 ```java
 /**
@@ -451,7 +336,6 @@ public class RibbonController {
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-@EnableHystrix
 public class RibbonApplication {
 
     public static void main(String[] args) {
@@ -484,20 +368,39 @@ eureka:
 ```
 
 ## 测试验证
-1. 启动itstack-demo-springcloud-hystrix-dashboard，访问；http://localhost:8989/hystrix
-![微信公众号：bugstack虫洞栈 & hystrix-dashboard 监控入口](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-4-3.png)
-2. 测试监控
-    1. 分别启动itstack-demo-springcloud-eureka-client、itstack-demo-springcloud-hystrix-feign与itstack-demo-springcloud-hystrix-ribbon
-    2. http://localhost:8989/hystrix入口处填写；http://localhost:9001/actuator/hystrix.stream ｛也就是fegin调用接口｝
-    3. 刷新调用接口；http://localhost:9001/api/queryUserInfo?userId=111，观察监控页面｛过程中讲服务提供方关闭｝
-![微信公众号：bugstack虫洞栈 & 监控面板](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-4-4.png)
-3. 也可以直接访问；http://localhost:9001/actuator/hystrix.stream，会收到ping监控数据
+1. 启动服务注册中心itstack-demo-springcloud-eureka-server
+2. 分别启动itstack-demo-springcloud-eureka-client，修改端口8001、8002启动两次提供两个服务
+3. 启动itstack-demo-springcloud-feign
+4. 启动itstack-demo-springcloud-ribbon
+5. 访问服务注册中心http://localhost:7397/
+![微信公众号：bugstack虫洞栈 & 服务注册中心](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-2-2.png)
+6. 访问服务提供方；http://localhost:8001/api/queryUserInfo?userId=111 | 说明服务正常
+
+```java
+Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001
+```
+
+7. 访问Feign服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9001/api/queryUserInfo?userId=111
+
+```java
+Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8002 From Feign
+
+Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001 From Feign
+```
+
+8. 访问Ribbon服务调用放，每次刷新会看到负载均衡调用到不同端口服务：http://localhost:9002/api/queryUserInfo?userId=111
+
+```java
+Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8001 From Ribbon
+
+Hi 微信公众号：bugstack虫洞栈 | 111 >: from eureka client port: 8002 From Ribbon
+```
 
 ## 综上总结
-1. hystrix-dashboard 可以非常方便的实时监控系统健康度
-2. 实际开发过程中还有很多其他的监控系统，包括一些调用链路、系统可用率、jvm、gc等等
-3. 监控数据常常需要日志一起配合使用，才能更好的做到监控并查阅，尽快解决异常问题
+1. 在使用SpringCloud时我们可以很轻松的使用到注册中心与很简单的方式去做服务调用
+2. 以上负载均衡，都是以轮询访问的方式实现的，实际开发过程中还会有一些依赖于机器性能、GC、调用量、响应时间等计算的权重值来做负载IRule
+3. 服务注册中心，负责维护注册的服务列表，同其他服务注册中心一样，支持高可用配置
+4. 服务提供方，作为一个 Eureka Client，向 Eureka Server 做服务注册、续约和下线等操作，注册的主要数据包括服务名、机器 ip、端口号、域名等
+5. 服务消费方，作为一个 Eureka Client，向 Eureka Server 获取 Service Provider 的注册信息，并通过远程调用与 Service Provider 进行通信
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
-
-

@@ -374,7 +374,7 @@ E:\itstack\gitee.com\fuzhengwei.github.io>
 
 ## 九、自动发布
 
-如果每次都是这样去本地编译在部署到服务端，代码又得维护在 `GitHub` 还是比较麻烦的。可以使用；Github -> Travis CI -> Docker-> VPS。的方式进行部署，不过还得花点钱买服务器。
+如果每次都是这样去本地编译在部署到服务端，代码又得维护在 `GitHub` 还是比较麻烦的。可以使用；`Github -> Travis CI -> Docker-> VPS`。的方式进行部署，不过还得花点钱买服务器。
 
 - 本地提交博客 Markdown 文件 到 Github 源文件 repository
 - Github 触发 Travis CI 执行自动编译
@@ -391,16 +391,16 @@ E:\itstack\gitee.com\fuzhengwei.github.io>
 |:---:|:---|:---|
 | 1 | ruby -v | 查看Ruby版本 |
 | 2 | gem update | 更新 |
-| 3 | gem -v | 查看Gem版本 |
+| 3 | `gem -v` | 查看Gem版本 |
 | 4 | gem install jekyll | 安装jekyll |  
 | 5 | gem install bundler | 下载bundler |
-| 6 | gem install jekyll-paginate | 下载jeky-paginate |
+| 6 | `gem install jekyll-paginate` | 下载jeky-paginate |
 | 7 | git clone git@github.com:xiaofuge/xiaofuge.github.io.git | 克隆主题(cd到xiaofuge.github.io，执行jekyll serve 可以在http://localhost:4000看到效果) | 
-| 8 | gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/ | 更换源[https://gems.ruby-china.com](https://gems.ruby-china.com/) |
+| 8 | `gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/` | 更换源[https://gems.ruby-china.com](https://gems.ruby-china.com/) |
 | 9 | jekyll new myblog | 初始化默认博客 |
 | 10 | bundle install | 进入博客文件夹执行初始化| 
 | 11 | jekyll build | 本地编译默认所有链接为http://localhost |
-| 13 | jekyll build --source <source> --destination <destination> | 编译指定的文件夹，同时可以设定到指定的地方|
+| 13 | `jekyll build --source <source> --destination <destination>` | 编译指定的文件夹，同时可以设定到指定的地方|
 | 12 | jekyll build --destination | 编译到指定地方 |
 | 14 | jekyll build --watch | 编译后好自动监听文件变化 自动编译 |
 | 15 | bundle exec jekyll build  | 您只需构建您的站点(而不是在本地提供),然后您可以将生成的文件上传到您的服务器（这将生成与_config.yml中配置变量url的值的规范链接） |

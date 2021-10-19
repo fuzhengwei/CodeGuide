@@ -27,7 +27,6 @@ export default {
   components: {},
   computed: {
     data() {
-      // return this.$frontmatter
       return {
         navlist: [
           {
@@ -64,7 +63,6 @@ export default {
                 des: '不知道某个类如何使用? 来这里搜索Java 代码吧...',
                 url: 'https://www.programcreek.com/java-api-examples/index.php'
               }
-              
             ]
           },
           {
@@ -90,7 +88,7 @@ export default {
                 url: 'https://www.oschina.net'
               },
               {
-                title: '知否',
+                title: '思否',
                 img: '/_images/tool-logo/segmentfault.png',
                 des: '中国领先的开发者技术社区',
                 url: 'https://segmentfault.com/'
@@ -119,286 +117,222 @@ export default {
                 des: 'Stack Overflow是一个与程序相关的IT技术问答网站',
                 url: 'https://stackoverflow.com'
               }
-              
             ]
           },
           {
             title: 'Java相关',
             list: [
               {
-                title: '面向对象基础',
-                url: '/md/java/basic/java-basic-oop.html'
+                title: '数据结构和算法',
+                url: '/md/java/interview/2020-08-04-面经手册 · 第2篇《数据结构，HashCode为什么使用31作为乘数？》.html'
               },
               {
-                title: '语法基础',
-                url: '/md/java/basic/java-basic-lan-basic.html'
+                title: '并发和锁',
+                url: '/md/java/interview/2020-10-14-面经手册 · 第13篇《除了JDK、CGLIB，还有3种类代理方式？面试又卡住！》.html'
               },
               {
-                title: '集合框架',
-                url: '/md/java/collection/java-collection-all.html'
-              },
-              {
-                title: '并发基础',
-                url: '/md/java/thread/java-thread-x-overview.html'
-              },
-              {
-                title: '并发关键字',
-                url: '/md/java/thread/java-thread-x-key-synchronized.html'
-              },
-              {
-                title: 'JUC并发框架',
-                url: '/md/java/thread/java-thread-x-juc-overview.html'
-              },
-              {
-                title: 'IO框架',
-                url: '/md/java/io/java-io-overview.html'
+                title: '多线程',
+                url: '/md/java/interview/2020-11-25-面经手册 · 第19篇《Thread.start()%20，它是怎么让线程启动的呢？》.html'
               },
               {
                 title: 'Java8 特性',
-                url: '/md/java/java8/java8.html'
+                url: '/md/java/core/2019-12-10-[有点干货]Jdk1.8新特性实战篇41个案例.html'
               },
               {
-                title: 'JVM基础',
-                url: '/md/java/jvm/java-jvm-x-overview.html'
-              },
-              {
-                title: '调试排错',
-                url: '/md/java/jvm/java-jvm-param.html'
-              },
-              {
-                title: '更多资源',
-                url: '/md/java/others/java-others-awesome-java.html'
-              },
-            ]
-          },
-          {
-            title: '算法相关',
-            list: [
-              {
-                title: '数组与线性表',
-                url: '/md/algorithm/alg-basic-array.html'
-              },
-              {
-                title: '树详解',
-                url: '/md/algorithm/alg-basic-tree.html'
-              },
-              {
-                title: '图详解',
-                url: '/md/algorithm/alg-basic-graph.html'
-              },
-              {
-                title: '内部排序',
-                url: '/md/algorithm/alg-sort-overview.html'
-              },
-              {
-                title: '算法思想',
-                url: '/md/algorithm/alg-core-divide-and-conquer.html'
-              },
-              {
-                title: '安全算法',
-                url: '/md/algorithm/alg-domain-security-degist.html'
-              },
-              {
-                title: '大数据处理',
-                url: '/md/algorithm/alg-domain-bigdata-overview.html'
-              },
-              {
-                title: '分布式算法',
-                url: '/md/algorithm/alg-domain-distribute-overview.html'
-              },
-              {
-                title: '负载均衡算法',
-                url: '/md/algorithm/alg-domain-load-balance.html'
-              },
-              {
-                title: '推荐算法',
-                url: '/md/algorithm/alg-domain-suggest.html'
-              },
-              {
-                title: '头脑风暴',
-                url: '/md/algorithm/alg-other-mind.html'
-              },
-            ]
-          },
-          {
-            title: '数据库相关',
-            list: [
-              {
-                title: '数据库原理',
-                url: '/md/db/sql/sql-db-howitworks.html'
-              },
-              {
-                title: 'SQL语言',
-                url: '/md/db/sql-lan/sql-lan.html'
-              },
-              {
-                title: 'MySQL相关',
-                url: '/md/db/sql-mysql/sql-mysql-theory.html'
-              },
-              {
-                title: 'MongoDB',
-                url: '/md/db/nosql-mongo/mongo-performance-improve.html'
-              },
-              {
-                title: 'ElasticSearch',
-                url: '/md/db/nosql-es/elasticsearch.html'
+                title: 'JVM 虚拟机',
+                url: '/md/java/interview/2020-11-25-面经手册 · 第19篇《Thread.start() ，它是怎么让线程启动的呢？》.html'
               }
             ]
           },
           {
-            title: '开发基础相关',
+            title: 'Spring',
             list: [
               {
-                title: '常用类库',
-                url: '/md/develop/package/dev-package-x-apache-common.html'
+                title: '手写 Spring',
+                url: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.html'
               },
               {
-                title: '单元测试',
-                url: '/md/develop/ut/dev-ut-x-junit.html'
+                title: 'SpringCloud 入门',
+                url: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.html'
               },
               {
-                title: '正则表达式',
-                url: '/md/develop/regex/dev-regex-all.html'
+                title: 'Mybatis 源码分析',
+                url: '/md/spring/source-code/2019-12-25-2019-12-25-[源码分析]Mybatis接口没有实现类为什么可以执行增删改查.html'
               },
               {
-                title: '网络协议',
-                url: '/md/develop/protocol/dev-protocol-overview.html'
+                title: '手写 Mybatis',
+                url: '/md/spring/source-code/2020-01-13-2020-01-13-[源码分析]基于jdbc实现一个Demo版的Mybatis.html'
               },
               {
-                title: '安全相关',
-                url: '/md/develop/security/dev-security-overview.html'
-              },
-              {
-                title: '常见重构技巧',
-                url: '/md/develop/refactor/dev-refactor-if-else.html'
+                title: 'Quartz 源码分析',
+                url: '/md/spring/source-code/2020-01-01-2020-01-01-[源码解析]Spring定时任务Quartz执行全过程源码解读.html'
               }
             ]
-          }
-          ,{
-            title: '架构相关',
+          },
+          {
+            title: '面向对象',
             list: [
-              {
-                title: '架构基础',
-                url: '/md/arch/arch-x-basic.html'
-              },
-              {
-                title: '架构视角',
-                url: '/md/arch/arch-x-view.html'
-              },
-              {
-                title: '架构演进',
-                url: '/md/arch/arch-x-evolution.html'
-              },
-              {
-                title: '架构模式和要素',
-                url: '/md/arch/arch-x-pattern.html'
-              },
-              {
-                title: '高并发之缓存',
-                url: '/md/arch/arch-y-cache.html'
-              },
-              {
-                title: '高并发之限流',
-                url: '/md/arch/arch-y-ratelimit.html'
-              },
-              {
-                title: '高并发之降级',
-                url: '/md/arch/arch-y-reduce.html'
-              },
-              {
-                title: '负载均衡',
-                url: '/md/arch/arch-y-loadbalance.html'
-              },
-              {
-                title: '容灾备份',
-                url: '/md/arch/arch-y-backup.html'
-              },
-              {
-                title: '架构安全',
-                url: '/md/arch/arch-x-security.html'
-              },
-              {
-                title: '秒杀系统设计',
-                url: '/md/arch/arch-example-seckill.html'
-              },
-              {
-                title: '架构案例',
-                url: '/md/arch/arch-example-goods-detail.html'
-              }
-            ]
-          }
-          ,{
-            title: '工具和部署',
-            list: [
-              {
-                title: '工具集合',
-                url: '/md/devops/tool/tool-list-overview.html'
-              },
-              {
-                title: 'IDE相关',
-                url: '/md/devops/tool/tool-ide.html'
-              },
-              {
-                title: 'Git',
-                url: '/md/devops/tool/tool-git.html'
-              },
-              {
-                title: 'Maven',
-                url: '/md/devops/tool/tool-maven.html'
-              },
-              {
-                title: 'Linux',
-                url: '/md/devops/linux/linux.html'
-              },
-              {
-                title: 'Docker',
-                url: '/md/devops/docker/docker-00-overview.html'
-              }
-            ]
-          }
-          ,{
-            title: '方法论',
-            list: [
-              {
-                title: 'SOLID',
-                url: '/md/dev-spec/spec/dev-th-solid.html'
-              },
-              {
-                title: 'CAP',
-                url: '/md/dev-spec/spec/dev-th-cap.html'
-              },
-              {
-                title: 'BASE',
-                url: '/md/dev-spec/spec/dev-th-base.html'
-              },
-              {
-                title: '开源协议',
-                url: '/md/dev-spec/spec/dev-opensource.html'
-              },
-              {
-                title: '代码规范',
-                url: '/md/dev-spec/code-style/code-style-alibaba.html'
-              },
               {
                 title: '设计模式',
-                url: '/md/dev-spec/pattern/1_overview.html'
+                url: '/md/develop/design-pattern/2020-05-20-重学Java设计模式《实战工厂方法模式》.html'
+              },
+              {
+                title: 'DDD 落地',
+                url: '/md/develop/framework/ddd/2019-10-15-DDD专题案例一《初识领域驱动设计DDD落地》.html'
+              },
+              {
+                title: '低代码',
+                url: '/md/develop/framework/scheme/2021-02-21-关于低代码编程的可持续性交付设计和分析.html'
+              },
+              {
+                title: '字节码插桩',
+                url: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.html'
+              },
+              {
+                title: '画架构图',
+                url: '/md/develop/framework/scheme/2021-02-28-工作两三年，整不明白架构图都画啥？.html'
+              },
+              {
+                title: '系统监控',
+                url: '/md/develop/framework/scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.html'
+              },
+              {
+                title: '中台',
+                url: '/md/develop/framework/scheme/2021-03-24-刚火了的中台转头就拆，一大波公司放不下又拿不起来！.html'
+              },
+              {
+                title: '研发规范',
+                url: '/md/develop/standard/2020-09-14-一次代码评审，差点过不了试用期！.html'
               }
             ]
-          },{
-            title: '产品和团队',
+          },
+          {
+            title: '中间件&插件',
             list: [
               {
-                title: '产品相关',
-                url: '/md/team/team-z-wechat.html'
+                title: 'Maven中央仓库',
+                url: '/md/assembly/middleware/2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.html'
               },
               {
-                title: '团队相关',
-                url: '/md/team/team-z-task-emergency.html'
+                title: '数据库路由设计',
+                url: '/md/assembly/middleware/2021-08-19-基于Hash散列，数据库路由组件设计.html'
               },
               {
-                title: '其它分享',
-                url: '/md/team/team-z-arch-future.html'
+                title: 'IDEA-Plugin',
+                url: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA%20插件怎么开发？.html'
               },
+            ]
+          },
+          {
+            title: 'Netty 4.x',
+            list: [
+              {
+                title: '基础入门',
+                url: '/md/netty/base/2019-07-30-netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》.html'
+              },
+              {
+                title: '中级拓展',
+                url: '/md/netty/expand/2019-08-16-netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》.html'
+              },
+              {
+                title: '高级应用',
+                url: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA%20插件怎么开发？.html'
+              },
+              {
+                title: 'RPC 实现',
+                url: '/md/netty/application/2019-09-01-手写RPC框架第一章《自定义配置xml》.html'
+              },
+              {
+                title: 'IM 仿微信',
+                url: '/md/netty/application/2021-08-17-给学习加点实践，开发一个分布式IM即时通信系统.html'
+              },
+            ]
+          },
+          {
+            title: '字节码编程',
+            list: [
+              {
+                title: 'ASM',
+                url: '/md/bytecode/asm/2020-03-25-[ASM字节码编程]如果你只写CRUD，那这种技术你永远碰不到.html'
+              },
+              {
+                title: 'Javassist',
+                url: '/md/bytecode/javassist/2020-04-19-字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》.html'
+              },
+              {
+                title: 'Byte-Buddy',
+                url: '/md/bytecode/byte-buddy/2020-05-08-字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》.html'
+              },
+              {
+                title: 'JavaAgent',
+                url: '/md/bytecode/agent/2019-07-10-基于JavaAgent的全链路监控一《嗨！JavaAgent》.html'
+              },
+              {
+                title: 'ASM-DOC',
+                url: '/md/bytecode/asm-document/1引言.html'
+              },
+            ]
+          },
+          {
+            title: 'PDF 下载',
+            linkMode: 0,
+            list: [
+              {
+                title: '《Java 面经手册》',
+                url: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
+              },
+              {
+                title: '《重学Java设计模式》',
+                url: 'https://download.csdn.net/download/Yao__Shun__Yu/19265731'
+              },
+              {
+                title: '《手撸 Spring》',
+                url: 'https://download.csdn.net/download/Yao__Shun__Yu/21009038'
+              },
+              {
+                title: '《字节码编程》',
+                url: 'https://download.csdn.net/download/Yao__Shun__Yu/12505051'
+              }
+            ]
+          },
+          {
+            title: '专栏小册',
+            linkMode: 0,
+            list: [
+              {
+                title: '《Netty+JavaFx实战：仿桌面版微信聊天》',
+                url: 'https://blog.csdn.net/generalfu/category_10400631.html'
+              },
+              {
+                title: '《SpringBoot 中间件设计和开发》',
+                url: 'https://juejin.cn/book/6940996508632219689'
+              },
+              {
+                title: '《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》',
+                url: 'https://t.zsxq.com/jAi2nUf'
+              }
+            ]
+          },
+          {
+            title: '知识星球',
+            linkMode: 0,
+            list: [
+              {
+                title: '码农会锁',
+                url: 'https://t.zsxq.com/jAi2nUf'
+              },
+              {
+                title: '实战项目',
+                url: 'https://codechina.csdn.net/KnowledgePlanet'
+              },
+              {
+                title: '视频课程',
+                url: 'https://t.zsxq.com/jAi2nUf'
+              },
+              {
+                title: '简历批阅',
+                url: 'https://t.zsxq.com/jAi2nUf'
+              }
             ]
           }
         ]
@@ -447,6 +381,4 @@ export default {
     a
       color: $accentColor
 
-  
-  
 </style>

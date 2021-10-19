@@ -6,13 +6,12 @@ tagline: by 付政委
 tag: [jvm,itstack-demo-jvm]
 ---
 
+# 用Java实现JVM第三章《解析class文件》附[classReader拆解]
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
-
-
-# 用Java实现JVM第三章《解析class文件》附[classReader拆解]
 
 ## 案例介绍
 按照如下虚拟机规范，本文主要介绍java版本jvm提取class字节码方式。在java中没有无符号类型，例如js中byte取值是0~256、java中是-128 ~ +127，所以在实际处理字节码时[虚拟机规范u1、u2、u4]，需要进行转换。

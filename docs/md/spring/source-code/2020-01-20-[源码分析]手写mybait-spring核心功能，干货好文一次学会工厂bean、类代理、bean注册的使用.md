@@ -8,6 +8,8 @@ excerpt: 你是否有怀疑过你媳妇把你钱没收了之后都存放到哪�
 lock: need
 ---
 
+# 源码分析 | 手写mybait-spring核心功能(干货好文一次学会工厂bean、类代理、bean注册的使用)
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
@@ -243,8 +245,8 @@ Process finished with exit code 0
 
 - MapperFactoryBean ｛给每一个没有实现类的接口都代理一个这样的类，用于操作数据库执行crud｝
 - MapperScannerConfigurer ｛扫描包下接口类，免去配置。这样是上图中核心配置类｝
-- SimpleMetadataReader ｛这个类完全和mybaits-spring中的类一样，为了解析class文件。如果你对类加载处理很好奇，可以阅读我的[《用java实现jvm虚拟机》](https://bugstack.cn/itstack-demo-jvm/itstack-demo-jvm.html)｝
-- SqlSessionFactoryBean {这个类核心内容就一件事，将我们写的demo版的mybaits结合进来}
+- SimpleMetadataReader ｛这个类完全和mybatis-spring中的类一样，为了解析class文件。如果你对类加载处理很好奇，可以阅读我的[《用JVM实现JVM》](#)｝
+- SqlSessionFactoryBean {这个类核心内容就一件事，将我们写的demo版的mybatis结合进来}
 
 在分析之前先看下我们实现主食是怎么食用的，如下；
 
@@ -263,7 +265,7 @@ Process finished with exit code 0
 
 ### 2. (类介绍)SqlSessionFactoryBean
 
-这类本身比较简单，主要实现了FactoryBean<SqlSessionFactory>, InitializingBean用于帮我们处理mybaits核心流程类的加载处理。（关于demo版的mybaits已经在上文中提供学习链接）
+这类本身比较简单，主要实现了 `FactoryBean<SqlSessionFactory>`, InitializingBean 用于帮我们处理mybatis核心流程类的加载处理。（关于demo版的mybatis已经在上文中提供学习链接）
 
 >SqlSessionFactoryBean.java 
 

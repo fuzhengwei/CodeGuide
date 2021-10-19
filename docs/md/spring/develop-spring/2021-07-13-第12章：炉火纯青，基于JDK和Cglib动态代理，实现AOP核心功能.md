@@ -1,7 +1,7 @@
 ---
 layout: post
 category: spring
-title: 第 12 章：基于JDK、Cglib实现AOP切面
+title: 第12章：基于JDK、Cglib实现AOP切面
 tagline: by 小傅哥
 tag: [java]
 excerpt: 为什么，你的代码总是糊到猪圈上？🎙怎么办，知道你在互联网，不知道你在哪个大厂。知道你在加班，不知道你在和哪个产品争辩。知道你在偷懒，不知道你要摸鱼到几点。知道你在搬砖，不知道你在盖哪个猪圈。

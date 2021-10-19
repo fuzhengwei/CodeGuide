@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(一)《服务集群注册与发现 Eureka》
+title: 第1章：服务集群注册与发现 Eureka
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
 excerpt: 对于能提供完整领域服务接口功能的RPC而言，例如；gRPC、Thrift、Dubbo等，服务的注册与发现都是核心功能中非常重要的一环，使得微服务得到统一管理。 

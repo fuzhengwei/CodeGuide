@@ -1,10 +1,10 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》
+title: 第4章：服务响应性能成功率监控 Hystrix
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
-excerpt: Hystrix Dashboard 可以定时收集接口调用信息；时长、次数、性能、熔断等各项指标来进行监控展示，但是我们每次监控都需要输入一个Hystrix 的链接例如：http://localhost:9001/actuator/hystrix.stream，但是这样并不利于我们去做整体服务的监控，并且在实际使用的过程中如果是几十到几百个接口那么这样的监控几乎达不到监控效果，就累死在监控路上了。因此我们需要使用到 Turbine 来进行监控信息聚合，可以按业务组定义配置方便监控。
+excerpt: Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
 lock: need
 ---
 
@@ -14,21 +14,20 @@ lock: need
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 ## 前言介绍
-Hystrix Dashboard 可以定时收集接口调用信息；时长、次数、性能、熔断等各项指标来进行监控展示，但是我们每次监控都需要输入一个Hystrix 的链接例如：http://localhost:9001/actuator/hystrix.stream，但是这样并不利于我们去做整体服务的监控，并且在实际使用的过程中如果是几十到几百个接口那么这样的监控几乎达不到监控效果，就累死在监控路上了。因此我们需要使用到 Turbine 来进行监控信息聚合，可以按业务组定义配置方便监控。
+Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
 
 ## 案例说明
-案例通过添加itstack-demo-springcloud-turbine工程模块，将单体监控汇总在统一页面进行管理，此时的监控模型，如图；
-![微信公众号：bugstack虫洞栈 & Turbine监控模型](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-5-1.png)
+结合上一章节案例，通过添加配置启动Hystrix Dashboard，来监控服务实时运行状态；服务信息、接口名、调用次数、响应时间、可用率、延迟、熔断状态等。
 
 ## 环境准备
-1. jdk 1.8、idea2018、Maven3
+1. jdk 1.8
 2. Spring Boot 2.0.6.RELEASE
 3. Spring Cloud Finchley.SR2
 
 ## 代码示例
 
 ```java
-itstack-demo-springcloud-05
+itstack-demo-springcloud-04
 ├── itstack-demo-springcloud-eureka-client
 │   └── src
 │       └── main
@@ -69,24 +68,16 @@ itstack-demo-springcloud-05
 │           │        └── FeignApplication.java
 │           └── resources   
 │               └── application.yml
-├── itstack-demo-springcloud-hystrix-ribbon
-│   └── src
-│       └── main
-│           ├── java
-│           │   └── org.itstack.demo
-│           │        ├── service
-│           │        │   └── RibbonService.java
-│           │        ├── web
-│           │        │   └── RibbonController.java      
-│           │        └── RibbonApplication.java
-│           └── resources   
-│               └── application.yml
-└── itstack-demo-springcloud-turbine
+└── itstack-demo-springcloud-hystrix-ribbon
     └── src
         └── main
             ├── java
-            │   └── org.itstack.demo   
-            │        └── TurbineApplication.java
+            │   └── org.itstack.demo
+            │        ├── service
+            │        │   └── RibbonService.java
+            │        ├── web
+            │        │   └── RibbonController.java      
+            │        └── RibbonApplication.java
             └── resources   
                 └── application.yml
 ```
@@ -492,75 +483,21 @@ eureka:
       defaultZone: http://localhost:7397/eureka/
 ```
 
-### itstack-demo-springcloud-turbine | 监控信息聚合服务
-
-通过配置汇总，将应用itstack-demo-springcloud-feign,itstack-demo-springcloud-ribbon，汇总监控。
-
->TurbineApplication.java | 通过注解@EnableTurbine配置启动Ribbon
-
-```java
-/**
- * 微信公众号：bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例
- * 论坛：http://bugstack.cn
- * Create by 付政委 on @2019
- */
-@EnableTurbine
-@SpringBootApplication
-public class TurbineApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(TurbineApplication.class, args);
-    }
-
-}
-```
-
->application.yml | eureka服务配置，从注册中心获取可用服务
-
-```java
-spring:
-  application:
-    name: itstack-demo-springcloud-turbine
-
-server:
-  port: 8080
-
-management:
-  port: 8081
-
-## 服务注册中心
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7397/eureka
-
-## 监控汇总配置，这里配置2个应用逗号隔开
-turbine:
-  app-config: itstack-demo-springcloud-feign,itstack-demo-springcloud-ribbon
-  cluster-name-expression: new String("default")
-  combine-host-port: true
-```
-
 ## 测试验证
 1. 启动itstack-demo-springcloud-hystrix-dashboard，访问；http://localhost:8989/hystrix
-![微信公众号：bugstack虫洞栈 & hystrix-dashboard](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-4-3.png)
-
-2. 分别启动如下系统模拟；
-	1. itstack-demo-springcloud-eureka-server  服务注册发现中心
-	2. itstack-demo-springcloud-eureka-client  测试接口提供方
-	3. itstack-demo-springcloud-hystrix-feign  接口调用方Feign
-	4. itstack-demo-springcloud-hystrix-ribbon 接口调用方Ribbon
-	5. itstack-demo-springcloud-turbine 	   监控信息汇总
-	
-3. 测试监控
-   1. 在hystrix-dashboard监控页面｛http://localhost:8989/hystrix｝，输入；http://localhost:8080/turbine.stream
-   2. 刷新访问两个调用方接口；http://localhost:9001/api/queryUserInfo?userId=111、http://localhost:9002/api/queryUserInfo?userId=111
-   3. 回看刚才的监控页面；http://localhost:8989/hystrix/monitor?stream=http%3A%2F%2Flocalhost%3A8080%2Fturbine.stream，已经可以看到监控信息汇总，如图；
-      ![微信公众号：bugstack虫洞栈 & 监控信息汇总](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-5-2.png)
+![微信公众号：bugstack虫洞栈 & hystrix-dashboard 监控入口](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-4-3.png)
+2. 测试监控
+    1. 分别启动itstack-demo-springcloud-eureka-client、itstack-demo-springcloud-hystrix-feign与itstack-demo-springcloud-hystrix-ribbon
+    2. http://localhost:8989/hystrix入口处填写；http://localhost:9001/actuator/hystrix.stream ｛也就是fegin调用接口｝
+    3. 刷新调用接口；http://localhost:9001/api/queryUserInfo?userId=111，观察监控页面｛过程中讲服务提供方关闭｝
+![微信公众号：bugstack虫洞栈 & 监控面板](https://bugstack.cn/assets/images/pic-content/2019/11/springcloud-4-4.png)
+3. 也可以直接访问；http://localhost:9001/actuator/hystrix.stream，会收到ping监控数据
 
 ## 综上总结
-1. 通过Turbine服务我们可以将监控信息汇总到一起进行查看，这样更加方便实际应用。
-2. SpringCloud 到现在的案例已经使用到了很多服务模块，它确实是一套有序集合框架，将各家优秀功能服务集成，方便使用。
-3. SpringBoot 、 SpringCloud，在开发一些中小型独立服务非常边界，对于一些超大型以外的公司非常合适。当然并不是一线互联网就不使用，因为这里面还牵扯到很多对应的替代产品，比如Dubbo、网关、全链路监控、路由等等，所以需要根据不同业务进行技术选型，不要被技术限制。
+1. hystrix-dashboard 可以非常方便的实时监控系统健康度
+2. 实际开发过程中还有很多其他的监控系统，包括一些调用链路、系统可用率、jvm、gc等等
+3. 监控数据常常需要日志一起配合使用，才能更好的做到监控并查阅，尽快解决异常问题
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
+
+

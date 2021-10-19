@@ -1,7 +1,7 @@
 ---
 layout: post
 category: itstack-demo-springcloud
-title: Spring Cloud(七)《基于RabbitMQ消息总线方式刷新配置服务》
+title: 第7章：基于RabbitMQ消息总线方式刷新配置服务
 tagline: by 付政委
 tag: [spring,itstack-demo-springcloud]
 excerpt: 在微服务架构中，为了更方便的向微服务实例广播消息，我们通常会构建一个消息中心，让所有的服务实例都连接上来，而该消息中心所发布的消息都会被微服务实例监听和消费，我们把这种机制叫做消息总线(SpringCloud Bus)

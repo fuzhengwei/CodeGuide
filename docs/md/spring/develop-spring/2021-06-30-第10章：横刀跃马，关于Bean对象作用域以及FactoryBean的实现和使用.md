@@ -1,7 +1,7 @@
 ---
 layout: post
 category: spring
-title: 第 10 章：对象作用域和FactoryBean
+title: 第10章：对象作用域和FactoryBean
 tagline: by 小傅哥
 tag: [java]
 excerpt: 老司机，你的砖怎么搬的那么快？是有劲？是技巧？是后门？总之，那个老司机的代码总是可以很快的完成产品每次新增的需求，就像他俩是一家似的！
