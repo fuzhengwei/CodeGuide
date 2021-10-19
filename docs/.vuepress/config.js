@@ -196,6 +196,40 @@ module.exports = {
                         ]
                     },
                     {
+                        text: '中间件|插件',
+                        items: [
+                            {
+                                text: 'SpringBoot 中间件开发',
+                                link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
+                            },
+                            {
+                                text: 'IDEA-Plugin',
+                                link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Netty 4.x',
+                        items: [
+                            {
+                                text: '基础入门篇',
+                                link: '/md/netty/base/2019-07-30-netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》.md'
+                            },
+                            {
+                                text: '中级拓展篇',
+                                link: '/md/netty/expand/2019-08-16-netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》.md'
+                            },
+                            {
+                                text: '高级应用篇',
+                                link: '/md/netty/application/2019-09-01-手写RPC框架第一章《自定义配置xml》.md'
+                            },
+                            {
+                                text: '源码分析篇',
+                                link: '/md/netty/source-code/2019-09-10-netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》.md'
+                            },
+                        ]
+                    },
+                    {
                         text: '字节码编程',
                         items: [
                             {
@@ -248,6 +282,8 @@ module.exports = {
                     "/md/develop/design-pattern/": genBarDevelopDesignPattern(),
                     "/md/develop/framework/": genBarDevelopFramework(),
                     "/md/develop/standard/": genBarDevelopStandard(),
+                    "/md/assembly/": genBarAssembly(),
+                    "/md/netty/": genBarNetty(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
@@ -571,6 +607,102 @@ function genBarDevelopStandard() {
                 "2021-09-15-还重构？就你那代码只能铲了重写！.md",
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
                 "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md"
+            ]
+        }
+    ]
+}
+
+// Assembly
+function genBarAssembly() {
+    return [
+        {
+            title: "SpringBoot 中间件开发",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md",
+                "middleware/2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.md",
+                "middleware/2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
+                "middleware/2021-08-19-基于Hash散列，数据库路由组件设计.md"
+            ]
+        },
+        {
+            title: "IDEA-Plugin",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md"
+            ]
+        }
+    ]
+}
+
+// netty 4.x
+function genBarNetty() {
+    return [
+        {
+            title: "基础入门篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "base/2019-07-30-netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》.md",
+                "base/2019-08-01-netty案例，netty4.1基础入门篇一《嗨！NettyServer》.md",
+                "base/2019-08-05-netty案例，netty4.1基础入门篇二《NettyServer接收数据》.md",
+                "base/2019-08-06-netty案例，netty4.1基础入门篇三《NettyServer字符串解码器》.md",
+                "base/2019-08-07-netty案例，netty4.1基础入门篇四《NettyServer收发数据》.md",
+                "base/2019-08-08-netty案例，netty4.1基础入门篇五《NettyServer字符串编码器》.md",
+                "base/2019-08-09-netty案例，netty4.1基础入门篇六《NettyServer群发消息》.md",
+                "base/2019-08-10-netty案例，netty4.1基础入门篇七《嗨！NettyClient》.md",
+                "base/2019-08-11-netty案例，netty4.1基础入门篇八《NettyClient半包粘包处理、编码解码处理、收发数据方式》.md",
+                "base/2019-08-12-netty案例，netty4.1基础入门篇九《自定义编码解码器，处理半包、粘包数据》.md",
+                "base/2019-08-13-netty案例，netty4.1基础入门篇十《关于ChannelOutboundHandlerAdapter简单使用》.md",
+                "base/2019-08-14-netty案例，netty4.1基础入门篇十一《netty udp通信方式案例Demo》.md",
+                "base/2019-08-15-netty案例，netty4.1基础入门篇十二《简单实现一个基于Netty搭建的Http服务》.md"
+            ]
+        },
+        {
+            title: "中级拓展篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "expand/2019-08-16-netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》.md",
+                "expand/2019-08-17-netty案例，netty4.1中级拓展篇二《Netty使用Protobuf传输数据》.md",
+                "expand/2019-08-18-netty案例，netty4.1中级拓展篇三《Netty传输Java对象》.md",
+                "expand/2019-08-19-netty案例，netty4.1中级拓展篇四《Netty传输文件、分片发送、断点续传》.md",
+                "expand/2019-08-20-netty案例，netty4.1中级拓展篇五《基于Netty搭建WebSocket，模仿微信聊天页面》.md",
+                "expand/2019-08-21-netty案例，netty4.1中级拓展篇六《SpringBoot+Netty+Elasticsearch收集日志信息数据存储》.md",
+                "expand/2019-08-22-netty案例，netty4.1中级拓展篇七《Netty请求响应同步通信》.md",
+                "expand/2019-08-23-netty案例，netty4.1中级拓展篇八《Netty心跳服务与断线重连》.md",
+                "expand/2019-08-24-netty案例，netty4.1中级拓展篇九《Netty集群部署实现跨服务端通信的落地方案》.md",
+                "expand/2019-08-25-netty案例，netty4.1中级拓展篇十《Netty接收发送多种协议消息类型的通信处理方案》.md",
+                "expand/2019-08-26-netty案例，netty4.1中级拓展篇十一《Netty基于ChunkedStream数据流切块传输》.md",
+                "expand/2019-08-27-netty案例，netty4.1中级拓展篇十二《Netty流量整形数据流速率控制分析与实战》.md",
+                "expand/2019-08-28-netty案例，netty4.1中级拓展篇十三《Netty基于SSL实现信息传输过程中双向加密验证》.md"
+            ]
+        },
+        {
+            title: "高级应用篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "application/2019-09-01-手写RPC框架第一章《自定义配置xml》.md",
+                "application/2019-09-02-手写RPC框架第二章《netty通信》.md",
+                "application/2019-09-03-手写RPC框架第三章《RPC中间件》.md",
+                "application/2019-12-01-websocket与下位机通过netty方式通信传输行为信息.md",
+                "application/2021-08-17-给学习加点实践，开发一个分布式IM即时通信系统.md",
+            ]
+        },
+        {
+            title: "源码分析篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "source-code/2019-09-10-netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》.md",
+                "source-code/2019-09-11-netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》.md",
+                "source-code/2019-09-12-netty案例，netty4.1源码分析篇三《Netty服务端初始化过程以及反射工厂的作用》.md",
+                "source-code/2019-09-13-netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》.md",
+                "source-code/2019-09-14-netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》.md",
+                "source-code/2019-09-15-netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》.md",
             ]
         }
     ]
