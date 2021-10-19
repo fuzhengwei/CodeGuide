@@ -8,6 +8,11 @@ excerpt: Hystrix Dashboard 可以定时收集接口调用信息；时长、次�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 Hystrix Dashboard 可以定时收集接口调用信息；时长、次数、性能、熔断等各项指标来进行监控展示，但是我们每次监控都需要输入一个Hystrix 的链接例如：http://localhost:9001/actuator/hystrix.stream，但是这样并不利于我们去做整体服务的监控，并且在实际使用的过程中如果是几十到几百个接口那么这样的监控几乎达不到监控效果，就累死在监控路上了。因此我们需要使用到 Turbine 来进行监控信息聚合，可以按业务组定义配置方便监控。
 
@@ -557,11 +562,5 @@ turbine:
 1. 通过Turbine服务我们可以将监控信息汇总到一起进行查看，这样更加方便实际应用。
 2. SpringCloud 到现在的案例已经使用到了很多服务模块，它确实是一套有序集合框架，将各家优秀功能服务集成，方便使用。
 3. SpringBoot 、 SpringCloud，在开发一些中小型独立服务非常边界，对于一些超大型以外的公司非常合适。当然并不是一线互联网就不使用，因为这里面还牵扯到很多对应的替代产品，比如Dubbo、网关、全链路监控、路由等等，所以需要根据不同业务进行技术选型，不要被技术限制。
-
-------------
-
-上一篇：[Spring Cloud(四)《服务响应性能成功率监控 Hystrix》](/itstack-demo-springcloud/2019/11/04/Spring-Cloud(%E5%9B%9B)-%E6%9C%8D%E5%8A%A1%E5%93%8D%E5%BA%94%E6%80%A7%E8%83%BD%E6%88%90%E5%8A%9F%E7%8E%87%E7%9B%91%E6%8E%A7-Hystrix.html)
-
-下一篇：[Spring Cloud(六)《基于github webhook动态刷新服务配置》](/itstack-demo-springcloud/2019/11/06/Spring-Cloud(%E5%85%AD)-%E5%9F%BA%E4%BA%8EGithub-Webhook%E5%8A%A8%E6%80%81%E5%88%B7%E6%96%B0%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！

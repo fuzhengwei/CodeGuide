@@ -8,6 +8,11 @@ excerpt: Spring Cloud Zuul 路由是微服务架构的不可或缺的一部分�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 为什么会有路由层？因为在微服务架构设计中，往往并不会直接将服务暴漏给调用端，而是通过调用路由层进行业务隔离，以达到不同的业务调用对应的服务模块。
 
@@ -493,10 +498,6 @@ zuul:
 1. zuul目前SpringCloud结合的是zuul 1， Netflix 已经发布了 Zuul 2但目前还未整合
 2. SpringCloud还有自己的网关服务；Spring Cloud Gateway
 3. 通过最上层的路由功能可以很方便的隔离业务，但是路由层一定是高可用的，否则路由瘫痪整个服务将不可用
-
-------------
-
-上一篇：[Spring Cloud(七)《基于RabbitMQ消息总线方式刷新配置服务》](/itstack-demo-springcloud/2019/11/07/Spring-Cloud(%E4%B8%83)-%E5%9F%BA%E4%BA%8ERabbitMQ%E6%B6%88%E6%81%AF%E6%80%BB%E7%BA%BF%E6%96%B9%E5%BC%8F%E5%88%B7%E6%96%B0%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
   

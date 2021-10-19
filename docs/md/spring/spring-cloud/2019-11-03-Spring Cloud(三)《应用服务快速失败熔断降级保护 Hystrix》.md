@@ -8,6 +8,11 @@ excerpt: 在互联网开发中经常会听到雪崩效应，比如某明星发�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 在互联网开发中经常会听到雪崩效应，比如某明星发一些状态某猿就要回去加班了！那么为了应对雪崩我们经常会进行服务扩容、添加缓存、优化流程但往往突发的事件依然有击穿缓存、应用负载、数据库IO、网络异常等等带来的风险，所以一些常见的做法有服务降级、限流、熔断，在逐步恢复系统可用率来保护系统。
 
@@ -450,12 +455,6 @@ queryUserInfo by userId：1024 err！from ribbon hystrix From Ribbon
 1. Spring Cloud 将Hystrix整合后提供非常简单的使用方式，并且提供了丰富的配置可以满足实际应用开发
 2. Hystrix Git开源代码；https://github.com/Netflix/Hystrix
 3. 在熔断降级就像是电闸的保险丝，可以在非常重要的时刻快速失败保护系统
-
-------------
-
-上一篇：[Spring Cloud(二)《服务提供与负载均衡调用 Eureka》](/itstack-demo-springcloud/2019/11/02/Spring-Cloud(%E4%BA%8C)-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E4%B8%8E%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E8%B0%83%E7%94%A8-Eureka.html)
-
-下一篇：[Spring Cloud(四)《服务响应性能成功率监控 Hystrix》](/itstack-demo-springcloud/2019/11/04/Spring-Cloud(%E5%9B%9B)-%E6%9C%8D%E5%8A%A1%E5%93%8D%E5%BA%94%E6%80%A7%E8%83%BD%E6%88%90%E5%8A%9F%E7%8E%87%E7%9B%91%E6%8E%A7-Hystrix.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
 

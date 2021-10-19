@@ -10,6 +10,11 @@ lock: need
 
 # 基于JavaAgent的全链路监控四《JVM内存与GC信息》
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+>沉淀、分享、成长，让自己和他人都能有所收获！
+
 ## 案例简述
 除了监控java方法的执行耗时，我们还需要获取应用实例的jvm内存与gc信息，以实时把控我们的服务器性能是否在安全范围。监控jvm内存与gc信息是非常重要的，尤其是在大促以及微博火热爆点的时候，我们需要根据监控信息进行扩容，以保证系统稳定。
 
@@ -171,11 +176,6 @@ name: PS MarkSweep	 count:0	 took:0	 pool name:[PS Eden Space, PS Survivor Space
 
 Process finished with exit code -1
 ```
-------------
-
-上一篇：[基于JavaAgent的全链路监控三《ByteBuddy操作监控方法字节码》](/itstack-demo-agent/2019/07/12/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%89-ByteBuddy%E6%93%8D%E4%BD%9C%E7%9B%91%E6%8E%A7%E6%96%B9%E6%B3%95%E5%AD%97%E8%8A%82%E7%A0%81.html)
-
-下一篇：[基于JavaAgent的全链路监控五《ThreadLocal链路追踪》](/itstack-demo-agent/2019/07/14/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%94-ThreadLocal%E9%93%BE%E8%B7%AF%E8%BF%BD%E8%B8%AA.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**基于JavaAgent的全链路监控**」获取本文源码&更多原创专题案例！
 

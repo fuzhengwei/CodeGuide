@@ -8,7 +8,10 @@ excerpt: 你是否有怀疑过你媳妇把你钱没收了之后都存放到哪�
 lock: need
 ---
 
->小傅哥 & [https://bugstack.cn](https://bugstack.cn) <br/>沉淀、分享、成长，让自己和他人都能有所收获。专注于原创专题案例编写，目前已完成的专题有；Netty4.x实战专题案例、用Java实现JVM、基于JavaAgent的全链路监控、手写RPC框架、架构设计专题案例、源码分析等。<br/><br/>你用剑🗡、我用刀🔪，好的代码都很烧，望你不吝出招！
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 ## 一、前言介绍
 

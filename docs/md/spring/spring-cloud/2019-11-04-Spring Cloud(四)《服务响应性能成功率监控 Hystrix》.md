@@ -8,6 +8,11 @@ excerpt: Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时间窗内的请求调用情况来判断并操作断路器的链接和熔断状态保护系统快速失败服务降级，而这些请求情况的指标信息都是 HystrixCommand 和 HystrixObservableCommand 服务实例在执行过程中记录的重要指标信息，它们除了 Hystrix 断路器实现中使用之外，对于系统运维也有非常大的帮助。这些指标信息会以 “滚动时间窗” 与 “桶” 结合的方式进行汇总，并在内存中驻留一段时间，以供内部或外部进行查询使用，Hystrix Dashboard 就是这些指标内容的消费者之一。
 
@@ -492,12 +497,6 @@ eureka:
 1. hystrix-dashboard 可以非常方便的实时监控系统健康度
 2. 实际开发过程中还有很多其他的监控系统，包括一些调用链路、系统可用率、jvm、gc等等
 3. 监控数据常常需要日志一起配合使用，才能更好的做到监控并查阅，尽快解决异常问题
-
-------------
-
-上一篇：[Spring Cloud(三)《应用服务快速失败熔断降级保护 Hystrix》](/itstack-demo-springcloud/2019/11/03/Spring-Cloud(%E4%B8%89)-%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%BF%AB%E9%80%9F%E5%A4%B1%E8%B4%A5%E7%86%94%E6%96%AD%E9%99%8D%E7%BA%A7%E4%BF%9D%E6%8A%A4-Hystrix.html)
-
-下一篇：[Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》](/itstack-demo-springcloud/2019/11/05/Spring-Cloud(%E4%BA%94)-Turbine-%E7%9B%91%E6%8E%A7%E4%BF%A1%E6%81%AF%E8%81%9A%E5%90%88%E5%B1%95%E7%A4%BA-Hystrix.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
 

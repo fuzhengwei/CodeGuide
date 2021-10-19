@@ -238,16 +238,4 @@ Process finished with exit code 0
 
 - 在这一章节的实现过程来看，只要知道相关API就可以很方便的解决我们的监控方法信息的诉求，他所处理的方式非常易于使用。而在本章节中也要学会几个关键知识点；委托、方法注解、返回值注解以及入参注解。
 - 当我们学会了监控的核心功能，在后续与`Javaagent`结合使用时就可以很容易扩展进去，而不是看到了陌生的代码。对于这一部分非入侵的入侵链路监控，也是目前比较热门的话题和需要探索的解决方案，就像最近阿里云也举办了类似的编程挑战赛。[首届云原生编程挑战赛1：实现一个分布式统计和过滤的链路追踪](https://tianchi.aliyun.com/competition/entrance/231790/introduction)    
-- 关于字节码编程专栏已经完成了大部分文章的编写，包括如下文章；(**学习链接**：[`https://bugstack.cn/itstack/itstack-demo-bytecode.html`](https://bugstack.cn/itstack/itstack-demo-bytecode.html))
-  
-    - [`字节码编程，Byte-buddy篇一《基于Byte Buddy语法创建的第一个HelloWorld》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`字节码编程，Javassist篇五《使用Bytecode指令码生成含有自定义注解的类和方法》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`字节码编程，Javassist篇四《通过字节码插桩监控方法采集运行时入参出参和异常信息》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`字节码编程，Javassist篇三《使用Javassist在运行时重新加载类「替换原方法输出不一样的结果」》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`字节码编程，Javassist篇二《定义属性以及创建方法时多种入参和出参类型的使用》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`字节码编程，Javassist篇一《基于javassist的第一个案例helloworld》`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`ASM字节码编程 | 用字节码增强技术给所有方法加上TryCatch捕获异常并输出`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`ASM字节码编程 | JavaAgent+ASM字节码插桩采集方法名称以及入参和出参结果并记录方法耗时`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-    - [`ASM字节码编程 | 如果你只写CRUD，那这种技术你永远碰不到`](https://bugstack.cn/itstack/itstack-demo-bytecode.html)
-
 - **最佳的学习体验和方式**是，在学习和探索的过程中不断的对知识进行深度的学习，通过一个个实践的方式让知识成结构化和体系的建设。    

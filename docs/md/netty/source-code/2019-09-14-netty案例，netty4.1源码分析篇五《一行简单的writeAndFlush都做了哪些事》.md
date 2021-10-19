@@ -7,6 +7,13 @@ tag: [netty,itstack-demo-netty-4]
 lock: need
 ---
 
+# netty案例，netty4.1源码分析篇五《一行简单的writeAndFlush都做了哪些事》
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 对于使用netty的小伙伴来说，ctx.writeAndFlush()再熟悉不过了，它可以将我们的消息发送出去。那么它都执行了那些行为呢，是怎么将消息发送出去的呢。
 
@@ -385,12 +392,6 @@ static final int CHANNEL_OUTBOUND_BUFFER_ENTRY_OVERHEAD =
 addMessage方法主要就是将请求写出的数据封装为Entry对象，然后加入到tailEntry和unflushedEntry中。
 然后调用『incrementPendingOutboundBytes(entry.pendingSize, false);』对totalPendingSize属性以及unwritable字段做调整。
 totalPendingSize字段记录了该ChannelOutboundBuffer中所有带发送Entry对象的占的总内存大小和所有带发送数据的大小。unwritable用来标示当前该Channel要发送的数据是否已经超过了设定 or 默认的WriteBufferWaterMark的high值。如果当前操作导致了待写出的数据（包括Entry对象大小以及真实需要传输数据的大小）超过了设置写缓冲区的高水位，那么将会触发fireChannelWritabilityChanged事件。
-
-------------
-
-上一篇：[netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》](/itstack-demo-netty-4/2019/09/13/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E5%9B%9B-ByteBuf%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9C%A8%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E4%B8%AD%E7%9A%84%E5%89%96%E6%9E%90.html)
-
-下一篇：[netty案例，netty4.1源码分析篇六《Netty异步架构监听类Promise源码分析》](/itstack-demo-netty-4/2019/09/15/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E5%85%AD-Netty%E5%BC%82%E6%AD%A5%E6%9E%B6%E6%9E%84%E7%9B%91%E5%90%AC%E7%B1%BBPromise%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**rpc案例源码**」获取本文源码&更多原创专题案例！
 

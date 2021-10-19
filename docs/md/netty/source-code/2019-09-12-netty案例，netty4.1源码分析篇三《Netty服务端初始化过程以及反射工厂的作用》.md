@@ -7,6 +7,13 @@ tag: [netty,itstack-demo-netty-4]
 lock: need
 ---
 
+# netty案例，netty4.1源码分析篇三《Netty服务端初始化过程以及反射工厂的作用》
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 本章节主要分析Netty在启动过程中的配置内容以及最终调用bind方法是如何启动Netty服务端的。
 
 >Netty服务启动模板代码
@@ -233,12 +240,6 @@ ServerSocketChannelImpl(SelectorProvider sp) throws IOException {
 	this.state = ST_INUSE;
 }
 ```
-
-------------
-
-上一篇：[netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》](/itstack-demo-netty-4/2019/09/11/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%BA%8C-ServerBootstrap%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%BB%91%E5%AE%9A%E5%90%AF%E5%8A%A8.html)
-
-下一篇：[netty案例，netty4.1源码分析篇四《ByteBuf的数据结构在使用方式中的剖析》](/itstack-demo-netty-4/2019/09/13/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E5%9B%9B-ByteBuf%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%9C%A8%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F%E4%B8%AD%E7%9A%84%E5%89%96%E6%9E%90.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**rpc案例源码**」获取本文源码&更多原创专题案例！
 

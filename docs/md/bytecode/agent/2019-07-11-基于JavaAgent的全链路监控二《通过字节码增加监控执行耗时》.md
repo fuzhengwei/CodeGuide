@@ -10,6 +10,11 @@ lock: need
 
 # 基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+>沉淀、分享、成长，让自己和他人都能有所收获！
+
 ## 案例简述
 通过上一章节的介绍《嗨！JavaAgent》，我们已经知道通过配置-javaagent:文件.jar后，在java程序启动时候会执行premain方法。接下来我们使用javassist字节码增强的方式，来监控方法程序的执行耗时。
 
@@ -225,10 +230,5 @@ transform: [org.itstack.demo.test.ApiTest]
 hi agent
 method:[echoHi] cost:[294845ns]
 ```
-------------
-
-上一篇：[基于JavaAgent的全链路监控一《嗨！JavaAgent》](/itstack-demo-agent/2019/07/10/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%80-%E5%97%A8-JavaAgent.html)
-
-下一篇：[基于JavaAgent的全链路监控三《ByteBuddy操作监控方法字节码》](/itstack-demo-agent/2019/07/12/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%89-ByteBuddy%E6%93%8D%E4%BD%9C%E7%9B%91%E6%8E%A7%E6%96%B9%E6%B3%95%E5%AD%97%E8%8A%82%E7%A0%81.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**基于JavaAgent的全链路监控**」获取本文源码&更多原创专题案例！

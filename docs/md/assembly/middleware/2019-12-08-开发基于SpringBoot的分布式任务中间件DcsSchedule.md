@@ -8,7 +8,12 @@ excerpt: 如果我们的任务是比较大型的，比如；定时跑批T+1结�
 lock: need
 ---
 
->公众号：bugstack虫洞栈 | 沉淀、分享、成长，让自己和他人都能有所收获！
+# 开发基于SpringBoot的分布式任务中间件DcsSchedule(为开源贡献力量)
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 - 分布式任务DcsSchedule中间件，Github地址：[https://github.com/fuzhengwei/schedule-spring-boot-starter](https://github.com/fuzhengwei/schedule-spring-boot-starter)
 - 分布式任务DcsSchedule控制台，Github地址：[https://github.com/fuzhengwei/itstack-middleware-control](https://github.com/fuzhengwei/itstack-middleware-control)
@@ -426,5 +431,3 @@ public Object doRouter(ProceedingJoinPoint jp) throws Throwable {
 1. 要开发要实现的还很多，一个周末也干不完所有的！而且需要有想法的小猿/媛伴一起加入！🙂 😀 😏
 2. 这里没有讲解分布式任务中间件控制平台itstack-middleware-control，因为比较简单只是使用了中间件的zk功能接口做展示和操作。
 3. 中间件开发是一件非常有意思的事情，不同于业务它更像易筋经，寺庙老僧，剑走偏锋，驰骋纵横，骚招满屏。
-
----

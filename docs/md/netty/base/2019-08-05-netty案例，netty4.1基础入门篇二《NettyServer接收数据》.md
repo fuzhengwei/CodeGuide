@@ -7,6 +7,13 @@ tag: [netty,itstack-demo-netty-1]
 lock: need
 ---
 
+# netty案例，netty4.1基础入门篇二《NettyServer接收数据》
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 繁事都需要一个简单的入门的点，尤其学习程序员行业的知识最快的方式是先运行期helloworld，往往这样一个简单能运行的例子，就能解除你当前遇到的所有疑惑。切记，对于一个初学者，不建议上来就研究理论，实操往往更重要。本章节介绍使用netty端写一个能接收数据的socketServer服务端，通过实现通道适配器ChannelInboundHandlerAdapter.channelRead获取并并解析接收数据。
 
@@ -144,12 +151,6 @@ Mon Aug 05 14:15:35 CST 2019接收到消息：你好，服务端。我是<bugsta
 
 Process finished with exit code -1
 ```
-
-------------
-
-上一篇：[netty案例，netty4.1基础入门篇一《嗨！NettyServer》](/itstack-demo-netty-1/2019/07/30/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6-%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO-NIO-AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0.html)
-
-下一篇：[netty案例，netty4.1基础入门篇三《NettyServer字符串解码器》](/itstack-demo-netty-1/2019/08/06/netty%E6%A1%88%E4%BE%8B-netty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E4%B8%89-NettyServer%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%A7%A3%E7%A0%81%E5%99%A8.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！
 

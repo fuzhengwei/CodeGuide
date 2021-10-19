@@ -8,6 +8,8 @@ excerpt: 小册16个中间件实现，包括测试工程等共计30个代码库�
 lock: need
 ---
 
+# 《SpringBoot 中间件设计和开发》| 对，小傅哥的掘金小册上线啦，这次教你造火箭！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

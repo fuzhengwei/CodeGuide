@@ -8,6 +8,8 @@ excerpt: 开卷面大厂，分析20家一线互联网招聘岗位。从基本功
 lock: need
 ---
 
+# BATJTMD，大厂招聘，都招什么样Java程序员？
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/-O2Apy-llourtjQPbHyAiA](https://mp.weixin.qq.com/s/-O2Apy-llourtjQPbHyAiA)
@@ -312,10 +314,3 @@ lock: need
 - 任何时候都需要主动学习、有技术眼光和魄力，既能吹得了造火箭的牛、也能落地出实际的产物、技能帮公司实现价值，也能让自己有一定的收入。才是你应该永久追求的目标，和突破瓶颈的价值。
 - 少一些躁动、少一些不安，多一些沉稳、多一些沉淀，只要你愿意积累就一定会突破瓶颈，都是这条路上的打工人，不要总让自己的大脑被别人牵着走，也不要活在别人嘴里。*奥利给😎* **阅读原文，进入知识宝藏！**
 
-## 六、系列推荐
-
-- [大学四年到毕业工作5年的学习路线资源汇总](https://bugstack.cn/itstack-code-life/2020/03/31/%E5%A4%A7%E5%AD%A6%E5%9B%9B%E5%B9%B4%E5%88%B0%E6%AF%95%E4%B8%9A%E5%B7%A5%E4%BD%9C5%E5%B9%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.html)
-- [工作两年简历写成这样，谁要你呀！](https://bugstack.cn/itstack-code-life/2020/04/11/%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7-%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80.html)
-- [讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训！](https://bugstack.cn/itstack-code-life/2020/04/30/%E8%AE%B2%E9%81%93%E7%90%86-%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98-%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.html)
-- [用两年时间从外包走进互联网大厂](https://bugstack.cn/itstack-code-life/2020/08/25/13%E5%B9%B4%E6%AF%95%E4%B8%9A-%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
-- [一次代码评审，差点过不了试用期！](https://bugstack.cn/itstack-demo-any/2020/09/14/%E4%B8%80%E6%AC%A1%E4%BB%A3%E7%A0%81%E8%AF%84%E5%AE%A1-%E5%B7%AE%E7%82%B9%E8%BF%87%E4%B8%8D%E4%BA%86%E8%AF%95%E7%94%A8%E6%9C%9F.html)

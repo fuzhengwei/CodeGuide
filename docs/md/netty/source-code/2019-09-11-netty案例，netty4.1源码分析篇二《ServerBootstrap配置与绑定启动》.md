@@ -7,6 +7,13 @@ tag: [netty,itstack-demo-netty-4]
 lock: need
 ---
 
+# netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 结合上一章节介绍NioEventLoopGroup，本章节继续介绍ServerBootstrap相关代码。
 
 >启动NettyServer的模版代码
@@ -339,11 +346,5 @@ private static class ServerBootstrapAcceptor extends ChannelInboundHandlerAdapte
 ** ServerBootstrapAcceptor主要实现了以下方法： **
 - channelRead()：设置子连接的ChannelHandler、设置子连接的Channel选项，设置子连接的Channel属性，将子连接注册的child对应的EventLoop中（即workerGroup的EventLoop中）；
 - exceptionCaught()：若ServerSocketChannel在accept子连接时抛出异常，若ServerSocketChannel的autoRead为true，则设置其为false，即不允许自动接收客户端连接，并延迟1s后再设置其为true，使其允许自动接收客户端连接；
-
-------------
-
-上一篇：[netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》](/itstack-demo-netty-4/2019/09/10/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%B8%80-NioEventLoopGroup%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.html)
-
-下一篇：[netty案例，netty4.1源码分析篇三《Netty服务端初始化过程以及反射工厂的作用》](/itstack-demo-netty-4/2019/09/12/netty%E6%A1%88%E4%BE%8B-netty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%B8%89-Netty%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%88%9D%E5%A7%8B%E5%8C%96%E8%BF%87%E7%A8%8B%E4%BB%A5%E5%8F%8A%E5%8F%8D%E5%B0%84%E5%B7%A5%E5%8E%82%E7%9A%84%E4%BD%9C%E7%94%A8.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**rpc案例源码**」获取本文源码&更多原创专题案例！

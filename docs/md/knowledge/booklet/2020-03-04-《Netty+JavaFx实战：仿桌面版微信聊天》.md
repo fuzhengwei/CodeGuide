@@ -7,6 +7,8 @@ tag: [netty,itstack-demo-netty-3]
 excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。
 ---
 
+# 《Netty+JavaFx实战：仿桌面版微信聊天》
+
 ## 一、前言
 
 >本项目是作者小傅哥使用```JavaFx```、```Netty4.x```、```SpringBoot```、```Mysql```等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。如果本项目能为您提供帮助，请给予支持(关注、点赞、分享)！

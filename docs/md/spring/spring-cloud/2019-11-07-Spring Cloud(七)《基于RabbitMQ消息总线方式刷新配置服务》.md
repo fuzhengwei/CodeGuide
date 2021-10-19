@@ -8,6 +8,11 @@ excerpt: 在微服务架构中，为了更方便的向微服务实例广播消�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 >在微服务架构中，为了更方便的向微服务实例广播消息，我们通常会构建一个消息中心，让所有的服务实例都连接上来，而该消息中心所发布的消息都会被微服务实例监听和消费，我们把这种机制叫做消息总线(SpringCloud Bus)
 
@@ -309,11 +314,5 @@ spring:
 1. Spring Cloud Bus 可以更加方便的控制全局信息，用于统一刷新并通过MQ方式通过客户端
 2. 如果你的内网想进行Git的Webhooks配置，可以使用http://natapp.cn进行内网穿透映射，他会给你提供免费外网调用服务
 3. 消息总线方式不只是应用于配置刷新，在一起同步信息请求中都可以使用，以及自己的项目架设上
-
-------------
-
-上一篇：[Spring Cloud(六)《基于github webhook动态刷新服务配置》](/itstack-demo-springcloud/2019/11/06/Spring-Cloud(%E5%85%AD)-%E5%9F%BA%E4%BA%8EGithub-Webhook%E5%8A%A8%E6%80%81%E5%88%B7%E6%96%B0%E6%9C%8D%E5%8A%A1%E9%85%8D%E7%BD%AE.html)
-
-下一篇：[Spring Cloud(八)《服务网关路由 Zuul1》](/itstack-demo-springcloud/2019/11/08/Spring-Cloud(%E5%85%AB)-%E6%9C%8D%E5%8A%A1%E7%BD%91%E5%85%B3%E8%B7%AF%E7%94%B1-Zuul1.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！

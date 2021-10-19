@@ -10,6 +10,11 @@ lock: need
 
 # 基于JavaAgent的全链路监控三《ByteBuddy操作监控方法字节码》
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+>沉淀、分享、成长，让自己和他人都能有所收获！
+
 ## 案例简述
 在第二章中我们已经可以监控方法执行耗时，虽然它能完成我们一些基本需要，但是为了增强代码的扩展性，我们需要使用字节码操作工具ByteBuddy来帮助我们实现更完善的监控程序。
 >[Byte Buddy](http://bytebuddy.net/#/) is a code generation and manipulation library for creating and modifying Java classes during the runtime of a Java application and without the help of a compiler. Other than the code generation utilities that [ship with the Java Class Library](http://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Proxy.html), Byte Buddy allows the creation of arbitrary classes and is not limited to implementing interfaces for the creation of runtime proxies. Furthermore, Byte Buddy offers a convenient API for changing classes either manually, using a Java agent or during a build.
@@ -229,11 +234,6 @@ public static void org.itstack.demo.test.ApiTest.main(java.lang.String[]) throws
 
 Process finished with exit code 0
 ```
-------------
-
-上一篇：[基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》](/itstack-demo-agent/2019/07/11/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%8C-%E9%80%9A%E8%BF%87%E5%AD%97%E8%8A%82%E7%A0%81%E5%A2%9E%E5%8A%A0%E7%9B%91%E6%8E%A7%E6%89%A7%E8%A1%8C%E8%80%97%E6%97%B6.html)
-
-下一篇：[基于JavaAgent的全链路监控四《JVM内存与GC信息》](/itstack-demo-agent/2019/07/13/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E5%9B%9B-JVM%E5%86%85%E5%AD%98%E4%B8%8EGC%E4%BF%A1%E6%81%AF.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**基于JavaAgent的全链路监控**」获取本文源码&更多原创专题案例！
 

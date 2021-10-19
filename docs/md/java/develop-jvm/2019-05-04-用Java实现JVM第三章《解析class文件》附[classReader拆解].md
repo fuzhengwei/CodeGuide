@@ -6,6 +6,12 @@ tagline: by 付政委
 tag: [jvm,itstack-demo-jvm]
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+
 # 用Java实现JVM第三章《解析class文件》附[classReader拆解]
 
 ## 案例介绍
@@ -211,11 +217,5 @@ major_unsigned_int32：52
 
 Process finished with exit code 0
 ```
-
-------------
-
-上一篇：[用Java实现JVM第三章《解析class文件》](/itstack-demo-jvm/2019/05/03/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%89%E7%AB%A0-%E8%A7%A3%E6%9E%90class%E6%96%87%E4%BB%B6.html)
-
-下一篇：[用Java实现JVM第四章《运行时数据区》](/itstack-demo-jvm/2019/05/05/%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E5%9B%9B%E7%AB%A0-%E8%BF%90%E8%A1%8C%E6%97%B6%E6%95%B0%E6%8D%AE%E5%8C%BA.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**用Java实现jvm源码**」获取本文源码&更多原创专题案例！

@@ -8,6 +8,11 @@ excerpt: 在实际开发中经常会有一个叫做配置中心的服务，这�
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 在实际开发中经常会有一个叫做配置中心的服务，这个服务经过变更参数来动态刷新线上业务数据行为配置。比如；行为开关、活动数据、黑白名单、本地/预发/线上环境切换等等，这些配置信息往往需要在我们不重启系统的时候就可以被更新执行。那么我们一般会使用具备此类属性在分布式系统中适合的组件进行开发配置中心，像是zookeeper、redis发布订阅、或者http定时轮许拉取，他们都可以做成统一配置中心服务。而在Spring Cloud Config 中，默认采用 Git 来存储配置信息，所以使用 Spring Cloud Config 构建的配置服务器，天然就支持对微服务应用配置信息的版本管理，在加上Github的Webhook钩子服务，可以在我们push等行为操作的时候，自动执行我们的http行为，以达到自动刷新配置服务。
 
@@ -222,11 +227,5 @@ dev bus
 1. Spring Cloud Config 可以很方便的依赖于Github提供的回调钩子进行更新配置，同时也支持本地配置
 2. Webhooks 不止可以用于变更配置，还可以用于一起启动触发工程打包部署发布的行为
 3. 不要局限于知识点，往往每一个新知识所带来的架构设计更值得学习，这些都可以灵活的用于项目系统中
-
-------------
-
-上一篇：[Spring Cloud(五)《Turbine 监控信息聚合展示 Hystrix》](/itstack-demo-springcloud/2019/11/05/Spring-Cloud(%E4%BA%94)-Turbine-%E7%9B%91%E6%8E%A7%E4%BF%A1%E6%81%AF%E8%81%9A%E5%90%88%E5%B1%95%E7%A4%BA-Hystrix.html)
-
-下一篇：[Spring Cloud(七)《基于RabbitMQ消息总线方式刷新配置服务》](/itstack-demo-springcloud/2019/11/07/Spring-Cloud(%E4%B8%83)-%E5%9F%BA%E4%BA%8ERabbitMQ%E6%B6%88%E6%81%AF%E6%80%BB%E7%BA%BF%E6%96%B9%E5%BC%8F%E5%88%B7%E6%96%B0%E9%85%8D%E7%BD%AE%E6%9C%8D%E5%8A%A1.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！

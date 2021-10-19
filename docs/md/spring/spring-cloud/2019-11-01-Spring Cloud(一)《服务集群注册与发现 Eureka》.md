@@ -8,6 +8,11 @@ excerpt: 对于能提供完整领域服务接口功能的RPC而言，例如；gR
 lock: need
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 1. 对于能提供完整领域服务接口功能的RPC而言，例如；gRPC、Thrift、Dubbo等，服务的注册与发现都是核心功能中非常重要的一环，使得微服务得到统一管理。
 
@@ -148,12 +153,6 @@ eureka:
 2. 分别启动node1、node2、node3
 3. 访问；http://localhost:8081/
 ![微信公众号：bugstack虫洞栈 & Eureka集群](https://bugstack.cn/assets/images/pic-content/2019/11/SpringCloud-1-2.jpg)
-
-------------
-
-上一篇：[Spring Cloud(零)《总有一偏概述告诉你SpringCloud是什么》](/itstack-demo-springcloud/2019/10/31/Spring-Cloud(%E9%9B%B6)-%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88.html)
-
-下一篇：[Spring Cloud(二)《服务提供与负载均衡调用 Eureka》](/itstack-demo-springcloud/2019/11/02/Spring-Cloud(%E4%BA%8C)-%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E4%B8%8E%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E8%B0%83%E7%94%A8-Eureka.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**SpringCloud专题**」获取本文源码&更多原创专题案例！
 

@@ -6,6 +6,11 @@ tagline: by 付政委
 tag: [ddd,itstack-demo-any]
 ---
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 安装Elasticsearch的head插件，用于方便操作Elasticsearch
 

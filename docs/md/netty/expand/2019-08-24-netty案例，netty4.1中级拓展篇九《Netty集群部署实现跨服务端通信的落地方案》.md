@@ -7,6 +7,13 @@ tag: [netty,itstack-demo-netty-2]
 lock: need
 ---
 
+# netty案例，netty4.1中级拓展篇九《Netty集群部署实现跨服务端通信的落地方案》
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 ## 前言介绍
 ![微信公众号：bugstack虫洞栈](https://bugstack.cn/assets/images/pic-content/2019/09/netty-2-09-3.png)
 
@@ -599,10 +606,5 @@ util = {
 
 ![微信公众号：bugstack虫洞栈](https://bugstack.cn/assets/images/pic-content/2019/09/netty-2-09-2.png)
 
-------------
-
-上一篇：[netty案例，netty4.1中级拓展篇八《Netty心跳服务与断线重连》](/itstack-demo-netty-2/2019/08/23/netty%E6%A1%88%E4%BE%8B-netty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E5%85%AB-Netty%E5%BF%83%E8%B7%B3%E6%9C%8D%E5%8A%A1%E4%B8%8E%E6%96%AD%E7%BA%BF%E9%87%8D%E8%BF%9E.html)
-
-下一篇：[netty案例，netty4.1中级拓展篇十《Netty接收发送多种协议消息类型的通信处理方案》](/itstack-demo-netty-2/2019/08/25/netty%E6%A1%88%E4%BE%8B-netty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E5%8D%81-Netty%E6%8E%A5%E6%94%B6%E5%8F%91%E9%80%81%E5%A4%9A%E7%A7%8D%E5%8D%8F%E8%AE%AE%E6%B6%88%E6%81%AF%E7%B1%BB%E5%9E%8B%E7%9A%84%E9%80%9A%E4%BF%A1%E5%A4%84%E7%90%86%E6%96%B9%E6%A1%88.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！

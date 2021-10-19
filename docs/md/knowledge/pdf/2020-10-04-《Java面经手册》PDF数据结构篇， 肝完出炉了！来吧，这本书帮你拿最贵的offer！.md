@@ -8,6 +8,8 @@ excerpt: 上最快的车🚗，爬最高的坡🛤。唠最狠的嗑🤔，拿�
 lock: need
 ---
 
+# 《Java面经手册》PDF数据结构篇， 肝完出炉了！来吧，这本书帮你拿最贵的offer！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

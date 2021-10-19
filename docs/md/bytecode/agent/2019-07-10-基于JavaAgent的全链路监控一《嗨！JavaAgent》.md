@@ -10,7 +10,13 @@ lock: need
 
 # 基于JavaAgent的全链路监控一《嗨！JavaAgent》
 
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+>沉淀、分享、成长，让自己和他人都能有所收获！
+
 ## 前言介绍
+
 >全链路监控又名分布式监控系统全链路追踪，目前市面的全链路监控系统基本都是参考Google的[Dapper](https://mp.weixin.qq.com/s?__biz=MzIxMDAwMDAxMw==&mid=2650724660&idx=1&sn=0f33d3386c7652bf536cb071e9f79921&chksm=8f6138d6b816b1c0d92fb75257da4fc8ddefb7ec53dfcad98dffec87740df455cc75aa7b4a5c&token=144816615&lang=zh_CN#rd)（大规模分布式系统的跟踪系统）来做的。例如；蚂蚁金服分布式链路跟踪组件SOFATracer、Gokit微服务-服务链路追踪 、Pinpoint、Prometheus(普罗米修斯)等等。
 
 ## 案例简述
@@ -118,9 +124,5 @@ this is my agent：testargs
 
 Process finished with exit code 0
 ```
-
-------------
-
-下一篇：[基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》](/itstack-demo-agent/2019/07/11/%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%8C-%E9%80%9A%E8%BF%87%E5%AD%97%E8%8A%82%E7%A0%81%E5%A2%9E%E5%8A%A0%E7%9B%91%E6%8E%A7%E6%89%A7%E8%A1%8C%E8%80%97%E6%97%B6.html)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**基于JavaAgent的全链路监控**」获取本文源码&更多原创专题案例！
