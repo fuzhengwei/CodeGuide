@@ -1,0 +1,2 @@
+Sitemap: https://bugstack.cn/sitemap.xml
+User-agent: *
