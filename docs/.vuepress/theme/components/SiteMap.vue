@@ -120,6 +120,30 @@ export default {
             ]
           },
           {
+            title: '面试求职',
+            list: [
+              {
+                title: '简历优化',
+                url: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.html'
+              },
+              {
+                title: '简历筛选',
+                url: '/md/about/job/2021-02-24-半年筛选了400+份简历，告诉你怎么写会被撩.html'
+              },
+              {
+                title: '大厂要求',
+                url: '/md/about/job/2020-11-15-BATJTMD，大厂招聘，都招什么样Java程序员？.html'
+              },
+              {
+                title: '薪资待遇',
+                url: '/md/about/job/2020-12-20-工作3年，看啥资料能月薪30K？.html'
+              },
+              {
+                title: '北漂生活',
+                url: '/md/about/me/2020-11-29-北漂码农的我，把在大城市过成了屯子一样舒服，哈哈哈哈哈！.html'
+              }
+            ]
+          },{
             title: 'Java相关',
             list: [
               {

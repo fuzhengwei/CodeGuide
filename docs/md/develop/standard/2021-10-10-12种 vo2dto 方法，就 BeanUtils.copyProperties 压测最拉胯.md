@@ -8,6 +8,8 @@ excerpt: 没有技术深度、短缺知识储备、匮乏经验积累的前提�
 lock: need
 ---
 
+# 12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/Xq7oQg7dYESMYxHVnxX8Dw](https://mp.weixin.qq.com/s/Xq7oQg7dYESMYxHVnxX8Dw)
