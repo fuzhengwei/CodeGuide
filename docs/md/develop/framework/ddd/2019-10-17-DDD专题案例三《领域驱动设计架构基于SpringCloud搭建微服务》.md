@@ -8,6 +8,8 @@ excerpt: 微服务不是泥球小单体，而是具备更加清晰职责边界�
 lock: need
 ---
 
+# DDD专题案例三《领域驱动设计架构基于SpringCloud搭建微服务》
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

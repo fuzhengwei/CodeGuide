@@ -200,7 +200,7 @@ module.exports = {
                                     },
                                     {
                                         text: '工程框架',
-                                        link: '/md/develop/framework/frame/2019-12-22-架构框架搭建(一)《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md'
+                                        link: '/md/develop/framework/frame/2019-12-22-架构框架搭建一《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md'
                                     },
                                     {
                                         text: '架构方案',
@@ -343,7 +343,7 @@ module.exports = {
                     {
                         text: '关于',
                         items: [
-                            {text: '关于自己', link: '/md/about/me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md'},
+                            {text: '关于自己', link: '/md/about/me/about-me.md'},
                             {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
                             {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
                         ]
@@ -670,8 +670,8 @@ function genBarDevelopFramework() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "frame/2019-12-22-架构框架搭建(一)《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md",
-                "frame/2019-12-31-架构框架搭建(二)《Dubbo分布式领域驱动设计架构框体》.md"
+                "frame/2019-12-22-架构框架搭建一《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》.md",
+                "frame/2019-12-31-架构框架搭建二《Dubbo分布式领域驱动设计架构框体》.md"
             ]
         },
         {
@@ -1032,6 +1032,7 @@ function genBarAbout() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "me/about-me.md",
                 "me/2020-03-31-大学四年到毕业工作5年的学习路线资源汇总.md",
                 "me/2020-07-25-12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜.md",
                 "me/2020-08-25-13年毕业，用两年时间从外包走进互联网大厂.md",

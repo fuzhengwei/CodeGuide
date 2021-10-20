@@ -8,6 +8,8 @@ excerpt: 在实际的业务开发中按照不同的场景需要，会有不同�
 lock: need
 ---
 
+# 架构框架搭建(一)《单体应用服务之SSM整合：Spring4 + SpringMvc + Mybatis》
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
