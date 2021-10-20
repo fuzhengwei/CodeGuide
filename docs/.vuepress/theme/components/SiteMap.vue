@@ -17,7 +17,6 @@
         </td>
       </tr>
     </table>
-  </div>
 </template>
 
 <script>
@@ -294,6 +293,10 @@ export default {
               {
                 title: 'ASM-DOC',
                 url: '/md/bytecode/asm-document/1引言.html'
+              },
+              {
+                title: 'JVM 指令码',
+                url: '/md/bytecode/asm-document/JVM-指令表.html'
               },
             ]
           },
