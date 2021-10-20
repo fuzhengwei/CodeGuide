@@ -8,6 +8,8 @@ excerpt: Spring Cloud Zuul 路由是微服务架构的不可或缺的一部分�
 lock: need
 ---
 
+# 第8章：服务网关路由 Zuul1
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

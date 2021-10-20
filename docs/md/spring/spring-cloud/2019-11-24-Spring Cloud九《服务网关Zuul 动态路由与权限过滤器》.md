@@ -8,6 +8,8 @@ excerpt: 在实际的业务开发中不只是将路由配置放到文件中，�
 lock: need
 ---
 
+# 第9章：服务网关Zuul 动态路由与权限过滤器
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

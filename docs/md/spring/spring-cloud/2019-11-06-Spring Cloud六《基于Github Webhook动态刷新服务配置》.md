@@ -8,6 +8,8 @@ excerpt: 在实际开发中经常会有一个叫做配置中心的服务，这�
 lock: need
 ---
 
+# 第6章：基于github webhook动态刷新服务配置
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

@@ -8,6 +8,8 @@ excerpt: 在微服务架构中，为了更方便的向微服务实例广播消�
 lock: need
 ---
 
+# 第7章：基于RabbitMQ消息总线方式刷新配置服务
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

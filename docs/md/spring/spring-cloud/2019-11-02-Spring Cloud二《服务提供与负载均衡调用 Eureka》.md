@@ -8,6 +8,8 @@ excerpt: 本章节提供一个基于Eurka的服务注册中心，两个服务提
 lock: need
 ---
 
+# 第2章：服务提供与负载均衡调用 Eureka
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

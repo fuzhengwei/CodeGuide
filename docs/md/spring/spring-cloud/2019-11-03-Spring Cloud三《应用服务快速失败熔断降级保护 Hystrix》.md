@@ -8,6 +8,8 @@ excerpt: 在互联网开发中经常会听到雪崩效应，比如某明星发�
 lock: need
 ---
 
+# 第3章：应用服务快速失败熔断降级保护 Hystrix
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

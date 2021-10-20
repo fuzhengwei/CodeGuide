@@ -8,6 +8,8 @@ excerpt: Hystrix Dashboard 可以定时收集接口调用信息；时长、次�
 lock: need
 ---
 
+# 第5章：Turbine 监控信息聚合展示 Hystrix
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

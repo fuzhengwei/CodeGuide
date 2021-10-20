@@ -1,7 +1,6 @@
 module.exports = {
     port: "8080",
     dest: ".site",
-    ga: "UA-85414008-1",
     base: "/",
     // 是否开启默认预加载js
     shouldPrefetch: (file, type) => {
@@ -37,18 +36,40 @@ module.exports = {
                 async: 'async',
                 // src: 'https://code.jquery.com/jquery-3.5.1.min.js',
                 src: '/js/jquery.min.js',
-            },
-            'script',
+            }],
+        ['script',
             {
                 charset: 'utf-8',
                 async: 'async',
                 src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
-            }]
+            }],
+        // 添加百度统计
+        ["script", {},
+            `
+              var _hmt = _hmt || [];
+              (function() {
+                var hm = document.createElement("script");
+                hm.src = "https://hm.baidu.com/hm.js?0b31b4c146bf7126aed5009e1a4a11c8";
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(hm, s);
+              })();
+            `
+        ]
     ],
     plugins: [
         [
-            // {globalUIComponents: ['LockArticle']}
+            {globalUIComponents: ['LockArticle']}
         ],
+        // ['@vssue/vuepress-plugin-vssue', {
+        //     platform: 'github-v3', //v3的platform是github，v4的是github-v4
+        //     // 其他的 Vssue 配置
+        //     owner: 'fuzhengwei', //github账户名
+        //     repo: 'CodeGuide', //github一个项目的名称
+        //     clientId: 'df8beab2190bec20352a',//注册的Client ID
+        //     clientSecret: '7eeeb4369d699c933f02a026ae8bb1e2a9c80e90',//注册的Client Secret
+        //     autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+        // }
+        // ],
         // ['@vuepress/back-to-top', true], replaced with inject page-sidebar
         ['@vuepress/medium-zoom', {
             selector: 'img:not(.nozoom)',
@@ -65,9 +86,9 @@ module.exports = {
         //     clipboardComponent: "请注明文章出处, [bugstack虫洞栈](https://bugstack.cn)"
         // }],
         // see: https://github.com/ekoeryanto/vuepress-plugin-sitemap
-        ['sitemap', {
-            hostname: 'https://bugstack.cn'
-        }],
+        // ['sitemap', {
+        //     hostname: 'https://bugstack.cn'
+        // }],
         // see: https://github.com/IOriens/vuepress-plugin-baidu-autopush
         ['vuepress-plugin-baidu-autopush', {}],
         // see: https://github.com/znicholasbrown/vuepress-plugin-code-copy
@@ -113,6 +134,9 @@ module.exports = {
                 editLinkText: "在 GitHub 上编辑此页",
                 lastUpdated: "上次更新",
                 nav: [
+                    {
+                        text: '导读', link: '/md/other/guide-to-reading.md'
+                    },
                     {
                         text: 'Java',
                         items: [
@@ -330,6 +354,7 @@ module.exports = {
                     }
                 ],
                 sidebar: {
+                    "/md/other/": genBarOther(),
                     "/md/java/interview/": genBarJavaInterview(),
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
@@ -473,6 +498,20 @@ function genBarJavaCore() {
                 "2020-05-05-汉字不能编程？别闹了，只是看着有点豪横！容易被开除！.md",
                 "2020-11-22-鹿鼎记 · 韦小宝，丽春院、天地会、入皇宫等五个场景，搭配不同剧情讲解多线程和锁，真香！.md",
                 "2021-04-21-一个Bug，让我发现了 Java 界的AJ锥！.md"
+            ]
+        }
+    ]
+}
+
+// other
+function genBarOther() {
+    return [
+        {
+            title: "阅读指南",
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+                "guide-to-reading.md"
             ]
         }
     ]

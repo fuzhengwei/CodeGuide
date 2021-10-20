@@ -8,6 +8,8 @@ excerpt: 对于能提供完整领域服务接口功能的RPC而言，例如；gR
 lock: need
 ---
 
+# 第1章：服务集群注册与发现 Eureka
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

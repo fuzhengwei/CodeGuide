@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@vssue/api-github-v3": "^1.4.7",
-    "@vssue/vuepress-plugin-vssue": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "@vuepress/core": "^1.8.2",
     "browserslist": "^4.16.3",
     "caniuse-lite": "^1.0.30001196",

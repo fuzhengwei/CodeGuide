@@ -8,6 +8,8 @@ excerpt: Hystrix Dashboard | 断路器仪表盘，Hystrix 依赖服务一段时�
 lock: need
 ---
 
+# 第4章：服务响应性能成功率监控 Hystrix
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

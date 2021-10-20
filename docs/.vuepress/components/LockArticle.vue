@@ -82,7 +82,8 @@
                     return;
                 }
 
-                let token = articleObj.article.find('#btw-modal-close-btn>.token').text();
+                let token = $('#fustack-token').text();
+                console.info(token);
 
                 $.ajax({
                     url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
@@ -96,7 +97,7 @@
                             t._lock(articleObj);
                         } else {
                             t._unlock(articleObj);
-                            setCookie("_unlock", "success", 1);
+                            this.setCookie("_unlock", "success", 1);
                         }
                     },
                     error: function (data) {
@@ -115,14 +116,15 @@
 
                 // 篇幅短一点的文章就不需要解锁了
                 if (this.os().isPc && halfHeight > 800) {
-                    // 判断是否已加锁
-                    if ($article.hasClass("lock")) {
-                        return;
-                    }
 
                     // 获取口令
                     let token = this.getToken();
                     $('#fustack-token').text(token);
+
+                    // 判断是否已加锁
+                    if ($article.hasClass("lock")) {
+                        return;
+                    }
 
                     // 设置文章可显示高度
                     $article.css({"height": halfHeight + 'px'});
@@ -174,6 +176,12 @@
                 let parts = value.split("; " + name + "=");
                 if (parts.length === 2)
                     return parts.pop().split(";").shift();
+            },
+            setCookie: function (name, value, hours){
+                let exp = new Date();
+                exp.setTime(exp.getTime() + hours*60*60*1000);
+                // ;path=/ cookie全站有效
+                document.cookie = name + "="+ escape (value) + ";path=/;expires=" + exp.toGMTString();
             },
             os: function () {
                 let ua = navigator.userAgent,
