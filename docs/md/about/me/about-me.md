@@ -7,6 +7,13 @@
 - 2019年，创建 bugstack虫洞栈 | 沉淀、分享、成长，专注于原创专题案例编写，让自己和他人都能有所收获。目前已完成；Netty4.x专题案例、用Java实现JVM、手写RPC框架、基于JavaAgent链路监控等
 - 2019年，重新开始在 [CSDN 写博客](https://bugstack.blog.csdn.net/)，并成为博客专家。
 - 2019年11月份，微信公众号[bugstack虫洞栈](https://mp.weixin.qq.com/s?__biz=MzIxMDAwMDAxMw==&mid=2650725011&idx=1&sn=741b290093788f820cbb61905cc214bb&chksm=8f613b71b816b26775629757c9aec632ce645f8cdee5848e056300b09f1874a28205ed54151b&token=908288475&lang=zh_CN#rd)突破1k读者。
+- 2020年02月份，与 GitChat 合作了第一个付费专栏《Netty+JavaFx实战：仿桌面版微信聊天》
+- 20年3月，总结职场类文章
+- 20年4月，编写ASM、Javassist、Byte-Buddy，字节码编程系列文章
+- 20年5月-7月，编写专栏《重学Java设计模式》，并推出PDF书籍，全网下载量14万+
+- 20年8月-12月，推出两个大专栏《面经手册 • 拿大厂Offer》、《码场故事》
+- 21年4月23日，图书节，我的第一本技术书[《重学Java设计模式》](https://u.jd.com/qPnzanP)出版了
+- 21年6月20日，累计全网12万粉丝
 - 我写过最好的一句话是：承遇朝霞、年少正恰、整装戎马、刻印风华。
 - 我是小傅哥，喜欢并热爱编程，执着于努力之后所带来的美好生活！
 

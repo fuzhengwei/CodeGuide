@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/system/blog-01.jpg
+heroImage: /images/system/blog-03.jpg
 actionText: 快速开始 →
 actionLink: /md/other/guide-to-reading.md
 features:

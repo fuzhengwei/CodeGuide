@@ -350,7 +350,7 @@ module.exports = {
                     },
                     {
                         text: 'Github',
-                        link: 'https://github.com/fuzhengwei/CodeGuide/Wiki'
+                        link: 'https://github.com/fuzhengwei/CodeGuide'
                     }
                 ],
                 sidebar: {
