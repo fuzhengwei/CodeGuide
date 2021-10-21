@@ -351,14 +351,6 @@ export default {
               {
                 title: '实战项目',
                 url: 'https://codechina.csdn.net/KnowledgePlanet'
-              },
-              {
-                title: '视频课程',
-                url: 'https://t.zsxq.com/jAi2nUf'
-              },
-              {
-                title: '简历批阅',
-                url: 'https://t.zsxq.com/jAi2nUf'
               }
             ]
           }

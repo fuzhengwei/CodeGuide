@@ -82,7 +82,7 @@
                     return;
                 }
 
-                let token = $('#fustack-token').text();
+                let token = t.getToken();
                 console.info(token);
 
                 $.ajax({
@@ -101,7 +101,7 @@
                         }
                     },
                     error: function (data) {
-                        t._unlock();
+                        t._unlock(articleObj);
                     }
                 })
 
@@ -150,7 +150,13 @@
                 }
             },
             _unlock: function (articleObj) {
+
                 let $article = articleObj.article;
+
+                // 判断是否已加锁
+                if (!$article.hasClass("lock")) {
+                    return;
+                }
 
                 $article.css('height', 'initial');
                 $article.removeClass('lock');
