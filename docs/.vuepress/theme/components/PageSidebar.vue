@@ -49,23 +49,38 @@
         </div>
       </div>
 
-      <div class="option-box">
-        <FullScreenBtn />
-      </div>
+<!--      <div class="option-box">-->
+<!--        <FullScreenBtn />-->
+<!--      </div>-->
 
       <div class="option-box" @click="$emit('toggle-sidebar-force')">
         <img src="/images/system/toggle.png" width="30px" class="nozoom" />
         <span class="show-txt">左栏</span>
       </div>
 
+      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)">
+        <img class="nozoom" src="/images/system/xingqiu.png" width="25px" />
+        <span class="show-txt">星球</span>
+        <div class="toc-container">
+          <div class="pos-box">
+            <div class="icon-arrow"></div>
+            <div class="scroll-box" style="text-align:center" >
+              <span style="font-size:0.8rem;font-weight:bold;"><span style="color:red;">实战项目</span><span style="font-size:0.4rem;">「DDD+RPC分布式抽奖系统」</span>、专属小册、问题解答、简历指导、架构图稿、视频课程</span>
+              <img height="180px" src="/images/personal/xingqiu.png" style="margin:10px;"/>
+              知识星球：<b>码农会锁</b>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">
-        <img src="/images/system/wexin2.png" width="25px" class="nozoom" />
+        <img class="nozoom" src="/images/system/wexin4.png" width="25px" />
         <span class="show-txt">交流群</span>
         <div class="toc-container">
             <div class="pos-box">
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
-                <span style="font-size:0.8rem;font-weight:bold;">添加小傅哥微信(fustack)进虫洞栈学习交流圈「无任何套路」</span>
+                <span style="font-size:0.8rem;font-weight:bold;">添加小傅哥微信<span style="color:red;">(fustack)</span>进虫洞栈学习交流圈「无任何套路」</span>
                 <img src="/images/personal/fustack.png" height="180px" style="margin:10px;"/>
                 PS：添加时请备注<b>加群</b>，谢谢！
               </div>
@@ -74,13 +89,13 @@
       </div>
 
       <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">
-        <img src="/images/system/download.jpg" width="25px" class="nozoom" />
+        <img class="nozoom" src="/images/system/download-2.png" width="25px" />
         <span class="show-txt">下资料</span>
         <div class="toc-container">
             <div class="pos-box">
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
-                <span style="font-size:0.8rem;font-weight:bold;">扫描公众号，回复<span style="color:red;">“资料”</span>下载<span style="color:red;">100GB+</span>技术资料「无任何套路」</span>
+                <span style="font-size:0.8rem;font-weight:bold;">扫描公众号，回复<span style="color:red;">“网盘学习资料”</span>下载<span style="color:red;">100GB+</span>大学到毕业分阶段学习技术资料「无任何套路」</span>
                 <img src="/images/personal/qrcode.png" height="180px" style="margin:10px;"/>
                 <b>公众号:</b> bugstack虫洞栈
               </div>
@@ -89,16 +104,16 @@
       </div>
 
       <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">
-        <img src="/images/system/heart.png" width="25px" class="nozoom" />
+        <img class="nozoom" src="/images/system/heart-1.png" width="25px" />
         <span class="show-txt">支持我</span>
         <div class="toc-container">
             <div class="pos-box">
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
                 <span style="font-size:0.8rem;font-weight:bold;">鼓励/支持/赞赏我</span>
-                <img src="/images/personal/encourage.jpg-head.png" height="180px" style="margin:5px;"/>
-                </br>1. 不靠它生存但仍希望得到你的鼓励；
-                </br>2. 时刻警醒自己保持技术人的初心，沉淀，分享，成长；
+                <img height="180px" src="/images/personal/encourage-head.png" style="margin:5px;"/>
+                <br>1. 不靠它生存但仍希望得到你的鼓励；
+                <br>2. 时刻警醒自己保持技术人的初心，沉淀，分享，成长；
               </div>
             </div>
         </div>
