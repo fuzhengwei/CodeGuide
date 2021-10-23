@@ -8,6 +8,8 @@ excerpt: 为啥要用自建网盘，市面上的云盘不香了？就像我作�
 lock: need
 ---
 
+# Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/gzUrFexHcyCrw7XZ_L7N7w](https://mp.weixin.qq.com/s/gzUrFexHcyCrw7XZ_L7N7w)

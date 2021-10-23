@@ -8,6 +8,8 @@ excerpt: 万万没想到！`Github` 竟然受到攻击了！还能让我使用�
 lock: need
 ---
 
+# 20年3月27日，Github被攻击。我的GitPage博客也挂了，紧急修复之路，也教会你搭建 Jekyll 博客！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>原文：[https://mp.weixin.qq.com/s/ISA7Nmow-boP1yWStGCuBw](https://mp.weixin.qq.com/s/ISA7Nmow-boP1yWStGCuBw)

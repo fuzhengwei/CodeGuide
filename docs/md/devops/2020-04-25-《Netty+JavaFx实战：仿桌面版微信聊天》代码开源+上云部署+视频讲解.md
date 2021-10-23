@@ -7,6 +7,8 @@ tag: [netty,itstack-demo-netty-3]
 excerpt: https://github.com/fuzhengwei/NaiveChat 代码开源，通过视频讲解每一个服务模块的功能，快速入门后并深入学习实践。好！感谢那些默默支持小傅哥的伙伴们！
 ---
 
+# 《Netty+JavaFx实战：仿桌面版微信聊天》代码开源、上云部署、视频讲解，只为让你给点个Star！
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>视频：[https://mp.weixin.qq.com/s/OmXCY4fTfDpkvjlg5ME0ZA](https://mp.weixin.qq.com/s/OmXCY4fTfDpkvjlg5ME0ZA)

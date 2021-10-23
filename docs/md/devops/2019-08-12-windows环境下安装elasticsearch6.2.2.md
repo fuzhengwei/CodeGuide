@@ -8,6 +8,8 @@ excerpt: 在windows环境下安装Elasticsearch 6.2.2
 lock: need
 ---
 
+# windows环境下安装elasticsearch6.2.2
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 

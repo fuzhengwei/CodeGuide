@@ -341,16 +341,16 @@ module.exports = {
                         ]
                     },
                     {
-                        text: 'Dev-Ops',
+                        text: '部署',
                         link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
-                        text: '关于',link: '/md/about/me/about-me.md'
-                        // items: [
-                        //     {text: '关于自己', link: '/md/about/me/about-me.md'},
-                        //     {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
-                        //     {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
-                        // ]
+                        text: '关于',
+                        items: [
+                            {text: '关于自己', link: '/md/about/me/about-me.md'},
+                            {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
+                            {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
+                        ]
                     },
                     {
                         text: 'Github',

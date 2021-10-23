@@ -6,6 +6,8 @@ tagline: by 付政委
 tag: [ddd,itstack-demo-any]
 ---
 
+# elasticsearch-head插件安装
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
