@@ -220,7 +220,7 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '中间件|插件',
+                        text: '中间件',
                         items: [
                             {
                                 text: 'SpringBoot 中间件开发',
@@ -341,12 +341,16 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '关于',
-                        items: [
-                            {text: '关于自己', link: '/md/about/me/about-me.md'},
-                            {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
-                            {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
-                        ]
+                        text: 'Dev-Ops',
+                        link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
+                    },
+                    {
+                        text: '关于',link: '/md/about/me/about-me.md'
+                        // items: [
+                        //     {text: '关于自己', link: '/md/about/me/about-me.md'},
+                        //     {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
+                        //     {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
+                        // ]
                     },
                     {
                         text: 'Github',
@@ -364,6 +368,7 @@ module.exports = {
                     "/md/develop/design-pattern/": genBarDevelopDesignPattern(),
                     "/md/develop/framework/": genBarDevelopFramework(),
                     "/md/develop/standard/": genBarDevelopStandard(),
+                    "/md/devops/": genBarDevOPS(),
                     "/md/assembly/": genBarAssembly(),
                     "/md/netty/": genBarNetty(),
                     "/md/knowledge/": genBarKnowledge(),
@@ -647,6 +652,28 @@ function genBarDevelopDesignPattern() {
                 "2020-07-05-重学 Java 设计模式《实战策略模式》.md",
                 "2020-07-07-重学 Java 设计模式《实战模板模式》.md",
                 "2020-07-09-重学 Java 设计模式《实战访问者模式》.md"
+            ]
+        }
+    ]
+}
+
+// devops
+function genBarDevOPS() {
+    return [
+        {
+            title: "SpringBoot 中间件开发",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2019-08-12-windows环境下安装elasticsearch6.2.2.md",
+                "2019-08-13-elasticsearch-head插件安装.md",
+                "2019-11-23-并不想吹牛皮，但！为了把Github博客粉丝转移到公众号，我干了！.md",
+                "2020-03-28-GithubAndMyBlogAttacked.md",
+                "2020-04-25-《Netty+JavaFx实战：仿桌面版微信聊天》代码开源+上云部署+视频讲解.md",
+                "2020-05-10-自建云盘存储PDF书籍支持在线预览和下载.md",
+                "2021-01-24-一天建4个，小傅哥教你搭博客！.md",
+                "2021-04-11-Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！.md",
+                "2021-06-04-【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客！.md"
             ]
         }
     ]

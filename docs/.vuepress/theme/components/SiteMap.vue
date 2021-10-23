@@ -118,6 +118,28 @@ export default {
               }
             ]
           },
+            {
+                title: 'PDF 下载',
+                linkMode: 0,
+                list: [
+                    {
+                        title: '《Java 面经手册》',
+                        url: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
+                    },
+                    {
+                        title: '《重学Java设计模式》',
+                        url: 'https://download.csdn.net/download/Yao__Shun__Yu/19265731'
+                    },
+                    {
+                        title: '《手撸 Spring》',
+                        url: 'https://download.csdn.net/download/Yao__Shun__Yu/21009038'
+                    },
+                    {
+                        title: '《字节码编程》',
+                        url: 'https://download.csdn.net/download/Yao__Shun__Yu/12505051'
+                    }
+                ]
+            },
           {
             title: '面试求职',
             list: [
@@ -298,28 +320,6 @@ export default {
                 title: 'JVM 指令码',
                 url: '/md/bytecode/asm-document/JVM-指令表.html'
               },
-            ]
-          },
-          {
-            title: 'PDF 下载',
-            linkMode: 0,
-            list: [
-              {
-                title: '《Java 面经手册》',
-                url: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
-              },
-              {
-                title: '《重学Java设计模式》',
-                url: 'https://download.csdn.net/download/Yao__Shun__Yu/19265731'
-              },
-              {
-                title: '《手撸 Spring》',
-                url: 'https://download.csdn.net/download/Yao__Shun__Yu/21009038'
-              },
-              {
-                title: '《字节码编程》',
-                url: 'https://download.csdn.net/download/Yao__Shun__Yu/12505051'
-              }
             ]
           },
           {
