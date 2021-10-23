@@ -123,6 +123,10 @@ module.exports = {
     ],
     themeConfig: {
         docsRepo: "fuzhengwei/CodeGuide",
+        // 编辑文档的所在目录
+        docsDir: 'docs',
+        // 文档放在一个特定的分支下：
+        docsBranch: 'master',
         //logo: "/logo.png",
         editLinks: true,
         sidebarDepth: 0,
