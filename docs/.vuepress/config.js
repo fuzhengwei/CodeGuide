@@ -761,7 +761,8 @@ function genBarAssembly() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md"
+                "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md",
+                "idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md"
             ]
         }
     ]
