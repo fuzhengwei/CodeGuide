@@ -78,6 +78,11 @@ module.exports = {
                 margin: 16
             }
         }],
+        // https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html#%E9%80%89%E9%A1%B9
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }],
         // see: https://vuepress.github.io/zh/plugins/copyright/#%E5%AE%89%E8%A3%85
         // ['copyright', {
         //     noCopy: false, // 允许复制内容
