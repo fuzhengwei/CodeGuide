@@ -41,6 +41,12 @@ module.exports = {
             {
                 charset: 'utf-8',
                 async: 'async',
+                src: '/js/fingerprint2.min.js',
+            }],
+        ['script',
+            {
+                charset: 'utf-8',
+                async: 'async',
                 src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
             }],
         // 添加百度统计

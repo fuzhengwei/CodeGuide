@@ -83,7 +83,6 @@
                 }
 
                 let token = t.getToken();
-                console.info(token);
 
                 $.ajax({
                     url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
@@ -164,14 +163,29 @@
                 $('#read-more-wrap').remove();
 
             },
-            getToken: function () {
-                let value = this.getCookie('UM_distinctid');
-                if (!value) {
-                    return this.getUUID().toUpperCase();
-                }
-                return value.substring(value.length - 6).toUpperCase();
+            getToken: function () {			
+				// 浏览器 Cookie true 不限制
+				if(navigator.cookieEnabled){
+					let value = this.getCookie('UM_distinctid');
+					if (!value) {
+						return this.getFingerprintId();
+					}
+					return value.substring(value.length - 6).toUpperCase();
+				} else{
+					return this.getFingerprintId();
+				}
             },
-            getUUID: function () {
+            getFingerprintId: function () {
+                // https://github.com/fingerprintjs/fingerprintjs
+                new Fingerprint2().get(function(result, components){                   
+                    let value = result.toUpperCase();
+                    let token = value.substring(value.length - 6).toUpperCase();
+                    // 设置token
+                    $('#fustack-token').text(token);
+                });
+                return $('#fustack-token').text();
+            },
+			getUUID: function () {
                 return 'xxxxxx'.replace(/[xy]/g, function (c) {
                     let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
                     return v.toString(16);
