@@ -4,7 +4,18 @@ module.exports = {
     base: "/",
     // 是否开启默认预加载js
     shouldPrefetch: (file, type) => {
-        return false;
+        return true;
+    },
+    // webpack 配置 https://vuepress.vuejs.org/zh/config/#chainwebpack
+    chainWebpack: config => {
+        // 清除js版本号
+        config.output.filename('assets/js/[name].js?v=[contenthash]').end();
+        config.output.chunkFilename('assets/js/[name].js?v=[contenthash]').end();
+        // 清除css版本号
+        config.plugin('mini-css-extract-plugin').use(require('mini-css-extract-plugin'), [{
+            filename: `assets/css/[name].css`,
+            chunkFilename: `assets/css/[name].css`
+        }]).end();
     },
     markdown: {
         lineNumbers: true,
@@ -25,6 +36,9 @@ module.exports = {
         // meta
         ["meta", {name: "robots", content: "all"}],
         ["meta", {name: "author", content: "小傅哥"}],
+        ["meta", {"http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate"}],
+        ["meta", {"http-equiv": "Pragma", content: "no-cache"}],
+        ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
             content: "bugstack 虫洞栈, 重学Java设计模式, 字节码编程, 中间件, Spring, Java基础, 面经手册"
