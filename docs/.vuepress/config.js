@@ -701,7 +701,7 @@ function genBarDevelopDesignPattern() {
 function genBarDevOPS() {
     return [
         {
-            title: "SpringBoot 中间件开发",
+            title: "Dev-OPS",
             collapsable: false,
             sidebarDepth: 0,
             children: [

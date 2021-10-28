@@ -75,14 +75,15 @@
     - [7.1 框架](https://github.com/fuzhengwei/CodeGuide#71-%E6%A1%86%E6%9E%B6)
     - [7.2 全链路监控](https://github.com/fuzhengwei/CodeGuide#72-%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7)
     - [7.3 文档(ASM-DOC)](https://github.com/fuzhengwei/CodeGuide#73-%E6%96%87%E6%A1%A3asm-doc)
-8. [关于](https://github.com/fuzhengwei/CodeGuide#8-%E5%85%B3%E4%BA%8E)
-    - [8.1 关于自己](https://github.com/fuzhengwei/CodeGuide#81-%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1)
-    - [8.2 关于学习](https://github.com/fuzhengwei/CodeGuide#82-%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0)
-    - [8.3 关于工作](https://github.com/fuzhengwei/CodeGuide#83-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C)
-9. [转载分享](https://github.com/fuzhengwei/CodeGuide#9-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
-10. [参与贡献](https://github.com/fuzhengwei/CodeGuide#10-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
-11. [与我联系](https://github.com/fuzhengwei/CodeGuide#11-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
-12. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#12-%E8%87%B4%E8%B0%A2)   
+8. [部署 Dev-Ops]()    
+9. [关于](https://github.com/fuzhengwei/CodeGuide#8-%E5%85%B3%E4%BA%8E)
+    - [9.1 关于自己](https://github.com/fuzhengwei/CodeGuide#81-%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1)
+    - [9.2 关于学习](https://github.com/fuzhengwei/CodeGuide#82-%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0)
+    - [9.3 关于工作](https://github.com/fuzhengwei/CodeGuide#83-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C)
+10. [转载分享](https://github.com/fuzhengwei/CodeGuide#9-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
+11. [参与贡献](https://github.com/fuzhengwei/CodeGuide#10-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
+12. [与我联系](https://github.com/fuzhengwei/CodeGuide#11-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
+13. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#12-%E8%87%B4%E8%B0%A2)   
 
 ## 1. 源码
 
@@ -111,7 +112,7 @@
 
 ## 2. Java
 
-### [2.1 面经手册](#)
+### 2.1 面经手册 - 👉[**在线阅读**](https://bugstack.cn/md/java/interview/2020-07-28-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C%20%C2%B7%20%E5%BC%80%E7%AF%87%E3%80%8A%E9%9D%A2%E8%AF%95%E5%AE%98%E9%83%BD%E9%97%AE%E6%88%91%E5%95%A5%E3%80%8B.html)
 
 - 第 1 章 谈谈面试
 
@@ -168,7 +169,7 @@
     
 </details>
 
-### [2.2 用Java实现JVM](#)
+### 2.2 用Java实现JVM - 👉[**在线阅读**](https://bugstack.cn/md/java/develop-jvm/2019-05-01-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E3%80%8B.html)
 
 - [用Java实现JVM第一章《命令行工具》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/java/develop-jvm/2019-05-01-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E3%80%8B.md)
 - [用Java实现JVM第二章《搜索class文件》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/java/develop-jvm/2019-05-02-%E7%94%A8Java%E5%AE%9E%E7%8E%B0JVM%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%8A%E6%90%9C%E7%B4%A2class%E6%96%87%E4%BB%B6%E3%80%8B.md)
@@ -187,7 +188,7 @@
 
 </details>
 
-### [2.3 基础技术](#)
+### 2.3 基础技术 - 👉[**在线阅读**](https://bugstack.cn/md/java/core/2020-01-06-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%92%8B%E5%98%9E%EF%BC%9F%E4%BD%A0%E7%9A%84IDEA%E8%BF%87%E6%9C%9F%E4%BA%86%E5%90%A7%EF%BC%81%E5%8A%A0%E4%B8%AAJar%E5%8C%85%E5%B0%B1%E7%A0%B4%E8%A7%A3%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 
 - [有点干货-Jdk1.8新特性实战篇41个案例](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/java/core/2019-12-10-%5B%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7%5DJdk1.8%E6%96%B0%E7%89%B9%E6%80%A7%E5%AE%9E%E6%88%98%E7%AF%8741%E4%B8%AA%E6%A1%88%E4%BE%8B.md)
 - [有点干货-JDK、CGLIB动态代理使用以及源码分析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/java/core/2019-12-21-%5B%E6%9C%89%E7%82%B9%E5%B9%B2%E8%B4%A7%5DJDK%E3%80%81CGLIB%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E4%BD%BF%E7%94%A8%E4%BB%A5%E5%8F%8A%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90.md)
@@ -205,7 +206,7 @@
 
 ## 3. Spring
 
-### 3.1 Spring 手撸专栏
+### 3.1 Spring 手撸专栏  - 👉[**在线阅读**](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 
 - 容器篇：IOC
 
@@ -238,7 +239,7 @@
 
 </details>
 
-### 3.2 Spring Cloud
+### 3.2 Spring Cloud  - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
 - [Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.md)
 - [Spring Cloud一《服务集群注册与发现 Eureka》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-11-01-Spring%20Cloud%E4%B8%80%E3%80%8A%E6%9C%8D%E5%8A%A1%E9%9B%86%E7%BE%A4%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0%20Eureka%E3%80%8B.md)
@@ -256,7 +257,7 @@
 
 </details>
 
-### 3.3 源码分析(Mybatis、Quartz)
+### 3.3 源码分析(Mybatis、Quartz) - 👉[**在线阅读**]()
 
 - [Mybatis接口没有实现类为什么可以执行增删改查用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2019-12-25-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5DMybatis%E6%8E%A5%E5%8F%A3%E6%B2%A1%E6%9C%89%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.md)
 - [Spring定时任务Quartz执行全过程源码解读用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2020-01-01-%5B%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90%5DSpring%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1Quartz%E6%89%A7%E8%A1%8C%E5%85%A8%E8%BF%87%E7%A8%8B%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB.md)
@@ -271,7 +272,7 @@
 
 ## 4. 面向对象
 
-### 4.1 设计模式
+### 4.1 设计模式 - 👉[**在线阅读**](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)
 
 - 创建型模式
 
@@ -308,7 +309,7 @@
 
 </details>
 
-### 4.2 系统结构
+### 4.2 系统架构 - 👉[**在线阅读**](https://bugstack.cn/md/develop/framework/ddd/2019-10-15-DDD%E4%B8%93%E9%A2%98%E6%A1%88%E4%BE%8B%E4%B8%80%E3%80%8A%E5%88%9D%E8%AF%86%E9%A2%86%E5%9F%9F%E9%A9%B1%E5%8A%A8%E8%AE%BE%E8%AE%A1DDD%E8%90%BD%E5%9C%B0%E3%80%8B.html)
 
 - DDD 专题
 
@@ -335,7 +336,7 @@
 
 </details>
 
-### 4.3 开发规范&事故
+### 4.3 开发规范&事故 - 👉[**在线阅读**](https://bugstack.cn/md/develop/standard/2020-09-14-%E4%B8%80%E6%AC%A1%E4%BB%A3%E7%A0%81%E8%AF%84%E5%AE%A1%EF%BC%8C%E5%B7%AE%E7%82%B9%E8%BF%87%E4%B8%8D%E4%BA%86%E8%AF%95%E7%94%A8%E6%9C%9F%EF%BC%81.html)
 
 - [握草，你竟然在代码里下毒！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2020-09-06-%E6%8F%A1%E8%8D%89%EF%BC%8C%E4%BD%A0%E7%AB%9F%E7%84%B6%E5%9C%A8%E4%BB%A3%E7%A0%81%E9%87%8C%E4%B8%8B%E6%AF%92%EF%BC%81.md)
 - [一次代码评审，差点过不了试用期！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2020-09-14-%E4%B8%80%E6%AC%A1%E4%BB%A3%E7%A0%81%E8%AF%84%E5%AE%A1%EF%BC%8C%E5%B7%AE%E7%82%B9%E8%BF%87%E4%B8%8D%E4%BA%86%E8%AF%95%E7%94%A8%E6%9C%9F%EF%BC%81.md)
@@ -352,7 +353,7 @@
 
 ## 5. 中间件
 
-### 5.1 SpringBoot 中间件开发
+### 5.1 SpringBoot 中间件开发 - 👉[**在线阅读**](https://bugstack.cn/md/assembly/middleware/2019-12-02-SpringBoot%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86%E4%B8%AD%E9%97%B4%E4%BB%B6%E4%B9%8B%E7%BB%9F%E4%B8%80%E7%99%BD%E5%90%8D%E5%8D%95%E9%AA%8C%E8%AF%81.html)
 
 - [SpringBoot服务治理中间件之统一白名单验证](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/assembly/middleware/2019-12-02-SpringBoot%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86%E4%B8%AD%E9%97%B4%E4%BB%B6%E4%B9%8B%E7%BB%9F%E4%B8%80%E7%99%BD%E5%90%8D%E5%8D%95%E9%AA%8C%E8%AF%81.md)
 - [发布Jar包到Maven中央仓库，为开发开源中间件做准备](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/assembly/middleware/2019-12-07-%E5%8F%91%E5%B8%83Jar%E5%8C%85%E5%88%B0Maven%E4%B8%AD%E5%A4%AE%E4%BB%93%E5%BA%93%EF%BC%8C%E4%B8%BA%E5%BC%80%E5%8F%91%E5%BC%80%E6%BA%90%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%81%9A%E5%87%86%E5%A4%87.md)
@@ -364,14 +365,14 @@
 
 </details>
 
-### 5.2 IDEA-Plugin
+### 5.2 IDEA-Plugin - 👉[**在线阅读**](https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.html)
 
 - [技术调研，IDEA 插件怎么开发？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.md)
 - [《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/assembly/idea-plugin/2021-10-18-%E3%80%8AIntelliJ%20IDEA%20%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E3%80%8B%E7%AC%AC%E4%B8%80%E8%8A%82%EF%BC%9A%E4%B8%A4%E7%A7%8D%E6%96%B9%E5%BC%8F%E5%88%9B%E5%BB%BA%E6%8F%92%E4%BB%B6%E5%B7%A5%E7%A8%8B.md)
 
 ## 6. Netty 4.x 
 
-### 6.1 基础入门篇
+### 6.1 基础入门篇 - 👉[**在线阅读**](https://bugstack.cn/md/netty/base/2019-07-30-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6%E3%80%8A%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO%E3%80%81NIO%E3%80%81AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0%E3%80%8B.html)
 
 - [netty案例，netty4.1基础入门篇零《初入JavaIO之门BIO、NIO、AIO实战练习》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/base/2019-07-30-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6%E3%80%8A%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO%E3%80%81NIO%E3%80%81AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0%E3%80%8B.md)
 - [netty案例，netty4.1基础入门篇一《嗨！NettyServer》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/base/2019-08-01-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E4%B8%80%E3%80%8A%E5%97%A8%EF%BC%81NettyServer%E3%80%8B.md)
@@ -392,7 +393,7 @@
 
 </details>
 
-### 6.2 中级拓展篇
+### 6.2 中级拓展篇 - 👉[**在线阅读**](https://bugstack.cn/md/netty/expand/2019-08-16-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%B8%80%E3%80%8ANetty%E4%B8%8ESpringBoot%E6%95%B4%E5%90%88%E3%80%8B.html)
 
 - [netty案例，netty4.1中级拓展篇一《Netty与SpringBoot整合》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/expand/2019-08-16-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%B8%80%E3%80%8ANetty%E4%B8%8ESpringBoot%E6%95%B4%E5%90%88%E3%80%8B.md)
 - [netty案例，netty4.1中级拓展篇二《Netty使用Protobuf传输数据》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/expand/2019-08-17-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E4%B8%AD%E7%BA%A7%E6%8B%93%E5%B1%95%E7%AF%87%E4%BA%8C%E3%80%8ANetty%E4%BD%BF%E7%94%A8Protobuf%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE%E3%80%8B.md)
@@ -413,7 +414,7 @@
 
 </details>
 
-### 6.3 高级应用篇
+### 6.3 高级应用篇 - 👉[**在线阅读**](https://bugstack.cn/md/netty/application/2019-09-01-%E6%89%8B%E5%86%99RPC%E6%A1%86%E6%9E%B6%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AExml%E3%80%8B.html)
 
 - [手写RPC框架第一章《自定义配置xml》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/application/2019-09-01-%E6%89%8B%E5%86%99RPC%E6%A1%86%E6%9E%B6%E7%AC%AC%E4%B8%80%E7%AB%A0%E3%80%8A%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AExml%E3%80%8B.md)
 - [手写RPC框架第二章《netty通信》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/application/2019-09-02-%E6%89%8B%E5%86%99RPC%E6%A1%86%E6%9E%B6%E7%AC%AC%E4%BA%8C%E7%AB%A0%E3%80%8Anetty%E9%80%9A%E4%BF%A1%E3%80%8B.md)
@@ -426,7 +427,7 @@
 
 </details>
 
-### 6.4 源码分析篇
+### 6.4 源码分析篇 - 👉[**在线阅读**](https://bugstack.cn/md/netty/source-code/2019-09-10-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%B8%80%E3%80%8ANioEventLoopGroup%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E3%80%8B.html)
 
 - [netty案例，netty4.1源码分析篇一《NioEventLoopGroup源码分析》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/source-code/2019-09-10-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%B8%80%E3%80%8ANioEventLoopGroup%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E3%80%8B.md)
 - [netty案例，netty4.1源码分析篇二《ServerBootstrap配置与绑定启动》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/netty/source-code/2019-09-11-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%E7%AF%87%E4%BA%8C%E3%80%8AServerBootstrap%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%BB%91%E5%AE%9A%E5%90%AF%E5%8A%A8%E3%80%8B.md)
@@ -442,7 +443,7 @@
 
 ## 7. 字节码编程
 
-### 7.1 框架
+### 7.1 框架 - 👉[**在线阅读**](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
 
 **ASM**
 
@@ -468,7 +469,7 @@
 
 </details>
 
-### 7.2 全链路监控
+### 7.2 全链路监控 - 👉[**在线阅读**](https://bugstack.cn/md/bytecode/agent/2019-07-10-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%80%E3%80%8A%E5%97%A8%EF%BC%81JavaAgent%E3%80%8B.html)
 
 - [基于JavaAgent的全链路监控一《嗨！JavaAgent》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-10-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%B8%80%E3%80%8A%E5%97%A8%EF%BC%81JavaAgent%E3%80%8B.md)
 - [基于JavaAgent的全链路监控二《通过字节码增加监控执行耗时》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/agent/2019-07-11-%E5%9F%BA%E4%BA%8EJavaAgent%E7%9A%84%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7%E4%BA%8C%E3%80%8A%E9%80%9A%E8%BF%87%E5%AD%97%E8%8A%82%E7%A0%81%E5%A2%9E%E5%8A%A0%E7%9B%91%E6%8E%A7%E6%89%A7%E8%A1%8C%E8%80%97%E6%97%B6%E3%80%8B.md)
@@ -482,7 +483,7 @@
 
 </details>
 
-### 7.3 文档(ASM-DOC)
+### 7.3 文档(ASM-DOC) - 👉[**在线阅读**](https://bugstack.cn/md/bytecode/asm-document/1%E5%BC%95%E8%A8%80.html)
 
 - [第 1 章 - 引言](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/bytecode/asm-document/1%E5%BC%95%E8%A8%80.md)
     
@@ -548,9 +549,21 @@
 
 </details>
 
-## 8. 关于
+## 8. 部署 - 👉[**在线阅读**](https://bugstack.cn/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.html)
 
-### 8.1 关于自己
+- [windows环境下安装elasticsearch6.2.2](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.md)
+- [elasticsearch-head插件安装](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-08-13-elasticsearch-head%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85.md)
+- [并不想吹牛皮，但！为了把Github博客粉丝转移到公众号，我干了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-11-23-%E5%B9%B6%E4%B8%8D%E6%83%B3%E5%90%B9%E7%89%9B%E7%9A%AE%EF%BC%8C%E4%BD%86%EF%BC%81%E4%B8%BA%E4%BA%86%E6%8A%8AGithub%E5%8D%9A%E5%AE%A2%E7%B2%89%E4%B8%9D%E8%BD%AC%E7%A7%BB%E5%88%B0%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%8C%E6%88%91%E5%B9%B2%E4%BA%86%EF%BC%81.md)
+- [20年3月27日，Github被攻击。我的GitPage博客也挂了，紧急修复之路，也教会你搭建 Jekyll 博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-03-28-GithubAndMyBlogAttacked.md)
+- [《Netty+JavaFx实战：仿桌面版微信聊天》代码开源+上云部署+视频讲解](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-04-25-%E3%80%8ANetty%2BJavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B%E4%BB%A3%E7%A0%81%E5%BC%80%E6%BA%90%2B%E4%B8%8A%E4%BA%91%E9%83%A8%E7%BD%B2%2B%E8%A7%86%E9%A2%91%E8%AE%B2%E8%A7%A3.md)
+- [自建云盘存储PDF书籍支持在线预览和下载](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-05-10-%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AD%98%E5%82%A8PDF%E4%B9%A6%E7%B1%8D%E6%94%AF%E6%8C%81%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%92%8C%E4%B8%8B%E8%BD%BD.md)
+- [一天建4个，小傅哥教你搭博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-01-24-%E4%B8%80%E5%A4%A9%E5%BB%BA4%E4%B8%AA%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E6%95%99%E4%BD%A0%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
+- [Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-04-11-Cloudreve%20%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AE%9E%E8%B7%B5%EF%BC%8C%E6%88%91%E8%AF%B4%E4%BA%86%E6%B2%A1%E4%BA%BA%E8%83%BD%E9%99%90%E5%BE%97%E4%BA%86%E6%88%91%E7%9A%84%E5%AE%B9%E9%87%8F%E5%92%8C%E9%80%9F%E5%BA%A6%EF%BC%81.md)
+- [【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-06-04-%E3%80%90%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%E3%80%91%E7%A0%81%E5%86%9C%E4%BD%BF%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%AD%A6%E4%B9%A0%EF%BC%8C%E9%83%A8%E7%8E%AF%E5%A2%83%E3%80%81%E5%BC%80%E7%AB%AF%E5%8F%A3%E3%80%81%E9%85%8D%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%84SSL%E3%80%81%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md) 
+
+## 9. 关于
+
+### 9.1 关于自己 - 👉[**在线阅读**](https://bugstack.cn/md/about/me/about-me.html)
 
 - [大学四年到毕业工作5年的学习路线资源汇总](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2020-03-31-%E5%A4%A7%E5%AD%A6%E5%9B%9B%E5%B9%B4%E5%88%B0%E6%AF%95%E4%B8%9A%E5%B7%A5%E4%BD%9C5%E5%B9%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.md)
 - [12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2020-07-25-12%E5%A4%A9%EF%BC%8C%E8%BF%99%E6%9C%AC%E3%80%8A%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8BPDF%E4%B9%A6%E7%B1%8D%E4%B8%8B%E8%BD%BD%E9%87%8F9k%EF%BC%8C%E6%96%B0%E5%A2%9E%E7%B2%89%E4%B8%9D1400%E4%BA%BA%EF%BC%8CGithub%E4%B8%8A%E5%85%A8%E7%90%83%E6%8E%A8%E8%8D%90%E6%A6%9C.md)
@@ -572,7 +585,7 @@
 
 </details>
 
-### 8.2 关于学习
+### 9.2 关于学习 - 👉[**在线阅读**](https://bugstack.cn/md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.html)
 
 - [讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.md)
 - [为了省钱，我用1天时间把PHP学了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-10-11-%E4%B8%BA%E4%BA%86%E7%9C%81%E9%92%B1%EF%BC%8C%E6%88%91%E7%94%A81%E5%A4%A9%E6%97%B6%E9%97%B4%E6%8A%8APHP%E5%AD%A6%E4%BA%86%EF%BC%81.md)
@@ -590,7 +603,7 @@
 
 </details>
 
-### 8.3 关于工作
+### 9.3 关于工作 - 👉[**在线阅读**](https://bugstack.cn/md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.html)
 
 - [工作两年简历写成这样，谁要你呀！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.md)
 - [程序员为什么热衷于造轮子，升职加薪吗？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-09-20-%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%BA%E4%BB%80%E4%B9%88%E7%83%AD%E8%A1%B7%E4%BA%8E%E9%80%A0%E8%BD%AE%E5%AD%90%EF%BC%8C%E5%8D%87%E8%81%8C%E5%8A%A0%E8%96%AA%E5%90%97%EF%BC%9F.md)
@@ -604,7 +617,7 @@
 
 </details>
 
-## 9. 转载分享
+## 10. 转载分享
 
 建立本开源项目的初衷是基于个人学习与工作中对 Java 相关技术栈的总结记录，在这里也希望能帮助一些在学习 Java 过程中遇到问题的小伙伴，如果您需要转载本仓库的一些文章到自己的博客，请按照以下格式注明出处，谢谢合作。
 
@@ -614,12 +627,12 @@
 来源：bugstack虫洞栈
 ```                  
 
-## 10. 参与贡献
+## 11. 参与贡献
 
 1. 如果您对本项目有任何建议或发现文中内容有误的，欢迎提交 issues 进行指正。
 2. 对于文中我没有涉及到知识点，欢迎提交 PR。
 
-## 11. 与我联系
+## 12. 与我联系
 
 - **加群交流** 本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：加群。
 
@@ -629,7 +642,7 @@
 
 <img src="https://bugstack.cn/images/personal/qrcode.png" width="180px">
 
-## 12. 致谢
+## 13. 致谢
 
 感谢以下人员对本仓库做出的贡献或者对小傅哥的赞赏，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。
 
