@@ -8,14 +8,20 @@ module.exports = {
     },
     // webpack 配置 https://vuepress.vuejs.org/zh/config/#chainwebpack
     chainWebpack: config => {
-        // 清除js版本号
-        config.output.filename('assets/js/[name].js?v=[contenthash]').end();
-        config.output.chunkFilename('assets/js/[name].js?v=[contenthash]').end();
-        // 清除css版本号
-        config.plugin('mini-css-extract-plugin').use(require('mini-css-extract-plugin'), [{
-            filename: `assets/css/[name].css`,
-            chunkFilename: `assets/css/[name].css`
-        }]).end();
+        if (process.env.NODE_ENV === 'production') {
+            const dateTime = new Date().getTime();
+
+            // 清除js版本号
+            config.output.filename('assets/js/cg-[name].js?v=' + dateTime).end();
+            config.output.chunkFilename('assets/js/cg-[name].js?v=' + dateTime).end();
+
+            // 清除css版本号
+            config.plugin('mini-css-extract-plugin').use(require('mini-css-extract-plugin'), [{
+                filename: 'assets/css/[name].css?v=' + dateTime,
+                chunkFilename: 'assets/css/[name].css?v=' + dateTime
+            }]).end();
+
+        }
     },
     markdown: {
         lineNumbers: true,
@@ -101,7 +107,12 @@ module.exports = {
         // https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html#%E9%80%89%E9%A1%B9
         ['@vuepress/pwa', {
             serviceWorker: true,
-            updatePopup: true
+            updatePopup: {
+                '/': {
+                    message: "发现新内容可用",
+                    buttonText: "刷新"
+                },
+            }
         }],
         // see: https://vuepress.github.io/zh/plugins/copyright/#%E5%AE%89%E8%A3%85
         // ['copyright', {
