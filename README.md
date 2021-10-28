@@ -82,7 +82,7 @@
 9. [转载分享](https://github.com/fuzhengwei/CodeGuide#9-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
 10. [参与贡献](https://github.com/fuzhengwei/CodeGuide#10-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
 11. [与我联系](https://github.com/fuzhengwei/CodeGuide#11-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
-12. [致谢](https://github.com/fuzhengwei/CodeGuide#12-%E8%87%B4%E8%B0%A2)   
+12. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#12-%E8%87%B4%E8%B0%A2)   
 
 ## 1. 源码
 
