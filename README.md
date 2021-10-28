@@ -75,15 +75,15 @@
     - [7.1 框架](https://github.com/fuzhengwei/CodeGuide#71-%E6%A1%86%E6%9E%B6---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [7.2 全链路监控](https://github.com/fuzhengwei/CodeGuide#72-%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [7.3 文档(ASM-DOC)](https://github.com/fuzhengwei/CodeGuide#73-%E6%96%87%E6%A1%A3asm-doc---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-8. [部署 Dev-Ops]()    
+8. [部署 Dev-Ops](https://github.com/fuzhengwei/CodeGuide#8-%E9%83%A8%E7%BD%B2---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)    
 9. [关于](https://github.com/fuzhengwei/CodeGuide#8-%E5%85%B3%E4%BA%8E)
-    - [9.1 关于自己](https://github.com/fuzhengwei/CodeGuide#81-%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [9.2 关于学习](https://github.com/fuzhengwei/CodeGuide#82-%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [9.3 关于工作](https://github.com/fuzhengwei/CodeGuide#83-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-10. [转载分享](https://github.com/fuzhengwei/CodeGuide#9-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
-11. [参与贡献](https://github.com/fuzhengwei/CodeGuide#10-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
-12. [与我联系](https://github.com/fuzhengwei/CodeGuide#11-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
-13. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#12-%E8%87%B4%E8%B0%A2)   
+    - [9.1 关于自己](https://github.com/fuzhengwei/CodeGuide#91-%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [9.2 关于学习](https://github.com/fuzhengwei/CodeGuide#92-%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [9.3 关于工作](https://github.com/fuzhengwei/CodeGuide#93-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+10. [转载分享](https://github.com/fuzhengwei/CodeGuide#10-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
+11. [参与贡献](https://github.com/fuzhengwei/CodeGuide#11-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
+12. [与我联系](https://github.com/fuzhengwei/CodeGuide#12-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
+13. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#13-%E8%87%B4%E8%B0%A2)   
 
 ## 1. 源码
 
@@ -555,11 +555,16 @@
 - [elasticsearch-head插件安装](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-08-13-elasticsearch-head%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85.md)
 - [并不想吹牛皮，但！为了把Github博客粉丝转移到公众号，我干了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-11-23-%E5%B9%B6%E4%B8%8D%E6%83%B3%E5%90%B9%E7%89%9B%E7%9A%AE%EF%BC%8C%E4%BD%86%EF%BC%81%E4%B8%BA%E4%BA%86%E6%8A%8AGithub%E5%8D%9A%E5%AE%A2%E7%B2%89%E4%B8%9D%E8%BD%AC%E7%A7%BB%E5%88%B0%E5%85%AC%E4%BC%97%E5%8F%B7%EF%BC%8C%E6%88%91%E5%B9%B2%E4%BA%86%EF%BC%81.md)
 - [20年3月27日，Github被攻击。我的GitPage博客也挂了，紧急修复之路，也教会你搭建 Jekyll 博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-03-28-GithubAndMyBlogAttacked.md)
+
+<details><summary><a>👉显示更多</a></summary></br>
+
 - [《Netty+JavaFx实战：仿桌面版微信聊天》代码开源+上云部署+视频讲解](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-04-25-%E3%80%8ANetty%2BJavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B%E4%BB%A3%E7%A0%81%E5%BC%80%E6%BA%90%2B%E4%B8%8A%E4%BA%91%E9%83%A8%E7%BD%B2%2B%E8%A7%86%E9%A2%91%E8%AE%B2%E8%A7%A3.md)
 - [自建云盘存储PDF书籍支持在线预览和下载](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2020-05-10-%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AD%98%E5%82%A8PDF%E4%B9%A6%E7%B1%8D%E6%94%AF%E6%8C%81%E5%9C%A8%E7%BA%BF%E9%A2%84%E8%A7%88%E5%92%8C%E4%B8%8B%E8%BD%BD.md)
 - [一天建4个，小傅哥教你搭博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-01-24-%E4%B8%80%E5%A4%A9%E5%BB%BA4%E4%B8%AA%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E6%95%99%E4%BD%A0%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
 - [Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-04-11-Cloudreve%20%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AE%9E%E8%B7%B5%EF%BC%8C%E6%88%91%E8%AF%B4%E4%BA%86%E6%B2%A1%E4%BA%BA%E8%83%BD%E9%99%90%E5%BE%97%E4%BA%86%E6%88%91%E7%9A%84%E5%AE%B9%E9%87%8F%E5%92%8C%E9%80%9F%E5%BA%A6%EF%BC%81.md)
 - [【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-06-04-%E3%80%90%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%E3%80%91%E7%A0%81%E5%86%9C%E4%BD%BF%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%AD%A6%E4%B9%A0%EF%BC%8C%E9%83%A8%E7%8E%AF%E5%A2%83%E3%80%81%E5%BC%80%E7%AB%AF%E5%8F%A3%E3%80%81%E9%85%8D%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%84SSL%E3%80%81%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md) 
+
+</details>
 
 ## 9. 关于
 
