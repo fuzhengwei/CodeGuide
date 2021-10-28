@@ -52,7 +52,7 @@
 
 1. [源码](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81) - :octocat: 公众号：[`bugstack虫洞栈`](https://bugstack.cn/images/personal/qrcode.png) 文章所涉及到的全部开源代码
 2. [Java](https://github.com/fuzhengwei/CodeGuide#2-java)
-    - [2.1 面经手册](https://github.com/fuzhengwei/CodeGuide#21-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C)
+    - [2.1 面经手册](https://github.com/fuzhengwei/CodeGuide#21-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C)  `涵盖：数据结构、算法逻辑、并发编程、JVM、面试现场`
     - [2.2 用Java实现JVM](https://github.com/fuzhengwei/CodeGuide#22-%E7%94%A8java%E5%AE%9E%E7%8E%B0jvm)
     - [2.3 基础技术](https://github.com/fuzhengwei/CodeGuide#23-%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF)
 3. [Spring](https://github.com/fuzhengwei/CodeGuide#3-spring)
