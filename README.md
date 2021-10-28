@@ -11,15 +11,15 @@
 
 <br/>
 <div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-LOGO.png?raw=true" width="256px"></a>
+    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/images/system/CodeGuide-LOGO.png?raw=true" width="256px"></a>
 </div>
 <br/>
 
 <div align="center">
-	<a href="https://bugstack.cn/md/other/guide-to-reading.html"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-Read.svg"></a>
-	<a href="https://bugstack.cn/images/personal/qrcode.png"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-WeiXinCode.svg"></a>
-	<a href="https://bugstack.cn/md/knowledge/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-JavaPDF.svg"></a>
-	<a href="https://mp.weixin.qq.com/s/VthCUlT8oAJqKOoq5_NzSQ"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-Lottery.svg"></a>
+	<a href="https://bugstack.cn/md/other/guide-to-reading.html"><img src="https://bugstack.cn/images/system/CodeGuide-Read.svg"></a>
+	<a href="https://bugstack.cn/images/personal/qrcode.png"><img src="https://bugstack.cn/images/system/CodeGuide-WeiXinCode.svg"></a>
+	<a href="https://bugstack.cn/md/knowledge/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html"><img src="https://bugstack.cn/images/system/CodeGuide-JavaPDF.svg"></a>
+	<a href="https://mp.weixin.qq.com/s/VthCUlT8oAJqKOoq5_NzSQ"><img src="https://bugstack.cn/images/system/CodeGuide-Lottery.svg"></a>
 	<a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
 </div>
 
@@ -31,7 +31,7 @@
   		<tbody>
             <tr>
                <td align="center" valign="middle">
-                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-xingqiu-2.png"></a>
+                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://bugstack.cn/images/system/CodeGuide-xingqiu-2.png"></a>
               </td>       
             </tr>
   		</tbody>

@@ -4,7 +4,7 @@ module.exports = {
     base: "/",
     // 是否开启默认预加载js
     shouldPrefetch: (file, type) => {
-        return true;
+        return false;
     },
     // webpack 配置 https://vuepress.vuejs.org/zh/config/#chainwebpack
     chainWebpack: config => {
@@ -105,15 +105,15 @@ module.exports = {
             }
         }],
         // https://v1.vuepress.vuejs.org/zh/plugin/official/plugin-pwa.html#%E9%80%89%E9%A1%B9
-        ['@vuepress/pwa', {
-            serviceWorker: true,
-            updatePopup: {
-                '/': {
-                    message: "发现新内容可用",
-                    buttonText: "刷新"
-                },
-            }
-        }],
+        // ['@vuepress/pwa', {
+        //     serviceWorker: true,
+        //     updatePopup: {
+        //         '/': {
+        //             message: "发现新内容可用",
+        //             buttonText: "刷新"
+        //         },
+        //     }
+        // }],
         // see: https://vuepress.github.io/zh/plugins/copyright/#%E5%AE%89%E8%A3%85
         // ['copyright', {
         //     noCopy: false, // 允许复制内容
@@ -634,7 +634,7 @@ function genBarSpringSpringCloud() {
 function genBarSpringSourceCode() {
     return [
         {
-            title: "Spring 手撸专栏",
+            title: "源码分析",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -769,7 +769,7 @@ function genBarDevelopStandard() {
                 "2020-09-06-握草，你竟然在代码里下毒！.md",
                 "2020-09-14-一次代码评审，差点过不了试用期！.md",
                 "2021-01-03-谁说明天上线，这货压根不知道开发流程！.md",
-                // "2021-01-10-握草，这些研发事故30%我都干过！.md",
+                "2021-01-10-握草，这些研发事故30我都干过！.md",
                 "2021-09-15-还重构？就你那代码只能铲了重写！.md",
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
                 "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md"
