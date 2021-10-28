@@ -65,7 +65,7 @@
           <div class="pos-box">
             <div class="icon-arrow"></div>
             <div class="scroll-box" style="text-align:center" >
-              <span style="font-size:0.8rem;font-weight:bold;">实战项目<span style="font-size:4px;color:red;">「DDD+RPC分布式抽奖系统」</span>、专属小册、问题解答、简历指导、架构图稿、视频课程</span>
+              <span style="font-size:0.8rem;font-weight:bold;">实战项目<span style="font-size:8px;color:red;">「DDD+RPC分布式抽奖系统」</span>、专属小册、问题解答、简历指导、架构图稿、视频课程</span>
               <img height="180px" src="/images/personal/xingqiu.png" style="margin:10px;"/>
               <b>知识星球</b>：码农会锁
             </div>
