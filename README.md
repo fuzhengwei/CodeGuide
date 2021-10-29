@@ -46,9 +46,7 @@
 6. **知识星球**：[码农会锁](https://t.zsxq.com/jAi2nUf) - 技术解答/简历批阅/成长指导/内容分享/实战项目 - [《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》](https://codechina.csdn.net/KnowledgePlanet/Lottery)
 7. **转载须知** ：以下所有文章如非文首说明皆为我（小傅哥）的原创，转载在文首注明出处，如发现恶意抄袭/搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！⛽️
 
----
-
-⛳ **目录**
+## ⛳ 目录
 
 1. [源码](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81) - :octocat: 公众号：[`bugstack虫洞栈`](https://bugstack.cn/images/personal/qrcode.png) 文章所涉及到的全部开源代码
 2. [Java](https://github.com/fuzhengwei/CodeGuide#2-java)
