@@ -59,7 +59,7 @@
     - [3.3 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 4. [面向对象](https://github.com/fuzhengwei/CodeGuide#4-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
     - [4.1 设计模式](https://github.com/fuzhengwei/CodeGuide#41-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [4.2 系统结构](https://github.com/fuzhengwei/CodeGuide#42-%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [4.2 系统架构](https://github.com/fuzhengwei/CodeGuide#42-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [4.3 开发规范&事故](https://github.com/fuzhengwei/CodeGuide#43-%E5%BC%80%E5%8F%91%E8%A7%84%E8%8C%83%E4%BA%8B%E6%95%85---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 5. [中间件](https://github.com/fuzhengwei/CodeGuide#5-%E4%B8%AD%E9%97%B4%E4%BB%B6)
     - [5.1 SpringBoot 中间件开发](https://github.com/fuzhengwei/CodeGuide#51-springboot-%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%BC%80%E5%8F%91---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
