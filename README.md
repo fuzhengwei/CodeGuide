@@ -26,7 +26,7 @@
 <br/>  
      
 <div align="center">
-    <p align="center"><b>知识星球</b>：<a href="https://t.zsxq.com/jAi2nUf">码农会锁 👇</a></p>
+    <p align="center"><b>知识星球</b>：<a href="https://t.zsxq.com/jAi2nUf">码农会锁</a> 👇</p>
    <table>
   		<tbody>
             <tr>
