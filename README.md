@@ -39,7 +39,7 @@
 </div>
 
 1. **介绍**：关于 虫洞栈 · CodeGuide 的相关介绍请看：[关于`虫洞栈`的一些说明](https://bugstack.cn/md/other/guide-to-reading.html)
-2. **贡献**：欢迎参与到 CodeGuide 的维护工作，你可以 `提交Issue`、`处理Issue`、`提交PR(Fork代码库，提交Pull requests) - 另外当你 Fork 代码库后，可以在阅读` [`bugstack.cn`](https://bugstack.cn/) 时，文末点击“在 GitHub 上编辑此页”进行提交PR
+2. **贡献**：欢迎参与到 CodeGuide 的维护工作，你可以 `提交Issue`、`处理Issue`、`提交PR(Fork代码库，提交Pull requests) - 另外当你 Fork 代码库后，可以在阅读` [`bugstack.cn`](https://bugstack.cn/) 时，文末点击 “在 GitHub 上编辑此页” 进行提交PR Go -> [操作指导](https://github.com/fuzhengwei/CodeGuide/issues/260)
 3. **PDF**：[《Java 面经手册》](https://download.csdn.net/download/Yao__Shun__Yu/14932325)、[《手撸 Spring》](https://download.csdn.net/download/Yao__Shun__Yu/21009038)、[《字节码编程》](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
 4. **小册**：[IM](https://blog.csdn.net/generalfu/category_10400631.html) - Netty4.x + SpringBoot 仿PC微信、[SpringBoot 中间件设计和开发](https://juejin.cn/book/6940996508632219689) - 16个中间件实现，包括测试工程等共计30个代码库，每一章节都会对应有一个中间件的设计和实现
 5. **我的书籍**：[《重学Java设计模式》](https://item.jd.com/13218336.html) - 这是一本基于互联网真实案例编写的Java设计模式实践图书。全书以解决方案为核心，从实际开发业务中抽离出交易、营销、规则引擎、中间件、框架源码等22个真实场景，对设计模式进行全面、彻底的分析。
