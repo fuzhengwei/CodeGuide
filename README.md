@@ -7,7 +7,7 @@
 - 👉 如果你不知道自己要从哪开始、要学什么、有什么结果，请看 [阅读指南](https://bugstack.cn/md/other/guide-to-reading.html) 这是一个码农研发人员提升自身技术栈广度和深度的经验之路，也是小傅哥的亲身学习经历汇总！
 - 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
 - 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
-- **云服务器**：[79元1年，226元3年，新人服务器](https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11388&recordId=1033318&userCode=is4kfbdt) **云服务·视频课程**：关注小傅哥的微信视频号，`小傅哥の码场`
+- **云服务器**：[60元1年，180元3年，新人服务器](https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11388&recordId=1033318&userCode=is4kfbdt) **云服务·视频课程**：关注小傅哥的微信视频号，`小傅哥の码场`
 
 <br/>
 <div align="center">
@@ -31,7 +31,7 @@
   		<tbody>
             <tr>
                <td align="center" valign="middle">
-                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://bugstack.cn/images/system/CodeGuide-xingqiu-2.png" width="900px"></a>
+                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-xingqiu-3.png" width="900px"></a>
               </td>       
             </tr>
   		</tbody>
@@ -39,7 +39,7 @@
 </div>
 
 1. **介绍**：关于 虫洞栈 · CodeGuide 的相关介绍请看：[关于`虫洞栈`的一些说明](https://bugstack.cn/md/other/guide-to-reading.html)
-2. **贡献**：欢迎参与到 CodeGuide 的维护工作，你可以 `提交Issue`、`处理Issue`、`提交PR(Fork代码库，提交Pull requests) - 另外当你 Fork 代码库后，可以在阅读` [`bugstack.cn`](https://bugstack.cn/) 时，文末点击“在 GitHub 上编辑此页”进行提交PR
+2. **贡献**：欢迎参与到 CodeGuide 的维护工作，你可以 `提交Issue`、`处理Issue`、`提交PR(Fork代码库，提交Pull requests) - 另外当你 Fork 代码库后，可以在阅读` [`bugstack.cn`](https://bugstack.cn/) 时，文末点击 “在 GitHub 上编辑此页” 进行提交PR Go -> [操作指导](https://github.com/fuzhengwei/CodeGuide/issues/260)
 3. **PDF**：[《Java 面经手册》](https://download.csdn.net/download/Yao__Shun__Yu/14932325)、[《手撸 Spring》](https://download.csdn.net/download/Yao__Shun__Yu/21009038)、[《字节码编程》](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
 4. **小册**：[IM](https://blog.csdn.net/generalfu/category_10400631.html) - Netty4.x + SpringBoot 仿PC微信、[SpringBoot 中间件设计和开发](https://juejin.cn/book/6940996508632219689) - 16个中间件实现，包括测试工程等共计30个代码库，每一章节都会对应有一个中间件的设计和实现
 5. **我的书籍**：[《重学Java设计模式》](https://item.jd.com/13218336.html) - 这是一本基于互联网真实案例编写的Java设计模式实践图书。全书以解决方案为核心，从实际开发业务中抽离出交易、营销、规则引擎、中间件、框架源码等22个真实场景，对设计模式进行全面、彻底的分析。
