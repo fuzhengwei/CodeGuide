@@ -1,14 +1,9 @@
 ---
-layout: post
-category: itstack-ark-middleware
-title: 第1章：两种方式创建插件工程
-tagline: by 小傅哥
-tag: [java,itstack-ark-middleware]
-excerpt: 对于码农这一行业的编程学习生涯来说，会遇到很多的不会，不会搭建IDEA工程、不会写老师的案例、不会完成书中的效果、不会做项目的需求、不会实现复杂的逻辑、不会抽象工程的结构等等。但这些不会当中并不是所有的不会，都因为太复杂学不会，而是很大一部分内容因为找不到好的资料、没有清晰的文档、缺少完整的案例，导致不知道所以不会。
+title: 第1节：两种方式创建插件工程
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程
+# 《IntelliJ IDEA 插件开发》第1节：两种方式创建插件工程
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -61,7 +56,7 @@ guide-idea-plugin-create-project-by-platform
         └── MyAction.java  
 ```
 
-**源码**：[https://github.com/fuzhengwei/guide-idea-plugin-create-project-by-platform](https://github.com/fuzhengwei/guide-idea-plugin-create-project-by-platform) 
+- **源码获取**：#公众号：`bugstack虫洞栈` 回复：`idea` 即可下载全部 IDEA 插件开发源码
 
 - plugin.xml 插件配置：开发描述、版本信息、Action事件入口、扩展信息(数据存放等)
 - src 具体的事件、UI窗体、工程逻辑代码开发
