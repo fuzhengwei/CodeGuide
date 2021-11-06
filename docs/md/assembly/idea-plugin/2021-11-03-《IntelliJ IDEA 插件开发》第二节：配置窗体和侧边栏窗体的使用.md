@@ -247,7 +247,7 @@ public class SettingFactory implements SearchableConfigurable {
 
 **查看展示文件**
 
-![](https://bugstack.cn/images/article/assembly/assembly-211103c-05.png)
+![](https://bugstack.cn/images/article/assembly/assembly-211103-05.png)
 
 - 确认好文件路径后，就可以再右侧栏看到自己的文件展示内容了。*是不是在扩展些，就适合你摸鱼了！？*
 
