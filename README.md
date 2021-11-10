@@ -31,7 +31,7 @@
   		<tbody>
             <tr>
                <td align="center" valign="middle">
-                <a href="https://t.zsxq.com/jAi2nUf"><img src="https://github.com/fuzhengwei/CodeGuide/blob/master/docs/.vuepress/public/images/system/CodeGuide-xingqiu-3.png" width="900px"></a>
+                <a href="https://t.zsxq.com/jAi2nUf"><img src="/docs/.vuepress/public/images/system/CodeGuide-xingqiu-3.png" width="900px"></a>
               </td>       
             </tr>
   		</tbody>
