@@ -16,6 +16,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=676376354&bvid=BV1UU4y1u7sR&cid=436918474&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 ## 一、前言
 
 `为啥要用自建网盘，市面上的云盘不香了？`

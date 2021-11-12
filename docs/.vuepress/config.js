@@ -61,6 +61,13 @@ module.exports = {
             {
                 charset: 'utf-8',
                 async: 'async',
+                // src: 'https://code.jquery.com/jquery-3.5.1.min.js',
+                src: '/js/global.js',
+            }],
+        ['script',
+            {
+                charset: 'utf-8',
+                async: 'async',
                 src: '/js/fingerprint2.min.js',
             }],
         ['script',

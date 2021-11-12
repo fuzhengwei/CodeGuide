@@ -12,9 +12,10 @@ excerpt: https://github.com/fuzhengwei/NaiveChat 代码开源，通过视频讲�
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>视频：[https://mp.weixin.qq.com/s/OmXCY4fTfDpkvjlg5ME0ZA](https://mp.weixin.qq.com/s/OmXCY4fTfDpkvjlg5ME0ZA)
-<br/>源码：[`https://github.com/fuzhengwei/NaiveChat`](https://github.com/fuzhengwei/NaiveChat)
 
 >本项目是作者小傅哥使用```JavaFx```、```Netty4.x```、```SpringBoot```、```Mysql```等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。如果本项目能为您提供帮助，请给予支持(关注、点赞、分享)！
+
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=370435867&bvid=BV1BZ4y1W7fC&cid=183186867&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 ## 一、前
 
