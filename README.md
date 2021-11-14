@@ -587,6 +587,7 @@
 - [以一己之力，生抗美团技术博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-07-03-%E4%BB%A5%E4%B8%80%E5%B7%B1%E4%B9%8B%E5%8A%9B%EF%BC%8C%E7%94%9F%E6%8A%97%E7%BE%8E%E5%9B%A2%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
 - [我在CSDN赚了1.2万](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-09-05-%E6%88%91%E5%9C%A8CSDN%E8%B5%9A%E4%BA%861.2%E4%B8%87.md)
 - [炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-10-24-%E7%82%B8%EF%BC%811024%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E5%95%A6%EF%BC%8C%E6%96%87%E7%AB%A0%E5%BC%80%E6%BA%90%E3%80%81%E6%94%AF%E6%8C%81PR%EF%BC%8C%E5%86%B2%E5%93%87%EF%BC%81.md)
+- [CodeGuide 300+文档、100+代码库，一个指导程序员写代码的，Github 仓库开源啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-11-14-CodeGuide%E5%BC%80%E6%BA%90%E4%BB%93%E5%BA%93.md)
 
 </details>
 
