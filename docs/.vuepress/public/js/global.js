@@ -7,6 +7,9 @@ window.onload = function() {
     // 根据ID获取iframe对象
     var ifr = document.getElementById('B-Video');
 
-    ifr.style.width = clientWidth + 'px';
-    ifr.style.height = (523 * clientWidth) / 700 + 'px'
+    if(ifr){
+        ifr.style.width = clientWidth + 'px';
+        ifr.style.height = (523 * clientWidth) / 700 + 'px'
+    }
+
 };
