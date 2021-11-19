@@ -91,7 +91,7 @@ module.exports = {
     ],
     plugins: [
         [
-            {globalUIComponents: ['LockArticle']}
+            {globalUIComponents: ['LockArticle', 'PayArticle']}
         ],
         // ['@vssue/vuepress-plugin-vssue', {
         //     platform: 'github-v3', //v3的platform是github，v4的是github-v4
@@ -222,7 +222,7 @@ module.exports = {
                         text: '面向对象',
                         items: [
                             {
-                                text: '设计模式',
+                                text: '重学Java设计模式',
                                 items: [
                                     {
                                         text: '创建型模式',
@@ -335,10 +335,31 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '专栏|小册|PDF',
+                        text: '💯实战项目',
                         items: [
                             {
-                                text: '我的图书', items: [
+                                text: 'IM Netty 仿PC端微信',
+                                link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                            },
+                            {
+                                text: 'SpringBoot 中间件设计和开发',
+                                link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
+                            },
+                            {
+                                text: 'Lottery 分布式抽奖系统',
+                                link: '/md/project/lottery/第01节：开篇介绍.md'
+                            }
+                        ]
+                    },
+                    {
+                        text: '部署',
+                        link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
+                    },
+                    {
+                        text: '📚PDF',
+                        items: [
+                            {
+                                text: '出版图书', items: [
                                     {
                                         text: '《重学Java设计模式》',
                                         link: '/md/knowledge/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
@@ -346,27 +367,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '知识星球', items: [
-                                    {
-                                        text: '码农会锁',
-                                        link: '/md/knowledge/knowledge-planet/2021-08-22-带头撸项目，《DDD + RPC 开发分布式架构，抽奖系统》.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: '小册', items: [
-                                    {
-                                        text: 'Netty+JavaFx实战：仿桌面版微信聊天',
-                                        link: '/md/knowledge/booklet/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                                    },
-                                    {
-                                        text: 'SpringBoot 中间件设计和开发',
-                                        link: '/md/knowledge/booklet/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
-                                    }
-                                ]
-                            },
-                            {
-                                text: 'PDF', items: [
+                                text: '电子书籍', items: [
                                     {
                                         text: 'Java 面经手册',
                                         link: '/md/knowledge/pdf/2021-01-26-Java面经手册PDF下载.md'
@@ -386,10 +387,6 @@ module.exports = {
                                 ]
                             }
                         ]
-                    },
-                    {
-                        text: '部署',
-                        link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
                         text: '关于',
@@ -422,6 +419,9 @@ module.exports = {
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
+                    "/md/project/im/": getBarProjectIM(),
+                    "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
+                    "/md/project/lottery/": getBarProjectLottery(),
                     "/md/about/": genBarAbout()
                 }
             }
@@ -906,23 +906,6 @@ function genBarKnowledge() {
             ]
         },
         {
-            title: "知识星球",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "knowledge-planet/2021-08-22-带头撸项目，《DDD + RPC 开发分布式架构，抽奖系统》.md",
-            ]
-        },
-        {
-            title: "小册",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "booklet/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md",
-                "booklet/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md"
-            ]
-        },
-        {
             title: "PDF",
             collapsable: false,
             sidebarDepth: 0,
@@ -1103,6 +1086,172 @@ function genBarBytecode() {
     ];
 }
 
+// project im
+function getBarProjectIM() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md",
+            ]
+        },
+        {
+            title: "第 1 章 - UI开发",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "1.0：专栏学习简述以及全套源码获取.md",
+                "1.1：PC端微信页面拆分及JavaFx使用.md",
+                "1.2：登陆框体实现，结构定义、输入框和登陆.md",
+                "1.3：登陆框体事件与接口.md",
+                "1.4：聊天框体实现一，整体结构定义、侧边栏.md",
+                "1.5：聊天框体实现二，对话栏.md",
+                "1.6：聊天框体实现三，对话聊天框.md",
+                "1.7：聊天框体实现四，好友栏.md",
+                "1.8：聊天框体实现五，好友填充框.md",
+                "1.9：聊天框体事件定义.md",
+                "1.10：练习篇-聊天表情框体实现.md",
+                "1.11：解答篇-聊天表情框体实现.md",
+            ]
+        },
+        {
+            title: "第 2 章 - 架构设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2.1：服务端架构设计.md",
+                "2.2：通信协议包定义.md",
+                "2.3：客户端架构设计.md",
+                "2.4：数据库表结构设计.md",
+            ]
+        },
+        {
+            title: "第 3 章 - 功能实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "3.1：登陆功能实现.md",
+                "3.2：搜索和添加好友.md",
+                "3.3：对话通知与应答.md",
+                "3.4：用户与好友通信.md",
+                "3.5：用户与群组通信.md",
+                "3.6：断线重连恢复通信.md",
+                "3.7：服务端控制台搭建.md",
+                "3.8：练习篇-聊天表情发送功能实现.md",
+                "3.9：解答篇-聊天表情发送功能实现.md",
+            ]
+        }
+    ];
+}
+
+// project springboot-middleware
+function getBarProjectSpringBootMiddleware() {
+    return [
+        {
+            title: "中间件小册介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md",
+            ]
+        },
+        {
+            title: "第 1 部分 - 开篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 1 章 什么是中间件.md",
+                "第 2 章 【重要】小册学习介绍&源码授权.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 服务治理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 3 章 服务治理，统一白名单控制.md",
+                "第 4 章 服务治理，超时熔断.md",
+                "第 5 章 服务治理，调用限流.md",
+                "第 6 章 服务治理，自定义拦截方法.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - ORM 框架",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 7 章 ORM 框架实现.md",
+                "第 8 章 ORM 框架与 Spring 集合.md",
+                "第 9 章 结合 SpringBoot 开发 ORM Starter.md",
+                "第 10 章 ES-JDBC 查询引擎.md",
+                "第 11 章 ES SpringBoot Starter 服务框架.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 分布式组件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 12 章 RPC 框架实现.md",
+                "第 13 章 数据库路由组件.md",
+                "第 14 章 Redis 简化使用封装.md",
+                "第 15 章 分布式任务调度.md",
+            ]
+        },
+        {
+            title: "第 5 部分 - 字节码应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 16 章 非入侵监控设计，ASM 字节码插桩.md",
+                "第 17 章 非入侵监控设计，JVMTI 定位代码.md",
+                "第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息.md",
+            ]
+        },
+        {
+            title: "第 6 部分",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 19 章 后记.md",
+            ]
+        }
+    ];
+}
+
+// project lottery
+function getBarProjectLottery() {
+    return [
+        {
+            title: "Lottery 分布式抽奖系统",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第01节：开篇介绍.md",
+                "第02节：搭建DDD四层架构.md",
+                "第03节：跑通广播模式RPC过程调用.md",
+                "第04节：抽奖活动策略库表设计.md",
+                "第05节：抽奖策略领域模块开发.md",
+                "第06节：模板模式处理抽奖流程.md",
+                "第07节：简单工厂搭建发奖领域.md",
+                "第08节：活动领域的配置与状态.md",
+                "第09节：ID生成策略领域开发.md",
+                "第10节：实现和使用分库分表.md",
+                "第11节：声明事务领取活动领域开发.md",
+                "第12节：在应用层编排抽奖过程.md",
+                "第13节：规则引擎量化人群参与活动.md",
+                "第14节：门面接口封装和对象转换.md",
+                "第15节：搭建MQ消息组件Kafka服务环境.md",
+                "第16节：使用MQ解耦抽奖发货流程.md",
+                "第17节：引入xxl-job处理活动状态扫描.md",
+                "第18节：扫描库表补偿发货单MQ消息.md",
+            ]
+        }
+    ]
+}
+
 // About page
 function genBarAbout() {
     return [
@@ -1119,7 +1268,7 @@ function genBarAbout() {
                 "me/2020-10-25-今天你写博客了吗.md",
                 "me/2020-11-01-刚毕业不久，接私活赚了2万块！.md",
                 "me/2020-11-29-北漂码农的我，把在大城市过成了屯子一样舒服，哈哈哈哈哈！.md",
-                "me/2020-12-27-2020总结 | 作为技术号主的一年！.md",
+                "me/2020-12-27-2020总结，作为技术号主的一年！.md",
                 "me/2021-01-31-这一年，想踏码进货一样！.md",
                 "me/2021-05-26-小傅哥，一个有副业的码农.md",
                 "me/2021-06-20-我，有10万+粉丝啦！.md",
