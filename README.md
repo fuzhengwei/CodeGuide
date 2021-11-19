@@ -73,15 +73,20 @@
     - [7.1 框架](https://github.com/fuzhengwei/CodeGuide#71-%E6%A1%86%E6%9E%B6---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [7.2 全链路监控](https://github.com/fuzhengwei/CodeGuide#72-%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [7.3 文档(ASM-DOC)](https://github.com/fuzhengwei/CodeGuide#73-%E6%96%87%E6%A1%A3asm-doc---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-8. [部署 Dev-Ops](https://github.com/fuzhengwei/CodeGuide#8-%E9%83%A8%E7%BD%B2---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)    
-9. [关于](https://github.com/fuzhengwei/CodeGuide#8-%E5%85%B3%E4%BA%8E)
+8. [实战项目](#)
+    - [IM Netty 仿PC端微信](#)    
+    - [SpringBoot 中间件设计和开发](#)    
+    - [Lottery 分布式抽奖系统](#)    
+9. [部署 Dev-Ops](https://github.com/fuzhengwei/CodeGuide#8-%E9%83%A8%E7%BD%B2---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)    
+10. [PDF 下载](#)
+11. [关于](https://github.com/fuzhengwei/CodeGuide#8-%E5%85%B3%E4%BA%8E)
     - [9.1 关于自己](https://github.com/fuzhengwei/CodeGuide#91-%E5%85%B3%E4%BA%8E%E8%87%AA%E5%B7%B1---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [9.2 关于学习](https://github.com/fuzhengwei/CodeGuide#92-%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [9.3 关于工作](https://github.com/fuzhengwei/CodeGuide#93-%E5%85%B3%E4%BA%8E%E5%B7%A5%E4%BD%9C---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-10. [转载分享](https://github.com/fuzhengwei/CodeGuide#10-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
-11. [参与贡献](https://github.com/fuzhengwei/CodeGuide#11-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
-12. [与我联系](https://github.com/fuzhengwei/CodeGuide#12-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
-13. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#13-%E8%87%B4%E8%B0%A2)   
+12. [转载分享](https://github.com/fuzhengwei/CodeGuide#10-%E8%BD%AC%E8%BD%BD%E5%88%86%E4%BA%AB) 
+13. [参与贡献](https://github.com/fuzhengwei/CodeGuide#11-%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE) 🍁 `留下你的学习的Issue、PR，与同好同行、共同成长`
+14. [与我联系](https://github.com/fuzhengwei/CodeGuide#12-%E4%B8%8E%E6%88%91%E8%81%94%E7%B3%BB)
+15. [:rose: 致谢](https://github.com/fuzhengwei/CodeGuide#13-%E8%87%B4%E8%B0%A2)   
 
 ## 1. 源码
 
@@ -550,7 +555,106 @@
 
 </details>
 
-## 8. 部署 - 👉[**在线阅读**](https://bugstack.cn/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.html)
+## 8. 实战项目
+
+### 8.1 IM Netty 仿PC端微信 - 👉[**在线阅读**]()
+
+- [介绍]()
+- 第 1 章 - UI开发
+    - [1.0：专栏学习简述以及全套源码获取](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.1：PC端微信页面拆分及JavaFx使用](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.2：登陆框体实现(结构定义、输入框和登陆)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.3：登陆框体事件与接口](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.4：聊天框体实现一(整体结构定义、侧边栏)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.5：聊天框体实现二(对话栏)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.6：聊天框体实现三(对话聊天框)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.7：聊天框体实现四(好友栏)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.8：聊天框体实现五(好友填充框)](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.9：聊天框体事件定义](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.10：练习篇-聊天表情框体实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [1.11：解答篇-聊天表情框体实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+
+<details><summary><a>👉显示更多</a></summary></br>    
+    
+- 第 2 章 - 架构设计
+    - [2.1：服务端架构设计](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [2.2：通信协议包定义](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [2.3：客户端架构设计](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [2.4：数据库表结构设计](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+- 第 3 章 - 功能实现 
+    - [3.1：登陆功能实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.2：搜索和添加好友](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.3：对话通知与应答](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.4：用户与好友通信](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.5：用户与群组通信](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.6：断线重连恢复通信](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.7：服务端控制台搭建](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.8：练习篇-聊天表情发送功能实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+    - [3.9：解答篇-聊天表情发送功能实现](https://gitbook.cn/gitchat/column/5e5d29ac3fbd2d3f5d05e05f)
+
+</details>
+
+### 8.2 SpringBoot 中间件设计和开发 - 👉[**在线阅读**]()
+
+- [中间件小册介绍]()
+- 第 1 部分 - 开篇
+    - [第 1 章 什么是中间件]()
+    - [第 2 章 【重要】小册学习介绍&源码授权]()
+- 第 2 部分 - 服务治理
+    - [第 3 章 服务治理，统一白名单控制]()
+    - [第 4 章 服务治理，超时熔断]()
+    - [第 5 章 服务治理，调用限流]()
+    - [第 6 章 服务治理，自定义拦截方法]()
+- 第 3 部分 - ORM 框架
+    - [第 7 章 ORM 框架实现]()
+    - [第 8 章 ORM 框架与 Spring 集合]()
+    - [第 9 章 结合 SpringBoot 开发 ORM Starter]()
+    - [第 10 章 ES-JDBC 查询引擎]()
+    - [第 11 章 ES SpringBoot Starter 服务框架]()
+    
+<details><summary><a>👉显示更多</a></summary></br>   
+    
+- 第 4 部分 - 分布式组件
+    - [第 12 章 RPC 框架实现]()
+    - [第 13 章 数据库路由组件]()
+    - [第 14 章 Redis 简化使用封装]()
+    - [第 15 章 分布式任务调度]()
+- 第 5 部分 - 字节码应用
+    - [第 16 章 非入侵监控设计，ASM 字节码插桩]()
+    - [第 17 章 非入侵监控设计，JVMTI 定位代码]()
+    - [第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息]()
+- 第 6 部分
+    - [第 19 章 后记]()
+
+</details>
+
+### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**]()
+
+- [第01节：开篇介绍]()
+- [第02节：搭建DDD四层架构]()
+- [第03节：跑通广播模式RPC过程调用]()
+- [第04节：抽奖活动策略库表设计]()
+- [第05节：抽奖策略领域模块开发]()
+
+<details><summary><a>👉显示更多</a></summary></br> 
+
+- [第06节：模板模式处理抽奖流程]()
+- [第07节：简单工厂搭建发奖领域]()
+- [第08节：活动领域的配置与状态]()
+- [第09节：ID生成策略领域开发]()
+- [第10节：实现和使用分库分表]()
+- [第11节：声明事务领取活动领域开发]()
+- [第12节：在应用层编排抽奖过程]()
+- [第13节：规则引擎量化人群参与活动]()
+- [第14节：门面接口封装和对象转换]()
+- [第15节：搭建MQ消息组件Kafka服务环境]()
+- [第16节：使用MQ解耦抽奖发货流程]()
+- [第17节：引入xxl-job处理活动状态扫描]()
+- [第18节：扫描库表补偿发货单MQ消息]()
+
+</details>
+
+## 9. 部署 - 👉[**在线阅读**](https://bugstack.cn/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.html)
 
 - [windows环境下安装elasticsearch6.2.2](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.md)
 - [elasticsearch-head插件安装](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2019-08-13-elasticsearch-head%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85.md)
@@ -568,9 +672,17 @@
 
 </details>
 
-## 9. 关于
 
-### 9.1 关于自己 - 👉[**在线阅读**](https://bugstack.cn/md/about/me/about-me.html)
+## 10. PDF 下载
+
+- [《Java 面经手册》](https://download.csdn.net/download/Yao__Shun__Yu/14932325)
+- [《手撸 Spring》](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
+- [《重学Java设计模式》](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
+- [《字节码编程》](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
+
+## 11. 关于
+
+### 11.1 关于自己 - 👉[**在线阅读**](https://bugstack.cn/md/about/me/about-me.html)
 
 - [大学四年到毕业工作5年的学习路线资源汇总](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2020-03-31-%E5%A4%A7%E5%AD%A6%E5%9B%9B%E5%B9%B4%E5%88%B0%E6%AF%95%E4%B8%9A%E5%B7%A5%E4%BD%9C5%E5%B9%B4%E7%9A%84%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB.md)
 - [12天，这本《重学Java设计模式》PDF书籍下载量9k，新增粉丝1400人，Github上全球推荐榜](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2020-07-25-12%E5%A4%A9%EF%BC%8C%E8%BF%99%E6%9C%AC%E3%80%8A%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8BPDF%E4%B9%A6%E7%B1%8D%E4%B8%8B%E8%BD%BD%E9%87%8F9k%EF%BC%8C%E6%96%B0%E5%A2%9E%E7%B2%89%E4%B8%9D1400%E4%BA%BA%EF%BC%8CGithub%E4%B8%8A%E5%85%A8%E7%90%83%E6%8E%A8%E8%8D%90%E6%A6%9C.md)
@@ -593,7 +705,7 @@
 
 </details>
 
-### 9.2 关于学习 - 👉[**在线阅读**](https://bugstack.cn/md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.html)
+### 11.2 关于学习 - 👉[**在线阅读**](https://bugstack.cn/md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.html)
 
 - [讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-04-30-%E8%AE%B2%E9%81%93%E7%90%86%EF%BC%8C%E5%8F%AA%E8%A6%81%E4%BD%A0%E6%98%AF%E4%B8%80%E4%B8%AA%E7%88%B1%E6%8A%98%E8%85%BE%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%91%98%EF%BC%8C%E6%AF%95%E4%B8%9A%E6%89%BE%E5%B7%A5%E4%BD%9C%E7%9C%9F%E7%9A%84%E4%B8%8D%E9%9C%80%E8%A6%81%E5%86%8D%E8%8A%B1%E9%92%B1%E5%9F%B9%E8%AE%AD.md)
 - [为了省钱，我用1天时间把PHP学了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-10-11-%E4%B8%BA%E4%BA%86%E7%9C%81%E9%92%B1%EF%BC%8C%E6%88%91%E7%94%A81%E5%A4%A9%E6%97%B6%E9%97%B4%E6%8A%8APHP%E5%AD%A6%E4%BA%86%EF%BC%81.md)
@@ -611,7 +723,7 @@
 
 </details>
 
-### 9.3 关于工作 - 👉[**在线阅读**](https://bugstack.cn/md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.html)
+### 11.3 关于工作 - 👉[**在线阅读**](https://bugstack.cn/md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.html)
 
 - [工作两年简历写成这样，谁要你呀！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-04-11-%E5%B7%A5%E4%BD%9C%E4%B8%A4%E5%B9%B4%E7%AE%80%E5%8E%86%E5%86%99%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E8%B0%81%E8%A6%81%E4%BD%A0%E5%91%80%EF%BC%81.md)
 - [程序员为什么热衷于造轮子，升职加薪吗？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/job/2020-09-20-%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B8%BA%E4%BB%80%E4%B9%88%E7%83%AD%E8%A1%B7%E4%BA%8E%E9%80%A0%E8%BD%AE%E5%AD%90%EF%BC%8C%E5%8D%87%E8%81%8C%E5%8A%A0%E8%96%AA%E5%90%97%EF%BC%9F.md)
@@ -625,7 +737,7 @@
 
 </details>
 
-## 10. 转载分享
+## 12. 转载分享
 
 建立本开源项目的初衷是基于个人学习与工作中对 Java 相关技术栈的总结记录，在这里也希望能帮助一些在学习 Java 过程中遇到问题的小伙伴，如果您需要转载本仓库的一些文章到自己的博客，请按照以下格式注明出处，谢谢合作。
 
@@ -635,12 +747,12 @@
 来源：bugstack虫洞栈
 ```                  
 
-## 11. 参与贡献
+## 13. 参与贡献
 
 1. 如果您对本项目有任何建议或发现文中内容有误的，欢迎提交 issues 进行指正。
 2. 对于文中我没有涉及到知识点，欢迎提交 PR。
 
-## 12. 与我联系
+## 14. 与我联系
 
 - **加群交流** 本群的宗旨是给大家提供一个良好的技术学习交流平台，所以杜绝一切广告！由于微信群人满 100 之后无法加入，请扫描下方二维码先添加作者 “小傅哥” 微信(fustack)，备注：加群。
 
@@ -650,7 +762,7 @@
 
 <img src="https://bugstack.cn/images/personal/qrcode.png" width="180px">
 
-## 13. 致谢
+## 15. 致谢
 
 感谢以下人员对本仓库做出的贡献或者对小傅哥的赞赏，当然不仅仅只有这些贡献者，这里就不一一列举了。如果你希望被添加到这个名单中，并且提交过 Issue 或者 PR，请与我联系。
 
