@@ -69,7 +69,7 @@ excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql
 
 >专栏共有25篇文章，分别从UI、架构到功能实现逐步讲解，非常适合新人学习提升编码能力和架构思想。
 
-学习链接：[chat.itstack.org](https://chat.itstack.org)
+学习链接：[IM 小册](https://blog.csdn.net/generalfu/category_10400631.html)
 
 ![](https://bugstack.cn/assets/images/2020/invite.jpg)
 
