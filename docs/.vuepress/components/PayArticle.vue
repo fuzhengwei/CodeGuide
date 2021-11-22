@@ -15,6 +15,15 @@
             return {}
         },
         mounted: function () {
+
+            // 延迟执行
+            setTimeout(() => {
+                if (this.isPay()) {
+                    let $article = this.articleObj();
+                    this._detect($article, this);
+                }
+            }, 150);
+
             // 定时任务
             let interval = setInterval(() => {
                 if (this.isPay()) {
