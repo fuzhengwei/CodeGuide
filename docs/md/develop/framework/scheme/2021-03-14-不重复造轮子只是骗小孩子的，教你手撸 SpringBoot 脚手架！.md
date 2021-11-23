@@ -8,7 +8,7 @@ excerpt: 为什么我们要去造轮子？造轮子的核心目的，是为了�
 lock: need
 ---
 
-# 笔记整理：技术架构涵盖内容和演变过程总结
+# 不重复造轮子都是骗小孩的，教你手撸 SpringBoot 脚手架！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
