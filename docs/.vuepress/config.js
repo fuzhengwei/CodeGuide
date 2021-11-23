@@ -810,6 +810,7 @@ function genBarAssembly() {
                 "idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
                 "idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
                 "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
+                "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
             ]
         }
     ]
