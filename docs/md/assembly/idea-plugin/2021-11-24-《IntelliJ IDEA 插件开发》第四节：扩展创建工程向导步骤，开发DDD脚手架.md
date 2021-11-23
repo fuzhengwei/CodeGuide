@@ -1,9 +1,9 @@
 ---
-title: 第四节：扩展创建工程向导步骤，开发DDD脚手架
+title: 第4节：扩展创建工程向导步骤，开发DDD脚手架
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架
+# 《IntelliJ IDEA 插件开发》第4节：扩展创建工程向导步骤，开发DDD脚手架
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
