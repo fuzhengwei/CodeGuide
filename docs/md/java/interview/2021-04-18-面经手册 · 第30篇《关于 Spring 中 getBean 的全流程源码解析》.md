@@ -515,7 +515,7 @@ protected Object getSingleton(String beanName, boolean allowEarlyReference) {
 			if (singletonObject == null && allowEarlyReference) {
 				ObjectFactory<?> singletonFactory = this.singletonFactories.get(beanName);
 				if (singletonFactory != null) {
-                    // 加入到三级缓存，暴漏早期对象用于解决三级缓存
+                    // 加入到三级缓存，暴漏早期对象用于解决循环依赖
 					singletonObject = singletonFactory.getObject();  
 					this.earlySingletonObjects.put(beanName, singletonObject);
 					this.singletonFactories.remove(beanName);
