@@ -633,11 +633,11 @@
 
 - 第 1 部分 大厂规范
     
-    - [第01节：大厂码农开发基础](#)
-    - [第02节：需求怎么来的](#)
-    - [第03节：系统架构设计](#)
-    - [第04节：进入开发阶段](#)
-    - [第05节：系统上线维护](#)
+    - [第01节：大厂码农开发基础](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%A4%A7%E5%8E%82%E7%A0%81%E5%86%9C%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80.md)
+    - [第02节：需求怎么来的](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E9%9C%80%E6%B1%82%E6%80%8E%E4%B9%88%E6%9D%A5%E7%9A%84.md)
+    - [第03节：系统架构设计](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1.md)
+    - [第04节：进入开发阶段](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E8%BF%9B%E5%85%A5%E5%BC%80%E5%8F%91%E9%98%B6%E6%AE%B5.md)
+    - [第05节：系统上线维护](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E7%B3%BB%E7%BB%9F%E4%B8%8A%E7%BA%BF%E7%BB%B4%E6%8A%A4.md)
     
 - 第 2 部分 领域开发
 
@@ -659,30 +659,30 @@
     - [第16节：使用MQ解耦抽奖发货流程](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC16%E8%8A%82%EF%BC%9A%E4%BD%BF%E7%94%A8MQ%E8%A7%A3%E8%80%A6%E6%8A%BD%E5%A5%96%E5%8F%91%E8%B4%A7%E6%B5%81%E7%A8%8B.html)
     - [第17节：引入xxl-job处理活动状态扫描](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC17%E8%8A%82%EF%BC%9A%E5%BC%95%E5%85%A5xxl-job%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%89%AB%E6%8F%8F.html)
     - [第18节：扫描库表补偿发货单MQ消息](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC18%E8%8A%82%EF%BC%9A%E6%89%AB%E6%8F%8F%E5%BA%93%E8%A1%A8%E8%A1%A5%E5%81%BF%E5%8F%91%E8%B4%A7%E5%8D%95MQ%E6%B6%88%E6%81%AF.html)
-    - [第19节：设计滑动库存分布式锁处理活动秒杀](#)
+    - [第19节：设计滑动库存分布式锁处理活动秒杀](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-2/%E7%AC%AC19%E8%8A%82%EF%BC%9A%E8%AE%BE%E8%AE%A1%E6%BB%91%E5%8A%A8%E5%BA%93%E5%AD%98%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%81%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%A7%92%E6%9D%80.md)
 
 - 第 3 部分 运营后台
 
-    - [第01节：UI工程搭建](#)
-    - [第02节：活动配置和展示](#)
-    - [第03节：用户抽奖数据展示](#)
+    - [第01节：UI工程搭建](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC01%E8%8A%82%EF%BC%9AUI%E5%B7%A5%E7%A8%8B%E6%90%AD%E5%BB%BA.md)
+    - [第02节：活动配置和展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B1%95%E7%A4%BA.md)
+    - [第03节：用户抽奖数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%94%A8%E6%88%B7%E6%8A%BD%E5%A5%96%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)
 
 <details><summary><a>👉显示更多</a></summary></br> 
 
 - 第 4 部分 应用场景
 
-    - [第01节：vue H5 大转盘抽奖](#)
-    - [第02节：微信公众号回复参与抽奖](#)
+    - [第01节：vue H5 大转盘抽奖](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-4/%E7%AC%AC01%E8%8A%82%EF%BC%9Avue%20H5%20%E5%A4%A7%E8%BD%AC%E7%9B%98%E6%8A%BD%E5%A5%96.md)
+    - [第02节：微信公众号回复参与抽奖](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-4/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%9E%E5%A4%8D%E5%8F%82%E4%B8%8E%E6%8A%BD%E5%A5%96.md)
 
 - 第 5 部分 系统运维
 
-    [第01节：在云服务器部署 Docker](第 5 部分 系统运维/第01节：在云服务器安装Docker)
-    [第02节：安装环境 Redis](#)
-    [第03节：安装环境 Kafka](#)
-    [第04节：安装环境 xxl-job](#)
-    [第05节：ELK](#)
-    [第06节：全链路监控](#)
-    [第07节：Mysql binlog 同步ES](#)
+    [第01节：在云服务器部署 Docker](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%9C%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%20Docker.md)
+    [第02节：安装环境 Redis](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20Redis.md)
+    [第03节：安装环境 Kafka](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20Kafka.md)
+    [第04节：安装环境 xxl-job](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E5%AE%89%E8%A3%85%E7%8E%AF%E5%A2%83%20xxl-job.md)
+    [第05节：ELK](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9AELK.md)
+    [第06节：全链路监控](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7.md)
+    [第07节：Mysql binlog 同步ES](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC07%E8%8A%82%EF%BC%9AMysql%20binlog%20%E5%90%8C%E6%AD%A5ES.md)
 
 </details>
 
