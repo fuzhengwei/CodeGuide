@@ -659,7 +659,7 @@
     - [第16节：使用MQ解耦抽奖发货流程](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC16%E8%8A%82%EF%BC%9A%E4%BD%BF%E7%94%A8MQ%E8%A7%A3%E8%80%A6%E6%8A%BD%E5%A5%96%E5%8F%91%E8%B4%A7%E6%B5%81%E7%A8%8B.html)
     - [第17节：引入xxl-job处理活动状态扫描](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC17%E8%8A%82%EF%BC%9A%E5%BC%95%E5%85%A5xxl-job%E5%A4%84%E7%90%86%E6%B4%BB%E5%8A%A8%E7%8A%B6%E6%80%81%E6%89%AB%E6%8F%8F.html)
     - [第18节：扫描库表补偿发货单MQ消息](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC18%E8%8A%82%EF%BC%9A%E6%89%AB%E6%8F%8F%E5%BA%93%E8%A1%A8%E8%A1%A5%E5%81%BF%E5%8F%91%E8%B4%A7%E5%8D%95MQ%E6%B6%88%E6%81%AF.html)
-    - [第19节：设计滑动库存分布式锁处理活动秒杀.md](#)
+    - [第19节：设计滑动库存分布式锁处理活动秒杀](#)
 
 - 第 3 部分 运营后台
 
