@@ -347,7 +347,7 @@ module.exports = {
                             },
                             {
                                 text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/第01节：开篇介绍.md'
+                                link: '/md/project/lottery/Part-2/第01节：开篇介绍.md'
                             }
                         ]
                     },
@@ -1226,28 +1226,74 @@ function getBarProjectSpringBootMiddleware() {
 function getBarProjectLottery() {
     return [
         {
-            title: "Lottery 分布式抽奖系统",
+            title: "第 1 部分 大厂规范",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "第01节：开篇介绍.md",
-                "第02节：搭建DDD四层架构.md",
-                "第03节：跑通广播模式RPC过程调用.md",
-                "第04节：抽奖活动策略库表设计.md",
-                "第05节：抽奖策略领域模块开发.md",
-                "第06节：模板模式处理抽奖流程.md",
-                "第07节：简单工厂搭建发奖领域.md",
-                "第08节：活动领域的配置与状态.md",
-                "第09节：ID生成策略领域开发.md",
-                "第10节：实现和使用分库分表.md",
-                "第11节：声明事务领取活动领域开发.md",
-                "第12节：在应用层编排抽奖过程.md",
-                "第13节：规则引擎量化人群参与活动.md",
-                "第14节：门面接口封装和对象转换.md",
-                "第15节：搭建MQ消息组件Kafka服务环境.md",
-                "第16节：使用MQ解耦抽奖发货流程.md",
-                "第17节：引入xxl-job处理活动状态扫描.md",
-                "第18节：扫描库表补偿发货单MQ消息.md",
+                "Part-1/第01节：大厂码农开发基础.md",
+                "Part-1/第02节：需求怎么来的.md",
+                "Part-1/第03节：系统架构设计.md",
+                "Part-1/第04节：进入开发阶段.md",
+                "Part-1/第05节：系统上线维护.md",
+            ]
+        },
+        {
+            title: "第 2 部分 领域开发",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "Part-2/第01节：开篇介绍.md",
+                "Part-2/第02节：搭建DDD四层架构.md",
+                "Part-2/第03节：跑通广播模式RPC过程调用.md",
+                "Part-2/第04节：抽奖活动策略库表设计.md",
+                "Part-2/第05节：抽奖策略领域模块开发.md",
+                "Part-2/第06节：模板模式处理抽奖流程.md",
+                "Part-2/第07节：简单工厂搭建发奖领域.md",
+                "Part-2/第08节：活动领域的配置与状态.md",
+                "Part-2/第09节：ID生成策略领域开发.md",
+                "Part-2/第10节：实现和使用分库分表.md",
+                "Part-2/第11节：声明事务领取活动领域开发.md",
+                "Part-2/第12节：在应用层编排抽奖过程.md",
+                "Part-2/第13节：规则引擎量化人群参与活动.md",
+                "Part-2/第14节：门面接口封装和对象转换.md",
+                "Part-2/第15节：搭建MQ消息组件Kafka服务环境.md",
+                "Part-2/第16节：使用MQ解耦抽奖发货流程.md",
+                "Part-2/第17节：引入xxl-job处理活动状态扫描.md",
+                "Part-2/第18节：扫描库表补偿发货单MQ消息.md",
+                "Part-2/第19节：设计滑动库存分布式锁处理活动秒杀.md",
+            ]
+        },
+        {
+            title: "第 3 部分 运营后台",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "Part-3/第01节：UI工程搭建.md",
+                "Part-3/第02节：活动配置和展示.md",
+                "Part-3/第03节：用户抽奖数据展示.md",
+            ]
+        },
+        {
+            title: "第 4 部分 应用场景",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "Part-4/第01节：vue H5 大转盘抽奖.md",
+                "Part-4/第02节：微信公众号回复参与抽奖.md",
+            ]
+        },
+        {
+            title: "第 5 部分 系统运维",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "Part-5/第01节：在云服务器部署 Docker.md",
+                "Part-5/第02节：安装环境 Redis.md",
+                "Part-5/第03节：安装环境 Kafka.md",
+                "Part-5/第04节：安装环境 xxl-job.md",
+                "Part-5/第05节：ELK.md",
+                "Part-5/第06节：全链路监控.md",
+                "Part-5/第07节：Mysql binlog 同步ES.md",
             ]
         }
     ]
