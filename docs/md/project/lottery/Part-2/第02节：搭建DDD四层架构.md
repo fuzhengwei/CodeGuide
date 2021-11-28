@@ -19,7 +19,7 @@ pay: https://t.zsxq.com/jUbmeE2
 
 >DDD（Domain-Driven Design 领域驱动设计）是由Eric Evans最先提出，目的是对软件所涉及到的领域进行建模，以应对系统规模过大时引起的软件复杂性的问题。整个过程大概是这样的，开发团队和领域专家一起通过 通用语言(Ubiquitous Language)去理解和消化领域知识，从领域知识中提取和划分为一个一个的子领域（核心子域，通用子域，支撑子域），并在子领域上建立模型，再重复以上步骤，这样周而复始，构建出一套符合当前领域的模型。
 
-![](/images/article/project/lottery/2-01.png)
+![](/images/article/project/lottery/Part-2/2-01.png)
 
 依靠领域驱动设计的设计思想，通过事件风暴建立领域模型，合理划分领域逻辑和物理边界，建立领域对象及服务矩阵和服务架构图，定义符合DDD分层架构思想的代码结构模型，保证业务模型与代码模型的一致性。通过上述设计思想、方法和过程，指导团队按照DDD设计思想完成微服务设计和开发。
 
@@ -29,7 +29,7 @@ pay: https://t.zsxq.com/jUbmeE2
 
 **服务架构调用关系**
 
-![](/images/article/project/lottery/2-02.png)
+![](/images/article/project/lottery/Part-2/2-02.png)
 
 - 应用层{application}
   - 应用服务位于应用层。用来表述应用和用户行为，负责服务的组合、编排和转发，负责处理业务用例的执行顺序以及结果的拼装。
