@@ -629,7 +629,7 @@
 
 </details>
 
-### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**](https://bugstack.cn/md/project/lottery/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
+### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
 
 - 第 1 部分 大厂规范
     
