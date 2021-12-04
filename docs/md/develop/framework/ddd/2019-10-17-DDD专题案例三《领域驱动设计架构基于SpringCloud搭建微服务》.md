@@ -12,6 +12,7 @@ lock: need
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>DDD项目：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -336,4 +337,4 @@ zuul:
 2. 以上案例可以进行扩展，使不同的用户群体在网关接口调用时就打到不同的服务上
 3. 另外目前没有使用dubbo类型的rpc框架，也就是没有对外提供定义接口jar包，后续会进行延展
 
-微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**DDD落地案例**」获取本文源码&更多原创专题案例！
+微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**DDD落地案例**」获取本文源码&更多原创专题案例！此外推荐你一个可以上手实践的DDD项目，看看如何从流程中提炼领域设计代码实现，在应用层、领域层以及基础层的仓储实现是如何完成开发和调用的，项目地址：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
