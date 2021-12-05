@@ -1,9 +1,9 @@
 ---
-title: 第07节：Mysql binlog 同步ES
+title: 第08节：Mysql binlog 同步ES
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第07节：Mysql binlog 同步ES
+# 第08节：Mysql binlog 同步ES
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
