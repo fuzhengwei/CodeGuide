@@ -1,9 +1,9 @@
 ---
-title: 第02节：安装环境 Redis
+title: 第02节：部署环境 Redis
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第02节：安装环境 Redis
+# 第02节：部署环境 Redis
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

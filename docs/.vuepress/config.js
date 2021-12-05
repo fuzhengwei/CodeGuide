@@ -1288,12 +1288,13 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-5/第01节：在云服务器部署 Docker.md",
-                "Part-5/第02节：安装环境 Redis.md",
-                "Part-5/第03节：安装环境 Kafka.md",
-                "Part-5/第04节：安装环境 xxl-job.md",
-                "Part-5/第05节：ELK.md",
-                "Part-5/第06节：全链路监控.md",
-                "Part-5/第07节：Mysql binlog 同步ES.md",
+                "Part-5/第02节：部署环境 Redis.md",
+                "Part-5/第03节：部署环境 Kafka.md",
+                "Part-5/第04节：部署环境 Mysql.md",
+                "Part-5/第05节：部署环境 xxl-job.md",
+                "Part-5/第06节：ELK.md",
+                "Part-5/第07节：全链路监控.md",
+                "Part-5/第08节：Mysql binlog 同步ES.md",
             ]
         }
     ]
