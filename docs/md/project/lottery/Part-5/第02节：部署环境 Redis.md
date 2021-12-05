@@ -1,6 +1,6 @@
 ---
 title: 第02节：部署环境 Redis
-pay: https://t.zsxq.com/jUbmeE2
+pay: https://t.zsxq.com/fAYNJy3
 ---
 
 # 第02节：部署环境 Redis

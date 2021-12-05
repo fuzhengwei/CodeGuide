@@ -1,6 +1,6 @@
 ---
 title: 第04节：部署环境 Mysql
-pay: https://t.zsxq.com/jUbmeE2
+pay: https://t.zsxq.com/7i6Yjyr
 ---
 
 # 第04节：部署环境 Mysql

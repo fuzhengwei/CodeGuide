@@ -1,6 +1,6 @@
 ---
 title: 第03节：部署环境 Kafka
-pay: https://t.zsxq.com/jUbmeE2
+pay: https://t.zsxq.com/uVjqrvB
 ---
 
 # 第03节：部署环境 Kafka

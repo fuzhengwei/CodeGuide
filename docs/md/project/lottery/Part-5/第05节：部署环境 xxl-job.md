@@ -1,6 +1,6 @@
 ---
 title: 第05节：部署环境 xxl-job
-pay: https://t.zsxq.com/jUbmeE2
+pay: https://t.zsxq.com/zbUVR7E
 ---
 
 # 第05节：部署环境 xxl-job
