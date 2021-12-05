@@ -1,9 +1,9 @@
 ---
-title: 第05节：ELK
+title: 第06节：ELK
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第05节：ELK
+# 第06节：ELK
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
