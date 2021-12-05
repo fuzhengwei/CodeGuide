@@ -678,13 +678,13 @@
 - 第 5 部分 系统运维
 
     - [第01节：在云服务器部署 Docker](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%9C%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2%20Docker.md)
-    - [第02节：部署环境 Redis.md]()
-    - [第03节：部署环境 Kafka.md]()
-    - [第04节：部署环境 Mysql.md]()
-    - [第05节：部署环境 xxl-job.md]()
-    - [第06节：ELK.md]()
-    - [第07节：全链路监控.md]()
-    - [第08节：Mysql binlog 同步ES.md]()
+    - [第02节：部署环境 Redis.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Redis.md)
+    - [第03节：部署环境 Kafka.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Kafka.md)
+    - [第04节：部署环境 Mysql.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Mysql.md)
+    - [第05节：部署环境 xxl-job.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20xxl-job.md)
+    - [第06节：ELK.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9AELK.md)
+    - [第07节：全链路监控.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC07%E8%8A%82%EF%BC%9A%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7.md)
+    - [第08节：Mysql binlog 同步ES.md](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC08%E8%8A%82%EF%BC%9AMysql%20binlog%20%E5%90%8C%E6%AD%A5ES.md)
     
 </details>
 
