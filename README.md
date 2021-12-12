@@ -666,7 +666,7 @@
 - 第 3 部分 运营后台
 
     - [第01节：UI工程搭建](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC01%E8%8A%82%EF%BC%9AUI%E5%B7%A5%E7%A8%8B%E6%90%AD%E5%BB%BA.md)
-    - [第02节：活动配置和展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B1%95%E7%A4%BA.md)
+    - [第02节：活动列表数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E9%85%8D%E7%BD%AE%E5%92%8C%E5%B1%95%E7%A4%BA.md)
     - [第03节：用户抽奖数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%94%A8%E6%88%B7%E6%8A%BD%E5%A5%96%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)
 
 <details><summary><a>👉显示更多</a></summary></br> 

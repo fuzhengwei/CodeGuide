@@ -1270,7 +1270,7 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "Part-3/第01节：UI工程搭建.md",
-                "Part-3/第02节：活动配置和展示.md",
+                "Part-3/第02节：活动列表数据展示.md",
                 "Part-3/第03节：用户抽奖数据展示.md",
             ]
         },
