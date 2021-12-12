@@ -108,9 +108,9 @@
 15. `Netty+JavaFx实战：仿桌面版微信聊天` [NaiveChat](https://github.com/fuzhengwei/NaiveChat) 
 16. `JDK1.8新特性41个案例讲解` [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8) 
 17. `小傅哥的《字节码编程》专栏` [itstack-demo-bytecode](https://github.com/fuzhengwei/itstack-demo-bytecode)
-18. `重学Java设计模式` [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 
-19. `Java面经手册` [interview](https://github.com/fuzhengwei/interview)
-20. `Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
+18. 🔥`重学Java设计模式` [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design) 
+19. 🔥`Java面经手册` [interview](https://github.com/fuzhengwei/interview)
+20. 🔥`Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
 21. `IntelliJ IDEA 插件开发` [guide-idea-plugin](https://github.com/fuzhengwei/guide-idea-plugin)
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
