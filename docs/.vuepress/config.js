@@ -1280,8 +1280,8 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Part-4/第01节：vue H5 大转盘抽奖.md",
-                "Part-4/第02节：微信公众号回复参与抽奖.md",
+                "Part-4/第01节：搭建微信公众号网关服务.md",
+                "Part-4/第02节：vue H5 大转盘抽奖.md",
             ]
         },
         {
@@ -1294,9 +1294,10 @@ function getBarProjectLottery() {
                 "Part-5/第03节：部署环境 Kafka.md",
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
-                "Part-5/第06节：ELK.md",
-                "Part-5/第07节：全链路监控.md",
-                "Part-5/第08节：Mysql binlog 同步ES.md",
+                "Part-5/第06节：部署环境 nacos.md",
+                "Part-5/第07节：ELK.md",
+                "Part-5/第08节：全链路监控.md",
+                "Part-5/第09节：Mysql binlog 同步ES.md",
             ]
         }
     ]
