@@ -1,9 +1,9 @@
 ---
-title: 第01节：vue H5 大转盘抽奖
+title: 第02节：vue H5 大转盘抽奖
 pay: https://t.zsxq.com/jUbmeE2
 ---
 
-# 第01节：vue H5 大转盘抽奖
+# 第02节：vue H5 大转盘抽奖
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
