@@ -116,14 +116,12 @@ protected void weavingSetGetCode(GenerateContext generateContext, SetObjConfigDO
         List<String> setMtdList = setObjConfigDO.getParamList();
         for (String param : setMtdList) {
             int lineStartOffset = generateContext.getDocument().getLineStartOffset(lineNumberCurrent++);
-            new WriteCommandAction(generateContext.getProject()) {
-                @Override
-                protected void run(@NotNull Result result) throws Throwable {
-                    generateContext.getDocument().insertString(lineStartOffset, blankSpace + setObjConfigDO.getClazzParamName() + "." + setObjConfigDO.getParamMtdMap().get(param) + "(" + (null == getObjConfigDO.getParamMtdMap().get(param) ? "" : getObjConfigDO.getClazzParam() + "." + getObjConfigDO.getParamMtdMap().get(param) + "()") + ");\n");
-                    generateContext.getEditor().getCaretModel().moveToOffset(lineStartOffset + 2);
-                    generateContext.getEditor().getScrollingModel().scrollToCaret(ScrollType.MAKE_VISIBLE);
-                }
-            }.execute();
+            
+            WriteCommandAction.runWriteCommandAction(generateContext.getProject(), () -> {
+                generateContext.getDocument().insertString(lineStartOffset, blankSpace + setObjConfigDO.getClazzParamName() + "." + setObjConfigDO.getParamMtdMap().get(param) + "(" + (null == getObjConfigDO.getParamMtdMap().get(param) ? "" : getObjConfigDO.getClazzParam() + "." + getObjConfigDO.getParamMtdMap().get(param) + "()") + ");\n");
+                generateContext.getEditor().getCaretModel().moveToOffset(lineStartOffset + 2);
+                generateContext.getEditor().getScrollingModel().scrollToCaret(ScrollType.MAKE_VISIBLE);
+            });
         }
     });
 }
