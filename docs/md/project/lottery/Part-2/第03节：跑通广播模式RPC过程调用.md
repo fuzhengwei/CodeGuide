@@ -10,7 +10,7 @@ pay: https://t.zsxq.com/Ia6AUvj
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-- 分支：[210804_xfg_buildFramework](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/tree/210804_xfg_buildFramework)
+- 分支：[210804_xfg_buildFramework](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/210804_xfg_buildFramework)
 - 描述：构建工程完成RPC接口的实现和调用
 
 当基础的工程模块创建完成以后，还需要给整个工程注入`灵魂`，就是让它可以跑通。这个过程包括一个简单的 RPC 接口功能实现和测试调用，那么这里为了让功能体现出一个完整度，还会创建出一个库表在 RPC 调用的时候查询出库表中的数据并🔙返回结果。那么在这个分支上我们就先来完成这样一个内容的实现。

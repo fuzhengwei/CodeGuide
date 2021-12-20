@@ -13,7 +13,7 @@ pay: https://t.zsxq.com/zbUVR7E
 ## 一、运维日志
 
 - 在 Docker 容器中部署 xxl-job，在部署之前我们需要一个 Mysql 的环境，这个环境我们已经在上一章节中安装完成。
-- 本章节下载了 xxl-job 2.1.2 对应 SQL 文件已经存放到这里，你可以直接打开使用：[xxl-job.sql](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/sql/xxl-job.sql)
+- 本章节下载了 xxl-job 2.1.2 对应 SQL 文件已经存放到这里，你可以直接打开使用：[xxl-job.sql](https://gitcode.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/sql/xxl-job.sql)
 
 ## 二、导入SQL
 

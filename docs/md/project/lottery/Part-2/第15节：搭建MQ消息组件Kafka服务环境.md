@@ -10,7 +10,7 @@ pay: https://t.zsxq.com/Y72naAU
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-- 分支：[211023_xfg_mq_kafka](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/tree/211023_xfg_mq_kafka) 
+- 分支：[211023_xfg_mq_kafka](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/211023_xfg_mq_kafka) 
 - 描述：搭建MQ消息组件Kafka服务环境，并整合到SpringBoot中，完成消息的生产和消费处理
 
 ## 一、开发日志

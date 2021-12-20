@@ -10,7 +10,7 @@ pay: https://t.zsxq.com/N3n6uNF
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-- 分支：[211106_xfg_xxl-job](https://codechina.csdn.net/KnowledgePlanet/Lottery/-/tree/211106_xfg_xxl-job) 
+- 分支：[211106_xfg_xxl-job](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/211106_xfg_xxl-job) 
 - 描述：引入XXL-JOB，分布式任务调度平台，处理需要使用定时任务解决的场景。
 
 ## 一、开发日志
