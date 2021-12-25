@@ -347,7 +347,7 @@ module.exports = {
                             },
                             {
                                 text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/introduce/Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践.md'
+                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
                             }
                         ]
                     },
@@ -1233,7 +1233,7 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践.md",
+                "introduce/Lottery抽奖系统.md",
             ]
         },
         {
