@@ -22,7 +22,7 @@ pay: https://t.zsxq.com/EuN76UV
 
 我们把 vue 工程写到 [lottery-front](https://gitcode.net/KnowledgePlanet/lottery-front) 你在学习的过程中除了参考这个工程以外，也可以自己创建，创建过程如下图：
 
-![](https://gitcode.net/KnowledgePlanet/Lottery/-/raw/master/doc/assets/img/Part-4/2-01.png)
+![](/images/article/project/lottery/Part-4/2-01.png)
 
 - 点击下一步即可，它会帮你初始化完成工程。
 - 一般开发 vue 的习惯使用 vscode 你也可以尝试下
@@ -47,4 +47,4 @@ Vue.use(VueLuckyCanvas)
 
 详细使用文档：[https://100px.net/usage/vue.html](https://100px.net/usage/vue.html)
 
-![](https://gitcode.net/KnowledgePlanet/Lottery/-/raw/master/doc/assets/img/Part-4/2-02.png)
+![](/images/article/project/lottery/Part-4/2-02.png)
