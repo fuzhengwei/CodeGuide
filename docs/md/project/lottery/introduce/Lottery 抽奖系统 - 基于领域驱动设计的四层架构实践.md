@@ -9,10 +9,7 @@ title: Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-<div align="center">
-    <a href="https://t.zsxq.com/jAi2nUf" style="text-decoration:none"><img src="https://bugstack.cn/images/article/project/lottery/introduce/DDD-Lottery.png?raw=true"></a>
-</div>
-<br/>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=210028247&bvid=BV1Ta411677m&cid=468283408&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 ## 一、咋，撸个项目？
 
