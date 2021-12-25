@@ -347,7 +347,7 @@ module.exports = {
                             },
                             {
                                 text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/Part-2/第01节：开篇介绍.md'
+                                link: '/md/project/lottery/introduce/Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践.md'
                             }
                         ]
                     },
@@ -1229,6 +1229,14 @@ function getBarProjectSpringBootMiddleware() {
 function getBarProjectLottery() {
     return [
         {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践.md",
+            ]
+        },
+        {
             title: "第 1 部分 大厂规范",
             collapsable: false,
             sidebarDepth: 0,
@@ -1245,7 +1253,7 @@ function getBarProjectLottery() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "Part-2/第01节：开篇介绍.md",
+                "Part-2/第01节：环境、配置、规范.md",
                 "Part-2/第02节：搭建DDD四层架构.md",
                 "Part-2/第03节：跑通广播模式RPC过程调用.md",
                 "Part-2/第04节：抽奖活动策略库表设计.md",
@@ -1296,9 +1304,6 @@ function getBarProjectLottery() {
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
                 "Part-5/第06节：部署环境 nacos.md",
-                "Part-5/第07节：ELK.md",
-                "Part-5/第08节：全链路监控.md",
-                "Part-5/第09节：Mysql binlog 同步ES.md",
             ]
         }
     ]
