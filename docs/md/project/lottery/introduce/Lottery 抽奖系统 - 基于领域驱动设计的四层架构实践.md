@@ -9,13 +9,18 @@ title: Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
+<div align="center">
+    <a href="https://t.zsxq.com/jAi2nUf" style="text-decoration:none"><img src="https://bugstack.cn/images/article/project/lottery/introduce/DDD-Lottery.png?raw=true"></a>
+</div>
+<br/>
+
 ## 一、咋，撸个项目？
 
 **总有粉丝伙伴问傅哥**，有没有能`上手练习技术的项目`，现在学了这么多技术知识、看了这么多设计模式、搜了这么多架构设计，但这些内容都是怎么结合在一起使用的呢？互联网中的项目架构设计是什么样的呢？我该怎么开始学到什么样才能进大厂呢？
 
 |  项目学习意见（收集结果）    |
 | ---- |
-|   ![图 1-1](https://gitcode.net/KnowledgePlanet/Lottery/-/raw/master/doc/assets/img/Part-2/1-01.png)   |
+|   ![图 1-1](/images/article/project/lottery/Part-2/1-01.png)   |
 
 - [项目学习意见（收集结果）.xlsx](https://gitcode.net/KnowledgePlanet/Lottery/-/blob/master/doc/assets/excel/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0%E6%84%8F%E8%A7%81%EF%BC%88%E6%94%B6%E9%9B%86%E7%BB%93%E6%9E%9C%EF%BC%89.xlsx)
 
@@ -25,7 +30,7 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 
 ## 二、呀，能学东西！
 
-![图 1-2](https://gitcode.net/KnowledgePlanet/Lottery/-/raw/master/doc/assets/img/Part-2/1-02.png)
+![图 1-2](/images/article/project/lottery/Part-2/1-02.png)
 
 一个以真实场景`实践技术栈整合`开发实际需求的项目，势必会因为要完成需求而引入各项技术栈的使用，也会由于要解决互联网中C端场景中的三高问题，而使用相应的技术实现不同类别解决与方案，我们也可以把此类解决方案理解为DDD中的业务领域模型开发。在这个设计和开发的过程中会涉及到`架构设计`、`技术应用`、`场景实现`，每一块内容都会有非常多的实践知识，可以让读者学到东西。
 
@@ -41,16 +46,15 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 
 **其他所需环境如下(mysql\kafka\zk\redis\xxl-job)：**
 
-![](/images/article/project/lottery/mkt/portainer.png)
+![](/images/article/project/lottery/introduce/portainer.png)
 
 - 不只是 DDD 分布式项目开发，你还可以学习到关于 Docker 的实践使用
 
 ### 工程信息
 
-![](/images/article/project/lottery/mkt/system-list.png)
+![](/images/article/project/lottery/introduce/system-list.png)
 
 📢 **注意**：db-router-spring-boot-starter 为自研数据库路由组件，你需要下载代码到本地，自行构建到本地仓库进行使用。*章节中也会介绍这个路由组件的设计和开发*
-
 
 ## 三、呐，怎么开始？   
 
@@ -116,7 +120,7 @@ chore:    不修改src或者test的其余修改，例如构建过程或辅助工
 
 注意️：按照作业提交频次和质量，小傅哥会组织一波奖品。**按照作业提交数量、质量、点赞、留言，综合评分，送技术图书等奖品。**
 
-<img src="https://gitcode.net/KnowledgePlanet/Lottery/-/raw/master/doc/_media/job.jpg" width="414" height="891"/>
+<img src="https://bugstack.cn/images/article/project/lottery/introduce/job.jpg" width="414" height="891"/>
 
 - 也可以提交 issue：[https://gitcode.net/KnowledgePlanet/Lottery/-/issues](https://gitcode.net/KnowledgePlanet/Lottery/-/issues)
 
