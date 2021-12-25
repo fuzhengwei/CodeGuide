@@ -635,6 +635,8 @@
 
 ### 8.3 Lottery 分布式抽奖系统 - 👉[**在线阅读**](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
 
+- [Lottery 分布式抽奖系统介绍](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.md)
+
 - 第 1 部分 大厂规范
     
     - [第01节：大厂码农开发基础](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-1/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%A4%A7%E5%8E%82%E7%A0%81%E5%86%9C%E5%BC%80%E5%8F%91%E5%9F%BA%E7%A1%80.md)
@@ -645,7 +647,7 @@
     
 - 第 2 部分 领域开发
 
-    - [第01节：开篇介绍](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D.html)
+    - [第01节：环境、配置、规范](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-2/%E7%AC%AC01%E8%8A%82%EF%BC%9A%E7%8E%AF%E5%A2%83%E3%80%81%E9%85%8D%E7%BD%AE%E3%80%81%E8%A7%84%E8%8C%83.md)
     - [第02节：搭建DDD四层架构](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%90%AD%E5%BB%BADDD%E5%9B%9B%E5%B1%82%E6%9E%B6%E6%9E%84.html)
     - [第03节：跑通广播模式RPC过程调用](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E8%B7%91%E9%80%9A%E5%B9%BF%E6%92%AD%E6%A8%A1%E5%BC%8FRPC%E8%BF%87%E7%A8%8B%E8%B0%83%E7%94%A8.html)
     - [第04节：抽奖活动策略库表设计](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E6%8A%BD%E5%A5%96%E6%B4%BB%E5%8A%A8%E7%AD%96%E7%95%A5%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1.html)
@@ -669,7 +671,6 @@
 
     - [第01节：UI工程搭建](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC01%E8%8A%82%EF%BC%9AUI%E5%B7%A5%E7%A8%8B%E6%90%AD%E5%BB%BA.md)
     - [第02节：活动列表数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC02%E8%8A%82%EF%BC%9A%E6%B4%BB%E5%8A%A8%E5%88%97%E8%A1%A8%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)
-    - [第03节：用户抽奖数据展示](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-3/%E7%AC%AC03%E8%8A%82%EF%BC%9A%E7%94%A8%E6%88%B7%E6%8A%BD%E5%A5%96%E6%95%B0%E6%8D%AE%E5%B1%95%E7%A4%BA.md)
 
 <details><summary><a>👉显示更多</a></summary></br> 
 
@@ -686,9 +687,6 @@
     - [第04节：部署环境 Mysql](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Mysql.md)
     - [第05节：部署环境 xxl-job](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20xxl-job.md)
     - [第06节：部署环境 nacos](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20nacos.md)
-    - [第07节：ELK](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC07%E8%8A%82%EF%BC%9AELK.md)
-    - [第08节：全链路监控](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC08%E8%8A%82%EF%BC%9A%E5%85%A8%E9%93%BE%E8%B7%AF%E7%9B%91%E6%8E%A7.md)
-    - [第09节：Mysql binlog 同步ES](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC09%E8%8A%82%EF%BC%9AMysql%20binlog%20%E5%90%8C%E6%AD%A5ES.md)
     
 </details>
 
