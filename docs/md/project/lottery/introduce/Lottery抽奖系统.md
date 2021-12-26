@@ -69,6 +69,15 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 - 架构：DDD 领域驱动设计、充血模型、设计模式
 - 规范：分支提交规范、代码编写规范
 
+**Lottery 抽奖系统** - 基于领域驱动设计的四层架构实践 `只有加入知识星球：码农会锁 申请加入项目组以下链接才能访问`
+
+1. 代码：[https://gitcode.net/KnowledgePlanet/Lottery](https://gitcode.net/KnowledgePlanet/Lottery)
+2. 小册：[https://gitcode.net/KnowledgePlanet/Lottery/-/wikis/home](https://gitcode.net/KnowledgePlanet/Lottery/-/wikis/home)
+3. 提问：[https://gitcode.net/KnowledgePlanet/Lottery/-/issues](https://gitcode.net/KnowledgePlanet/Lottery/-/issues)
+4. 介绍：[https://articles.zsxq.com/id_tz44w3oqjftv.html](https://articles.zsxq.com/id_tz44w3oqjftv.html)
+
+注意：在项目学习的过程中，如果遇到问题可以先查看 issue，一般大家的共性问题都会在这里体现。如果你没有搜到与你相同的问题，也可以提一个新的 issue，可以包括：学习疑惑、Bug提醒、优化建议、技术分享等。
+
 ### 🎨 环境配置
 
 - **技术栈项**：JDK1.8、Maven3.6.3、Mysql5.7(可升级配置)，SpringBoot、Mybatis、Dubbo 随POM版本
