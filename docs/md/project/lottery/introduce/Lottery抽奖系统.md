@@ -11,7 +11,13 @@ title: Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?aid=210028247&bvid=BV1Ta411677m&cid=468283408&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-**加入项目**：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf) - 加入后在星球置顶消息可以申请加入项目组，`公众号：bugstack虫洞栈 回复：星球 可以获得加入优惠券`
+- **加入项目**：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf) - 加入后在星球置顶消息可以申请加入项目组，`公众号：bugstack虫洞栈 回复：星球 可以获得加入优惠券`
+- **代码仓库**：[https://gitcode.net/KnowledgePlanet/Lottery](https://gitcode.net/KnowledgePlanet/Lottery) - `必须加入星球：码农会锁，在置顶🔝消息，申请授权后才可以访问。`
+- **小册地址**：[https://gitcode.net/KnowledgePlanet/Lottery/-/wikis/home](https://gitcode.net/KnowledgePlanet/Lottery/-/wikis/home) - `小册地址会有专门的学习目录，授权后可访问`
+
+---
+
+**本文接下来的阅读，会帮助你🔜快速进入项目学习，这里包括：项目的起始、涉及的技术、环境的配置、代码的拉取、学习的方式，请一定仔细阅读！**
 
 写CRUD、堆API、改屎山⛰，熬多少个996也只是成为重复的螺丝钉。如果你希望捅破现有工作的瓶颈，拉高一下对技术的认知，那么就非常需要一个大项目来贯穿常用技术栈的知识体系。*碎片化断层的背八股文，是解决不了这个事情*
 
@@ -88,7 +94,7 @@ So！基于DDD领域驱动设计的四层架构**抽奖系统**，开始啦！�
 
 ## 三、呐，怎么开始？   
 
-### 快速加入
+### 🔜 快速加入
 
 为了能让读者伙伴快速🔜进入项目学习，可以按照下面的步骤开始：
 
