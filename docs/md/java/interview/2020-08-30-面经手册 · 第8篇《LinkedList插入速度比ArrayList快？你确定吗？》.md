@@ -159,6 +159,7 @@ public void test_ArrayList_addFirst() {
     ArrayList<Integer> list = new ArrayList<Integer>();
     long startTime = System.currentTimeMillis();
     for (int i = 0; i < 10000000; i++) {
+        // add(i) 则是尾插
         list.add(0, i);
     }
     System.out.println("耗时：" + (System.currentTimeMillis() - startTime));
