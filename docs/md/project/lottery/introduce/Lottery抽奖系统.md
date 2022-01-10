@@ -9,7 +9,7 @@ title: Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
-<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=210028247&bvid=BV1Ta411677m&cid=468283408&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=978035134&bvid=BV1o44y1j7NT&cid=480095619&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 - **加入项目**：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf) - 加入后在星球置顶消息可以申请加入项目组，`公众号：bugstack虫洞栈 回复：星球 可以获得加入优惠券`
 - **代码仓库**：[https://gitcode.net/KnowledgePlanet/Lottery](https://gitcode.net/KnowledgePlanet/Lottery) - `必须加入星球：码农会锁，在置顶🔝消息，申请授权后才可以访问。`
