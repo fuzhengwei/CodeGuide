@@ -815,6 +815,7 @@ function genBarAssembly() {
                 "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
                 "idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
                 "idea-plugin/2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
+                "idea-plugin/2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md",
             ]
         }
     ]
