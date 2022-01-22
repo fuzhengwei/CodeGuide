@@ -41,15 +41,15 @@ guide-idea-plugin-pmd
     │   	└── cn.bugstack.guide.idea.plugin 
     │       	├── rule
     │       	│	├── FastJsonAutoType.java
-    │       	│	├── HardcodedIp.java    
-    │       	│	└── ReplacePseudorandomGenerator.java         
-    │       	└── utils   
-    │       	 	└── InspectionBundle.java    
+    │       	│	├── HardcodedIp.java
+    │       	│	└── ReplacePseudorandomGenerator.java
+    │       	└── utils
+    │       	 	└── InspectionBundle.java
     ├── resources
     │   ├── inspectionDescriptions
     │   │   ├── FastJsonAutoType.html
     │   │   ├── HardcodedIp.html  
-    │   │   └── ReplacePseudorandomGenerator.html   
+    │   │   └── ReplacePseudorandomGenerator.html
     │   └── META-INF
     │       └── plugin.xml 
     ├── build.gradle  
