@@ -84,7 +84,7 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
 ### 2. 下载方式
 
 - CSDN：[https://download.csdn.net/download/Yao__Shun__Yu/77484299](https://download.csdn.net/download/Yao__Shun__Yu/77484299) - `￥4.9`
-- 知识星球(`码农会锁`)：https://t.zsxq.com/ufmQnA2 - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
+- 知识星球(`码农会锁`)：[https://t.zsxq.com/ufmQnA2](https://t.zsxq.com/ufmQnA2) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
 - 添加小傅哥微信(fustack)获取最新下载链接，备注：`IDEA Plugin`
 
 ## 五、🎉收尾
