@@ -1,9 +1,9 @@
 ---
-title: 第2节：使用配置和侧边栏窗体，阅读本地文档
+title: 第4节：配置窗体和侧边栏窗体的使用
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第2节：配置窗体和侧边栏窗体的使用
+# 第4节：配置窗体和侧边栏窗体的使用
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

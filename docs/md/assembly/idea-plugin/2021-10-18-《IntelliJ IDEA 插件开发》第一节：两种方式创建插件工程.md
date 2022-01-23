@@ -1,9 +1,9 @@
 ---
-title: 第1节：两种方式创建插件工程
+title: 第3节：两种方式创建插件工程
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第1节：两种方式创建插件工程
+# 第3节：两种方式创建插件工程
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

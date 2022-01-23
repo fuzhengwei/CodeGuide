@@ -251,7 +251,7 @@ module.exports = {
                                     },
                                     {
                                         text: '架构方案',
-                                        link: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.md'
+                                        link: '/md/develop/framework/scheme/2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md'
                                     }
                                 ]
                             },
@@ -413,7 +413,8 @@ module.exports = {
                     "/md/develop/framework/": genBarDevelopFramework(),
                     "/md/develop/standard/": genBarDevelopStandard(),
                     "/md/devops/": genBarDevOPS(),
-                    "/md/assembly/": genBarAssembly(),
+                    "/md/assembly/middleware/": genBarAssembly(),
+                    "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
                     "/md/netty/": genBarNetty(),
                     "/md/knowledge/": genBarKnowledge(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
@@ -795,30 +796,59 @@ function genBarAssembly() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md",
-                "middleware/2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.md",
-                "middleware/2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
-                "middleware/2021-08-19-基于Hash散列，数据库路由组件设计.md"
-            ]
-        },
-        {
-            title: "IDEA-Plugin",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md",
-                "idea-plugin/2021-08-29-技术实践，IDEA 插件怎么发布？.md",
-                "idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
-                "idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
-                "idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
-                "idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
-                "idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
-                "idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
-                "idea-plugin/2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
-                "idea-plugin/2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md",
+                "2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md",
+                "2019-12-07-发布Jar包到Maven中央仓库，为开发开源中间件做准备.md",
+                "2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
+                "2021-08-19-基于Hash散列，数据库路由组件设计.md"
             ]
         }
     ]
+}
+
+// Assembly idea-plugin
+function genBarAssemblyIDEAPlugin() {
+    return [
+        {
+            title: "第1章：开发入门",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-08-27-技术调研，IDEA 插件怎么开发？.md",
+                "2021-08-29-技术实践，IDEA 插件怎么发布？.md",
+            ]
+        },
+        {
+            title: "第2章：基础功能",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md",
+                "2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md",
+                "2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md",
+            ]
+        },
+        {
+            title: "第3章：基建设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md",
+                "2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md",
+                "2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md",
+            ]
+        },
+        {
+            title: "第4章：辅助工具",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md",
+                "2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md",
+                "2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md",
+                "2022-01-22-《IntelliJ IDEA 插件开发》第9节：加载文件生成链表单词树，输入属性时英文校准提醒.md",
+            ]
+        }
+    ];
 }
 
 // netty 4.x
@@ -920,6 +950,7 @@ function genBarKnowledge() {
                 "pdf/2020-07-12-重学 Java 设计模式.md",
                 "pdf/2021-01-26-Java面经手册PDF下载.md",
                 "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
             ]
         }
     ]

@@ -1,9 +1,9 @@
 ---
-title: 第7节：通过Inspection机制，对静态代码安全审查
+title: 第9节：通过Inspection机制，对静态代码安全审查
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，对静态代码安全审查
+# 第9节：通过Inspection机制，对静态代码安全审查
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

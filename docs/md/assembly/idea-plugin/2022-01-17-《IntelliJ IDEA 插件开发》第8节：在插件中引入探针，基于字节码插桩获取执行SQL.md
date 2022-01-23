@@ -1,9 +1,9 @@
 ---
-title: 第8节：在插件中引入探针，基于字节码插桩获取执行SQL
+title: 第10节：在插件中引入探针，基于字节码插桩获取执行SQL
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL
+# 第10节：在插件中引入探针，基于字节码插桩获取执行SQL
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

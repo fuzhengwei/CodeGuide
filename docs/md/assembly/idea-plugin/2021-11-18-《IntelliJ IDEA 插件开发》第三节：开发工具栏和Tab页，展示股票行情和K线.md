@@ -1,9 +1,9 @@
 ---
-title: 第3节：开发工具栏和Tab页，展示股票行情和K线
+title: 第5节：开发工具栏和Tab页，展示股票行情和K线
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第3节：开发工具栏和Tab页，展示股票行情和K线
+# 第5节：开发工具栏和Tab页，展示股票行情和K线
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

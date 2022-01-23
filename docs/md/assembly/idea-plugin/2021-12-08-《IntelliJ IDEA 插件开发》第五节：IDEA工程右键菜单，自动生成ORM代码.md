@@ -1,9 +1,9 @@
 ---
-title: 第5节：IDEA工程右键菜单，自动生成ORM代码
+title: 第7节：IDEA工程右键菜单，自动生成ORM代码
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第5节：IDEA工程右键菜单，自动生成ORM代码
+# 第7节：IDEA工程右键菜单，自动生成ORM代码
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

@@ -1,9 +1,9 @@
 ---
-title: 第6节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto
+title: 第8节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto
 lock: need
 ---
 
-# 《IntelliJ IDEA 插件开发》第6节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto
+# 第8节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
