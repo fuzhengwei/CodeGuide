@@ -383,6 +383,10 @@ module.exports = {
                                     {
                                         text: '字节码编程',
                                         link: '/md/knowledge/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
+                                    },
+                                    {
+                                        text: 'IDEA Plugin 开发手册',
+                                        link: '/md/knowledge/pdf/2022-01-23-IDEA Plugin 开发手册.md'
                                     }
                                 ]
                             }
