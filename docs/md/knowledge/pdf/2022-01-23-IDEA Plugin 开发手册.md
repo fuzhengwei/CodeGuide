@@ -1,9 +1,9 @@
 ---
-title: 《IDEA Plugin 开发手册》• 4章12节，完稿&发版
+title: 《IDEA Plugin 开发手册》• 小傅哥.pdf | 4章12节，完稿&发版
 lock: need
 ---
 
-# 《IDEA Plugin 开发手册》• 4章12节，完稿&发版
+# 《IDEA Plugin 开发手册》• 小傅哥.pdf | 4章12节，完稿&发版
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
