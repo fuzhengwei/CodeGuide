@@ -95,7 +95,7 @@
             <div class="pos-box">
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
-                <span style="font-size:0.8rem;font-weight:bold;">扫描公众号，回复<span style="color:red;">“网盘学习资料”</span>下载<span style="color:red;">100GB+</span>大学到毕业分阶段学习技术资料「无任何套路」</span>
+                <span style="font-size:0.8rem;font-weight:bold;">扫描公众号，回复<span style="color:red;">“1024”</span>下载<span style="color:red;">100GB+</span>大学到毕业分阶段学习技术资料、PDF书籍、实战项目、简历模板等「无任何套路」</span>
                 <img src="/images/personal/qrcode.png" height="180px" style="margin:10px;"/>
                 <b>公众号:</b> bugstack虫洞栈
               </div>
