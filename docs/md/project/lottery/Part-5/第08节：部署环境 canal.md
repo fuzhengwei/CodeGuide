@@ -1,7 +1,3 @@
-<div align="center">
-    <img src="/images/article/project/lottery/Part-5/8-00.png" width="128">
-</div>
-
 ---
 title: 第08节：部署环境 canal 同步数据到 ES
 pay: https://t.zsxq.com/RjqfEmA
