@@ -1340,6 +1340,8 @@ function getBarProjectLottery() {
                 "Part-5/第04节：部署环境 Mysql.md",
                 "Part-5/第05节：部署环境 xxl-job.md",
                 "Part-5/第06节：部署环境 nacos.md",
+                "Part-5/第07节：部署环境 Elasticsearch、Kibana.md",
+                "Part-5/第08节：部署环境 canal.md",
             ]
         }
     ]

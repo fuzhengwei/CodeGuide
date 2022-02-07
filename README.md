@@ -702,6 +702,8 @@
     - [第04节：部署环境 Mysql](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC04%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20Mysql.md)
     - [第05节：部署环境 xxl-job](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC05%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20xxl-job.md)
     - [第06节：部署环境 nacos](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/project/lottery/Part-5/%E7%AC%AC06%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E7%8E%AF%E5%A2%83%20nacos.md)
+    - [第07节：部署环境 Elasticsearch、Kibana](#)
+    - [第08节：部署环境 canal 同步数据到 ES](#)
     
 </details>
 
