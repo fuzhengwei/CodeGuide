@@ -775,6 +775,7 @@
 - [数学，离一个程序员有多近？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-12-20-%E5%B7%A5%E4%BD%9C3%E5%B9%B4%EF%BC%8C%E7%9C%8B%E5%95%A5%E8%B5%84%E6%96%99%E8%83%BD%E6%9C%88%E8%96%AA30K%EF%BC%9F.md)
 - [大学毕业要写多少行代码，才能不用花钱培训就找到一份开发工作？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2020-12-20-%E5%B7%A5%E4%BD%9C3%E5%B9%B4%EF%BC%8C%E7%9C%8B%E5%95%A5%E8%B5%84%E6%96%99%E8%83%BD%E6%9C%88%E8%96%AA30K%EF%BC%9F.md)
 - [2021版，开发者学习路线图分享](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2021-09-09-2021%E7%89%88%EF%BC%8C%E5%BC%80%E5%8F%91%E8%80%85%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E5%9B%BE%E5%88%86%E4%BA%AB.md)
+- [你上车，我就把你带成卷王！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/study/2022-02-07-%E4%BD%A0%E4%B8%8A%E8%BD%A6%EF%BC%8C%E6%88%91%E5%B0%B1%E6%8A%8A%E4%BD%A0%E5%B8%A6%E6%88%90%E5%8D%B7%E7%8E%8B%EF%BC%81.md)
 
 </details>
 
