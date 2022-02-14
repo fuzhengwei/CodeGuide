@@ -251,7 +251,7 @@ module.exports = {
                                     },
                                     {
                                         text: '架构方案',
-                                        link: '/md/develop/framework/scheme/2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md'
+                                        link: '/md/develop/framework/scheme/2021-02-04-基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析.md'
                                     }
                                 ]
                             },
@@ -766,7 +766,8 @@ function genBarDevelopFramework() {
                 "scheme/2021-03-04-笔记整理：技术架构涵盖内容和演变过程总结.md",
                 "scheme/2021-03-14-不重复造轮子只是骗小孩子的，教你手撸 SpringBoot 脚手架！.md",
                 "scheme/2021-03-24-刚火了的中台转头就拆，一大波公司放不下又拿不起来！.md",
-                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md"
+                "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md",
+                "scheme/2022-02-14-基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性.md",
             ]
         }
     ]
