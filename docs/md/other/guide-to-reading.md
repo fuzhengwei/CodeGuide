@@ -17,7 +17,8 @@ title: 目录
 ⏰ **提醒**：在接下来你对本博客的阅读中，如果遇到一些`内容`、`图稿`、`代码`等中的勘误都可以提交Issue或者PR的方式进行反馈，小傅哥会陆续进行完善，感谢您的支持；
 - Issue：[https://github.com/fuzhengwei/CodeGuide/issues](https://github.com/fuzhengwei/CodeGuide/issues)
 - PR：[https://github.com/fuzhengwei/CodeGuide/pulls](https://github.com/fuzhengwei/CodeGuide/pulls) - 你只需要在阅读文章的最下面找到`在 GitHub 上编辑此页`，即可完成克隆和提交PR
-- 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack`
+- 本站为公众号往期文章整理的小册，关注`公众号`：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 可以知晓最新推文，避免错过最近正在更新的技术系列文章。
+- 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack` - 交个朋友👬🏻，不要错过成为技术同好的机会。
 
 ## 一、本站知识阅览
 
