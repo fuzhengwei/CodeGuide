@@ -338,6 +338,7 @@
     - [不重复造轮子只是骗小孩子的，教你手撸 SpringBoot 脚手架！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-03-14-%E4%B8%8D%E9%87%8D%E5%A4%8D%E9%80%A0%E8%BD%AE%E5%AD%90%E5%8F%AA%E6%98%AF%E9%AA%97%E5%B0%8F%E5%AD%A9%E5%AD%90%E7%9A%84%EF%BC%8C%E6%95%99%E4%BD%A0%E6%89%8B%E6%92%B8%20SpringBoot%20%E8%84%9A%E6%89%8B%E6%9E%B6%EF%BC%81.md)
     - [刚火了的中台转头就拆，一大波公司放不下又拿不起来！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-03-24-%E5%88%9A%E7%81%AB%E4%BA%86%E7%9A%84%E4%B8%AD%E5%8F%B0%E8%BD%AC%E5%A4%B4%E5%B0%B1%E6%8B%86%EF%BC%8C%E4%B8%80%E5%A4%A7%E6%B3%A2%E5%85%AC%E5%8F%B8%E6%94%BE%E4%B8%8D%E4%B8%8B%E5%8F%88%E6%8B%BF%E4%B8%8D%E8%B5%B7%E6%9D%A5%EF%BC%81.md)
     - [调研字节码插桩技术，用于系统监控设计和实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2021-07-19-%E8%B0%83%E7%A0%94%E5%AD%97%E8%8A%82%E7%A0%81%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF%EF%BC%8C%E7%94%A8%E4%BA%8E%E7%B3%BB%E7%BB%9F%E7%9B%91%E6%8E%A7%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%AE%9E%E7%8E%B0.md)
+    - [基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/framework/scheme/2022-02-14-%E5%9F%BA%E4%BA%8E%E5%BA%93%E8%A1%A8%E5%88%86%E6%AE%B5%E6%89%AB%E6%8F%8F%E5%92%8C%E6%95%B0%E6%8D%AERedis%E9%A2%84%E7%83%AD%EF%BC%8C%E4%BC%98%E5%8C%96%E5%88%86%E5%B8%83%E5%BC%8F%E5%BB%B6%E8%BF%9F%E4%BB%BB%E5%8A%A1%E8%A7%A6%E8%BE%BE%E6%97%B6%E6%95%88%E6%80%A7.md)
 
 </details>
 
