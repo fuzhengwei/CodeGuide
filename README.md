@@ -724,6 +724,7 @@
 - [Cloudreve 自建云盘实践，我说了没人能限得了我的容量和速度！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-04-11-Cloudreve%20%E8%87%AA%E5%BB%BA%E4%BA%91%E7%9B%98%E5%AE%9E%E8%B7%B5%EF%BC%8C%E6%88%91%E8%AF%B4%E4%BA%86%E6%B2%A1%E4%BA%BA%E8%83%BD%E9%99%90%E5%BE%97%E4%BA%86%E6%88%91%E7%9A%84%E5%AE%B9%E9%87%8F%E5%92%8C%E9%80%9F%E5%BA%A6%EF%BC%81.md)
 - [【经验分享】码农使用云服务学习，部环境、开端口、配域名、弄SSL、搭博客](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-06-04-%E3%80%90%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB%E3%80%91%E7%A0%81%E5%86%9C%E4%BD%BF%E7%94%A8%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%AD%A6%E4%B9%A0%EF%BC%8C%E9%83%A8%E7%8E%AF%E5%A2%83%E3%80%81%E5%BC%80%E7%AB%AF%E5%8F%A3%E3%80%81%E9%85%8D%E5%9F%9F%E5%90%8D%E3%80%81%E5%BC%84SSL%E3%80%81%E6%90%AD%E5%8D%9A%E5%AE%A2%EF%BC%81.md) 
 - [关于怎么使用 webhooks 自动部署博客，详细教程文档！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2021-11-07-%E5%85%B3%E4%BA%8E%E6%80%8E%E4%B9%88%E4%BD%BF%E7%94%A8%20webhooks%20%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2%EF%BC%8C%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%E6%96%87%E6%A1%A3%EF%BC%81.md)
+- [教小白使用 docsify，搭建一个贼简单的所见即所得博客！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/devops/2022-03-04-%E6%95%99%E5%B0%8F%E7%99%BD%E4%BD%BF%E7%94%A8%20docsify%EF%BC%8C%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E8%B4%BC%E7%AE%80%E5%8D%95%E7%9A%84%E6%89%80%E8%A7%81%E5%8D%B3%E6%89%80%E5%BE%97%E5%8D%9A%E5%AE%A2%EF%BC%81.md)
 
 </details>
 
