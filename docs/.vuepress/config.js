@@ -789,7 +789,8 @@ function genBarDevelopStandard() {
                 "2021-01-10-握草，这些研发事故30我都干过！.md",
                 "2021-09-15-还重构？就你那代码只能铲了重写！.md",
                 "2021-09-27-p3c 插件，是怎么检查出你那屎山的代码？.md",
-                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md"
+                "2021-10-10-12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯.md",
+                "2022-03-06-ApiPost.md",
             ]
         }
     ]
