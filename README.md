@@ -355,6 +355,7 @@
 - [还重构？就你那代码只能铲了重写！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-09-15-%E8%BF%98%E9%87%8D%E6%9E%84%EF%BC%9F%E5%B0%B1%E4%BD%A0%E9%82%A3%E4%BB%A3%E7%A0%81%E5%8F%AA%E8%83%BD%E9%93%B2%E4%BA%86%E9%87%8D%E5%86%99%EF%BC%81.md)
 - [p3c 插件，是怎么检查出你那屎山的代码？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-09-27-p3c%20%E6%8F%92%E4%BB%B6%EF%BC%8C%E6%98%AF%E6%80%8E%E4%B9%88%E6%A3%80%E6%9F%A5%E5%87%BA%E4%BD%A0%E9%82%A3%E5%B1%8E%E5%B1%B1%E7%9A%84%E4%BB%A3%E7%A0%81%EF%BC%9F.md)
 - [12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-10-10-12%E7%A7%8D%20vo2dto%20%E6%96%B9%E6%B3%95%EF%BC%8C%E5%B0%B1%20BeanUtils.copyProperties%20%E5%8E%8B%E6%B5%8B%E6%9C%80%E6%8B%89%E8%83%AF.md)
+- [架构师深夜把玩 ApiPost，分享细腻的体验！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2022-03-06-ApiPost.md)
 
 </details>
 
