@@ -103,6 +103,7 @@ title: 目录
 ### 1. 重学Java设计模式
 
 - 地址：[重学Java设计模式](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)
+- 视频：[https://www.bilibili.com/video/BV1D341177SV](https://www.bilibili.com/video/BV1D341177SV) - `与重学Java设计模式相对应，成体系录制`
 - 介绍：本书是作者小傅哥，基于互联网真实案例编写的Java设计模式实践图书。全书以解决方案为核心，从实际开发业务中抽离出交易、营销、规则引擎、中间件、框架源码等22个真实场景，对设计模式进行全面、彻底的分析。帮助读者灵活地使用各种设计模式，从容应对复杂变化的业务需求，编写出易维护、可扩展的代码结构。
 
 | 序号 | 类型         | 图稿                                                         | 业务场景                                             | 实现要点                                                     |
