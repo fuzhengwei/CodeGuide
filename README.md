@@ -279,6 +279,10 @@
 
 ### 4.1 设计模式 - 👉[**在线阅读**](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)
 
+- 介绍
+
+    - [《重学Java设计模式》开始在B站录视频了！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/design-pattern/2022-03-12-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8FB%E7%AB%99%E8%A7%86%E9%A2%91.md)
+
 - 创建型模式
 
     - [重学 Java 设计模式《实战工厂方法模式》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.md)
