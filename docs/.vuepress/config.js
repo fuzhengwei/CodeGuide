@@ -664,6 +664,14 @@ function genBarSpringSourceCode() {
 function genBarDevelopDesignPattern() {
     return [
         {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-03-12-重学Java设计模式B站视频.md",
+            ]
+        },
+        {
             title: "创建型模式",
             collapsable: false,
             sidebarDepth: 0,
