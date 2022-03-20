@@ -209,6 +209,10 @@ module.exports = {
                                 link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
                             },
                             {
+                                text: 'Mybatis 手撸专栏',
+                                link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
+                            },
+                            {
                                 text: 'Spring Cloud',
                                 link: '/md/spring/spring-cloud/2019-10-31-Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》.md'
                             },
@@ -411,6 +415,7 @@ module.exports = {
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
                     "/md/spring/develop-spring/": genBarSpringDevelopSpring(),
+                    "/md/spring/develop-mybatis/": genBarSpringDevelopMybatis(),
                     "/md/spring/source-code/": genBarSpringSourceCode(),
                     "/md/spring/spring-cloud/": genBarSpringSpringCloud(),
                     "/md/develop/design-pattern/": genBarDevelopDesignPattern(),
@@ -569,6 +574,19 @@ function genBarOther() {
             sidebarDepth: 2,
             children: [
                 "guide-to-reading.md"
+            ]
+        }
+    ]
+}
+
+function genBarSpringDevelopMybatis() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
             ]
         }
     ]
