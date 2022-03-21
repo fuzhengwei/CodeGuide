@@ -579,6 +579,7 @@ function genBarOther() {
     ]
 }
 
+// spring-develop-mybatis
 function genBarSpringDevelopMybatis() {
     return [
         {
