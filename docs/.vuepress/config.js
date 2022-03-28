@@ -583,11 +583,12 @@ function genBarOther() {
 function genBarSpringDevelopMybatis() {
     return [
         {
-            title: "介绍",
+            title: "《手撸 Mybatis》",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
+                "2202-03-27-第2章：创建简单的映射器代理工厂.md",
             ]
         }
     ]
