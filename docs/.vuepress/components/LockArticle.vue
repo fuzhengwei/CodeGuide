@@ -82,28 +82,27 @@
                     return;
                 }
 
-                let token = t.getToken();
-
-                $.ajax({
-                    url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
-                    type: "GET",
-                    dataType: "text",
-                    data: {
-                        token: token
-                    },
-                    success: function (data) {
-                        if (data === 'refuse') {
-                            t._lock(articleObj);
-                        } else {
+                t.getToken().then(function (token) {
+                    $.ajax({
+                        url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
+                        type: "GET",
+                        dataType: "text",
+                        data: {
+                            token: token
+                        },
+                        success: function (data) {
+                            if (data === 'refuse') {
+                                t._lock(articleObj);
+                            } else {
+                                t._unlock(articleObj);
+                                t.setCookie("_unlock", "success", 1);
+                            }
+                        },
+                        error: function (data) {
                             t._unlock(articleObj);
-                            t.setCookie("_unlock", "success", 1);
                         }
-                    },
-                    error: function (data) {
-                        t._unlock(articleObj);
-                    }
-                })
-
+                    })
+                });
             },
             _lock: function (articleObj) {
                 let $article = articleObj.article;
@@ -117,34 +116,35 @@
                 if (this.os().isPc && halfHeight > 800) {
 
                     // 获取口令
-                    let token = this.getToken();
-                    $('#fustack-token').text(token);
+                    this.getToken().then(function (token) {
+                        $('#fustack-token').text(token);
 
-                    // 判断是否已加锁
-                    if ($article.hasClass("lock")) {
-                        return;
-                    }
+                        // 判断是否已加锁
+                        if ($article.hasClass("lock")) {
+                            return;
+                        }
 
-                    // 设置文章可显示高度
-                    $article.css({"height": halfHeight + 'px'});
-                    $article.addClass('lock');
+                        // 设置文章可显示高度
+                        $article.css({"height": halfHeight + 'px'});
+                        $article.addClass('lock');
 
-                    // 添加引导解锁标签
-                    $article.remove("#read-more-wrap");
+                        // 添加引导解锁标签
+                        $article.remove("#read-more-wrap");
 
-                    let clone = $('.read-more-wrap').clone();
-                    clone.attr('id', 'read-more-wrap');
-                    clone.css('display', 'block');
+                        let clone = $('.read-more-wrap').clone();
+                        clone.attr('id', 'read-more-wrap');
+                        clone.css('display', 'block');
 
-                    clone.find("#read-more-btn").click(function () {
-                        clone.find("#btw-modal-wrap").css('display', 'block');
+                        clone.find("#read-more-btn").click(function () {
+                            clone.find("#btw-modal-wrap").css('display', 'block');
+                        });
+
+                        clone.find("#btw-modal-close-btn").click(function () {
+                            clone.find("#btw-modal-wrap").css('display', 'none');
+                        });
+
+                        $article.append(clone);
                     });
-
-                    clone.find("#btw-modal-close-btn").click(function () {
-                        clone.find("#btw-modal-wrap").css('display', 'none');
-                    });
-
-                    $article.append(clone);
 
                 }
             },
@@ -163,31 +163,38 @@
                 $('#read-more-wrap').remove();
 
             },
-            getToken: function () {			
+            getToken: async function () {
 				// 浏览器 Cookie true 不限制
 				if(navigator.cookieEnabled){
 					let value = this.getCookie('UM_distinctid');
 					if (!value) {
-						return this.getFingerprintId();
+						return await this.getFingerprintId();
 					}
 					return value.substring(value.length - 6).toUpperCase();
 				} else{
-					return this.getFingerprintId();
+					return await this.getFingerprintId();
 				}
             },
             getFingerprintId: function () {
                 // https://github.com/fingerprintjs/fingerprintjs
-                new Fingerprint2().get(function(result, components){                   
+               /* new Fingerprint2().get(function(result, components){
                     let value = result.toUpperCase();
                     let token = value.substring(value.length - 6).toUpperCase();
                     // 设置token
                     $('#fustack-token').text(token);
                 });
-                return $('#fustack-token').text();
+                return $('#fustack-token').text();*/
+                return new Promise( resolve => {
+                    new Fingerprint2().get(function(result, components){
+                        let value = result.toUpperCase();
+                        let token = value.substring(value.length - 6).toUpperCase();
+                        resolve(token);
+                    });
+                })
             },
 			getUUID: function () {
                 return 'xxxxxx'.replace(/[xy]/g, function (c) {
-                    let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                    let r = Math.random() * 16 | 0, v = c === 'x' ? r : (r & 0x3 | 0x8);
                     return v.toString(16);
                 });
             },
