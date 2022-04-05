@@ -165,7 +165,7 @@
             },
             getToken: async function () {
 				// 浏览器 Cookie true 不限制
-				if(navigator.cookieEnabled){
+				/*if(navigator.cookieEnabled){
 					let value = this.getCookie('UM_distinctid');
 					if (!value) {
 						return await this.getFingerprintId();
@@ -173,7 +173,8 @@
 					return value.substring(value.length - 6).toUpperCase();
 				} else{
 					return await this.getFingerprintId();
-				}
+				}*/
+                return await this.getFingerprintId();
             },
             getFingerprintId: function () {
                 // https://github.com/fingerprintjs/fingerprintjs
