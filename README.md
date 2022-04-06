@@ -56,8 +56,8 @@
     - [2.3 基础技术](https://github.com/fuzhengwei/CodeGuide#23-%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 3. [Spring](https://github.com/fuzhengwei/CodeGuide#3-spring)
     - [3.1 Spring 手撸专栏](https://github.com/fuzhengwei/CodeGuide#31-spring-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.2 Mybatis 手撸专栏]()
-    - [3.3 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.2 Mybatis 手撸专栏](https://github.com/fuzhengwei/CodeGuide#32-mybatis-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.3 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [3.4 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 4. [面向对象](https://github.com/fuzhengwei/CodeGuide#4-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
     - [4.1 设计模式](https://github.com/fuzhengwei/CodeGuide#41-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
@@ -113,6 +113,7 @@
 19. 🔥`Java面经手册` [interview](https://github.com/fuzhengwei/interview)
 20. 🔥`Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
 21. `IntelliJ IDEA 插件开发` [guide-idea-plugin](https://github.com/fuzhengwei/guide-idea-plugin)
+22. 🔥`Mybatis手撸专栏` [small-mybatis](https://t.zsxq.com/bmqNFQ7)
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
@@ -247,9 +248,9 @@
 
 ### 3.2 Mybatis 手撸专栏  - 👉[**在线阅读**](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 
-- [第1章：开篇介绍，我要带你撸 Mybatis 啦！]()
-- [第2章：创建简单的映射器代理工厂]()
-- [第3章：实现映射器的注册和使用]()
+- [第1章：开篇介绍，我要带你撸 Mybatis 啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.md)
+- [第2章：创建简单的映射器代理工厂](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-03-27-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E5%88%9B%E5%BB%BA%E7%AE%80%E5%8D%95%E7%9A%84%E6%98%A0%E5%B0%84%E5%99%A8%E4%BB%A3%E7%90%86%E5%B7%A5%E5%8E%82.md)
+- [第3章：实现映射器的注册和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-04-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%AE%9E%E7%8E%B0%E6%98%A0%E5%B0%84%E5%99%A8%E7%9A%84%E6%B3%A8%E5%86%8C%E5%92%8C%E4%BD%BF%E7%94%A8.md)
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
