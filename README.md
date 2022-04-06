@@ -56,8 +56,9 @@
     - [2.3 基础技术](https://github.com/fuzhengwei/CodeGuide#23-%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 3. [Spring](https://github.com/fuzhengwei/CodeGuide#3-spring)
     - [3.1 Spring 手撸专栏](https://github.com/fuzhengwei/CodeGuide#31-spring-%E6%89%8B%E6%92%B8%E4%B8%93%E6%A0%8F----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.2 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
-    - [3.3 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.2 Mybatis 手撸专栏]()
+    - [3.3 Spring Cloud](https://github.com/fuzhengwei/CodeGuide#32-spring-cloud----%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
+    - [3.4 源码分析(Mybatis、Quartz)](https://github.com/fuzhengwei/CodeGuide#33-%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90mybatisquartz---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
 4. [面向对象](https://github.com/fuzhengwei/CodeGuide#4-%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1)
     - [4.1 设计模式](https://github.com/fuzhengwei/CodeGuide#41-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
     - [4.2 系统架构](https://github.com/fuzhengwei/CodeGuide#42-%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84---%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB)
@@ -244,7 +245,13 @@
 
 </details>
 
-### 3.2 Spring Cloud  - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
+### 3.2 Mybatis 手撸专栏  - 👉[**在线阅读**](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
+
+- [第1章：开篇介绍，我要带你撸 Mybatis 啦！]()
+- [第2章：创建简单的映射器代理工厂]()
+- [第3章：实现映射器的注册和使用]()
+
+### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
 - [Spring Cloud零《总有一偏概述告诉你SpringCloud是什么》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.md)
 - [Spring Cloud一《服务集群注册与发现 Eureka》](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/spring-cloud/2019-11-01-Spring%20Cloud%E4%B8%80%E3%80%8A%E6%9C%8D%E5%8A%A1%E9%9B%86%E7%BE%A4%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0%20Eureka%E3%80%8B.md)
