@@ -88,12 +88,21 @@ title: 目录
 
 - 此专栏是一本以开发简化版Spring学习其原理和内核的知识内容，不仅是代码编写实现也更注重内容上的需求分析和方案设计，所以在学习的过程要结合这些内容一起来实践，并调试对应的代码。粉丝伙伴在阅读的过程中，**千万不要害怕在学习的过程中遇到问题，这些都是正常的！** 希望你可以一直坚持把这些内容事必躬亲、亲历亲为的学完，加油！
 
-### 2. Spring Cloud
+### 2. Mybatis 手撸专栏
+
+- 地址：[Mybatis 手撸专栏](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)
+- 介绍：像我们之前完成[手写 Spring](https://mp.weixin.qq.com/s/g7YdIe_FSrk-WE8nQRO3TA)一样，拆解功能、简化流程、渐进实现，让读者能够更容易的学习到最有价值的知识。
+
+![](https://bugstack.cn/images/article/spring/mybatis-220320-02.png)
+
+在手写的过程中学习 Mybatis 从解析、绑定、反射、缓存，到会话和事务操作，以及如何与 Spring 进行关联注册 Bean 对象，完成整合部分功能逻辑。通过这些内容的拆解实现，读者伙伴就可以非常清楚的知道这些核心功能都是如何实现的了，以后再阅读 Mybatis 源码也就知道从哪开始到哪结束了。
+
+### 3. Spring Cloud
 
 - 地址：[Spring Cloud](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 - 介绍：以案例实践的方式讲解 Spring Cloud 中常用的技术内容，包括：Eureka注册中心、熔断、降级、限流、动态刷新配置、消息总线、zuul 网关路由等
 
-### 3. 源码分析
+### 4. 源码分析
 
 - 地址：[源码分析](https://bugstack.cn/md/spring/source-code/2019-12-25-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5DMybatis%E6%8E%A5%E5%8F%A3%E6%B2%A1%E6%9C%89%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.html)
 - 介绍：拆解、分析、实践的方式进行源码学习，包括对 Mybatis 的分析和手写，这部分内容涵盖的非常广泛，可以让你非常清楚一个 ORM 框架是如何开发的以及怎么结合到 Spring 中，同时这部分内容还包括了 Quartz 定时任务全流程的分析，可以帮助你更好的理解任务的分层处理。
