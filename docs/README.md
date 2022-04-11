@@ -1,8 +1,13 @@
 ---
 home: true
 heroImage: /images/system/blog-03.png
-actionText: 快速开始 →
-actionLink: /md/other/guide-to-reading.md
+actionLinks:
+- link: /md/other/guide-to-reading.md
+  text: 开始阅读 →
+  class: primary
+- link: /md/other/guide-to-reading.md
+  text: 知识星球
+  class: secondary  
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。
