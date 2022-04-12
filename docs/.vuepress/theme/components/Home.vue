@@ -53,7 +53,8 @@
       v-if="data.footer"
       class="footer"
     >
-      {{ data.footer }}
+
+      <div class="content" v-html=data.footer></div>
     </div>
 
     <Content

@@ -405,6 +405,10 @@ module.exports = {
                         ]
                     },
                     {
+                        text: 'B站',
+                        link: 'https://space.bilibili.com/15637440'
+                    },
+                    {
                         text: 'Github',
                         link: 'https://github.com/fuzhengwei/CodeGuide'
                     }

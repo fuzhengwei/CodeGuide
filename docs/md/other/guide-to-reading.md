@@ -177,9 +177,10 @@ title: 目录
 - 地址：[IM Netty 仿PC端微信](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)
 - 介绍：🎭 本项目是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信实现通信核心功能。课程文章已发布到GitChat专栏，欢迎购买。
 
-![](https://bugstack.cn/assets/images/2020/project.jpg)
-
-![](https://bugstack.cn/assets/images/2020/ui-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/project.jpg?raw=true" width="900px">
+    <img src="https://bugstack.cn/assets/images/2020/ui-01.png?raw=true" width="900px">
+</div>
 
 **第一章节**：**UI开发**。使用`JavaFx`与`Maven`搭建UI桌面工程，逐步讲解登录框体、聊天框体、对话框、好友栏等各项UI展示及操作事件。从而在这一章节中让Java 程序员学会开发桌面版应用。
 
