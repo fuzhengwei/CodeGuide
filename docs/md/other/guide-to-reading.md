@@ -6,6 +6,8 @@ title: 目录
 
 >你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=298298421&bvid=BV1FF41137q5&cid=578551972&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 一个着迷于技术又喜欢不断折腾的技术活跃者，从13年毕业到进入互联网，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP！
 
 除此之外小傅哥并不只满足于CRUD搬砖，也关心业务、运营、产品、数据、测试、运维等各项知识体系的完善学习，就研发架构设计来讲，更全面的学习会更有利于做出更长远的架构设计。同时完善个人知识体系也更有利于个人成长。
