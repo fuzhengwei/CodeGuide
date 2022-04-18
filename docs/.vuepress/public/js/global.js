@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     let $article = $('.theme-default-content > h1');
     if ($article.length <= 0) return null;
 
@@ -7,9 +7,13 @@ window.onload = function() {
     // 根据ID获取iframe对象
     var ifr = document.getElementById('B-Video');
 
-    if(ifr){
+    if (ifr) {
         ifr.style.width = clientWidth + 'px';
-        ifr.style.height = (523 * clientWidth) / 700 + 'px'
+        if (clientWidth < 450) {
+            ifr.style.height = (523 * clientWidth) / 700 + 'px'
+        } else {
+            ifr.style.height = '450px'
+        }
     }
 
 };
