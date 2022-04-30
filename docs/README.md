@@ -45,7 +45,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 最新文章会首发公众号，强烈推荐读者伙伴关注一波！另外，在公众号：bugstack虫洞栈 回复 `1024` 可以下载更多资源内容。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/personal/qrcode.png?raw=true" width="180px">
+    <img src="https://bugstack.cn/images/system/resources-xiaofuge.png?raw=true" width="650px">
     <div style="font-size: 9px;">公众号：bugstack虫洞栈</div>
     <br/>
 </div>
