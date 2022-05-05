@@ -113,7 +113,7 @@
 19. 🔥`Java面经手册` [interview](https://github.com/fuzhengwei/interview)
 20. 🔥`Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
 21. `IntelliJ IDEA 插件开发` [guide-idea-plugin](https://github.com/fuzhengwei/guide-idea-plugin)
-22. 🔥`Mybatis手撸专栏` [small-mybatis](https://t.zsxq.com/bmqNFQ7)
+22. 🔥`Mybatis手撸专栏` [small-mybatis](https://github.com/fuzhengwei/small-mybatis)
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
