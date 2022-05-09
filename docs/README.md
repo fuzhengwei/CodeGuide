@@ -31,6 +31,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 - [Lottery 抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)：以贯穿整个互联网所需的分布式技术栈，基于DDD领域驱动设计的四层架构与设计模式逻辑的实践项目，非常适合手里没有大项目的读者进行学习。
 - [SpringBoot 中间件设计和开发](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)：结合互联网所需解决的方案场景，开发 SpringBoot Starter，涵盖：技术框架、数据服务、数据组件、分布式技术、服务治理、字节码、IDEA插件七个方面，16种中间件的设计和开发。
 - [IM Netty](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)：`JavaFx`、`Netty4.x`、`SpringBoot`、`Mysql` 等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。
+- [简历模板](http://pan.bugstack.cn/?dl=0599585a4e691adc7137ea9cb25c087f)：你可以在学习掌握博客中的技术以及大厂项目，按照简历模板的格式，包装和调整成你需要的简历内容，挺高面试通过率。
 
 ## PDF
 
