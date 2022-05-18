@@ -254,6 +254,8 @@
 - [第4章：Mapper XML的解析和注册使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
 - [第5章：数据源的解析、创建和使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-09-%E7%AC%AC4%E7%AB%A0%EF%BC%9AXML%E7%9A%84%E8%A7%A3%E6%9E%90%E5%92%8C%E6%B3%A8%E5%86%8C%E4%BD%BF%E7%94%A8.md)
 - [第6章：数据源池化技术实现](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-04-17-%E7%AC%AC5%E7%AB%A0%EF%BC%9A%E6%95%B0%E6%8D%AE%E6%BA%90%E7%9A%84%E8%A7%A3%E6%9E%90%E3%80%81%E5%88%9B%E5%BB%BA%E5%92%8C%E4%BD%BF%E7%94%A8.md)
+- [第7章：SQL执行器的定义和实现](https://bugstack.cn/md/spring/develop-mybatis/2022-04-28-%E7%AC%AC7%E7%AB%A0%EF%BC%9ASQL%E6%89%A7%E8%A1%8C%E5%99%A8%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%AE%9E%E7%8E%B0.html)
+- [第8章：把反射用到出神入化](https://bugstack.cn/md/spring/develop-mybatis/2022-05-03-%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E6%8A%8A%E5%8F%8D%E5%B0%84%E7%94%A8%E5%88%B0%E5%87%BA%E7%A5%9E%E5%85%A5%E5%8C%96.html)
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
@@ -371,6 +373,7 @@
 - [p3c 插件，是怎么检查出你那屎山的代码？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-09-27-p3c%20%E6%8F%92%E4%BB%B6%EF%BC%8C%E6%98%AF%E6%80%8E%E4%B9%88%E6%A3%80%E6%9F%A5%E5%87%BA%E4%BD%A0%E9%82%A3%E5%B1%8E%E5%B1%B1%E7%9A%84%E4%BB%A3%E7%A0%81%EF%BC%9F.md)
 - [12种 vo2dto 方法，就 BeanUtils.copyProperties 压测最拉胯](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2021-10-10-12%E7%A7%8D%20vo2dto%20%E6%96%B9%E6%B3%95%EF%BC%8C%E5%B0%B1%20BeanUtils.copyProperties%20%E5%8E%8B%E6%B5%8B%E6%9C%80%E6%8B%89%E8%83%AF.md)
 - [架构师深夜把玩 ApiPost，分享细腻的体验！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2022-03-06-ApiPost.md)
+- [你说写代码，最常用的3个设计模式是啥？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/develop/standard/2022-05-15-%E4%BD%A0%E8%AF%B4%E5%86%99%E4%BB%A3%E7%A0%81%EF%BC%8C%E6%9C%80%E5%B8%B8%E7%94%A8%E7%9A%843%E4%B8%AA%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%98%AF%E5%95%A5%EF%BC%9F.md)
 
 </details>
 
