@@ -104,7 +104,7 @@
 10. `服务框架搭建` [itstack-demo-frame](https://github.com/fuzhengwei/itstack-demo-frame) 
 11. `源码分析(Spring、Mybatis、Schedule)` [itstack-demo-code](https://github.com/fuzhengwei/itstack-demo-code)
 12. `Drools规则引擎` [itstack-demo-drools](https://github.com/fuzhengwei/itstack-demo-drools)
-13. `ASM字节码编程` [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)
+13. `ASM字节码编程` [itstack-demo-asm](https://github.com/fuzhengwei/itstack-demo-asm)、[SQM](https://github.com/WormholePistachio/SQM)
 14. `我的大学四年到毕业工作5年的学习资源和面试汇总` [网盘下载，if链接失效，加微信：fustack](https://pan.baidu.com/s/4mmX7sDy)
 15. `Netty+JavaFx实战：仿桌面版微信聊天` [NaiveChat](https://github.com/fuzhengwei/NaiveChat) 
 16. `JDK1.8新特性41个案例讲解` [itstack-demo-jdk8](https://github.com/fuzhengwei/itstack-demo-jdk8) 
