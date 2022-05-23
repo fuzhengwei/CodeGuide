@@ -779,6 +779,7 @@
 - [炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-10-24-%E7%82%B8%EF%BC%811024%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E5%95%A6%EF%BC%8C%E6%96%87%E7%AB%A0%E5%BC%80%E6%BA%90%E3%80%81%E6%94%AF%E6%8C%81PR%EF%BC%8C%E5%86%B2%E5%93%87%EF%BC%81.md)
 - [CodeGuide 300+文档、100+代码库，一个指导程序员写代码的，Github 仓库开源啦！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2021-11-14-CodeGuide%E5%BC%80%E6%BA%90%E4%BB%93%E5%BA%93.md)
 - [2021年，小傅哥の年终总结！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2022-01-27-2021%E5%B9%B4%EF%BC%8C%E5%B0%8F%E5%82%85%E5%93%A5%E3%81%AE%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%EF%BC%81.md)
+- [被掘金读者举报，侵权国外资料，但却是一次不错的经历！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/about/me/2022-05-22-copyright-violation.md)
 
 </details>
 

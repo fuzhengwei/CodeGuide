@@ -125,6 +125,7 @@ title: 目录
 | 4    | **原型**     | ![img](https://bugstack.cn/assets/images/2020/design/14.png) | 上机考试多套试，每人题目和答案乱序排列场景           | 用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。 |
 | 5    | **单例**     | ![img](https://bugstack.cn/assets/images/2020/design/15.png) | 7种单例模式案例，Effective Java 作者推荐枚举单例模式 | 保证一个类仅有一个实例，并提供一个访问它的全局访问点。       |
 
+- 图片引用：[https://refactoringguru.cn](https://refactoringguru.cn)
 - 出版图书：[https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg](https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg)
 
 ### 2. DDD 专题
