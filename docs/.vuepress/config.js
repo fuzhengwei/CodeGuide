@@ -1415,6 +1415,7 @@ function genBarAbout() {
                 "me/2021-10-24-炸！1024，小傅哥的博客升级啦，文章开源、支持PR，冲哇！.md",
                 "me/2021-11-14-CodeGuide开源仓库.md",
                 "me/2022-01-27-2021年，小傅哥の年终总结！.md",
+                "me/2022-05-22-copyright-violation.md",
             ]
         },
         {
