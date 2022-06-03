@@ -23,7 +23,7 @@ Spring Boot + 领域驱动设计使得微服务越来越火热，而随着微服
 通常一个中间件开发会需要用到；自定义xml配置、自定义Annotation注解、动态代理、反射调用、字节码编程(javaassist、ASM等)，以及一些动态注册服务中心和功能逻辑开发等。本案例会使用Spring Boot开发方式定义自己的starter。
 
 ## 原理简述
-通过我们使用一个公用的starter的时候，只需要将相应的依赖添加的Maven的配置文件当中即可，免去了自己需要引用很多依赖类，并且SpringBoot会自动进行类的自动配置。而我们自己开发一个starter也需要做相应的处理；
+通常我们使用一个公用的starter的时候，只需要将相应的依赖添加的Maven的配置文件当中即可，免去了自己需要引用很多依赖类，并且SpringBoot会自动进行类的自动配置。而我们自己开发一个starter也需要做相应的处理；
 
 1. SpringBoot 在启动时会去依赖的starter包中寻找 resources/META-INF/spring.factories 文件，然后根据文件中配置的Jar包去扫描项目所依赖的Jar包，这类似于 Java 的 SPI 机制。
    >SPI 全称 Service Provider Interface，是Java提供的一套用来被第三方实现或者扩展的API，它可以用来启用框架扩展和替换组件。

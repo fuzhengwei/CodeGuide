@@ -536,7 +536,7 @@ private void expungeStaleEntries() {
 - 这部分是主要是探测式清理过期元素，以及判断清理后是否满足扩容条件，size >= threshold * 3/4
 - 满足后执行扩容操作，其实扩容完的核心操作就是重新计算哈希值，把元素填充到新的数组中。
 
-**rehash()  扩容**
+**resize()  扩容**
 
 ```java
 private void resize() {
