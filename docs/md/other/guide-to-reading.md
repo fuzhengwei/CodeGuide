@@ -24,7 +24,8 @@ title: 目录
 - 加入星球：[码农会锁](https://t.zsxq.com/jAi2nUf) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
 
 <div align="center">
-    <img src="https://bugstack.cn/assets/images/xingqiu-220223.png?raw=true" width="300px">
+    <img src="https://bugstack.cn/assets/images/xingqiu-220606.png?raw=true" width="700px">
+    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目「DDD+RPC分布式抽奖系统」、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
 </div>
 
 ## 一、本站知识阅览
