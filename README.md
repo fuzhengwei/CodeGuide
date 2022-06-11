@@ -1,30 +1,5 @@
 # CodeGuide | 程序员编码指南
 
-> 你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。[:pencil2: 虫洞栈，博主](https://bugstack.cn)，[:memo: 关于我](https://bugstack.cn/md/other/guide-to-reading.html) 
-
-🚜 **虫洞栈，与你：上最快的车、唠最狠的嗑，爬最高的坡、拿最贵的Offer！** 
-
-- 👉 如果你不知道自己要从哪开始、要学什么、有什么结果，请看 [阅读指南](https://bugstack.cn/md/other/guide-to-reading.html) 这是一个码农研发人员提升自身技术栈广度和深度的经验之路，也是小傅哥的亲身学习经历汇总！
-- 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
-- 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
-- 👉 **【源码下载】** ❤下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
-- **云服务器**：[38元1年，1核2G 练手服务器](https://www.aliyun.com/minisite/goods?userCode=is4kfbdt) 云服务学习视频课程：[📺B站 `小傅哥の码场`](https://space.bilibili.com/15637440/channel/seriesdetail?sid=479958)
-
-<br/>
-<div align="center">
-    <a href="https://bugstack.cn" style="text-decoration:none"><img src="https://bugstack.cn/images/system/CodeGuide-LOGO.png?raw=true" width="256px"></a>
-</div>
-<br/>
-
-<div align="center">
-	<a href="https://bugstack.cn/md/other/guide-to-reading.html"><img src="https://bugstack.cn/images/system/CodeGuide-Read.svg"></a>
-	<a href="https://bugstack.cn/images/personal/qrcode.png"><img src="https://bugstack.cn/images/system/CodeGuide-WeiXinCode.svg"></a>
-	<a href="https://bugstack.cn/md/knowledge/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html"><img src="https://bugstack.cn/images/system/CodeGuide-JavaPDF.svg"></a>
-	<a href="https://mp.weixin.qq.com/s/VthCUlT8oAJqKOoq5_NzSQ"><img src="https://bugstack.cn/images/system/CodeGuide-Lottery.svg"></a>
-	<a href="https://github.com/fuzhengwei/CodeGuide"><img src="https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1"></a>
-</div>
-
-<br/>  
      
 <div align="center">
     <p align="center"><b>知识星球</b>：<a href="https://t.zsxq.com/jAi2nUf">码农会锁</a> 👇</p>
