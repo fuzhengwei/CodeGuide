@@ -1153,9 +1153,9 @@ function genBarBytecode() {
 function getBarZSXQ() {
     return [
         {
-            title: "码农会锁",
+            title: "知识星球：码农会锁",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 3,
             children: [
                 "zsxq.md",
             ]
@@ -1185,7 +1185,7 @@ function getBarBook() {
         {
             title: "出版图书",
             collapsable: false,
-            sidebarDepth: 0,
+            sidebarDepth: 3,
             children: [
                 "2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
             ]
