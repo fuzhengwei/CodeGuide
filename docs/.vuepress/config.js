@@ -339,63 +339,71 @@ module.exports = {
                         ]
                     },
                     {
-                        text: '💯实战项目',
-                        items: [
-                            {
-                                text: 'IM Netty 仿PC端微信',
-                                link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                            },
-                            {
-                                text: 'SpringBoot 中间件设计和开发',
-                                link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
-                            },
-                            {
-                                text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
-                            }
-                        ]
-                    },
-                    {
                         text: '部署',
                         link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
-                        text: '📚PDF',
+                        text: '🔥项目课程',
                         items: [
                             {
-                                text: '出版图书', items: [
+                                text: '🌍知识星球', items: [
                                     {
-                                        text: '《重学Java设计模式》',
-                                        link: '/md/knowledge/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
+                                        text: '码农会锁：小傅哥的私有技术朋友圈',
+                                        link: '/md/project/group/zsxq.md'
                                     }
                                 ]
                             },
                             {
-                                text: '电子书籍', items: [
+                                text: '💯实战项目', items: [
+                                    {
+                                        text: 'IM Netty 仿PC端微信',
+                                        link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                                    },
+                                    {
+                                        text: 'SpringBoot 中间件设计和开发',
+                                        link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
+                                    },
+                                    {
+                                        text: 'Lottery 分布式抽奖系统',
+                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '©️出版图书', items: [
+                                    {
+                                        text: '《重学Java设计模式》',
+                                        link: '/md/project/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '📚PDF', items: [
                                     {
                                         text: 'Java 面经手册',
-                                        link: '/md/knowledge/pdf/2021-01-26-Java面经手册PDF下载.md'
+                                        link: '/md/project/pdf/2021-01-26-Java面经手册PDF下载.md'
                                     },
                                     {
                                         text: '手撸 Spring',
-                                        link: '/md/knowledge/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
+                                        link: '/md/project/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
                                     },
                                     {
                                         text: '重学Java设计模式',
-                                        link: '/md/knowledge/pdf/2020-07-12-重学 Java 设计模式.md'
+                                        link: '/md/project/pdf/2020-07-12-重学 Java 设计模式.md'
                                     },
                                     {
                                         text: '字节码编程',
-                                        link: '/md/knowledge/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
+                                        link: '/md/project/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
                                     },
                                     {
                                         text: 'IDEA Plugin 开发手册',
-                                        link: '/md/knowledge/pdf/2022-01-23-IDEA Plugin 开发手册.md'
+                                        link: '/md/project/pdf/2022-01-23-IDEA Plugin 开发手册.md'
                                     }
                                 ]
                             }
                         ]
                     },
+
                     {
                         text: '关于',
                         items: [
@@ -429,10 +437,12 @@ module.exports = {
                     "/md/assembly/middleware/": genBarAssembly(),
                     "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
                     "/md/netty/": genBarNetty(),
-                    "/md/knowledge/": genBarKnowledge(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
+                    "/md/project/group/": getBarZSXQ(),
+                    "/md/project/pdf/": getBarPDF(),
+                    "/md/project/book/": getBarBook(),
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
@@ -602,6 +612,7 @@ function genBarSpringDevelopMybatis() {
                 "2022-05-18-第9章：细化XML语句构建器，完善静态SQL解析.md",
                 "2022-05-26-第10章：使用策略模式，调用参数处理器.md",
                 "2022-06-02-第11章：流程解耦，封装结果集处理器.md",
+                "2022-06-10-第12章：完善ORM框架，增删改查操作.md",
             ]
         }
     ]
@@ -972,40 +983,6 @@ function genBarNetty() {
     ]
 }
 
-// knowledge
-function genBarKnowledge() {
-    return [
-        {
-            title: "介绍",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "knowledge.md",
-            ]
-        },
-        {
-            title: "我的图书",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
-            ]
-        },
-        {
-            title: "PDF",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
-                "pdf/2020-07-12-重学 Java 设计模式.md",
-                "pdf/2021-01-26-Java面经手册PDF下载.md",
-                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
-                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
-            ]
-        }
-    ]
-}
-
 function genBarBytecodeAsmJavassistByteBuddy() {
     return [
         {
@@ -1171,6 +1148,49 @@ function genBarBytecode() {
             ]
         }
     ];
+}
+
+function getBarZSXQ() {
+    return [
+        {
+            title: "码农会锁",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "zsxq.md",
+            ]
+        }
+    ]
+}
+
+function getBarPDF() {
+    return [
+        {
+            title: "PDF",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
+                "2020-07-12-重学 Java 设计模式.md",
+                "2021-01-26-Java面经手册PDF下载.md",
+                "2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "2022-01-23-IDEA Plugin 开发手册.md",
+            ]
+        }
+    ]
+}
+
+function getBarBook() {
+    return [
+        {
+            title: "出版图书",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
+            ]
+        }
+    ]
 }
 
 // project im
