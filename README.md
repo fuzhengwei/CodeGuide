@@ -257,6 +257,9 @@
 - [第7章：SQL执行器的定义和实现](https://bugstack.cn/md/spring/develop-mybatis/2022-04-28-%E7%AC%AC7%E7%AB%A0%EF%BC%9ASQL%E6%89%A7%E8%A1%8C%E5%99%A8%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E5%AE%9E%E7%8E%B0.html)
 - [第8章：把反射用到出神入化](https://bugstack.cn/md/spring/develop-mybatis/2022-05-03-%E7%AC%AC8%E7%AB%A0%EF%BC%9A%E6%8A%8A%E5%8F%8D%E5%B0%84%E7%94%A8%E5%88%B0%E5%87%BA%E7%A5%9E%E5%85%A5%E5%8C%96.html)
 - [第9章：细化XML语句构建器，完善静态SQL解析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-18-%E7%AC%AC9%E7%AB%A0%EF%BC%9A%E7%BB%86%E5%8C%96XML%E8%AF%AD%E5%8F%A5%E6%9E%84%E5%BB%BA%E5%99%A8%EF%BC%8C%E5%AE%8C%E5%96%84%E9%9D%99%E6%80%81SQL%E8%A7%A3%E6%9E%90.md)
+- [第10章：使用策略模式，调用参数处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-05-26-%E7%AC%AC10%E7%AB%A0%EF%BC%9A%E4%BD%BF%E7%94%A8%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%EF%BC%8C%E8%B0%83%E7%94%A8%E5%8F%82%E6%95%B0%E5%A4%84%E7%90%86%E5%99%A8.md)
+- [第11章：流程解耦，封装结果集处理器](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-02-%E7%AC%AC11%E7%AB%A0%EF%BC%9A%E6%B5%81%E7%A8%8B%E8%A7%A3%E8%80%A6%EF%BC%8C%E5%B0%81%E8%A3%85%E7%BB%93%E6%9E%9C%E9%9B%86%E5%A4%84%E7%90%86%E5%99%A8.md)
+- [第12章：完善ORM框架，增删改查操作](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-10-%E7%AC%AC12%E7%AB%A0%EF%BC%9A%E5%AE%8C%E5%96%84ORM%E6%A1%86%E6%9E%B6%EF%BC%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5%E6%93%8D%E4%BD%9C.md)
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 

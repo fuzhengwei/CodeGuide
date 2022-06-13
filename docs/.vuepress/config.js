@@ -1170,10 +1170,10 @@ function getBarPDF() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
-                "2020-07-12-重学 Java 设计模式.md",
                 "2021-01-26-Java面经手册PDF下载.md",
                 "2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "2020-07-12-重学 Java 设计模式.md",
+                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
                 "2022-01-23-IDEA Plugin 开发手册.md",
             ]
         }
