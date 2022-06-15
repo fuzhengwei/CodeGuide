@@ -158,6 +158,13 @@ public class BeanDefinition {
 
     private boolean prototype = false;
     
+    //在xml注册Bean定义时，通过scope字段来判断是单例还是原型
+    public void setScope(String scope) {
+        this.scope = scope;
+        this.singleton = SCOPE_SINGLETON.equals(scope);
+        this.prototype = SCOPE_PROTOTYPE.equals(scope);
+    }
+    
     // ...get/set
 }
 ```
