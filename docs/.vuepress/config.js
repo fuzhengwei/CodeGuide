@@ -597,22 +597,51 @@ function genBarOther() {
 function genBarSpringDevelopMybatis() {
     return [
         {
-            title: "《手撸 Mybatis》",
+            title: "介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md",
+            ]
+        },
+        {
+            title: "第 1 部分 - 基础框架",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-03-27-第2章：创建简单的映射器代理工厂.md",
                 "2022-04-04-第3章：实现映射器的注册和使用.md",
                 "2022-04-09-第4章：XML的解析和注册使用.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 模块服务",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-04-17-第5章：数据源的解析、创建和使用.md",
                 "2022-04-23-第6章：数据源池化技术实现.md",
                 "2022-04-28-第7章：SQL执行器的定义和实现.md",
                 "2022-05-03-第8章：把反射用到出神入化.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - 串联流程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-05-18-第9章：细化XML语句构建器，完善静态SQL解析.md",
                 "2022-05-26-第10章：使用策略模式，调用参数处理器.md",
                 "2022-06-02-第11章：流程解耦，封装结果集处理器.md",
                 "2022-06-10-第12章：完善ORM框架，增删改查操作.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 扩展功能",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-06-14-第13章：通过注解配置执行SQL语句.md",
             ]
         }
     ]
@@ -622,11 +651,18 @@ function genBarSpringDevelopMybatis() {
 function genBarSpringDevelopSpring() {
     return [
         {
-            title: "容器篇：IOC",
+            title: "介绍",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md",
+            ]
+        },
+        {
+            title: "容器篇：IOC",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2021-05-20-第2章：小试牛刀，实现一个简单的Bean容器.md",
                 "2021-05-23-第3章：初显身手，运用设计模式，实现 Bean 的定义、注册、获取.md",
                 "2021-05-30-第4章：崭露头角，基于Cglib实现含构造函数的类实例化策略.md",
