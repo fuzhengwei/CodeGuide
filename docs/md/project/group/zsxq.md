@@ -18,6 +18,7 @@ lock: need
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/about/about-220605-06.png?raw=true" width="750px">
+    <br/>
     <div style="font-size: 9px;">公众号【bugstack虫洞栈】 回复【星球】可获得优惠券</div>
     <br/>
 </div>
@@ -62,11 +63,11 @@ lock: need
 
 ### 1. 星球项目
 
-- [x] **《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》**- 以贯穿整个互联网所需的分布式技术栈，基于DDD领域驱动设计的四层架构与设计模式逻辑的实践项目，非常适合手里没有大项目的读者进行学习。
-- [x] **《Netty+JavaFx实战：仿桌面版微信聊天》**- `JavaFx`、`Netty4.x`、`SpringBoot`、`Mysql` 等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。
-- [x] **《手写Mybatis：渐进式源码实践》** - 进行中
-- [ ] **《Netty 网关》** - 筹备中，即将开始 💐
-- [ ] **《BPMN + Groovy脚本语言，低代码平台》** - 计划中
+- ✔️ **《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》**- 以贯穿整个互联网所需的分布式技术栈，基于DDD领域驱动设计的四层架构与设计模式逻辑的实践项目，非常适合手里没有大项目的读者进行学习。
+- ✔️ **《Netty+JavaFx实战：仿桌面版微信聊天》**- `JavaFx`、`Netty4.x`、`SpringBoot`、`Mysql` 等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信聊天工程实现通信核心功能。
+- ✔️ **《手写Mybatis：渐进式源码实践》** - 进行中
+- **《Netty 网关》** - 筹备中，即将开始 💐
+- **《BPMN + Groovy脚本语言，低代码平台》** - 计划中
 
 ### 2. 原创书籍
 
@@ -98,20 +99,36 @@ lock: need
 
 #### 3.1 简历优化
 
-![给星球用户批阅简历，提高投递通过率](https://bugstack.cn/images/article/about/about-220605-02.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-02.png?raw=true" width="750px">
+    <br/>
+    <div style="font-size: 9px;">给星球用户批阅简历，提高投递通过率</div>
+    <br/>
+</div>
 
 #### 3.2 方案设计
 
-![针对星球用户，提出的问题，基于架构/系统/流程设计方案](https://bugstack.cn/images/article/about/about-220605-03.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-03.png?raw=true" width="750px">
+    <br/>
+    <div style="font-size: 9px;">针对星球用户，提出的问题，基于架构/系统/流程设计方案</div>
+    <br/>
+</div>
 
 - 这些复杂业务场景的问题，绝不是八股文就能搞定的，甚至有些都是多年业务和技术方面的经验积累，以及做过相关项目，才能给出的设计。
 - 关于系统的方案设计，各个VIP用户都可以提出以及给予自己对此类场景的一个回答，同时小傅哥也绝对会在周末等大块时间下，来处理这些方案设计问题。*对我来说，这个事情，很刺激，我喜欢！*
 
 #### 3.3 问题回答
 
-![](https://bugstack.cn/images/article/about/about-220605-04-1.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-04-1.png?raw=true" width="750px">
+</div>
 
-![](https://bugstack.cn/images/article/about/about-220605-04-2.png)
+<br/>
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-04-2.png?raw=true" width="750px">
+</div>
 
 - 这只是星球中一个问题的回答，这样的一个问题所回答的设计，有时候要编写上千字来说明。*是不是感觉一个月问一个问题，就赚了！*
 - 而星球中这样的单独提问，小傅哥回答了300来个，而星球中还有很多日常的作业检查、技术讨论、八股题库、小册课程、资料分享等各项标签下的内容。*不割韭菜，让每一个加入的用户，都感到值得！*
@@ -139,7 +156,12 @@ lock: need
 
 其实最开始我也没想到，在付费建设星球的VIP专属群后，群内的伙伴80%以上的聊天内容都是以技术为主，扯淡的少了，技术交流的多了。付费后有了门槛，整个技术分为也提升了不少了。所以不少伙伴，只加入星球VIP群，其他的群就退了！
 
-![星球读者周末肝星球项目](https://bugstack.cn/images/article/about/about-220605-05-04.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-05-04.png?raw=true" width="750px">
+    <br/>
+    <div style="font-size: 9px;">星球读者周末肝星球项目</div>
+    <br/>
+</div>
 
 - 加入星球后，可以在星球的置顶消息中，阅读需知。这样就可以引导加入专属的VIP读者群了。
 
@@ -154,7 +176,7 @@ lock: need
 
 **综上**，如果你想多赚一些钱，也希望自己的职业生涯长久一些，有一定的硬核技术积累，在往后的职场中更稳一些，那么可以加入小傅哥的星球。这些足够硬核的内容，可以帮助你更加平稳的度过往后的路，企业不会永远一帆风顺，但只要你手里技术硬，就会相对平稳。
 
-## 五、活动：专属奖品
+## 五、活动：专属奖品【定期活动】
 
 为回馈星球粉丝读者的支持，值此星球运营1年之际，组织一波专属活动。🌺 非常感谢大家的支持！【仅限公众号内参与】
 
