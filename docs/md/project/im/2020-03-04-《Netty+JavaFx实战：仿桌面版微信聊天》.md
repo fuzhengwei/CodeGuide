@@ -7,6 +7,7 @@ excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>项目：[https://articles.zsxq.com/id_uwf9xgmjczg3.html](https://articles.zsxq.com/id_uwf9xgmjczg3.html) - `加入知识星球可以获得多套学习项目`
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
