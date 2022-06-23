@@ -642,6 +642,7 @@ function genBarSpringDevelopMybatis() {
             sidebarDepth: 0,
             children: [
                 "2022-06-14-第13章：通过注解配置执行SQL语句.md",
+                "2022-06-21-第14章：解析和使用ResultMap映射参数配置.md",
             ]
         }
     ]
@@ -1494,6 +1495,7 @@ function genBarAbout() {
                 "study/2021-09-09-2021版，开发者学习路线图分享.md",
                 "study/2022-02-07-你上车，我就把你带成卷王！.md",
                 "study/2022-06-16-敲了几万行源码后，我给Mybatis画了张“全地图”.md",
+                "study/2022-06-19-OnJava.md",
             ]
         },
         {
