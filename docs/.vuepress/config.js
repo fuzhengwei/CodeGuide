@@ -735,7 +735,8 @@ function genBarSpringSourceCode() {
                 "2020-01-01-[源码解析]Spring定时任务Quartz执行全过程源码解读.md",
                 "2020-01-08-[源码分析]像盗墓一样分析Spring是怎么初始化xml并注册bean的.md",
                 "2020-01-13-[源码分析]基于jdbc实现一个Demo版的Mybatis.md",
-                "2020-01-20-[源码分析]手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用.md"
+                "2020-01-20-[源码分析]手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用.md",
+                "2022-06-24-为什么insert配置SELECT LAST_INSERT_ID()返回个0呢.md",
             ]
         }
     ]
