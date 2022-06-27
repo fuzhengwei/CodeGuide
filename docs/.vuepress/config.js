@@ -643,6 +643,7 @@ function genBarSpringDevelopMybatis() {
             children: [
                 "2022-06-14-第13章：通过注解配置执行SQL语句.md",
                 "2022-06-21-第14章：解析和使用ResultMap映射参数配置.md",
+                "2022-06-25-第15章：返回Insert操作自增索引值.md",
             ]
         }
     ]
