@@ -277,7 +277,7 @@
 
     - [【难度★★★☆☆】第13章：通过注解配置执行SQL语句](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
     - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
-    - [ ] 第15章：Insert 返回自增索引
+    - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-25-%E7%AC%AC15%E7%AB%A0%EF%BC%9A%E8%BF%94%E5%9B%9EInsert%E6%93%8D%E4%BD%9C%E8%87%AA%E5%A2%9E%E7%B4%A2%E5%BC%95%E5%80%BC.md)
     - [ ] 第16章：动态SQL解析
     - [ ] 第17章：Plugin 插件扩展
     - [ ] 第18章：缓存数据
@@ -310,6 +310,7 @@
 
 - [基于jdbc实现一个Demo版的Mybatis用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2020-01-13-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%9F%BA%E4%BA%8Ejdbc%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AADemo%E7%89%88%E7%9A%84Mybatis.md)
 - [手写mybait-spring核心功能，干货好文一次学会工厂bean、类代理、bean注册的使用](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2020-01-20-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E6%89%8B%E5%86%99mybait-spring%E6%A0%B8%E5%BF%83%E5%8A%9F%E8%83%BD%EF%BC%8C%E5%B9%B2%E8%B4%A7%E5%A5%BD%E6%96%87%E4%B8%80%E6%AC%A1%E5%AD%A6%E4%BC%9A%E5%B7%A5%E5%8E%82bean%E3%80%81%E7%B1%BB%E4%BB%A3%E7%90%86%E3%80%81bean%E6%B3%A8%E5%86%8C%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+- [为什么 insert 配置 "SELECT LAST_INSERT_ID()" 返回个0呢？](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/source-code/2022-06-24-%E4%B8%BA%E4%BB%80%E4%B9%88insert%E9%85%8D%E7%BD%AESELECT%20LAST_INSERT_ID()%E8%BF%94%E5%9B%9E%E4%B8%AA0%E5%91%A2.md)
 
 </details>
 
