@@ -278,7 +278,7 @@
     - [【难度★★★☆☆】第13章：通过注解配置执行SQL语句](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
     - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
     - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-25-%E7%AC%AC15%E7%AB%A0%EF%BC%9A%E8%BF%94%E5%9B%9EInsert%E6%93%8D%E4%BD%9C%E8%87%AA%E5%A2%9E%E7%B4%A2%E5%BC%95%E5%80%BC.md)
-    - [ ] 第16章：动态SQL解析
+    - [【难度★★☆☆☆】第16章：解析含标签的动态SQL语句](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-28-%E7%AC%AC16%E7%AB%A0%EF%BC%9A%E8%A7%A3%E6%9E%90%E5%90%AB%E6%A0%87%E7%AD%BE%E7%9A%84%E5%8A%A8%E6%80%81SQL%E8%AF%AD%E5%8F%A5.md)
     - [ ] 第17章：Plugin 插件扩展
     - [ ] 第18章：缓存数据
 
