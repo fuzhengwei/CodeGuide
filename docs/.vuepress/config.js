@@ -645,6 +645,7 @@ function genBarSpringDevelopMybatis() {
                 "2022-06-21-第14章：解析和使用ResultMap映射参数配置.md",
                 "2022-06-25-第15章：返回Insert操作自增索引值.md",
                 "2022-06-28-第16章：解析含标签的动态SQL语句.md",
+                "2022-07-01-第17章：Plugin插件功能实现.md",
             ]
         }
     ]
