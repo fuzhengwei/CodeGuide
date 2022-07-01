@@ -428,7 +428,7 @@ private final boolean parkAndCheckInterrupt() {
 }    
 ```
 
-- 当方法 `shouldParkAfterFailedAcquire` 返回 false 时，则执行 parkAndCheckInterrupt() 方法。
+- 当方法 `shouldParkAfterFailedAcquire` 返回 false 时，代表同步器改变了前驱节点的状态为 `SIGNAL`，在下一次循环中， `shouldParkAfterFailedAcquire` 返回 true，再执行 parkAndCheckInterrupt() 方法。
 - 那么，这一段代码就是对线程的挂起操作，`LockSupport.park(this);`。
 - `Thread.interrupted()` 检查当前线程的中断标识。
 
