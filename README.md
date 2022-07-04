@@ -279,7 +279,7 @@
     - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
     - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-25-%E7%AC%AC15%E7%AB%A0%EF%BC%9A%E8%BF%94%E5%9B%9EInsert%E6%93%8D%E4%BD%9C%E8%87%AA%E5%A2%9E%E7%B4%A2%E5%BC%95%E5%80%BC.md)
     - [【难度★★☆☆☆】第16章：解析含标签的动态SQL语句](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-28-%E7%AC%AC16%E7%AB%A0%EF%BC%9A%E8%A7%A3%E6%9E%90%E5%90%AB%E6%A0%87%E7%AD%BE%E7%9A%84%E5%8A%A8%E6%80%81SQL%E8%AF%AD%E5%8F%A5.md)
-    - [ ] 第17章：Plugin 插件扩展
+    - [ ] 第17章：Plugin插件功能实现
     - [ ] 第18章：缓存数据
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
