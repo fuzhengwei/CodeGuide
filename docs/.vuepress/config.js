@@ -637,7 +637,7 @@ function genBarSpringDevelopMybatis() {
             ]
         },
         {
-            title: "第 4 部分 - 扩展功能",
+            title: "第 4 部分 - 完善实现",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -646,6 +646,7 @@ function genBarSpringDevelopMybatis() {
                 "2022-06-25-第15章：返回Insert操作自增索引值.md",
                 "2022-06-28-第16章：解析含标签的动态SQL语句.md",
                 "2022-07-01-第17章：Plugin插件功能实现.md",
+                "2022-07-04-第18章：一级缓存.md",
             ]
         }
     ]
