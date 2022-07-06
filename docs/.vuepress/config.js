@@ -648,6 +648,7 @@ function genBarSpringDevelopMybatis() {
                 "2022-07-01-第17章：Plugin插件功能实现.md",
                 "2022-07-04-第18章：一级缓存.md",
                 "2022-07-05-第19章：二级缓存.md",
+                "2022-07-06-第20章：整合Spring.md",
             ]
         }
     ]
