@@ -657,6 +657,7 @@ function genBarSpringDevelopMybatis() {
             sidebarDepth: 0,
             children: [
                 "2022-07-07-第21章：完结.md",
+                "2022-07-15-第22章：Mybatis设计模式.md",
             ]
         }
     ]
