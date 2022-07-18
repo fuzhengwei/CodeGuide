@@ -275,12 +275,19 @@
 
 - 第 4 部分 -  扩展功能
 
-    - [【难度★★★☆☆】第13章：通过注解配置执行SQL语句](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
-    - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://bugstack.cn/md/spring/develop-mybatis/2022-06-14-%E7%AC%AC13%E7%AB%A0%EF%BC%9A%E9%80%9A%E8%BF%87%E6%B3%A8%E8%A7%A3%E9%85%8D%E7%BD%AE%E6%89%A7%E8%A1%8CSQL%E8%AF%AD%E5%8F%A5.html)
-    - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-25-%E7%AC%AC15%E7%AB%A0%EF%BC%9A%E8%BF%94%E5%9B%9EInsert%E6%93%8D%E4%BD%9C%E8%87%AA%E5%A2%9E%E7%B4%A2%E5%BC%95%E5%80%BC.md)
-    - [【难度★★☆☆☆】第16章：解析含标签的动态SQL语句](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-06-28-%E7%AC%AC16%E7%AB%A0%EF%BC%9A%E8%A7%A3%E6%9E%90%E5%90%AB%E6%A0%87%E7%AD%BE%E7%9A%84%E5%8A%A8%E6%80%81SQL%E8%AF%AD%E5%8F%A5.md)
-    - [ ] 第17章：Plugin插件功能实现
-    - [ ] 第18章：缓存数据
+    - [【难度★★★☆☆】第13章：通过注解配置执行SQL语句](https://articles.zsxq.com/id_cushlx5xx5wj.html)
+    - [【难度★★★☆☆】第14章：解析和使用ResultMap映射参数配置](https://articles.zsxq.com/id_lszxhhridkrl.html)
+    - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://articles.zsxq.com/id_gwfa0x8nciwn.html)
+    - [【难度★★★☆☆】第16章：解析含标签的动态SQL语句](https://articles.zsxq.com/id_1rzspttev8ls.html) 
+    - [【难度★★★★☆】第17章：Plugin 插件扩展](https://articles.zsxq.com/id_k7havmcaefdk.html)
+    - [x] 第18章：一级缓存
+    - [x] 第19章：二级缓存
+    - [x] 第20章：整合Spring
+    
+- 终章
+
+    - [【番外】第21章：小册完结，一次源码深度学习旅行！](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-07-06-%E7%AC%AC20%E7%AB%A0%EF%BC%9A%E6%95%B4%E5%90%88Spring.md)
+    - [【番外】第22章：Mybatis 框架源码10种设计模式分析](https://github.com/fuzhengwei/CodeGuide/blob/master/docs/md/spring/develop-mybatis/2022-07-15-%E7%AC%AC22%E7%AB%A0%EF%BC%9AMybatis%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
 
 ### 3.2 Spring Cloud - 👉[**在线阅读**](https://bugstack.cn/md/spring/spring-cloud/2019-10-31-Spring%20Cloud%E9%9B%B6%E3%80%8A%E6%80%BB%E6%9C%89%E4%B8%80%E5%81%8F%E6%A6%82%E8%BF%B0%E5%91%8A%E8%AF%89%E4%BD%A0SpringCloud%E6%98%AF%E4%BB%80%E4%B9%88%E3%80%8B.html)
 
