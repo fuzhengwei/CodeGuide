@@ -185,6 +185,19 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
+                        text: '算法',
+                        items: [
+                            {
+                                text: '数据结构',
+                                link: '/md/algorithm/data-structures/2022-07-22-linked-list.md'
+                            },
+                            {
+                                text: '算法主题',
+                                link: '/md/algorithm/logic/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md'
+                            }
+                        ]
+                    },
+                    {
                         text: 'Java',
                         items: [
                             {
@@ -426,6 +439,8 @@ module.exports = {
                 ],
                 sidebar: {
                     "/md/other/": genBarOther(),
+                    "/md/algorithm/data-structures/": genAlgorithmDataStructures(),
+                    "/md/algorithm/logic/": genAlgorithmLogic(),
                     "/md/java/interview/": genBarJavaInterview(),
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
@@ -455,6 +470,35 @@ module.exports = {
         }
     }
 };
+
+// algorithm/data-structures
+function genAlgorithmDataStructures() {
+    return [
+        {
+            title: "数据结构",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-07-22-linked-list.md",
+            ]
+        }
+    ]
+}
+
+// algorithm/logic
+function genAlgorithmLogic() {
+    return [
+        {
+            title: "算法主题",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
+                "2020-03-18-无重复字符的最长子串.md",
+            ]
+        }
+    ]
+}
 
 // java-interview
 function genBarJavaInterview() {
