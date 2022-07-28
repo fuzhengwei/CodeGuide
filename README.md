@@ -280,7 +280,7 @@
     - [【难度★★★☆☆】第15章：返回Insert操作自增索引值](https://articles.zsxq.com/id_gwfa0x8nciwn.html)
     - [【难度★★★☆☆】第16章：解析含标签的动态SQL语句](https://articles.zsxq.com/id_1rzspttev8ls.html) 
     - [【难度★★★★☆】第17章：Plugin 插件扩展](https://articles.zsxq.com/id_k7havmcaefdk.html)
-    - [x] 第18章：一级缓存
+    - [【难度★★★★☆】第18章：一级缓存](https://articles.zsxq.com/id_8d0o471we1ig.html)
     - [x] 第19章：二级缓存
     - [x] 第20章：整合Spring
     
