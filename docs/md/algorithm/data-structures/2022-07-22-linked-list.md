@@ -6,7 +6,7 @@ lock: need
 # 《Java 算法与数据结构》第1章：链表
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/algorithm//algorithms-220723-00.png?raw=true">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220723-00.png?raw=true">
     <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
 </div>
 
@@ -27,7 +27,7 @@ lock: need
 
 在计算机科学中，链表是数据元素的线性集合，元素的线性顺序不是由它们在内存中的物理地址给出的。它是由一组节点组成的数据结构，每个元素指向下一个元素，这些节点一起，表示线性序列。
 
-![](https://bugstack.cn/images/article/algorithm//algorithms-220723-01.png)
+![](https://bugstack.cn/images/article/algorithm/algorithms-220723-01.png)
 
 在最简单的链表结构下，每个节点由数据和指针（存放指向下一个节点的指针）两部分组成，这种数据结构允许在迭代时有效地从序列中的任何位置插入或删除元素。
 
@@ -41,19 +41,19 @@ lock: need
 
 单链表包含具有数据字段的节点以及指向节点行中的下一个节点的“下一个”字段。可以对单链表执行的操作包括插入、删除和遍历。
 
-![一个单链表，其节点包含两个字段：一个节点值和一个到一个节点的链接](https://bugstack.cn/images/article/algorithm//algorithms-220723-02.png)
+![一个单链表，其节点包含两个字段：一个节点值和一个到一个节点的链接](https://bugstack.cn/images/article/algorithm/algorithms-220723-02.png)
 
 ### 2. 双向链表
 
 在“双向链表”中，除了下一个节点链接之外，每个节点还包含指向序列中“前一个”节点的第二个链接字段。这两个链接可以称为'forward（'s'）和'backwards'，或'next'和'prev'（'previous'）。
 
-![一个双向链表，其节点包含三个字段：一个节点值、前向链接到下一个节点，以及后向链接到前一个节点](https://bugstack.cn/images/article/algorithm//algorithms-220723-03.png)
+![一个双向链表，其节点包含三个字段：一个节点值、前向链接到下一个节点，以及后向链接到前一个节点](https://bugstack.cn/images/article/algorithm/algorithms-220723-03.png)
 
 ### 3. 循环链表
 
 在列表的最后一个节点中，链接字段通常包含一个空引用，一个特殊的值用于指示缺少进一步的节点。一个不太常见的约定是让它指向列表的第一个节点。在这种情况下，列表被称为“循环”或“循环链接”；否则，它被称为“开放”或“线性”。它是一个列表，其中最后一个指针指向第一个节点。
 
-![在单向链表的基础上，连接收尾节点](https://bugstack.cn/images/article/algorithm//algorithms-220723-04.png)
+![在单向链表的基础上，连接收尾节点](https://bugstack.cn/images/article/algorithm/algorithms-220723-04.png)
 
 ## 四、实现一个链表
 
@@ -62,7 +62,7 @@ lock: need
 所以我们在学习的过程中，以使用 Java 程序员本身常用的语言来分析学习，并通过简化结构的方式把 LinkedList 手写实现，让读者更能方便的理解链表。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms) - `Java 算法与数据结构`
-- 源码详见：[https://github.com/fuzhengwei/java-algorithms/data-structures/LinkedList.java](https://github.com/fuzhengwei/java-algorithms/data-structures/LinkedList.java)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/linked/LinkedList.java](https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/linked/LinkedList.java)
 
 ### 1. 链表节点
 
@@ -98,7 +98,7 @@ void linkFirst(E e) {
 }
 ```
 
-![头插节点](https://bugstack.cn/images/article/algorithm//algorithms-220723-05.png)
+![头插节点](https://bugstack.cn/images/article/algorithm/algorithms-220723-05.png)
 
 - 头插的操作流程，先把头节点记录下来。之后创建一个新的节点，新的节点构造函数的头节点入参为null，通过这样的方式构建出一个新的头节点。
 - 原来的头结点，设置 f.prev 连接到新的头节点，这样的就可以完成头插的操作了。另外如果原来就没有头节点，设置设置为新的节点即可。最后记录当前链表中节点的数量，也就是你使用 LinkedList 获取 size 时候就是从这个值获取的。
@@ -119,7 +119,7 @@ void linkLast(E e) {
 }
 ```
 
-![尾差节点](https://bugstack.cn/images/article/algorithm//algorithms-220723-06.png)
+![尾差节点](https://bugstack.cn/images/article/algorithm/algorithms-220723-06.png)
 
 - 尾差节点与头插节点正好相反，通过记录当前的结尾节点，创建新的节点，并把当前的结尾节点，通过 l.next 关联到新创建的节点上。同时记录 size 节点数量值。
 
@@ -148,7 +148,7 @@ E unlink(Node<E> x) {
 }
 ```
 
-![拆链操作](https://bugstack.cn/images/article/algorithm//algorithms-220723-07.png)
+![拆链操作](https://bugstack.cn/images/article/algorithm/algorithms-220723-07.png)
 
 - unlink 是一种拆链操作，只要你给定一个元素，它就可以把当前这个元素的上一个节点和一个节点进行相连，之后把自己拆除。
 - 这个方法常用于 remove 移除元素操作，因为整个操作过程不需要遍历，拆除元素后也不需要复制新的空间，所以时间复杂读为 O(1)
@@ -176,7 +176,7 @@ public boolean remove(Object o) {
 }
 ```
 
-![删除元素](https://bugstack.cn/images/article/algorithm//algorithms-220723-08.png)
+![删除元素](https://bugstack.cn/images/article/algorithm/algorithms-220723-08.png)
 
 - 删除元素的过程需要 for 循环判断比删除元素的值，找到对应的元素，进行删除。
 - 循环比对的过程是一个 O(n) 的操作，删除的过程是一个 O(1) 的操作。所以如果这个链表较大，删除的元素又都是贴近结尾，那么这个循环比对的过程也是比较耗时的。
