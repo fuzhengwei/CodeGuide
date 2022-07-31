@@ -281,7 +281,7 @@
     - [【难度★★★☆☆】第16章：解析含标签的动态SQL语句](https://articles.zsxq.com/id_1rzspttev8ls.html) 
     - [【难度★★★★☆】第17章：Plugin 插件扩展](https://articles.zsxq.com/id_k7havmcaefdk.html)
     - [【难度★★★★☆】第18章：一级缓存](https://articles.zsxq.com/id_8d0o471we1ig.html)
-    - [x] 第19章：二级缓存
+    - [【难度★★★★☆】第19章：二级缓存](https://articles.zsxq.com/id_gviwjzv5h4wp.html) 
     - [x] 第20章：整合Spring
     
 - 终章
