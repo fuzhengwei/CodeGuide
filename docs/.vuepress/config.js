@@ -954,7 +954,15 @@ function genBarDevelopStandard() {
 function genBarAssembly() {
     return [
         {
-            title: "SpringBoot 中间件开发",
+            title: "中间件小册介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md",
+            ]
+        },
+        {
+            title: "第 0 部分 - 尝鲜",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -963,8 +971,70 @@ function genBarAssembly() {
                 "2019-12-08-开发基于SpringBoot的分布式任务中间件DcsSchedule.md",
                 "2021-08-19-基于Hash散列，数据库路由组件设计.md"
             ]
+        },
+        {
+            title: "第 1 部分 - 开篇",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 1 章 什么是中间件.md",
+                "第 2 章 【重要】小册学习介绍&源码授权.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 服务治理",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 3 章 服务治理，统一白名单控制.md",
+                "第 4 章 服务治理，超时熔断.md",
+                "第 5 章 服务治理，调用限流.md",
+                "第 6 章 服务治理，自定义拦截方法.md",
+            ]
+        },
+        {
+            title: "第 3 部分 - ORM 框架",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 7 章 ORM 框架实现.md",
+                "第 8 章 ORM 框架与 Spring 集合.md",
+                "第 9 章 结合 SpringBoot 开发 ORM Starter.md",
+                "第 10 章 ES-JDBC 查询引擎.md",
+                "第 11 章 ES SpringBoot Starter 服务框架.md",
+            ]
+        },
+        {
+            title: "第 4 部分 - 分布式组件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 12 章 RPC 框架实现.md",
+                "第 13 章 数据库路由组件.md",
+                "第 14 章 Redis 简化使用封装.md",
+                "第 15 章 分布式任务调度.md",
+            ]
+        },
+        {
+            title: "第 5 部分 - 字节码应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 16 章 非入侵监控设计，ASM 字节码插桩.md",
+                "第 17 章 非入侵监控设计，JVMTI 定位代码.md",
+                "第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息.md",
+            ]
+        },
+        {
+            title: "第 6 部分",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第 19 章 后记.md",
+            ]
         }
     ]
+
 }
 
 // Assembly idea-plugin
