@@ -282,7 +282,7 @@
     - [【难度★★★★☆】第17章：Plugin 插件扩展](https://articles.zsxq.com/id_k7havmcaefdk.html)
     - [【难度★★★★☆】第18章：一级缓存](https://articles.zsxq.com/id_8d0o471we1ig.html)
     - [【难度★★★★☆】第19章：二级缓存](https://articles.zsxq.com/id_gviwjzv5h4wp.html) 
-    - [x] 第20章：整合Spring
+    - [【难度★★★★☆】第20章：【作业】整合Spring](https://articles.zsxq.com/id_2pwtkmjixi73.html)
     
 - 终章
 
