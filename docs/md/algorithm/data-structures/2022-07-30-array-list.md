@@ -3,7 +3,7 @@ title: 第2章：数组
 lock: need
 ---
 
-# 《Java 算法与数据结构》第2章：数组
+# 《Java 数据结构和算法》第2章：数组
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

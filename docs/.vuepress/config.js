@@ -481,6 +481,7 @@ function genAlgorithmDataStructures() {
             children: [
                 "2022-07-22-linked-list.md",
                 "2022-07-30-array-list.md",
+                "2022-08-06-queue.md",
             ]
         }
     ]

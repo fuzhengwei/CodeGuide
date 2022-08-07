@@ -3,7 +3,7 @@ title: 第1章：链表
 lock: need
 ---
 
-# 《Java 算法与数据结构》第1章：链表
+# 《Java 数据结构和算法》第1章：链表
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/algorithm/algorithms-220723-00.png?raw=true">
