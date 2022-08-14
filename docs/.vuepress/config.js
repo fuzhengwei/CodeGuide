@@ -454,6 +454,7 @@ module.exports = {
                     "/md/devops/": genBarDevOPS(),
                     "/md/assembly/middleware/": genBarAssembly(),
                     "/md/assembly/idea-plugin/": genBarAssemblyIDEAPlugin(),
+                    "/md/assembly/api-gateway/": genApiGateway(),
                     "/md/netty/": genBarNetty(),
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
@@ -1079,6 +1080,28 @@ function genBarAssemblyIDEAPlugin() {
                 "2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md",
                 "2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md",
                 "2022-01-22-《IntelliJ IDEA 插件开发》第9节：加载文件生成链表单词树，输入属性时英文校准提醒.md",
+            ]
+        }
+    ];
+}
+
+// api-gateway
+function genApiGateway() {
+    return [
+        {
+            title: "API网关小册介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-08-12-开篇：如果让我设计一套，百万级API网关.md",
+            ]
+        },
+        {
+            title: "第 1 部分 - 通信",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-08-13-第1章：HTTP请求会话协议处理.md",
             ]
         }
     ];
