@@ -293,6 +293,10 @@ module.exports = {
                             {
                                 text: 'IDEA-Plugin',
                                 link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
+                            },
+                            {
+                                text: 'API网关：中间件设计和实践',
+                                link: '/md/assembly/api-gateway/2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md'
                             }
                         ]
                     },
