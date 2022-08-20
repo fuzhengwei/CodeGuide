@@ -37,7 +37,7 @@ Java AIO，全程 Asynchronous IO，是异步非阻塞的IO。是一种非阻塞
 
 ## 开发环境
 1. jdk1.8【jdk1.7及以上，AIO需要1.7】
-2. NetAssist 网络调试助手[获取：关注公众号：bugstack虫洞栈 | 回复；NetAssist+邮箱]
+2. NetAssist 网络调试助手 获取：关注公众号【bugstack虫洞栈】回复【NetAssist】
 
 ## 代码示例
 ```java
