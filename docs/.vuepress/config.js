@@ -1106,6 +1106,7 @@ function genApiGateway() {
             sidebarDepth: 0,
             children: [
                 "2022-08-13-第1章：HTTP请求会话协议处理.md",
+                "2022-08-20-第2章：代理RPC泛化调用.md",
             ]
         }
     ];
