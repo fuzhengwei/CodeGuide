@@ -73,7 +73,7 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
 
 ## 四、PDF📚下载
 
-**版权说明**：`作者：小傅哥`的原创PDF书籍[《IDEA Plugin 开发手册》](#)，已发布知识星球(`码农会锁`)和CSDN下载平台，享受版权保护，感谢支持和理解。
+**版权说明**：`作者：小傅哥`的原创PDF书籍[《IDEA Plugin 开发手册》](https://t.zsxq.com/ufmQnA2)，已发布知识星球(`码农会锁`)和CSDN下载平台，享受版权保护，感谢支持和理解。
 
 ### 1. 可获得内容包括
 
@@ -94,6 +94,6 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | ![](https://bugstack.cn/images/article/knowledge/knowledge-220123-05.png) | ![](https://bugstack.cn/images/article/knowledge/knowledge-220123-06.png) | ![](https://bugstack.cn/images/article/knowledge/knowledge-220123-07.png) | ![](https://bugstack.cn/images/article/knowledge/knowledge-220123-08.png) |
 
-这是过年前的最后一本 PDF 收尾之作的发布了，这一年在内容输出上包括了：[`《SpringBoot 中间件的设计和开发》`](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)、[`《重学Java设计模式》`出版图书](https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg)、[`《手撸 Spring》`](https://mp.weixin.qq.com/s/kYio8zIG5UL-To3SV-uRmA)、[`《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》`](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[`《IDEA Plugin 开发手册》`](https://download.csdn.net/download/Yao__Shun__Yu/77484299)，哈哈哈，是不是就挺肝的！当一个原创做作者有了粉丝的正向反馈、有了平台的扶持、有了一些收益，就可以非常好的在喜欢的领域上不断的耕作。
+这是过年前的2021年最后一本 PDF 收尾之作的发布了，这一年在内容输出上包括了：[`《SpringBoot 中间件的设计和开发》`](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)、[`《重学Java设计模式》`出版图书](https://mp.weixin.qq.com/s/g9LYQEqzOeiYOpfG_5XFYg)、[`《手撸 Spring》`](https://mp.weixin.qq.com/s/kYio8zIG5UL-To3SV-uRmA)、[`《Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践》`](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[`《IDEA Plugin 开发手册》`](https://download.csdn.net/download/Yao__Shun__Yu/77484299)，哈哈哈，是不是就挺肝的！当一个原创做作者有了粉丝的正向反馈、有了平台的扶持、有了一些收益，就可以非常好的在喜欢的领域上不断的耕作。
 
 **当看着一个个从发芽🌱到长大的内容🌲**，真的是非常的开心。这个过程也是我这一年每天能 10:45-11:00 睡觉，6:20 起床(跑步、写作)，以此保持一个良好的作息习惯，有了健康的身体、有了内容的沉淀。也希望看到的这你，在22年有一个自己的计划，能落地的计划！
