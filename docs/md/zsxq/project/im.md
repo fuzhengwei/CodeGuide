@@ -3,6 +3,8 @@ title: Netty+JavaFx实战：仿桌面版微信聊天
 lock: no
 ---
 
+# Netty+JavaFx实战：仿桌面版微信聊天
+
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
