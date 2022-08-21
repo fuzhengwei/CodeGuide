@@ -122,7 +122,11 @@ lock: need
 3. 添加专栏作者`小傅哥`微信：`fustack`，备注购买小册
    ![](https://bugstack.cn/assets/images/fustack.png)
 4. 扫描二维码购买，也可以保存下来珍藏
-   ![](https://bugstack.cn/assets/images/middleware/0-1.jpeg)
+
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/middleware/0-1.jpeg?raw=true" width="350px">
+    <div style="font-size: 12px;"><a href="https://juejin.cn/book/6940996508632219689">《SpringBoot 中间件设计和开发》</a></div>
+</div>
 
 ## 七、🎉收尾感谢
 
