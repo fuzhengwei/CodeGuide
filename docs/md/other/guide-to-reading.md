@@ -57,7 +57,12 @@ title: 目录
 - SpringBoot 中间件设计和开发：[https://juejin.cn/book/6940996508632219689](https://juejin.cn/book/6940996508632219689)
 - 🔥Lottery 抽奖系统 - DDD 分布式实践：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
 
-## 三、Java
+## 三、算法
+
+- 地址：[Java 数据结构和算法](https://bugstack.cn/md/algorithm/data-structures/2022-07-22-linked-list.html)
+- 介绍：以Java源码为基础，结合使用场景，学习数据结构和算法
+
+## 四、Java
 
 ### 1. Java 面经手册
 
@@ -80,7 +85,7 @@ title: 目录
 - 地址：[基础技术](https://bugstack.cn/md/java/core/2020-01-06-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5D%E5%92%8B%E5%98%9E%EF%BC%9F%E4%BD%A0%E7%9A%84IDEA%E8%BF%87%E6%9C%9F%E4%BA%86%E5%90%A7%EF%BC%81%E5%8A%A0%E4%B8%AAJar%E5%8C%85%E5%B0%B1%E7%A0%B4%E8%A7%A3%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%EF%BC%9F.html)
 - 介绍：讲解 JDK 新特性、JDK 和 CGLIB 反射、Byte 字节、技术扩展、常忽略的技术问题，帮研发同学更好的拉伸自己的技术栈学习。
 
-## 四、Spring
+## 五、Spring
 
 ### 1. Spring 手撸专栏
 
@@ -110,7 +115,7 @@ title: 目录
 - 地址：[源码分析](https://bugstack.cn/md/spring/source-code/2019-12-25-%5B%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90%5DMybatis%E6%8E%A5%E5%8F%A3%E6%B2%A1%E6%9C%89%E5%AE%9E%E7%8E%B0%E7%B1%BB%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E6%89%A7%E8%A1%8C%E5%A2%9E%E5%88%A0%E6%94%B9%E6%9F%A5.html)
 - 介绍：拆解、分析、实践的方式进行源码学习，包括对 Mybatis 的分析和手写，这部分内容涵盖的非常广泛，可以让你非常清楚一个 ORM 框架是如何开发的以及怎么结合到 Spring 中，同时这部分内容还包括了 Quartz 定时任务全流程的分析，可以帮助你更好的理解任务的分层处理。
 
-## 五、面向对象
+## 六、面向对象
 
 ### 1. 重学Java设计模式
 
@@ -144,7 +149,7 @@ title: 目录
 - 地址：[架构设计](https://bugstack.cn/md/develop/framework/scheme/2021-02-04-%E5%9F%BA%E4%BA%8EIDEA%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E5%92%8C%E5%AD%97%E8%8A%82%E7%A0%81%E6%8F%92%E6%A1%A9%E6%8A%80%E6%9C%AF%EF%BC%8C%E5%AE%9E%E7%8E%B0%E7%A0%94%E5%8F%91%E4%BA%A4%E4%BB%98%E8%B4%A8%E9%87%8F%E8%87%AA%E5%8A%A8%E5%88%86%E6%9E%90.html)
 - 介绍：讲解互联网大厂中一些场景的复杂场景，该如何设计和落地，包括：IDEA 插件、低代码、脚手架、DDD、中台、非入侵的全链路监控、字节码插庒等场景问题。
 
-## 六、中间件
+## 七、中间件
 
 ### 1. Spring Boot 中间件开发
 
@@ -164,17 +169,22 @@ title: 目录
 - **API**：在 IDEA 插件开发中，一般都是围绕工程进行的，那么基本要从通过 IDEA 插件 JDK 开发能力中获取到工程信息、类信息、文件信息等。
 - **外部功能**：这一个是用于把插件能力与外部系统结合，比如你是需要把拿到的接口上传到服务器，还是从远程下载文件等等。
 
-## 七、Netty 4.x
+### 3. API网关：中间件设计和实践
+
+- 地址：[API网关：中间件设计和实践](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)
+- 介绍：API网关，是所有互联网大厂都有的一个核心服务，承接着来自用户的滴滴打车、美团外卖、京东购物、微信支付，更是大促期间千万级访问量的核心系统。
+
+## 八、Netty 4.x
 
 - 地址：[Netty 4.x](https://bugstack.cn/md/netty/base/2019-07-30-netty%E6%A1%88%E4%BE%8B%EF%BC%8Cnetty4.1%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A8%E7%AF%87%E9%9B%B6%E3%80%8A%E5%88%9D%E5%85%A5JavaIO%E4%B9%8B%E9%97%A8BIO%E3%80%81NIO%E3%80%81AIO%E5%AE%9E%E6%88%98%E7%BB%83%E4%B9%A0%E3%80%8B.html)
 - 介绍：跟着案例学Netty，Netty4.x案例从简单入门到应用实战，全篇37章节优秀案例+实战源码[基础篇(13)、中级篇(13)、高级篇(3章+)、源码分析篇]，以上章节全部完成并不断持续更新中。
 
-## 八、字节码编程(ASM、Javassist、Byte-Buddy)
+## 九、字节码编程(ASM、Javassist、Byte-Buddy)
 
 - 地址：[字节码编程(ASM、Javassist、Byte-Buddy)](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
 - 介绍：但全书共计107页，11万7千字，20个章节涵盖三个字节码框架和JavaAgent使用并附带整套案例源码！讲道理，市面上以及网络搜索中都基本很少有成体系的关于字节码编程的知识，这主要由于大部分开发人员其实很少接触这部分内容，包括；ASM、Javassist、Byte-buddy以及JavaAgent，没有很大的市场也就没有很多的资料。但大家其实已经从其他的框架或者中间件中使用到，就像你用到的；Cglib、混沌工程、非入侵的全链路监控以及你是否使用过jetbrains-agent.jar做了某项实验？
 
-## 九、实战项目
+## 十、实战项目
 
 ### 1. IM Netty 仿PC端微信
 
