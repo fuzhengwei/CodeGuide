@@ -3,7 +3,7 @@ title: Lottery 分布式抽奖系统
 lock: no
 ---
 
-# Lottery 分布式抽奖系统
+# Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

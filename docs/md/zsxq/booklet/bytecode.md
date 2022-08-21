@@ -3,7 +3,7 @@ title: 字节码编程
 lock: no
 ---
 
-# 字节码编程
+# 字节码编程 | ASM、Javassist、Byte-Buddy
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
