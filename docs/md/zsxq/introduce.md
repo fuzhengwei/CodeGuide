@@ -22,13 +22,13 @@ lock: no
 **星球 APP / 小程序截图**：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/system-introduce-01.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/system/system-introduce-01.png?raw=true" width="650px">
 </div>
 
 **星球 PC 网页版截图**：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/system-introduce-02.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/system/system-introduce-02.png?raw=true" width="650px">
 </div>
 
 大家可以下载一个知识星球 APP 来提前体验~
@@ -48,7 +48,7 @@ lock: no
 很多知识可能并不是有多难，但你没经历过，或者没有人告诉你，那么你就要花费数月或者数年才可能了解到。而这样知识在小傅哥的知识星球中，每天都在产生。你可以对小傅哥提问项目中的设计、述职中的技巧、面试中的问题，也可以阅读小傅哥给其他伙伴回答的内容。这些都能帮助你少走弯路，在不浪费时间的前提下，学到更多有技术含量的内容。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/system-introduce-03.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/system/system-introduce-03.png?raw=true" width="650px">
 </div>
 
 - 这只是星球中一个问题的回答，这样的一个问题所回答的设计，有时候要编写上千字来说明。*是不是感觉一个月问一个问题，就赚了！*
@@ -57,7 +57,7 @@ lock: no
 ### 3. 简历优化
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-02.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/article/about/about-220605-02.png?raw=true" width="650px">
     <br/>
     <div style="font-size: 9px;">给星球用户批阅简历，提高投递通过率</div>
     <br/>
@@ -68,15 +68,19 @@ lock: no
 当然，被这样的“鼓励”下，我的周末😭全用在星球上了，不是录制课程视频，就是手写源码，也因为大家的图越画越牛，我也跟着让自己的图更上层楼。点名：课代表阿曦、新晋卷王奥斯卡最佳配角、画图侠诏无言、优秀作业无名氏🧐等等。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-05-01.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/article/about/about-220605-05-01.png?raw=true" width="650px">
 </div>
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-05-02.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/article/about/about-220605-05-02.png?raw=true" width="650px">
 </div>
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-05-03.png?raw=true" width="550px">
+    <img src="https://bugstack.cn/images/article/about/about-220605-05-03.png?raw=true" width="650px">
+</div>
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-07.png?raw=true" width="650px">
 </div>
 
 - 经过一年的积累，星球中的优秀内容还远不止这些。无论是学习方法、课程资料、学习氛围，都已经建设的非常全面且完整，后续会更加全面。
@@ -84,7 +88,7 @@ lock: no
 
 ## 三、加入：知识星球
 
-星球原价￥129一年，限时发放￥30元优惠券。
+星球原价 **￥129** 一年，限时发放 **￥30** 优惠券。
 
 优惠名额有限、先到先得，微信扫描下方二维码领券加入：
 
