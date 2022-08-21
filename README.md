@@ -114,6 +114,7 @@
 20. 🔥`Spring手撸专栏` [small-spring](https://github.com/fuzhengwei/small-spring)
 21. `IntelliJ IDEA 插件开发` [guide-idea-plugin](https://github.com/fuzhengwei/guide-idea-plugin)
 22. 🔥`Mybatis手撸专栏` [small-mybatis](https://github.com/fuzhengwei/small-mybatis)
+23. `Java数据结构和算法` [java-algorithms](https://github.com/fuzhengwei/java-algorithms)
 
 **如果**，以上某些资源不能下载获取，可以添加作者好友：小傅哥的微信(fustack)
 
