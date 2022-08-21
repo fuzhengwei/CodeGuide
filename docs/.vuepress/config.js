@@ -360,67 +360,30 @@ module.exports = {
                         link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
                     },
                     {
-                        text: '🔥项目课程',
+                        text: '💯实战项目',
                         items: [
                             {
-                                text: '🌍知识星球', items: [
-                                    {
-                                        text: '码农会锁：小傅哥的私有技术朋友圈',
-                                        link: '/md/project/group/zsxq.md'
-                                    }
-                                ]
+                                text: 'Lottery 分布式抽奖系统',
+                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
                             },
                             {
-                                text: '💯实战项目', items: [
-                                    {
-                                        text: 'IM Netty 仿PC端微信',
-                                        link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                                    },
-                                    {
-                                        text: 'SpringBoot 中间件设计和开发',
-                                        link: '/md/project/springboot-middleware/2021-03-31-《SpringBoot 中间件设计和开发》专栏小册上线啦！.md'
-                                    },
-                                    {
-                                        text: 'Lottery 分布式抽奖系统',
-                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
-                                    }
-                                ]
+                                text: 'IM Netty 仿PC端微信',
+                                link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
                             },
                             {
-                                text: '©️出版图书', items: [
-                                    {
-                                        text: '《重学Java设计模式》',
-                                        link: '/md/project/book/2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md'
-                                    }
-                                ]
+                                text: 'SpringBoot 中间件设计和开发',
+                                link: 'https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html'
                             },
                             {
-                                text: '📚PDF', items: [
-                                    {
-                                        text: 'Java 面经手册',
-                                        link: '/md/project/pdf/2021-01-26-Java面经手册PDF下载.md'
-                                    },
-                                    {
-                                        text: '手撸 Spring',
-                                        link: '/md/project/pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md'
-                                    },
-                                    {
-                                        text: '重学Java设计模式',
-                                        link: '/md/project/pdf/2020-07-12-重学 Java 设计模式.md'
-                                    },
-                                    {
-                                        text: '字节码编程',
-                                        link: '/md/project/pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md'
-                                    },
-                                    {
-                                        text: 'IDEA Plugin 开发手册',
-                                        link: '/md/project/pdf/2022-01-23-IDEA Plugin 开发手册.md'
-                                    }
-                                ]
-                            }
+                                text: 'API网关：中间件设计和实践',
+                                link: 'https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html'
+                            },
                         ]
                     },
-
+                    {
+                        text: '🌍知识星球',
+                        link: '/md/zsxq/introduce.md'
+                    },
                     {
                         text: '关于',
                         items: [
@@ -463,12 +426,9 @@ module.exports = {
                     "/md/bytecode/asm-document/": genBarBytecode(),
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
-                    "/md/project/group/": getBarZSXQ(),
-                    "/md/project/pdf/": getBarPDF(),
-                    "/md/project/book/": getBarBook(),
-                    "/md/project/im/": getBarProjectIM(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
+                    "/md/zsxq/": getBarZSXQ(),
                     "/md/about/": genBarAbout()
                 }
             }
@@ -487,6 +447,7 @@ function genAlgorithmDataStructures() {
                 "2022-07-22-linked-list.md",
                 "2022-07-30-array-list.md",
                 "2022-08-06-queue.md",
+                // "2022-08-17-stack.md",
             ]
         }
     ]
@@ -1353,41 +1314,56 @@ function genBarBytecode() {
 function getBarZSXQ() {
     return [
         {
-            title: "知识星球：码农会锁",
+            title: "星球介绍",
             collapsable: false,
-            sidebarDepth: 3,
+            sidebarDepth: 1,
             children: [
-                "zsxq.md",
+                "introduce.md",
             ]
-        }
-    ]
-}
-
-function getBarPDF() {
-    return [
+        },
         {
-            title: "PDF",
+            title: "实战项目",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2021-01-26-Java面经手册PDF下载.md",
-                "2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
-                "2020-07-12-重学 Java 设计模式.md",
-                "2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
-                "2022-01-23-IDEA Plugin 开发手册.md",
+                "project/lottery.md",
+                "project/im.md",
+                "project/api-gateway.md",
             ]
-        }
-    ]
-}
-
-function getBarBook() {
-    return [
+        },
         {
-            title: "出版图书",
+            title: "课程小册",
             collapsable: false,
-            sidebarDepth: 3,
+            sidebarDepth: 0,
             children: [
-                "2021-04-22-久等了！小傅哥的《重学Java设计模式》终于出版了，彩印&纸质！.md",
+                "booklet/java-interview.md",
+                "booklet/idea-plugin.md",
+                "booklet/bytecode.md",
+            ]
+        },
+        {
+            title: "手撕源码",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "source-code/develop-spring.md",
+                "source-code/develop-mybatis.md",
+            ]
+        },
+        {
+            title: "关于星主",
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+                "about/xiaofuge.md",
+            ]
+        },
+        {
+            title: "加入星球",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "other/join.md",
             ]
         }
     ]
