@@ -7,7 +7,6 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>PDF：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -127,19 +126,11 @@ lock: no
 
 ## 四、PDF📚下载
 
-- CSDN：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325) - `￥4.9`
-- 知识星球(`码农会锁`)：[https://t.zsxq.com/05YZZjq7m](https://t.zsxq.com/05YZZjq7m) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
-
-### 1. 可获得内容包括
-
 1. 《Java 面经手册》PDF 完整版书籍一本
+    - CSDN：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325) - `￥4.9`
+    - 知识星球(`码农会锁`)：[https://t.zsxq.com/05YZZjq7m](https://t.zsxq.com/05YZZjq7m) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
 2. 完整版源码一份，共 27 个案例
 3. 可以加入面经专栏讨论群，添加我的微信：`fustack`，备注：`面经入群`
-
-### 2. 下载方式
-
-1. 公众号：[bugstack虫洞栈](https://bugstack.cn/assets/images/qrcode.png)，回复：`面经手册`，即可获得最新的下载链接。*更新和补充会更换链接*
-2. 添加小傅哥微信(fustack)，备注：`面经`
 
 ## 五、🎉收尾
 
