@@ -363,20 +363,28 @@ module.exports = {
                         text: '💯实战项目',
                         items: [
                             {
-                                text: 'Lottery 分布式抽奖系统',
-                                link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
+                                text: '业务类型', items: [
+                                    {
+                                        text: 'Lottery 分布式抽奖系统',
+                                        link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
+                                    },
+                                    {
+                                        text: 'IM Netty 仿PC端微信',
+                                        link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                                    }
+                                ]
                             },
                             {
-                                text: 'IM Netty 仿PC端微信',
-                                link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                            },
-                            {
-                                text: 'SpringBoot 中间件设计和开发',
-                                link: 'https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html'
-                            },
-                            {
-                                text: 'API网关：中间件设计和实践',
-                                link: 'https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html'
+                                text: '组件类型', items: [
+                                    {
+                                        text: 'SpringBoot 中间件设计和开发',
+                                        link: 'https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html'
+                                    },
+                                    {
+                                        text: 'API网关：中间件设计和实践',
+                                        link: 'https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html'
+                                    },
+                                ]
                             },
                         ]
                     },
@@ -1333,7 +1341,7 @@ function getBarZSXQ() {
         },
         {
             title: "课程小册",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 0,
             children: [
                 "booklet/java-interview.md",
@@ -1343,7 +1351,7 @@ function getBarZSXQ() {
         },
         {
             title: "手撕源码",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 0,
             children: [
                 "source-code/develop-spring.md",
@@ -1352,7 +1360,7 @@ function getBarZSXQ() {
         },
         {
             title: "关于星主",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 1,
             children: [
                 "about/xiaofuge.md",
@@ -1360,7 +1368,7 @@ function getBarZSXQ() {
         },
         {
             title: "加入星球",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 0,
             children: [
                 "other/join.md",

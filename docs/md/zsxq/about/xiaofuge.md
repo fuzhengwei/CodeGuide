@@ -3,7 +3,7 @@ title: 您好，我是小傅哥
 lock: no
 ---
 
-# 您好，我是小傅哥
+# 您好，我是小傅哥 | 执拗于学习和分享技术本质的男人！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -28,7 +28,7 @@ lock: no
 小傅哥原创博客，分享技术知识、项目架构经验、大厂求职面经、个人成长经历，免费的编程学习资料。让你可以少走弯路，快速明确的成长！关注后可以添加微信交流答疑，欢迎围观朋友圈~
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/bugstack.png?raw=true" width="450px">
+    <img src="https://bugstack.cn/images/system/bugstack.png?raw=true" width="550px">
 </div>
 
 其他资料：
@@ -38,5 +38,5 @@ lock: no
 
 ## 我的B站
 
-主页：https://space.bilibili.com/15637440
+主页：[https://space.bilibili.com/15637440](https://space.bilibili.com/15637440)
 目前录制博客中文章对应的视频，方便读者更好的吸收编程思想。后续会不断的完善视频类内容，以及更多的有价值的干货技术。
