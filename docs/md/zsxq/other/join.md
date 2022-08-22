@@ -18,4 +18,11 @@ lock: no
     <br/>
 </div>
 
+🌹加入后，这些内容都是你的，**这片鱼塘**都给你了！—— 目前已有3800+伙伴在星球学习！
+
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/zsxq/zsxq-booklet.png" width="550px">
+    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目「DDD+RPC分布式抽奖系统\API网关\IM」、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
+</div>
+
 **注意**：加入星球后，阅读`星球🔝置顶消息` [https://t.zsxq.com/047EQfQfY](https://t.zsxq.com/047EQfQfY)

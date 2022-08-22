@@ -79,10 +79,6 @@ lock: no
     <img src="https://bugstack.cn/images/article/about/about-220605-05-03.png?raw=true" width="650px">
 </div>
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-07.png?raw=true" width="650px">
-</div>
-
 - 经过一年的积累，星球中的优秀内容还远不止这些。无论是学习方法、课程资料、学习氛围，都已经建设的非常全面且完整，后续会更加全面。
 - 星球中很多的这样的伙伴，都是来自于985、211名校，他们更知道如何节省时间，找到更快学习到干货的路径。*与这样的伙伴做同学，即可节省你的时间，还可以跟着一个有氛围的圈子一起成长。*
 
@@ -106,6 +102,10 @@ lock: no
 ## 四、星球：适合我吗？
 
 那么，小傅哥的码农会锁，私有技术朋友圈，适合什么样的你加入呢？
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-220605-07.png?raw=true" width="650px">
+</div>
 
 1. 即将大学毕业、研究生毕业，但苦于手里没有什么干货项目，都是一堆 CRUD 案例，没有分布式复杂设计，撑不起简历的。
 2. 在职场编码开发2-3年左右，总是在写一些边角料项目，既没有使用设计模式，也没有遵守设计原则，想跳槽出去又感觉还是没法突破这个圈子。

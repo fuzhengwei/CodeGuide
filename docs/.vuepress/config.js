@@ -455,7 +455,7 @@ function genAlgorithmDataStructures() {
                 "2022-07-22-linked-list.md",
                 "2022-07-30-array-list.md",
                 "2022-08-06-queue.md",
-                // "2022-08-17-stack.md",
+                "2022-08-17-stack.md",
             ]
         }
     ]
