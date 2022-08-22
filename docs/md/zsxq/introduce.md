@@ -97,7 +97,7 @@ lock: no
     <br/>
 </div>
 
-**注意**：加入星球后，阅读`星球🔝置顶消息` [https://t.zsxq.com/047EQfQfY](https://t.zsxq.com/047EQfQfY)
+**注意**：加入星球后，阅读`星球🔝置顶消息` [https://t.zsxq.com/05VB66uzz](https://t.zsxq.com/05VB66uzz) - 项目小册、权限申请、资料文件、简历批阅等。
 
 ## 四、星球：适合我吗？
 
