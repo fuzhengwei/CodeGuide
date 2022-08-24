@@ -436,6 +436,7 @@ module.exports = {
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
+                    "/md/project/im/": getBarProjectIM(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/about/": genBarAbout()
                 }
@@ -1330,6 +1331,14 @@ function getBarZSXQ() {
             ]
         },
         {
+            title: "星球资料",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "material/guide.md",
+            ]
+        },
+        {
             title: "实战项目",
             collapsable: false,
             sidebarDepth: 0,
@@ -1340,7 +1349,7 @@ function getBarZSXQ() {
             ]
         },
         {
-            title: "课程小册",
+            title: "技术小册",
             collapsable: true,
             sidebarDepth: 0,
             children: [
