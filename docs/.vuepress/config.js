@@ -1332,10 +1332,11 @@ function getBarZSXQ() {
         },
         {
             title: "星球资料",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "material/guide.md",
+                "material/architecture_design.md",
             ]
         },
         {
