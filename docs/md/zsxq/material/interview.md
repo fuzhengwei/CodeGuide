@@ -44,6 +44,8 @@ lock: no
 - [量化规则引擎是一个组件，如果有一个新的业务进来，如何复用？](https://t.zsxq.com/05zRvbUJ2)
 - [Lottery项目包装为实验室项目，面试时被问对接的是什么甲方，为什么数据量会这么大](https://t.zsxq.com/05Nr3rjUf)
 - [针对于抽奖系统，面试被问到表的设计，要怎么答？](https://t.zsxq.com/05EYNRF6m)
+- [这个项目的业务数据，例如用户量、活跃用户量，以及核心业务数据，例如订单系统的下单量等](https://t.zsxq.com/05UJUFaur)
+- [技术和业务19道面试题汇总](https://t.zsxq.com/05e662Vb2)
 
 ### 2. 通用问题
 
