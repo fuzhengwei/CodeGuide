@@ -18,6 +18,7 @@ lock: no
 - [架构师方向，该怎么入门？](https://t.zsxq.com/056AUzFqr)
 - [2年研发应该要会那些东西？](https://t.zsxq.com/05y7mAMju)
 - [怎么做述职答辩](https://t.zsxq.com/05rjqZNB6)
+- [跟公司大领导做项目汇报一般从什么角度切入](https://t.zsxq.com/05R3jQF23)
 
 ## 二、营销活动
 
@@ -37,6 +38,7 @@ lock: no
 - [单号预热，缓存队列消费](https://t.zsxq.com/05A276aEI)
 - [开源电商项目分享](https://t.zsxq.com/05Ay7IeUJ)
 - [高并发下的库存超卖问题的解决方式](https://t.zsxq.com/05IUBiAM3)
+- [营销费用分摊](https://t.zsxq.com/05VnqB6Qv)
 
 ## 四、外卖场景
 
@@ -59,7 +61,6 @@ lock: no
 ## 七、通用设计
 
 - [数据库主从同步架构思考](https://t.zsxq.com/05QZ7ubY7)
-- [服务拆分，领域和组件](https://t.zsxq.com/05F23rFq3)
 - [CQRS模型设计](https://t.zsxq.com/05j2RfqzR)
 - [如何保证MQ消息全部消费成功](https://t.zsxq.com/05qNRJ6qF)
 - [多文件类型，数据同步入库](https://t.zsxq.com/05nmm62ZJ)
@@ -77,11 +78,14 @@ lock: no
 - [有关redis和mysql数据一致性的问题](https://t.zsxq.com/05FEubIIq)
 - [Mysql的主从复制一致性怎么保证呢？](https://t.zsxq.com/05rfaYjqB)
 - [ID生成策略问题](https://t.zsxq.com/05IiIynmi)
+- [C/S架构数据采集](https://t.zsxq.com/05Eq3ZVVF)
+- [动态导出字段设计——类似问卷表](https://t.zsxq.com/056QFaQvj)
 
 ## 八、性能调优
 
 - [首页QPS=2W查询优化](https://t.zsxq.com/053JqVFUJ)
 - [系统压测](https://t.zsxq.com/05iYzNrzb)
+- [压测步骤](https://t.zsxq.com/05QnaUBAm)
 - [慢查询拖垮数据库](https://t.zsxq.com/05y3zvji2)
 - [海量数据处理](https://t.zsxq.com/05BIei2Fq)
 - [token太长3000+位往cookie写的时候会有问题](https://t.zsxq.com/052JImmuV)
@@ -95,6 +99,13 @@ lock: no
 - [项目中为什么使用Dubbo](https://t.zsxq.com/05uFMniYJ)
 - [设计一个系统，应该要考虑/着重要关注的点在那些？](https://t.zsxq.com/05ybeaa6Y)
 - [项目划分多个微服务，有关微服务之间调用时设计的分布式事务问题](https://t.zsxq.com/05F6M7i2R)
+- [服务拆分，领域和组件](https://t.zsxq.com/05F23rFq3)
+- [DDD理论提出来很久了，为什么很多公司还在用MVC？](https://t.zsxq.com/05AIqFIEa)
+
+## 十、系统重构
+
+- [系统重构经验](https://t.zsxq.com/05vz3VJa2)
+- [部门最近想把几个产品线的相同业务模块抽出来复用](https://t.zsxq.com/05ZNfyNju)
 
 ## 十、其他场景
 
@@ -105,5 +116,8 @@ lock: no
 - [项目运行较慢，重启下就好了，一般是什么原因导致的](https://t.zsxq.com/05eyz7QJ2)
 - [规则引擎处理上报数据](https://t.zsxq.com/05FEurBmM)
 - [短信平台](https://t.zsxq.com/05n6ybyFy)
-- [系统重构经验](https://t.zsxq.com/05vz3VJa2)
+- [定时任务衰减调用](定时任务执行时间的逐步衰减)
 - [OCR服务使用整合](https://t.zsxq.com/05YJQVvFm)
+- [异常码定义](https://t.zsxq.com/05rFqV3ZN)
+- [如果数据库的一张表数据有2千万，对这张表做增删改查要注意什么？](https://t.zsxq.com/053RRRFIa)
+- [技术词：“弹性ip”、“固定ip”、“csrf攻击”](https://t.zsxq.com/05yvvf27e)
