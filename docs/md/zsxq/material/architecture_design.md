@@ -15,26 +15,38 @@ lock: no
 用于归档星球中关于架构方案设计类资料，包括；电商、金融、交易、账务、营销、活动、风控等各类场景。星球用户也可以通过在文章下编辑提交PR的方式共同维护。
 
 - [架构师成长介绍](https://t.zsxq.com/05VJiQf66)
-- 
+- [架构师方向，该怎么入门？](https://t.zsxq.com/056AUzFqr)
+- [2年研发应该要会那些东西？](https://t.zsxq.com/05y7mAMju)
+- [怎么做述职答辩](https://t.zsxq.com/05rjqZNB6)
 
-## 二、营销场景
+## 二、营销活动
 
 - [营销中心架构设计](https://t.zsxq.com/056eiMrJ6)
 - [营销活动倒排设计](https://t.zsxq.com/05aIYRb2F)
 - [营销优惠券叠加使用](https://t.zsxq.com/05AUVZRBu)
 - [营销结算拆分](https://t.zsxq.com/05FQzbAqn)
+- [秒杀的时候如何防止超卖](https://t.zsxq.com/05eYFIYZv)
+- [优惠活动和优惠券过滤条件展示设计](https://t.zsxq.com/05Jau7Ybe)
+- [设计秒杀流程时，优化锁的颗粒度力度](https://t.zsxq.com/05EujY7IY)
+- [为什么要采用异步扣减库存呢？](https://t.zsxq.com/05FUVJqjq)
 
 ## 三、电商场景
 
 - [电商业务系统边界拆分](https://t.zsxq.com/05i2jiE6a)
 - [收货地址自动识别](https://t.zsxq.com/05FAiy7AE)
 - [单号预热，缓存队列消费](https://t.zsxq.com/05A276aEI)
+- [开源电商项目分享](https://t.zsxq.com/05Ay7IeUJ)
+- [高并发下的库存超卖问题的解决方式](https://t.zsxq.com/05IUBiAM3)
 
-## 三、支付交易
+## 四、外卖场景
+
+- [外卖点餐项目](https://t.zsxq.com/05Ey3fIUN)
+
+## 五、支付交易
 
 - [重构简单版支付中心](https://t.zsxq.com/05MVjmMFI)
 
-## 四、功能组件
+## 六、功能服务
 
 - [系统监控推送](https://t.zsxq.com/05FQzbAqn)
 - [网关API调用次数统计](https://t.zsxq.com/05YzbEu76)
@@ -42,8 +54,9 @@ lock: no
 - [Token过期续租](https://t.zsxq.com/05NZJEaqv)
 - [部分数据访问权限](https://t.zsxq.com/05Y7euVBE)
 - [系统黑名单](https://t.zsxq.com/05MVZnYJi)
+- [导出大量Excel](https://t.zsxq.com/05aIaqjyF)
 
-## 五、通用设计
+## 七、通用设计
 
 - [数据库主从同步架构思考](https://t.zsxq.com/05QZ7ubY7)
 - [服务拆分，领域和组件](https://t.zsxq.com/05F23rFq3)
@@ -56,16 +69,41 @@ lock: no
 - [PDF 文件解析](https://t.zsxq.com/05AUzRjmm)
 - [多渠道消息推送](https://t.zsxq.com/0562Fy3nm)
 - [C/S架构数据采集场景](https://t.zsxq.com/05Ba2r72f)
+- [微服务系统中的分布式事务](https://t.zsxq.com/05yVFyz3B)
+- [二维码幂等生成设计](https://t.zsxq.com/05vzrrvZF)
+- [基于证书的方式，实现单点登录](https://t.zsxq.com/05rj6aIiQ)
+- [如何保证分页数据不重复问题](https://t.zsxq.com/057U3fiai)
+- [分布式下最终一致性怎么保证](https://t.zsxq.com/05faQjEU7)
+- [有关redis和mysql数据一致性的问题](https://t.zsxq.com/05FEubIIq)
+- [Mysql的主从复制一致性怎么保证呢？](https://t.zsxq.com/05rfaYjqB)
+- [ID生成策略问题](https://t.zsxq.com/05IiIynmi)
 
-## 六、性能调优
+## 八、性能调优
 
 - [首页QPS=2W查询优化](https://t.zsxq.com/053JqVFUJ)
 - [系统压测](https://t.zsxq.com/05iYzNrzb)
 - [慢查询拖垮数据库](https://t.zsxq.com/05y3zvji2)
 - [海量数据处理](https://t.zsxq.com/05BIei2Fq)
+- [token太长3000+位往cookie写的时候会有问题](https://t.zsxq.com/052JImmuV)
 
-## 六、其他场景
+## 九、架构方案
 
+- [整洁结构](https://t.zsxq.com/05EUfMJUj)
+- [六边形架构](https://t.zsxq.com/05I6YrrjM)
+- [什么是微服务架构？](https://t.zsxq.com/05EEQzbUr)
+- [为什么你们要用DDD架构设计项目？](https://t.zsxq.com/05AIqFIEa)
 - [项目中为什么使用Dubbo](https://t.zsxq.com/05uFMniYJ)
-- [禅道Bug数据设计](https://t.zsxq.com/053RNfY3z)
+- [设计一个系统，应该要考虑/着重要关注的点在那些？](https://t.zsxq.com/05ybeaa6Y)
+- [项目划分多个微服务，有关微服务之间调用时设计的分布式事务问题](https://t.zsxq.com/05F6M7i2R)
 
+## 十、其他场景
+
+- [朋友圈好友动态](https://t.zsxq.com/05UFuzJE6)
+- [禅道Bug数据设计](https://t.zsxq.com/053RNfY3z)
+- [飞机黑匣子的安全性设计是不是已经跟不上时代步伐了啊？](https://t.zsxq.com/05UrRZFem)
+- [代码混淆和反编译](https://t.zsxq.com/056eIqBMz)
+- [项目运行较慢，重启下就好了，一般是什么原因导致的](https://t.zsxq.com/05eyz7QJ2)
+- [规则引擎处理上报数据](https://t.zsxq.com/05FEurBmM)
+- [短信平台](https://t.zsxq.com/05n6ybyFy)
+- [系统重构经验](https://t.zsxq.com/05vz3VJa2)
+- [OCR服务使用整合](https://t.zsxq.com/05YJQVvFm)
