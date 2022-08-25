@@ -1337,6 +1337,7 @@ function getBarZSXQ() {
             children: [
                 "material/guide.md",
                 "material/architecture_design.md",
+                "material/interview.md",
             ]
         },
         {

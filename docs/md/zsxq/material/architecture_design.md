@@ -16,6 +16,8 @@ lock: no
 
 ## 二、归档
 
+- [营销中心架构设计](https://t.zsxq.com/056eiMrJ6)
+- [倒排设计](https://t.zsxq.com/05aIYRb2F)
 - [电商业务系统边界拆分](https://t.zsxq.com/05i2jiE6a)
 - [项目中为什么使用Dubbo](https://t.zsxq.com/05uFMniYJ)
 - [重构简单版支付中心](https://t.zsxq.com/05MVjmMFI)
