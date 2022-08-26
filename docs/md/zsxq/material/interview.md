@@ -50,6 +50,7 @@ lock: no
 ### 2. 通用问题
 
 - [你工作中遇到过什么技术难题，是怎么解决的？](https://t.zsxq.com/05AuFmUz7)
+- [如何合理的配置mysql的连接数？](https://t.zsxq.com/053Fmaeyn)
 
 ### 3. 公司面试
 
