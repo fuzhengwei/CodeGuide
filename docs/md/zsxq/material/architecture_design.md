@@ -80,6 +80,8 @@ lock: no
 - [ID生成策略问题](https://t.zsxq.com/05IiIynmi)
 - [C/S架构数据采集](https://t.zsxq.com/05Eq3ZVVF)
 - [动态导出字段设计——类似问卷表](https://t.zsxq.com/056QFaQvj)
+- [文件传输OSS](https://t.zsxq.com/05ii2fyJu)
+- [分库分表场景设计](https://t.zsxq.com/05rNniu72)
 
 ## 八、性能调优
 
