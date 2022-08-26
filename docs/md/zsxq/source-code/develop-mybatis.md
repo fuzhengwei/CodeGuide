@@ -92,7 +92,7 @@ lock: no
 - [【难度★★★★☆】第19章：二级缓存](https://articles.zsxq.com/id_gviwjzv5h4wp.html)
 - [【难度★★★★☆】第20章：【作业】整合Spring](https://articles.zsxq.com/id_2pwtkmjixi73.html)
 
-## 7、作业：优秀学员
+## 7. 作业：优秀学员
 
 - [超清晰绘图拆解流程 By 课代表 阿羲 ⭐](https://t.zsxq.com/05vZ76aYr)
 - [池化连接池执行过程 By JabesYang](https://t.zsxq.com/05AiEAMfu)
