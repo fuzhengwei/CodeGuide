@@ -95,7 +95,7 @@
                                 t._lock(articleObj);
                             } else {
                                 t._unlock(articleObj);
-                                t.setCookie("_unlock", "success", 1);
+                                t.setCookie("_unlock", "success", 7);
                             }
                         },
                         error: function (data) {
