@@ -103,6 +103,9 @@ lock: no
 - [项目划分多个微服务，有关微服务之间调用时设计的分布式事务问题](https://t.zsxq.com/05F6M7i2R)
 - [服务拆分，领域和组件](https://t.zsxq.com/05F23rFq3)
 - [DDD理论提出来很久了，为什么很多公司还在用MVC？](https://t.zsxq.com/05AIqFIEa)
+- [可以直接在领域层调用仓储服务吗？](https://t.zsxq.com/05iMVvN7m)
+- [将一个大事务拆分成几个小事务](https://t.zsxq.com/05RZRnayr)
+- [单库单表拆分到分库分表，数据迁移处理](https://t.zsxq.com/05NzvBAai)
 
 ## 十、系统重构
 

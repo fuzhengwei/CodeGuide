@@ -47,6 +47,7 @@ lock: no
 - [这个项目的业务数据，例如用户量、活跃用户量，以及核心业务数据，例如订单系统的下单量等](https://t.zsxq.com/05UJUFaur)
 - [技术和业务19道面试题汇总](https://t.zsxq.com/05e662Vb2)
 - [抽奖和发奖关于库存的扣减，防超发漏发，监控和弥补有没有设计思路和流程图之类的，添加库存，扣减库存的操作日志怎么设计](https://t.zsxq.com/05YVjEYny)
+- [路由散列算法：idx / tbCount + 1 & idx - tbCount * (dbIdx - 1)](https://t.zsxq.com/05urRRzBi)
 
 ### 2. 通用问题
 
