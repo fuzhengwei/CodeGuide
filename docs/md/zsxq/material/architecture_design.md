@@ -85,6 +85,7 @@ lock: no
 
 ## 八、性能调优
 
+- [QPS和TPS的区别，以及如何计算](https://t.zsxq.com/05fEeimQB)
 - [首页QPS=2W查询优化](https://t.zsxq.com/053JqVFUJ)
 - [系统压测](https://t.zsxq.com/05iYzNrzb)
 - [压测步骤](https://t.zsxq.com/05QnaUBAm)

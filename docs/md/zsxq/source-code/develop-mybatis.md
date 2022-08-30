@@ -97,6 +97,7 @@ lock: no
 - [超清晰绘图拆解流程 By 课代表 阿羲 ⭐](https://t.zsxq.com/05vZ76aYr)
 - [池化连接池执行过程 By JabesYang](https://t.zsxq.com/05AiEAMfu)
 - [学习数据源的创建和使用 By 🐱](https://t.zsxq.com/05a2zjYJM)
+- [一级缓存学习总结 By Chin](https://t.zsxq.com/05UFmMNrZ)
 
 ## 8. 总结，一点建议
 

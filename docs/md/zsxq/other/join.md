@@ -5,14 +5,14 @@ lock: no
 
 # 加入星球
 
-星球原价**￥129**一年，限时发放**￥30**元优惠券。
+星球原价**￥129**一年，限时发放**￥10**元优惠券。
 
 优惠名额有限、先到先得，微信扫描下方二维码领券加入：加入后阅读[使用指南：🔜快速了解，开启学习之旅！](https://bugstack.cn/md/zsxq/material/guide.html)
 
 >加入 3 天内可以全额退款，感兴趣的同学可以先加入体验，自己判断是否有价值。
 
 <div align="center">
-    <img src="https://bugstack.cn/assets/images/zsxq/join.png" width="550px">
+    <img src="https://bugstack.cn/assets/images/zsxq/zsxq-coupon-01.png" width="550px">
     <br/>
     <div style="font-size: 9px;">在小傅哥的公众号【bugstack虫洞栈】回复【星球】也可以领取专属优惠券</div>
     <br/>

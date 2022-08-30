@@ -52,6 +52,8 @@ lock: no
 - [Lottery向内部应用提供了RPC接口，那么当h5端需要提供一个http的请求，这个接口应该写在哪里呢](https://t.zsxq.com/05UrVfmQB)
 - [多种抽象策略是怎么注入使用的 | 手动、ist、注解、Map？](https://t.zsxq.com/05yfAiMji)
 - [如果redis作为分布式锁的时候，主节点挂掉了，但是数据还没有同步到从节点，这种情况怎么办？](https://t.zsxq.com/05MjE2f6a)
+- [活动库存与奖品库存的配置关系](https://t.zsxq.com/05nQBiUZN)
+- [抽奖系统用到了分库分表，那目前市面上还有那些成熟的规则引擎组件？](https://t.zsxq.com/05rVNfurN)
 
 ### 2. 通用问题
 
