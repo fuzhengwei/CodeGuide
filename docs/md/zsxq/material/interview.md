@@ -49,6 +49,9 @@ lock: no
 - [抽奖和发奖关于库存的扣减，防超发漏发，监控和弥补有没有设计思路和流程图之类的，添加库存，扣减库存的操作日志怎么设计](https://t.zsxq.com/05YVjEYny)
 - [路由散列算法：idx / tbCount + 1 & idx - tbCount * (dbIdx - 1)](https://t.zsxq.com/05urRRzBi)
 - [Lottery项目的抽奖算法，抽奖概率是一百万怎么处理？](https://t.zsxq.com/05qFun6Uj)
+- [Lottery向内部应用提供了RPC接口，那么当h5端需要提供一个http的请求，这个接口应该写在哪里呢](https://t.zsxq.com/05UrVfmQB)
+- [多种抽象策略是怎么注入使用的 | 手动、ist、注解、Map？](https://t.zsxq.com/05yfAiMji)
+- [如果redis作为分布式锁的时候，主节点挂掉了，但是数据还没有同步到从节点，这种情况怎么办？](https://t.zsxq.com/05MjE2f6a)
 
 ### 2. 通用问题
 

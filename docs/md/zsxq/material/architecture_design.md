@@ -106,6 +106,7 @@ lock: no
 - [可以直接在领域层调用仓储服务吗？](https://t.zsxq.com/05iMVvN7m)
 - [将一个大事务拆分成几个小事务](https://t.zsxq.com/05RZRnayr)
 - [单库单表拆分到分库分表，数据迁移处理](https://t.zsxq.com/05NzvBAai)
+- [枚举字典表定义](https://t.zsxq.com/05feuVZf2)
 
 ## 十、系统重构
 
