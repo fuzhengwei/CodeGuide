@@ -393,6 +393,51 @@ module.exports = {
                         link: '/md/zsxq/introduce.md'
                     },
                     {
+                        text: '📝产品',
+                        items: [
+                            {
+                                text: '出版物', items: [
+                                    {
+                                        text: '2021年出版《重学Java设计模式》',
+                                        link: 'https://item.jd.com/13218336.html'
+                                    },
+                                ]
+                            },
+                            {
+                                text: 'PDF —— 星球免费获取', items: [
+                                    {
+                                        text: '免费《字节码编程手册》(密码：Rlxbh1ia)',
+                                        link: 'http://pan.bugstack.cn/?dl=05b281eff1476e2c22eb5114ced0dc4d'
+                                    },
+                                    {
+                                        text: '免费《重学Java设计模式》——旧版PDF(密码：FWchEAF6)',
+                                        link: 'http://pan.bugstack.cn/?dl=431e114a26f810655d29b6dea54a680f'
+                                    },
+                                    {
+                                        text: '付费《Java 面经手册》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
+                                    },
+                                    {
+                                        text: '付费《手写 Spring》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/21009038'
+                                    },
+                                    {
+                                        text: '付费《IDEA Plugin 开发手册》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/77484299'
+                                    },
+                                ]
+                            },
+                            {
+                                text: '插件', items: [
+                                    {
+                                        text: '💱 IDEA Plugin vo2dto —— 对象转换插件',
+                                        link: 'https://plugins.jetbrains.com/plugin/18262-vo2dto'
+                                    },
+                                ]
+                            },
+                        ]
+                    },
+                    {
                         text: '关于',
                         items: [
                             {text: '关于自己', link: '/md/about/me/about-me.md'},

@@ -36,11 +36,11 @@ lock: no
 ## 三、课程：包括内容
 
 目前星球：码农会锁 | 包括的课程内容有；
-- 实战项目：Lottery 分布式抽奖系统、Netty+JavaFx实战：仿桌面版微信聊天、Api网关【进行Ing】
-- 技术小册：Java 面经手册、IDEA Plugin 开发手册、字节码编程、Java 数据结构和算法【进行Ing】
-- 手撕源码：手写Spring：渐进式源码实践、手写Mybatis：渐进式源码实践
+- 实战项目：[Lottery 分布式抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)、[Api网关【进行Ing】](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)
+- 技术小册：[Java 面经手册](https://t.zsxq.com/05YZZjq7m)、[IDEA Plugin 开发手册](https://t.zsxq.com/05ufmQnA2)、[字节码编程](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)、[Java 数据结构和算法【进行Ing】](https://bugstack.cn/md/algorithm/data-structures/2022-07-22-linked-list.html)
+- 手撕源码：[手写Spring：渐进式源码实践](https://t.zsxq.com/05Vvbmq7a)、[手写Mybatis：渐进式源码实践](https://t.zsxq.com/05bmqNFQ7)
 
-**提示**：由于《SpringBoot 中间件设计和开发》是在星球创建前与掘金合作，所以暂时不能搬迁到星球，但在星球内提供了购买的优惠券。
+**提示**：由于[《SpringBoot 中间件设计和开发》](https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)是在星球创建前与掘金合作，所以暂时不能搬迁到星球，但在星球内提供了购买的优惠券。
 
 ## 四、课程：学习路线
 
