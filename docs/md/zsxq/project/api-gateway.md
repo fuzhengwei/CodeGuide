@@ -110,9 +110,9 @@ lock: need
 
 **目录：**
 
-- [x] [第1章：HTTP请求会话协议处理](#)
+- [x] [第1章：HTTP请求会话协议处理](https://bugstack.cn/md/assembly/api-gateway/2022-08-13-%E7%AC%AC1%E7%AB%A0%EF%BC%9AHTTP%E8%AF%B7%E6%B1%82%E4%BC%9A%E8%AF%9D%E5%8D%8F%E8%AE%AE%E5%A4%84%E7%90%86.html)
     ![](https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-220809-07.png)
-- [x] [第2章：代理RPC泛化调用](https://articles.zsxq.com/id_shbea2dagm2k.html)
-- [ ] [第3章：XML配置文件解析](#)
+- [x] [第2章：代理RPC泛化调用](https://bugstack.cn/md/assembly/api-gateway/2022-08-20-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E4%BB%A3%E7%90%86RPC%E6%B3%9B%E5%8C%96%E8%B0%83%E7%94%A8.html)
+- [x] [第3章：分治处理会话流程](https://bugstack.cn/md/assembly/api-gateway/2022-08-27-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%88%86%E6%B2%BB%E5%A4%84%E7%90%86%E4%BC%9A%E8%AF%9D%E6%B5%81%E7%A8%8B.html)
 - [ ] [第4章：方法执行器封装](#)
 - [ ] 梳理中 ... 每周更新

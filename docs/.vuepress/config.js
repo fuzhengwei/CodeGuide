@@ -408,7 +408,7 @@ module.exports = {
                         text: '源码仓库',
                         items: [
                             {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei/CodeGuide'},
-                            {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet/doc/-/wikis/home'},
+                            {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet'},
                         ]
                     }
                 ],
@@ -457,6 +457,7 @@ function genAlgorithmDataStructures() {
                 "2022-07-30-array-list.md",
                 "2022-08-06-queue.md",
                 "2022-08-17-stack.md",
+                "2022-08-27-hash-table.md",
             ]
         }
     ]
@@ -1077,6 +1078,7 @@ function genApiGateway() {
             children: [
                 "2022-08-13-第1章：HTTP请求会话协议处理.md",
                 "2022-08-20-第2章：代理RPC泛化调用.md",
+                "2022-08-27-第3章：分治处理会话流程.md",
             ]
         }
     ];
@@ -1338,6 +1340,7 @@ function getBarZSXQ() {
                 "material/guide.md",
                 "material/architecture_design.md",
                 "material/interview.md",
+                "material/study-experience.md",
             ]
         },
         {

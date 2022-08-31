@@ -72,6 +72,7 @@ lock: no
 ## 五、优秀作业
 
 - [Aware感知容器对象，实现自定义扩展框架 By Ray](https://t.zsxq.com/05vZ76aYr)
+- [单例判断以及通过用户创建的FactoryBean实现复杂Bean对象的创建 By Ray](https://t.zsxq.com/057IyZj2r)
 
 ## 六、总结
 
