@@ -404,7 +404,7 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: 'PDF —— 星球免费获取', items: [
+                                text: 'PDF —— 加入星球免费获取', items: [
                                     {
                                         text: '免费《字节码编程手册》(密码：Rlxbh1ia)',
                                         link: 'http://pan.bugstack.cn/?dl=05b281eff1476e2c22eb5114ced0dc4d'
