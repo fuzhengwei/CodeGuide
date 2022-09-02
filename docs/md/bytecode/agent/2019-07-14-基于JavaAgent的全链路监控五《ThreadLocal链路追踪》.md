@@ -18,7 +18,7 @@ lock: need
 ## 案例简述
 >Google开源的Dapper链路追踪组件，并在2010年发表了论文《Dapper, a Large-Scale Distributed Systems Tracing Infrastructure》，这篇文章是业内实现链路追踪的标杆和理论基础，具有非常大的参考价值。目前，链路追踪组件有Google的Dapper，Twitter 的Zipkin，以及阿里的Eagleeye （鹰眼）等，它们都是非常优秀的链路追踪开源组件。本文主要讲述如何在Spring Cloud Sleuth中集成Zipkin。在Spring Cloud Sleuth中集成Zipkin非常的简单，只需要引入相应的依赖和做相关的配置即可。
 
-![链路追踪Dapper](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/17387004-c9295b1ffd21eb27.png)
+![链路追踪Dapper]([https://fuzhengwei.github.io/assets/images/pic-content/2019/08/17387004-c9295b1ffd21eb27.png](https://bugstack.cn/assets/images/pic-content/2019/08/17387004-c9295b1ffd21eb27.png))
 当业务程序代码在线上运行时，实例A、实例B、实例C，他们直接可能从上到下依次调用，为了能很好的监控程序的调用链路，我们需要对调用链路进行追踪监控。实例的外部可能是通过RPC、HTTP、SOCKET、WEBSERVICE等方式进行调用，内部是方法逻辑依次执行。外部例如http可以通过在头部写入追踪ID进行监控，内部使用threadlocal进行保存上下文关系。｛ThreadLocal变量特殊的地方在于：对变量值的任何操作实际都是对这个变量在线程中的一份copy进行操作，不会影响另外一个线程中同一个ThreadLocal变量的值。｝
 
 ## 环境准备
