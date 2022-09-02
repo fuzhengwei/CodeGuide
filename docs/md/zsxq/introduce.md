@@ -43,6 +43,23 @@ lock: no
 
 而加入星球就可以学习到小傅哥为你编写的在大厂水平以上的实战项目，包括你会学习到：分布式架构、微服务设计、领域驱动设计、设计模式时间、规则引擎决策树、秒杀分段锁、API网关通信等等，只有加入大厂才能学习到的核心技能。
 
+#### 1.1 实战项目
+
+- [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
+- [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
+- [API网关：中间件设计和实践](https://bugstack.cn/md/zsxq/project/api-gateway.html)
+
+#### 1.2 技术小册
+
+- [Java 面经手册](https://bugstack.cn/md/zsxq/booklet/java-interview.html)
+- [IDEA Plugin 开发手册](https://bugstack.cn/md/zsxq/booklet/idea-plugin.html)
+- [字节码编程 | ASM、Javassist、Byte-Buddy](https://bugstack.cn/md/zsxq/booklet/bytecode.html)
+
+### 1.3 手撕源码
+
+- [手写Spring：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-spring.html)
+- [手写Mybatis：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-mybatis.html)
+
 ### 2. 问题解答
 
 很多知识可能并不是有多难，但你没经历过，或者没有人告诉你，那么你就要花费数月或者数年才可能了解到。而这样知识在小傅哥的知识星球中，每天都在产生。你可以对小傅哥提问项目中的设计、述职中的技巧、面试中的问题，也可以阅读小傅哥给其他伙伴回答的内容。这些都能帮助你少走弯路，在不浪费时间的前提下，学到更多有技术含量的内容。
