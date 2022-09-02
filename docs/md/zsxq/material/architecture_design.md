@@ -128,3 +128,4 @@ lock: no
 - [异常码定义](https://t.zsxq.com/05rFqV3ZN)
 - [如果数据库的一张表数据有2千万，对这张表做增删改查要注意什么？](https://t.zsxq.com/053RRRFIa)
 - [技术词：“弹性ip”、“固定ip”、“csrf攻击”](https://t.zsxq.com/05yvvf27e)
+- [支付后无支付结果轮训查询&宽表数据查询](https://t.zsxq.com/05iMZjYfq)
