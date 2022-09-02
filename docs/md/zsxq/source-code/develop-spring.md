@@ -75,6 +75,7 @@ lock: no
 - [单例判断以及通过用户创建的FactoryBean实现复杂Bean对象的创建 By Ray](https://t.zsxq.com/057IyZj2r)
 - [第四章和第五章都是增加创建bean的流程学习和梳理图 By W](https://t.zsxq.com/05FAIUNvZ)
 - [在面向用户的应用上下文中设计事件 By Ray](https://t.zsxq.com/053BImQ7Q)
+- [另外关于BeanFactory这里多了很多接口，感觉马上复杂度要飙升！](https://t.zsxq.com/05e2z7uNV)
 
 ## 六、总结
 

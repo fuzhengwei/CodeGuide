@@ -108,6 +108,8 @@ lock: no
 - [将一个大事务拆分成几个小事务](https://t.zsxq.com/05RZRnayr)
 - [单库单表拆分到分库分表，数据迁移处理](https://t.zsxq.com/05NzvBAai)
 - [枚举字典表定义](https://t.zsxq.com/05feuVZf2)
+- [使用DDD重构的优势是什么？](https://t.zsxq.com/05eyJqjeI)
+- [分布式任务调度设计](https://t.zsxq.com/05uBa2VVF)
 
 ## 十、系统重构
 
