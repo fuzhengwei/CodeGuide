@@ -132,3 +132,4 @@ lock: no
 - [技术词：“弹性ip”、“固定ip”、“csrf攻击”](https://t.zsxq.com/05yvvf27e)
 - [支付后无支付结果轮训查询&宽表数据查询](https://t.zsxq.com/05iMZjYfq)
 - [Minio 案例](https://t.zsxq.com/05BEqRnei)、[Minio 使用](https://t.zsxq.com/05IQVJ2rz)
+- [如何优雅地调用受频率限制的第三方接口？](https://t.zsxq.com/05QnyFuVb)

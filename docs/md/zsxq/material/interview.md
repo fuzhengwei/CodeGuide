@@ -54,6 +54,7 @@ lock: no
 - [如果redis作为分布式锁的时候，主节点挂掉了，但是数据还没有同步到从节点，这种情况怎么办？](https://t.zsxq.com/05MjE2f6a)
 - [活动库存与奖品库存的配置关系](https://t.zsxq.com/05nQBiUZN)
 - [抽奖系统用到了分库分表，那目前市面上还有那些成熟的规则引擎组件？](https://t.zsxq.com/05rVNfurN)
+- [抽奖策略&斐波那契散列&活动库存&任务扫描时效性&并发编程场景](https://t.zsxq.com/05rbM7IYr)
 
 ### 2. 通用问题
 
