@@ -503,6 +503,7 @@ function genAlgorithmDataStructures() {
                 "2022-08-06-queue.md",
                 "2022-08-17-stack.md",
                 "2022-08-27-hash-table.md",
+                "2022-09-03-heap.md",
             ]
         }
     ]
