@@ -48,7 +48,8 @@ lock: no
 - [技术和业务19道面试题汇总](https://t.zsxq.com/05e662Vb2)
 - [抽奖和发奖关于库存的扣减，防超发漏发，监控和弥补有没有设计思路和流程图之类的，添加库存，扣减库存的操作日志怎么设计](https://t.zsxq.com/05YVjEYny)
 - [路由散列算法：idx / tbCount + 1 & idx - tbCount * (dbIdx - 1)](https://t.zsxq.com/05urRRzBi)
-- [Lottery项目的抽奖算法，抽奖概率是一百万怎么处理？](https://t.zsxq.com/05qFun6Uj)
+- [Lottery项目的抽奖算法，抽奖概率是100万怎么处理？](https://t.zsxq.com/05qFun6Uj)
+- [Lottery项目的抽奖算法，抽奖概率是100万的另外一种双色球设计？](https://t.zsxq.com/053ZrZZFU)
 - [Lottery向内部应用提供了RPC接口，那么当h5端需要提供一个http的请求，这个接口应该写在哪里呢](https://t.zsxq.com/05UrVfmQB)
 - [多种抽象策略是怎么注入使用的 | 手动、ist、注解、Map？](https://t.zsxq.com/05yfAiMji)
 - [如果redis作为分布式锁的时候，主节点挂掉了，但是数据还没有同步到从节点，这种情况怎么办？](https://t.zsxq.com/05MjE2f6a)
@@ -60,6 +61,12 @@ lock: no
 
 - [你工作中遇到过什么技术难题，是怎么解决的？](https://t.zsxq.com/05AuFmUz7)
 - [如何合理的配置mysql的连接数？](https://t.zsxq.com/053Fmaeyn)
+- [最近面试老被问一些开放场景题：](https://t.zsxq.com/05M3BAeIu)
+  1. 公司当业务量上来，是选择分库还是选择分表需要看那些指标？有哪些场景是分库分表不能解决的？
+  2. 我们要选择一款消息队列，应该考虑哪些方面？
+  3. 你平常用什么线程池，启动后你会看哪些参数？
+  4. 你如何保证需求如期交付？如果排期紧张怎么处理？
+  5. 你想找一份什么样的工作，如果我们公司不能满足你的要求你会怎么办？
 
 ### 3. 公司面试
 
