@@ -98,6 +98,7 @@ lock: no
 - [池化连接池执行过程 By JabesYang](https://t.zsxq.com/05AiEAMfu)
 - [学习数据源的创建和使用 By 🐱](https://t.zsxq.com/05a2zjYJM)
 - [一级缓存学习总结 By Chin](https://t.zsxq.com/05UFmMNrZ)
+- [第五章 数据源的创建、解析和使用 By 杨杨得亿🙉](https://t.zsxq.com/05QJYjEIE)
 
 ## 8. 总结，一点建议
 
