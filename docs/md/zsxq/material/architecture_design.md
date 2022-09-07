@@ -107,6 +107,7 @@ lock: no
 - [可以直接在领域层调用仓储服务吗？](https://t.zsxq.com/05iMVvN7m)
 - [将一个大事务拆分成几个小事务](https://t.zsxq.com/05RZRnayr)
 - [单库单表拆分到分库分表，数据迁移处理](https://t.zsxq.com/05NzvBAai)
+- [目前公司有个迁移老项目的任务，逐步替换掉不再使用的老系统](https://t.zsxq.com/05F2jamaI)
 - [枚举字典表定义](https://t.zsxq.com/05feuVZf2)
 - [使用DDD重构的优势是什么？](https://t.zsxq.com/05eyJqjeI)
 - [分布式任务调度设计](https://t.zsxq.com/05uBa2VVF)
@@ -133,3 +134,5 @@ lock: no
 - [支付后无支付结果轮训查询&宽表数据查询](https://t.zsxq.com/05iMZjYfq)
 - [Minio 案例](https://t.zsxq.com/05BEqRnei)、[Minio 使用](https://t.zsxq.com/05IQVJ2rz)
 - [如何优雅地调用受频率限制的第三方接口？](https://t.zsxq.com/05QnyFuVb)
+- [针对来自外部系统恶意异常访问怎么监控到呢？](https://t.zsxq.com/05rznqJay)
+- [java有没有什么办法能远程监控服务器的一些性能指标，比如cpu、内存使用率之类的？](https://t.zsxq.com/05YvVvNvN)
