@@ -219,3 +219,7 @@ Process finished with exit code 0
 - Java 中 LinkedList 使用的是单向链表、双向链表还是循环链表？
 - 链表中数据的插入、删除、获取元素，时间复杂度是多少？
 - 什么场景下使用链表更合适？
+
+## 七、读者作业
+
+- [https://t.zsxq.com/05BAqrrbY](https://t.zsxq.com/05BAqrrbY)

@@ -92,15 +92,7 @@ lock: no
 - [【难度★★★★☆】第19章：二级缓存](https://articles.zsxq.com/id_gviwjzv5h4wp.html)
 - [【难度★★★★☆】第20章：【作业】整合Spring](https://articles.zsxq.com/id_2pwtkmjixi73.html)
 
-## 7. 作业：优秀学员
-
-- [超清晰绘图拆解流程 By 课代表 阿羲 ⭐](https://t.zsxq.com/05vZ76aYr)
-- [池化连接池执行过程 By JabesYang](https://t.zsxq.com/05AiEAMfu)
-- [学习数据源的创建和使用 By 🐱](https://t.zsxq.com/05a2zjYJM)
-- [一级缓存学习总结 By Chin](https://t.zsxq.com/05UFmMNrZ)
-- [第五章 数据源的创建、解析和使用 By 杨杨得亿🙉](https://t.zsxq.com/05QJYjEIE)
-
-## 8. 总结，一点建议
+## 7. 总结，一点建议
 
 可能很多小伙伴的网盘都有几百G的资料的，但其实并没有时间去看，一方面是这些资料都是七七八八拼凑的，很难有一条完整的脉络，甚至有些资料已经过时了，只不过放在网盘里感觉心安一样。
 

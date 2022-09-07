@@ -194,3 +194,7 @@ Process finished with exit code 0
 3. ArrayList 中默认的初始化长度是多少？
 4. ArrayList 中扩容的范围是多大一次？
 5. ArrayList 是如何完成扩容的，System.arraycopy 各个入参的作用是什么？
+
+## 七、读者作业
+
+- [https://t.zsxq.com/05vVjaa6i](https://t.zsxq.com/05vVjaa6i)
