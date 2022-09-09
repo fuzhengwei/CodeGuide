@@ -57,6 +57,8 @@ lock: no
 - [部分数据访问权限](https://t.zsxq.com/05Y7euVBE)
 - [系统黑名单](https://t.zsxq.com/05MVZnYJi)
 - [导出大量Excel](https://t.zsxq.com/05aIaqjyF)
+- [现在有没有比较好用的分布式哈希表（DHT，Distributed Hash Table）](https://t.zsxq.com/05QZZjiiq)
+- [物联网平台数据推送设计](https://t.zsxq.com/05fAUfi2N)
 
 ## 七、通用设计
 
