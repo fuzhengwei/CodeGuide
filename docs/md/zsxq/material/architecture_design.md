@@ -113,6 +113,7 @@ lock: no
 - [枚举字典表定义](https://t.zsxq.com/05feuVZf2)
 - [使用DDD重构的优势是什么？](https://t.zsxq.com/05eyJqjeI)
 - [分布式任务调度设计](https://t.zsxq.com/05uBa2VVF)
+- [简化的DDD结构](https://t.zsxq.com/05vnuZfIu)
 
 ## 十、系统重构
 
