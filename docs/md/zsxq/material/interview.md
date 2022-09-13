@@ -65,6 +65,7 @@ lock: no
 - [抽奖系统包装到自己的电商业务中，描述案例](https://t.zsxq.com/05RniU7un)
 - [抽奖系统的领域事件有哪些？是如何实现的？](https://t.zsxq.com/05A6qfiun)
 - [结合美团DDD抽奖进行扩展](https://t.zsxq.com/05f2zVRfq)
+- [想问一下抽奖系统中，各个领域是按照什么划分的？有什么规则或标准么？](https://t.zsxq.com/06MRnYBaI)
 
 ### 2. 通用问题
 
