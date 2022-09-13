@@ -1389,6 +1389,7 @@ function getBarZSXQ() {
                 "material/architecture_design.md",
                 "material/interview.md",
                 "material/study-experience.md",
+                "material/exam.md",
             ]
         },
         {
