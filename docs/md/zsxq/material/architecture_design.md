@@ -139,3 +139,5 @@ lock: no
 - [如何优雅地调用受频率限制的第三方接口？](https://t.zsxq.com/05QnyFuVb)
 - [针对来自外部系统恶意异常访问怎么监控到呢？](https://t.zsxq.com/05rznqJay)
 - [java有没有什么办法能远程监控服务器的一些性能指标，比如cpu、内存使用率之类的？](https://t.zsxq.com/05YvVvNvN)
+- [老项目原来是用weblogic部署的项目，Hibernate 速度慢优化](https://t.zsxq.com/06Fuv7amq)
+- [业界在设计业务系统时，如何选择数据库的隔离级别，有没有什么标准，最常用的可重复读RR和读已提交RC使用场景是怎样的！目前我只感受到交易系统使用RC更合适，（又或者说什么场景使用RR）业界对这些场景有没有什么通用的选择方案吗](https://t.zsxq.com/06qBaaEUf)
