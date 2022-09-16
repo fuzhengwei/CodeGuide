@@ -66,6 +66,7 @@ lock: no
 - [抽奖系统的领域事件有哪些？是如何实现的？](https://t.zsxq.com/05A6qfiun)
 - [结合美团DDD抽奖进行扩展](https://t.zsxq.com/05f2zVRfq)
 - [想问一下抽奖系统中，各个领域是按照什么划分的？有什么规则或标准么？](https://t.zsxq.com/06MRnYBaI)
+- [现在的抽奖系统是可能存在活动刚上线，所有的奖品就被抽完了，问如何避免这种情况发生？](https://t.zsxq.com/06NZNzvrv)
 
 ### 2. 通用问题
 
