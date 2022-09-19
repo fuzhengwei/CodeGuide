@@ -17,6 +17,7 @@ lock: no
 ## 二、简历编写
 
 - [简历模板，工作1~3年、工作3~5年](https://t.zsxq.com/05rf2JUfY)
+- [面试自我介绍&个人描述模板](https://t.zsxq.com/06nQjiYVF)
 - [专业技能描述参考](https://t.zsxq.com/0537yjYNj)
 
 ## 三、面试问题
