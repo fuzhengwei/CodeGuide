@@ -505,6 +505,7 @@ function genAlgorithmDataStructures() {
                 "2022-08-27-hash-table.md",
                 "2022-09-03-heap.md",
                 "2022-09-14-trie.md",
+                "2022-09-18-tree.md",
             ]
         }
     ]
