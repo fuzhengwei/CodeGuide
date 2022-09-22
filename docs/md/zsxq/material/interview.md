@@ -82,6 +82,7 @@ lock: no
 - [系统定时任务超时需要排查什么？](https://t.zsxq.com/052nAaaQv)
 - [redis cluster模式下会通过一致性hash算法拆分成16384个slots槽，那这样，当其中某个节点挂了， 它上面存放的数据是不是就丢失了？](https://t.zsxq.com/052zB6Qf2)
 - [为什么mq用文件系统存储消息，不选择数据库等方式进行持久化，不同的方式有什么优缺点](https://t.zsxq.com/05qV3nMbe)
+- [想问一下各位，hr面问道你的缺点是什么，一般怎么回答？](https://t.zsxq.com/06qf6AqjM)
 
 ### 3. 公司面试
 
