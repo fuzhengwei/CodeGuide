@@ -142,3 +142,4 @@ lock: no
 - [老项目原来是用weblogic部署的项目，Hibernate 速度慢优化](https://t.zsxq.com/06Fuv7amq)
 - [业界在设计业务系统时，如何选择数据库的隔离级别，有没有什么标准，最常用的可重复读RR和读已提交RC使用场景是怎样的！目前我只感受到交易系统使用RC更合适，（又或者说什么场景使用RR）业界对这些场景有没有什么通用的选择方案吗](https://t.zsxq.com/06qBaaEUf)
 - [云原生是什么？](https://t.zsxq.com/06VnIeeUv)
+- [公司也有个需求合作方传过来的值和我们这边的值不一样，要做一一对应要求可扩展性强](https://t.zsxq.com/06qz7aunu)

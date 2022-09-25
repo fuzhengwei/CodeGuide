@@ -50,6 +50,7 @@ lock: no
 - [路由散列算法：idx / tbCount + 1 & idx - tbCount * (dbIdx - 1)](https://t.zsxq.com/05urRRzBi)
 - [Lottery项目的抽奖算法，抽奖概率是100万怎么处理？](https://t.zsxq.com/05qFun6Uj)
 - [Lottery项目的抽奖算法，抽奖概率是100万的另外一种双色球设计？](https://t.zsxq.com/053ZrZZFU)
+- [抽奖码，抽奖策略；类似这种抽奖活动，假定这个抽奖码是随机的6位数，也就是有1-999999这么多的抽签码，用户每次获取都是随机的抽奖码](https://t.zsxq.com/06buB2niu)
 - [Lottery向内部应用提供了RPC接口，那么当h5端需要提供一个http的请求，这个接口应该写在哪里呢](https://t.zsxq.com/05UrVfmQB)
 - [多种抽象策略是怎么注入使用的 | 手动、ist、注解、Map？](https://t.zsxq.com/05yfAiMji)
 - [如果redis作为分布式锁的时候，主节点挂掉了，但是数据还没有同步到从节点，这种情况怎么办？](https://t.zsxq.com/05MjE2f6a)
@@ -73,6 +74,7 @@ lock: no
 ### 2. 通用问题
 
 - [你工作中遇到过什么技术难题，是怎么解决的？](https://t.zsxq.com/05AuFmUz7)
+- [你是如何快速上手一门新技术的？](https://t.zsxq.com/06FAQR3Rv)
 - [如何合理的配置mysql的连接数？](https://t.zsxq.com/053Fmaeyn)
 - [最近面试老被问一些开放场景题：](https://t.zsxq.com/05M3BAeIu)
   1. 公司当业务量上来，是选择分库还是选择分表需要看那些指标？有哪些场景是分库分表不能解决的？
