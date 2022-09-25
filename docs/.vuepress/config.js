@@ -506,6 +506,7 @@ function genAlgorithmDataStructures() {
                 "2022-09-03-heap.md",
                 "2022-09-14-trie.md",
                 "2022-09-18-tree.md",
+                "2022-09-26-tree-avl.md",
             ]
         }
     ]
@@ -1130,6 +1131,7 @@ function genApiGateway() {
                 "2022-09-04-第4章：将连接抽象为数据源.md",
                 "2022-09-10-第5章：HTTP请求参数解析.md",
                 "2022-09-17-第6章：引入执行器封装服务调用.md",
+                "2022-09-25-第7章：权限认证组件.md",
             ]
         }
     ];
