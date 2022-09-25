@@ -68,6 +68,7 @@ lock: no
 - [结合美团DDD抽奖进行扩展](https://t.zsxq.com/05f2zVRfq)
 - [想问一下抽奖系统中，各个领域是按照什么划分的？有什么规则或标准么？](https://t.zsxq.com/06MRnYBaI)
 - [现在的抽奖系统是可能存在活动刚上线，所有的奖品就被抽完了，问如何避免这种情况发生？](https://t.zsxq.com/06NZNzvrv)
+- [面试的时候问到了，抽奖项目里边 接口间的幂等性是如何保证的？](https://t.zsxq.com/06mUvjA2N)
 
 ### 2. 通用问题
 
@@ -83,6 +84,7 @@ lock: no
 - [redis cluster模式下会通过一致性hash算法拆分成16384个slots槽，那这样，当其中某个节点挂了， 它上面存放的数据是不是就丢失了？](https://t.zsxq.com/052zB6Qf2)
 - [为什么mq用文件系统存储消息，不选择数据库等方式进行持久化，不同的方式有什么优缺点](https://t.zsxq.com/05qV3nMbe)
 - [想问一下各位，hr面问道你的缺点是什么，一般怎么回答？](https://t.zsxq.com/06qf6AqjM)
+- [小傅哥，校招面试的时候，面试官经常会问你的未来规划是什么？ 这一块该怎么回答比较好呢？](https://t.zsxq.com/067a237u7)
 
 ### 3. 公司面试
 
