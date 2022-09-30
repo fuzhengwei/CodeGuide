@@ -565,3 +565,4 @@ Process finished with exit code 0
 - [单例判断以及通过用户创建的FactoryBean实现复杂Bean对象的创建 @Ray](https://t.zsxq.com/057IyZj2r)
 - [Bean 对象作用域范围全貌梳理 @W](https://t.zsxq.com/05eiIMFMj)
 - [另开一中额外的prototype类型的bean，并进行特殊处理 @Chin](https://t.zsxq.com/05MFubAA6)
+- [起初对于 FactoryBean 模块其实理解的不是很充分，联想到 mybatis 的使用确实稍微能 get 到其设计的意义所在 @Weirdo](https://t.zsxq.com/067ufmeaE)

@@ -19,9 +19,10 @@ title: 目录
 ⏰ **提醒**：在接下来你对本博客的阅读中，如果遇到一些`内容`、`图稿`、`代码`等中的勘误都可以提交Issue或者PR的方式进行反馈，小傅哥会陆续进行完善，感谢您的支持；
 - Issue：[https://github.com/fuzhengwei/CodeGuide/issues](https://github.com/fuzhengwei/CodeGuide/issues)
 - PR：[https://github.com/fuzhengwei/CodeGuide/pulls](https://github.com/fuzhengwei/CodeGuide/pulls) - 你只需要在阅读文章的最下面找到`在 GitHub 上编辑此页`，即可完成克隆和提交PR
+- 考试：[100道八股题考试测验](https://bugstack.cn/md/zsxq/material/exam.html) —— 你可以尝试验证自己的能力，考题范围：数据结构、算法、源码、设计模式、系统架构、中间件、网络通信、实战项目、扩展问题
 - 本站为公众号往期文章整理的小册，关注`公众号`：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 可以知晓最新推文，避免错过最近正在更新的技术系列文章。
 - 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack` - 交个朋友👬🏻，不要错过成为技术同好的机会。
-- 加入星球：[码农会锁](https://t.zsxq.com/jAi2nUf) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
+- 加入星球：[码农会锁](https://bugstack.cn/md/zsxq/introduce.html) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/about/about-220605-06.png?raw=true" width="700px">

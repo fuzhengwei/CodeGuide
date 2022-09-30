@@ -13,6 +13,12 @@ pay: https://t.zsxq.com/Y72naAU
 - 分支：[211023_xfg_mq_kafka](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/211023_xfg_mq_kafka) 
 - 描述：搭建MQ消息组件Kafka服务环境，并整合到SpringBoot中，完成消息的生产和消费处理
 
+## 零、优秀作业
+
+- [使用MQ解耦抽奖发货流程 @BerserkD](https://t.zsxq.com/06E2NzrVJ)
+- [搭建MQ消息组件Kafka服务环境 @杨杨得亿🙉](https://t.zsxq.com/06Zb6623B)
+- [扫描库表补偿发货单MQ消息 @杨杨得亿🙉](https://t.zsxq.com/06v3JmYvr)
+
 ## 一、开发日志
 
 - 搭建 Kafka 环境，配置消息主题 *注意：MQ 消息的使用不非得局限于 Kafka，也可以使用 RocketMq*

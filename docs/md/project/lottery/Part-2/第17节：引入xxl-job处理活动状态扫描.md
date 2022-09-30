@@ -13,6 +13,11 @@ pay: https://t.zsxq.com/N3n6uNF
 - 分支：[211106_xfg_xxl-job](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/211106_xfg_xxl-job) 
 - 描述：引入XXL-JOB，分布式任务调度平台，处理需要使用定时任务解决的场景。
 
+## 零、优秀作业
+
+- [引入xxl-job处理活动状态扫描 @一点江南](https://t.zsxq.com/06A6AyFIa)
+- [引入xxl job处理活动状态扫描 @BerserkD](https://t.zsxq.com/06f2nie2V)
+
 ## 一、开发日志
 
 - 搭建 XXL-JOB 分布式任务调度环境，这里需要在官网：https://github.com/xuxueli/xxl-job/ 下载运行包，按照 Java SpringBoot 修改一些基本配置，项目启动即可。

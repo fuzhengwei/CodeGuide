@@ -87,6 +87,7 @@ lock: no
 - [为什么mq用文件系统存储消息，不选择数据库等方式进行持久化，不同的方式有什么优缺点](https://t.zsxq.com/05qV3nMbe)
 - [想问一下各位，hr面问道你的缺点是什么，一般怎么回答？](https://t.zsxq.com/06qf6AqjM)
 - [小傅哥，校招面试的时候，面试官经常会问你的未来规划是什么？ 这一块该怎么回答比较好呢？](https://t.zsxq.com/067a237u7)
+- [请问Spring中AbstractBeanDefinition的beanClass属性为什么用volatile修饰](https://t.zsxq.com/06uFA2FYZ)
 
 ### 3. 公司面试
 

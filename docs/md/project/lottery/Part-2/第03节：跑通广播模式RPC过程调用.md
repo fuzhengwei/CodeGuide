@@ -15,6 +15,20 @@ pay: https://t.zsxq.com/Ia6AUvj
 
 当基础的工程模块创建完成以后，还需要给整个工程注入`灵魂`，就是让它可以跑通。这个过程包括一个简单的 RPC 接口功能实现和测试调用，那么这里为了让功能体现出一个完整度，还会创建出一个库表在 RPC 调用的时候查询出库表中的数据并🔙返回结果。那么在这个分支上我们就先来完成这样一个内容的实现。
 
+## 零、优秀作业
+
+- [整合dubbo远程调用rpc测试的时候配置一开始没改导致报错 @卡布奇诺](https://t.zsxq.com/06JaiyFIm)
+- [被广播模式坑了下，放上我最后调通的配置 @蛋蛋🏃₄₂.₁₉₅ *](https://t.zsxq.com/06F2V3FqJ)
+- [跑通广播模式RPC过程调用 @一点江南](https://t.zsxq.com/06uB27eIu)
+- [跑通广播模式RPC过程调用 @numqin](https://t.zsxq.com/06R3rBEA2)
+- [RPC 问题排查：Failed to configure a DataSource: 'url' attribute is not specified @sky是清新色](https://t.zsxq.com/06uRvJema)
+- [问题排查：由于我本地的mysql是8.0版本，项目的jdbc版本较低，导致项目运行报错 @有生之年有幸相见](https://t.zsxq.com/06vbUNNbe)
+- [问题排查：在项目根目录install时出现“Unable to find main class”编译错误 @404](https://t.zsxq.com/06FaqVneM)
+- [问题排查：Error creating bean with name 'cn.itedus.lottery.test.ApiTest' @远航](https://t.zsxq.com/06rj6E6QZ)
+- [跑通广播模式RPC过程调用 @Geroge Liu](https://t.zsxq.com/06B2NFMBm)
+- [跑通广播模式RPC过程调用 @一行。](https://t.zsxq.com/06rjuNFYR)
+- [抽奖系统第3-5打卡学习 @CCAT](https://t.zsxq.com/06VRNZfe2)
+
 ## 一、创建抽奖活动表
 
 在抽奖活动的设计和开发过程中，会涉及到的表信息包括：活动表、奖品表、策略表、规则表、用户参与表、中奖信息表等，这些都会在我们随着开发抽奖的过程中不断的添加出来这些表的创建。
