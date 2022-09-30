@@ -26,6 +26,9 @@ pay: https://t.zsxq.com/jUbmeE2
 - [问题：DDD是要解决什么问题，或者说为什么要使用DDD？](https://t.zsxq.com/06Vzni6yv)
 - [入手项目，学习DDD架构的思想，动手写代码构建项目 @Chin](https://t.zsxq.com/06uBuFe2V)
 - [疑问：领域层包与包之间是完全隔离的么？通信是不是都要通过应用层（application）编排调用，或发送事件？ @在下不才](https://t.zsxq.com/06BMR3RR3)
+- [认识DDD：习惯MVC模式，对于DDD有些不理解 @Tong Hui](https://t.zsxq.com/06IIaQNZz)
+- [配置项目环境，跑通项目代码、学习DDD架构思想 @HL](https://t.zsxq.com/06ufUBmuB)
+- [了解环境，配置，规范，搭建DDD+RPC架构 @xbhog](https://t.zsxq.com/06maiQVNb)
 
 ## DDD 分层架构介绍
 

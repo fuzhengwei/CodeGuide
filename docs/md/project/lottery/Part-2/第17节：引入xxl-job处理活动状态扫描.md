@@ -17,6 +17,9 @@ pay: https://t.zsxq.com/N3n6uNF
 
 - [引入xxl-job处理活动状态扫描 @一点江南](https://t.zsxq.com/06A6AyFIa)
 - [引入xxl job处理活动状态扫描 @BerserkD](https://t.zsxq.com/06f2nie2V)
+- [学习xxljob，使用xxljob实现扫描活动状态并更新 @Chin](https://t.zsxq.com/06ZzFuVBY)
+- [引入xxl-job处理活动状态扫描 @Geroge Liu](https://t.zsxq.com/06eeII2fy)
+- [引入xxl-job处理活动状态扫描 @liuc](https://t.zsxq.com/067yvVfIE)
 
 ## 一、开发日志
 

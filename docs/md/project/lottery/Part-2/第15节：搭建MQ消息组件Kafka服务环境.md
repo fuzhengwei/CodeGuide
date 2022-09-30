@@ -18,6 +18,8 @@ pay: https://t.zsxq.com/Y72naAU
 - [使用MQ解耦抽奖发货流程 @BerserkD](https://t.zsxq.com/06E2NzrVJ)
 - [搭建MQ消息组件Kafka服务环境 @杨杨得亿🙉](https://t.zsxq.com/06Zb6623B)
 - [扫描库表补偿发货单MQ消息 @杨杨得亿🙉](https://t.zsxq.com/06v3JmYvr)
+- [搭建MQ消息组件Kafka服务环境 @Geroge Liu](https://t.zsxq.com/06fQrVVNJ)
+- [搭建MQ消息组件Kafka服务环境 @liuc](https://t.zsxq.com/06VzrvZji)
 
 ## 一、开发日志
 
