@@ -1,9 +1,9 @@
 ---
-title: 第2章：数组
+title: 数组 Array
 lock: need
 ---
 
-# 《Java 数据结构和算法》第2章：数组
+# 数组 Array
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -23,7 +23,9 @@ lock: need
 
 数组（Array）是一种线性表数据结构。它用一组连续的内存空间，来存储一组具有相同类型数据的集合。
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-01.png?raw=true" width="500px">
+</div>
 
 数组的特点：
 1. 数组是相同数据类型的元素集合（int 不能存放 double）

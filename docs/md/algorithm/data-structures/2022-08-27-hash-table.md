@@ -1,9 +1,9 @@
 ---
-title: 第5章：哈希表(散列)
+title: 哈希表(散列) Hash
 lock: need
 ---
 
-# 《Java 数据结构和算法》第5章：哈希表(散列)
+# 哈希表(散列) Hash
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -23,7 +23,9 @@ lock: need
 
 这是什么意思呢？通过我们使用数组存放元素，都是按照顺序存放的，当需要获取某个元素的时候，则需要对数组进行遍历，获取到指定的值。如图所示；
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220824-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220824-01.png?raw=true" width="600px">
+</div>
 
 而这样通过循环遍历比对获取指定元素的操作，时间复杂度是O(n)，也就是说如果你的业务逻辑实现中存在这样的代码是非常拉胯的。那怎么办呢？这就引入了哈希散列表的设计。
 
@@ -33,11 +35,15 @@ lock: need
 
 也就是说我们通过对一个 Key 值计算它的哈希并与长度为2的n次幂的数组减一做与运算，计算出槽位对应的索引，将数据存放到索引下。那么这样就解决了当获取指定数据时，只需要根据存放时计算索引ID的方式再计算一次，就可以把槽位上对应的数据获取处理，以此达到时间复杂度为O(1)的情况。如图所示；
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220824-02.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220824-02.png?raw=true" width="600px">
+</div>
 
 哈希散列虽然解决了获取元素的时间复杂度问题，但大多数时候这只是理想情况。因为随着元素的增多，很可能发生哈希冲突，或者哈希值波动不大导致索引计算相同，也就是一个索引位置出现多个元素情况。如图所示；
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220824-03.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220824-03.png?raw=true" width="600px">
+</div>
 
 当`李二狗`、`拎瓢冲`都有槽位的下标索引03的 `叮裆猫` 发生冲突时，情况就变得糟糕了，因为这样就不能满足O(1)时间复杂度获取元素的诉求了。
 
@@ -79,7 +85,9 @@ public class HashMap01<K, V> implements Map<K, V> {
 }
 ```
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220824-04.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220824-04.png?raw=true" width="600px">
+</div>
 
 - HashMap01 的实现只是通过哈希计算出的下标，散列存放到固定的数组内。那么这样当发生元素下标碰撞时，原有的元素就会被新的元素替换掉。
 
@@ -100,7 +108,9 @@ public void test_hashMap01() {
 }
 ```
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220824-05.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220824-05.png?raw=true" width="700px">
+</div>
 
 ```java
 06:58:41.691 [main] INFO cn.bugstack.algorithms.test.AlgorithmsTest - 碰撞前 key：01 value：花花

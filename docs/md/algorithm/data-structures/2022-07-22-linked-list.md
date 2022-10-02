@@ -1,9 +1,9 @@
 ---
-title: 第1章：链表
+title: 链表 Link List
 lock: need
 ---
 
-# 《Java 数据结构和算法》第1章：链表
+# 链表 Link List
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/algorithm/algorithms-220723-00.png?raw=true">
@@ -28,7 +28,9 @@ lock: need
 
 在计算机科学中，链表是数据元素的线性集合，元素的线性顺序不是由它们在内存中的物理地址给出的。它是由一组节点组成的数据结构，每个元素指向下一个元素，这些节点一起，表示线性序列。
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220723-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220723-01.png?raw=true" width="500px">
+</div>
 
 在最简单的链表结构下，每个节点由数据和指针（存放指向下一个节点的指针）两部分组成，这种数据结构允许在迭代时有效地从序列中的任何位置插入或删除元素。
 

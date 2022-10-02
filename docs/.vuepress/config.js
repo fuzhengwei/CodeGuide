@@ -47,7 +47,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "bugstack 虫洞栈, DDD抽奖系统，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，面试题，API网关，SpringBoot Stater"
+            content: "bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，面试题，API网关，SpringBoot Stater"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ['script',
@@ -494,7 +494,7 @@ module.exports = {
 function genAlgorithmDataStructures() {
     return [
         {
-            title: "数据结构",
+            title: "线性数据结构",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -503,12 +503,22 @@ function genAlgorithmDataStructures() {
                 "2022-08-06-queue.md",
                 "2022-08-17-stack.md",
                 "2022-08-27-hash-table.md",
+            ]
+        },
+        {
+            title: "树形数据结构",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2022-09-03-heap.md",
                 "2022-09-14-trie.md",
                 "2022-09-18-tree.md",
                 "2022-09-26-tree-avl.md",
+                "2022-10-01-tree-2-3.md",
+                "2022-10-02-tree-red-black.md",
             ]
         }
+
     ]
 }
 
