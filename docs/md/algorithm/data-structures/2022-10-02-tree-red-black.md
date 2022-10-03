@@ -71,7 +71,7 @@ public class Node {
 相比于AVL树通过左右旋转平衡树高，红黑树则是在2-3树的基础上，只对黑色节点维护树高，所以它会使用到染色和左右旋来对树高调衡。*染色与左右旋相比，减少了平衡操作*
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms)
-- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/stack](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/tree)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/tree](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/tree)
 - 动画演示：[https://www.cs.usfca.edu/~galles/visualization/RedBlack.html](https://www.cs.usfca.edu/~galles/visualization/RedBlack.html)—— 红黑树初次理解还是比较困难的，可以结合学习内容的同时做一些动画演示。
 
 ### 1. 左倾染色
