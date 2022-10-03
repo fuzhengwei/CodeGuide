@@ -517,6 +517,14 @@ function genAlgorithmDataStructures() {
                 "2022-10-01-tree-2-3.md",
                 "2022-10-02-tree-red-black.md",
             ]
+        },
+        {
+            title: "图论",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-03-graph.md",
+            ]
         }
 
     ]
