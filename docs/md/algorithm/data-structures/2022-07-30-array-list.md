@@ -38,7 +38,9 @@ lock: need
 
 ### 2. 二维数组
 
-![二维数组](https://bugstack.cn/images/article/algorithm/algorithms-220730-02.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-02.png?raw=true" width="500px">
+</div>
 
 二维以及多维数组，在开发场景中使用到的到不是不多，不过在一些算法逻辑，数学计算中到是可以使用。
 
@@ -76,7 +78,9 @@ transient Object[] elementData;
 
 ### 2. 添加元素
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-03.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-03.png?raw=true" width="500px">
+</div>
 
 ```java
 public boolean add(E e) {
@@ -111,7 +115,9 @@ public boolean add(E e) {
 
 ArrayList 的重点离不开对 System.arraycopy 的使用，它是一个本地方法，可以让你从原数组的特定位置，迁移到新数组的指定位置和迁移数量。如图 2-5 所示，数据迁移 *测试代码在 java-algorithms*
 
-![图 2-5](https://bugstack.cn/images/article/algorithm/algorithms-220730-05.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-05.png?raw=true" width="500px">
+</div>
 
 **删除元素**
 
@@ -177,7 +183,9 @@ public void test_array_list() {
 
 **测试结果**
 
-![](https://bugstack.cn/images/article/algorithm/algorithms-220730-06.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-06.png?raw=true" width="500px">
+</div>
 
 ```java
 ArrayList{elementData=[01, 02, 03, 04, 05, 06, 07, 08, 09, 10, 11, 12, null, null, null], size=12}

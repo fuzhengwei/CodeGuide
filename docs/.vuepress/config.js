@@ -516,6 +516,7 @@ function genAlgorithmDataStructures() {
                 "2022-09-26-tree-avl.md",
                 "2022-10-01-tree-2-3.md",
                 "2022-10-02-tree-red-black.md",
+                "2022-10-04-disjoint-set.md",
             ]
         },
         {
@@ -525,8 +526,15 @@ function genAlgorithmDataStructures() {
             children: [
                 "2022-10-03-graph.md",
             ]
+        },
+        {
+            title: "其他",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-05-bloom-filter.md",
+            ]
         }
-
     ]
 }
 
