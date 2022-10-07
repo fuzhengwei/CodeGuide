@@ -189,7 +189,7 @@ module.exports = {
                         items: [
                             {
                                 text: '数据结构',
-                                link: '/md/algorithm/data-structures/2022-07-22-linked-list.md'
+                                link: '/md/algorithm/data-structures/data-structures.md'
                             },
                             {
                                 text: '算法主题',
@@ -493,6 +493,14 @@ module.exports = {
 // algorithm/data-structures
 function genAlgorithmDataStructures() {
     return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "data-structures.md",
+            ]
+        },
         {
             title: "线性数据结构",
             collapsable: false,
