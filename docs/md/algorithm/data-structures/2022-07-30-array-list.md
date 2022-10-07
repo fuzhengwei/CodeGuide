@@ -51,7 +51,7 @@ lock: need
 那么本章节我们就借着数组结构的学习，实现一个简单的 ArrayList，让使用 Java 的读者既能了解学习数据结构，也能了解到 Java 源码实现。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms) - `Java 算法与数据结构`
-- 本章源码：[https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/array/ArrayList.java](https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/array/ArrayList.java)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/array_list](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/array_list)
 
 ### 1. 基本设计
 

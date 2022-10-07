@@ -58,7 +58,7 @@ lock: need
 好，那么介绍了这么多，小傅哥带着大家做几个关于哈希散列的数据结构，通过实践来了解会更加容易搞懂。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms)- `Java 算法与数据结构`
-- 本章源码：[https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/hash/Map.java](https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/hash/Map.java)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/hash_table](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/hash_table)
 - 扩展资料：[《Java 面经手册》](https://bugstack.cn/md/java/interview/2020-08-07-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C%20%C2%B7%20%E7%AC%AC3%E7%AF%87%E3%80%8AHashMap%E6%A0%B8%E5%BF%83%E7%9F%A5%E8%AF%86%EF%BC%8C%E6%89%B0%E5%8A%A8%E5%87%BD%E6%95%B0%E3%80%81%E8%B4%9F%E8%BD%BD%E5%9B%A0%E5%AD%90%E3%80%81%E6%89%A9%E5%AE%B9%E9%93%BE%E8%A1%A8%E6%8B%86%E5%88%86%EF%BC%8C%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E3%80%8B.html) - 本章涉及到的拉链寻址、开放寻址在 Java API 中的 HashMap、ThreadLocal 有完整实现，同时涉及了扰动函数、负载因子、斐波那契散列，可以扩展学习。
 
 ### 1. 哈希碰撞

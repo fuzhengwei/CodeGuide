@@ -71,7 +71,7 @@ lock: need
 所以我们在学习的过程中，以使用 Java 程序员本身常用的语言来分析学习，并通过简化结构的方式把 LinkedList 手写实现，让读者更能方便的理解链表。
 
 - 源码地址：[https://github.com/fuzhengwei/java-algorithms](https://github.com/fuzhengwei/java-algorithms) - `Java 算法与数据结构`
-- 本章源码：[https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/linked/LinkedList.java](https://github.com/fuzhengwei/java-algorithms/blob/main/data-structures/src/main/java/cn/bugstack/algorithms/data/linked/LinkedList.java)
+- 本章源码：[https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/linked_list](https://github.com/fuzhengwei/java-algorithms/tree/main/data-structures/src/main/java/linked_list)
 
 ### 1. 链表节点
 
