@@ -414,6 +414,10 @@ module.exports = {
                                         link: 'http://pan.bugstack.cn/?dl=431e114a26f810655d29b6dea54a680f'
                                     },
                                     {
+                                        text: '免费《【倚天村 • 图解数据结构】》(密码：0SjbAlPa)',
+                                        link: 'http://pan.bugstack.cn/?dl=dbed614f318bf9fc9d3b034ba9502a3c'
+                                    },
+                                    {
                                         text: '付费《Java 面经手册》',
                                         link: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
                                     },
