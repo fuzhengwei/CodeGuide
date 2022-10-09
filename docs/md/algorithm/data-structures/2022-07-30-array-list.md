@@ -42,7 +42,7 @@ lock: need
     <img src="https://bugstack.cn/images/article/algorithm/algorithms-220730-02.png?raw=true" width="500px">
 </div>
 
-二维以及多维数组，在开发场景中使用到的到不是不多，不过在一些算法逻辑，数学计算中到是可以使用。
+二维以及多维数组，在开发场景中使用到的到是不多，不过在一些算法逻辑，数学计算中到是可以使用。
 
 ## 三、实现数组列表
 
