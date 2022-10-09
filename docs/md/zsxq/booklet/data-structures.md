@@ -80,22 +80,6 @@ lock: need
 
 这是一本**免费**的基础资料类PDF，但在创作上力求精良、易懂、好学。之所以创作这样的免费基础类资料，是因为小傅哥希望更多的研发人员在这些内容学习上，都可以夯实根基。
 
-- **公众号下载**：关注公众号【`bugstack虫洞栈`】—— 回复【`数据结构`】即可下载最新版本PDF和配套源码
-- **加好友入群**：数据结构的学习是个长久的事情，且需要讨论交流。—— 同时即将开启《屠龙村 • 图解算法逻辑》欢迎加入围观。**可以添加小傅哥微信【fustack】备注【数据结构入群】**
-- **其他项目资料**：扫码加入小傅哥的**知识星球**，除了基础内容的积累学习，还需要把基础知识在源码和项目中实战，运用起来才能掌握的住。—— 很多知识不会不是因为难，而是没人帮你打开眼界。
-
-  <div align="center">
-      <img src="https://bugstack.cn/assets/images/zsxq/zsxq-join-01.png" width="450px">
-      <br/>
-      <div style="font-size: 9px;">关注小傅哥的公众号【bugstack虫洞栈】回复【星球】也可以领取专属优惠券</div>
-      <br/>
-  </div>
-  
-  - 实战项目：[Lottery 分布式抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)、[Api网关【进行Ing】](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)
-  - 技术小册：[Java 面经手册](https://t.zsxq.com/05YZZjq7m)、[IDEA Plugin 开发手册](https://t.zsxq.com/05ufmQnA2)、[字节码编程](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)
-  - 手撕源码：[手写Spring：渐进式源码实践](https://t.zsxq.com/05Vvbmq7a)、[手写Mybatis：渐进式源码实践](https://t.zsxq.com/05bmqNFQ7)
-
----
+**公众号下载**：[https://t.zsxq.com/06bMjiiy7](https://t.zsxq.com/06bMjiiy7)
 
 **每一本原创资料的PDF输出，都要在1~3个月甚至半年时间；整理资料、编写文章、开发代码，再到PDF的封面的设计和内容的归纳。** 也因此希望读者伙伴可以在获取资料的同时，**留言**、**分享**、**点赞**支持，我非常需要你的帮忙！非常感谢！
-

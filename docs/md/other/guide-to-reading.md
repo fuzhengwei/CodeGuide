@@ -60,8 +60,8 @@ title: 目录
 
 ## 三、算法
 
-- 地址：[Java 数据结构和算法](https://bugstack.cn/md/algorithm/data-structures/2022-07-22-linked-list.html)
-- 介绍：以Java源码为基础，结合使用场景，学习数据结构和算法
+- 地址：[Java 数据结构和算法](https://bugstack.cn/md/algorithm/data-structures/data-structures.html)
+- 介绍：以Java源码为基础，结合使用场景，学习数据结构和算法。涵盖4类14种数据结构，包括：链表、数组、队列、堆栈、哈希表、堆、字典树、二分搜索树、平衡二叉树、2-3树、红黑树、并查集、图、布隆过滤器。
 
 ## 四、Java
 
