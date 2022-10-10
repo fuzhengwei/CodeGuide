@@ -79,5 +79,6 @@ lock: need
 ### 3. 下载PDF📚【免费】
 
 **下载**：[https://t.zsxq.com/06bMjiiy7](https://t.zsxq.com/06bMjiiy7)
+**源码**：[https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms](https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms)
 
 **每一本原创资料的PDF输出，都要在1~3个月甚至半年时间；整理资料、编写文章、开发代码，再到PDF的封面的设计和内容的归纳。** 也因此希望读者伙伴可以在获取资料的同时，**留言**、**分享**、**点赞**支持，我非常需要你的帮忙！非常感谢！
