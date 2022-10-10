@@ -54,6 +54,7 @@ lock: no
 - [Java 面经手册](https://bugstack.cn/md/zsxq/booklet/java-interview.html)
 - [IDEA Plugin 开发手册](https://bugstack.cn/md/zsxq/booklet/idea-plugin.html)
 - [字节码编程 | ASM、Javassist、Byte-Buddy](https://bugstack.cn/md/zsxq/booklet/bytecode.html)
+- [倚天村 • 图解数据结构](https://bugstack.cn/md/zsxq/booklet/data-structures.html)
 
 #### 1.3 手撕源码
 
