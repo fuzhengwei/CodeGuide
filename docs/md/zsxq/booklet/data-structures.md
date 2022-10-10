@@ -76,9 +76,9 @@ lock: need
 
 本书虽然是源码分析、理论实践，但并不会让读者感觉枯燥。作者：小傅哥，在每一篇的知识里都通过对数据结构的实践和配图来讲解。小伙伴在阅读的时候可以对照源码实践，并且在源码中还包括了一些必备的原图稿件方便做笔记。希望这本书彻底教会你数据结构，也让所有**认真阅读的读者**，学习后都能`让懂了就是真的懂`！
 
-### 3. 下载PDF📚【免费】
+### 3. 下载PDF📚
 
-**下载**：[https://t.zsxq.com/06bMjiiy7](https://t.zsxq.com/06bMjiiy7)
-**源码**：[https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms](https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms)
+- **下载**：[https://t.zsxq.com/06bMjiiy7](https://t.zsxq.com/06bMjiiy7)
+- **源码**：[https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms](https://gitcode.net/KnowledgePlanet/algorithms/java-algorithms)
 
 **每一本原创资料的PDF输出，都要在1~3个月甚至半年时间；整理资料、编写文章、开发代码，再到PDF的封面的设计和内容的归纳。** 也因此希望读者伙伴可以在获取资料的同时，**留言**、**分享**、**点赞**支持，我非常需要你的帮忙！非常感谢！
