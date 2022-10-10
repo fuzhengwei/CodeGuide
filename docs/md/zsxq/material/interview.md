@@ -89,6 +89,7 @@ lock: no
 - [想问一下各位，hr面问道你的缺点是什么，一般怎么回答？](https://t.zsxq.com/06qf6AqjM)
 - [小傅哥，校招面试的时候，面试官经常会问你的未来规划是什么？ 这一块该怎么回答比较好呢？](https://t.zsxq.com/067a237u7)
 - [请问Spring中AbstractBeanDefinition的beanClass属性为什么用volatile修饰](https://t.zsxq.com/06uFA2FYZ)
+- [Redis能替代Mysql吗？简单说说为什么不能？](https://t.zsxq.com/06nQJEM72)
 
 ### 3. 公司面试
 

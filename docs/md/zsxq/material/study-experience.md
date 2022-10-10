@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好，作为一个从事java开发三个月的新人，对于Spring全家桶、mybatis也局限于使用，不懂原理](https://t.zsxq.com/06EeMbUrR)
 - [小傅哥好，大家好，我是24年毕业的软工本科生。](https://t.zsxq.com/06iIu7ujU)
 - [祝各位国庆节快乐哈！本身17年普通二本大学科班毕业，主要从事Java方面的开发](https://t.zsxq.com/06AiQnYfU)
 - [我是2015年7月份毕业的，计算机毕业，刚开始第一年在深圳的银行做外包项目](https://t.zsxq.com/06FIEmEey)
