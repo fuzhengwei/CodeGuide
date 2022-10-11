@@ -90,6 +90,7 @@ lock: no
 - [小傅哥，校招面试的时候，面试官经常会问你的未来规划是什么？ 这一块该怎么回答比较好呢？](https://t.zsxq.com/067a237u7)
 - [请问Spring中AbstractBeanDefinition的beanClass属性为什么用volatile修饰](https://t.zsxq.com/06uFA2FYZ)
 - [Redis能替代Mysql吗？简单说说为什么不能？](https://t.zsxq.com/06nQJEM72)
+- [手撸spring、手撸MyBatis如何体现在简历上？小傅哥可以给个Demo吗](https://t.zsxq.com/06IU3FEEA)
 
 ### 3. 公司面试
 
@@ -109,6 +110,7 @@ lock: no
 ### 5. 上岸记录
 
 - [实习末班车上岸字节【北京某211大学本科2023届】](https://t.zsxq.com/05RfemUFu)
+- [秋招面试经历](https://t.zsxq.com/06AaI2r7q)
 
 ### 6. 读者经验
 
