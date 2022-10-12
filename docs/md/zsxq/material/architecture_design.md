@@ -144,3 +144,4 @@ lock: no
 - [云原生是什么？](https://t.zsxq.com/06VnIeeUv)
 - [公司也有个需求合作方传过来的值和我们这边的值不一样，要做一一对应要求可扩展性强](https://t.zsxq.com/06qz7aunu)
 - [服务多租户场景使用](https://t.zsxq.com/06ZfmqnmY)
+- [加强产品配置信息的校验，不使用 if···else、validation 可以怎么做？](https://t.zsxq.com/06fMvf6M7)
