@@ -114,6 +114,7 @@ lock: no
 - [使用DDD重构的优势是什么？](https://t.zsxq.com/05eyJqjeI)
 - [分布式任务调度设计](https://t.zsxq.com/05uBa2VVF)
 - [简化的DDD结构](https://t.zsxq.com/05vnuZfIu)
+- [开发一个大系统，包括条码系统、MES系统、OA系统、客户管理系统、供应商管理系统等，架构分层思路](https://t.zsxq.com/06NBAeaA6)
 
 ## 十、系统重构
 
