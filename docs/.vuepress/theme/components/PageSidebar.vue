@@ -58,7 +58,7 @@
         <span class="show-txt">左栏</span>
       </div>
 
-      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)">
+      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://wx.zsxq.com/dweb2/index/group/48411118851818','_blank')">
         <img class="nozoom" src="/images/system/xingqiu.png" width="25px" />
         <span class="show-txt">星球</span>
         <div class="toc-container">

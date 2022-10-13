@@ -37,7 +37,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 
 - [100道八股题考试测验](https://bugstack.cn/md/zsxq/material/exam.html) —— 考题范围：数据结构、算法、源码、设计模式、系统架构、中间件、网络通信、实战项目、扩展问题
 - [面试题汇总](https://bugstack.cn/md/zsxq/material/interview.html)：汇总关于面试问题、简历编写、上岸总结、招聘信息等内容
-- [简历模板](http://pan.bugstack.cn/?dl=0599585a4e691adc7137ea9cb25c087f)：你可以在学习掌握博客中的技术以及大厂项目，按照简历模板的格式，包装和调整成你需要的简历内容，挺高面试通过率。
+- [简历模板](http://pan.bugstack.cn/?dl=0599585a4e691adc7137ea9cb25c087f)：你可以在学习掌握博客中的技术以及大厂项目，按照简历模板的格式，包装和调整成你需要的简历内容，提高面试通过率。
 
 ## PDF
 
