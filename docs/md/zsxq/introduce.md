@@ -56,22 +56,22 @@ lock: no
 		<tr>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/077EQfQfY" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07bMjiiy7" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07Yz3zFIa" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07f2n2biI" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png">
 				</a>
 			</td>
 		</tr>
@@ -84,22 +84,22 @@ lock: no
 		<tr>
 			<td style="text-align: center;" >
 				<a href="https://t.zsxq.com/07bmqNFQ7" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07Vvbmq7a" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07ufmQnA2" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png">
 				</a>
 			</td>
 			<td style="text-align: center;">
 				<a href="https://t.zsxq.com/07YZZjq7m" target="_blank" rel="noopener noreferrer">
-					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png" loading="lazy" class="lazy" style="cursor:pointer;" src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png">
 				</a>
 			</td>
 		</tr>
