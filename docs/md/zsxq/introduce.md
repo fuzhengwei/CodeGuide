@@ -43,6 +43,75 @@ lock: no
 
 而加入星球就可以学习到小傅哥为你编写的在大厂水平以上的实战项目，包括你会学习到：分布式架构、微服务设计、领域驱动设计、设计模式时间、规则引擎决策树、秒杀分段锁、API网关通信等等，只有加入大厂才能学习到的核心技能。
 
+<table>
+	<thead>
+		<tr>
+			<th style="text-align: center;">数据结构(算法)</th>
+			<th style="text-align: center;">八股题库</th>
+			<th style="text-align: center;">手撕源码</th>
+			<th style="text-align: center;">实战项目</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/077EQfQfY" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-01.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07bMjiiy7" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-02.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07Yz3zFIa" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-03.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07f2n2biI" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-04.png">
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/077EQfQfY" target="_blank" rel="noopener noreferrer">基于 Netty 构建 RPC 注册提供 HTTP 网络请求处理</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07bMjiiy7" target="_blank" rel="noopener noreferrer">基于Java源码，讲解数据结构和算法的实际场景运用</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07Yz3zFIa" target="_blank" rel="noopener noreferrer">基于DDD领域驱动设计与设计模式结合使用的四层架构实践</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07f2n2biI" target="_blank" rel="noopener noreferrer">通过DDD领域驱动设计，构建IM网络通信服务</a></td>
+		</tr>
+		<tr>
+			<td style="text-align: center;" >
+				<a href="https://t.zsxq.com/07bmqNFQ7" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-05.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07Vvbmq7a" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-06.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07ufmQnA2" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-07.png">
+				</a>
+			</td>
+			<td style="text-align: center;">
+				<a href="https://t.zsxq.com/07YZZjq7m" target="_blank" rel="noopener noreferrer">
+					<img alt="" data-src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png" loading="lazy" class="lazy medium-zoom-image" src="https://bugstack.cn/images/system/zsxq/zsxq-project-08.png">
+				</a>
+			</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07bmqNFQ7" target="_blank" rel="noopener noreferrer">拆解功能、简化流程、渐进实现，让读者更加容易学会</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07Vvbmq7a" target="_blank" rel="noopener noreferrer">拆解功能、简化流程、渐进实现，让读者更加容易学会</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07ufmQnA2" target="_blank" rel="noopener noreferrer">通过案例串联IDEA Plugin开发技巧，讲解IDEA Plugin技术</a></td>
+			<td style="text-align: center;"><a href="https://t.zsxq.com/07YZZjq7m" target="_blank" rel="noopener noreferrer">此小册不是单纯的面试题，而是深入讲解Java核心技术</a></td>
+		</tr>
+	</tbody>
+</table>
+
 #### 1.1 实战项目
 
 - [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
