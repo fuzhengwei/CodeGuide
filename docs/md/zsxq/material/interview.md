@@ -71,6 +71,7 @@ lock: no
 - [现在的抽奖系统是可能存在活动刚上线，所有的奖品就被抽完了，问如何避免这种情况发生？](https://t.zsxq.com/06NZNzvrv)
 - [面试的时候问到了，抽奖项目里边 接口间的幂等性是如何保证的？](https://t.zsxq.com/06mUvjA2N)
 - [像抽奖系统这种ddd架构的项目一般是怎么开发的？开发周期是多久？](https://t.zsxq.com/067aqrFqF)
+- [规则条件，跟需要过滤的数据不在一张表中，那实际业务中该怎么根据规则引擎去筛选符合条件的数据？](https://t.zsxq.com/07E6YzZf6)
 
 ### 2. 通用问题
 
@@ -91,6 +92,7 @@ lock: no
 - [请问Spring中AbstractBeanDefinition的beanClass属性为什么用volatile修饰](https://t.zsxq.com/06uFA2FYZ)
 - [Redis能替代Mysql吗？简单说说为什么不能？](https://t.zsxq.com/06nQJEM72)
 - [手撸spring、手撸MyBatis如何体现在简历上？小傅哥可以给个Demo吗](https://t.zsxq.com/06IU3FEEA)
+- [面试被问如何设计生成8位纯数字的优惠券码，每次生成8000个，需要不重复](https://t.zsxq.com/07f27mi2n)
 
 ### 3. 公司面试
 
