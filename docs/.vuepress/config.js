@@ -291,7 +291,7 @@ module.exports = {
                                 link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
                             },
                             {
-                                text: 'IDEA-Plugin',
+                                text: 'IDEA Plugin 开发手册',
                                 link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
                             },
                             {
