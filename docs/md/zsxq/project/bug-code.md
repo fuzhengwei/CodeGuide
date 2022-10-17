@@ -13,9 +13,6 @@ lock: no
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?aid=816712453&bvid=BV1RG4y1n7Ep&cid=863241955&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-作者：小傅哥
-<br/>博客：[https://bugstack.cn](https://bugstack.cn)
-
 ## 一、前言
 
 看到星球VIP群，读者伙伴分享的面试真实场景问题和讨论，发现很多没经过太多编码的研发伙伴，可能并没有看到过这样的异常，所以理解起来也有些困难。那么为了让大家更好的吸收这些实战经验，小傅哥特此创建这样一个 Bug-Code 仓库，用于给星球读者积累一些工作中常见的异常复现，积累编程经验。
