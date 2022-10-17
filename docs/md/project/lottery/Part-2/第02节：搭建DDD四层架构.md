@@ -29,6 +29,7 @@ pay: https://t.zsxq.com/jUbmeE2
 - [认识DDD：习惯MVC模式，对于DDD有些不理解 @Tong Hui](https://t.zsxq.com/06IIaQNZz)
 - [配置项目环境，跑通项目代码、学习DDD架构思想 @HL](https://t.zsxq.com/06ufUBmuB)
 - [了解环境，配置，规范，搭建DDD+RPC架构 @xbhog](https://t.zsxq.com/06maiQVNb)
+- [遇到的问题如下:(主要出在项目搭建与启动上) @浩](https://t.zsxq.com/07I6AmeeA)
 
 ## DDD 分层架构介绍
 

@@ -30,6 +30,7 @@ lock: no
 - [优惠活动和优惠券过滤条件展示设计](https://t.zsxq.com/05Jau7Ybe)
 - [设计秒杀流程时，优化锁的颗粒度力度](https://t.zsxq.com/05EujY7IY)
 - [为什么要采用异步扣减库存呢？](https://t.zsxq.com/05FUVJqjq)
+- [邀请新人活动，活动规则和邀请记录怎么维护比较好？](https://t.zsxq.com/07qNBm2V3)
 
 ## 三、电商场景
 
@@ -147,3 +148,4 @@ lock: no
 - [公司也有个需求合作方传过来的值和我们这边的值不一样，要做一一对应要求可扩展性强](https://t.zsxq.com/06qz7aunu)
 - [服务多租户场景使用](https://t.zsxq.com/06ZfmqnmY)
 - [加强产品配置信息的校验，不使用 if···else、validation 可以怎么做？](https://t.zsxq.com/06fMvf6M7)
+- [目前有14个库，每个库其中有一个用户表，里面存储着用户信息，其中包括id,city等信息，14个库总共14亿数据（总之数据量很大），怎么统计出各个城市有多少用户，该怎么设计？](https://t.zsxq.com/07MZZBQfq)
