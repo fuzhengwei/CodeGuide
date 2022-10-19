@@ -93,6 +93,7 @@ lock: no
 - [Redis能替代Mysql吗？简单说说为什么不能？](https://t.zsxq.com/06nQJEM72)
 - [手撸spring、手撸MyBatis如何体现在简历上？小傅哥可以给个Demo吗](https://t.zsxq.com/06IU3FEEA)
 - [面试被问如何设计生成8位纯数字的优惠券码，每次生成8000个，需要不重复](https://t.zsxq.com/07f27mi2n)
+- [两个线程同时查看一行数据后并进行操作怎么加锁能保证并发性？](https://t.zsxq.com/07RZNFiaU)
 
 ### 3. 公司面试
 

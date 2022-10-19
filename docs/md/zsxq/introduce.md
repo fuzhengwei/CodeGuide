@@ -192,6 +192,10 @@ lock: no
     <img src="https://bugstack.cn/images/article/about/about-220605-07.png?raw=true" width="750px">
 </div>
 
+<div align="center">
+    <img src="https://bugstack.cn/images/article/about/about-study-221016-03.png?raw=true" width="750px">
+</div>
+
 1. 即将大学毕业、研究生毕业，但苦于手里没有什么干货项目，都是一堆 CRUD 案例，没有分布式复杂设计，撑不起简历的。
 2. 在职场编码开发2-3年左右，总是在写一些边角料项目，既没有使用设计模式，也没有遵守设计原则，想跳槽出去又感觉还是没法突破这个圈子。
 3. 希望在以后走技术架构师路线，专精于技术沉淀和成长，希望了解到更多的架构经验和复杂场景的设计技巧。
