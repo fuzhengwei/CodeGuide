@@ -29,6 +29,7 @@ pay: https://t.zsxq.com/Ia6AUvj
 - [跑通广播模式RPC过程调用 @一行。](https://t.zsxq.com/06rjuNFYR)
 - [抽奖系统第3-5打卡学习 @CCAT](https://t.zsxq.com/06VRNZfe2)
 - [RPC终于跑通了；启动类加注解、@Reference直连、禁用掉了虚拟网络 @YanL99](https://t.zsxq.com/06EIMR7ee)
+- [DDD + RPC 各个分层模块的 POM 配置和依赖关系 @Jachin](https://t.zsxq.com/07EqJqRrN)
 
 ## 一、创建抽奖活动表
 
