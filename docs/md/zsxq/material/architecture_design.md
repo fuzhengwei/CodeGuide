@@ -61,6 +61,7 @@ lock: no
 - [导出大量Excel](https://t.zsxq.com/05aIaqjyF)
 - [现在有没有比较好用的分布式哈希表（DHT，Distributed Hash Table）](https://t.zsxq.com/05QZZjiiq)
 - [物联网平台数据推送设计](https://t.zsxq.com/05fAUfi2N)
+- [我现在要做一个接口计费和计数，接口调用一次 就要计算一次，接口调用之前也要校验是否达到接口调用次数上限了](https://t.zsxq.com/07BQFA6AI)
 
 ## 七、通用设计
 
