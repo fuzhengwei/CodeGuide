@@ -1159,7 +1159,7 @@ function genApiGateway() {
             ]
         },
         {
-            title: "第 1 部分 - 通信",
+            title: "第 1 部分 - 通信组件",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1171,6 +1171,14 @@ function genApiGateway() {
                 "2022-09-17-第6章：引入执行器封装服务调用.md",
                 "2022-09-25-第7章：权限认证组件.md",
                 "2022-10-15-第8章：网关会话鉴权处理.md",
+            ]
+        },
+        {
+            title: "第 2 部分 - 注册中心",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-10-22-第9章：网关注册中心服务初始创建.md",
             ]
         }
     ];
