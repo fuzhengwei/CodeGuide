@@ -8,6 +8,9 @@ actionLinks:
 - link: https://t.zsxq.com/05Qfeyby7
   text: 知识星球
   class: secondary  
+- link: /md/other/road-map.md
+  text: 路书 👣
+  class: secondary   
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。

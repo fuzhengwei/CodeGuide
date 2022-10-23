@@ -70,12 +70,12 @@ module.exports = {
                 async: 'async',
                 src: '/js/fingerprint2.min.js',
             }],
-        ['script',
-            {
-                charset: 'utf-8',
-                async: 'async',
-                src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
-            }],
+        // ['script',
+        //     {
+        //         charset: 'utf-8',
+        //         async: 'async',
+        //         src: 'https://s9.cnzz.com/z_stat.php?id=1278232949&web_id=1278232949',
+        //     }],
         // 添加百度统计
         ["script", {},
             `
@@ -183,6 +183,9 @@ module.exports = {
                 nav: [
                     {
                         text: '导读', link: '/md/other/guide-to-reading.md'
+                    },
+                    {
+                        text: '路书', link: '/md/other/road-map.md'
                     },
                     {
                         text: '算法',
@@ -494,6 +497,34 @@ module.exports = {
     }
 };
 
+// other
+function genBarOther() {
+    return [
+        {
+            title: "学习指引",
+            collapsable: true,
+            sidebarDepth: 2,
+            children: [
+                "road-map.md",
+                "guide-to-reading.md"
+            ]
+        }
+    ]
+}
+
+function genBarGuide() {
+    return [
+        {
+            title: "编程路书",
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+                "road-map.md"
+            ]
+        }
+    ]
+}
+
 // algorithm/data-structures
 function genAlgorithmDataStructures() {
     return [
@@ -686,20 +717,6 @@ function genBarJavaCore() {
                 "2020-05-05-汉字不能编程？别闹了，只是看着有点豪横！容易被开除！.md",
                 "2020-11-22-鹿鼎记 · 韦小宝，丽春院、天地会、入皇宫等五个场景，搭配不同剧情讲解多线程和锁，真香！.md",
                 "2021-04-21-一个Bug，让我发现了 Java 界的AJ锥！.md"
-            ]
-        }
-    ]
-}
-
-// other
-function genBarOther() {
-    return [
-        {
-            title: "阅读指南",
-            collapsable: false,
-            sidebarDepth: 2,
-            children: [
-                "guide-to-reading.md"
             ]
         }
     ]
