@@ -118,6 +118,10 @@ export default {
 </script>
 
 <style lang="stylus">
+
+  .action-button-secondary
+     margin-right 20px;
+
 .nav-links
   display inline-block
   a

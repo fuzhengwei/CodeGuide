@@ -12,7 +12,7 @@
                     <div class="category"
                          style="background-color: #999999;color:#ffffff;height:30px;line-height:30px;font-size:12px;font-weight:700px;padding-left:24px;">
                         <a href="https://bugstack.cn/" target="_blank" style="color:#e5e5e5;text-decoration:none;">
-                            <span>bugstack.cn</span>
+                            <span>官网：bugstack.cn</span>
                         </a>
                     </div>
                 </div>
@@ -2064,12 +2064,6 @@
                          style="background-color: #33cc99;height:30px;line-height:30px;font-size:14px;font-weight:700px;padding-left:24px;">
                     </div>
                     <div class="productions" style="margin-bottom: 16px;">
-                        <div class="production"
-                             style="cursor: pointer;height:24px;display:flex;align-items:center;padding-left:24px;position:relative;margin-top:2px;">
-                            <a href="#" target="_blank" style="color:black;text-decoration:none;">
-                                <span></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="column" style="width:150px; min-height:164px;">
@@ -2080,12 +2074,6 @@
                          style="background-color: #33cc99;height:30px;line-height:30px;font-size:14px;font-weight:700px;padding-left:24px;">
                     </div>
                     <div class="productions" style="margin-bottom: 16px;">
-                        <div class="production"
-                             style="cursor: pointer;height:24px;display:flex;align-items:center;padding-left:24px;position:relative;margin-top:2px;">
-                            <a href="#" target="_blank" style="color:black;text-decoration:none;">
-                                <span></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="column" style="width:150px; min-height:164px;">
@@ -2096,12 +2084,6 @@
                          style="background-color: #33cc99;height:30px;line-height:30px;font-size:14px;font-weight:700px;padding-left:24px;">
                     </div>
                     <div class="productions" style="margin-bottom: 16px;">
-                        <div class="production"
-                             style="cursor: pointer;height:24px;display:flex;align-items:center;padding-left:24px;position:relative;margin-top:2px;">
-                            <a href="#" target="_blank" style="color:black;text-decoration:none;">
-                                <span></span>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="column" style="width:150px; min-height:164px;">
