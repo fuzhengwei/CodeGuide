@@ -21,12 +21,7 @@
             <div css="row"
                  style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;margin-top:-4px;">
                 <div class="left_right" style="position: relative;margin-top:-20px;margin-left:122px;">
-                    <div class="left-corner" style="margin: 100px auto;
-                border-top-left-radius:60px;
-                border-bottom-left-radius:60px;
-                box-shadow: 0 0 0 30px #00ccff, 0 0 0 60px #99ffff;
-                width: 40px;height:120px;
-                clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 220px);"></div>
+                    <div class="left-corner" style="margin: 100px auto; border-top-left-radius:60px; border-bottom-left-radius:60px; box-shadow: 0 0 0 30px #00ccff, 0 0 0 60px #99ffff; width: 40px;height:120px; clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 220px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -38,12 +33,7 @@
             <div css="row"
                  style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;margin-top:-36px;">
                 <div class="left_right" style="position: relative;margin-top:-40px;margin-left:122px;">
-                    <div class="left-corner" style="margin: 100px auto;
-                border-top-left-radius:60px;
-                border-bottom-left-radius:60px;
-                box-shadow: 0 0 0 30px #00cccc, 0 0 0 60px #33ffcc;
-                width: 40px;height:120px;
-                clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
+                    <div class="left-corner" style="margin: 100px auto; border-top-left-radius:60px; border-bottom-left-radius:60px; box-shadow: 0 0 0 30px #00cccc, 0 0 0 60px #33ffcc; width: 40px;height:120px; clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -55,12 +45,7 @@
             <div css="row"
                  style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;margin-top:-36px;">
                 <div class="left_right" style="position: relative;margin-top:-40px;margin-left:122px;">
-                    <div class="left-corner" style="margin: 100px auto;
-                border-top-left-radius:60px;
-                border-bottom-left-radius:60px;
-                box-shadow: 0 0 0 30px #00cccc, 0 0 0 60px #33ffcc;
-                width: 40px;height:120px;
-                clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
+                    <div class="left-corner" style="margin: 100px auto; border-top-left-radius:60px; border-bottom-left-radius:60px; box-shadow: 0 0 0 30px #00cccc, 0 0 0 60px #33ffcc; width: 40px;height:120px; clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -72,12 +57,7 @@
             <div css="row"
                  style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;margin-top:-36px;">
                 <div class="left_right" style="position: relative;margin-top:-40px;margin-left:122px;">
-                    <div class="left-corner" style="margin: 100px auto;
-                border-top-left-radius:60px;
-                border-bottom-left-radius:60px;
-                box-shadow: 0 0 0 30px #DA70D6, 0 0 0 60px #FFBBFF;
-                width: 40px;height:104px;
-                clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
+                    <div class="left-corner" style="margin: 100px auto; border-top-left-radius:60px; border-bottom-left-radius:60px; box-shadow: 0 0 0 30px #DA70D6, 0 0 0 60px #FFBBFF; width: 40px;height:104px; clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -89,12 +69,7 @@
             <div css="row"
                  style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;margin-top:-36px;">
                 <div class="left_right" style="position: relative;margin-top:-40px;margin-left:122px;">
-                    <div class="left-corner" style="margin: 100px auto;
-                border-top-left-radius:60px;
-                border-bottom-left-radius:60px;
-                box-shadow: 0 0 0 30px #FFD700, 0 0 0 60px #FFF68F;
-                width: 40px;height:104px;
-                clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
+                    <div class="left-corner" style="margin: 100px auto; border-top-left-radius:60px; border-bottom-left-radius:60px; box-shadow: 0 0 0 30px #FFD700, 0 0 0 60px #FFF68F; width: 40px;height:104px; clip-path: polygon(-300px 0px, 39px -220px, 39px 220px, 60px 260px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2153,12 +2128,7 @@
             <!-- 01右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-40px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:120px;
-                box-shadow: 0 0 0 30px #FFA07A, 0 0 0 60px #FF7F00;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 220px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:120px; box-shadow: 0 0 0 30px #FFA07A, 0 0 0 60px #FF7F00; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 220px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2169,12 +2139,7 @@
             <!-- 02右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-140px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:104px;
-                box-shadow: 0 0 0 30px #99ff99, 0 0 0 60px #00cc99;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:104px; box-shadow: 0 0 0 30px #99ff99, 0 0 0 60px #00cc99; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2185,12 +2150,7 @@
             <!-- 03右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-140px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:120px;
-                box-shadow: 0 0 0 30px #33ffcc, 0 0 0 60px #00cccc;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:120px; box-shadow: 0 0 0 30px #33ffcc, 0 0 0 60px #00cccc; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2201,12 +2161,7 @@
             <!-- 04右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-140px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:104px;
-                box-shadow: 0 0 0 30px #FFBBFF, 0 0 0 60px #DA70D6;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:104px; box-shadow: 0 0 0 30px #FFBBFF, 0 0 0 60px #DA70D6; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2217,12 +2172,7 @@
             <!-- 05右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-140px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:104px;
-                box-shadow: 0 0 0 30px #FFAEB9, 0 0 0 60px #FF3E96;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:104px; box-shadow: 0 0 0 30px #FFAEB9, 0 0 0 60px #FF3E96; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
@@ -2233,12 +2183,7 @@
             <!-- 06右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-140px;">
-                    <div class="right-corner" style="margin: 100px auto;
-                border-top-right-radius:60px;
-                border-bottom-right-radius:60px;
-                width: 40px;height:146px;
-                box-shadow: 0 0 0 30px #66ff99, 0 0 0 60px #33cc99;
-                clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:146px; box-shadow: 0 0 0 30px #66ff99, 0 0 0 60px #33cc99; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 300px);"></div>
                 </div>
             </div>
         </div>
