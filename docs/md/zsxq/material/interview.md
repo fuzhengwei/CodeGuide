@@ -95,6 +95,7 @@ lock: no
     - 整个系统的吞吐量，QPS，等相关参数
     - 有遇到过线上问题吗？怎么解决的
 - [为什么在总体概率算法 DefaultRateRandomDrawAlgorithm 这个类中，要使用SecureRandom这个类生成随机数？](https://t.zsxq.com/07Mv3nQBE)
+- [抽奖系统秒杀库存分片](https://t.zsxq.com/07qrZjmIu)
 
 ### 2. 通用问题
 
