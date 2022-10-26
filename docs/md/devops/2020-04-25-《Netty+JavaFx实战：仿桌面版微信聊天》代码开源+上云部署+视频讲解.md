@@ -99,7 +99,7 @@ excerpt: https://github.com/fuzhengwei/NaiveChat 代码开源，通过视频讲�
     
 2. Linux远程连接工具
     1. Mac：用自带的就可以
-    2. Win：Xhell 非常好用
+    2. Win：Xshell 非常好用
 
 **命令**
 
