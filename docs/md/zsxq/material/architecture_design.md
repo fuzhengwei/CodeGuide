@@ -87,6 +87,7 @@ lock: no
 - [动态导出字段设计——类似问卷表](https://t.zsxq.com/056QFaQvj)
 - [文件传输OSS](https://t.zsxq.com/05ii2fyJu)
 - [分库分表场景设计](https://t.zsxq.com/05rNniu72)
+- [SSO单点登录](https://t.zsxq.com/07j5YTfDg)
 
 ## 八、性能调优
 

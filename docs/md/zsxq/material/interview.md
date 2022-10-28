@@ -24,6 +24,7 @@ lock: no
 
 ### 1. 抽奖系统
 
+- [关于抽奖系统怎么写到简历里](https://t.zsxq.com/07yKZJFkR)
 - [抽奖系统，面试被问到表的设计，要怎么答？](https://t.zsxq.com/04EYNRF6m)
 - [抽奖系统一般部署多少实例比较合适，系统大概能抗住多大的流量？](https://t.zsxq.com/04zNzZVFa)
 - [抽奖系统为什么自研路由组件？](https://t.zsxq.com/04Am6mIqR)

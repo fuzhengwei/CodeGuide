@@ -1289,6 +1289,15 @@
                                 <span>jwt</span>
                             </a>
                         </div>
+                        <div class="production"
+                             style="cursor: pointer;height:24px;display:flex;align-items:center;padding-left:24px;position:relative;margin-top:2px;">
+                            <span style="color: #fff; display: flex; justify-content: center; align-items: center; position: absolute; width: 24px; height: 24px; padding-top: 1px; border-radius: 50%; background-color: #e1251b; left: 0; transform: scale(.6);">️A</span>
+                            <img class="icon" style="width: 16px;height: 16px;margin-right: 6px;"
+                                 src="https://bugstack.cn/images/roadmap/06-类库/062-认证授权/3-sso/images/sso.png">
+                            <a href="" target="_blank" style="color:black;text-decoration:none;">
+                                <span>SSO</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="column" style="width:150px; min-height:164px;">
