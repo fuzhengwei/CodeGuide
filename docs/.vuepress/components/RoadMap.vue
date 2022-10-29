@@ -4,7 +4,7 @@
         <div class="road-map-left" style="position:absolute;width:160px;height:600px;">
             <!-- 空白占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:10px;">
-                <div class="column" style="width:150px; min-height:164px;">
+                <div class="column" style="width:150px; min-height:190px;">
                     <div class="route"
                          style="background-color: #000000;color:#ffffff;height:30px;line-height:30px;font-size:12px;font-weight:700px;padding-left:24px;">
                         路书 v1.1 | @小傅哥
@@ -2185,7 +2185,7 @@
             <!-- 01右旋占位 -->
             <div css="row" style="justify-content:flex-start;font-size: 12px;display: flex;margin-left:-1px;">
                 <div class="row_right" style="right: 1px;margin-top:-40px;">
-                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:120px; box-shadow: 0 0 0 30px #FFA07A, 0 0 0 60px #FF7F00; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 220px);"></div>
+                    <div class="right-corner" style="margin: 100px auto; border-top-right-radius:60px; border-bottom-right-radius:60px; width: 40px;height:146px; box-shadow: 0 0 0 30px #FFA07A, 0 0 0 60px #FF7F00; clip-path: polygon(1px -120px, 220px 0px, 160px 220px, 1px 220px);"></div>
                 </div>
             </div>
             <!-- 空白占位 -->
