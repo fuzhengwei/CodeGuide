@@ -1196,6 +1196,7 @@ function genApiGateway() {
             sidebarDepth: 0,
             children: [
                 "2022-10-22-第9章：网关注册中心服务初始创建.md",
+                "2022-10-29-第10章：网关注册中心库表结构设计.md",
             ]
         }
     ];
