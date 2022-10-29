@@ -248,6 +248,16 @@
                                 <span>VUE</span>
                             </a>
                         </div>
+                        <div class="production"
+                             style="cursor: pointer;height:24px;display:flex;align-items:center;padding-left:24px;position:relative;margin-top:2px;">
+                            <span style="color: #fff; display: flex; justify-content: center; align-items: center; position: absolute; width: 24px; height: 24px; padding-top: 1px; border-radius: 50%; background-color: #999999; left: 0; transform: scale(.6);">️B</span>
+                            <img class="icon" style="width: 16px;height: 16px;margin-right: 6px;"
+                                 src="https://bugstack.cn/images/roadmap/01-基础/014-前端语言/5-REACT/images/REACT.png">
+                            <a href="https://react.docschina.org/" target="_blank"
+                               style="color:black;text-decoration:none;">
+                                <span>REACT</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="column" style="width:150px; min-height:164px;">
