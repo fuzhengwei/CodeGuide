@@ -196,7 +196,7 @@ module.exports = {
                             },
                             {
                                 text: '算法主题',
-                                link: '/md/algorithm/logic/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md'
+                                link: '/md/algorithm/logic/math/2022-10-30-bits.md'
                             }
                         ]
                     },
@@ -585,12 +585,21 @@ function genAlgorithmDataStructures() {
 function genAlgorithmLogic() {
     return [
         {
-            title: "算法主题",
+            title: "数学",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
-                "2020-03-18-无重复字符的最长子串.md",
+                "math/2022-10-30-bits.md",
+                "math/2022-10-30-factorial.md",
+            ]
+        },
+        {
+            title: "刷题",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "leetcode/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
+                "leetcode/2020-03-18-无重复字符的最长子串.md",
             ]
         }
     ]
