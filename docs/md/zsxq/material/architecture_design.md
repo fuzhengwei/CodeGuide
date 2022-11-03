@@ -49,6 +49,7 @@ lock: no
 ## 五、支付交易
 
 - [重构简单版支付中心](https://t.zsxq.com/05MVjmMFI)
+- [我支付接口里面有点复杂，里面参杂了一些其它合作商相关需求，可以怎么去设计优化这一块](https://t.zsxq.com/07c20Wpwr)
 
 ## 六、功能服务
 
@@ -88,6 +89,7 @@ lock: no
 - [文件传输OSS](https://t.zsxq.com/05ii2fyJu)
 - [分库分表场景设计](https://t.zsxq.com/05rNniu72)
 - [SSO单点登录](https://t.zsxq.com/07j5YTfDg)
+- [运营平台需与各线下系统交互](https://t.zsxq.com/07xHH1EZE)
 
 ## 八、性能调优
 
@@ -98,6 +100,7 @@ lock: no
 - [慢查询拖垮数据库](https://t.zsxq.com/05y3zvji2)
 - [海量数据处理](https://t.zsxq.com/05BIei2Fq)
 - [token太长3000+位往cookie写的时候会有问题](https://t.zsxq.com/052JImmuV)
+- [有张表数据量为8000w字段有100多个，这样的表查询效率很慢，如何处理得以提升效率](https://t.zsxq.com/074yWu3X6)
 
 ## 九、架构方案
 
@@ -119,6 +122,7 @@ lock: no
 - [分布式任务调度设计](https://t.zsxq.com/05uBa2VVF)
 - [简化的DDD结构](https://t.zsxq.com/05vnuZfIu)
 - [开发一个大系统，包括条码系统、MES系统、OA系统、客户管理系统、供应商管理系统等，架构分层思路](https://t.zsxq.com/06NBAeaA6)
+- [微服务项目中MQ有必要单独搞个服务去处理消息吗？](https://t.zsxq.com/07H0diIGB)
 
 ## 十、系统重构
 
