@@ -97,6 +97,7 @@ lock: no
     - 有遇到过线上问题吗？怎么解决的
 - [为什么在总体概率算法 DefaultRateRandomDrawAlgorithm 这个类中，要使用SecureRandom这个类生成随机数？](https://t.zsxq.com/07Mv3nQBE)
 - [抽奖系统秒杀库存分片](https://t.zsxq.com/07qrZjmIu)
+- [在抽奖系统中，前端访问的接口是写在网关中的，但是网关一般负责的是一些公共操作，例如鉴权，限流，给白名单等等，写在这里合适吗？](https://t.zsxq.com/07jqm9sJW)
 
 ### 2. 通用问题
 
