@@ -3,7 +3,7 @@ title: 阶乘 factorial
 lock: need
 ---
 
-# 位运算 factorial
+# 《程序员数学：阶乘》—— 阶乘的用途是什么？
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
