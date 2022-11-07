@@ -402,7 +402,11 @@ module.exports = {
                                 text: '出版物', items: [
                                     {
                                         text: '2021年出版《重学Java设计模式》',
-                                        link: 'https://item.jd.com/13218336.html'
+                                        link: '/md/product/book/design-pattern.md'
+                                    },
+                                    {
+                                        text: '2022年出版《手写Spring：渐进式源码实践》',
+                                        link: '/md/product/book/spring.md'
                                     },
                                 ]
                             },
@@ -438,7 +442,7 @@ module.exports = {
                                 text: '插件', items: [
                                     {
                                         text: '💱 IDEA Plugin vo2dto —— 对象转换插件',
-                                        link: 'https://plugins.jetbrains.com/plugin/18262-vo2dto'
+                                        link: '/md/product/idea-plugin/vo2dto.md'
                                     },
                                 ]
                             },
@@ -490,6 +494,7 @@ module.exports = {
                     "/md/project/lottery/": getBarProjectLottery(),
                     "/md/project/im/": getBarProjectIM(),
                     "/md/zsxq/": getBarZSXQ(),
+                    "/md/product/": getBarProduct(),
                     "/md/about/": genBarAbout()
                 }
             }
@@ -591,6 +596,7 @@ function genAlgorithmLogic() {
             children: [
                 "math/2022-10-30-bits.md",
                 "math/2022-10-30-factorial.md",
+                // "math/2022-11-05-fibonacci.md",
             ]
         },
         {
@@ -1519,6 +1525,41 @@ function getBarZSXQ() {
                 "other/join.md",
             ]
         }
+    ]
+}
+
+function getBarProduct() {
+    return [
+        {
+            title: "出版物",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "book/design-pattern.md",
+                "book/spring.md",
+            ]
+        },
+        {
+            title: "电子书",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "pdf/2020-05-17-小傅哥出书了《字节码编程》免费拿！.md",
+                "pdf/2020-07-12-重学 Java 设计模式.md",
+                "pdf/2020-10-04-《Java面经手册》PDF数据结构篇， 肝完出炉了！来吧，这本书帮你拿最贵的offer！.md",
+                "pdf/2021-01-26-Java面经手册PDF下载.md",
+                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
+                "pdf/2022-01-23-IDEA Plugin 开发手册.md",
+            ]
+        },
+        {
+            title: "插件",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "idea-plugin/vo2dto.md",
+            ]
+        },
     ]
 }
 
