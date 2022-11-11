@@ -90,6 +90,7 @@ lock: no
 - [分库分表场景设计](https://t.zsxq.com/05rNniu72)
 - [SSO单点登录](https://t.zsxq.com/07j5YTfDg)
 - [运营平台需与各线下系统交互](https://t.zsxq.com/07xHH1EZE)
+- [PDF 部分在线预览功能](https://t.zsxq.com/07HImi4T3)
 
 ## 八、性能调优
 
