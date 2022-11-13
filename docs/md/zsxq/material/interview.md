@@ -120,6 +120,7 @@ lock: no
 - [手撸spring、手撸MyBatis如何体现在简历上？小傅哥可以给个Demo吗](https://t.zsxq.com/06IU3FEEA)
 - [面试被问如何设计生成8位纯数字的优惠券码，每次生成8000个，需要不重复](https://t.zsxq.com/07f27mi2n)
 - [两个线程同时查看一行数据后并进行操作怎么加锁能保证并发性？](https://t.zsxq.com/07RZNFiaU)
+- [使用分库分表组件将订单信息散列到不同库表中了 B端商家如果需要查看某个活动/某一天的订单信息。](https://t.zsxq.com/08Vxe6lpN)
 
 ### 3. 公司面试
 
