@@ -596,7 +596,7 @@ function genAlgorithmLogic() {
             children: [
                 "math/2022-10-30-bits.md",
                 "math/2022-10-30-factorial.md",
-                // "math/2022-11-05-fibonacci.md",
+                "math/2022-11-05-fibonacci.md",
             ]
         },
         {
