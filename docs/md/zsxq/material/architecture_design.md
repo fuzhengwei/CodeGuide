@@ -91,6 +91,7 @@ lock: no
 - [SSO单点登录](https://t.zsxq.com/07j5YTfDg)
 - [运营平台需与各线下系统交互](https://t.zsxq.com/07xHH1EZE)
 - [PDF 部分在线预览功能](https://t.zsxq.com/07HImi4T3)
+- [想问一下各位大佬是如何学习权限的，感觉现在学的完全不够安全](https://t.zsxq.com/08y2ZygbU)
 
 ## 八、性能调优
 
