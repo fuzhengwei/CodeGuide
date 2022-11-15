@@ -245,7 +245,7 @@ public void test_hashFunction_0_hash_null() {
 
 - 如果你的斐波那契散列值是根据库表的值进行黄金切割的，那么在最初的库表范围较小的阶段，将有部分区域无法使用。这是因为得到的黄金分割点的二进制值没法覆盖整个区域，也就做不到合适的乘法散列计算。参考：[https://bugstack.cn/md/algorithm/logic/math/2022-10-30-bits.html](https://bugstack.cn/md/algorithm/logic/math/2022-10-30-bits.html) - 《程序员数学：位运算》
 
-#### 1.2 最小黄金分割
+#### 1.2 最大黄金分割
 
 基于最小黄金分割的计算，是没法做到均匀散列的。所以你看到的 ThreadLocal 默认就给你一个 `0x61c88647` 而不是随着扩容长度实时计算的切割值。好那么我们接下来也使用这个值来做计算，看看8库到16库后，数据的雪崩结果。
 
