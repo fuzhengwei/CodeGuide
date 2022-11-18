@@ -463,7 +463,7 @@ module.exports = {
                     {
                         text: '源码仓库',
                         items: [
-                            {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei/CodeGuide'},
+                            {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei'},
                             {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet'},
                         ]
                     }
