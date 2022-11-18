@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好 我叫奥特慢 22年6月毕业 7月入职3C家电事业群其中一部门](https://t.zsxq.com/082xYpZGd)
 - [大家好，我是本科广州航海 计算机科学与技术专业的，明年就实习了](https://t.zsxq.com/08SjB2OMr)
 - [大家好，目前东北某985研二  非科班 java后端目前在学习](https://t.zsxq.com/07MAybjcz)
 - [大家好，我是新来的云尘，练习时常两年半的Java开发，公司业务ToC端](https://t.zsxq.com/075LhCsvu)

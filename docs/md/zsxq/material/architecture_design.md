@@ -92,6 +92,7 @@ lock: no
 - [运营平台需与各线下系统交互](https://t.zsxq.com/07xHH1EZE)
 - [PDF 部分在线预览功能](https://t.zsxq.com/07HImi4T3)
 - [想问一下各位大佬是如何学习权限的，感觉现在学的完全不够安全](https://t.zsxq.com/08y2ZygbU)
+- [A方推送数据到我们平台，我们平台调用B方接口存数据，同时对数据做一些留痕等。](https://t.zsxq.com/08tmSlDOA)
 
 ## 八、性能调优
 
