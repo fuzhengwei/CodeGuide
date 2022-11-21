@@ -425,12 +425,12 @@ module.exports = {
                                         link: 'http://pan.bugstack.cn/?dl=dbed614f318bf9fc9d3b034ba9502a3c'
                                     },
                                     {
-                                        text: '付费《Java 面经手册》',
-                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
+                                        text: '免费《手写 Spring》(密码：uke3Eauf)',
+                                        link: 'http://pan.bugstack.cn/?dl=dff9e469d550cadba830ab748322e54e'
                                     },
                                     {
-                                        text: '付费《手写 Spring》',
-                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/21009038'
+                                        text: '付费《Java 面经手册》',
+                                        link: 'https://download.csdn.net/download/Yao__Shun__Yu/14932325'
                                     },
                                     {
                                         text: '付费《IDEA Plugin 开发手册》',
