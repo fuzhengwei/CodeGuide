@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好，我叫明天过后。20年毕业，在跨境电商公司做Java开发，最近刚领了大礼包。](https://t.zsxq.com/08KIygBpA)
 - [大家好，我是heathen，来自西安，2018年毕业于一所普通二本，目前主要从事java开发。]()
 - [大家好 我叫奥特慢 22年6月毕业 7月入职3C家电事业群其中一部门](https://t.zsxq.com/082xYpZGd)
 - [大家好，我是本科广州航海 计算机科学与技术专业的，明年就实习了](https://t.zsxq.com/08SjB2OMr)
@@ -195,3 +196,4 @@ lock: no
 - [小傅哥你好，作为工作5年，目标是java高级开发岗位。从面试官角度来看，会看重候选人哪些素养呢？](https://t.zsxq.com/07Amrqp2p)
 - [想问下抽奖系统这个项目，适合我去学习吗？吃透后能适应未来工作流程和内容吗？](https://t.zsxq.com/07tpabzyV)
 - [今日入职新公司第一天：我的经验和感觉分享给大家！](https://t.zsxq.com/07udHwQBk)
+- [小傅哥，本人双9 Java后端选手，秋招最后几家决赛圈offer求给点建议](https://t.zsxq.com/08lQizSqr)
