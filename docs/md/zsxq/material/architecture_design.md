@@ -32,6 +32,7 @@ lock: no
 - [为什么要采用异步扣减库存呢？](https://t.zsxq.com/05FUVJqjq)
 - [邀请新人活动，活动规则和邀请记录怎么维护比较好？](https://t.zsxq.com/07qNBm2V3)
 - [电商交易给其他用户打赏设计](https://t.zsxq.com/07euV7a2j)
+- [优惠券快过期了，该怎么短信提醒用户，用户优惠券表数据量大的话怎么做合适](https://t.zsxq.com/08Mc52AFC)
 
 ## 三、电商场景
 
