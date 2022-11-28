@@ -568,3 +568,4 @@ Process finished with exit code 0
 - [起初对于 FactoryBean 模块其实理解的不是很充分，联想到 mybatis 的使用确实稍微能 get 到其设计的意义所在 @Weirdo](https://t.zsxq.com/067ufmeaE)
 - [对象作用域和BeanFactory @liuc](https://t.zsxq.com/07cc83Mh2)
 - [AOP（面向切面编程）是指通过预编译的方式和运行期间动态代理实现程序功能的统一维护 @liuc](https://t.zsxq.com/0828L68ac)
+- [不仅仅只由 Spring 本身类创建 Bean，仿照 Mybatis 框架，通过接口定义 @水中捞月](https://t.zsxq.com/08Hv720j8)
