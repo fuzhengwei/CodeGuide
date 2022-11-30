@@ -1,6 +1,6 @@
 ---
 title: 第01节：在云服务器部署 Docker
-pay: https://t.zsxq.com/jUbmeE2
+pay: https://t.zsxq.com/08c55XltC
 ---
 
 # 第01节：在云服务器部署 Docker

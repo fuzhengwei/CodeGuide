@@ -1,6 +1,6 @@
 ---
 title: 第06节：部署环境 nacos
-pay: https://t.zsxq.com/zbUVR7E
+pay: https://t.zsxq.com/08kipfRje
 ---
 
 # 第06节：部署环境 nacos
