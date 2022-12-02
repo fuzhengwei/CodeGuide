@@ -94,6 +94,7 @@ lock: no
 - [PDF 部分在线预览功能](https://t.zsxq.com/07HImi4T3)
 - [想问一下各位大佬是如何学习权限的，感觉现在学的完全不够安全](https://t.zsxq.com/08y2ZygbU)
 - [A方推送数据到我们平台，我们平台调用B方接口存数据，同时对数据做一些留痕等。](https://t.zsxq.com/08tmSlDOA)
+- [咨询个小时维度库存设计问题；现在有这么个场景，下单占用库存，还车释放库存。](https://t.zsxq.com/08VmJAsho)
 
 ## 八、性能调优
 
