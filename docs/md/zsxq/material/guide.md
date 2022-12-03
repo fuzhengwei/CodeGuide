@@ -12,6 +12,8 @@ lock: no
 
 欢迎👏🏻 VIP 伙伴的加入，为了帮助大家更好的使用星球、获得知识，请大家 **务必** 花 **5-10** 分钟阅读这份指南！
 
+- 踏上学习旅途前，先对星球[【码农会锁】](https://wx.zsxq.com/dweb2/index/group/48411118851818)有一个全貌了解，这可以更好的帮助你学习这些项目。[https://bugstack.cn/md/zsxq/introduce.html](https://bugstack.cn/md/zsxq/introduce.html)
+
 ## 一、前言：准备开始
 
 1. 首先为了更好的使用知识星球，你需要下载一个知识星球支持 APP【[安卓](https://a.app.qq.com/o/simple.jsp?pkgname=com.unnoo.quan)/[IOS](https://apps.apple.com/cn/app/xiao-mi-quan/id904106920?l=cn)】这样能方便你在APP上接收推送、阅览资料、发起问题、学习打卡等事项。此外如果你在电脑前学习，也可以直接预览[网页版](https://wx.zsxq.com/dweb2/index/group/48411118851818) 这样将更加方便的操作。**建议大家关注【知识星球】官方微信公众号，便于接受星球内的消息。**
