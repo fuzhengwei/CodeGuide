@@ -12,7 +12,7 @@ lock: no
 
 欢迎👏🏻 VIP 伙伴的加入，为了帮助大家更好的使用星球、获得知识，请大家 **务必** 花 **5-10** 分钟阅读这份指南！
 
-- 踏上学习旅途前，先对星球[【码农会锁】](https://wx.zsxq.com/dweb2/index/group/48411118851818)有一个全貌了解，这可以更好的帮助你学习这些项目。[https://bugstack.cn/md/zsxq/introduce.html](https://bugstack.cn/md/zsxq/introduce.html)
+**踏上学习旅途前**，先对星球[【码农会锁】](https://wx.zsxq.com/dweb2/index/group/48411118851818)有一个全貌了解，这可以更好的帮助你学习这些项目。[https://bugstack.cn/md/zsxq/introduce.html](https://bugstack.cn/md/zsxq/introduce.html)
 
 ## 一、前言：准备开始
 
