@@ -74,6 +74,10 @@ lock: no
 
 申请加入仓库后，小傅哥会按照你的申请信息进行审核授权，授权完成后就可以访问项目地址，看到完整的星球课程学习项目了。地址：[https://gitcode.net/KnowledgePlanet](https://gitcode.net/KnowledgePlanet)
 
+**仓库使用**：`2种使用方式`
+  1. 密码方式：登录的用户ID为 CSDN 个人中心的用户ID，[https://i.csdn.net/#/user-center/profile](https://i.csdn.net/#/user-center/profile) 密码为 CSDN 登录密码。如果没有密码或者忘记，可以在 CSDN 登录页找回密码。
+  2. SSH 秘钥免登录方式，设置：[https://gitcode.net/-/profile/keys](https://gitcode.net/-/profile/keys) 文档：[生成 SSH 密钥](https://gitcode.net/codechina/help-docs/-/wikis/docs/ssh#%E7%94%9F%E6%88%90-ssh-%E5%AF%86%E9%92%A5)
+
 <div align="center">
     <img src="https://bugstack.cn/images/system/zsxq-project.png?raw=true" width="650px">
 </div>
