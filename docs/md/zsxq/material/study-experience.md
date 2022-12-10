@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好，2018年某211非科班研究生。之前带过一个 0-1 的项目，技术栈 vue + nginx + spring cloud + redis + oracle + mysql](https://t.zsxq.com/08wlnHY1Z)
 - [大家好，我叫九月，是某985科班专业，毕业4年，一直从事体制内工作。](https://t.zsxq.com/081k67eQX)
 - [大家好，我是巫十二，工作四年多，非科班出身的javaboy。目前做过金融产品、灵活用工，社交电商等项目](https://t.zsxq.com/08HZR6IK8)
 - [大家好，我叫明天过后。20年毕业，在跨境电商公司做Java开发，最近刚领了大礼包。](https://t.zsxq.com/08KIygBpA)

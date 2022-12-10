@@ -129,6 +129,8 @@ lock: no
 - [简化的DDD结构](https://t.zsxq.com/05vnuZfIu)
 - [开发一个大系统，包括条码系统、MES系统、OA系统、客户管理系统、供应商管理系统等，架构分层思路](https://t.zsxq.com/06NBAeaA6)
 - [微服务项目中MQ有必要单独搞个服务去处理消息吗？](https://t.zsxq.com/07H0diIGB)
+- [类似钉钉文档协同编辑的功能](https://t.zsxq.com/088NBXEzT)
+- [“当前流水表”的前一天的所有记录 导入到 “历史流水表”，成功后把这些记录从“当前流水表”中删除。](https://t.zsxq.com/08UGtaEda)
 
 ## 十、系统重构
 
