@@ -3,7 +3,7 @@ title: 哈希表(散列) Hash
 lock: need
 ---
 
-# 哈希表(散列) Hash
+# 数据结构：哈希表(散列) Hash
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

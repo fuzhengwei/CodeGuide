@@ -3,7 +3,7 @@ title: 并查集 Disjoint-Set
 lock: need
 ---
 
-# 并查集 Disjoint-Set
+# 数据结构：并查集 Disjoint-Set
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

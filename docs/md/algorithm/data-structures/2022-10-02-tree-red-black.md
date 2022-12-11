@@ -3,7 +3,7 @@ title: 红黑树 Red Back Tree
 lock: need
 ---
 
-# 红黑树 Red Back Tree
+# 数据结构：红黑树 Red Back Tree
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

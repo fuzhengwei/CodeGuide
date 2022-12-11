@@ -3,7 +3,7 @@ title: 布隆过滤器 Bloom Filter
 lock: need
 ---
 
-# 布隆过滤器 Bloom Filter
+# 数据结构：布隆过滤器 Bloom Filter
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

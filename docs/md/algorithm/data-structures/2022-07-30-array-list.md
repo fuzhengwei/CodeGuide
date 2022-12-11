@@ -3,7 +3,7 @@ title: 数组 Array
 lock: need
 ---
 
-# 数组 Array
+# 数据结构：数组 Array
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
