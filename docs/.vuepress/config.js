@@ -600,6 +600,8 @@ function genAlgorithmLogic() {
                 "math/2022-11-20-primality.md",
                 "math/2022-11-28-euclidean.md",
                 "math/2022-12-04-least-common-multiple.md",
+                "math/2022-12-11-sieve-of-eratosthenes.md",
+                "math/2022-12-12-is-power-of-two.md",
             ]
         },
         {
