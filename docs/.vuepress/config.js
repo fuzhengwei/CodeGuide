@@ -1241,6 +1241,14 @@ function genApiGateway() {
             children: [
                 "2022-12-10-第19章：网关引擎打包镜像部署.md",
             ]
+        },
+        {
+            title: "第 5 部分 - 服务注册",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2022-12-17-第20章：服务注册组件搭建采集接口信息.md",
+            ]
         }
     ];
 }
