@@ -603,6 +603,7 @@ function genAlgorithmLogic() {
                 "math/2022-12-11-sieve-of-eratosthenes.md",
                 "math/2022-12-12-is-power-of-two.md",
                 "math/2022-12-18-pascal-triangle.md",
+                "math/2022-12-23-radian.md",
             ]
         },
         {
