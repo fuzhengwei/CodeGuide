@@ -1250,6 +1250,7 @@ function genApiGateway() {
             sidebarDepth: 0,
             children: [
                 "2022-12-17-第20章：服务注册组件搭建采集接口信息.md",
+                "2022-12-24-第21章：应用服务接口注册到注册中心.md",
             ]
         }
     ];
