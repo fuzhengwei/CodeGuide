@@ -1868,6 +1868,7 @@ function genBarAbout() {
                 "study/2022-06-16-敲了几万行源码后，我给Mybatis画了张“全地图”.md",
                 "study/2022-06-19-OnJava.md",
                 "study/2022-10-15-面试官：深度不够，建议回去深挖.md",
+                "study/2022-12-25-我把ChatGPT拉到微信群里了.md",
             ]
         },
         {
