@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好，我叫余温，自学Java进入开发行业目前撸码4年+；参与过外卖自动派单系统开发，负责解决业务与报表解耦、落地分库分表等业务；](https://t.zsxq.com/098gd6g9d)
 - [大家好，作为一名小公司的crud熟练工，虽然平时也经常看一些技术文章，但由于平时工作没有机会实际应用](https://t.zsxq.com/09nbCXOi1)
 - [大家好，我目前大四在读，刚入职一家小公司实习，目前学习了部分spring cloud知识和一些中间件](https://t.zsxq.com/09goM98YS)
 - [大家好，2018年某211非科班研究生。之前带过一个 0-1 的项目，技术栈 vue + nginx + spring cloud + redis + oracle + mysql](https://t.zsxq.com/08wlnHY1Z)
