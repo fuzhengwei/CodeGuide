@@ -569,3 +569,4 @@ Process finished with exit code 0
 - [对象作用域和BeanFactory @liuc](https://t.zsxq.com/07cc83Mh2)
 - [AOP（面向切面编程）是指通过预编译的方式和运行期间动态代理实现程序功能的统一维护 @liuc](https://t.zsxq.com/0828L68ac)
 - [不仅仅只由 Spring 本身类创建 Bean，仿照 Mybatis 框架，通过接口定义 @水中捞月](https://t.zsxq.com/08Hv720j8)
+- [ApplicationEventMulticaster关键类，主要是通过该类发布的事件 @Liuliuliu](https://t.zsxq.com/09Mibk2Uj)
