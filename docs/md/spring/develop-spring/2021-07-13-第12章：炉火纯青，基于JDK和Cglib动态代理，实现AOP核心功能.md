@@ -585,4 +585,5 @@ Process finished with exit code 0
 
 ## 七、优秀作业
 
-- [jdk和cglib动态代理](https://t.zsxq.com/06feIU3fe)
+- [jdk和cglib动态代理 @Chin](https://t.zsxq.com/06feIU3fe)
+- [在创建对象之前,需要前判断对象是否需要代理 @Liuliuliu](https://t.zsxq.com/09CbW8E6P)
