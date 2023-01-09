@@ -153,7 +153,7 @@
                             <span style="color: #fff; display: flex; justify-content: center; align-items: center; position: absolute; width: 24px; height: 24px; padding-top: 1px; border-radius: 50%; background-color: #e1251b; left: 0; transform: scale(.6);">️A</span>
                             <img class="icon" style="width: 16px;height: 16px;margin-right: 6px;"
                                  src="https://bugstack.cn/images/roadmap/01-基础/012-编程基础/2-数学逻辑/images/数学逻辑.png">
-                            <a href="https://bugstack.cn/md/algorithm/logic/2020-03-14-%E9%87%8E%E8%B7%AF%E5%AD%90%E6%90%9E%E7%AE%97%E6%B3%95%E3%80%8A%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%8B%EF%BC%8C%E5%B8%A6%E7%9D%80%E5%B0%8F%E7%99%BD%E5%88%B7%E9%9D%A2%E8%AF%95.html"
+                            <a href="https://bugstack.cn/md/algorithm/logic/math/2022-10-30-bits.html"
                                target="_blank" style="color:black;text-decoration:none;">
                                 <span>数学逻辑</span>
                             </a>

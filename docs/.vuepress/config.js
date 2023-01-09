@@ -604,6 +604,10 @@ function genAlgorithmLogic() {
                 "math/2022-12-12-is-power-of-two.md",
                 "math/2022-12-18-pascal-triangle.md",
                 "math/2022-12-23-radian.md",
+                "math/2023-01-08-fast-powering.md",
+                "math/2023-01-08-integer-partition.md",
+                "math/2023-01-09-liu-hui.md",
+                "math/2023-01-09-fourier-transform.md",
             ]
         },
         {
@@ -1515,6 +1519,7 @@ function getBarZSXQ() {
                 "material/interview.md",
                 "material/study-experience.md",
                 "material/exam.md",
+                "material/openai.md",
             ]
         },
         {
