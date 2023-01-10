@@ -1,5 +1,5 @@
 ---
-title: AI：ChatGPT 回答星球问题
+title: 问答：ChatGPT 回答星球问题
 lock: no
 ---
 
@@ -89,32 +89,5 @@ ENTRYPOINT ["sh","-c","java -jar $JAVA_OPTS /zsxq-api.jar $PARAMS"]
 </div>
 
 🤔 考虑到 OpenAI 回答问题的频繁性，以及很多问题可能比较初级，所以设定为不提醒。**只回答给提问的用户可见**，所以你对他提问只有你自己会收到回复。
-
-## 四、星球：项目学习
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-openai-10.png?raw=true" width="350">
-</div>
-
-小傅哥的知识星球不只是回答问题的星球，还是带着读者伙伴干项目的星球。干一些有技术深度的、能符合大厂工作诉求的、能为未来几年职业生涯续期的实战项目。
-
-在源码层面教会你；手写Spring、手写MyBatis。但没有手写 SpringMVC 因为大厂都是用 RPC 加网关，所以星球里还有手写 API网关，每节课程都配有视频，让大家可以更容易的上手学习，也更方面理解每节课程的设计思想和落地方案。
-
-<div align="center">
-		<span>《API网关：中间件设计和实践》视频截图</span>
-		<br/>
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-openai-08.png?raw=true" width="750">
-</div>
-
----
-
-很多来自中小公司、外包公司或者尚未毕业的本科生、研究生，手里都没有什么能拿的出手的项目，到大厂去刚一下。
-
-而加入星球就可以学习到小傅哥为你编写的在大厂水平以上的实战项目，包括你会学习到：分布式架构、微服务设计、领域驱动设计、设计模式时间、规则引擎决策树、秒杀分段锁、API网关通信等等，只有加入大厂才能学习到的核心技能。**加入星球，这些项目你都可以学到！**
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-openai-09.png?raw=true" width="750">
-</div>
-
 
 
