@@ -587,3 +587,4 @@ Process finished with exit code 0
 
 - [jdk和cglib动态代理 @Chin](https://t.zsxq.com/06feIU3fe)
 - [在创建对象之前,需要前判断对象是否需要代理 @Liuliuliu](https://t.zsxq.com/09CbW8E6P)
+- [前期在Spring当中涉及到了JDK和Cglib的动态代理，今天详细地进行了一个学习 @在九月](https://t.zsxq.com/0aPKwaowf)
