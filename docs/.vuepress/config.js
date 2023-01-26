@@ -196,7 +196,7 @@ module.exports = {
                             },
                             {
                                 text: '算法主题',
-                                link: '/md/algorithm/logic/math/2022-10-30-bits.md'
+                                link: '/md/algorithm/logic/math/math.md'
                             }
                         ]
                     },
@@ -589,6 +589,14 @@ function genAlgorithmDataStructures() {
 // algorithm/logic
 function genAlgorithmLogic() {
     return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "math/math.md",
+            ]
+        },
         {
             title: "数学",
             collapsable: false,
