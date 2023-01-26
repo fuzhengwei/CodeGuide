@@ -1264,6 +1264,7 @@ function genApiGateway() {
             sidebarDepth: 0,
             children: [
                 "2023-01-15-第23章：网关运营管理后台框架搭建.md",
+                "2023-01-26-第24章：前后端分离应用的跨域接口调用.md",
             ]
         }
     ];
