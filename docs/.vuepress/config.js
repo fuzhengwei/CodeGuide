@@ -374,6 +374,10 @@ module.exports = {
                                     {
                                         text: 'IM Netty 仿PC端微信',
                                         link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
+                                    },
+                                    {
+                                        text: 'ChatGPT AI 问答助手',
+                                        link: '/md/project/chatbot-api/chatbot-api.md'
                                     }
                                 ]
                             },
@@ -493,6 +497,7 @@ module.exports = {
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
                     "/md/project/lottery/": getBarProjectLottery(),
                     "/md/project/im/": getBarProjectIM(),
+                    "/md/project/chatbot-api/": getBarProjectChatBotApi(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
                     "/md/about/": genBarAbout()
@@ -1681,6 +1686,33 @@ function getBarProjectIM() {
                 "3.9：解答篇-聊天表情发送功能实现.md",
             ]
         }
+    ];
+}
+
+function getBarProjectChatBotApi() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "chatbot-api.md",
+            ]
+        },
+        {
+            title: "课程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第1节：工程创建和仓库使用.md",
+                "第2节：创建知识星球，爬取接口信息.md",
+                "第3节：知识星球接口领域服务开发.md",
+                "第4节：对接ChatGPT，调用接口.md",
+                "第5节：整合知识星球与ChatGPT，完成自动化回答.md",
+                "第6节：部署服务到 Docker 容器.md",
+                "第7节：多组任务服务配置.md",
+            ]
+        },
     ];
 }
 
