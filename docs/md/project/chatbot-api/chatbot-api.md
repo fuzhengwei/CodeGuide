@@ -5,11 +5,6 @@ lock: no
 
 # 《ChatGPT AI 问答助手》实战项目 - 资料免费、代码开源、视频课程
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/project/chatbot-api/chatbot-api.png?raw=true">
-    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
-</div>
-
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
