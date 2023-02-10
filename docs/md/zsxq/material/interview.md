@@ -139,8 +139,13 @@ lock: no
     6. 如果跨部门的项目，你和其他团队的成员意见不一致怎么办？
     7. 讲一讲项目中最能够体现你owner意识的几件事情。
     8. 讲一讲你入职到现在哪些方面取得成长了，最好能有事例论证。
+- [抽奖后台配置了用户可以获得抽奖次数限制，每天最多3次，每周最多18次，每个月最多70次。如何设计实现。](https://t.zsxq.com/0bUpPAPCX)
 
-### 2. 通用问题
+### 2. API网关
+
+- [API网关项目这个应该怎么组织语言写道简历里](https://t.zsxq.com/0bjcygpls)
+
+### 3. 通用问题
 
 - [你工作中遇到过什么技术难题，是怎么解决的？](https://t.zsxq.com/05AuFmUz7)
 - [你是如何快速上手一门新技术的？](https://t.zsxq.com/06FAQR3Rv)
@@ -164,7 +169,7 @@ lock: no
 - [使用分库分表组件将订单信息散列到不同库表中了 B端商家如果需要查看某个活动/某一天的订单信息。](https://t.zsxq.com/08Vxe6lpN)
 - [我怎么去拦截执行的sql语句，然后根据不同添加在sql上面去加点条件](https://t.zsxq.com/08xh5q0Mr)
 
-### 3. 公司面试
+### 4. 公司面试
 
 - [中软国际1面A组](https://t.zsxq.com/05Jmyfiuj)
 - [中软国际1面B组](https://t.zsxq.com/05zRjuzVj)
@@ -173,17 +178,17 @@ lock: no
 - [23届的暑期实习面试【腾讯、字节、阿里(云、支付宝、钉钉)】](https://t.zsxq.com/05AeMjmiq)
 - [滴滴面试](https://t.zsxq.com/05f6eu3RZ)
 
-### 4. 简历包装
+### 5. 简历包装
 
 - [只有增删改查项目怎么办？](https://t.zsxq.com/05u7M7YrF)
 - [我现在专科大二，马上要准备找实习工作了，面试的时候对于实习生问什么类型的问题居多呢？](https://t.zsxq.com/05UrzbuNB)
 - [小傅哥，感觉今年的面试，已经不是背背八股文就可以了，需要有实战项目经验。](https://t.zsxq.com/06RbYZzf2)
 
-### 5. 上岸记录
+### 6. 上岸记录
 
 - [实习末班车上岸字节【北京某211大学本科2023届】](https://t.zsxq.com/05RfemUFu)
 - [秋招面试经历](https://t.zsxq.com/06AaI2r7q)
 
-### 6. 读者经验
+### 7. 读者经验
 
 - [重入锁ReentrantLock源码解析](https://articles.zsxq.com/id_h5xtekb7zbig.html)
