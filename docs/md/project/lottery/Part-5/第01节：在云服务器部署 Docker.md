@@ -15,6 +15,28 @@ pay: https://t.zsxq.com/08c55XltC
 - 在云服务器上部署 Docker，并安装 Portainer 运维面板以及汉化。汉化包已放到 [Lotter/doc/asserts/Portainer-CN](https://gitcode.net/KnowledgePlanet/Lottery/-/tree/master/doc/assets/Portainer-CN)
 - 服务器系统 CentOS 8.x、Docker 20.10.11
 - 如果你的云服务器已经安装其他系统，可以停机后更换系统即可，其实这个时候你还可以选择 Docker 镜像，也就是默认帮你安装好了 Docker 
+- 报错配置 `error response from daemon: Get "https://registry-1.docker.io/v2/`
+
+```java
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "experimental": false,
+  "features": {
+    "buildkit": true
+  },
+  "registry-mirrors": [
+    "https://0dj0t5fb.mirror.aliyuncs.com",
+    "https://docker.mirrors.ustc.edu.cn",
+    "https://6kx4zyno.mirror.aliyuncs.com",
+    "https://registry.docker-cn.com"
+  ]
+}
+```
 
 ## 二、手动安装 Docker
 
