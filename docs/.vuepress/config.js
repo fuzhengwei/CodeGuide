@@ -624,6 +624,18 @@ function genAlgorithmLogic() {
             ]
         },
         {
+            title: "集合",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sets/2023-02-09-cartesian-product.md",
+                "sets/2023-02-10-fisher-yates.md",
+                "sets/2023-02-11-power-set.md",
+                "sets/2023-02-12-permutations.md",
+                "sets/2023-02-13-combinations.md",
+            ]
+        },
+        {
             title: "刷题",
             collapsable: false,
             sidebarDepth: 0,
