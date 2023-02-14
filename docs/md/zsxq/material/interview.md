@@ -145,6 +145,11 @@ lock: no
 ### 2. API网关
 
 - [API网关项目这个应该怎么组织语言写道简历里](https://t.zsxq.com/0bjcygpls)
+- [我在之前的提问网关项目的简历编写这块 你有提到技术栈有使用redis和mq，这两个是在那块体现的。（因为我看到是有用redis做订阅发布，那假设我是用mq去做这个，那redis还需要去做什么呢）](https://t.zsxq.com/0bkCyZGzM)
+- [对于网关项目本身的高可用我们需要做哪些处理，对于一些数据失败的情况要做怎么样的兜底呢。](https://t.zsxq.com/0bkCyZGzM)
+- [在网关架构这块我看到在组件那块有看到池化技术和路由策略是体现在什么地方上，应该怎么去做。](https://t.zsxq.com/0bkCyZGzM)
+- [这个测试项目的rpc注册中心和网关注册中心分开，课程里是分开的，两个注册中心这个是否有必要性的。](https://t.zsxq.com/0bkCyZGzM)
+- [对于面试中问起对于网关的数据库是否分库分表以及qps tps数据应该怎么去考虑。](https://t.zsxq.com/0bkCyZGzM)
 
 ### 3. 通用问题
 
