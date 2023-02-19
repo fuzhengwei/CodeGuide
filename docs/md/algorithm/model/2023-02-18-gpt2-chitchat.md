@@ -274,6 +274,7 @@ python3 interact.py --no_cuda --model_path /home/GPT2-chitchat/model/model_epoch
 <div align="center">
     <img src="https://bugstack.cn/images/article/algorithm/model/model-2-04.png?raw=true" width="750px">
 </div>
+
 - 启动后就可以把你的 websocket 页面打开了，它会自动的链接到这个 websocket 服务上。
 - 如果你还需要 Socket 或者命令行的服务，也可以修改 interact.py 代码进行处理。
 
