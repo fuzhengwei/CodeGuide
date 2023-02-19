@@ -200,7 +200,7 @@ module.exports = {
                             },
                             {
                                 text: '机器学习',
-                                link: '/md/algorithm/logic/model/2023-02-12-chat-gpt.md'
+                                link: '/md/algorithm/model/2023-02-12-chat-gpt.md'
                             }
                         ]
                     },
