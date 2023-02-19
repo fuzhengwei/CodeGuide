@@ -197,6 +197,10 @@ module.exports = {
                             {
                                 text: '算法主题',
                                 link: '/md/algorithm/logic/math/math.md'
+                            },
+                            {
+                                text: '机器学习',
+                                link: '/md/algorithm/logic/model/2023-02-12-chat-gpt.md'
                             }
                         ]
                     },
@@ -476,6 +480,7 @@ module.exports = {
                     "/md/other/": genBarOther(),
                     "/md/algorithm/data-structures/": genAlgorithmDataStructures(),
                     "/md/algorithm/logic/": genAlgorithmLogic(),
+                    "/md/algorithm/model/": genAlgorithmModel(),
                     "/md/java/interview/": genBarJavaInterview(),
                     "/md/java/develop-jvm/": genBarJavaDevelopJvm(),
                     "/md/java/core/": genBarJavaCore(),
@@ -642,6 +647,21 @@ function genAlgorithmLogic() {
             children: [
                 "leetcode/2020-03-14-野路子搞算法《两数之和》，带着小白刷面试.md",
                 "leetcode/2020-03-18-无重复字符的最长子串.md",
+            ]
+        }
+    ]
+}
+
+// algorithm/model
+function genAlgorithmModel(){
+    return [
+        {
+            title: "机器学习",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-02-12-chat-gpt.md",
+                "2023-02-18-gpt2-chitchat.md",
             ]
         }
     ]
