@@ -571,3 +571,4 @@ Process finished with exit code 0
 - [不仅仅只由 Spring 本身类创建 Bean，仿照 Mybatis 框架，通过接口定义 @水中捞月](https://t.zsxq.com/08Hv720j8)
 - [ApplicationEventMulticaster关键类，主要是通过该类发布的事件 @Liuliuliu](https://t.zsxq.com/09Mibk2Uj)
 - [事件监听器，照字面意思，这个是一个机制 @lucien](https://t.zsxq.com/0buWRXssk)
+- [Spring IoC 容器通过反射或字节码增强的方式实例化 Bean @爱奋斗的小鲨鱼](https://t.zsxq.com/0blxKjTp3)
