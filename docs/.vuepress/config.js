@@ -1641,6 +1641,7 @@ function getBarProduct() {
             children: [
                 "book/design-pattern.md",
                 "book/spring.md",
+                "book/mybatis.md",
             ]
         },
         {
