@@ -416,6 +416,10 @@ module.exports = {
                                         text: '2022年出版《手写Spring：渐进式源码实践》',
                                         link: '/md/product/book/spring.md'
                                     },
+                                    {
+                                        text: '2023年出版《手写MyBatis：渐进式源码实践》',
+                                        link: '/md/product/book/mybatis.md'
+                                    },
                                 ]
                             },
                             {
