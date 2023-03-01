@@ -1,6 +1,6 @@
 ---
 title: 第15节：搭建MQ消息组件Kafka服务环境
-pay: https://t.zsxq.com/Y72naAU
+pay: https://t.zsxq.com/0bUpPxYR4
 ---
 
 # 第15节：搭建MQ消息组件Kafka服务环境
