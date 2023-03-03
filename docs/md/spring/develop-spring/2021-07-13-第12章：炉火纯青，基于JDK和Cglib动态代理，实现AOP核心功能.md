@@ -589,3 +589,4 @@ Process finished with exit code 0
 - [在创建对象之前,需要前判断对象是否需要代理 @Liuliuliu](https://t.zsxq.com/09CbW8E6P)
 - [前期在Spring当中涉及到了JDK和Cglib的动态代理，今天详细地进行了一个学习 @在九月](https://t.zsxq.com/0aPKwaowf)
 - [把 AOP 扩展到 Bean 的生命周期里 @lucien](https://t.zsxq.com/0berIUtme)
+- [AOP 是什么？什么是动态代理、静态代理？ @爱奋斗的小鲨鱼](https://t.zsxq.com/0bkVGZTiH)
