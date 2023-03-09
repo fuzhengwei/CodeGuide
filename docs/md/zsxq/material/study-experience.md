@@ -16,6 +16,12 @@ lock: no
 
 ## 二、个人介绍
 
+- [本人985软件工程研一在读，毕业后目标是杭州互联网大厂Java后端岗位。目前学习完的知识有：Java基础、JavaWeb、SSM、SpringBoot、MyBatis-Plus、MySQL。LeetCode刷题200+。@一米阳光](https://t.zsxq.com/0b2NpN3TP)
+- [大家好，我双非研二在读，电子信息专业，加入星球是因为在b站看到小傅哥的项目视频，顿时觉得是真大佬。@一只鱼鱼鱼🐟](https://t.zsxq.com/0bD4haCfA)
+- [大家好，我大四在读，电子信息工程专业，大三开始转的Java，练习时长不到一年，非科班。@渐渐](https://t.zsxq.com/0biRoztFd)
+- [大家好，我研二在读，专业控制科学与工程，目前研究方向偏向深度学习算法，纯纯非科班 @Leonora.](https://t.zsxq.com/0bPLfUDf5)
+- [大家好，我是今年应届毕业的二本生，因为一战失败停滞了一年技术，之前掌握到了ssm，但也不是很扎实 @赖伯](https://t.zsxq.com/0bPZqV8Ae)
+- [大家好，我是98年出生，16年上的大专，19年上的双非本科（21年毕业），计算机科学与技术专业~因为一些原因 @荒小北](https://t.zsxq.com/0bbNl1zkG)
 - [大家好，目前双非计算机技术 研二 在读，本科非计算机专业 ，2024年毕业 @heart and *](https://t.zsxq.com/0bWVu5Nsn)
 - [大家好，我是一名转行小白，本硕学的材料，跟计算机一点边不沾，5个月前从本行业辞职，进了一家互联网公司做Java @蛮大人](https://t.zsxq.com/0bzRtutRs)
 - [2022年毕业，普通双非二本计算机专业，希望跟着小傅哥开启源码学习之路。@沙漠之舟](https://t.zsxq.com/0bWijW2kX)
