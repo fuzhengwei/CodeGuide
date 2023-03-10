@@ -16,6 +16,7 @@ lock: no
 
 ## 二、个人介绍
 
+- [我是22年毕业，方向是Java后端，21年秋招签了一家公司，不太满意，现已离职 @四叶草](https://t.zsxq.com/0bWZA39oI)
 - [本人985软件工程研一在读，毕业后目标是杭州互联网大厂Java后端岗位。目前学习完的知识有：Java基础、JavaWeb、SSM、SpringBoot、MyBatis-Plus、MySQL。LeetCode刷题200+。@一米阳光](https://t.zsxq.com/0b2NpN3TP)
 - [大家好，我双非研二在读，电子信息专业，加入星球是因为在b站看到小傅哥的项目视频，顿时觉得是真大佬。@一只鱼鱼鱼🐟](https://t.zsxq.com/0bD4haCfA)
 - [大家好，我大四在读，电子信息工程专业，大三开始转的Java，练习时长不到一年，非科班。@渐渐](https://t.zsxq.com/0biRoztFd)
