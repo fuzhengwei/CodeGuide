@@ -16,6 +16,9 @@ lock: no
 
 ## 二、个人介绍
 
+- [大家好，我是一名普通的二本大三学生，和大多数大三学生一样，正在焦虑的找实习中 @撑死的](https://t.zsxq.com/0bP0RnxuW)
+- [大家好，我是非计算机专业的大专生，今年28岁，2015年毕业，2018年通过机构培训入行Java，入职的两家公司都非互联网 @村花(　-`ω-)](https://t.zsxq.com/0bQyvm8Fi)
+- [大家好，本人软件工程专业，大二在读，目标学习java后端，目前学过的技术栈只有web、ssm、mysql，springboot和vue仅会简单使用，加入傅哥的星球为了拓宽一下眼界和知识面 @葡萄](https://t.zsxq.com/0bZlqV0LH)
 - [我是22年毕业，方向是Java后端，21年秋招签了一家公司，不太满意，现已离职 @四叶草](https://t.zsxq.com/0bWZA39oI)
 - [本人985软件工程研一在读，毕业后目标是杭州互联网大厂Java后端岗位。目前学习完的知识有：Java基础、JavaWeb、SSM、SpringBoot、MyBatis-Plus、MySQL。LeetCode刷题200+。@一米阳光](https://t.zsxq.com/0b2NpN3TP)
 - [大家好，我双非研二在读，电子信息专业，加入星球是因为在b站看到小傅哥的项目视频，顿时觉得是真大佬。@一只鱼鱼鱼🐟](https://t.zsxq.com/0bD4haCfA)
