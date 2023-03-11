@@ -1318,6 +1318,14 @@ function genApiGateway() {
                 "2023-01-15-第23章：网关运营管理后台框架搭建.md",
                 "2023-01-26-第24章：前后端分离应用的跨域接口调用.md",
             ]
+        },
+        {
+            title: "第 7 部分 - 扩展功能",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2023-03-11-第28章：网关组件工程模块合并.md",
+            ]
         }
     ];
 }
