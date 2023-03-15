@@ -1646,7 +1646,7 @@ function getBarProduct() {
             sidebarDepth: 0,
             children: [
                 "book/design-pattern.md",
-                "book/spring.md",
+                // "book/spring.md",
                 "book/mybatis.md",
             ]
         },

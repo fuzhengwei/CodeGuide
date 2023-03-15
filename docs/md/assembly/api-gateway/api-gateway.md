@@ -1,9 +1,9 @@
 ---
-title: API网关架构设计
+title: API网关架构设计，从单体服务到微服务的架构演进
 lock: no
 ---
 
-# API网关架构设计
+# API网关架构设计，从单体服务到微服务的架构演进
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
