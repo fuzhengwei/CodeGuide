@@ -303,7 +303,7 @@ module.exports = {
                             },
                             {
                                 text: 'API网关：中间件设计和实践',
-                                link: '/md/assembly/api-gateway/2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md'
+                                link: '/md/assembly/api-gateway/api-gateway.md'
                             }
                         ]
                     },
@@ -411,10 +411,6 @@ module.exports = {
                                     {
                                         text: '2021年出版《重学Java设计模式》',
                                         link: '/md/product/book/design-pattern.md'
-                                    },
-                                    {
-                                        text: '2022年出版《手写Spring：渐进式源码实践》',
-                                        link: '/md/product/book/spring.md'
                                     },
                                     {
                                         text: '2023年出版《手写MyBatis：渐进式源码实践》',
@@ -1247,6 +1243,7 @@ function genApiGateway() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "api-gateway.md",
                 "2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md",
             ]
         },
