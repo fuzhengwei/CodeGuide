@@ -1322,6 +1322,7 @@ function genApiGateway() {
             sidebarDepth: 0,
             children: [
                 "2023-03-11-第28章：网关组件工程模块合并.md",
+                "2023-03-18-第29章：功能完善(算力关联、接口上报、调用反馈).md",
             ]
         }
     ];
