@@ -1597,7 +1597,7 @@ function getBarZSXQ() {
                 "project/lottery.md",
                 "project/im.md",
                 "project/api-gateway.md",
-                "project/api-gateway.md",
+                "project/bug-code.md",
                 "project/springboot-starter.md",
             ]
         },

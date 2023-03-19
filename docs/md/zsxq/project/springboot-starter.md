@@ -1,9 +1,9 @@
 ---
-title: 《SpringBoot 中间件设计和开发》
+title: SpringBoot 中间件设计和开发
 lock: need
 ---
 
-# 《SpringBoot 中间件设计和开发》
+# SpringBoot 中间件设计和开发
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
