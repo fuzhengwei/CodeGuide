@@ -20,6 +20,7 @@ pay: https://t.zsxq.com/0bUpPxYR4
 - [扫描库表补偿发货单MQ消息 @杨杨得亿🙉](https://t.zsxq.com/06v3JmYvr)
 - [搭建MQ消息组件Kafka服务环境 @Geroge Liu](https://t.zsxq.com/06fQrVVNJ)
 - [搭建MQ消息组件Kafka服务环境 @liuc](https://t.zsxq.com/06VzrvZji)
+- [搭建MQ消息组件Kafka服务环境【可视化Kafka】 @张=小红=](https://t.zsxq.com/0ciaaIy9u)
 
 ## 一、开发日志
 
