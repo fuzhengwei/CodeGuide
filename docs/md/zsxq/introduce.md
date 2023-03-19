@@ -117,6 +117,7 @@ lock: no
 - [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
 - [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
 - [API网关：中间件设计和实践](https://bugstack.cn/md/zsxq/project/api-gateway.html)
+- [SpringBoot Starter 中间件设计和开发](https://bugstack.cn/md/zsxq/project/springboot-starter.html)
 
 #### 1.2 技术小册
 
@@ -171,7 +172,7 @@ lock: no
 
 ## 三、加入：知识星球
 
-星球价格 **￥129** 一年，老用户续费 **5折** 一年（星球每年都会开发新的学习项目和技术小册等资料）。[查看星球项目](https://bugstack.cn/md/zsxq/other/join.html)
+星球价格 **￥139** 一年，老用户续费 **5折** 一年（星球每年都会开发新的学习项目和技术小册等资料）。[查看星球项目](https://bugstack.cn/md/zsxq/other/join.html)
 
 >加入 3 天内可以全额退款，感兴趣的同学可以先加入体验，自己判断是否有价值。
 

@@ -1,12 +1,13 @@
 ---
-title: 《SpringBoot 中间件设计和开发》| 对，小傅哥的掘金小册上线啦，这次教你造火箭！
+title: 《SpringBoot 中间件设计和开发》
 lock: need
 ---
 
-# 《SpringBoot 中间件设计和开发》| 对，小傅哥的掘金小册上线啦，这次教你造火箭！
+# 《SpringBoot 中间件设计和开发》
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>星球：[https://t.zsxq.com/05zj2niYR](https://t.zsxq.com/05zj2niYR)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -105,18 +106,9 @@ lock: need
 - 对中间件开发感兴趣，但不知道从哪入手
 - 有在 SpringBoot 开发 Starter 的技术需求
 
-## 六、📚小册购买优惠
+## 六、项目课程📚
 
-### 1. 可获得内容包括
-
-1. [《SpringBoot 中间件设计和开发》](https://t.zsxq.com/0c7qkNTdA) 专栏小册完整阅读权限
-2. 30组对应的代码库一套，可以随时交流讨论提交 issues
-3. 可以加入专栏小册交流群，添加我的微信：fustack 备注：`中间件加群`
-
-### 2. 购买方式
-
-1. 加入星球：[https://t.zsxq.com/0c7qkNTdA](https://t.zsxq.com/0c7qkNTdA) - 开通会员，你获得的是整个网站的所有项目
-1. 掘金购买：[https://juejin.cn/book/6940996508632219689](https://juejin.cn/book/6940996508632219689) - 可以单独购买此项目进行学习
+- 地址：[https://t.zsxq.com/0c7qkNTdA](https://t.zsxq.com/0c7qkNTdA)
 
 ## 七、🎉收尾感谢
 

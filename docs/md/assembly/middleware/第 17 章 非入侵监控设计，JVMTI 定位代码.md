@@ -1,6 +1,6 @@
 ---
 title: 第 17 章 非入侵监控设计，JVMTI 定位代码
-pay: https://juejin.cn/book/6940996508632219689/section/6941278763120328737
+pay: https://t.zsxq.com/0c7qkNTdA
 ---
 
 # 第 17 章 非入侵监控设计，JVMTI 定位代码

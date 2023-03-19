@@ -1,6 +1,6 @@
 ---
 title: 第 7 章 ORM 框架实现
-pay: https://juejin.cn/book/6940996508632219689/section/6941278392796839976
+pay: https://t.zsxq.com/0c7qkNTdA
 ---
 
 # 第 7 章 ORM 框架实现

@@ -1,6 +1,6 @@
 ---
 title: 第 8 章 ORM 框架与 Spring 集合
-pay: https://juejin.cn/book/6940996508632219689/section/6941278434337226765
+pay: https://t.zsxq.com/0c7qkNTdA
 ---
 
 # 第 8 章 ORM 框架与 Spring 集合
