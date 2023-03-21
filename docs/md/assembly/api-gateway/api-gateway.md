@@ -10,10 +10,7 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-0-00.png?raw=true">
-    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
-</div>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=568661676&bvid=BV1iv4y1L78e&cid=1059899092&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 我在`"经海" —— 路，地铁站🚇`这么多年啊，肝了这么多项目，卷了这么多技术，攒了这么多经验。不就是为了给兄弟们👬🏻讲点在真实场景有用的干货吗？！
 
