@@ -393,7 +393,7 @@ module.exports = {
                                     },
                                     {
                                         text: 'API网关：中间件设计和实践',
-                                        link: 'https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html'
+                                        link: 'https://bugstack.cn/md/assembly/api-gateway/api-gateway.html'
                                     },
                                 ]
                             },
