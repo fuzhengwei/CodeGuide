@@ -1,6 +1,6 @@
 ---
 title: 第 8 章 ORM 框架与 Spring 集合
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_4pknjkvvjd7q.html
 ---
 
 # 第 8 章 ORM 框架与 Spring 集合
