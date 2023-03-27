@@ -1034,6 +1034,7 @@ function genBarDevOPS() {
                 "2021-11-01-迁移vuepress博客踩坑经历.md",
                 "2021-11-07-关于怎么使用 webhooks 自动部署博客，详细教程文档！.md",
                 "2022-03-04-教小白使用 docsify，搭建一个贼简单的所见即所得博客！.md",
+                "2023-03-25-免费部署部署ChatGPT.md",
             ]
         }
     ]
@@ -1584,6 +1585,7 @@ function getBarZSXQ() {
                 "material/guide.md",
                 "material/architecture_design.md",
                 "material/interview.md",
+                "material/notes.md",
                 "material/study-experience.md",
                 "material/exam.md",
                 "material/openai.md",
