@@ -82,7 +82,7 @@ lock: no
 
 ### 3. 组件项目01
 
-- **项目地址**：[https://bugstack.cn/md/assembly/middleware/第 1 章 什么是中间件.html](https://bugstack.cn/md/assembly/middleware/第 1 章 什么是中间件.html)
+- **项目地址**：[https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%201%20%E7%AB%A0%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E9%97%B4%E4%BB%B6.html](https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%201%20%E7%AB%A0%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E9%97%B4%E4%BB%B6.html)
 - **项目名称**：自动化API提取和交付质量分析服务
 - **系统架构**：基于 IDEA Plugin 插件开发与 ASM 字节码增强技术，采集工程运行信息
 - **核心技术**：IDEA Plugin SDK、ASM、Swing、MySQL、SpringBoot、TTL
@@ -94,7 +94,7 @@ lock: no
 
 ### 4. 组件项目02
 
-- **项目地址**：[https://bugstack.cn/md/assembly/middleware/第 1 章 什么是中间件.html](https://bugstack.cn/md/assembly/middleware/第 1 章 什么是中间件.html)
+- **项目地址**：[https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%201%20%E7%AB%A0%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E9%97%B4%E4%BB%B6.html](https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%201%20%E7%AB%A0%20%E4%BB%80%E4%B9%88%E6%98%AF%E4%B8%AD%E9%97%B4%E4%BB%B6.html)
 - **项目名称**：ES-ORM 框架开发
 - **系统架构**：技术迁移 ORM 开发到 ES 使用上，建设 SpringBoot Starter
 - **核心技术**：SpringBoot、ES、MyBatis、dom4j、x-pack-jdbc
@@ -106,7 +106,7 @@ lock: no
 
 ### 5. 组件项目03
 
-- **项目地址**：[https://bugstack.cn/md/assembly/middleware/第 3 章 服务治理，统一白名单控制.html](https://bugstack.cn/md/assembly/middleware/第 3 章 服务治理，统一白名单控制.html)
+- **项目地址**：[https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%203%20%E7%AB%A0%20%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86%EF%BC%8C%E7%BB%9F%E4%B8%80%E7%99%BD%E5%90%8D%E5%8D%95%E6%8E%A7%E5%88%B6.html](https://bugstack.cn/md/assembly/middleware/%E7%AC%AC%203%20%E7%AB%A0%20%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86%EF%BC%8C%E7%BB%9F%E4%B8%80%E7%99%BD%E5%90%8D%E5%8D%95%E6%8E%A7%E5%88%B6.html)
 - **项目名称**：服务治理 SpringBoot 中间件 - 凝练通用共性功能，降低开发成本，提高交付效率
 - **系统架构**：SpringBoot Starter 组件开发
 - **核心技术**：熔断、降级、限流、切量、白名单、人群控制
