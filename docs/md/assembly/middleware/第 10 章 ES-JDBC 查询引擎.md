@@ -1,6 +1,6 @@
 ---
 title: 第 10 章 ES-JDBC 查询引擎
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_0pvsvsbjwq8n.html
 ---
 
 # 第 10 章 ES-JDBC 查询引擎
