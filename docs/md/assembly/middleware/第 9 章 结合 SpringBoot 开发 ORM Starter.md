@@ -1,6 +1,6 @@
 ---
 title: 第 9 章 结合 SpringBoot 开发 ORM Starter
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_iuv6h9okk5di.html
 ---
 
 # 第 9 章 结合 SpringBoot 开发 ORM Starter
