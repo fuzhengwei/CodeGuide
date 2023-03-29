@@ -1,6 +1,6 @@
 ---
 title: 第 11 章 ES SpringBoot Starter 服务框架
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_plp0m0wd286w.html
 ---
 
 # 第 11 章 ES SpringBoot Starter 服务框架
