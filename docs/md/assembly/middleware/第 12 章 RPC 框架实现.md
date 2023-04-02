@@ -1,6 +1,6 @@
 ---
 title: 第 12 章 RPC 框架实现
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_ecjnp8xewipk.html
 ---
 
 # 第 12 章 RPC 框架实现
