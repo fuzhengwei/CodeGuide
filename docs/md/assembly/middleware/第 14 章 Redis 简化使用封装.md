@@ -1,6 +1,6 @@
 ---
 title: 第 14 章 Redis 简化使用封装
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://articles.zsxq.com/id_eswajw5zcqe8.html
 ---
 
 # 第 14 章 Redis 简化使用封装
