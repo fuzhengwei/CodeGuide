@@ -31,6 +31,7 @@ pay: https://t.zsxq.com/jUbmeE2
 - [了解环境，配置，规范，搭建DDD+RPC架构 @xbhog](https://t.zsxq.com/06maiQVNb)
 - [遇到的问题如下:(主要出在项目搭建与启动上) @浩](https://t.zsxq.com/07I6AmeeA)
 - [完成项目结构的搭建，项目驱动学习的理念确实不错！@ Ad.](https://t.zsxq.com/0cn5EgEBK)
+- [个人对DDD架构的一点理解，以及和MVC架构中的对比。@陈晓川](https://t.zsxq.com/0c1iaOI00)
 
 ## DDD 分层架构介绍
 
