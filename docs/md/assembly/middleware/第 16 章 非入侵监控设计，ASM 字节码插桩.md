@@ -1,6 +1,6 @@
 ---
 title: 第 16 章 非入侵监控设计，ASM 字节码插桩
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://t.zsxq.com/0chxvIsy2
 ---
 
 # 第 16 章 非入侵监控设计，ASM 字节码插桩

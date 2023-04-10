@@ -1,6 +1,6 @@
 ---
 title: 第 7 章 ORM 框架实现
-pay: https://articles.zsxq.com/id_s14lz5v7pl8u.html
+pay: https://t.zsxq.com/0cTICWYwy
 ---
 
 # 第 7 章 ORM 框架实现
