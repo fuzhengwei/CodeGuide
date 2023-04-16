@@ -21,6 +21,7 @@ pay: https://t.zsxq.com/0bUpPxYR4
 - [搭建MQ消息组件Kafka服务环境 @Geroge Liu](https://t.zsxq.com/06fQrVVNJ)
 - [搭建MQ消息组件Kafka服务环境 @liuc](https://t.zsxq.com/06VzrvZji)
 - [搭建MQ消息组件Kafka服务环境【可视化Kafka】 @张=小红=](https://t.zsxq.com/0ciaaIy9u)
+- [打开又一个新世界的大门 —— 消息中间件：Kafka @AD钙奶](https://t.zsxq.com/0dWiE0Eiu)
 
 ## 一、开发日志
 
