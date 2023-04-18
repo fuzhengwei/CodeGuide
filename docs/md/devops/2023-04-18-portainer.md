@@ -1,0 +1,52 @@
+---
+title: Portainer
+lock: need
+---
+
+# Portainer
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+- 官网：[https://www.portainer.io/](https://www.portainer.io/)
+- 介绍：在任何数据中心、云、网络边缘或 IIOT 设备的 Kubernetes、Docker、Swarm 和 Nomad 上，在几分钟内部署、配置、故障排除和保护容器。 
+
+## 一、基础安装
+
+### 1. 拉取最新的 Portainer
+
+```java
+[root@CodeGuide portainer]# docker pull portainer/portainer
+Using default tag: latest
+latest: Pulling from portainer/portainer
+94cfa856b2b1: Pull complete 
+49d59ee0881a: Pull complete 
+a2300fd28637: Pull complete 
+Digest: sha256:fb45b43738646048a0a0cc74fcee2865b69efde857e710126084ee5de9be0f3f
+Status: Downloaded newer image for portainer/portainer:latest
+docker.io/portainer/portainer:latest
+```
+
+- docker pull portainer/portainer
+- 拉取 portainer
+
+### 2. 安装和启动
+
+```java
+[root@CodeGuide]# docker run -d --restart=always --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
+
+### 3. 访问 Portainer
+
+- 地址：[http://39.96.*.*:9000/](#)
+- 操作：登录后设置你的用户名和密码，并设置本地Docker即可，设置完成后，如下
+
+<div align="center">
+	<img src="/Users/fuzhengwei/Desktop/dev-ops-portainer-230418-01.png?raw=true" width="950px"/>
+</div>
+
+<div align="center">
+	<img src="/Users/fuzhengwei/Desktop/dev-ops-portainer-230418-02.png?raw=true" width="950px"/>
+</div>
