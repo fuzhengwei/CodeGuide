@@ -364,7 +364,7 @@ module.exports = {
                     },
                     {
                         text: '部署',
-                        link: '/md/devops/2019-08-12-windows环境下安装elasticsearch6.2.2.md'
+                        link: '/md/devops/2023-04-18-tool.md'
                     },
                     {
                         text: '💯实战项目',
@@ -1018,12 +1018,23 @@ function genBarDevelopDesignPattern() {
 function genBarDevOPS() {
     return [
         {
-            title: "Dev-OPS",
+            title: "环境配置",
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "2023-04-18-tool.md",
+                "2023-04-18-docker.md",
+                "2023-04-18-portainer.md",
+                "2023-04-18-nginx.md",
                 "2019-08-12-windows环境下安装elasticsearch6.2.2.md",
                 "2019-08-13-elasticsearch-head插件安装.md",
+            ]
+        },
+        {
+            title: "服务部署",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "2019-11-23-并不想吹牛皮，但！为了把Github博客粉丝转移到公众号，我干了！.md",
                 "2020-03-28-GithubAndMyBlogAttacked.md",
                 "2020-04-25-《Netty+JavaFx实战：仿桌面版微信聊天》代码开源+上云部署+视频讲解.md",

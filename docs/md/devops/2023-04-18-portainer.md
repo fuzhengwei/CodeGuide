@@ -3,7 +3,7 @@ title: Portainer
 lock: need
 ---
 
-# Portainer
+# Portainer 环境配置
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -44,9 +44,28 @@ docker.io/portainer/portainer:latest
 - 操作：登录后设置你的用户名和密码，并设置本地Docker即可，设置完成后，如下
 
 <div align="center">
-	<img src="/Users/fuzhengwei/Desktop/dev-ops-portainer-230418-01.png?raw=true" width="950px"/>
+	<img src="https://bugstack.cn/images/article/devops/dev-ops-portainer-230418-01.png?raw=true" width="950px"/>
 </div>
 
 <div align="center">
-	<img src="/Users/fuzhengwei/Desktop/dev-ops-portainer-230418-02.png?raw=true" width="950px"/>
+	<img src="https://bugstack.cn/images/article/devops/dev-ops-portainer-230418-02.png?raw=true" width="950px"/>
 </div>
+
+## 二、链接服务
+
+地址：[http://180.76.119.142:9000/#!/wizard/endpoints/create?envType=dockerStandalone](http://180.76.119.142:9000/#!/wizard/endpoints/create?envType=dockerStandalone)
+
+<div align="center">
+	<img src="https://bugstack.cn/images/article/devops/dev-ops-portainer-230418-01.png?raw=true" width="950px"/>
+</div>
+
+```shell script
+docker run -d \
+  -p 9001:9001 \
+  --name portainer_agent \
+  --restart=always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/lib/docker/volumes:/var/lib/docker/volumes \
+  portainer/agent:2.16.2
+```
+
