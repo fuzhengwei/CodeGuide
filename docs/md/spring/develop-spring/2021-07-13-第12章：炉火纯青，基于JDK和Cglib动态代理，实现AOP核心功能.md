@@ -294,6 +294,8 @@ public interface MethodMatcher {
 
 **实现切点表达式类**
 
+**cn.bugstack.springframework.aop.aspectj.AspectJExpressionPointcut**
+
 ```java
 public class AspectJExpressionPointcut implements Pointcut, ClassFilter, MethodMatcher {
 
