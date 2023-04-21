@@ -58,6 +58,8 @@ lock: no
 
 ### 1. 业务项目
 
+#### 1.1 Lottery
+
 - **项目地址**：[https://bugstack.cn/md/project/lottery/introduce/Lottery抽奖系统.html](https://bugstack.cn/md/project/lottery/introduce/Lottery抽奖系统.html)
 - **项目名称**：营销活动平台 - Lottery 微服务抽奖系统
 - **系统架构**：以 DDD 领域驱动设计开发，微服务拆分的分布式系统架构
@@ -71,7 +73,7 @@ lock: no
   - 【简单】因活动秒杀的并发场景，将秒杀从最开始的数据库行级锁优化为Redis Key 加锁，又从 Redis Key 的独占锁，优化为滑块锁。优化后整体秒杀有了非常可观的性能提升。
   - 【简单】解耦抽奖流程，把抽奖和发奖用MQ消息串联起来，避免一个流程太长，导致用户一直等待。
   
----
+#### 1.2 ChatGPT AI 问答助手
 
 - **项目地址**：[https://bugstack.cn/md/project/chatbot-api/chatbot-api.html](https://bugstack.cn/md/project/chatbot-api/chatbot-api.html)
 - **项目名称**：ChatGPT AI 服务化问答中心
@@ -130,6 +132,18 @@ lock: no
   - 鉴于组内同类需求的重复开发，设计并实现服务治理 SpringBoot Starter 中间件，提高开发效率和降低重复开发成本。 该中间件的核心功能包括服务治理中的熔断、降级、限流、切量和白名单等。
   - 通过利用SpringBoot的自动化配置机制，该中间件可以简化集成和使用，同时提供足够的配置选项以满足不同场景的需求。
   - 此外，该中间件还提供了可扩展的接口，方便用户根据自身需求扩展功能，从而更好地满足不同的业务需求。
+
+### 6. 组件项目04
+
+- **项目地址**：[https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html](https://bugstack.cn/md/project/lottery/Part-2/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%AE%9E%E7%8E%B0%E5%92%8C%E4%BD%BF%E7%94%A8%E5%88%86%E5%BA%93%E5%88%86%E8%A1%A8.html)
+- **项目名称**：DB-Router 数据库路由组件
+- **系统架构**：基于 AOP、Spring 动态数据源切换、MyBatis 插件开发、散列算法等技术，实现的 SpringBoot Starter 数据库路由组件
+- **核心技术**：AOP、AbstractRoutingDataSource、MyBatis Plugin StatementHandler、扰动函数、哈希散列、ThreadLocal 
+- **项目描述**：此组件项目是为了解决在分库分表场景下，开发一款可以应对自身业务场景多变特性，即支持个性的分库分表、只分库或者只分表以及双字段控制分库和分表，也可以自定义扩展监控、扫描、策略等规则，同时又能满足简单维护迭代的数据库路由组件。这块路由组件在设计实现上除核心技术外，还进行了严格雪崩标准(SAC) 测试，确保数据的散列效果。
+- **我的职责**：
+  - 设计分库分表数据库路由组件的架构模型结构，运用设计模式对这块组件进行功能的分治和实现。
+  - 调研平方散列、除法散了、乘法散列、哈希散列以及斐波那契散列，并结合雪崩测试，选择了一块适合数据库路由的散列算法，并做功能的开发实现。
+  - 引入 MyBatis Plugin 插件开发功能，对执行的 SQL 语句动态变更表信息，做到执行对应表的策略设计。同时扩展了监控和日志功能，方便在调试和验证时，可以打印相关SQL语句。
 
 ## 自我评价
 
