@@ -372,6 +372,10 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
+                                        text: 'ChatGPT 微服务应用体系构建',
+                                        link: '/md/project/chatgpt/chatgpt.md'
+                                    },
+                                    {
                                         text: 'Lottery 分布式抽奖系统',
                                         link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
                                     },
@@ -500,6 +504,7 @@ module.exports = {
                     "/md/bytecode/agent/": genBarBytecodeAgent(),
                     "/md/bytecode/": genBarBytecodeAsmJavassistByteBuddy(),
                     "/md/project/springboot-middleware/": getBarProjectSpringBootMiddleware(),
+                    "/md/project/chatgpt/": getBarProjectChatGPT(),
                     "/md/project/lottery/": getBarProjectLottery(),
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
@@ -1849,6 +1854,19 @@ function getBarProjectSpringBootMiddleware() {
             ]
         }
     ];
+}
+
+function getBarProjectChatGPT() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "chatgpt.md",
+            ]
+        },
+    ]
 }
 
 // project lottery

@@ -18,10 +18,10 @@ lock: no
     <br/>
 </div>
 
-🌹加入后，这些内容都是你的，**这片鱼塘**都给你了！—— 目前已有4200+伙伴在星球学习！
+🌹加入后，这些内容都是你的，**这片鱼塘**都给你了！—— 目前已有6400+伙伴在星球学习！
 
 <div align="center">
-    <img src="https://bugstack.cn/assets/images/zsxq/zsxq-booklet.png" width="650px">
+    <img src="https://bugstack.cn/images/system/zsxq/zsxq-booklet.png" width="650px">
     <br/>
     <div style="font-size: 9px;">关注小傅哥的公众号【bugstack虫洞栈】回复【星球】也可以领取专属优惠券</div>
     <br/>
