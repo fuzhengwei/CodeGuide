@@ -1864,8 +1864,9 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "chatgpt.md",
+                "引言.md",
             ]
-        },
+        }
     ]
 }
 
