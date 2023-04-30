@@ -1866,6 +1866,14 @@ function getBarProjectChatGPT() {
                 "chatgpt.md",
                 "引言.md",
             ]
+        },
+        {
+            title: "Dev-Ops",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "dev-ops/第1节：push工程到仓库.md",
+            ]
         }
     ]
 }
