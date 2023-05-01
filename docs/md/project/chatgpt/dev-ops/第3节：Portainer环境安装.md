@@ -14,7 +14,6 @@ pay: https://t.zsxq.com/0dYyw6VNQ
 - **本章重点**：通过本章节内容的学习，教会读者如何本地和云服务器安装Portainer环境。
 - **课程视频**：[https://t.zsxq.com/0dmmGxI39](https://t.zsxq.com/0dmmGxI39)
 
-
 ## 一、基础安装
 
 ### 1. 拉取最新的 Portainer

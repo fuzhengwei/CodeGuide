@@ -1875,6 +1875,7 @@ function getBarProjectChatGPT() {
                 "dev-ops/第1节：push工程到仓库.md",
                 "dev-ops/第2节：Docker环境安装.md",
                 "dev-ops/第3节：Portainer环境安装.md",
+                "dev-ops/第4节：Nginx环境配置.md",
             ]
         }
     ]
