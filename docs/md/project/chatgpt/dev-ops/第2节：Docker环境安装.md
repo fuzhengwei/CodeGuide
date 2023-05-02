@@ -29,13 +29,13 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的�
 Docker 的安装非常简单，你只需要选择适合你的机器版本。Mac、Windows、Linux，直接一步步安装即可。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/1024/CodeTutorials/docs/notes/chatgpt/dev-ops/chapter-02/images/chatgpt-dev-ops-02-01.png?raw=true" width="850px">
+    <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-dev-ops-02-01.png?raw=true" width="850px">
 </div>
 
 安装完成后，按照自己的机器配置一个适合的空间占用。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/1024/CodeTutorials/docs/notes/chatgpt/dev-ops/chapter-02/images/chatgpt-dev-ops-02-02.png?raw=true" width="850px">
+    <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-dev-ops-02-02.png?raw=true" width="850px">
 </div>
 
 - 安装后，可以在 Docker 的操作界面拉取镜像、推送镜像、部署程序等，后面会在课程的使用中进行体现。

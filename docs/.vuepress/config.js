@@ -1877,6 +1877,14 @@ function getBarProjectChatGPT() {
                 "dev-ops/第3节：Portainer环境安装.md",
                 "dev-ops/第4节：Nginx环境配置.md",
             ]
+        },
+        {
+            title: "ChatGPT-API",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "api/第1节：API工程搭建和简单访问认证.md",
+            ]
         }
     ]
 }
