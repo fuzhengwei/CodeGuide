@@ -1884,6 +1884,7 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "api/第1节：API工程搭建和简单访问认证.md",
+                "api/第2节：Shiro登录授权发放访问token.md",
             ]
         }
     ]
