@@ -1,6 +1,6 @@
 ---
 title: 第1节：API工程搭建和简单访问认证
-pay: https://t.zsxq.com/0dcdSvckQ
+pay: https://t.zsxq.com/0dh0CXAsQ
 ---
 
 # 《ChatGPT 微服务应用体系构建》 - chagpt-api 第1节：API工程搭建和简单访问认证
