@@ -1888,6 +1888,15 @@ function getBarProjectChatGPT() {
                 "api/第2节：Shiro登录授权发放访问token.md",
             ]
         }
+        ,
+        {
+            title: "ChatGPT-SDK",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sdk/第1节：ChatGPT-SDK组件工程简单功能实现.md",
+            ]
+        }
     ]
 }
 
