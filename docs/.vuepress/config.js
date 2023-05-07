@@ -1886,6 +1886,7 @@ function getBarProjectChatGPT() {
             children: [
                 "api/第1节：API工程搭建和简单访问认证.md",
                 "api/第2节：Shiro登录授权发放访问token.md",
+                "api/第3节：微信公众号验签和初步对接OpenAI.md",
             ]
         }
         ,

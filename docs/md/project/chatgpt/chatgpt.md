@@ -1,5 +1,5 @@
 ---
-title: 课程介绍
+title: 课程：ChatGPT 微服务应用体系构建
 lock: no
 ---
 
