@@ -1604,7 +1604,6 @@ function getBarZSXQ() {
                 "material/notes.md",
                 "material/study-experience.md",
                 "material/exam.md",
-                "material/openai.md",
             ]
         },
         {
@@ -1612,11 +1611,11 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "project/lottery.md",
-                "project/im.md",
+                "project/chatgpt.md",
                 "project/api-gateway.md",
-                "project/bug-code.md",
+                "project/lottery.md",
                 "project/springboot-starter.md",
+                "project/im.md",
             ]
         },
         {
@@ -1637,6 +1636,15 @@ function getBarZSXQ() {
             children: [
                 "source-code/develop-spring.md",
                 "source-code/develop-mybatis.md",
+            ]
+        },
+        {
+            title: "其他内容",
+            collapsable: true,
+            sidebarDepth: 1,
+            children: [
+                "project/bug-code.md",
+                "material/openai.md",
             ]
         },
         {
