@@ -1,6 +1,6 @@
 ---
 title: 第1节：push工程到仓库
-pay: https://t.zsxq.com/0d7K7hJ0i
+pay: https://t.zsxq.com/0djBLg22a
 ---
 
 # 《ChatGPT 微服务应用体系构建》 - dev-ops 第1节：push工程到仓库
