@@ -2022,6 +2022,7 @@ function genBarAbout() {
                 "me/2021-11-14-CodeGuide开源仓库.md",
                 "me/2022-05-22-copyright-violation.md",
                 "me/2023-04-16-这是我异动的第一周，为啥离开原部门？.md",
+                "me/2023-05-07-51假期代码旅游.md",
             ]
         },
         {
