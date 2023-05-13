@@ -30,7 +30,7 @@ lock: no
     <br/>
 </div>
 
-3. 请新同好加入时发布一个帖子来介绍自己，包括但不限于毕业时间、学历信息、工作经历、技术栈、学习方向、兴趣爱好、加入星球的原因等。**必须** 打上 **#自我介绍** 标签、且 必须 包含 **【个人计划】**，可以参考下面这些不错的介绍：—— 一份打卡介绍也是鉴证你学习的开始
+3. 请新同好加入时发布一个帖子来介绍自己，方便我来帮助你做一些指引。包括但不限于毕业时间、学历信息、工作经历、技术栈、学习方向、兴趣爱好、加入星球的原因等。**必须** 打上 **#自我介绍** 标签、且 必须 包含 **【个人计划】**，可以参考下面这些不错的介绍：—— 一份打卡介绍也是鉴证你学习的开始
 
     - [小蜗牛](https://t.zsxq.com/057ufQBq3)
     - [小杨](https://t.zsxq.com/05vjEIyNZ)
@@ -38,10 +38,6 @@ lock: no
     - [T*my](https://t.zsxq.com/05Nv3NbaA)
 
 4. 当你加入星球后，遇到任何问题都可以在星球中搜索(`很多问题可能已经回答过了`)。如果没找到答案，请先阅读 [《提问的智慧》](https://t.zsxq.com/qZ7urNf)，来学习如何正确高效地提问，然后再向小傅哥 **免费提问**（在星球中提问，**不是私信** 哦~ 可匿名提问），小傅哥会按照提问顺序依次在固定的时间回答大家的问题。
-
-5. 星球提供免费批阅简历的服务，建议先阅读 [写简历技巧](https://mp.weixin.qq.com/s/ry0flp0c3iHm9XSErPepyg) 参照修改，然后将简历(最好是word版本，我可以直接给你做批注)发送到小傅哥的邮箱 184172133@qq.com，邮件标题为：`【星球】编号xx，yy同学简历优化(xx 为你的星球编号，yy为你的星球昵称，别写错哦)`，并适当介绍你的简历内容、求职方向、个人计划。【简历模板：[https://t.zsxq.com/rf2JUfY](https://t.zsxq.com/rf2JUfY)】
-
-6. 除了以上的知识分享、打卡送书、周边礼物，今年还会组织球友线下聚会，建议大家日常打开 **APP** 看一看，收获知识的同时、顺便白嫖一点小奖励。
 
 ---
 
@@ -67,14 +63,7 @@ lock: no
     <img src="https://bugstack.cn/images/system/zsxq-project.png?raw=true" width="650px">
 </div>
 
-## 三、课程：包括内容
-
-目前星球：码农会锁 | 包括的课程内容有；
-- 实战项目：[Lottery 分布式抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[《SpringBoot 中间件设计和开发》](https://bugstack.cn/md/zsxq/project/springboot-starter.html)、[Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)、[Api网关【进行Ing】](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)
-- 技术小册：[Java 面经手册](https://t.zsxq.com/05YZZjq7m)、[IDEA Plugin 开发手册](https://t.zsxq.com/05ufmQnA2)、[字节码编程](https://bugstack.cn/md/bytecode/asm/2020-03-25-%5BASM%E5%AD%97%E8%8A%82%E7%A0%81%E7%BC%96%E7%A8%8B%5D%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%8F%AA%E5%86%99CRUD%EF%BC%8C%E9%82%A3%E8%BF%99%E7%A7%8D%E6%8A%80%E6%9C%AF%E4%BD%A0%E6%B0%B8%E8%BF%9C%E7%A2%B0%E4%B8%8D%E5%88%B0.html)、[Java 数据结构和算法【进行Ing】](https://bugstack.cn/md/algorithm/data-structures/2022-07-22-linked-list.html)
-- 手撕源码：[手写Spring：渐进式源码实践](https://t.zsxq.com/05Vvbmq7a)、[手写Mybatis：渐进式源码实践](https://t.zsxq.com/05bmqNFQ7)
-
-## 四、课程：学习路线
+## 三、课程：学习路线
 
 星球学习项目较多，建议学习路线如下；
 
@@ -84,9 +73,9 @@ lock: no
 4. **网络编程**：Netty 4.x 小册、IM(Netty 4.x + JavaFx)
 5. **应届小白**：重学Java设计模式、Java面经手册、手写Spring/手写Mybatis(2选1)、Lottery 分布式抽奖、SpringBoot Starter 中间件设计和开发，之后学习拉伸技术、网络编程
 
-## 五、简历：项目组合
+## 四、简历：项目组合
 
-1. 建议的项目组合是；a【业务】Lottery  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT AI 问答助手 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
+1. 建议的项目组合是；a【业务】Lottery、ChatGPT  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT AI 问答助手 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
     1. 基础组合；a、c
     2. 中级组合；a、c、d/e
     3. 高级组合；a、b、e

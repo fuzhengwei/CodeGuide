@@ -7,6 +7,7 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>星球：[https://t.zsxq.com/0eXUe12Vr](https://t.zsxq.com/0eXUe12Vr) - 课程入口
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -20,7 +21,9 @@ lock: no
 
 所以🌶，又一套**成系列体系**的`《IDEA Plugin 开发手册》`内容已经为有需要的你准备好啦：
 
-![](https://bugstack.cn/images/article/knowledge/knowledge-220123-01.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/knowledge/knowledge-220123-01.png?raw=true" width="650px">
+</div>
 
 - 此开发手册，分为4章12节循序渐进的通过实践案例开发的方式，串联 IDEA Plugin 开发的各项常用技术点，为读者讲解如何开发一个 IDEA 插件。
 - 基本开发类知识点包括：`gradle 工程创建`、`插件发布`、`Swing UI`、`各类窗体`、`菜单配置`、`工程上下文对象`、`向导步骤`、`内容存放`、`配置加载`等，通过这些知识在案例中的逐个使用，而学习如何开发插件。
@@ -31,7 +34,9 @@ lock: no
 
 `vo2dto，一个已经被下载1000+的插件`
 
-![](https://bugstack.cn/images/article/knowledge/knowledge-220123-02.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/knowledge/knowledge-220123-02.png?raw=true" width="650px">
+</div>
 
 这是小傅哥开发的一款用于帮助使用 IDEA 编写代码的研发人员，快速生成两个对象转换过程中所需要大量的 `x.set(y.get)` 代码块的 vo2dto 插件工具。*可以直接在 IDEA 中搜索安装使用*
 
@@ -45,7 +50,9 @@ lock: no
 
 ## 三、别说了，上干货吧！
 
-![](https://bugstack.cn/images/article/knowledge/knowledge-220123-04.png)
+<div align="center">
+    <img src="https://bugstack.cn/images/article/knowledge/knowledge-220123-04.png?raw=true" width="750px">
+</div>
 
 **Hello, world of idea plugin ！**  你好，IDEA 插件的世界！欢迎来到这里，很高兴你能拿到这本书！
 
@@ -83,8 +90,7 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
 
 ### 2. 下载方式
 
-- CSDN：[https://download.csdn.net/download/Yao__Shun__Yu/77484299](https://download.csdn.net/download/Yao__Shun__Yu/77484299) - `￥4.9`
-- 知识星球(`码农会锁`)：[https://t.zsxq.com/ufmQnA2](https://t.zsxq.com/ufmQnA2) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
+- 下载：[https://t.zsxq.com/ufmQnA2](https://t.zsxq.com/ufmQnA2) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
 
 ## 五、🎉收尾
 

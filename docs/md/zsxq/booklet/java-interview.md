@@ -7,6 +7,7 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>星球：[https://t.zsxq.com/0efhkcpaq](https://t.zsxq.com/0efhkcpaq) - 课程入口
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -14,7 +15,9 @@ lock: no
 
 **我膨胀了** 💥，在看了大部分以面试讲解的 Java 文章后，发现很多内容的讲解都偏向于`翻译`、`抄书`、`说理论`的给答案式讲解，最终把知识弄的云里雾里。
 
-![](https://bugstack.cn/assets/images/illustration/swell.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/illustration/swell.png?raw=true" width="250px">
+</div>
 
 就像我问你：
 - HashCode为什么用31作为乘数，你证明过吗？
@@ -38,13 +41,15 @@ lock: no
 
 ## 二、简介
 
-![](https://bugstack.cn/assets/images/2020/interview/interview-pdf-1.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/interview/interview-pdf-1.png?raw=true" width="750px">
+</div>
 
 **Hello, world of java ！**  你好，java的世界！
 
 欢迎来到这里，很高兴你能拿到这本书。如果你能坚持看完书中每章节的内容，那么不仅可以在你的面试求职上有所帮助，也更能让你对 Java 核心技术有更加深入的学习。
 
-[《Java 面经手册》](#) 是一本以面试题为入口讲解 Java 核心技术的 PDF 书籍，书中内容也极力的向你证实`代码是对数学逻辑的具体实现`。*为什么这么说？* 当你仔细阅读书籍时，会发现这里有很多数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等。
+[《Java 面经手册》](https://bugstack.cn/md/zsxq/booklet/java-interview.html) 是一本以面试题为入口讲解 Java 核心技术的 PDF 书籍，书中内容也极力的向你证实`代码是对数学逻辑的具体实现`。*为什么这么说？* 当你仔细阅读书籍时，会发现这里有很多数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等。
 
 编码只是在确定了研发设计后的具体实现，而设计的部分包括：数据结构、算法逻辑以及设计模式等，而这部分数据结构和算法逻辑在 Java 的核心 API 中体现的淋漓尽致。那么，也就解释了为什么这些内容成为了热点面试题，虽然可能我们都会觉得这样的面试像是造火箭。
 
@@ -76,7 +81,9 @@ lock: no
 
 ### 4. 书籍截图
 
-![](https://bugstack.cn/assets/images/2020/interview/interview-pdf-2.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/interview/interview-pdf-2.png?raw=true" width="750px">
+</div>
 
 ## 三、目录
 
@@ -126,11 +133,8 @@ lock: no
 
 ## 四、PDF📚下载
 
-1. 《Java 面经手册》PDF 完整版书籍一本
-    - CSDN：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325) - `￥4.9`
-    - 知识星球(`码农会锁`)：[https://t.zsxq.com/05YZZjq7m](https://t.zsxq.com/05YZZjq7m) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
+1. 下载：[https://t.zsxq.com/05YZZjq7m](https://t.zsxq.com/05YZZjq7m) - `知识星球用户可直接免费下载，不需要单独付费。此外知识星球还提供了简历优化、实战DDD秒杀项目、架构设计、PPT画架构等内容`
 2. 完整版源码一份，共 27 个案例
-3. 可以加入面经专栏讨论群，添加我的微信：`fustack`，备注：`面经入群`
 
 ## 五、🎉收尾
 

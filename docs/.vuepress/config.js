@@ -1591,6 +1591,7 @@ function getBarZSXQ() {
             sidebarDepth: 1,
             children: [
                 "introduce.md",
+                "material/guide.md",
             ]
         },
         {
@@ -1598,7 +1599,6 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "material/guide.md",
                 "material/architecture_design.md",
                 "material/interview.md",
                 "material/notes.md",
@@ -1607,15 +1607,24 @@ function getBarZSXQ() {
             ]
         },
         {
-            title: "实战项目",
+            title: "业务项目",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "project/chatgpt.md",
-                "project/api-gateway.md",
                 "project/lottery.md",
-                "project/springboot-starter.md",
                 "project/im.md",
+                "project/chatbot-api.md",
+            ]
+        },
+        {
+            title: "组件项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/api-gateway.md",
+                "project/springboot-starter.md",
+                "booklet/idea-plugin.md",
             ]
         },
         {
@@ -1624,8 +1633,8 @@ function getBarZSXQ() {
             sidebarDepth: 0,
             children: [
                 "booklet/java-interview.md",
-                "booklet/idea-plugin.md",
                 "booklet/bytecode.md",
+                "booklet/java-design.md",
                 "booklet/data-structures.md",
             ]
         },
@@ -1634,8 +1643,8 @@ function getBarZSXQ() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "source-code/develop-spring.md",
                 "source-code/develop-mybatis.md",
+                "source-code/develop-spring.md",
             ]
         },
         {

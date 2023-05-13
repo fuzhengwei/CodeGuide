@@ -7,6 +7,7 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>星球：[https://t.zsxq.com/0eHOK4Ad2](https://t.zsxq.com/0eHOK4Ad2) - 课程入口
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -14,22 +15,31 @@ lock: no
 
 **但全书共计107页，11万7千字，20个章节涵盖三个字节码框架和JavaAgent使用并附带整套案例源码！**
 
-![](https://bugstack.cn/assets/images/illustration/让人怪不好意思的.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/illustration/让人怪不好意思的.png?raw=true" width="250px">
+</div>
 
 **讲道理**，市面上以及网络搜索中都基本很少有成体系的关于字节码编程的知识，这主要由于大部分开发人员其实很少接触这部分内容，包括；`ASM`、`Javassist`、`Byte-buddy`以及`JavaAgent`，没有很大的市场也就没有很多的资料。但大家其实已经从其他的框架或者中间件中使用到，就像你用到的；Cglib、混沌工程、非入侵的全链路监控以及你是否使用过`jetbrains-agent.jar`做了某项实验？
 
-![](https://bugstack.cn/assets/images/illustration/上号Idea.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/illustration/上号Idea.png?raw=true" width="250px">
+</div>
 
 所以这样的技术栈一直都萦绕在你身边，只是你还没有发现！当有一天面试问到了，那时你已经170斤工作五年。
 
 **蹭个车告诉你这个知识的重要性**，阿里云的挑战赛！
-![](https://bugstack.cn/assets/images/2020/itstack-demo-bytecode-0-3.png)
+
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/itstack-demo-bytecode-0-3.png?raw=true" width="550px">
+</div>
 
 `读不在三更五鼓，功只怕一曝十寒！`，不一定一本书中就能读出个黄金屋，但脚下路的用什么垫都是自己日积月累。
 
 ## 就这本书他出炉了
 
-![](https://bugstack.cn/assets/images/2020/itstack-demo-bytecode-0-2.png)
+<div align="center">
+    <img src="https://bugstack.cn/assets/images/2020/itstack-demo-bytecode-0-2.png?raw=true" width="750px">
+</div>
 
 ## 介绍
 

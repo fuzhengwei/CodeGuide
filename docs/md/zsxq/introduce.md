@@ -112,24 +112,30 @@ lock: no
 	</tbody>
 </table>
 
-#### 1.1 实战项目
+#### 1.1 业务项目
 
+- [ChatGPT 微服务应用体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务](https://bugstack.cn/md/zsxq/project/chatgpt.html)
 - [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
 - [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
+- [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
+
+#### 1.2 组件项目
+
 - [API网关：中间件设计和实践](https://bugstack.cn/md/zsxq/project/api-gateway.html)
 - [SpringBoot Starter 中间件设计和开发](https://bugstack.cn/md/zsxq/project/springboot-starter.html)
-
-#### 1.2 技术小册
-
-- [Java 面经手册](https://bugstack.cn/md/zsxq/booklet/java-interview.html)
 - [IDEA Plugin 开发手册](https://bugstack.cn/md/zsxq/booklet/idea-plugin.html)
-- [字节码编程 | ASM、Javassist、Byte-Buddy](https://bugstack.cn/md/zsxq/booklet/bytecode.html)
-- [倚天村 • 图解数据结构](https://bugstack.cn/md/zsxq/booklet/data-structures.html)
 
 #### 1.3 手撕源码
 
 - [手写Spring：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-spring.html)
 - [手写Mybatis：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-mybatis.html)
+
+#### 1.4 技术小册
+
+- [字节码编程 - ASM、Javassist、Byte-Buddy](https://bugstack.cn/md/zsxq/booklet/bytecode.html)
+- [重学Java设计模式](https://bugstack.cn/md/zsxq/booklet/java-design.html)
+- [Java 面经手册](https://bugstack.cn/md/zsxq/booklet/java-interview.html)
+- [倚天村 • 图解数据结构](https://bugstack.cn/md/zsxq/booklet/data-structures.html)
 
 ### 2. 问题解答
 
@@ -151,6 +157,8 @@ lock: no
     <br/>
 </div>
 
+- 提交你的简历：[《面试简历；优化、完善、辅导》简历作业太阳](https://t.zsxq.com/0epLHDzcD)
+
 ### 4. 学习氛围
 
 当然，被这样的“鼓励”下，我的周末😭全用在星球上了，不是录制课程视频，就是手写源码，也因为大家的图越画越牛，我也跟着让自己的图更上层楼。点名：课代表阿曦、新晋卷王奥斯卡最佳配角、画图侠诏无言、优秀作业无名氏🧐等等。
@@ -169,6 +177,7 @@ lock: no
 
 - 经过一年的积累，星球中的优秀内容还远不止这些。无论是学习方法、课程资料、学习氛围，都已经建设的非常全面且完整，后续会更加全面。
 - 星球中很多的这样的伙伴，都是来自于985、211名校，他们更知道如何节省时间，找到更快学习到干货的路径。*与这样的伙伴做同学，即可节省你的时间，还可以跟着一个有氛围的圈子一起成长。*
+- 如果你是学习小白，有不少基础欠缺。可以在这里提交：[《小白学习补给站计划》—— 帮助小白快速补充基础知识！🔥](https://t.zsxq.com/0eE3cp7uK)
 
 ### 5. 用户反馈
 
@@ -212,7 +221,11 @@ lock: no
 
 **综上**，如果你想多赚一些钱，也希望自己的职业生涯长久一些，有一定的硬核技术积累，在往后的职场中更稳一些，那么可以加入小傅哥的星球。这些足够硬核的内容，可以帮助你更加平稳的度过往后的路，企业不会永远一帆风顺，但只要你手里技术硬，就会相对平稳。
 
-## 五、关于：星球定价
+## 五、指南：使用星球
+
+- [指南：🔜快速了解，开启学习之旅！](https://bugstack.cn/md/zsxq/material/guide.html)
+
+## 六、关于：星球定价
 
 1. 星球内的服务和实战项目都是小傅哥本人提供和**原创**，相信能够给大家带来**超过该价格的价值** 。举个例子，渐进式手把手带大家做**进大厂才可能看得见的项目**、有笔记有源码、有问题可以提，这比单独买一个课程或一套源码要值得多。其实都不到大城市一节补习班的钱，**哪怕把我的课程时长换算成培训机构的课时，也是便宜的超级多**。
 2. 持续的内容创作 + 回答问题 + 知识星球的运营(简历批阅、就业指导、架构设计) 需要小傅哥每个早上6点-8点以及周末/假期持续维护。如果不提高门槛(本次提价￥20)，真的是维护不过来。也希望加入星球的同学都是真的下定了决心想要进步，而不是像免费的交流群和社区一样 “闲聊扯淡”。
