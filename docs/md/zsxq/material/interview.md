@@ -214,6 +214,7 @@ lock: no
 
 - [实习末班车上岸字节【北京某211大学本科2023届】](https://t.zsxq.com/05RfemUFu)
 - [秋招面试经历](https://t.zsxq.com/06AaI2r7q)
+- [拉拉扯扯一个多月后总算收到阿里的offer啦！](https://t.zsxq.com/0ehzrKF1I)
 
 ### 7. 读者经验
 
