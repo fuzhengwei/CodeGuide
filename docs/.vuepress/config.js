@@ -1904,6 +1904,7 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "sdk/第1节：ChatGPT-SDK组件工程简单功能实现.md",
+                "sdk/第2节：流式应答会话设计实现.md",
             ]
         }
     ]
