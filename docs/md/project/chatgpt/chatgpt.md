@@ -8,6 +8,8 @@ lock: no
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=996017673&bvid=BV1xs4y1Q7C4&cid=1128307317&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 说来奇怪🤔，我们从0到1的事往往较少，但从1到100的`嫁衣神功`却很多也很快。就像 ChatGPT 还没有多成熟，但 ChatGPT 的各种付费模式已经非常成熟。`但说奇怪也不奇怪`，因为本身大部分一样的我，所经历过的不少事，也都是在紧赶慢赶的完成OKR。 这让我们感觉就像陷入了一个旋转飞轮中，不能思考，只能往前跑。
