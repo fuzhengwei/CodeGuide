@@ -155,6 +155,9 @@ source ~/.bashrc
 
 # 6.测试
 git version
+
+# 7. 使用
+git clone git://github.com/fuzhengwei/GPT2-chitchat.git
 ```
 
 ### 5. 安装宝塔
