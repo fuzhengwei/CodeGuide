@@ -133,6 +133,8 @@ cd ~
 yum install -y perl-devel
 
 # 2.下载源码包到 CentOS 服务器后进行解压
+wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz
+
 tar -zxf git-2.9.5.tar.gz
 
 cd git-2.9.5
