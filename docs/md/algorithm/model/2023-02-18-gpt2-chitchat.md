@@ -49,16 +49,45 @@ make
 make altinstall 
 ```
 
-### 2 Python 3.7
+### 2. openssl + 结合3使用
+
+```java
+# 1. 卸载openssl
+
+whereis openssl |xargs rm -frv
+
+# 2. 官网下载openssl编译安装
+
+wget http://www.openssl.org/source/openssl-1.1.1.tar.gz
+tar zxf openssl-1.1.1.tar.gz
+cd openssl-1.1.1
+./config --prefix=/usr/local/openssl shared zlib
+make && make install 
+
+# 3. 设置环境变量 LD_LIBRARY_PATH
+
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/openssl/lib" >>  /etc/profile
+source /etc/profile
+
+# 4. 卸载重新编译安装python3
+
+whereis python3 |xargs rm -frv
+rm -rf /usr/local/bin/python3 /usr/local/bin/pip3
+mkdir /usr/local/python3
+./configure --prefix=/usr/local/python3 --enable-optimizations --with-openssl=/usr/local/openssl
+make -j8 && make install
+```
+
+### 3. Python 3.7
 
 ```java
 cd ~
 
 # 1.下载Python安装包
-wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz
+wget https://www.python.org/ftp/python/3.10.8/Python-3.10.8.tgz
 
 # 2.将安装包移动到/usr/local文件夹下
-mv Python-3.7.4.tgz /usr/local/
+mv Python-3.10.8.tgz /usr/local/
 
 # 3.在local目录下创建Python3目录
 mkdir /usr/local/python3
@@ -67,10 +96,10 @@ mkdir /usr/local/python3
 cd /usr/local/
 
 # 5.解压安装包
-tar -xvf Python-3.7.4.tgz
+tar -xvf Python-3.10.8.tgz
 
 # 6.进入解压后的目录
-cd /usr/local/Python-3.7.4/
+cd /usr/local/Python-3.10.8/
 
 # 7.配置安装目录
 ./configure --prefix=/usr/local/python3
@@ -88,7 +117,7 @@ ln -s /usr/local/python3/bin/python3  /usr/bin/python3
 python3 -V
 ```
 
-### 3. 安装pip3
+### 4. 安装pip3
 
 ```java
 cd ~
@@ -124,7 +153,7 @@ pip config list
 # 清华大学 https://pypi.tuna.tsinghua.edu.cn/simple/  
 ```
 
-### 4. 安装git
+### 5. 安装git
 
 ```java
 cd ~
@@ -160,7 +189,7 @@ git version
 git clone git://github.com/fuzhengwei/GPT2-chitchat.git
 ```
 
-### 5. 安装宝塔
+### 6. 安装宝塔
 
 ```java
 yum install -y wget && wget -O install.sh https://download.bt.cn/install/install_6.0.sh && sh install.sh 12f2c1d72
