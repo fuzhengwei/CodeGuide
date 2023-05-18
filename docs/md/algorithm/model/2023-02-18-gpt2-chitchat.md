@@ -78,7 +78,7 @@ mkdir /usr/local/python3
 make -j8 && make install
 ```
 
-### 3. Python 3.7
+### 3. Python 3.10
 
 ```java
 cd ~
