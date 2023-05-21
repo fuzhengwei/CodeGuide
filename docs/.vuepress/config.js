@@ -1914,6 +1914,7 @@ function getBarProjectChatGPT() {
             children: [
                 "sdk/第1节：ChatGPT-SDK组件工程简单功能实现.md",
                 "sdk/第2节：流式应答会话设计实现.md",
+                "sdk/第3节：完善实现各类常用接口.md",
             ]
         }
     ]
