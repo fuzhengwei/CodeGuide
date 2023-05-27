@@ -667,6 +667,7 @@ function genAlgorithmModel(){
             children: [
                 "2023-02-12-chat-gpt.md",
                 "2023-02-18-gpt2-chitchat.md",
+                "2023-05-21-chatglm-6b.md",
             ]
         }
     ]
