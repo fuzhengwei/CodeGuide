@@ -75,7 +75,7 @@ lock: no
 
 ## 四、简历：项目组合
 
-1. 建议的项目组合是；a【业务】Lottery、ChatGPT  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT AI 问答助手 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
+1. 建议的项目组合是；a【业务】Lottery、IM  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT 项目 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
     1. 基础组合；a、c
     2. 中级组合；a、c、d/e
     3. 高级组合；a、b、e

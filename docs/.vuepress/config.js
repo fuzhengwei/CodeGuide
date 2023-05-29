@@ -1672,6 +1672,14 @@ function getBarZSXQ() {
             children: [
                 "other/join.md",
             ]
+        },
+        {
+            title: "星球事迹",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "memorabilia/seven-thousand.md",
+            ]
         }
     ]
 }
@@ -1906,8 +1914,7 @@ function getBarProjectChatGPT() {
                 "api/第2节：Shiro登录授权发放访问token.md",
                 "api/第3节：微信公众号验签和初步对接OpenAI.md",
             ]
-        }
-        ,
+        },
         {
             title: "ChatGPT-SDK",
             collapsable: false,
@@ -1916,6 +1923,14 @@ function getBarProjectChatGPT() {
                 "sdk/第1节：ChatGPT-SDK组件工程简单功能实现.md",
                 "sdk/第2节：流式应答会话设计实现.md",
                 "sdk/第3节：完善实现各类常用接口.md",
+            ]
+        },
+        {
+            title: "ChatGPT-WEB",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "web/第1节：Web页面工程初始化.md",
             ]
         }
     ]
