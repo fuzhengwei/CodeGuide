@@ -32,6 +32,7 @@ pay: https://t.zsxq.com/Ia6AUvj
 - [DDD + RPC 各个分层模块的 POM 配置和依赖关系 @Jachin](https://t.zsxq.com/07EqJqRrN)
 - [跑通广播模式RPC过程调用，JDK版本问题 @Cc](https://t.zsxq.com/0cJf5EQIc)
 - [第一个问题是扫描不到相对应的bean @A](https://t.zsxq.com/0c9V7T8PT)
+- [前三节的学习，下面是详细的步骤，给自己记录也给大家一点帮助。@Yu](https://t.zsxq.com/0etx1mgu2)
 
 ## 一、创建抽奖活动表
 

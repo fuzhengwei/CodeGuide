@@ -34,8 +34,8 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 
 - [重学Java设计模式](https://bugstack.cn/md/develop/design-pattern/2020-05-20-%E9%87%8D%E5%AD%A6Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E3%80%8A%E5%AE%9E%E6%88%98%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F%E3%80%8B.html)：从互联网真实业务中抽离出，交易、营销、秒杀、中间件、源码等22个真实场景，学习设计模式的实践技巧和落地方案。
 - [面经手册](https://bugstack.cn/md/java/interview/2020-07-28-%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8C%20%C2%B7%20%E5%BC%80%E7%AF%87%E3%80%8A%E9%9D%A2%E8%AF%95%E5%AE%98%E9%83%BD%E9%97%AE%E6%88%91%E5%95%A5%E3%80%8B.html)：此专栏并不是单纯的面试题，也不是内卷八股文。而是从一个单纯的和程序员有关的数学知识点开始，深入讲解 Java 的核心技术。
-- [手写 Spring](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)：渐进式手写 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。
 - [手写 Mybatis](https://bugstack.cn/md/spring/develop-mybatis/2022-03-20-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Mybatis%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)：在手写的过程中学习 Mybatis 从解析、绑定、反射、缓存，到会话和事务操作，以及如何与 Spring 进行关联注册 Bean 对象，完成整合部分功能逻辑。
+- [手写 Spring](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)：渐进式手写 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。
 
 ## 面试必备
 
@@ -47,7 +47,6 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 
 - [《Java 面经手册》](https://download.csdn.net/download/Yao__Shun__Yu/14932325)
 - [《重学Java设计模式》](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
-- [《手撸 Spring》](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 - [《字节码编程》](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
 - [《IDEA Plugin 开发手册》](https://download.csdn.net/download/Yao__Shun__Yu/77484299)
 
