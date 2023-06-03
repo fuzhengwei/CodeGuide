@@ -1931,6 +1931,7 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "web/第1节：Web页面工程初始化.md",
+                "web/第2节：工具栏面板.md",
             ]
         }
     ]
