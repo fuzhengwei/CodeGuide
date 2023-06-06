@@ -33,6 +33,7 @@ pay: https://t.zsxq.com/Ia6AUvj
 - [跑通广播模式RPC过程调用，JDK版本问题 @Cc](https://t.zsxq.com/0cJf5EQIc)
 - [第一个问题是扫描不到相对应的bean @A](https://t.zsxq.com/0c9V7T8PT)
 - [前三节的学习，下面是详细的步骤，给自己记录也给大家一点帮助。@Yu](https://t.zsxq.com/0etx1mgu2)
+- [使用dubbo跑通RPC调用，完整操作步骤流程记录 @夜空的寂静](https://t.zsxq.com/0eh7ysSr6)
 
 ## 一、创建抽奖活动表
 
