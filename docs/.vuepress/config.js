@@ -1263,6 +1263,7 @@ function genApiGateway() {
             children: [
                 "api-gateway.md",
                 "2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md",
+                "2023-06-10-API 网关 - 媲美美团这套Shepherd网关架构！.md",
             ]
         },
         {
@@ -1932,6 +1933,7 @@ function getBarProjectChatGPT() {
             children: [
                 "web/第1节：Web页面工程初始化.md",
                 "web/第2节：工具栏面板.md",
+                "web/第3节：按钮定义与事件实现.md",
             ]
         }
     ]
