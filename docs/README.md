@@ -8,7 +8,7 @@ actionLinks:
 - link: https://t.zsxq.com/09hMHNMEh
   text: 知识星球
   class: secondary  
-- link: /md/other/road-map.md
+- link: /md/road-map/road-map.md
   text: 路书 👣
   class: secondary   
 features:

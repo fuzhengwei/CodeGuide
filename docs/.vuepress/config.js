@@ -185,7 +185,7 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
-                        text: '路书', link: '/md/other/road-map.md'
+                        text: '路书', link: '/md/road-map/road-map.md'
                     },
                     {
                         text: '算法',
@@ -510,6 +510,7 @@ module.exports = {
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
+                    "/md/road-map/": genBarGuide(),
                     "/md/about/": genBarAbout()
                 }
             }
@@ -535,11 +536,67 @@ function genBarOther() {
 function genBarGuide() {
     return [
         {
-            title: "编程路书",
+            title: "简明教程",
             collapsable: false,
             sidebarDepth: 2,
             children: [
                 "road-map.md"
+            ]
+        },
+        {
+            title: "系统架构",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "环境配置",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "开发技术",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "常用类库",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "工程测试",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "质量监控",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md"
+            ]
+        },
+        {
+            title: "发布部署",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "skywalking.md"
             ]
         }
     ]
