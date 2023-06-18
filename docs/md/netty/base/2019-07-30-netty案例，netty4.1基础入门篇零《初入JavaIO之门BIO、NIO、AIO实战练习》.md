@@ -760,3 +760,7 @@ Process finished with exit code -1
 ![微信公众号：bugstack虫洞栈 & NIO案例测试](https://bugstack.cn/assets/images/pic-content/2019/10/netty-1-00-4.png)
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！
+
+## 优秀作业
+
+- [BIO、NIO、AIO实战练习，绘图总结 @spbreak](https://t.zsxq.com/0fS5wI88J)

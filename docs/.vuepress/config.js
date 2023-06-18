@@ -585,18 +585,19 @@ function genBarGuide() {
         },
         {
             title: "质量监控",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md"
+                "skywalking.md"
             ]
         },
         {
             title: "发布部署",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "skywalking.md"
+                "docker.md",
+                "portainer.md"
             ]
         }
     ]
@@ -1991,6 +1992,7 @@ function getBarProjectChatGPT() {
                 "web/第1节：Web页面工程初始化.md",
                 "web/第2节：工具栏面板.md",
                 "web/第3节：按钮定义与事件实现.md",
+                "web/第4节：对话框列表.md",
             ]
         }
     ]

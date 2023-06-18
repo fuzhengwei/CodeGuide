@@ -2,7 +2,7 @@
 title: 编程路书
 ---
 
-# bugstack虫洞栈 | Java 编程路书 v1.0 👣
+# bugstack虫洞栈 | 编程路书 v1.0 👣 - Java 程序员的简明教程 👨🏻‍💻 @小傅哥
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/road-map-logo.png?raw=true">

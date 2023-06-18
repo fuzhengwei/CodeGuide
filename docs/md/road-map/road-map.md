@@ -51,3 +51,8 @@ lock: no
 
 <RoadMap></RoadMap>
 
+---
+
+如果你需要；`简明学习路线`、`实战项目锻炼`、`帮你学习辅导`、`教你简历优化` - 来应对招聘，那么可以扫码加入小傅哥的知识星球【码农会锁】- 我会带着走捷径直击目标，完成实战项目，提高编程思维，锻炼编码能力。
+
+![](https://bugstack.cn/images/article/zsxq/zsxq-xuanchuan.png)
