@@ -34,6 +34,7 @@ pay: https://t.zsxq.com/Ia6AUvj
 - [第一个问题是扫描不到相对应的bean @A](https://t.zsxq.com/0c9V7T8PT)
 - [前三节的学习，下面是详细的步骤，给自己记录也给大家一点帮助。@Yu](https://t.zsxq.com/0etx1mgu2)
 - [使用dubbo跑通RPC调用，完整操作步骤流程记录 @夜空的寂静](https://t.zsxq.com/0eh7ysSr6)
+- [跑通RPC记录，并记录问题处理 @D77](https://t.zsxq.com/0fPtLUNKP)
 
 ## 一、创建抽奖活动表
 

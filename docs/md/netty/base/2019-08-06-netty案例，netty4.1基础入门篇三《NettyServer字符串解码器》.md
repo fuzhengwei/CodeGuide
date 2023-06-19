@@ -166,3 +166,7 @@ Process finished with exit code -1
 ```
 
 微信搜索「**bugstack虫洞栈**」公众号，关注后回复「**Netty专题案例**」获取本文源码&更多原创专题案例！
+
+## 优秀作业
+
+- [NettyServer字符串解码器 @spbreak](https://t.zsxq.com/0fPjFUQ5e)
