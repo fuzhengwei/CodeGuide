@@ -1993,6 +1993,7 @@ function getBarProjectChatGPT() {
                 "web/第2节：工具栏面板.md",
                 "web/第3节：按钮定义与事件实现.md",
                 "web/第4节：对话框列表.md",
+                "web/第5节：对话框消息.md",
             ]
         }
     ]
