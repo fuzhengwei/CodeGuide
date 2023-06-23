@@ -545,10 +545,10 @@ function genBarGuide() {
         },
         {
             title: "系统架构",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md"
+                "mvc.md"
             ]
         },
         {
