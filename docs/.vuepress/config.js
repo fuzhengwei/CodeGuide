@@ -548,7 +548,8 @@ function genBarGuide() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "mvc.md"
+                "mvc.md",
+                "ddd.md"
             ]
         },
         {

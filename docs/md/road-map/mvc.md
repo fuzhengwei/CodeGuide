@@ -112,7 +112,7 @@ MVC 是一种非常常见且常用的分层架构，主要包括；M - mode 对�
 │                       └── frame
 │                           └── test
 │                               └── ApiTest.java
-└── xfg-frame.sql
+└── road-map.sql
 ```
 
 以上是整个🏭工程架构的 tree 树形图。整个工程由 SpringBoot 驱动。
@@ -125,9 +125,9 @@ MVC 是一种非常常见且常用的分层架构，主要包括；M - mode 对�
 
 ## 五、测试验证
 
-- 首先；整个工程由 SpringBoot 驱动，提供了 xfg-frame.sql 测试 SQL 库表语句。你可以在自己的本地mysql上进行执行。它会创建库表。
+- 首先；整个工程由 SpringBoot 驱动，提供了 road-map.sql 测试 SQL 库表语句。你可以在自己的本地mysql上进行执行。它会创建库表。
 - 之后；在 application.yml 配置数据库链接信息。
-- 之后就可以打开 ApiTest 进行测试了。你可以点可以点击 Application 类的绿色箭头启动工程，使用 UserController 类提供接口的方式调用程序；http://localhost:8089/queryUserInfo
+- 之后就可以打开 ApiTest 进行测试了。你可以点击 Application 类的绿色箭头启动工程，使用 UserController 类提供接口的方式调用程序；http://localhost:8089/queryUserInfo
 
 <div align="center">
 	<img src="https://bugstack.cn/images/roadmap/tutorial/road-map-230623-04.png?raw=true" width="950px"/>
