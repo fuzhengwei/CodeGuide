@@ -536,7 +536,7 @@ function genBarOther() {
 function genBarGuide() {
     return [
         {
-            title: "简明教程",
+            title: "简明教程(1)",
             collapsable: false,
             sidebarDepth: 2,
             children: [
@@ -544,7 +544,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "系统架构",
+            title: "系统架构(2)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -553,7 +553,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "环境配置",
+            title: "环境配置(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -561,7 +561,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术",
+            title: "开发技术(9)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -569,7 +569,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "常用类库",
+            title: "常用类库(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -577,7 +577,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "工程测试",
+            title: "工程测试(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -585,7 +585,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控",
+            title: "质量监控(1)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -593,7 +593,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署",
+            title: "发布部署(2)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -1739,6 +1739,7 @@ function getBarZSXQ() {
             sidebarDepth: 0,
             children: [
                 "memorabilia/seven-thousand.md",
+                "memorabilia/overall.md",
             ]
         }
     ]
