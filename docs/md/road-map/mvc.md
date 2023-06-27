@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=870115608&bvid=BV1fV4y1C7PW&cid=1172934643&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 如果我们尝试把编程的复杂架构缩小到最容易理解的程度，那么编程开发其实只做3件事：”`定义属性`、`创建方法`、`调用展示`“。但因为同类所需的内容较多，如一系列的属性，一堆的方法实现，一组的接口封装，那么就需要合理的把这些内容分配到不同的层次中去实现，因此有了分层架构的设计。
 
 那么本文小傅哥会向大家介绍一套MVC架构的分层设计以及如何创建使用，并提供相应的简单的案例。你可以复制这套架构在自己的场景中使用，也更能方便编程的小白可以更快的上手开发。
