@@ -151,7 +151,7 @@ eureka:
 ```
 
 ## 测试验证
-1. 配置host；127.0.0.1 node1 node2 node3
+1. 配置host；127.0.0.1 node01 node02 node03
 2. 分别启动node1、node2、node3
 3. 访问；http://localhost:8081/
 ![微信公众号：bugstack虫洞栈 & Eureka集群](https://bugstack.cn/assets/images/pic-content/2019/11/SpringCloud-1-2.jpg)
