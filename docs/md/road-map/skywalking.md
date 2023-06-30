@@ -1,6 +1,6 @@
 ---
 title: skywalking 全链路监控
-lock: no
+lock: need
 ---
 
 # skywalking 全链路监控
@@ -10,6 +10,8 @@ lock: no
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=827392143&bvid=BV1Lg4y1K7E9&cid=1167705761&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 这位同学，你比上一位面试者好多了，你的简历中做的几个项目都不错。既有业务项目，也有技术项目，看得出你对编程开发是有一定的经验积累的。那么我还想了解下，这些项目在运行中的一个数据效果是怎么样的。比如；tps、qps、响应时间、数据库负载等，都是什么情况，你用的什么监控工具。另外你这里还些了微服务的架构，那么微服务间的链路调用是怎么监控的。
 
 咋样，是不一下就慌了。张口就喊：“java 崩盘！” 以前靠背题吹牛逼就能入职，现在得把吹的牛逼落地了。而越来越多的面试官也更喜欢用结果推过程，从过程中再考察细节。一上来就问八股文的越来越少了。
@@ -18,7 +20,9 @@ lock: no
 
 ## 一、章节目的
 
-![](https://bugstack.cn/images/roadmap/tutorial/road-map-230617-01.png)
+<div align="center">
+	<img src="https://bugstack.cn/images/roadmap/tutorial/road-map-230617-01.png?raw=true" width="950px"/>
+</div>
 
 本章节通过 Docker 方式部署一套 skywalking 非入侵的全链路监控系统，并在对应的测试工程中通过 skywalking-agent 字节码增强组件，采集系统运行时的各项信息到 skywalking-ui 监控平台观察数据。
 
@@ -168,7 +172,7 @@ skywalking-docker-compose.yml
 
 ## 四、数据上报
 
-监控数据的上报使用的是 Javaagent 技术，在程序编译时候通过字节码增强技术，在需要监控的位置自动加上额外的监控代码，来采集系统的运行数据。所以我们这里可以把 Javaagent 配置到程序启动上，也可以配置到 Docker 镜像打包上。
+监控数据的上报使用的是 Javaagent 技术，在程序加载时候通过字节码增强技术，在需要监控的位置自动加上额外的监控代码，来采集系统的运行数据。所以我们这里可以把 Javaagent 配置到程序启动上，也可以配置到 Docker 镜像打包上。
 
 ### 1. 程序启动 - 加入探针
 
