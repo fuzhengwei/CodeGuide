@@ -553,11 +553,16 @@ function genBarGuide() {
             ]
         },
         {
-            title: "环境配置(4)",
+            title: "开发环境(6)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "none.md"
+                "intellij-idea.md",
+                "maven.md",
+                "git.md",
+                "github.md",
+                "gitcode.md",
+                "gitee.md",
             ]
         },
         {
@@ -1753,7 +1758,6 @@ function getBarProduct() {
             sidebarDepth: 0,
             children: [
                 "book/design-pattern.md",
-                // "book/spring.md",
                 "book/mybatis.md",
             ]
         },
