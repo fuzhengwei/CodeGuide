@@ -72,6 +72,7 @@ lock: no
 3. **拉伸技术**：字节码、IDEA Plugin 开发手册、SpringBoot Starter、API网关
 4. **网络编程**：Netty 4.x 小册、IM(Netty 4.x + JavaFx)
 5. **应届小白**：重学Java设计模式、Java面经手册、手写Spring/手写Mybatis(2选1)、Lottery 分布式抽奖、SpringBoot Starter 中间件设计和开发，之后学习拉伸技术、网络编程
+6. **创新学习**：IDEA Plugin 插件开发、ChatGPT 微服务应用体系 —— `星球项目较多，也可以自行组合。如 IM + ChatGPT，开发角色智能AI。`
 
 ## 四、简历：项目组合
 

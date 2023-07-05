@@ -554,7 +554,7 @@ function genBarGuide() {
         },
         {
             title: "开发环境(6)",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "intellij-idea.md",
@@ -591,7 +591,7 @@ function genBarGuide() {
         },
         {
             title: "质量监控(1)",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 0,
             children: [
                 "skywalking.md"
@@ -599,7 +599,7 @@ function genBarGuide() {
         },
         {
             title: "发布部署(2)",
-            collapsable: false,
+            collapsable: true,
             sidebarDepth: 0,
             children: [
                 "docker.md",
