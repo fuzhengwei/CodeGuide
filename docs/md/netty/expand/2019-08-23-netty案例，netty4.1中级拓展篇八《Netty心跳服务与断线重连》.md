@@ -106,7 +106,7 @@ public class MyClientHandler extends ChannelInboundHandlerAdapter {
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         System.out.println("断开链接重连" + ctx.channel().localAddress().toString());
-        //使用过程中断线重连
+        //使用过程中断线重连；实际场景需要关闭线程池，并且通过ping的方式进行检测
         new Thread(new Runnable() {
             @Override
             public void run() {
