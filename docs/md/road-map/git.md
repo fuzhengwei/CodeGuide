@@ -53,7 +53,8 @@ brew install git
 对于 Ubuntu，此 PPA 提供最新的稳定上游 Git 版本
 
 ```
-# add-apt-repository ppa:git-core/ppa` `# apt update; apt install git
+# add-apt-repository ppa:git-core/ppa
+# apt update; apt install git
 ```
 
 ### Fedora
