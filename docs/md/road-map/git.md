@@ -57,81 +57,9 @@ brew install git
 # apt update; apt install git
 ```
 
-### Fedora
-
-`# yum install git`（Fedora 21 及以上）
-`# dnf install git`（Fedora 22 及更高版本）
-
-### Gentoo
-
-```
-# emerge --ask --verbose dev-vcs/git
-```
-
-### Arch Linux
-
-```
-# pacman -S git
-```
-
-### openSUSE
-
-```
-# zypper install git
-```
-
-### Mageia
-
-```
-# urpmi git
-```
-
-### Nix/NixOS
-
-```
-# nix-env -i git
-```
-
-### FreeBSD
-
-```
-# pkg install git
-```
-
-### Solaris 9/10/11 ( [OpenCSW](https://www.opencsw.org/) )
-
-```
-# pkgutil -i git
-```
-
-### Solaris 11 Express
-
-```
-# pkg install developer/versioning/git
-```
-
-### OpenBSD
-
-```
-# pkg_add git
-```
-
-### Alpine
-
-```
-$ apk add git
-```
-
 ### Red Hat Enterprise Linux, Oracle Linux, CentOS, Scientific Linux, et al.
 
 RHEL 及其衍生版本通常提供旧版本的 git。您可以[下载 tarball](https://www.kernel.org/pub/software/scm/git/)并从源代码构建，或者使用第 3 方存储库（例如[IUS 社区项目）](https://ius.io/)来获取更新版本的 git。
-
-### Slitaz
-
-```
-$ tazpkg get-install git
-```
-
 
 
 ## 二、配置账户
