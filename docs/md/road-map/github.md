@@ -16,6 +16,8 @@ Github 本身是的核心职责是一个在线软件源代码托管服务平台�
 
 在使用Github时，你需要注册一个账号，之后创建一个用于存放代码的仓库，之后就可以把你的代码提交到仓库了。而其他参与此项目的伙伴，也可以通过你的仓库地址检出项目。当然你也可以检出其他人的项目。
 
+- 仓库配置 SSH 参考：[https://bugstack.cn/md/road-map/git.html](https://bugstack.cn/md/road-map/git.html)
+
 ## 一、账号注册
 
 - 官网：[https://github.com](https://github.com/)

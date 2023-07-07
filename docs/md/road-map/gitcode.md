@@ -14,6 +14,8 @@ lock: need
 
 Gitcode 也是一个非常优秀的代码仓库管理工具，同时还他有很多其他功能。他是 CSDN 平台提供的仓库管理工具。也是非常不错的仓库。
 
+- 仓库配置 SSH 参考：[https://bugstack.cn/md/road-map/git.html](https://bugstack.cn/md/road-map/git.html)
+
 ## 一、账号注册
 
 - 官网：[https://gitcode.net](https://gitcode.net)

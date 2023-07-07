@@ -14,6 +14,8 @@ lock: need
 
 Gitee 是国内的 Github，也是一个非常优秀的代码仓库管理工具，同时还他有很多其他功能。比如；项目协同、代码扫描、持续集成、测试管理、多云部署以及能效相关的功能。这些功能其实更适合一些中小厂的企业来使用，可以减少自身的建设成本。
 
+- 仓库配置 SSH 参考：[https://bugstack.cn/md/road-map/git.html](https://bugstack.cn/md/road-map/git.html)
+
 ## 一、账号注册
 
 - 官网：[https://gitee.com/](https://gitee.com/)

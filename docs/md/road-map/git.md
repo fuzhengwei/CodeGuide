@@ -61,7 +61,6 @@ brew install git
 
 RHEL 及其衍生版本通常提供旧版本的 git。您可以[下载 tarball](https://www.kernel.org/pub/software/scm/git/)并从源代码构建，或者使用第 3 方存储库（例如[IUS 社区项目）](https://ius.io/)来获取更新版本的 git。
 
-
 ## 二、配置账户
 
 ```java
@@ -70,7 +69,51 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 ```
 
-## 三、操作界面
+## 三、生成SSH
+
+SSH 用于本地仓库和远程进行链接验证，Github、Gitee、Gitcode 都可以使用这种安全方式操作仓库
+
+### 1. 创建
+
+```java
+# 记得换成你的邮箱
+ssh-keygen -t rsa -C "184172133@qq.com"
+```
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-git-01.png?raw=true" width="550px">
+</div>
+
+- 傻瓜式同意，点击就可以。
+
+### 2. 查看
+
+```java
+fuzhengwei@MacBook-Pro ~ % cd ~/.ssh 
+fuzhengwei@MacBook-Pro .ssh % ls
+184172133@qq.com-gitcode__net		config
+184172133@qq.com-gitcode__net.pub	fuzhengwei-GitHub
+fuzhengwei@MacBook-Pro .ssh % pwd
+/Users/fuzhengwei/.ssh
+```
+
+进入 `/Users/fuzhengwei/.ssh` 找到 rsa.pub 文件
+
+注意：如果你进入 Mac 电脑文件夹，看不见这个隐藏文件。则可以通过 `Shift + Command + .` 打开隐藏文件，就看见 `.ssh` 文件夹了。
+
+### 3. 使用
+
+打开 ras.pub 文件，复制内容到仓库；
+
+- Github：[https://github.com/settings/ssh/new](https://github.com/settings/ssh/new)
+- Gitcode：[https://gitcode.net/-/profile/keys](https://gitcode.net/-/profile/keys)
+- Gitee：[https://gitee.com/profile/sshkeys](https://gitee.com/profile/sshkeys)
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-git-02.png?raw=true" width="850px">
+</div>
+
+## 四、操作界面
 
 Git 附带了用于提交 ( [git-gui](https://git-scm.com/docs/git-gui) ) 和浏览 ( [gitk](https://git-scm.com/docs/gitk) ) 的内置 GUI 工具，但也有一些第三方工具可供用户寻求特定于平台的体验。
 
@@ -80,7 +123,7 @@ Git 附带了用于提交 ( [git-gui](https://git-scm.com/docs/git-gui) ) 和浏
 
 - Git 提供了操作的客户端界面，你可以按需下载使用。
 
-## 四、操作手册
+## 五、操作手册
 
 - 文档：[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2) - `可以直接对照着操作，练习命令`
 - PDF：[https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf](https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf)
