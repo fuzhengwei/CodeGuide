@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=828140981&bvid=BV1Sg4y1c7m4&cid=1190616538&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，为什么要使用Dubbo、怎么使用Dubbo、Dubbo通信的原理是什么。在学习本文后，你可以避开很多关于 Dubbo 使用时的坑，也能更清楚自己的编码是在做什么。
 
 本文涉及的工程：

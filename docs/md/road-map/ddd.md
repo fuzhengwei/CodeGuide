@@ -238,9 +238,9 @@ lock: no
 │   │                               │   └── RuleTreeNodeLineDao.java
 │   │                               ├── package-info.java
 │   │                               ├── po
-│   │                               │   ├── RuleTreeNodeLineVO.java
-│   │                               │   ├── RuleTreeNodeVO.java
-│   │                               │   ├── RuleTreeVO.java
+│   │                               │   ├── RuleTreeNodeLinePO.java
+│   │                               │   ├── RuleTreeNodePO.java
+│   │                               │   ├── RuleTreePO.java
 │   │                               │   └── UserPO.java
 │   │                               └── repository
 │   │                                   ├── RuleRepository.java
@@ -289,8 +289,8 @@ lock: no
 ### 3. 领域
 
 一个领域模型中包含3个部分；model、repository、service 三部分；
-- model 对象的定义
-- repository 仓储的定义
+- model 对象的定义 【含有；valobj = VO、entity、Aggregate】
+- repository 仓储的定义【含有PO】
 - service 服务实现
 
 以上3个模块，一般也是大家在使用 DDD 时候最不容易理解的分层。比如 model 里还分为；valobj - 值对象、entity 实体对象、aggregates 聚合对象；
