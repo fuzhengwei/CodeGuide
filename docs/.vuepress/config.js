@@ -570,6 +570,7 @@ function genBarGuide() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
+                "dubbo.md",
                 "none.md"
             ]
         },
@@ -2001,6 +2002,7 @@ function getBarProjectChatGPT() {
                 "web/第4节：对话框列表.md",
                 "web/第5节：对话框消息.md",
                 "web/第6节：完善对话处理.md",
+                "web/第7节：对话角色设定.md",
             ]
         }
     ]
