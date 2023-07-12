@@ -163,6 +163,7 @@ lock: no
 - [在使用redis的incr来扣减库存，如果redis宕机了，丢失了一部分数据，是不是就有可能incr得到重复的key，这个时候相应的key滑块锁如果恰好又已经被释放了，是不是就超买了，这时候怎么解决呢？](https://t.zsxq.com/0ekXNK2Qq)
 - [Lottery的异常情况有哪些](https://t.zsxq.com/0fxyr6Mb4)
 - [有没有考虑到分库分表对运维和后续开发难度造成的影响，这个是怎么考量了，后续会有什么麻烦](https://t.zsxq.com/0fBVqDbtl)
+- [请问下大家在面试的时候，如果抽奖系统是1500qps，接口响应300ms，然后每秒的并发量是450个，然后面试官问参与人数的时候怎么回答呢？](https://t.zsxq.com/107LwTD9I)
 
 ### 2. API网关
 
