@@ -571,6 +571,7 @@ function genBarGuide() {
             sidebarDepth: 0,
             children: [
                 "dubbo.md",
+                "mybatis.md",
                 "none.md"
             ]
         },
