@@ -82,6 +82,7 @@ DDD 领域驱动设计的中心，主要在于领域模型的设计，以领域�
 - Maven 3.8.6
 - SpringBoot 2.7.2
 - MySQL 5.7 - 如果你使用 8.0 记得更改 pom.xml 中的 mysql 引用
+- Dubbo - [https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/registry/multicast/](https://cn.dubbo.apache.org/zh-cn/overview/mannual/java-sdk/reference-manual/registry/multicast/) 文档&广播模式地址说明
 
 ### 2. 架构
 
