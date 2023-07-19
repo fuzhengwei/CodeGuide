@@ -174,6 +174,7 @@ lock: no
 - [这个测试项目的rpc注册中心和网关注册中心分开，课程里是分开的，两个注册中心这个是否有必要性的。](https://t.zsxq.com/0bkCyZGzM)
 - [对于面试中问起对于网关的数据库是否分库分表以及qps tps数据应该怎么去考虑。](https://t.zsxq.com/0bkCyZGzM)
 - [你这个网关跟springcloud的网关有什么区别。如果我们的系统，想要使用你们的网关，要做那些步骤。](https://t.zsxq.com/0cT5sbRmI)
+- [请问下星球里的api网关应该有很多开源的项目吧，具体有哪些。要是写在简历里，面试官要是问为啥要自己搞一套，而不用开源的呢](https://t.zsxq.com/104ZDRNvW)
 
 ### 3. 通用问题
 
