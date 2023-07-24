@@ -2006,6 +2006,14 @@ function getBarProjectChatGPT() {
                 "web/第6节：完善对话处理.md",
                 "web/第7节：对话角色设定.md",
             ]
+        },
+        {
+            title: "番外 - 课程阶段产物",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "extra/ChatGPT-v1.0.mdd",
+            ]
         }
     ]
 }
