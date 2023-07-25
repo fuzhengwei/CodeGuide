@@ -1747,6 +1747,7 @@ function getBarZSXQ() {
             children: [
                 "memorabilia/seven-thousand.md",
                 "memorabilia/overall.md",
+                "memorabilia/biographical-notes.md",
             ]
         }
     ]
@@ -2012,7 +2013,7 @@ function getBarProjectChatGPT() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "extra/ChatGPT-v1.0.mdd",
+                "extra/ChatGPT-v1.0.md",
             ]
         }
     ]

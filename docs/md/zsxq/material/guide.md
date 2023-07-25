@@ -82,7 +82,9 @@ lock: no
     3. 高级组合；a、b、e
     4. 超级组合；a、b、c、e【并有一定规模的下载量】
 
-2. 手写源码系列，也可以单独一个小项目，比较适合应届生。社招就更适合因为学到了这样的源码，运用到了哪里。比如学习MyBatis源码，技术迁移设计了 API 网关通信模型【我视频里有讲可以看；[https://www.bilibili.com/video/BV1iv4y1L78e](https://www.bilibili.com/video/BV1iv4y1L78e)】。
+2. 组合后，简历编写参考：[https://bugstack.cn/md/zsxq/material/notes.html](https://bugstack.cn/md/zsxq/material/notes.html)
+
+3. 手写源码系列，也可以单独一个小项目，比较适合应届生。社招就更适合因为学到了这样的源码，运用到了哪里。比如学习MyBatis源码，技术迁移设计了 API 网关通信模型【我视频里有讲可以看；[https://www.bilibili.com/video/BV1iv4y1L78e](https://www.bilibili.com/video/BV1iv4y1L78e)】。
 
 **手写源码类项目体现到简历参考如下**
 
