@@ -235,7 +235,6 @@ title: 编码指南
 
 - Java 面经手册：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325)
 - 重学Java设计模式：[https://download.csdn.net/download/Yao__Shun__Yu/19265731](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
-- 手撸 Spring：[https://download.csdn.net/download/Yao__Shun__Yu/21009038](https://download.csdn.net/download/Yao__Shun__Yu/21009038)
 - 字节码编程：[https://download.csdn.net/download/Yao__Shun__Yu/12505051](https://download.csdn.net/download/Yao__Shun__Yu/12505051)
 - IDEA Plugin 开发手册：[https://download.csdn.net/download/Yao__Shun__Yu/77484299](https://download.csdn.net/download/Yao__Shun__Yu/77484299)
 
