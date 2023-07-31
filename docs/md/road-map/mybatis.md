@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=955906479&bvid=BV1DW4y1o7Vd&cid=1198523013&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，使用 SpringBoot 配置 MyBatis 并完成对插入、批量插入、修改、查询以及注解事务和编程事务的使用，通过扩展插件开发对置顶字段进行加解处理。
 
 此外本文也通过此案例，渗透讲解 DDD 模型中的聚合对象、实体对象和值对象在领域模型中的实践。

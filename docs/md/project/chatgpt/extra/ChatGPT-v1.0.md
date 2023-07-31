@@ -8,11 +8,9 @@ lock: no
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
-**先看效果！！！**
+>沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230723-01.gif?raw=true" width="750px">
-</div>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=531529497&bvid=BV1xu411G7Gp&cid=1215558625&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 从这套 ChatGPT 工程设计到开发，到现在第一个版本的落地，已经有2个月多了。那为什么这么长时间呢？🤔 因为小傅哥所编写的不只是完成功能，而是从 `Dev-Ops`、`API 工程 DDD 架构设计`、`ChatGPT-SDK 实现`、`ChatGPT-WEB React` 开发一整套的东西，分步骤的逐步实现给大家，教会每个人有需要开发此类内容的，都可以依照工程学会。
 

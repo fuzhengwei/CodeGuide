@@ -572,6 +572,7 @@ function genBarGuide() {
             children: [
                 "dubbo.md",
                 "mybatis.md",
+                "rocketmq.md",
                 "none.md"
             ]
         },
@@ -1741,7 +1742,7 @@ function getBarZSXQ() {
             ]
         },
         {
-            title: "星球事迹",
+            title: "星球日记",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2006,6 +2007,7 @@ function getBarProjectChatGPT() {
                 "web/第5节：对话框消息.md",
                 "web/第6节：完善对话处理.md",
                 "web/第7节：对话角色设定.md",
+                "web/第8节：流式接口对接.md",
             ]
         },
         {

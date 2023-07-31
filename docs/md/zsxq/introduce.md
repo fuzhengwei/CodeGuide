@@ -37,6 +37,10 @@ lock: no
 
 加入星球，你可以获得已经在这条路上摸爬滚打多年的架构师，为你提供的如下服务。
 
+<div align="center">
+    <img src="https://bugstack.cn/images/article/zsxq/jianli-xiaozhao-07.png?raw=true" width="850px">
+</div>
+
 ### 1. 学习项目
 
 很多来自中小公司、外包公司或者尚未毕业的本科生、研究生，手里都没有什么能拿的出手的项目，到大厂去刚一下。
