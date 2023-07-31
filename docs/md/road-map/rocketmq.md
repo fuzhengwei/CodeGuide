@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=956583991&bvid=BV1ap4y1G764&cid=1214781475&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，使用 Docker 配置 RocketMQ 并在基于 DDD 分层结构的 SpringBoot 工程中使用 RocketMQ 技术。因为大部分 MQ 的发送都是基于特定业务场景的，所以本章节也是基于 [《MyBatis 使用教程和插件开发》](https://bugstack.cn/md/road-map/mybatis.html) 章节的扩展。
 
 本章也会包括关于 MQ 消息的发送和接收应该处于 DDD 的哪一层的实践讲解和使用。

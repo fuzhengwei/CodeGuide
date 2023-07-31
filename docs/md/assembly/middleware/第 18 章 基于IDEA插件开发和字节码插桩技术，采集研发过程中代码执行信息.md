@@ -1,6 +1,6 @@
 ---
 title: 第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息
-pay: https://t.zsxq.com/0c7qkNTdA
+pay: https://t.zsxq.com/10Bnjm2Wo
 ---
 
 # 第 18 章 基于IDEA插件开发和字节码插桩技术，采集研发过程中代码执行信息
