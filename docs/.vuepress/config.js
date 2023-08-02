@@ -1661,6 +1661,7 @@ function getBarZSXQ() {
             children: [
                 "introduce.md",
                 "material/guide.md",
+                "material/student-learn-line.md",
             ]
         },
         {
