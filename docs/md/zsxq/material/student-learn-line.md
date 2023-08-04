@@ -65,7 +65,7 @@ lock: no
 - 编程技术(23 天)：[https://t.zsxq.com/10E3cp7uK](https://t.zsxq.com/10E3cp7uK)
 - 业务项目(30 天)：[https://t.zsxq.com/10zlIyK5Z](https://t.zsxq.com/10zlIyK5Z)
 - 组件项目(37 天)：[https://t.zsxq.com/10iYdgP5u](https://t.zsxq.com/10iYdgP5u)
-- 轮子项目(23 天)：[https://t.zsxq.com/10iYdgP5u](https://t.zsxq.com/10iYdgP5u)
+- 轮子项目(23 天)：[https://t.zsxq.com/107qkNTdA](https://t.zsxq.com/107qkNTdA)
 - 面经手册(07 天)：[https://t.zsxq.com/10fhkcpaq](https://t.zsxq.com/10fhkcpaq)
 - 项目刷题(07 天)：[https://bugstack.cn/md/zsxq/material/interview.html](https://bugstack.cn/md/zsxq/material/interview.html)
 - 架构方案(07 天)：【从星球课程入口进入，查看架构方案】

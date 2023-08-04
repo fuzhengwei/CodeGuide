@@ -168,6 +168,8 @@ lock: no
 - [MQ有没有做持久化？redis做分布式锁，如果这个过程中redis挂了，怎么处理？分布式事务是怎么实现的？](https://t.zsxq.com/10jP1UY42)
 - [抽奖系统 MySql 连接数配置了多少，如何查看和修改](https://t.zsxq.com/10ciJnGDj)
 - [项目里面一般什么时候会用到线程池哇，你这个抽奖项目里面可以用线程池吗](https://t.zsxq.com/10XnBD1w8)
+- [每次领取活动都要查看是否有未消费的活动单，这个操作要访问db，如果大量请求的话是不是会击垮db？](https://t.zsxq.com/10G4nY9UP)
+- [抽奖系统，被问到系统的瓶颈在哪里](https://t.zsxq.com/10WwhYDKy)
 
 ### 2. API网关
 
