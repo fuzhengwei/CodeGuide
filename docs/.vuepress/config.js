@@ -573,6 +573,7 @@ function genBarGuide() {
                 "dubbo.md",
                 "mybatis.md",
                 "rocketmq.md",
+                "quartz.md",
                 "none.md"
             ]
         },
@@ -1984,6 +1985,7 @@ function getBarProjectChatGPT() {
                 "api/第2节：Shiro登录授权发放访问token.md",
                 "api/第3节：微信公众号验签和初步对接OpenAI.md",
                 "api/第4节：工程重构和流式异步响应接口实现.md",
+                "api/第5节：公众号发送验证码鉴权登录.md",
             ]
         },
         {
