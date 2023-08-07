@@ -348,3 +348,80 @@ public class XXLJob {
 
 - 注意编辑任务的执行时间，`0/3 * * * * ?` 这样才能当下执行。另外如果你要测试的话，可以点**执行一次**。
 - 现在是启动了多个测试任务，所以测试中可以看到各类任务的打印。读者在做测试的时候，可以适当关闭，方便学习。
+
+## 六、扩展学习 JobRunr
+
+官网：[jobrunr](https://github.com/jobrunr/jobrunr) - `一种在 Java 中执行后台处理的巧妙简单的方法。由持久存储支持。开放并免费用于商业用途。`
+
+### 1. 安装部署
+
+```yml
+version: '3'
+services:
+  jobrunr:
+    image: jobrunr/server:latest
+    ports:
+      - 8000:8000
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/jobrunrdb
+      - SPRING_DATASOURCE_USERNAME=jobrunr
+      - SPRING_DATASOURCE_PASSWORD=jobrunr
+    depends_on:
+      - postgres
+    networks:
+      - jobrunr-network
+
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_USER=jobrunr
+      - POSTGRES_PASSWORD=jobrunr
+      - POSTGRES_DB=jobrunrdb
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    networks:
+      - jobrunr-network
+
+networks:
+  jobrunr-network:
+```
+
+## 2. 使用案例
+
+```java
+// 即发即忘任务
+BackgroundJob.enqueue(() -> System.out.println("Simple!"));
+
+// 延迟的任务
+BackgroundJob.schedule(Instant.now().plusHours(5), () -> System.out.println("Reliable!"));
+
+// 重复的任务
+BackgroundJob.scheduleRecurrently("my-recurring-job", Cron.daily(), () -> service.doWork());
+
+// 配置的任务
+@Component
+public class MyJobService {
+
+    private final JobScheduler jobScheduler;
+
+    @Autowired
+    public MyJobService(JobScheduler jobScheduler) {
+        this.jobScheduler = jobScheduler;
+    }
+
+    public void scheduleJob() {
+        jobScheduler.<MyJob>enqueue(job -> job
+                .setJobDetails(MyJob.class)
+                .withName("My Job")
+                .withArgument("arg1", "value1")
+                .withArgument("arg2", "value2")
+        );
+    }
+
+    @Job(name = "My Job")
+    public void processJob(String arg1, String arg2) {
+        // 处理作业的逻辑
+        System.out.println("Processing job with arguments: " + arg1 + ", " + arg2);
+    }
+}
+```
