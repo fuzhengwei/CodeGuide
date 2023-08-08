@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=659288536&bvid=BV1Dh4y1C75i&cid=1223326697&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，多种类型的任务执行组件使用案例，包括；Quartz 使用、扩展 Spring-Schedule 自动增加任务、XXL-Job 分布式任务调度。其中像 Spring-Schedule 小傅哥还添加了一些 Spring 组件开发的能力可自动扩展任务、对 XXL-Job 的配置引入了 Docker Compose 自动化安装和自动初始化 MySQL 数据库 xxl-job.sql 库表数据。这些都是为了让你在不同的场景选择合适的框架，同时也能更简单的使用这些框架。
 
 本章节的任务调度组件会放到 DDD 的 Trigger 模块中，也就是触发器层。我们认为所有的调用行为，HTTP、RPC、MQ、任务，都是一个触发的入口，所以对于任务调度也放到这一层使用。
