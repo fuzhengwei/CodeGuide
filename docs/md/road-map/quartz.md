@@ -301,7 +301,7 @@ public class JobRegistrarAutoConfig implements SchedulingConfigurer {
 - JobRegistrarAutoConfig 实现了 SchedulingConfigurer 的类，可以自己自动化的根据所有实现了 ExtScheduleJob 类进行任务扩展添加。
 - 这是一种扩展方式，有了这样的扩展方式，如果你是做同类的任务需求，只是配置不同的话，那么还可以基于 yml 配置，来创建出不同的代理任务。
 
-### 3.3 XXL-Job
+#### 3.3 XXL-Job
 
 **源码**：`cn.bugstack.xfg.dev.tech.job.XXLJob`
 
