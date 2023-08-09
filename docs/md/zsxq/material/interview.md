@@ -171,6 +171,7 @@ lock: no
 - [每次领取活动都要查看是否有未消费的活动单，这个操作要访问db，如果大量请求的话是不是会击垮db？](https://t.zsxq.com/10G4nY9UP)
 - [抽奖系统，被问到系统的瓶颈在哪里](https://t.zsxq.com/10WwhYDKy)
 - [为什么要选redis，redis 主从集群下潜在的锁失效问题怎么考虑怎么解决。ookeeper 作为分布式锁优缺点](https://t.zsxq.com/107LFRcAH)
+- [这个抽奖系统里的聚合、聚合根、实体是具体对应的哪些部分](https://t.zsxq.com/11VOoFhHX)
 
 ### 2. API网关
 
