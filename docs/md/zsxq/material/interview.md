@@ -174,6 +174,7 @@ lock: no
 - [这个抽奖系统里的聚合、聚合根、实体是具体对应的哪些部分](https://t.zsxq.com/11VOoFhHX)
 - [百度提前批被问了一些关于路由组件的问题（我把路由组件单独作为一个小项目）](https://t.zsxq.com/11ckhUMeW)
 - [关于db-router的redis路由问题：假设并发量还是很高，那么把库存分摊到不同的stockKey上，不同用户去不同的key上incr。但是这和自研路由有什么关系](https://t.zsxq.com/11j6zWN6k)
+- [项目中为什么用dubbo不用fegin，这个问题怎么答](https://t.zsxq.com/115w0DAUw)
 
 ### 2. API网关
 
