@@ -140,6 +140,8 @@ docker-compose -v
 Docker Compose version v2.18.1
 ```
 
+- 安装后就可以使用 compose 命令了；`docker-compose -f environment-docker-compose.yml up -d`
+
 ### 8. 启动Docker并添加开机自启动
 
 ```java
