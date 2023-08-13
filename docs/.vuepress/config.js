@@ -570,10 +570,11 @@ function genBarGuide() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "dubbo.md",
                 "mybatis.md",
+                "dubbo.md",
                 "rocketmq.md",
                 "quartz.md",
+                "mysql.md",
                 "none.md"
             ]
         },
@@ -2011,6 +2012,7 @@ function getBarProjectChatGPT() {
                 "web/第6节：完善对话处理.md",
                 "web/第7节：对话角色设定.md",
                 "web/第8节：流式接口对接.md",
+                "web/第9节：公众号扫码登录.md",
             ]
         },
         {
