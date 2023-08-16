@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=744741676&bvid=BV1Br4y1Z7Du&cid=1232274988&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，如何更好地使用 MySQL 数据库。这包括；库表创建规范、字段的创建规范、索引的创建规范以及SQL使用的相关规范，通过这些内容的讲解，让读者更好使用 MySQL 数据库，创建出符合规范的表和字段以及建出合适的索引。
 
 如果你还想学习更深入的 MySQL 知识，建议可以阅读下官网的参考手册，这比任何一个资料都要有权威性。
