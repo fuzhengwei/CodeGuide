@@ -575,6 +575,8 @@ function genBarGuide() {
                 "rocketmq.md",
                 "quartz.md",
                 "mysql.md",
+                "db-router.md",
+                "connection-pool.md",
                 "none.md"
             ]
         },
