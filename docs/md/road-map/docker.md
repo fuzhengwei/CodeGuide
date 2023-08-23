@@ -295,3 +295,9 @@ curl http://127.0.0.1:2375/info
 ```
 
 - 之后你就可以打开 IDEA 的 Services 配置 Docker 了；`tcp://180.76.138.**:2375` 验证连接后就可以使用了。
+
+### 14. 卸载Docker
+
+```shell
+/Applications/Docker.app/Contents/MacOS/Docker --uninstall
+```
