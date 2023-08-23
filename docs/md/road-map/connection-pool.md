@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=362541635&bvid=BV1a94y1r7bP&cid=1241367723&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式，向读者展示 SpringBoot 应用程序对接 MySQL 时，在使用不同连接池以及不使用连接池时，在增删改查的一个性能对比。这也包括更新和查询时，索引字段的关键性。
 
 内容开始之前，你知道1张21个字段的表，存放100万数据，大于会占用多少空间容量吗？如果这100万数据在不使用连接池的方式，10个并发一条条插入，要多少时间？
