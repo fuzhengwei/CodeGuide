@@ -187,6 +187,8 @@ lock: no
 - [你这个网关跟springcloud的网关有什么区别。如果我们的系统，想要使用你们的网关，要做那些步骤。](https://t.zsxq.com/0cT5sbRmI)
 - [请问下星球里的api网关应该有很多开源的项目吧，具体有哪些。要是写在简历里，面试官要是问为啥要自己搞一套，而不用开源的呢](https://t.zsxq.com/104ZDRNvW)
 - [API网关的性能瓶颈在哪? 怎么进行优化？](https://t.zsxq.com/10pg2nOx6)
+- [这套API网关怎么实现高可用？同一套网关系统怎么映射到不同的后端Dubbo服务上面？如果部署多套网关，Dubbo服务上报，如何只让网关A进行订阅服务映射，网关B不操作？](https://t.zsxq.com/11NdwNmC6)
+- [RPC服务上报过后协议改变了，网关怎么处理。服务降级方案怎么设计的？](https://t.zsxq.com/11knrPUCI)
 
 ### 3. 通用问题
 
