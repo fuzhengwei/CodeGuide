@@ -21,8 +21,8 @@ lock: need
 
 本文涉及的工程【导表语句】：
 
-- [road_map_5.6.sql](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-mysql/docs) 
-- [road_map_8.0.sql](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-mysql/docs) 
+- [road_map_5.6.sql](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-mysql/-/tree/master/docs) 
+- [road_map_8.0.sql](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-mysql/-/tree/master/docs) 
 
 ## 一、案例背景
 
