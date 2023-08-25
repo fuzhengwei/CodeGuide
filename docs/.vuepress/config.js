@@ -1754,6 +1754,7 @@ function getBarZSXQ() {
                 "memorabilia/seven-thousand.md",
                 "memorabilia/overall.md",
                 "memorabilia/biographical-notes.md",
+                "memorabilia/interview-zijie.md",
             ]
         }
     ]
