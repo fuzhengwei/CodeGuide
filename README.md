@@ -2,12 +2,14 @@
 
 > 你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。[:pencil2: 虫洞栈，博主](https://bugstack.cn)，[:memo: 关于我](https://bugstack.cn/md/other/guide-to-reading.html) 
 
-🚜 **虫洞栈，与你：上最快的车、唠最狠的嗑，爬最高的坡、拿最贵的Offer！** 
-
-- 👉 如果你不知道自己要从哪开始、要学什么、有什么结果，请看 [阅读指南](https://bugstack.cn/md/other/guide-to-reading.html) 这是一个码农研发人员提升自身技术栈广度和深度的经验之路，也是小傅哥的亲身学习经历汇总！
-- 👉 如果你是刚入行、在外包、跨语言学习、想跳槽大厂、缺少学习动力等，可以阅读小傅哥的成长故事，这个系列包括了我的个人在外包到大厂的成长、跳槽的过程、互联网的学习经历 Go -> [关于小傅哥](https://bugstack.cn/md/about/me/2020-08-25-13%E5%B9%B4%E6%AF%95%E4%B8%9A%EF%BC%8C%E7%94%A8%E4%B8%A4%E5%B9%B4%E6%97%B6%E9%97%B4%E4%BB%8E%E5%A4%96%E5%8C%85%E8%B5%B0%E8%BF%9B%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E5%8E%82.html)
-- 👉 推荐 [在线阅读 bugstack.cn](https://bugstack.cn) (Github 访问速度比较慢可能会导致部分图片无法刷新出来)
-- 👉 **【源码下载】** ❤下载指引：小傅哥博客【设计模式、Spring、字节码、插件、中间件等】涉及到的全部源码地址：[Go -> 源码索引](https://github.com/fuzhengwei/CodeGuide#1-%E6%BA%90%E7%A0%81)
+- :dog: 13年毕业，大厂互联网T8架构师，全网40万粉编程知识博主。
+- :man_technologist: 成长：[关于我，从小白到架构师的成长经历](https://www.bilibili.com/video/BV1FF41137q5)
+- :bus: 源码：[`RoadMap 编程路书`](https://github.com/fuzhengwei/RoadMap) | [`Java 数据结构和算法`](https://github.com/fuzhengwei/java-algorithms) | [`IM 仿微信`](https://github.com/fuzhengwei/NaiveChat) | [`Java 面经手册`](https://github.com/fuzhengwei/interview) | [`IntelliJ IDEA 插件开发`](https://github.com/fuzhengwei/guide-idea-plugin) | [`Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践`](https://github.com/fuzhengwei/Lottery) | [`API网关`](https://github.com/fuzhengwei/api-gateway) | [`手写Spring`](https://github.com/fuzhengwei/small-spring) | [`手写MyBatis`](https://github.com/fuzhengwei/small-mybatis) | [`重学Java设计模式`](https://github.com/fuzhengwei/itstack-demo-design) | [`Netty 实战案例`](https://github.com/fuzhengwei/itstack-demo-netty) | [`字节码编程`](https://github.com/fuzhengwei/itstack-demo-bytecode) | [`ChatGPT AI 问答助手`](https://github.com/fuzhengwei/chatbot-api) | [更多搜索...](https://github.com/fuzhengwei?tab=repositories)
+- :seedling: 干货：[公众号『 bugstack虫洞栈 』](https://bugstack.cn/images/personal/qrcode.png)
+- :pencil: 博客：[bugstack.cn](https://bugstack.cn/) - 足够硬核，内容老狠了！
+- :tv: 视频：[B站 小傅哥の码场](https://space.bilibili.com/15637440)
+- :love_letter: 微信：[fustack](https://bugstack.cn/images/personal/fustack.png) - 备注来意
+- :feet: 我的编程知识星球：[实战生产级项目、手写框架级源码，可以向我 1对1 提问，解答技术/职场/规划问题](https://bugstack.cn/md/zsxq/introduce.html)
 
 <br/>
 <div align="center">
