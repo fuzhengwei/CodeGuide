@@ -2025,6 +2025,7 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "extra/ChatGPT-v1.0.md",
+                "extra/ChatGPT-v1.1.md",
             ]
         }
     ]
