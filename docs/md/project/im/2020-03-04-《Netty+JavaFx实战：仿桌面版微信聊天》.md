@@ -96,3 +96,4 @@ excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql
 
 - [Java仿微信对接小傅哥ChatGPT-SDK-Java实现智能机器人 @俗人](https://t.zsxq.com/10B7yE8xw)
 - [借助 JDK1.8 中的 javapackager.exe 和 IDEA 生成 IM 可运行文件 @俗人](https://t.zsxq.com/10IkHjbpm)
+- [JavaFX打包exe @俗人](https://t.zsxq.com/11ybJvpPf)
