@@ -577,6 +577,7 @@ function genBarGuide() {
                 "mysql.md",
                 "db-router.md",
                 "connection-pool.md",
+                "zookeeper.md",
                 "none.md"
             ]
         },
