@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=575508253&bvid=BV12z4y1K7jv&cid=1255695805&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式，向读者介绍 Zookeeper 的安装配置，学习 SpringBoot 整合使用，以及基于 Zookeeper 开发一个简单的配置中心功能内核。通过这样的实践方式，让读者入门和掌握 Zookeeper 以应对后续需要此技术栈的相关开发项目。
 
 本文的重点是基于 Zookeeper 实现的配置中心，那配置中心是啥呢？🤔
