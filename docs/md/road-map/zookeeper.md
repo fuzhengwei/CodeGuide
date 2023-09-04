@@ -18,7 +18,7 @@ lock: need
 
 本文涉及的工程：
 
-- xfg-dev-tech-zookeeper：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-connection-pool](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-connection-pool) - `docs/dev-ops 提供了 Zookeeper 安装脚本`
+- xfg-dev-tech-zookeeper：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-zookeeper](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-zookeeper) - `docs/dev-ops 提供了 Zookeeper 安装脚本`
 
 ## 一、配置中心
 
