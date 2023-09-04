@@ -41,11 +41,11 @@ lock: need
 在安装执行 docker-compose.yml 脚本之前，你需要先在本地安装 [docker](https://bugstack.cn/md/road-map/docker.html) 之后 IntelliJ IDEA 打开 docker-compose.yml 文件，如图操作即可安装。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-zookeeper-02.png" width="450px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-zookeeper-02.png" width="650px">
 </div>
 
 <div align="center">
-    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-zookeeper-03.png" width="450px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-zookeeper-03.png" width="650px">
 </div>
 
 - 另外，如果你是在服务器上安装，则需要执行 `docker-compose -f docker-compose.yml up -d` 并且是你已经安装了 Docker-Compose 包。—— 这些内容在小傅哥的[《Java 简明教程》](https://bugstack.cn/md/road-map/road-map.html)中都有讲解，可以进入学习。
