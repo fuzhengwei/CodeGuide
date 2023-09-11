@@ -578,7 +578,7 @@ function genBarGuide() {
                 "db-router.md",
                 "connection-pool.md",
                 "zookeeper.md",
-                "none.md"
+                "redis.md"
             ]
         },
         {
@@ -1980,6 +1980,7 @@ function getBarProjectChatGPT() {
                 "dev-ops/第4节：Nginx环境配置.md",
                 "dev-ops/第5节：服务镜像构建和容器部署.md",
                 "dev-ops/第6节：前后端构建镜像部署.md",
+                "dev-ops/第7节：网站添加百度统计.md",
             ]
         },
         {
