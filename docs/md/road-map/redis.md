@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=575827141&bvid=BV17z4y1j7m5&cid=1262749182&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式，向读者介绍 Redis 的安装部署，以及使用 Redisson 框架完成 Redis 常用核心功能的场景使用。
 
 这些场景包括；Redis 的基本缓存使用、Redis 加锁（Redisson 提供了很多锁的方式，这里我们会展示独占锁和无锁化的性能测试）。之后还有一个非常重要的场景是关于 Redis 的发布和订阅。
