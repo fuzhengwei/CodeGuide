@@ -1967,6 +1967,7 @@ function getBarProjectChatGPT() {
             children: [
                 "chatgpt.md",
                 "引言.md",
+                "notes.md",
             ]
         },
         {
@@ -2028,6 +2029,7 @@ function getBarProjectChatGPT() {
             children: [
                 "extra/ChatGPT-v1.0.md",
                 "extra/ChatGPT-v1.1.md",
+                "extra/ChatGPT-v1.2.md",
             ]
         }
     ]
@@ -2190,6 +2192,7 @@ function genBarAbout() {
                 "job/2023-02-04-项目这么问，把你水分挤干.md",
                 "job/2023-03-19-你简历没项目，你得遭老罪喽！.md",
                 "job/2023-07-11-面试官都问你啥了.md",
+                "job/2023-09-13-工作内推.md",
             ]
         }
     ];
