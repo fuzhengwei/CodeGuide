@@ -1,12 +1,13 @@
 ---
 title: 面试：技能、简历、问题汇总
-pay: https://t.zsxq.com/0d7K7hJ0i
+lock: no
 ---
 
 # 《ChatGPT 微服务应用体系构建》，关于面试中的技能、简历、问题汇总
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>课程：[https://t.zsxq.com/0d7K7hJ0i](https://t.zsxq.com/0d7K7hJ0i)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
