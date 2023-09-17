@@ -566,7 +566,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(9)",
+            title: "开发技术(10)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -578,11 +578,12 @@ function genBarGuide() {
                 "db-router.md",
                 "connection-pool.md",
                 "zookeeper.md",
-                "redis.md"
+                "redis.md",
+                "ignite.md",
             ]
         },
         {
-            title: "常用类库(4)",
+            title: "常用类库(3)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -1336,6 +1337,7 @@ function genApiGateway() {
                 "api-gateway.md",
                 "2022-08-12-开篇：如果让我设计一套，TPS百万级API网关.md",
                 "2023-06-10-API 网关 - 媲美美团这套Shepherd网关架构！.md",
+                "notes.md",
             ]
         },
         {
@@ -2045,6 +2047,7 @@ function getBarProjectLottery() {
             sidebarDepth: 0,
             children: [
                 "introduce/Lottery抽奖系统.md",
+                "notes.md",
             ]
         },
         {
