@@ -1678,6 +1678,7 @@ function getBarZSXQ() {
             children: [
                 "material/architecture_design.md",
                 "material/interview.md",
+                "material/dialogue-skills.md",
                 "material/notes.md",
                 "material/study-experience.md",
                 "material/exam.md",
