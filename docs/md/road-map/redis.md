@@ -152,7 +152,7 @@ public String createOrderByNoLock(OrderAggregate orderAggregate) {
     // 模拟锁商品库存
     long decrCount = redissonService.decr(skuEntity.getSku());
     if (decrCount < 0) return "已无库存[初始化的库存和使用库存，保持一致。orderService.initSkuCount(\"13811216\", 10000);]";
-    String lockKey = userEntity.getUserId().concat("_").concat(String.valueOf(decrCount));
+    String lockKey = skuEntity.getSku().concat("_").concat(String.valueOf(decrCount));
     RLock lock = redissonService.getLock(lockKey);
     try {
         lock.lock();
