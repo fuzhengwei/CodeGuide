@@ -587,7 +587,8 @@ function genBarGuide() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "none.md"
+                "fastjson.md",
+                "none.md",
             ]
         },
         {
