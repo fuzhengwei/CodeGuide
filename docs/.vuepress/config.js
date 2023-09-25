@@ -32,8 +32,8 @@ module.exports = {
     locales: {
         "/": {
             lang: "zh-CN",
-            title: "bugstack 虫洞栈",
-            description: "包含: Java 基础，面经手册，Netty4.x，手写Spring，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，DDD系统架构项目开发，字节码编程..."
+            title: "小傅哥 bugstack 虫洞栈",
+            description: "包含: Java 基础，面经手册，Netty4.x，手写Spring，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，Lottery抽奖系统，字节码编程..."
         }
     },
     head: [
@@ -47,7 +47,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，面试题，API网关，SpringBoot Stater"
+            content: "小傅哥, bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ['script',
@@ -473,7 +473,7 @@ module.exports = {
                         link: 'https://space.bilibili.com/15637440'
                     },
                     {
-                        text: '源码仓库',
+                        text: '源码',
                         items: [
                             {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei'},
                             {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet'},
