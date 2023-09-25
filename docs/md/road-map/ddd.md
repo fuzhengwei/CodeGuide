@@ -1,6 +1,6 @@
 ---
 title: DDD 架构
-lock: no
+lock: need
 ---
 
 # 架构的本质之 DDD 架构
