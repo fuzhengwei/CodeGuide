@@ -13,6 +13,10 @@ pay: https://t.zsxq.com/EuN76UV
 - VUE：[lottery-front](https://gitcode.net/KnowledgePlanet/lottery-front)
 - 描述：本章节是一个作业章节，我会带着你基于vue搭建初始工程，加入抽奖模块以及一个案例接口。之后需要你在这个基础上完善整个抽奖流程的调用和展示，这样你就可以把整个抽奖过程串联起来了。
 
+## 零、优秀作业
+
+- [vue H5 大转盘抽奖 @俗人](https://t.zsxq.com/12qKmiLWT)
+
 ## 一、开发日志
 
 - 基于 IDEA 创建 vue 工程，并加入新的抽检模块
