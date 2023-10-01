@@ -84,7 +84,7 @@
 
                 t.getToken().then(function (token) {
                     $.ajax({
-                        url: 'https://api.bugstack.cn/interfaces/BlogApi.php',
+                        url: 'https://x-api.itedus.cn/api/v1/blog/check',
                         type: "GET",
                         dataType: "text",
                         data: {
