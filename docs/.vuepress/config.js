@@ -2000,6 +2000,7 @@ function getBarProjectChatGPT() {
                 "api/第4节：工程重构和流式异步响应接口实现.md",
                 "api/第5节：公众号发送验证码鉴权登录.md",
                 "api/第6节：白名单和敏感词规则过滤.md",
+                "api/第7节：用户额度账户领域实现.md",
             ]
         },
         {
