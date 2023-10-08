@@ -2039,6 +2039,7 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.0.md",
                 "extra/ChatGPT-v1.1.md",
                 "extra/ChatGPT-v1.2.md",
+                "extra/ChatGPT-v1.3.md",
             ]
         }
     ]
