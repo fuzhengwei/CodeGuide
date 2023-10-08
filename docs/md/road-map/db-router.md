@@ -16,7 +16,7 @@ lock: need
 
 本文涉及的工程：
 
-- xfg-dev-tech-db-router：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-db-router](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-db-router) 
+- xfg-dev-tech-db-router：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-db-router](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-db-router) 
 
 ## 一、需求分析
 
