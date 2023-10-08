@@ -79,13 +79,19 @@ lock: no
 	<img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-04.png?raw=true" width="850px"/>
 </div>
 
-### 4. 项目流程（核心链路）
+### 4. 热力展示（百度统计）
+
+<div align="center">
+	<img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-09.png?raw=true" width="850px"/>
+</div>
+
+### 5. 项目流程（核心链路）
 
 <div align="center">
 	<img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-05.png?raw=true" width="850px"/>
 </div>
 
-### 5. 细节设计（流程举例）
+### 6. 细节设计（流程举例）
 
 <div align="center">
 	<img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-07.png?raw=true" width="850px"/>
