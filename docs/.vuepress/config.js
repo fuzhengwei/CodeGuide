@@ -589,6 +589,7 @@ function genBarGuide() {
             sidebarDepth: 0,
             children: [
                 "fastjson.md",
+                "guava.md",
                 "none.md",
             ]
         },
