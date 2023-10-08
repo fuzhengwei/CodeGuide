@@ -49,39 +49,7 @@ lock: no
 
 差距是从每一天积累拉开的！那如果你想把这差距缩小点，哪怕先面个不是字节这类的大厂，走个中小厂的话，**那就要多实战**！！！
 
-## 二、你，只能实战！
-
-说到实战，那怎么实战？让我来把 CRUD 在写一遍！🤨
-
-别了，浪费那时间，锻炼手速吗！有这个时间不如好好的，认认真真的做一些有深度的项目。你根本不用图快，快只能让你学的更少。而慢下来，一点点研究，一点点突破。做完项目，在部署，压测，优化。这一过程下来，才能迎接面试官的提问，并给出你的理解和解答。
-
-而这样有深度的项目，恰恰是我这个10年互联网大厂编程的架构师，能给你的！**而且是这些都给你！** 关注公众号【bugstack虫洞栈】回复【星球】可以获取加入优惠券1张！—— 加入后，下个APP进入【课程入口】查阅资料。如果不满意，可自行立刻申请退款！秒到账！🤨 我就想让你知道知道，​这里的内容到底多有价值！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-02.jpg?raw=true" width="450px">
-</div>
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-03.jpg?raw=true" width="450px">
-</div>
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-04.jpg?raw=true" width="450px">
-</div>
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-05.jpg?raw=true" width="450px">
-</div>
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-06.jpg?raw=true" width="450px">
-</div>
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-07.jpg?raw=true" width="450px">
-</div>
-
-## 三、请，正确学习！
+## 二、请，正确学习！
 
 ### 1. 多犯错误
 
