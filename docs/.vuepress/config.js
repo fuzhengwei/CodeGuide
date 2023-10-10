@@ -544,13 +544,15 @@ function genBarGuide() {
             ]
         },
         {
-            title: "系统架构(3)",
+            title: "系统架构(5)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "mvc.md",
                 "ddd.md",
                 "mvc2ddd.md",
+                "ddd-dev-account.md",
+                "ddd-dev-pay.md",
             ]
         },
         {
