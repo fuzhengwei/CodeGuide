@@ -2019,6 +2019,14 @@ function getBarProjectChatGPT() {
             ]
         },
         {
+            title: "ChatGLM-SDK",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "sdk/chatglm-sdk-java.md",
+            ]
+        },
+        {
             title: "ChatGPT-WEB",
             collapsable: false,
             sidebarDepth: 0,
