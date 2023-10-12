@@ -1,6 +1,6 @@
 ---
 title: 第1节：ChatGLM SDK - 智谱Ai
-pay: https://t.zsxq.com/12pbqTH3P
+lock: no
 ---
 
 # 《ChatGPT 微服务应用体系构建》 - chatglm-sdk 第1节：ChatGLM SDK - 智谱Ai
