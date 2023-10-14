@@ -3,7 +3,7 @@ title: 第1节：Web页面工程初始化
 pay: https://t.zsxq.com/0eD8hVmSU
 ---
 
-# 《ChatGPT 微服务应用体系构建》 - chagpt-web 第1节：Web页面工程初始化
+# 《ChatGPT 微服务应用体系构建》 - chatgpt-web 第1节：Web页面工程初始化
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
