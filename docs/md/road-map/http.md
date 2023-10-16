@@ -10,7 +10,7 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=364643559&bvid=BV1j94y1t7rn&cid=1300069370&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=577179347&bvid=BV1GB4y1f7U4&cid=1299792581&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 本文的宗旨在于通过简单干净实践的方式教会读者，HTTP的常用框架使用，HTTP接口快速对接方式。以及在编码实战中练习 HTTP 对数据的采集、ChatGLM对接、问题回答。这样的场景学习，非常适合以后大家在做一些智能化问答进行参考使用。
 
