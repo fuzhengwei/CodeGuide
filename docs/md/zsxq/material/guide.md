@@ -74,6 +74,10 @@ lock: no
 5. **应届小白**：重学Java设计模式、Java面经手册、手写Spring/手写Mybatis(2选1)、Lottery 分布式抽奖、SpringBoot Starter 中间件设计和开发，之后学习拉伸技术、网络编程
 6. **创新学习**：IDEA Plugin 插件开发、ChatGPT 微服务应用体系 —— `星球项目较多，也可以自行组合。如 IM + ChatGPT，开发角色智能AI。`
 
+---
+
+**详细介绍**：[路线：实习、校招、社招，学习路线指引](https://bugstack.cn/md/zsxq/material/student-learn-all.html)
+
 ## 四、简历：项目组合
 
 1. 建议的项目组合是；a【业务】Lottery、IM  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT 项目 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
