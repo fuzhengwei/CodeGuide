@@ -14,6 +14,14 @@ lock: need
 
 大家好，我是技术UP主小傅哥。**MVC讲解了，DDD讲解了。接下来这个章节，我们讲讲从MVC到DDD的重构！**
 
+为了避免概念的混淆和下文内容方便讲解，先进行DDD概念认知确认；
+
+1. [Domain-driven design (DDD) is a major software design approach.](https://en.wikipedia.org/wiki/Domain-driven_design) 来自维基百科。DDD 是一种软件设计方法。
+2. 软件的设计方法涵盖了；范式、模型、框架、方法论，主要活动包括建模、测试、工程、开发、部署、维护。来自维基百科的[软件设计](https://en.wikipedia.org/wiki/Software_design)涵盖信息介绍。
+3. 所以在当前语境下，MVC与DDD的对比，只是对比软件落地的框架结构，并不是软件设计思想和思维建模的全方面对比。所以如果读者再给一些其他伙伴阐述MVC和DDD的对比时，也是有必要说明语境的，避免没必要的纠结于理论，而忽略了交流讨论的意义。
+
+那么，接下来在此语境下，我们进行MVC和DDD的重构讲解；
+
 **MVC 旧工程腐化严重，迭代成本太高。DDD 新工程全部重构，步子扯的太大。** 这是现阶段在工程体系化治理中，我们所面临的最大问题；`既想运用 DDD 的思想循序渐进重构现有工程，又想不破坏原有的工程体系结构以保持新需求的承接效率。`
 
 <div align="center">
