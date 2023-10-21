@@ -2002,6 +2002,7 @@ function getBarProjectChatGPT() {
                 "api/第6节：白名单和敏感词规则过滤.md",
                 "api/第7节：用户额度账户领域实现.md",
                 "api/第8节：商品下单对接微信支付.md",
+                "api/第9节：OpenAi多渠道策略模式.md",
             ]
         },
         {
