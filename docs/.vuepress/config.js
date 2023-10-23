@@ -596,7 +596,8 @@ function genBarGuide() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "none.md"
+                "mock.md",
+                "none.md",
             ]
         },
         {
