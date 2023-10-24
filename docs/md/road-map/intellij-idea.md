@@ -70,6 +70,8 @@ IntelliJ IDEA 除了自身的功能强大以外，还可以安装各类提效的
 - Statistis：代码统计插件，可以看到整个工程中你写了多少代码量。
 - Sequence Diagram：用于查看你的 工程中，代码执行流程的 UML 图，可以非常方便的熟悉一些默认代码。
 - FastRequest：类似于 Postman 的 IDEA 插件。它是一个强大的 restful api 工具包插件
+- Coverage：单元测试覆盖率统计插件
+- Squaretest：自动生成Mock测试插件
 - [CodeGeeX 智能AI编程助手](https://codegeex.cn/zh-CN/downloadGuide#vscode)
 
 此外，你也可以自己开发一些自己的 IDEA 插件，这里小傅哥写了教程[《IDEA Plugin 插件开发》](https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.html) vo2dto 这款用于对象转换的插件，就是小傅哥开发的。如果你有非常好用的插件，也可以在本文下修改提交。
