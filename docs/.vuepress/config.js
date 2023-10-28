@@ -1988,6 +1988,7 @@ function getBarProjectChatGPT() {
                 "dev-ops/第5节：服务镜像构建和容器部署.md",
                 "dev-ops/第6节：前后端构建镜像部署.md",
                 "dev-ops/第7节：网站添加百度统计.md",
+                "dev-ops/第8节：应用监控.md",
             ]
         },
         {
