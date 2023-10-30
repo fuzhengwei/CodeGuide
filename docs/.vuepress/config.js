@@ -372,7 +372,7 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: 'ChatGPT 微服务应用体系构建',
+                                        text: 'OpenAi 微服务应用体系构建',
                                         link: '/md/project/chatgpt/chatgpt.md'
                                     },
                                     {
@@ -1974,6 +1974,7 @@ function getBarProjectChatGPT() {
                 "chatgpt.md",
                 "引言.md",
                 "notes.md",
+                "review.md",
             ]
         },
         {

@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=492503304&bvid=BV1mN411x7rJ&cid=1311297417&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，如何使用 [Mock](https://zh.wikipedia.org/wiki/%E6%A8%A1%E6%8B%9F%E5%AF%B9%E8%B1%A1) 进行工程的单元测试，以便于验证系统中的独立模块功能的健壮性。
 
 从整个工程所处不同阶段的测试手段包括；单元测试、集成测试、系统测试、验收测试、性能测试、安全测试、回归测试，以及兼容、可靠、可用性测试。

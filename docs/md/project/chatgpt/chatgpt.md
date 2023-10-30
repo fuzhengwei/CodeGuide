@@ -1,9 +1,9 @@
 ---
-title: 课程：ChatGPT 微服务应用体系构建
+title: 课程：OpenAi(ChatGPT、ChatGLM) 微服务应用体系构建
 lock: no
 ---
 
-# ChatGPT 微服务应用体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务
+# OpenAi(ChatGPT、ChatGLM) 微服务应用体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
