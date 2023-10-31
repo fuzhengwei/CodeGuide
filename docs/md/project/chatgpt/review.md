@@ -1,15 +1,17 @@
 ---
-title: OpenAi 项目复盘总结
+title: 复盘：OpenAi 项目复盘总结
 lock: no
 ---
 
-# OpenAi 项目复盘总结
+# 复盘：OpenAi 项目复盘总结 —— 小傅哥又一个Java项目力作！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>课程：[https://t.zsxq.com/133o5FKvc](https://t.zsxq.com/133o5FKvc)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=277778555&bvid=BV1tc411f7Am&cid=1316295147&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 大家好，我是技术UP主小傅哥。星球【[码农会锁](https://wx.zsxq.com/dweb2/index/group/48411118851818)】 OpenAi 可真实上线运行的项目，3个阶段全部完结交付💐🌶
 
