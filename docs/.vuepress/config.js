@@ -565,7 +565,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(10)",
+            title: "开发技术(11)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -575,6 +575,7 @@ function genBarGuide() {
                 "quartz.md",
                 "mysql.md",
                 "db-router.md",
+                "sharding-jdbc.md",
                 "connection-pool.md",
                 "zookeeper.md",
                 "redis.md",
