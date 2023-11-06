@@ -540,6 +540,14 @@ function genBarGuide() {
             ]
         },
         {
+            title: "工程脚手架(1)",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "ddd-archetype.md",
+            ]
+        },
+        {
             title: "系统架构(5)",
             collapsable: false,
             sidebarDepth: 0,
@@ -2007,6 +2015,7 @@ function getBarProjectChatGPT() {
                 "api/第7节：用户额度账户领域实现.md",
                 "api/第8节：商品下单对接微信支付.md",
                 "api/第9节：OpenAi多渠道策略模式.md",
+                "api/第10节：应用分布式设计.md",
             ]
         },
         {
