@@ -372,7 +372,7 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: 'OpenAi 微服务应用体系构建',
+                                        text: 'OpenAi 大模型应用服务体系构建',
                                         link: '/md/project/chatgpt/chatgpt.md'
                                     },
                                     {
