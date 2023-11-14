@@ -1734,7 +1734,7 @@ function getBarZSXQ() {
             sidebarDepth: 0,
             children: [
                 "source-code/develop-mybatis.md",
-                "source-code/develop-spring.md",
+                // "source-code/develop-spring.md",
             ]
         },
         {
@@ -1999,6 +1999,7 @@ function getBarProjectChatGPT() {
                 "dev-ops/第6节：前后端构建镜像部署.md",
                 "dev-ops/第7节：网站添加百度统计.md",
                 "dev-ops/第8节：应用监控.md",
+                "dev-ops/第9节：部署上线.md",
             ]
         },
         {

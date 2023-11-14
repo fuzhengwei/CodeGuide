@@ -69,7 +69,6 @@ lock: no
 
 #### 1.4 手撕源码
 
-- [手写Spring：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-spring.html)
 - [手写Mybatis：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-mybatis.html)
 
 ### 2. 问题解答
