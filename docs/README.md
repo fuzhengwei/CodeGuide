@@ -11,6 +11,9 @@ actionLinks:
 - link: /md/road-map/road-map.md
   text: 路书 👣
   class: secondary   
+- link: https://gaga.plus
+  text: 项目 💐
+  class: secondary    
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。
@@ -25,11 +28,12 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 
 ## 更新计划
 
-1. [Java 简明教程 - `进行中👣`](https://bugstack.cn/md/road-map/road-map.html) - `将项目所需的知识点进行碎片化的拆解，形成一套整套以实战为目的地的Java简明教程，方便小白清晰准确的学习编程知识。`
-2. [ChatGPT 微服务应用体系构建 - `进行中👣`](https://bugstack.cn/md/project/chatgpt/chatgpt.html) - `应用级OpenAI实战项目，包括；前端、后端、运维等全体系技术学习。`
+1. [Java DDD 简明教程小册 - `进行中👣`](https://bugstack.cn/md/road-map/road-map.html) - `将项目所需的知识点进行碎片化的拆解，形成一套整套以实战为目的地的Java简明教程，方便小白清晰准确的学习编程知识。`
+2. [星球：码农会锁，新项目筹备](#)
 
 ## 大厂项目
 
+- [OpenAi 大模型应用体系构建](https://bugstack.cn/md/project/chatgpt/chatgpt.html) - `应用级OpenAI实战项目，包括；前端、后端、运维等全体系技术学习。`
 - [Lottery 抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)：以贯穿整个互联网所需的分布式技术栈，基于DDD领域驱动设计的四层架构与设计模式逻辑的实践项目，非常适合手里没有大项目的读者进行学习。
 - [API网关](https://bugstack.cn/md/assembly/api-gateway/2022-08-12-%E5%BC%80%E7%AF%87%EF%BC%9A%E5%A6%82%E6%9E%9C%E8%AE%A9%E6%88%91%E8%AE%BE%E8%AE%A1%E4%B8%80%E5%A5%97%EF%BC%8CTPS%E7%99%BE%E4%B8%87%E7%BA%A7API%E7%BD%91%E5%85%B3.html)：是互联网大厂必备的系统，承接着：打车、外卖、购物、支付等多场景的使用，更是大促期间千万级访问量的核心服务。
 - [SpringBoot 中间件设计和开发](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)：结合互联网所需解决的方案场景，开发 SpringBoot Starter，涵盖：技术框架、数据服务、数据组件、分布式技术、服务治理、字节码、IDEA插件七个方面，16种中间件的设计和开发。

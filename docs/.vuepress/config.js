@@ -536,7 +536,8 @@ function genBarGuide() {
             collapsable: false,
             sidebarDepth: 2,
             children: [
-                "road-map.md"
+                "road-map.md",
+                "introduce.md"
             ]
         },
         {
