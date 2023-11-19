@@ -372,6 +372,10 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
+                                        text: '大营销平台系统',
+                                        link: '/md/project/big-market/big-market.md'
+                                    },
+                                    {
                                         text: 'OpenAi 大模型应用服务体系构建',
                                         link: '/md/project/chatgpt/chatgpt.md'
                                     },
@@ -504,6 +508,7 @@ module.exports = {
                     "/md/project/lottery/": getBarProjectLottery(),
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
+                    "/md/project/big-market/": getBarBigMarket(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
                     "/md/road-map/": genBarGuide(),
@@ -2065,6 +2070,59 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.1.md",
                 "extra/ChatGPT-v1.2.md",
                 "extra/ChatGPT-v1.3.md",
+            ]
+        }
+    ]
+}
+
+function getBarBigMarket() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "big-market.md",
+            ]
+        },
+        {
+            title: "第1部分：需求文档",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
+        {
+            title: "第2部分：开发运维",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
+        {
+            title: "第3部分：营销服务",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
+        {
+            title: "第4部分：前端页面",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
+        {
+            title: "第5部分：后台管理",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
             ]
         }
     ]

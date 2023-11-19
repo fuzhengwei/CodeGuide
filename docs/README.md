@@ -28,8 +28,8 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-
 
 ## 更新计划
 
-1. [Java DDD 简明教程小册 - `进行中👣`](https://bugstack.cn/md/road-map/road-map.html) - `将项目所需的知识点进行碎片化的拆解，形成一套整套以实战为目的地的Java简明教程，方便小白清晰准确的学习编程知识。`
-2. [星球：码农会锁，新项目筹备](#)
+1. [星球：码农会锁，新项目《大营销平台系统》](https://bugstack.cn/md/project/big-market/big-market.html) - 小傅哥第8个项目，前后端 + Dev-Ops 的全栈式综合编程实战DDD项目！
+2. [Java DDD 简明教程小册 - `进行中👣`](https://bugstack.cn/md/road-map/road-map.html) - `将项目所需的知识点进行碎片化的拆解，形成一套整套以实战为目的地的Java简明教程，方便小白清晰准确的学习编程知识。`
 
 ## 大厂项目
 
