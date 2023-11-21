@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=963745947&bvid=BV1vH4y1278m&cid=1339015735&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 💐又到了启动新项目的时候，死鬼开心嘛。小傅哥的**星球：码农会锁**，第8个应用级实战项目开启啦！—— 在这之前小傅哥已经完结了7个实战项目，可进入 [https://gaga.plus](https://gaga.plus) 嘎嘎强平台，体验项目。
@@ -121,10 +123,7 @@ lock: no
 
 如果大家希望通过做有价值的编程项目，提高自己的编程思维和编码能力，可以加入小傅哥的【星球：码农会锁】。加入后解锁🔓所有往期项目，还可以学习后续新开发的项目。
 
->这样一套项目，放在一些平台售卖，至少都是几百块。但小傅哥的星球，只需要100多，就可以获得几千元的学习项目！
-
-- 福利1：今天加入的伙伴，前20名都送 4.0 OpenAi 的 100万 Tokens，打开链接 [openai.itedus.cn](https://openai.itedus.cn) - 在左下角设置里绑定即可使用。当天加入后，在星球置顶消息添加小傅哥微信，备注你的星球编号。
-- 福利2：加入星球后，对此文章进行留言的伙伴，点赞最高前3名用户，每人送一本 **《手写MyBatis：渐进式源码实践》** 图书。
+>这样一套项目，放在一些平台售卖，一个至少都是几百块。但小傅哥的星球，只需要100多，就可以获得全部的学习项目！
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
