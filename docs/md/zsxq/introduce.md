@@ -49,7 +49,9 @@ lock: no
 
 #### 1.1 业务项目
 
-- [ChatGPT 微服务应用体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务](https://bugstack.cn/md/zsxq/project/chatgpt.html) - 👣 进行中
+
+- [大营销平台系统设计实现](https://bugstack.cn/md/project/big-market/big-market.html) - 进行中👣
+- [OpenAi 大模型应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
 - [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
 - [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
 - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
