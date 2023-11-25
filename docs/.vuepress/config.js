@@ -2023,6 +2023,7 @@ function getBarProjectChatGPT() {
                 "api/第8节：商品下单对接微信支付.md",
                 "api/第9节：OpenAi多渠道策略模式.md",
                 "api/第10节：应用分布式设计.md",
+                "api/第11节：dall-e文生图.md",
             ]
         },
         {
