@@ -616,11 +616,12 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控(1)",
+            title: "质量监控(2)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
-                "skywalking.md"
+                "skywalking.md",
+                "grafana.md",
             ]
         },
         {
@@ -2088,7 +2089,7 @@ function getBarBigMarket() {
         },
         {
             title: "第1部分：需求文档",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "prd/第1节：营销场景的需求设计.md",
