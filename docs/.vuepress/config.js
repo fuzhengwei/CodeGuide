@@ -579,13 +579,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(11)",
+            title: "开发技术(12)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "mybatis.md",
                 "dubbo.md",
                 "rocketmq.md",
+                "rabbitmq.md",
                 "quartz.md",
                 "mysql.md",
                 "db-router.md",
