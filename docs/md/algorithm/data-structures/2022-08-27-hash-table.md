@@ -63,7 +63,7 @@ lock: need
 
 ### 1. 哈希碰撞
 
-**说明**：通过模拟简单 HashMap 实现，去掉拉链寻址等设计，验证元素哈新索引位置碰撞。
+**说明**：通过模拟简单 HashMap 实现，去掉拉链寻址等设计，验证元素哈希索引位置碰撞。
 
 ```java
 public class HashMap01<K, V> implements Map<K, V> {
