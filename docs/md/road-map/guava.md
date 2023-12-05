@@ -14,7 +14,7 @@ lock: need
 
 本文涉及的工程：
 
-- xfg-dev-tech-guava：[[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-fastjson](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-guava)](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-guava)
+- xfg-dev-tech-guava：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-guava](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-guava)
 - Github Guava：[https://github.com/google/guava/wiki](https://github.com/google/guava/wiki)
 
 ## 一、组件介绍
