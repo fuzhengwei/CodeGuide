@@ -598,13 +598,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "常用类库(3)",
+            title: "常用类库(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "fastjson.md",
                 "guava.md",
                 "http.md",
+                "ratelimiter.md",
             ]
         },
         {
