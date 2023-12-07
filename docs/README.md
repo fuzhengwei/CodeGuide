@@ -21,7 +21,7 @@ features:
   details: 八表流云澄夜色，九霄华月动春城。
 - title: 成长
   details: 心怀天下，声色犬码。生有热烈，藏与俗常。
-footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号-1</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11030102010881" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://bugstack.cn/assets/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin-top:5px; color:#939393;">京公网安备 11030102010881号</p></a> | GPL Licensed | Copyright © 2019 小傅哥，All rights reserved. 
+footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号</a> | <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11030102010881" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="https://bugstack.cn/assets/images/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin-top:5px; color:#939393;">京公网安备 11030102010881号</p></a> | GPL Licensed | Copyright © 2019 小傅哥，All rights reserved. 
 ---
 
 ---
