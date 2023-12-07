@@ -86,8 +86,8 @@ lock: no
 
 ---
 
-好啦，想加入学习的伙伴，记得早些下手。因为每增加一个新项目，星球会提价20元。此项目在5.1正式启动后，会对星球提价20元。**所以现在加入是最爽的！**
+好啦，想加入学习的伙伴，记得早些下手。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/zsxq/coupon.png?raw=true" width="400px">
+    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="400px">
 </div>
