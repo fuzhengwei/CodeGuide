@@ -98,7 +98,7 @@ public void aopPoint() {
 
 - 自定义切面注解，提供了拦截的key、限制频次、黑名单处理、拦截后的回调方法。再通过 @Pointcut 切入配置了自定义注解的接口方法
 
-### 2.2 切面拦截
+#### 2.2 切面拦截
 
 ```java
 // 个人限频记录1分钟
@@ -171,9 +171,9 @@ private Object fallbackMethodResult(JoinPoint jp, String fallbackMethod) throws 
 
 - 最终如果判定为拦截，则会走用户配置的回调方法。如 login 配置一个 loginErr，出入参都一样，只是名字不一样。这样才方便反射调用。
 
-### 四、测试验证
+## 四、测试验证
 
-#### 1. 接口配置
+### 1. 接口配置
 
 ```java
 @AccessInterceptor(key = "fingerprint", fallbackMethod = "loginErr", permitsPerSecond = 1.0d, blacklistCount = 10)
@@ -194,7 +194,7 @@ public String loginErr(String fingerprint, String uId, String token) {
 - permitsPerSecond：每秒的访问频次限制。1秒1次
 - blacklistCount：超过10次都被限制了，还访问的，扔到黑名单里24小时
 
-#### 2. 测试验证
+### 2. 测试验证
 
 访问：[http://localhost:8091/api/ratelimiter/login?fingerprint=uljpplllll01009&uId=1000&token=8790](http://localhost:8091/api/ratelimiter/login?fingerprint=uljpplllll01009&uId=1000&token=8790)
 
