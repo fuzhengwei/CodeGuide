@@ -2114,6 +2114,7 @@ function getBarBigMarket() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
+                "api/第1节：抽奖策略领域和库表设计.md",
                 "none.md",
             ]
         },
