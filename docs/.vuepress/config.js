@@ -2102,7 +2102,7 @@ function getBarBigMarket() {
         },
         {
             title: "第2部分：开发运维",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "dev-ops/第1节：使用脚手架创建工程.md",
@@ -2111,7 +2111,7 @@ function getBarBigMarket() {
         },
         {
             title: "第3部分：营销服务",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "api/第1节：抽奖策略领域和库表设计.md",
