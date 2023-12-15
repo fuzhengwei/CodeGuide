@@ -438,7 +438,7 @@ public class FieldEncryptionAndDecryptionMybatisPlugin implements Interceptor {
 ```
 
 <div align="center">
-    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-mybatis-05.png?raw=true" width="850px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-mybatis-06.png?raw=true" width="850px">
 </div>
 
 - 首先通过注解配置，拦截指定范围内的信息 `Intercepts` 之后在 intercept 接口实现方法中，获取 MappedStatement 这个 MyBatis的映射核心类。[**《手写MyBatis：渐进式源码实践》**](https://item.jd.com/13811216.html)  - 跟小傅哥学MyBatis，从零手写源码级复杂项目，提升架构思维与设计逻辑，锻炼编码能力！
