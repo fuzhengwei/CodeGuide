@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=919588155&bvid=BV1iu4y1G7VQ&cid=1361583047&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，使用 Prometheus + Grafana 部署监控，同时结合监控了解到为什么需要使用 Hystrix 对接口进行超时熔断处理。
 
 很多伙伴在面试的时候，都可能会被问到；你的应用接口响应时间多少，Tomcat 配置了多少连接数，如果接口超时了怎么办，会不会把服务拖垮。那会不会呢，其实会的，对于一些接口不稳定容易超时但又不熔断的接口，在用户大量请求的情况下，是很容易把Tomcat连接数打满，直至拖垮整个服务，让服务的任何接口都没有响应。所以本节小傅哥会带着大家，来模拟这样的场景，让大家学习下。
