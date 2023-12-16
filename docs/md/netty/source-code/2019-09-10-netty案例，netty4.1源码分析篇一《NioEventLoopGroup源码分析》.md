@@ -42,10 +42,11 @@ private void bing(int port) {
 ```
 
 ## 类结构树
+
 NioEventLoopGroup 通过实现Java的并发编程包的方法，来实现自己的相关功能。
-![NioEventLoopGroup类结构树](https://fuzhengwei.github.io/assets/images/pic-content/2019/08/NioEventLoopGroup类结构树.png)
 
 ## EventExecutorGroup
+
 EventExecutorGroup 使用next()方法负责提供EventExecutor。除此之外，它还负责处理生命周期，并且可以以一种全局的方式进行关闭。
 
 >EventExecutorGroup.java
