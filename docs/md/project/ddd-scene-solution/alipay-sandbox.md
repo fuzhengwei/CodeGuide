@@ -547,13 +547,13 @@ public String payNotify(HttpServletRequest request) {
 </div>
 
 <div align="center">
-    <img src="images/alipay-sandbox-22.png?raw=true" width="650px">
+    <img src="https://bugstack.cn/images/article/project/ddd-scene-solution/alipay-sandbox-22.png?raw=true" width="650px">
 </div>
 
 #### 2.5 库表数据
 
 <div align="center">
-    <img src="images/alipay-sandbox-23.png?raw=true" width="650px">
+    <img src="https://bugstack.cn/images/article/project/ddd-scene-solution/alipay-sandbox-23.png?raw=true" width="650px">
 </div>
 
 ### 3. 日志
