@@ -224,4 +224,4 @@ public class Application {
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-elk-08.png?raw=true" width="850px">
 </div>
 
-- 当你不段的访问接口，就可以看到上报的日志数据信息了。
+- 当你不断的访问接口，就可以看到上报的日志数据信息了。

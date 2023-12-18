@@ -405,6 +405,14 @@ module.exports = {
                                     },
                                 ]
                             },
+                            {
+                                text: '其他类型', items: [
+                                    {
+                                        text: '小场景训练营',
+                                        link: '/md/project/ddd-scene-solution/alipay-sandbox.md'
+                                    },
+                                ]
+                            },
                         ]
                     },
                     {
@@ -464,7 +472,10 @@ module.exports = {
                         text: '关于',
                         items: [
                             {text: '关于自己', link: '/md/about/me/about-me.md'},
-                            {text: '关于学习', link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'},
+                            {
+                                text: '关于学习',
+                                link: '/md/about/study/2020-04-30-讲道理，只要你是一个爱折腾的程序员，毕业找工作真的不需要再花钱培训.md'
+                            },
                             {text: '关于职场', link: '/md/about/job/2020-04-11-工作两年简历写成这样，谁要你呀！.md'}
                         ]
                     },
@@ -509,6 +520,7 @@ module.exports = {
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
                     "/md/project/big-market/": getBarBigMarket(),
+                    "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
                     "/md/road-map/": genBarGuide(),
@@ -752,7 +764,7 @@ function genAlgorithmLogic() {
 }
 
 // algorithm/model
-function genAlgorithmModel(){
+function genAlgorithmModel() {
     return [
         {
             title: "机器学习",
@@ -2136,6 +2148,19 @@ function getBarBigMarket() {
                 "none.md",
             ]
         }
+    ]
+}
+
+function getBarDDDSceneSolution() {
+    return [
+        {
+            title: "课程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "alipay-sandbox.md",
+            ]
+        },
     ]
 }
 
