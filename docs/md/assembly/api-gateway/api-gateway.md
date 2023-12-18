@@ -85,7 +85,7 @@ API网关除了基础的功能模块以外，还需要重点考虑负载均衡�
 ### 1. 加入学习
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-0-05.png?raw=true" width="350px">
+    <img src=" https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
 </div>
 
 - **加入**：微信扫码加入即可，加入后点击阅读原文直达`API网关项目学习`。或进入链接：[https://t.zsxq.com/0ciYdgP5u](https://t.zsxq.com/0ciYdgP5u)
