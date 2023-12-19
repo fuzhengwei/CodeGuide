@@ -1,5 +1,5 @@
 ---
-title: 【小场景训练营】商品下单支付场景，DDD设计实现「支付宝沙箱」
+title: AliPay 商品下单支付场景
 lock: need
 ---
 
@@ -9,6 +9,8 @@ lock: need
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=922461679&bvid=BV1ku4y1M7E1&cid=1372506705&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 哈喽，大家伙我是技术UP主小傅哥。
 
