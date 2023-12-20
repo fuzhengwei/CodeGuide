@@ -1830,6 +1830,7 @@ function getBarProduct() {
             sidebarDepth: 0,
             children: [
                 "idea-plugin/vo2dto.md",
+                "idea-plugin/vo2dto-v2.5.1.md",
             ]
         },
     ]

@@ -1,5 +1,5 @@
 ---
-title: IDEA Plugin vo2dto
+title: IDEA Plugin vo2dto v2.4.8
 lock: no
 ---
 
