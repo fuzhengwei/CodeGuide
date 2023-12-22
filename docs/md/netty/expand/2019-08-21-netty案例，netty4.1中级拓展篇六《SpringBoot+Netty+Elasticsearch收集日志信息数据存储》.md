@@ -21,8 +21,8 @@ lock: need
 1. jdk1.8【jdk1.7以下只能部分支持netty】
 2. Netty4.1.36.Final【netty3.x 4.x 5每次的变化较大，接口类名也随着变化】
 3. elasticsearch6.2.2
-   1. [windows环境下安装elasticsearch6.2.2](https://bugstack.cn/?p=149 )
-   2. [elasticsearch-head插件安装](https://bugstack.cn/?p=148)
+   1. [windows环境下安装elasticsearch6.2.2](https://bugstack.cn/md/devops/2019-08-12-windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E5%AE%89%E8%A3%85elasticsearch6.2.2.html )
+   2. [elasticsearch-head插件安装](https://bugstack.cn/md/devops/2019-08-13-elasticsearch-head%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85.html)
 
 ## 代码示例
 ```java
