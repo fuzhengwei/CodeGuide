@@ -2130,6 +2130,7 @@ function getBarBigMarket() {
             children: [
                 "api/第1节：抽奖策略领域和库表设计.md",
                 "api/第2节：基础层持久化数据.md",
+                "api/第3节：策略概率装配处理.md",
                 "none.md",
             ]
         },
