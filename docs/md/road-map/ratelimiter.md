@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=919588155&bvid=BV1iu4y1G7VQ&cid=1361583047&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过对实际场景的案例进行抽复现，教会读者如何对应用的接口以`浏览器指纹ID`为维度的限流操作，同时对于频繁限流拦截的ID加入黑名单，不需要限流计算就🈲禁止对应用接口访问。通过这样的方式来保护应用的可用性。
 
 本文涉及的工程：

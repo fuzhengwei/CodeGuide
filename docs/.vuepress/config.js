@@ -1792,6 +1792,7 @@ function getBarZSXQ() {
             sidebarDepth: 0,
             children: [
                 "memorabilia/seven-thousand.md",
+                "memorabilia/ten-thousand.md",
                 "memorabilia/overall.md",
                 "memorabilia/biographical-notes.md",
                 "memorabilia/interview-zijie.md",
@@ -2131,6 +2132,7 @@ function getBarBigMarket() {
                 "api/第1节：抽奖策略领域和库表设计.md",
                 "api/第2节：基础层持久化数据.md",
                 "api/第3节：策略概率装配处理.md",
+                "api/第4节：策略权重概率装配.md",
                 "none.md",
             ]
         },
