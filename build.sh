@@ -1,1 +1,1 @@
-NODE_OPTIONS=--max-old-space-size=4096 npm run build
+NODE_OPTIONS=--max-old-space-size=14096 npm run build
