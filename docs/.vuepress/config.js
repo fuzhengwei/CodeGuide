@@ -2163,6 +2163,7 @@ function getBarDDDSceneSolution() {
             sidebarDepth: 0,
             children: [
                 "alipay-sandbox.md",
+                "openai-tldraw.md",
             ]
         },
     ]
