@@ -1,9 +1,9 @@
 ---
-title: 编写中
+title: 新章节，编写中
 lock: no
 ---
 
-# 编写中
+# 新章节，编写中
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -12,4 +12,4 @@ lock: no
 
 ## 一、前言
 
-... 编写中
+... 新章节，编写中
