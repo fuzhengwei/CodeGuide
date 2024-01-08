@@ -2165,6 +2165,7 @@ function getBarDDDSceneSolution() {
             children: [
                 "alipay-sandbox.md",
                 "openai-tldraw.md",
+                "sensitive-word-content-moderation.md",
             ]
         },
     ]
