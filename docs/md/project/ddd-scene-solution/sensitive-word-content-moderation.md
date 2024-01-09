@@ -3,12 +3,14 @@ title: 敏感词内容审核
 lock: need
 ---
 
-# 【小场景训练营】敏感词内容审核
+# 【小场景训练营】敏感词内容审核 —— 如果你的论坛被人乱留言怎么办？
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=580977065&bvid=BV1W64y1K7K4&cid=1399327344&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 哈喽，大家好我是技术UP主小傅哥。
 

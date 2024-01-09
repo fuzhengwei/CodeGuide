@@ -1821,7 +1821,6 @@ function getBarProduct() {
                 "pdf/2020-07-12-重学 Java 设计模式.md",
                 "pdf/2020-10-04-《Java面经手册》PDF数据结构篇， 肝完出炉了！来吧，这本书帮你拿最贵的offer！.md",
                 "pdf/2021-01-26-Java面经手册PDF下载.md",
-                "pdf/2021-08-12-《手撸 Spring》PDF，全书260页6.5万字，完稿&发版！.md",
                 "pdf/2022-01-23-IDEA Plugin 开发手册.md",
             ]
         },

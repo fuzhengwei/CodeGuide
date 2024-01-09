@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=238232794&bvid=BV1we411D776&cid=1391721608&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 哈喽，大家好我是技术UP主小傅哥。
 
 大部分前端程序员是不会写后端代码的，但大部分后端程序员都能写点前端代码。不过虽然能写，但也是照葫芦画瓢，修修改改的二把手刀选手。😂 小傅哥就是这样的二把刀前端，每次写前端都感觉像是屎上雕花，一点点扣哧 DIV、CSS 调整样式和数据。
