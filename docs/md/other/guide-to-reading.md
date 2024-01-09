@@ -25,8 +25,8 @@ title: 编码指南
 - 加入星球：[码农会锁](https://bugstack.cn/md/zsxq/introduce.html) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-06.png?raw=true" width="700px">
-    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目「DDD+RPC分布式抽奖系统」、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
+    <img src="https://bugstack.cn/images/system/zsxq/xingqiu-231018-01.png?raw=true" width="700px">
+    <div style="font-size: 12px;"><a href="https://t.zsxq.com/Ja27ujq">星球介绍：码农会锁 - 实战项目「大营销平台、OpenAi、Lottery、Api网关等」、专属小册、问题解答、简历指导、架构图稿、视频课程</a></div>
 </div>
 
 ## 一、本站知识阅览
@@ -37,7 +37,7 @@ title: 编码指南
 
 而这几大块内容也是每一个较贵的 Java 程序员应该掌握的内容，可以包括：
 
-- **Java&Spring**：以讲解Java、Spring核心知识为基础，用数学逻辑思维分析关于Java、Spring、Mybatis、Dubbo等核心源码技术内容。其中如[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)是一本以面试题为入口讲解 Java 核心内容的技术书籍，书中内容极力的向你证实代码是对数学逻辑的具体实现。包括正在编写的[《手撸 Spring》](https://github.com/fuzhengwei/small-spring)通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。这些都程序员学习技术成长过程中非常重要的知识，如果能深入学习那么对以后的个人成长帮助非常大。
+- **Java&Spring**：以讲解Java、Spring核心知识为基础，用数学逻辑思维分析关于Java、Spring、Mybatis、Dubbo等核心源码技术内容。其中如[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)是一本以面试题为入口讲解 Java 核心内容的技术书籍，书中内容极力的向你证实代码是对数学逻辑的具体实现。包括正在编写的[《手撸 Spring》](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。这些都程序员学习技术成长过程中非常重要的知识，如果能深入学习那么对以后的个人成长帮助非常大。
 - **算法逻辑和数据结构**：这部分内容主要以Java源码为入手，讲解其中的数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等，这也正是[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)的核心内容所在。
 - **面向对象**：[《Java 设计模式》](https://item.jd.com/13218336.html)的知识是在Java基础铺平，数据结构、算法逻辑有了一定的了解后，在深入学习和使用的技术。同样是一个需求在学过设计模式后，也阅读了不少别人优秀的代码，那么在他实现需求的时候，会拆分出很多的接口和接口的继承、抽象类的职责隔离实现、具体业务模块的分层、功能服务组件的细化、具体实现过程中对设计模式的运用等等。这样的代码实现后会非常具有易扩展和可维护的特点，否则一篇的ifelse不是坑自己就是坑下一个人。
 - **中间件**：可能很大一部分研发并不会接触到中间件，也不太可能有人告诉你可以使用中间件的方式解决一些实际遇到的问题。因为大部分时候你都会认为中间件只是公司专门部门的人写的，或者是技术大牛搞的，总之与你没关系。但其实代码知识对数学逻辑的具体实现，业务开发有业务开发的方式，[《Spring 中间件和开发》](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)也只是对Spring的关于容器中一些特定接口和类的使用，具体的还是普通的逻辑代码，比如暴露服务、采集日志、监控系统等。但如果你能早些学到这样技术的核心思想，那么对于升值、加薪、跳槽，都是非常有帮助的。
@@ -56,6 +56,7 @@ title: 编码指南
 - 重学Java设计模式：[https://download.csdn.net/download/Yao__Shun__Yu/19265731](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
 - SpringBoot 中间件设计和开发：[https://juejin.cn/book/6940996508632219689](https://juejin.cn/book/6940996508632219689)
 - 🔥Lottery 抽奖系统 - DDD 分布式实践：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
+- [更多项目](https://gaga.plus)
 
 ## 三、算法
 
