@@ -29,6 +29,9 @@ lock: need
 如图，是微服务数据库使用的一种思想，我们希望路由层从最开始就被执行，用户分群动态扩展
 ![微信公众号：bugstack虫洞栈 & 微服务数据库路由](https://bugstack.cn/assets/images/pic-content/2019/10/ddd-03-1.png)
 
+- 本节案例代码：[https://github.com/fuzhengwei/itstack-demo-ddd](https://github.com/fuzhengwei/itstack-demo-ddd)
+- 新版DDD讲解：[架构的本质之 DDD 架构](https://bugstack.cn/md/road-map/ddd.html)
+
 ## 案例目标
 本案例通过使用SpringCloud将我们的服务架构扩展为通过路由调用的微服务
 1. 首先通过Eureka作为服务注册与发现中心

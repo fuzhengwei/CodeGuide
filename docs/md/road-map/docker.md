@@ -56,7 +56,7 @@ Nothing to
 ### 4. 设置Docker的yum的源
 
 ```java
-[root@CodeGuide ~]# sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+[root@CodeGuide ~]# sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 Adding repo from: https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
@@ -155,6 +155,12 @@ Docker Compose version v2.18.1
 ```
 
 - 设置开机启动 Docker
+
+```java
+sudo systemctl restart docker
+```
+
+- 重启 Docker 命令
 
 ### 9. 查看 Docker 版本
 
