@@ -2133,6 +2133,7 @@ function getBarBigMarket() {
                 "api/第3节：策略概率装配处理.md",
                 "api/第4节：策略权重概率装配.md",
                 "api/第5节：抽奖前置规则过滤.md",
+                "api/第6节：抽奖后置规则过滤.md",
                 "none.md",
             ]
         },
