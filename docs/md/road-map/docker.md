@@ -102,7 +102,7 @@ Available Packages
 ### 6. 安装Docker
 
 ```java
-[root@CodeGuide ~]# sudo yum install docker
+[root@CodeGuide ~]# sudo yum install docker-ce
 ```
 
 - 安装默认最新版本的 Docker
