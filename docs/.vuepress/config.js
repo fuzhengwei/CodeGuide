@@ -2136,6 +2136,7 @@ function getBarBigMarket() {
                 "api/第4节：策略权重概率装配.md",
                 "api/第5节：抽奖前置规则过滤.md",
                 "api/第6节：抽奖后置规则过滤.md",
+                "api/第7节：责任链模式处理抽奖规则.md",
                 "none.md",
             ]
         },
