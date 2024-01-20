@@ -173,6 +173,8 @@ https://gitcode.net/KnowledgePlanet/ddd-scene-solution/xfg-dev-tech-content-mode
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-jenkins-10.png?raw=true" width="550px">
 </div>
 
+- 在高级中设置 Maven 配置的路径 `/usr/local/maven/conf/settings.xml`。这样才能走自己配置的阿里云镜像仓库。
+
 ```shell
 clean install -Dmaven.test.skip=true
 ```
