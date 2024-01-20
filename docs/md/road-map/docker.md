@@ -17,8 +17,11 @@ lock: need
 
 ### 1. 查看系统的内核版本
 
+```shell
+uname -r
+```
+
 ```java
-[root@CodeGuide ~]# uname -r
 4.18.0-80.11.2.el8_0.x86_64
 ```
 
@@ -27,8 +30,11 @@ lock: need
 
 ### 2. yum 更新到最新版本
 
+```shell
+sudo yum update
+```
+
 ```java
-[root@CodeGuide ~]# sudo yum update
 Last metadata expiration check: 1:15:10 ago on Sat 27 Nov 2021 04:22:53 PM CST.
 Dependencies resolved.
 Nothing to do.
@@ -55,8 +61,11 @@ Nothing to
 
 ### 4. 设置Docker的yum的源
 
+```shell
+sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
+```
+
 ```java
-[root@CodeGuide ~]# sudo yum-config-manager --add-repo https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 Adding repo from: https://download.docker.com/linux/centos/docker-ce.repo
 ```
 
@@ -69,7 +78,6 @@ sudo yum-config-manager \
     https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 sudo sed -i 's/download.docker.com/mirrors.aliyun.com\/docker-ce/g' /etc/yum.repos.d/docker-ce.repo
 ```
-
 
 ### 5. 查看仓库所有Docker版本
 
@@ -117,17 +125,22 @@ Available Packages
 
 #### 7.1 正常安装
 
-**curl** - 官网地址
+**官网地址**
 
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-**wget** - 镜像地址
+**镜像地址**
 
 ```shell
+# 默认路径
 wget https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-compose-linux-x86_64
+# 指定路径【推荐】
+sudo curl -L https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
+# 设置权限
+sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 #### 7.2 离线安装
@@ -135,7 +148,7 @@ wget https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-c
 ```shell
 # 下载；docker-compose-`uname -s`-`uname -m` 查看版本；https://github.com/docker/compose/releases/tag/v2.18.1
 # 重命名
-mv docker-compose-Linux-x86_64  docker-compose
+mv docker-compose-linux-x86_64 docker-compose
 # 加入执行权限
 sudo chmod +x /usr/local/bin/docker-compose
 # 查看docker-compose版本
@@ -143,8 +156,8 @@ docker-compose -v
 ```
 
 ```java
-[root@dev-ops bin]# sudo chmod +x /usr/local/bin/docker-compose
-[root@dev-ops bin]# docker-compose -v
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose -v
 Docker Compose version v2.18.1
 ```
 
