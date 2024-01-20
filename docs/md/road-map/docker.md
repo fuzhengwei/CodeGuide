@@ -117,9 +117,17 @@ Available Packages
 
 #### 7.1 正常安装
 
+**curl** - 官网地址
+
 ```shell
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+```
+
+**wget** - 镜像地址
+
+```shell
+wget https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-compose-linux-x86_64
 ```
 
 #### 7.2 离线安装
