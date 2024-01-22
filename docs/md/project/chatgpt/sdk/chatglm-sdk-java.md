@@ -1,5 +1,5 @@
 ---
-title: 第1节：ChatGLM SDK - 智谱Ai
+title: 第1节：ChatGLM SDK - 智谱Ai v1
 lock: no
 ---
 

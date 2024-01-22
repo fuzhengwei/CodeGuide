@@ -2063,6 +2063,7 @@ function getBarProjectChatGPT() {
             sidebarDepth: 0,
             children: [
                 "sdk/chatglm-sdk-java.md",
+                "sdk/chatglm-sdk-java-v2.md",
             ]
         },
         {

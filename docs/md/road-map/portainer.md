@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=924100393&bvid=BV1ET4y1b7Ez&cid=1413251533&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 - 官网：[https://www.portainer.io/](https://www.portainer.io/)
 - 介绍：在任何数据中心、云、网络边缘或 IIOT 设备的 Kubernetes、Docker、Swarm 和 Nomad 上，在几分钟内部署、配置、故障排除和保护容器。 
 
