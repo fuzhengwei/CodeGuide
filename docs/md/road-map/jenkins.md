@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=879248890&bvid=BV1AN4y1J7R3&cid=1416090219&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，如何在 Docker 中部署 Jenkins，并通过 Jenkins 完成对项目的打包构建并在 Docker 容器中部署。
 
 Jenkins 的主要作用是帮助你，把需要在本地机器完成的 Maven 构建、Docker 镜像发布、云服务器部署等系列动作全部集成在一个服务下。简化你的构建部署操作过程，因为 Jenkins 也被称为 CI&CD(持续集成&持续部署) 工具。提供超过 1000 个插件(Maven、Git、NodeJs)来支持构建、部署、自动化， 满足任何项目的需要。

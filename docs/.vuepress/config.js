@@ -640,13 +640,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(3)",
+            title: "发布部署(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "docker.md",
                 "portainer.md",
                 "jenkins.md",
+                "buddy.md",
             ]
         }
     ]
