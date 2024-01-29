@@ -487,6 +487,7 @@ module.exports = {
                         text: '源码',
                         items: [
                             {text: '开源项目 - Github', link: 'https://github.com/fuzhengwei'},
+                            {text: '开源项目 - Gitcode', link: 'https://gitcode.net/fuzhengwei'},
                             {text: '付费项目 - Gitcode', link: 'https://gitcode.net/KnowledgePlanet'},
                         ]
                     }
@@ -2293,6 +2294,7 @@ function genBarAbout() {
                 "me/2023-04-16-这是我异动的第一周，为啥离开原部门？.md",
                 "me/2023-05-07-51假期代码旅游.md",
                 "me/2024-01-09-从T4到T8，4年时间，4次晋升。技术提升最快的那几年，我做了什么？.md",
+                "me/2024-01-28-大厂架构师小傅哥，上学时都做过哪些项目？.md",
             ]
         },
         {
