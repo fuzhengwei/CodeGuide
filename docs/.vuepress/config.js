@@ -1161,6 +1161,7 @@ function genBarDevOPS() {
                 "2021-11-07-关于怎么使用 webhooks 自动部署博客，详细教程文档！.md",
                 "2022-03-04-教小白使用 docsify，搭建一个贼简单的所见即所得博客！.md",
                 "2023-03-25-免费部署部署ChatGPT.md",
+                "2024-01-30-vuepress-resume-blog.md",
             ]
         }
     ]
