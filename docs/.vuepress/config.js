@@ -2142,6 +2142,7 @@ function getBarBigMarket() {
                 "api/第6节：抽奖后置规则过滤.md",
                 "api/第7节：责任链模式处理抽奖规则.md",
                 "api/第8节：抽奖规则树模型结构设计.md",
+                "api/第9节：模板模式串联抽奖规则.md",
                 "none.md",
             ]
         },
