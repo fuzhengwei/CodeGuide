@@ -152,9 +152,7 @@ lock: no
 - 福利1：所有今天加入的伙伴，前50名都送 4.0 的 `50万Tokens`，打开链接 [openai.itedus.cn](https://openai.itedus.cn/) - 在左下角设置里绑定即可使用。当天加入后，在星球置顶消息添加小傅哥微信，备注你的星球编号。
 - 福利2：对此文章进行留言的伙伴，点赞最高前5名用户，每人送 4.0 的 `50万Tokens` 统计时间：9月6日 7:55 ~ 9月8日 7:55 
 
-<div align="center">
-	<img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px"/>
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 已经有很多伙伴开始学起来了，还有大家交的作业笔记。有了的项目驱动学习，清晰的目标感，大家冲起来也有了更明确的方向！干干干！！！
 

@@ -84,11 +84,9 @@ API网关除了基础的功能模块以外，还需要重点考虑负载均衡�
 
 ### 1. 加入学习
 
-<div align="center">
-    <img src=" https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
-- **加入**：微信扫码加入即可，加入后点击阅读原文直达`API网关项目学习`。或进入链接：[https://t.zsxq.com/0ciYdgP5u](https://t.zsxq.com/0ciYdgP5u)
+- **加入**：加入后点击阅读原文直达`API网关项目学习`。或进入链接：[https://t.zsxq.com/0ciYdgP5u](https://t.zsxq.com/0ciYdgP5u)
 - **说明**：加入小傅哥的知识星球【`码农会锁`】，得到的不只是一个API网关项目，还有`Lottery - 分布式抽奖系统`、`IM - 仿微信项目`、`手撕源码`、`技术小册`等内容。
 - **价值**：星球内的服务和实战项目都是小傅哥本人提供和原创，相信能够给大家带来超过该价格的价值 。举个例子，手把手带大家做进大厂才可能看得见的项目、有笔记有源码、有问题可以提，这比单独买一个课程或一套源码要值得多。其实都不到大城市一节补习班的钱，哪怕把我的课程时长换算成培训机构的课时，也是便宜的超级多。
 

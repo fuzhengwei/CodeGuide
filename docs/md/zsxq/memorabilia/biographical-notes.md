@@ -32,10 +32,7 @@ lock: need
 
 **注意**：`高质量的简历模板` + `有深度的技术项目` + `编写后的评审指导` = 一条龙服务🐲，**加入星球马上就能获取到**。为你的应聘加把劲，这一丢丢投资可能就换来一个 Offer 和不错薪资！
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-    <div style="font-size: 12px;"><a href="https://t.zsxq.com/10FbNYBur">公众号【bugstack虫洞栈】回复【星球】可以获取加入优惠券，4个业务项目、3个组件项目、7个开源项目、4个技术小册、55个架构方案，这些都是为你准备的！要业务有业务，要轮子有轮子，而且不写CRUD，所有场景都有深度！</a></div>
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 ### 1. 校招生
 

@@ -98,11 +98,7 @@ lock: no
 
 如果大家希望通过做有价值的编程项目，提高自己的编程思维和编码能力，可以加入小傅哥的【星球：码农会锁】。加入后解锁🔓所有往期项目，还可以学习后续新开发的项目。
 
->这样一套项目，放在一些平台售卖，一个至少都是几百块。但小傅哥的星球，只需要100多，就可以获得全部的学习项目！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html) 这样一套项目，放在一些平台售卖，一个至少都是几百块。但小傅哥的星球，只需要100多，就可以获得全部的学习项目！
 
 **加入星球**：下载`星球APP`，从星球【课程入口】进入。里面有完整的学习指引，包括；使用说明、代码仓库、专属项目群、学习路线、往期项目。本项目地址：[https://t.zsxq.com/14EPV92wK](https://t.zsxq.com/14EPV92wK)
 

@@ -158,9 +158,7 @@ lock: need
 
 >这样一套全体系的实战项目，放在一些平台售卖，至少都是几百块。但小傅哥的星球，只需要100来块钱，就可以获得几千元的学习项目！
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 小傅哥的【星球：码农会锁】，是一条龙🐲成体系的学习，因为这些内容都是小傅哥原创编写，所以学习起来的衔接性会非常强，有紧有收、循序渐进！欢迎加入，可别错过！
 

@@ -156,9 +156,7 @@ Lottery 系统的全方面技术栈的使用，多场景的问题的解决方案
 
 >这样一套项目，放在一些平台售卖，至少都是几百块。但小傅哥的星球，只需要100多，就可以获得总价几千元的学习项目和技术服务！
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="300px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 【星球：码农会锁】里的伙伴日常学习的都是非常真实实战的技术，因为有小傅哥给大家源源不断的输入来自大厂的架构设计思想和问题解决方案。所以，这些伙伴会有着非常快的技术成长和话术解答能力。
 

@@ -236,8 +236,6 @@ server {
 
 **加入学习 https://gaga.plus**
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 **注意📢**，加入星球后你可以申请加入星球VIP群，获得高质量技术交流。此外星球的所有内容，都从星球的**课程入口**进入，里面做了非常细致的归档。

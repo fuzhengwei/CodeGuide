@@ -589,10 +589,6 @@ public String payNotify(HttpServletRequest request) {
 
 如果大家希望通过做有价值的编程项目，提高自己的编程思维和编码能力，可以加入小傅哥的【星球：码农会锁】。加入后解锁🔓所有往期项目，还可以学习后续新开发的项目。
 
-> 这样一套项目，放在一些平台售卖，至少上千元。但小傅哥的星球，只需要100多，就可以获得全部学习项目！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 加入后即可解锁全部学习资源，项目演示地址：[https://gaga.plus](https://gaga.plus)

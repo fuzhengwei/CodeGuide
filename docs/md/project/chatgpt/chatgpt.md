@@ -88,6 +88,4 @@ lock: no
 
 好啦，想加入学习的伙伴，记得早些下手。
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="400px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)

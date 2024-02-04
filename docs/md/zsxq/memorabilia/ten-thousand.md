@@ -140,12 +140,7 @@ lock: no
 
 星球现在的价格为~~159~~元(-20)一年，老用户第二年续费是价格为5折。首次加入即可获🉐星球所有的项目和学习资料，第二年的续费只相当于续费新项目和我的服务。嘎嘎实惠！**可以说，你买小傅哥10年，都不到1000元！但却可以获得他全部的在大厂的积累的各种能力！**
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="300px">
-    <br/>
-    <div style="font-size: 12px;">加入星球后从【课程入口】进入即可看见课程归档</div>
-    <br/>
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 伙伴说：“加入小傅哥是这一年最正确的✅的决定！” 因为我让我很多伙伴提升了技术、卷到了Offer、晋升了职级，获得了更多的收入！
 

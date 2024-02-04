@@ -180,9 +180,7 @@ lock: need
 - 脚手架(轻量版)：[https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-lite](https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-lite)
 - 脚手架(标准版)：[https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-std](https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-std)
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="300px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 在星球的实战项目中，都是以这样的企业级标准进行架构设计和落地，学习这样的项目就是学习公司的项目。—— 不做 CRUD 小项目，要做真的深度积累！
 

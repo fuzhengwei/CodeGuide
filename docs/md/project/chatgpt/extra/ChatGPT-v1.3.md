@@ -131,9 +131,7 @@ lock: no
 
 如果大家希望通过做有价值的编程项目，提高自己的编程思维和编码能力，可以加入小傅哥的【星球：码农会锁】。加入后解锁🔓所有往期项目，还可以学习后续新开发的项目。
 
-<div align="center">
-	<img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px"/>
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 已经有很多伙伴开始学起来了，还有大家交的作业笔记。有了的项目驱动学习，清晰的目标感，大家冲起来也有了更明确的方向！干干干！！！
 

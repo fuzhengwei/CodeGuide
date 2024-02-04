@@ -94,9 +94,7 @@ lock: no
 
 而目前的价格也仅仅是几瓶扎啤钱！你的加入，就当我们为前程干一杯🍻！
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="400px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230723-04.png?raw=true" width="850px">

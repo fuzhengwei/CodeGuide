@@ -244,8 +244,6 @@ public class MapperProxyFactory {
     <img src="https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-230610-04.png?raw=true" width="850px">
 </div>
 
-<div align="center">
-    <img src="https://bugstack.cn/images/system/zsxq/coupon.png" width="850px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 **所以**，这么多成体系的项目，你加入小傅哥的知识星球，**相当于加入了一个小型的技术公司**。你需要的各类项目，这里都可以学习到的。`技术的`、`业务的`、`组件的`，`还包括运维实施的`，而每一个项目都是以企业级标准进行设计和实现，学习这样的项目才是真正的奔着能工作学习的！

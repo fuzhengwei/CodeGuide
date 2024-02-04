@@ -103,21 +103,21 @@
         </div>
       </div>
 
-      <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">
-        <img class="nozoom" src="/images/system/heart-1.png" width="25px" />
-        <span class="show-txt">赞赏我</span>
-        <div class="toc-container">
-            <div class="pos-box">
-              <div class="icon-arrow"></div>
-              <div class="scroll-box" style="text-align:center" >
-                <span style="font-size:0.8rem;font-weight:bold;">鼓励/支持/赞赏我</span>
-                <img height="180px" src="/images/personal/encourage-head.png" style="margin:5px;"/>
-                <br>1. 不靠它生存但仍希望得到你的鼓励；
-                <br>2. 时刻警醒自己保持技术人的初心，沉淀，分享，成长；
-              </div>
-            </div>
-        </div>
-      </div>
+<!--      <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">-->
+<!--        <img class="nozoom" src="/images/system/heart-1.png" width="25px" />-->
+<!--        <span class="show-txt">赞赏我</span>-->
+<!--        <div class="toc-container">-->
+<!--            <div class="pos-box">-->
+<!--              <div class="icon-arrow"></div>-->
+<!--              <div class="scroll-box" style="text-align:center" >-->
+<!--                <span style="font-size:0.8rem;font-weight:bold;">鼓励/支持/赞赏我</span>-->
+<!--                <img height="180px" src="/images/personal/encourage-head.png" style="margin:5px;"/>-->
+<!--                <br>1. 不靠它生存但仍希望得到你的鼓励；-->
+<!--                <br>2. 时刻警醒自己保持技术人的初心，沉淀，分享，成长；-->
+<!--              </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--      </div>-->
 
       <div class="option-box" v-if="prev" style="padding-left:2px;text-align:center;" v-bind:title="prev.title">
           <router-link v-if="prev" :to="prev.path" >

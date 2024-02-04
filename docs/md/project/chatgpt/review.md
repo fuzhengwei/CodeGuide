@@ -139,8 +139,4 @@ OpenAi 项目，是小傅哥【星球：[码农会锁](https://wx.zsxq.com/dweb2
 
 在有了 OpenAi 项目以后，这篇山河图中的项目，都将可以落地。哪怕我想做个拼多多的砍一刀，都可以！那么，在 OpenAi 项目完全收尾后，你觉得小傅哥会启动哪个项目？可以留言评论区哦！
 
->赶紧加入星球吧，能做到这样的技术项目实战社群，真的不多！你只是投入一顿大麻辣烫💰，就🉐获得超级大的回报！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html) 能做到这样的技术项目实战社群，真的不多！你只是投入一顿大麻辣烫💰，就🉐获得超级大的回报！

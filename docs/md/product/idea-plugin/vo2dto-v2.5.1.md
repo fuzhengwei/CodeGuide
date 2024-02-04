@@ -135,4 +135,4 @@ public class ApiTest {
 
 >赶紧加入星球，能做到这样的技术项目实战社群，真的不多！你只是投入一顿大麻辣烫💰，就🉐获得超级大的回报！
 
-<div align="center"><img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="300px"></div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)

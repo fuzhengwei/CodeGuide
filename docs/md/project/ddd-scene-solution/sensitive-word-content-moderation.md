@@ -426,11 +426,7 @@ public String rule(String content) {
 
 本节案例源码：[https://gitcode.net/KnowledgePlanet/ddd-scene-solution/xfg-dev-tech-content-moderation](https://gitcode.net/KnowledgePlanet/ddd-scene-solution/xfg-dev-tech-content-moderation)
 
-> 这样一套项目，放在一些平台售卖，至少上千元。但小傅哥的星球，只需要100多，就可以获得全部学习项目！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png?raw=true" width="350px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 ## 七、推荐阅读
 
