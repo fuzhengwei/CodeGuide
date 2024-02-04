@@ -64,12 +64,7 @@ lock: no
 
 小傅哥的星球是以开发应用级实战项目为目标，公司需要什么样的技术，什么样的项目，我们就做什么样的内容。而这些课程内容只要加入星球就可以全部都学习到。**💐小傅哥的星球付费价格，你相当于只是买了1个课程的钱，但却可以获得6个项目+6个技术小册！**
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230528-06.png?raw=true" width="600px">
-</div>
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230528-05.png?raw=true" width="800px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 **综上**，加入小傅哥的知识星球，这些内容都是你可以学习的。这些足够硬核的内容，可以帮助你更加平稳的度过往后的路，企业不会永远一帆风顺，但只要你手里技术硬，就会相对平稳。
 

@@ -70,27 +70,7 @@ excerpt: 本专栏是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql
 
 >专栏共有25篇文章，分别从UI、架构到功能实现逐步讲解，非常适合新人学习提升编码能力和架构思想。
 
-对于此项目，你可以单独购买，也可以加入小傅哥的知识星球，在星球中除了此项目，还会提供其他项目学习。
-
-### 1. 加入星球
-
-星球地址：[https://t.zsxq.com/Ja27ujq](https://t.zsxq.com/Ja27ujq)
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/about/about-220605-06.png?raw=true" width="750px">
-    <div style="font-size: 9px;">公众号【bugstack虫洞栈】 回复【星球】可获得优惠券</div>
-    <br/>
-</div>
-
-### 2. 单独购买
-
-学习链接：[IM 小册](https://blog.csdn.net/generalfu/category_10400631.html)
-
-<div align="center">
-    <img src="https://bugstack.cn/assets/images/2020/invite.jpg?raw=true" width="600px">
-    <div style="font-size: 9px;">公众号【bugstack虫洞栈】 回复【星球】可获得优惠券</div>
-    <br/>
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 ## 六、优秀作业
 

@@ -105,7 +105,7 @@
 
 <!--      <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">-->
 <!--        <img class="nozoom" src="/images/system/heart-1.png" width="25px" />-->
-<!--        <span class="show-txt">赞赏我</span>-->
+<!--        <span class="show-txt">项目</span>-->
 <!--        <div class="toc-container">-->
 <!--            <div class="pos-box">-->
 <!--              <div class="icon-arrow"></div>-->

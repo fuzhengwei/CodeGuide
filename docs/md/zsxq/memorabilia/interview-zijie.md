@@ -107,9 +107,7 @@ lock: no
 
 **以下这个技术圈子强烈建议加入**，因为你可以学习到来自10年编程经验的架构师所编写的各项浅浅深深不同梯度难度的项目，也可以见闻到几千人的技术交流和知识积累，还可以学习到国内高校、海外留学伙伴的学习方式方法。这远比你看过一本书、听过一句话，都实在的多！
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-230824-08.jpg?raw=true" width="450px">
-</div>
+>[🧧加入学习](https://bugstack.cn/md/zsxq/other/join.html)
 
 ---
 
