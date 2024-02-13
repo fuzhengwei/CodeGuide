@@ -2149,7 +2149,7 @@ function getBarBigMarket() {
         },
         {
             title: "第4部分：前端页面",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "web/第1节：React工程创建和抽奖组件使用.md",
