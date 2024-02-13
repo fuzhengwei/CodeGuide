@@ -2153,6 +2153,7 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "web/第1节：React工程创建和抽奖组件使用.md",
+                "web/第2节：Mock接口对接抽奖页面.md",
             ]
         },
         {
