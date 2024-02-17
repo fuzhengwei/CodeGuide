@@ -2126,7 +2126,7 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "dev-ops/第1节：使用脚手架创建工程.md",
-                "none.md",
+                "dev-ops/第2节：第一阶段完成抽奖部署.md",
             ]
         },
         {
