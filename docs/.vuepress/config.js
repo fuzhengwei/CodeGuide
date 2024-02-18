@@ -2117,7 +2117,6 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "prd/第1节：营销场景的需求设计.md",
-                "none.md",
             ]
         },
         {
@@ -2164,6 +2163,14 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "none.md",
+            ]
+        },
+        {
+            title: "番外 - 课程阶段产物",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "extra/big-market-v1.md",
             ]
         }
     ]
