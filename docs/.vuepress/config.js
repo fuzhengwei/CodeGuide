@@ -2108,7 +2108,7 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "big-market.md",
-                "extra/big-market-try-it-out.md",
+                "notes.md",
             ]
         },
         {
