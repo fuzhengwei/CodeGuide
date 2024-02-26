@@ -411,20 +411,8 @@ public class WeixinPortalController {
 - 访问接口：[http://xfg-studio.natapp1.cc/api/v1/login/check_login](http://xfg-studio.natapp1.cc/api/v1/login/check_login) - 你需要替换为你的地址。
 - 好，到这表明已经登录成功，并返回openid信息。自己的业务场景，可以返回一个 token 保存到浏览器。
 
-## 五、推荐阅读
-
-- [商品下单支付场景，DDD设计实现「支付宝沙箱」](#)
-- [敏感词内容审核 —— 如果你的论坛被人乱留言怎么办？](#)
-- [大营销平台系统，小傅哥第8个项目，前后端 + Dev-Ops 的全栈式综合编程实战DDD项目！](#)
-- [OpenAi 大模型应用服务体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务](#)
-
-## 六、加入学习
+## 五、加入学习
 
 **注意**，加入星球「码农会锁」即可学习小傅哥所有实战项目，星球类似于私有技术朋友圈，小傅哥是技术群主，为大家提供1v1的技术学习答疑。
 
->项目地址：https://gaga.plus - 进入查看星球8个实战项目，早点学习，冲击Offer！
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png" width="350px">
-    <div align="center">加入星球后从【课程入口】进入即可看见课程归档</div>
-</div>
+>🧧项目地址：https://gaga.plus - 进入查看星球8个实战项目，早点学习，冲击Offer！
