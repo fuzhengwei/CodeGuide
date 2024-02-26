@@ -2187,6 +2187,7 @@ function getBarDDDSceneSolution() {
                 "alipay-sandbox.md",
                 "openai-tldraw.md",
                 "sensitive-word-content-moderation.md",
+                "weixin-login.md",
             ]
         },
     ]
