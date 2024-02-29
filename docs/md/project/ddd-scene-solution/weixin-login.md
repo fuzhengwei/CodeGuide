@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=1901077704&bvid=BV1um411f7f8&cid=1454096803&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 作为一个技术码农，在使用社区、论坛或者各类AI服务的时，经常会看到这样一个提示：“使用微信公众号扫码登录”。那因为这种的登录方式除了登录，还可以让用户沉淀到公众号上，以后还能接收到公众号推广，可谓是一举两得。那它是怎么做的呢？🤔
