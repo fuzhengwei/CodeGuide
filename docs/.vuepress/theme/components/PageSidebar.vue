@@ -103,6 +103,21 @@
         </div>
       </div>
 
+      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://t.zsxq.com/17UIvdgb3','_blank')">
+          <img class="nozoom" src="/images/system/interview.png" width="25px" />
+          <span class="show-txt">八股文</span>
+<!--          <div class="toc-container">-->
+<!--              <div class="pos-box">-->
+<!--                  <div class="icon-arrow"></div>-->
+<!--                  <div class="scroll-box" style="text-align:center" >-->
+<!--                      <span style="font-size:0.8rem;font-weight:bold;">实战项目<span style="font-size:8px;color:red;">「DDD+RPC分布式抽奖系统」</span>、专属小册、问题解答、简历指导、架构图稿、视频课程</span>-->
+<!--                      <img height="180px" src="/images/personal/xingqiu.png" style="margin:10px;"/>-->
+<!--                      <b>知识星球</b>：码农会锁-->
+<!--                  </div>-->
+<!--              </div>-->
+<!--          </div>-->
+      </div>
+
 <!--      <div class="option-box" v-on:mouseover="showToc($event)" v-on:mouseout="hideToc($event)">-->
 <!--        <img class="nozoom" src="/images/system/heart-1.png" width="25px" />-->
 <!--        <span class="show-txt">项目</span>-->
