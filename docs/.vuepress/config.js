@@ -2146,6 +2146,7 @@ function getBarBigMarket() {
                 "api/第10节：不超卖库存规则实现.md",
                 "api/第11节：抽奖API接口实现.md",
                 "api/第12节：用户参与抽奖活动库表设计.md",
+                "api/第13节：引入分库分表路由组件.md",
                 "none.md",
             ]
         },
