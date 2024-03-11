@@ -1,5 +1,5 @@
 ---
-title: DDD 脚手架
+title: DDD 脚手架【Maven 本地版】
 lock: need
 ---
 

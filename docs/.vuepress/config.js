@@ -564,6 +564,7 @@ function genBarGuide() {
             sidebarDepth: 0,
             children: [
                 "ddd-archetype.md",
+                "ddd-archetype-maven.md",
             ]
         },
         {
