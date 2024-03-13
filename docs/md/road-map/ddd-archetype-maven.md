@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=1151660636&bvid=BV1yZ42187zo&cid=1468150515&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主，小傅哥。
 
 这篇文章将帮助粉丝伙伴们更高效地利用小傅哥构建的`DDD（领域驱动设计）脚手架`，搭建工程项目，增强使用的便捷性。让👬🏻兄弟们直接在 IntelliJ IDEA 配置个在线的链接，就能直接用上这款脚手架！——  **你就说猛不猛！🤨**
