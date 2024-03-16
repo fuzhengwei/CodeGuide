@@ -2148,6 +2148,7 @@ function getBarBigMarket() {
                 "api/第11节：抽奖API接口实现.md",
                 "api/第12节：用户参与抽奖活动库表设计.md",
                 "api/第13节：引入分库分表路由组件.md",
+                "api/第14节：抽奖活动订单流程设计.md",
                 "none.md",
             ]
         },
