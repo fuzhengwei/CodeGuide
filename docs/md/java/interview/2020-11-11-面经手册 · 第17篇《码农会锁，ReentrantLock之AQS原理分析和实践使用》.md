@@ -53,7 +53,7 @@ ReentrantLock 可重入独占锁涉及的知识点较多，为了更好的学习
 
 AQS 是 AbstractQueuedSynchronizer 的缩写，几乎所有 Lock 都是基于 AQS 来实现了，其底层大量使用 CAS 提供乐观锁服务，在冲突时采用自旋方式进行重试，以此实现轻量级和高效的获取锁。
 
-另外 AbstractQueuedSynchronizer 是一个抽象类，但并没有定义相应的抽象方法，而是提供了可以被字类继承时覆盖的 protected 的方法，这样就可以非常方便的支持继承类的使用。
+另外 AbstractQueuedSynchronizer 是一个抽象类，但并没有定义相应的抽象方法，而是提供了可以被子类继承时覆盖的 protected 的方法，这样就可以非常方便的支持继承类的使用。
 
 ### 2. 写一个简单的 AQS 同步类
 
