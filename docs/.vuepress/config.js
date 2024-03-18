@@ -601,6 +601,7 @@ function genBarGuide() {
                 "dubbo.md",
                 "rocketmq.md",
                 "rabbitmq.md",
+                "kafka.md",
                 "quartz.md",
                 "mysql.md",
                 "db-router.md",
