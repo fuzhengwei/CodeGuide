@@ -270,6 +270,9 @@ private static final int TERMINATED =  3 << COUNT_BITS;
 
 ![图 22-5 提交线程流程图](https://bugstack.cn/assets/images/2020/interview/interview-21-5.png)
 
+1、图中的左侧的核心线程池是否已满？建议改成是否已达到核心线程数
+2、图中的有车的核心线程池是否已满？建议改成是否已达到最大线程数
+
 ```java
 public void execute(Runnable command) {
     if (command == null)
