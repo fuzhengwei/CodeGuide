@@ -1802,6 +1802,7 @@ function getBarZSXQ() {
                 "memorabilia/overall.md",
                 "memorabilia/biographical-notes.md",
                 "memorabilia/interview-zijie.md",
+                "memorabilia/110000-lines-of-code.md",
             ]
         }
     ]
