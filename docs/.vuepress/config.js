@@ -1143,6 +1143,7 @@ function genBarDevOPS() {
                 "2023-04-18-docker.md",
                 "2023-04-18-portainer.md",
                 "2023-04-18-nginx.md",
+                "2024-03-23-yun.md",
                 "2019-08-12-windows环境下安装elasticsearch6.2.2.md",
                 "2019-08-13-elasticsearch-head插件安装.md",
             ]
