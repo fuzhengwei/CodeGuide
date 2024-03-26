@@ -14,7 +14,7 @@ lock: need
 
 在整个《Java简明教程》已经讲解过 [RocketMQ](https://bugstack.cn/md/road-map/rocketmq.html)、[RabbitMQ](https://bugstack.cn/md/road-map/rabbitmq.html) 的使用，本文是对 MQ 系列的一个补充，基本大家在选择使用 MQ 组件时，也就这三类。
 
-本文设计的工程：
+本文涉及的工程：
 - xfg-dev-tech-kafka：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-kafka](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-kafka)
 - Kafka Docker 安装：[docs/dev-ops/docker-compose.yml](#)
 - SwitchHost： [https://switchhosts.vercel.app/zh](https://switchhosts.vercel.app/zh) - 下载安装

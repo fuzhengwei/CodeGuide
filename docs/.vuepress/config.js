@@ -593,7 +593,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(12)",
+            title: "开发技术(14)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -610,6 +610,7 @@ function genBarGuide() {
                 "zookeeper.md",
                 "redis.md",
                 "ignite.md",
+                "canal.md",
             ]
         },
         {
@@ -2180,6 +2181,7 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "extra/big-market-v1.md",
+                "extra/big-market-v2.md",
             ]
         }
     ]
