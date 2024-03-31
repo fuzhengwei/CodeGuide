@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=1902486427&bvid=BV1Gm411r7kz&cid=1484158643&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 本文的宗旨在于通过简单干净实践的方式教会读者，配置出一套 Canal 工具服务，来同步分库分表的数据到 Elasticsearch 文件夹系统中。同时在 SpringBoot 工程中，配置出两套数据源，一套是 MySQL + MyBatis，一套是 Elasticsearch + MyBatis。【这是非常重要的设计手段】
 
 虽然现在有 TiDB 这样的分布式数据库，但对于分库分表 + 数据同步ES，依然是非常主流的方案。同时也有一部分是把分库分表的数据同步到 TiDB 使用。

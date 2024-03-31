@@ -2154,6 +2154,7 @@ function getBarBigMarket() {
                 "api/第13节：引入分库分表路由组件.md",
                 "api/第14节：抽奖活动订单流程设计.md",
                 "api/第15节：抽奖活动流水入库.md",
+                "api/第16节：引入MQ处理活动SKU库存一致性.md",
                 "none.md",
             ]
         },
