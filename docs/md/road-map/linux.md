@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=1602599690&bvid=BV1fm421E7oT&cid=1490208913&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 在几年前刚入手 Mac 电脑的时候，有不少伙伴问过我，这电脑有什么优势吗？又不能打游戏！是呀，能想到的就是没有广告、APP安装简单、UI风格细腻。但这些和 Windows 电脑好像也没有太大的差别，各有所好罢了。而且同等配置 Mac 还要贵不少。
 
 <div align="center">
