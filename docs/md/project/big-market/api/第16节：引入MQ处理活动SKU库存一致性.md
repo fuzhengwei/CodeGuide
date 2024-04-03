@@ -12,7 +12,7 @@ pay: https://t.zsxq.com/188e3DFyj
 
 - **本章难度**：★★★☆☆
 - **本章重点**：引入 RabbitMQ 消息组件，在活动SKU库存消耗完毕后，触发消息推送更新库存为最终一致。
-- **课程视频**：[https://t.zsxq.com/18gaoKYEn](https://t.zsxq.com/18gaoKYEn)
+- **课程视频**：[https://t.zsxq.com/18UKKWY9x](https://t.zsxq.com/18UKKWY9x)
 
 **版权说明**：©本项目与星球签约合作，受[《中华人民共和国著作权法实施条例》](http://www.gov.cn/zhengce/2020-12/26/content_5573623.htm) 版权法保护，禁止任何理由和任何方式公开(public)源码、资料、视频等内容到Github、Gitee等，违反可追究进一步的法律行动。
 
