@@ -2187,6 +2187,7 @@ function getBarBigMarket() {
             children: [
                 "extra/big-market-v1.md",
                 "extra/big-market-v2.md",
+                "extra/big-market-v3.md",
             ]
         }
     ]
