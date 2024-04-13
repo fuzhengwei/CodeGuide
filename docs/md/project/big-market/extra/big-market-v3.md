@@ -151,11 +151,6 @@ lock: no
 > 小傅哥的星球「码农会锁」有8个实战项目【大营销、OpenAI 应用、API网关、中间件等】，每个都是从0到1开发并提供简历模板和面试题，并且还在继续开发，后续还将有更多！价格嘎嘎实惠，早点加入，早点提升自己。项目地址：https://gaga.plus
 
 <div align="center">
-	<img src="https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png" width="350px"/>
-</div>
-**课程采用全程视频手把手，遇到学习问题手把手给调试，学习起来嘎嘎舒服！**
-
-<div align="center">
 	<img src="https://bugstack.cn/images/article/project/big-market/big-market-v3-04.png" width="450px"/>
 </div>
 
