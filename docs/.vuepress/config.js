@@ -1744,6 +1744,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ltzf-sdk-java.md",
                 "project/openai-sdk-java.md",
                 "project/api-gateway.md",
                 "project/springboot-starter.md",
