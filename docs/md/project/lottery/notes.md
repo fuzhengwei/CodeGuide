@@ -229,7 +229,6 @@ Lottery 系统的全方面技术栈的使用，多场景的问题的解决方案
 - [抽奖系统，被问到系统的瓶颈在哪里](https://t.zsxq.com/10WwhYDKy)
 - [为什么要选redis，redis 主从集群下潜在的锁失效问题怎么考虑怎么解决。ookeeper 作为分布式锁优缺点](https://t.zsxq.com/107LFRcAH)
 - [这个抽奖系统里的聚合、聚合根、实体是具体对应的哪些部分](https://t.zsxq.com/11VOoFhHX)
-- [百度提前批被问了一些关于路由组件的问题（我把路由组件单独作为一个小项目）](https://t.zsxq.com/11ckhUMeW)
 - [关于db-router的redis路由问题：假设并发量还是很高，那么把库存分摊到不同的stockKey上，不同用户去不同的key上incr。但是这和自研路由有什么关系](https://t.zsxq.com/11j6zWN6k)
 - [项目中为什么用dubbo不用fegin，这个问题怎么答](https://t.zsxq.com/115w0DAUw)
 - [昨天字节二面被疯狂拷打项目，特来请教一下相关问题](https://t.zsxq.com/11qoK5xep)
