@@ -41,6 +41,10 @@ Raffle 抽奖模块的完整开发，让我对 SpringBoot 框架技术，分布�
 
 接下来是关于大营销平台项目的面试问题解答，可以参考。
 
+- 架构设计：[https://www.bilibili.com/video/BV17x4y187nS](https://www.bilibili.com/video/BV17x4y187nS)
+- 设计模式：[https://www.bilibili.com/video/BV1f2421M7kc](https://www.bilibili.com/video/BV1f2421M7kc)
+- 分布式问题：[https://www.bilibili.com/video/BV1Cr42137de](https://www.bilibili.com/video/BV1Cr42137de)
+
 ### 1. 你的项目工程是怎么搭建的？
 
 项目的搭建类似于使用 start.spring.io 脚手架创建的，在我们的项目中，使用了统一 maven-archetype-plugin 插件，自定义了一套 DDD 工程骨架脚手架。同类项目都是使用这套脚手架创建项目，因为脚手架定义了统一的版本标准和对应配套的开发环境，所以使用起来更加容易。【如果延伸提问，你还了解哪种搭建脚手架的方式，可以回答 [FreeMarker](http://freemarker.foofun.cn/)】

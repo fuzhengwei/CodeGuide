@@ -229,7 +229,7 @@ module.exports = {
                                 link: '/md/spring/develop-spring/2021-05-16-第1章：开篇介绍，手写Spring能给你带来什么？.md'
                             },
                             {
-                                text: 'Mybatis 手撸专栏',
+                                text: 'MyBatis 手撸专栏',
                                 link: '/md/spring/develop-mybatis/2022-03-20-第1章：开篇介绍，手写Mybatis能给你带来什么？.md'
                             },
                             {
@@ -644,7 +644,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(5)",
+            title: "发布部署(6)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -653,6 +653,7 @@ function genBarGuide() {
                 "portainer.md",
                 "jenkins.md",
                 "buddy.md",
+                "higress.md",
             ]
         }
     ]
