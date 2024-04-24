@@ -644,12 +644,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(6)",
+            title: "发布部署(8)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "linux.md",
                 "docker.md",
+                "nginx.md",
+                "ssl.md",
                 "portainer.md",
                 "jenkins.md",
                 "buddy.md",
