@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?aid=1053517776&bvid=BV1CH4y1N7UN&cid=1517926063&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 还是在22年的时候，小傅哥做了一套基于 Netty 协议转换和通信的 API网关，分享给伙伴们学习使用，增加一些业务开发以外的知识积累。不过很多伙伴都问过小傅哥，为啥要自研网关呢？SpringCloud Gateway 不就可以用吗？🤔 那你知道为什么自研吗？
