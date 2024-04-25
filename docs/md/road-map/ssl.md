@@ -181,7 +181,7 @@ server {
 
 - 首先，修改 `ssl01.xiaofuge.tech` 为你的域名。
 - 之后，修改 ssl 地址信息。这个地址是 docker-compose 映射的地址。如果你是 linux 直接安装，则可以直接使用 acme.sh 安装的时候生成的地址。
-- 注意，更多 Nginx 配置 [https://bugstack.cn/md/devops/2023-04-18-nginx.html](https://bugstack.cn/md/devops/2023-04-18-nginx.html)
+- 注意，更多 Nginx 配置 [https://bugstack.cn/md/road-map/nginx.html](https://bugstack.cn/md/road-map/nginx.html)
 
 #### 1.2 修改ssl
 
