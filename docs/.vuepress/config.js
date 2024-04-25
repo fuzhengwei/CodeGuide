@@ -650,9 +650,9 @@ function genBarGuide() {
             children: [
                 "linux.md",
                 "docker.md",
+                "portainer.md",
                 "nginx.md",
                 "ssl.md",
-                "portainer.md",
                 "jenkins.md",
                 "buddy.md",
                 "higress.md",
