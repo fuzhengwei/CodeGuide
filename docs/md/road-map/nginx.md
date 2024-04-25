@@ -130,7 +130,7 @@ nginx
 
 ### 4.1 创建证书
 
-SSL 免费的证书，在各个云服务厂商都有提供，可以自己申请。这里以阿里云举例；
+SSL 免费的证书，一种是 [freessl - 支持自动续期](https://bugstack.cn/md/road-map/ssl.html) 另外各个云服务厂商都有提供，可以自己申请。这里以阿里云举例；
 
 阿里云免费域名证书：[https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou](https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou)
 
