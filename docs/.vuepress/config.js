@@ -980,6 +980,7 @@ function genBarSpringDevelopMybatis() {
             children: [
                 "2022-07-07-第21章：完结.md",
                 "2022-07-15-第22章：Mybatis设计模式.md",
+                "2024-04-28-mybatis-source-code-analysis-diagram.md",
             ]
         }
     ]
