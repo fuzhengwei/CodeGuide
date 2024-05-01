@@ -2166,6 +2166,7 @@ function getBarBigMarket() {
                 "api/第19节：写入中奖记录和任务补偿发送.md",
                 "api/第20节：抽奖活动流程串联.md",
                 "api/第21节：活动信息API迭代和功能完善.md",
+                "api/第22节：用户行为返利入账.md",
                 "none.md",
             ]
         },
