@@ -2168,6 +2168,7 @@ function getBarBigMarket() {
                 "api/第21节：活动信息API迭代和功能完善.md",
                 "api/第22节：用户行为返利入账.md",
                 "api/第23节：用户行为返利结算.md",
+                "api/第24节：规则完善和应用接口实现.md",
                 "none.md",
             ]
         },
