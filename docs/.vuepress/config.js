@@ -2181,6 +2181,7 @@ function getBarBigMarket() {
                 "web/第2节：Mock接口对接抽奖页面.md",
                 "web/第3节：应用接口对接抽奖页面.md",
                 "web/第4节：抽奖活动页面设计和对接.md",
+                "web/第5节：对接联调额度签到权重接口.md",
             ]
         },
         {
