@@ -7,6 +7,7 @@ lock: need
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>项目：[大营销平台系统](https://bugstack.cn/md/project/big-market/ddd.html) - DDD 领域驱动设计，战略、战术、战役，落地指引规范。
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
