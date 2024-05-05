@@ -2129,6 +2129,7 @@ function getBarBigMarket() {
             children: [
                 "prd/第1节：营销场景的需求设计.md",
                 "prd/第2节：抽奖活动场景的需求设计.md",
+                "prd/第3节：用户行为奖励需求设计.md",
             ]
         },
         {
