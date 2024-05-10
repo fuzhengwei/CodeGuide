@@ -1811,6 +1811,7 @@ function getBarZSXQ() {
                 "memorabilia/biographical-notes.md",
                 "memorabilia/interview-zijie.md",
                 "memorabilia/110000-lines-of-code.md",
+                "memorabilia/java-resume-Project.md",
             ]
         }
     ]
