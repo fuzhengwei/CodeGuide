@@ -17,6 +17,7 @@ lock: need
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-ssl-00.png" width="250px">
 </div>
+
 **跟着小傅哥学习，教会你的都是实战经验！**
 
 像我这样做技术分享的，再把一些学习项目部署上线让大家学习体验，站点；[https://gaga.plus](https://gaga.plus) 就会拆分出不少的子域名，做独立的项目展示。那么就非常需要一款好用的、免费的、泛域名证书，最好还能支持到期自动续期，否则有时候都容易忘记哪个域名忘记更换证书。好在后来找到了一款 [https://freessl.cn/](https://freessl.cn/) 不过这东西很多伙伴可能不会部署，所以今天给大家分享下，如何配置和使用这块免费的ssl。
@@ -111,7 +112,11 @@ no crontab for root
 用你在 2.3 步骤获取的命令进行安装。
 
 ```java
+# 手动更新 Nginx
 acme.sh --issue -d *.xiaofuge.tech  --dns dns_dp --server https://acme.freessl.cn/v2/DV90/directory/ko9v932ceuu2kr06pe68
+
+# 自动更新 - Docker 版本 `--force` 重写命令，如果之前安装过需要重新安装，需要添加。
+acme.sh --issue -d *.xfg.plus --dns dns_dp --server https://acme.freessl.cn/v2/DV90/directory/bfa9mbfe2w8r2nhr5w6o --reloadcmd "docker exec nginx nginx -s reload" --force
 ```
 
 <div align="center">
