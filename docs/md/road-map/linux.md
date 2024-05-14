@@ -47,7 +47,7 @@ lock: need
 
 推荐使用 [termius](https://termius.com/) 工具连接你的云服务，这个工具自带 SFPT 可以方便的上传文件。
 
-把 dev-ops 文件夹上传到云服务器上。
+把 dev-ops 文件夹上传到云服务器上。*我是上传到了 / 根目录，不是 root 下！*
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-linux-03.png" width="750px">
