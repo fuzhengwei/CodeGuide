@@ -93,5 +93,3 @@ lock: no
 > [🧧加入](https://bugstack.cn/md/zsxq/other/join.html) 这样成体系的全量项目学习，放在一些平台售卖，至少都要上千块。但小傅哥的星球，只需要100多，就可以获得大厂架构师对你手把手教学！
 
 **在今年的面试中，星球帮助众多伙伴拿到**`微信支付`、`京东科技`、`度小满`、`蚂蚁金服`、`Lazada（电商优惠营销）`、`快手`、`美团到店`等Offer，还有的校招生薪资最高年包到45w！
-
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/zTfAIs5rNXglxK5zQqzss9tq3P2Ss5mV3WX8dZ9m7fBLdhSXpFoKOE0kPaLpsybK1icOTRdL5VXEia7iaoPZ1CenQ/640?wx_fmt=png&from=appmsg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
