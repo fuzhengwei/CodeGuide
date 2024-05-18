@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1154849743&bvid=BV1yZ421s7En&cid=1550075616&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 👨🏻‍💻 经过5.1假期的一顿框框输出，终于完成了[《大营销项目》](https://bugstack.cn/md/project/big-market/big-market.html)第二阶段的开发和上线，体验地址：[https://gaga.plus](https://gaga.plus) 有了这个项目的落地，也终于可以给大家完整的梳理出一套 DDD 落地指引规范。包括；战略、战术、战役，各个阶段都要做什么，`怎么做风暴模型和四色建模`。有了这套东西参考，小白也能目标明确的做 DDD 项目开发啦！
