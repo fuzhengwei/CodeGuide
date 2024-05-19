@@ -574,6 +574,7 @@ function genBarGuide() {
             children: [
                 "mvc.md",
                 "ddd.md",
+                "ddd-model.md",
                 "mvc2ddd.md",
                 "ddd-dev-account.md",
                 "ddd-dev-pay.md",
@@ -644,7 +645,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(8)",
+            title: "发布部署(7)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -655,7 +656,15 @@ function genBarGuide() {
                 "ssl.md",
                 "jenkins.md",
                 "buddy.md",
+            ]
+        },
+        {
+            title: "应用网关(2)",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
                 "higress.md",
+                "springcloud-gateway.md",
             ]
         }
     ]
