@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1104826816&bvid=BV14w4m1D7Yy&cid=1552686280&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 时至今日，小傅哥已经在职场工作了`10年+`了，最近的一次职场合同也签了终身合同。工作这么多年，一直都很顺利，既没有受到卷影响，也没有受到每年都喊的”寒冬“影响。因为我学会了如何走到腰部以上！
