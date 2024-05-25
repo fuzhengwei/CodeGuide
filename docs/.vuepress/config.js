@@ -1822,6 +1822,7 @@ function getBarZSXQ() {
                 "memorabilia/interview-zijie.md",
                 "memorabilia/110000-lines-of-code.md",
                 "memorabilia/java-resume-Project.md",
+                "memorabilia/student-offer.md",
             ]
         }
     ]
@@ -2183,6 +2184,7 @@ function getBarBigMarket() {
                 "api/第22节：用户行为返利入账.md",
                 "api/第23节：用户行为返利结算.md",
                 "api/第24节：规则完善和应用接口实现.md",
+                "api/第25节：积分发奖服务实现.md",
                 "none.md",
             ]
         },
