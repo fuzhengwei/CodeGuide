@@ -616,7 +616,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "常用类库(4)",
+            title: "常用类库(5)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -624,6 +624,7 @@ function genBarGuide() {
                 "guava.md",
                 "http.md",
                 "ratelimiter.md",
+                "spring-ai.md",
             ]
         },
         {
