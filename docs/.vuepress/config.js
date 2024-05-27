@@ -598,6 +598,7 @@ function genBarGuide() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
+                "spring-dependency-injection.md",
                 "mybatis.md",
                 "dubbo.md",
                 "rocketmq.md",
