@@ -106,6 +106,7 @@ lock: no
 - 介绍
   - [课程：ChatGPT 微服务应用体系构建](https://bugstack.cn/md/project/chatgpt/chatgpt.html)
   - [引言：开篇介绍](https://bugstack.cn/md/project/chatgpt/引言.html)
+
 - Dev-Ops
   - [第1节：push工程到仓库](https://bugstack.cn/md/project/chatgpt/dev-ops/第1节：push工程到仓库.html)
   - [第2节：Docker环境配置](https://bugstack.cn/md/project/chatgpt/dev-ops/第2节：Docker环境安装.html)
@@ -113,16 +114,31 @@ lock: no
   - [第4节：Nginx环境配置](https://bugstack.cn/md/project/chatgpt/dev-ops/第4节：Nginx环境配置.html)
   - [第5节：服务镜像构建和容器部署](https://bugstack.cn/md/project/chatgpt/dev-ops/第5节：服务镜像构建和容器部署.html)
   - [第6节：前后端构建镜像部署](https://bugstack.cn/md/project/chatgpt/dev-ops/第6节：前后端构建镜像部署.html)
+  - [第7节：网站添加百度统计](https://bugstack.cn/md/project/chatgpt/dev-ops/%E7%AC%AC7%E8%8A%82%EF%BC%9A%E7%BD%91%E7%AB%99%E6%B7%BB%E5%8A%A0%E7%99%BE%E5%BA%A6%E7%BB%9F%E8%AE%A1.html)
+  - [第8节：应用监控](https://bugstack.cn/md/project/chatgpt/dev-ops/%E7%AC%AC8%E8%8A%82%EF%BC%9A%E5%BA%94%E7%94%A8%E7%9B%91%E6%8E%A7.html)
+  - [第9节：部署上线](https://bugstack.cn/md/project/chatgpt/dev-ops/%E7%AC%AC9%E8%8A%82%EF%BC%9A%E9%83%A8%E7%BD%B2%E4%B8%8A%E7%BA%BF.html)
+
 - ChatGPT-API
   - [第1节：API工程搭建和简单访问认证](https://bugstack.cn/md/project/chatgpt/api/第1节：API工程搭建和简单访问认证.html)
   - [第2节：Shiro登录授权发放访问token](https://bugstack.cn/md/project/chatgpt/api/第2节：Shiro登录授权发放访问token.html)
   - [第3节：微信公众号验签和初步对接OpenAI](https://bugstack.cn/md/project/chatgpt/api/第3节：微信公众号验签和初步对接OpenAI.html)
   - [第4节：工程重构和流式异步响应接口实现](https://bugstack.cn/md/project/chatgpt/api/第4节：工程重构和流式异步响应接口实现.html)
   - [第5节：公众号发送验证码鉴权登录](https://bugstack.cn/md/project/chatgpt/api/第5节：公众号发送验证码鉴权登录.html)
+  - [第6节：白名单和敏感词规则过滤](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC6%E8%8A%82%EF%BC%9A%E7%99%BD%E5%90%8D%E5%8D%95%E5%92%8C%E6%95%8F%E6%84%9F%E8%AF%8D%E8%A7%84%E5%88%99%E8%BF%87%E6%BB%A4.html)
+  - [第7节：用户额度账户的校验领域实现](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC7%E8%8A%82%EF%BC%9A%E7%94%A8%E6%88%B7%E9%A2%9D%E5%BA%A6%E8%B4%A6%E6%88%B7%E9%A2%86%E5%9F%9F%E5%AE%9E%E7%8E%B0.html)
+  - [第8节：商品下单对接微信支付](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC8%E8%8A%82%EF%BC%9A%E5%95%86%E5%93%81%E4%B8%8B%E5%8D%95%E5%AF%B9%E6%8E%A5%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98.html)
+  - [第9节：OpenAi多渠道策略模式](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC9%E8%8A%82%EF%BC%9AOpenAi%E5%A4%9A%E6%B8%A0%E9%81%93%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.html)
+  - [第10节：应用分布式设计](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%BA%94%E7%94%A8%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%BE%E8%AE%A1.html)
+  - [第11节：dall-e 文生图](https://bugstack.cn/md/project/chatgpt/api/%E7%AC%AC11%E8%8A%82%EF%BC%9Adall-e%E6%96%87%E7%94%9F%E5%9B%BE.html)
+
 - ChatGPT-SDK
   - [第1节：ChatGPT-SDK组件工程简单功能实现](https://bugstack.cn/md/project/chatgpt/sdk/第1节：ChatGPT-SDK组件工程简单功能实现.html)
   - [第2节：流式应答会话设计实现](https://bugstack.cn/md/project/chatgpt/sdk/第2节：流式应答会话设计实现.html)
   - [第3节：完善实现各类常用接口](https://bugstack.cn/md/project/chatgpt/sdk/第3节：完善实现各类常用接口.html)
+- ChatGLM-SDK
+  - [第1节：ChatGLM SDK - 智谱Ai v1](https://bugstack.cn/md/project/chatgpt/sdk/chatglm-sdk-java.html)
+  - [第2节：ChatGLM SDK - 智谱Ai v2](https://bugstack.cn/md/project/chatgpt/sdk/chatglm-sdk-java-v2.html)
+
 - ChatGPT-WEB
   - [第1节：Web页面工程初始化](https://bugstack.cn/md/project/chatgpt/web/第1节：Web页面工程初始化.html)
   - [第2节：工具栏面板](https://bugstack.cn/md/project/chatgpt/web/第2节：工具栏面板.html)
@@ -133,6 +149,8 @@ lock: no
   - [第7节：对话角色设定](https://bugstack.cn/md/project/chatgpt/web/第7节：对话角色设定.html)
   - [第8节：流式接口对接](https://bugstack.cn/md/project/chatgpt/web/第8节：流式接口对接.html)
   - [第9节：公众号扫码登录](https://bugstack.cn/md/project/chatgpt/web/第9节：公众号扫码登录.html)
+  - [第10节：商品支付页](https://bugstack.cn/md/project/chatgpt/web/%E7%AC%AC10%E8%8A%82%EF%BC%9A%E5%95%86%E5%93%81%E6%94%AF%E4%BB%98%E9%A1%B5.html)
+
 - 番外 - 课程阶段产物
   - [ChatGPT + 仿微信界面，效果好还TM贼漂亮！](https://bugstack.cn/md/project/chatgpt/extra/ChatGPT-v1.0.html)
   - [把一个ChatGPT项目上线，要折腾多少细节！](https://bugstack.cn/md/project/chatgpt/extra/ChatGPT-v1.1.html)
