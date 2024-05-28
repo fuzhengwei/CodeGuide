@@ -1,4 +1,14 @@
-# 已完结，已上线，Java 生产应用级项目!
+---
+title: Spring AI
+lock: need
+---
+
+# Spring AI
+
+作者：小傅哥
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
+
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
 大家好，我是技术UP主小傅哥。今天来带大家体验一下 Spring AI 的 Easy 开发！
 
