@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1105332329&bvid=BV1Pw4m1q7E5&cid=1567695938&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 `@Autowired` 注入会用，`@Resource` 注入知道，但在项目看到一个没使用这2个注解的，直接在构造函数写了个两个入参 `public AwardController(List<IAwardService> awardServices, Map<String, IAwardService> awardServiceMap) { ...` 就不知道是怎么注入的了。我猜可能是以前一直写 CRUD 流水席代码，导致 Spring 的一些高级注入特性从来没接触过。所以小傅哥今天来给大家专门总结下 Spring 的各种注入的使用，方便小伙伴们可以运用这些特性，写出优雅的代码。
