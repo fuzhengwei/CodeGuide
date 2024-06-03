@@ -396,12 +396,24 @@ module.exports = {
                             {
                                 text: '组件类型', items: [
                                     {
+                                        text: '动态线程池组件',
+                                        link: 'https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html'
+                                    },
+                                    {
+                                        text: '支付SDK设计和开发',
+                                        link: 'https://bugstack.cn/md/zsxq/project/ltzf-sdk-java.html'
+                                    },
+                                    {
                                         text: 'SpringBoot 中间件设计和开发',
                                         link: 'https://bugstack.cn/md/assembly/middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html'
                                     },
                                     {
                                         text: 'API网关：中间件设计和实践',
                                         link: 'https://bugstack.cn/md/assembly/api-gateway/api-gateway.html'
+                                    },
+                                    {
+                                        text: 'IDEA Plugin 插件开发',
+                                        link: 'https://bugstack.cn/md/assembly/idea-plugin/2021-08-27-%E6%8A%80%E6%9C%AF%E8%B0%83%E7%A0%94%EF%BC%8CIDEA%20%E6%8F%92%E4%BB%B6%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%EF%BC%9F.html'
                                     },
                                 ]
                             },
@@ -1825,6 +1837,7 @@ function getBarZSXQ() {
                 "memorabilia/110000-lines-of-code.md",
                 "memorabilia/java-resume-Project.md",
                 "memorabilia/student-offer.md",
+                "memorabilia/project-plan-v2406.md",
             ]
         }
     ]
