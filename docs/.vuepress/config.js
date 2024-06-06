@@ -679,6 +679,7 @@ function genBarGuide() {
             children: [
                 "higress.md",
                 "springcloud-gateway.md",
+                "apisix.md",
             ]
         }
     ]
