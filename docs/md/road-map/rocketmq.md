@@ -69,7 +69,7 @@ services:
   # 01：data/rocketmq/conf/broker.conf 添加 brokerIP1=127.0.0.1
   # 02：data/console/config/application.properties server.port=9009 - 如果8080端口被占用，可以修改或者添加映射端口
   rocketmq:
-    image: livinphp/rocketmq:5.1.0
+    image: livinphp/rocketmq:5.1.3
     container_name: rocketmq
     ports:
       - 9009:9009
