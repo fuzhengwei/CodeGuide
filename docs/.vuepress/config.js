@@ -397,11 +397,11 @@ module.exports = {
                                 text: '组件类型', items: [
                                     {
                                         text: '透视业务流程-监控系统',
-                                        link: 'https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html'
+                                        link: 'https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html'
                                     },
                                     {
                                         text: '动态线程池组件',
-                                        link: 'https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html'
+                                        link: 'https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html'
                                     },
                                     {
                                         text: '支付SDK设计和开发',
