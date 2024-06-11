@@ -22,7 +22,7 @@ lock: need
 
 不用，根本不用。因为小傅哥有一套**神器**！
 
-对于 DDD 项目的多模块化工程搭建，其实真的是一个挺耗时的工作，尤其是分布式工程的搭建更是耗时。不过工程模块的创建还不算太耗时，主要耗时在各个分布式组件的整合使用上，包括；MySQL、Redis、RocketMQ、Dubbo、shardingjdbc、XXL-JOB 等一堆技术框架。如果你做过这样的事情，一定会被他们的使用和各类版本的配合，折腾过服服帖帖。
+对于 DDD 项目的多模块化工程搭建，其实真的是一个挺耗时的工作，尤其是分布式工程的搭建更是耗时。不过工程模块的创建还不算太耗时，主要耗时在各个分布式组件的整合使用上，包括：MySQL、Redis、RocketMQ、Dubbo、shardingjdbc、XXL-JOB 等一堆技术框架。如果你做过这样的事情，一定会被他们的使用和各类版本的配合，折腾过服服帖帖。
 
 一次工程和环境搭建，没有个6~8小时都搞不完！但今天我想你动动手指就搞定这些！
 
@@ -104,7 +104,7 @@ lock: need
 
 ## 三、使用说明
 
-这套脚手架使用了 `maven-archetype-plugin` 使用命令(archetype:create-from-project)进行工程的脚手架创建，创建后在进行一些内容的修改，最终完成脚手架的模板。
+这套脚手架使用了 `maven-archetype-plugin` 使用命令(archetype:create-from-project)进行工程的脚手架创建，创建后再进行一些内容的修改，最终完成脚手架的模板。
 
 读者在使用这套脚手架的时候，可以在本地下载工程代码后，进入工程下的 `scaffold-lite/std` 模块执行 README.md 中 `mvn clean install` 脚本进行安装。安装后即可在使用 IntelliJ IDEA 创建工程时候，选择 Maven 创建，添加本地仓库地址使用。—— 下面👇🏻会介绍具体操作步骤。
 
@@ -116,7 +116,7 @@ lock: need
 
 如图，就是两套 DDD 脚手架工程，每一套工程下，都有一个 scaffold 模块。这部分是对当下对应工程的脚手架模块。另外 docs 下有 dev-ops 文件夹，是环境安装包，直接执行 docker-compose.yml 即可一次安装完全部环境。
 
-读者，在使用的时候，也可以先不看 scaffold 模块。因为除了这个模块外，其他的就是整个 DDD 工程，作为你最开始熟悉使用。熟悉后在进入”黑圈“ README.md 中执行 mvc clean install 这样就能在本地 maven 仓库安装上脚手架了。
+读者，在使用的时候，也可以先不看 scaffold 模块。因为除了这个模块外，其他的就是整个 DDD 工程，作为你最开始熟悉使用。熟悉后再进入“黑圈” README.md 中执行 mvc clean install 这样就能在本地 maven 仓库安装上脚手架了。
 
 ### 2. 框架安装
 
@@ -151,7 +151,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/xfg-frame-archetype-09.png?raw=true" width="750px">
 </div>
 
-- 自动生成工程，之后你就可以通过 docs 文件件下的 docker-compose.yml 安装环境并使用了。**注意本机已安装了 Docker**
+- 自动生成工程，之后你就可以通过 docs 文件夹下的 docker-compose.yml 安装环境并使用了。**注意本机已安装了 Docker**
 
 ### 3. 环境安装
 
