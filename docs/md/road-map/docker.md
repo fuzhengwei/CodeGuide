@@ -262,6 +262,31 @@ sudo systemctl restart docker
 
 这个命令会创建一个 `/etc/docker/daemon.json` 文件，并将国内源的配置写入其中。然后你只需要重启 Docker 服务即可使配置生效，可以通过运行 `sudo systemctl restart docker` 命令来重启 Docker 服务。
 
+**解决目前Docker Hub国内无法访问方法**
+自从2023年5月中旬，著名Docker 容器平台： hub.docker.com  “不知” 何种原因国内均无法正常访问了。
+
+这样对国内服务器拉取Docker仓库影响比较大。不过得亏国内有Docker Hub镜像平台。有付费的，有免费的！
+
+**配置镜像**
+```yaml
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+    "registry-mirrors": [
+        "https://docker.m.daocloud.io",
+        "https://dockerproxy.com",
+        "https://docker.mirrors.ustc.edu.cn",
+        "https://docker.nju.edu.cn"
+    ]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
+参考链接：https://cloud.tencent.com/developer/article/2301228
+
+
 ### 13. 远程连接
 
 ```shell script
