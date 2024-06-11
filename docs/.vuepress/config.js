@@ -1772,6 +1772,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/business-behavior-monitor.md",
                 "project/dynamic-thread-pool.md",
                 "project/ltzf-sdk-java.md",
                 "project/openai-sdk-java.md",
