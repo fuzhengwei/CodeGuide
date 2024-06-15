@@ -107,6 +107,14 @@ no crontab for root
 - 注意安装完成后执行；`source ~/.bashrc` 这样才能生效 acme.sh 配置
 - 安装过程有点慢，需要等待下 Install success! 安装完成。目前官网提供的镜像地址不太好用。
 
+**另外一种安装方式**
+
+```java
+git clone https://gitee.com/neilpang/acme.sh.git
+cd acme.sh
+./acme.sh --install -m xiaofuge@qq.com
+```
+
 #### 3.2 证书安装
 
 用你在 2.3 步骤获取的命令进行安装。

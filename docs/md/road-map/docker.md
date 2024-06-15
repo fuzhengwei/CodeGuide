@@ -275,6 +275,7 @@ sudo mkdir -p /etc/docker
 sudo tee /etc/docker/daemon.json <<-'EOF'
 {
     "registry-mirrors": [
+        "https://dc.j8.work",
         "https://docker.m.daocloud.io",
         "https://dockerproxy.com",
         "https://docker.mirrors.ustc.edu.cn",
@@ -286,9 +287,8 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-参考链接：https://cloud.tencent.com/developer/article/2301228
-
-可信镜像中心：[https://atomhub.openatom.cn/](https://atomhub.openatom.cn/)
+- 参考链接：https://cloud.tencent.com/developer/article/2301228
+- 可信镜像中心：[https://atomhub.openatom.cn/](https://atomhub.openatom.cn/)
 
 ### 13. 远程连接
 
