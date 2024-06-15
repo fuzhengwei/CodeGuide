@@ -2208,6 +2208,7 @@ function getBarBigMarket() {
                 "api/第25节：积分发奖服务实现.md",
                 "api/第26节：积分领域调额服务.md",
                 "api/第27节：积分支付兑换商品.md",
+                "api/第28节：积分应用场景接口实现.md",
                 "none.md",
             ]
         },
