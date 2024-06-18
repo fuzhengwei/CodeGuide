@@ -677,7 +677,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "应用网关(2)",
+            title: "应用网关(3)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
