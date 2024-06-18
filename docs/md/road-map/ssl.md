@@ -133,6 +133,18 @@ acme.sh --issue -d *.xfg.plus --dns dns_dp --server https://acme.freessl.cn/v2/D
 
 - 执行命令后，完成安装即可获得 `*.cer`、`*.key` 两个文件地址。这个就是用于配置 ssl 域名证书的。
 
+**注意自动更新，需要添加脚本**
+
+```java
+acme.sh --issue -d gaga.plus -d *.xiaofuge.tech --dns dns_dp --server [https://acme.freessl.cn/v2/DV90/directory/bfa9mbfe2w8r2nhr5w6o](https://acme.freessl.cn/v2/DV90/directory/ko9v932ceuu2kr06pe68)  \
+--key-file /dev-ops/nginx/ssl/key.pem  \
+--fullchain-file /dev-ops/nginx/ssl/cert.pem  \
+--reloadcmd "docker exec nginx nginx -s reload"
+```
+
+- `-d gaga.plus -d *.xiaofuge.tech` 可以添加一组，专门申请下 `gaga.plus ssl`
+- docker 使用 `docker exec nginx nginx -s reload` 如果是直接 nginx 也可以配置 nginx 命令即可。
+
 ## 三、域名配置
 
 <div align="center">
