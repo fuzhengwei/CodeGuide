@@ -1240,6 +1240,7 @@ function genBarDevelopFramework() {
                 "scheme/2021-07-19-调研字节码插桩技术，用于系统监控设计和实现.md",
                 "scheme/2022-02-14-基于库表分段扫描和数据Redis预热，优化分布式延迟任务触达时效性.md",
                 "scheme/2022-02-21-怎么说服领导，能让我用DDD架构.md",
+                "scheme/2024-06-19-通过可重入锁思想，设计MQ迁移方案.md",
             ]
         }
     ]
