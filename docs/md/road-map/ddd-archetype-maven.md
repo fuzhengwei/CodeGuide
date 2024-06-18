@@ -20,6 +20,10 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-archetype-01.png" width="850px">
 </div>
 
+【备用地址 http://maven.gaga.plus/ 】- 如果配置 https://gaga.plus 不可用，可以使用备用地址。
+
+---
+
 **那小傅哥搞的这个在线版脚手架是怎么做到的呢？** 🤔 想学吗，想学我教你呀？
 
 在23年的时候小傅哥发布了 DDD 两款脚手架，一个轻量版 lite ，一个标准版 std。通过这两款脚手架，小伙伴们在学习小傅哥写的技术教程和实战项目的时候，可以把脚手架代码下载到本地，通过 `maven install` 在本地构建出脚手架再配置到上图中的地址后使用。
