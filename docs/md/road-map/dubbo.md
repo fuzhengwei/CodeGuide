@@ -20,7 +20,7 @@ lock: need
 
 ## 一、为什么使用
 
-随着互联网场景中所要面对的用户规模和体量的增加，系统的也需要做相应的拆分设计和实现。随之而来的，以前的一套系统，现在成了多个微服务。如；电商系统，以前就在一个工程中写就可以了，现在需要拆分出，用户、支付、商品、配送、活动、风控等各个模块。那么这些模块拆分后，如何高效的通信呢？
+随着互联网场景中所要面对的用户规模和体量的增加，系统也需要做相应的拆分设计和实现。随之而来的，以前的一套系统，现在成了多个微服务。如：电商系统，以前就在一个工程中写就可以了，现在需要拆分出，用户、支付、商品、配送、活动、风控等各个模块。那么这些模块拆分后，如何高效的通信呢？
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-dubbo-01.png?raw=true" width="650px">
@@ -35,7 +35,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-dubbo-02.png?raw=true" width="650px">
 </div>
 
-Dubbo 的使用分为2方，一个是接口的提供方，另外一个是接口的调用方。接口的提供方需要提供出被调用方使用接口的描述性信息。这个信息包括；接口名称、接口入参、接口出参，只有让调用方拿到这些信息以后，它才能依托于这样的接口信息做一个代理操作，并在代理类中使用 Socket 完成双方的信息交互。
+Dubbo 的使用分为2方，一个是接口的提供方，另外一个是接口的调用方。接口的提供方需要提供出被调用方使用接口的描述性信息。这个信息包括：接口名称、接口入参、接口出参，只有让调用方拿到这些信息以后，它才能依托于这样的接口信息做一个代理操作，并在代理类中使用 Socket 完成双方的信息交互。
 
 所以你看上去调用 RPC 接口好像和使用 HTTP 也没啥区别，无非就是引入了 POM 配置，之后再配置了注解就可以使用了。但其实，它是把你的 Jar 当做代理的必要参数使用了。**本文也会介绍，具体是怎么代理的**
 
@@ -132,7 +132,7 @@ dubbo:
 
 - 配置信息平平无奇，但第3个坑暗藏玄机！
 - base-packages 扫描的是哪里配置了 Dubbo 的 API 入口，给它入口就行，它会自己找到实现类。但！你要知道 Java 的 Spring 应用能扫描到，能被 Spring 管理，那么 pom 要**直接或者间接**的引导到定义了 Dubbo 的模块。
-- 再有一个问题，Spring 应用开发，讲究约定大于配置。你 Application 应用，的包名应该是可以覆盖到其他包名的。比如 Application 都配置到 `cn.bugstack.dev.tech.dubbo.a.b.c.d.*` 去了，它默认就扫不到 `cn.bugstack.dev.tech.dubbo.api` 了。一个小bug，一下午又过去了。 
+- 再有一个问题，Spring 应用开发，讲究约定大于配置。你 Application 应用的包名，应该是可以覆盖到其他包名的。比如 Application 都配置到 `cn.bugstack.dev.tech.dubbo.a.b.c.d.*` 去了，它默认就扫不到 `cn.bugstack.dev.tech.dubbo.api` 了。一个小bug，一下午又过去了。 
 - 注意：address：如果配置的是 N/A 就是不走任何注册中心，就是个直连，主要用于本地验证的。如果你配置了 zookeeper://127.0.0.1:2181 就需要先安装一个 zookeeper 另外，即使你配置了注册中心的方式，也可以直连测试。
 
 #### 1.4 应用构建
@@ -148,11 +148,11 @@ Install 是干啥的？它是为了让你使用了同一个本地 Maven 配置�
 </div>
 
 - 你要先点击 root 下的 install 操作，这样就会自动构建了。
-- 如果你电脑配置有点低，也会出现一些`气人怪相`，比如就刷不进去，install 了也引用不了。记得要 clean 清空下，也可以直接到 maven 文件件去清空。
+- 如果你电脑配置有点低，也会出现一些`气人怪相`，比如就刷不进去，install 了也引用不了。记得要 clean 清空下，也可以直接到 maven 文件夹去清空。
 
 ### 2. 接口使用方
 
-有些小卡拉米觉得前面的抗都扫干净了，就完事了。没有接下来还有坑，让你一搞搞一天，半夜也睡不好。
+有些小卡拉米觉得前面的坑都扫干净了，就完事了。没有接下来还有坑，让你一搞搞一天，半夜也睡不好。
 
 #### 2.1 POM 引入
 
@@ -227,7 +227,7 @@ public void test_userService() {
 
 好，核心的原理就这么点。接下来，我们从代码中看看。
 
-### 1. 接口代理 - 提供方
+### 1. 接口反射 - 提供方
 
 **源码**：`cn.bugstack.dev.tech.dubbo.trigger.socket.RpcServerSocket`
 
@@ -297,13 +297,13 @@ public class RpcServerSocket implements Runnable {
 }
 ```
 
-这段代码主要提供的功能包括；
-1. Netty Socket 启动一个服务端
+这段代码主要提供的功能包括：
+1. Netty Socket 启动一个服务端。
 2. 注入 ApplicationContext applicationContext 用于在接收到请求接口信息后，获取对应的 Bean 对象。
 3. 根据请求来的 Bean 对象，以及参数的必要信息。进行接口的反射调用。
 4. 最后一步，就是把接口反射请求的信息，再通过 Socket 返回回去。
 
-### 2. 接口反射 - 调用方
+### 2. 接口代理 - 调用方
 
 打开工程：[xfg-dev-tech-dubbo-test](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-dubbo-test)
 
@@ -397,7 +397,7 @@ public class RPCProxyBeanFactory implements FactoryBean<IUserService>, Runnable 
 }
 ```
 
-这段代码主要提供的功能包括；
+这段代码主要提供的功能包括：
 1. 实现  `FactoryBean<IUserService>` 为的是把这样一个代理对象，交给 Spring 容器管理。
 2. 实现 Runnable 接口，并在接口中，创建 Netty 的 Socket 客户端。客户端中接收来自服务端的消息，并临时存放到缓存中。**注意 Dubbo 中这块的处理会复杂一些，以及请求同步响应通信，这样才能把各个接口的调动记录下来**
 3. `getObject()` 对象中，提供代理操作。代理里，就可以自己想咋搞咋搞了。而 Dubbo 也是在代理里，提供了如此的操作，对接口提供方发送请求消息，并在超时时间内返回接口信息。因为反射调用，需要你`提供类`、`方法`、`入参类型`、`入参内容`，所以我们要把这些信息传递给接口提供方。
