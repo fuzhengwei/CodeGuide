@@ -12,7 +12,7 @@ lock: need
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?aid=955906479&bvid=BV1DW4y1o7Vd&cid=1198523013&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-本文的宗旨在于通过简单干净实践的方式教会读者，使用 SpringBoot 配置 MyBatis 并完成对插入、批量插入、修改、查询以及注解事务和编程事务的使用，通过扩展插件开发对置顶字段进行加解处理。
+本文的宗旨在于通过简单干净实践的方式教会读者，使用 SpringBoot 配置 MyBatis 并完成对插入、批量插入、修改、查询以及注解事务和编程事务的使用，通过扩展插件开发对指定字段进行加解处理。
 
 此外本文也通过此案例，渗透讲解 DDD 模型中的聚合对象、实体对象和值对象在领域模型中的实践。
 
@@ -47,7 +47,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-mybatis-03.png?raw=true" width="450px">
 </div>
 
-此场景的业务用于对指定的用户进行**晋升加薪调幅**，但因为加薪会需要操作3个表，包括；雇员表 - 修改个人Title、薪资表 - 修改薪酬、调薪记录表 - 每一次加薪都写一条记录。
+此场景的业务用于对指定的用户进行**晋升加薪调幅**，但因为加薪会需要操作3个表，包括：雇员表 - 修改个人Title、薪资表 - 修改薪酬、调薪记录表 - 每一次加薪都写一条记录。
 
 ### 1. model
 
@@ -124,7 +124,7 @@ public class AdjustSalaryApplyOrderAggregate {
     private String orderId;
     /** 雇员实体 */
     private EmployeeEntity employeeEntity;
-    /** 雇员实体 */
+    /** 雇员调薪实体 */
     private EmployeeSalaryAdjustEntity employeeSalaryAdjustEntity;
 
 }
@@ -208,7 +208,7 @@ public interface IEmployeeDAO {
 </insert>
 ```
 
-- 使用配置文件的方式比较好维护，当然如果也可以尝试使用 MyBatis 提供的注解方式，完成数据的操作。
+- 使用配置文件的方式比较好维护，当然也可以尝试使用 MyBatis 提供的注解方式，完成数据的操作。
 
 ### 2. 事务&注解编程
 
