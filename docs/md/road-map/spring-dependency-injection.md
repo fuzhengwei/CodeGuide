@@ -22,7 +22,7 @@ lock: need
 
 **你可以不用，但不能不会！**
 
-在小傅哥带着大家做的实战项目中「 [https://gaga.plus](https://gaga.plus) 」，有着大量的高级编程技巧和设计模式结合运用的手段，帮你打开能”拿捏“写代码的强悍能力。这些能力都是越早积累越好，否则你以为，为啥一边人有喊着寒冬，一遍有人拿着高薪。
+在小傅哥带着大家做的实战项目中「 [https://gaga.plus](https://gaga.plus) 」，有着大量的高级编程技巧和设计模式结合运用的手段，帮你打开能”拿捏“写代码的强悍能力。这些能力都是越早积累越好，否则你以为，为啥一边有人喊着寒冬，一边有人拿着高薪。
 
 >文末提供了整合案例源码，以及5个业务应用级项目，5个技术组件项目。🛫 
 
@@ -36,18 +36,18 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-spring-dependency-injection-01.png" width="400px">
 </div>
 
-- config；工程所需的配置类对象的使用案例。
-- domain；一个接口多个实现类、实现类优先级创建、原型对象、Spring 加载的对象。
-- infrastructure；仓储注解实例化对象的使用。
-- trigger；list注入、map注入、依赖注入，对象初始和销毁的监听。
-- ApiTest；测试各类注入案例的验证。
+- config：工程所需的配置类对象的使用案例。
+- domain：一个接口多个实现类、实现类优先级创建、原型对象、Spring 加载的对象。
+- infrastructure：仓储注解实例化对象的使用。
+- trigger：list注入、map注入、依赖注入，对象初始和销毁的监听。
+- ApiTest：测试各类注入案例的验证。
 
 ## 二、实践案例
 
 **实例化注解**：
 
 - `@Component`：组件注解
-- `@Serivice`：服务注解
+- `@Service`：服务注解
 - `@Repository`：仓储注解，提供对持久化类数据的操作的服务。
 - `@Controller/@RestController()`：对外提供服务的注解。
 
@@ -80,7 +80,7 @@ public Response<String> distributeAward(@RequestParam String userId, @RequestPar
 }
 ```
 
-- **场景**：IAwardService 接口有多个实现类，可以通过 @Resource、@Autowired 注解注入，也可以通过构造函数注入。在 Spring 官网文档中，是推荐使用构造函数注入的；`The Spring team generally advocates constructor injection, as it lets you implement application components as immutable objects and ensures that required dependencies are not null.` [https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
+- **场景**：IAwardService 接口有多个实现类，可以通过 @Resource、@Autowired 注解注入，也可以通过构造函数注入。在 Spring 官网文档中，是推荐使用构造函数注入的：`The Spring team generally advocates constructor injection, as it lets you implement application components as immutable objects and ensures that required dependencies are not null.` [https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html](https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-collaborators.html)
 - **用途**：Map 注入是一个非常好的注入手段，我们可以把每个 IAwardService 实现类设定好 Bean 的名称为数据库中的奖品 awardKey。在发奖的时候，可以直接根据 awardKey 从 Map 中获取到对应的 Bean 对象，这样也就省去了 `if···else` 大量的判断操作。
 
 ### 2. 空注入判断
@@ -160,7 +160,7 @@ public String redisson02() {
 @ConfigurationProperties(prefix = "sdk.config", ignoreInvalidFields = true)
 public class AutoConfigProperties {
 
-    /** 状态；open = 开启、close 关闭 */
+    /** 状态：open = 开启、close 关闭 */
     private boolean enable;
     /** 转发地址 */
     private String apiHost;
@@ -184,7 +184,7 @@ sdk:
 ```
 
 - **场景**：模拟创建 createTopic，入参的对象为注入的操作，@Qualifier 注解可以指定要注入哪个名字的对象。之后 `@ConditionalOnProperty` 注解可以通过配置的 enabled 值，来确定是否实例化对象。
-- **用途**：这个场景场景是非常使用的，比如你做了一个组件，或者业务中要增加一些配置。启动或关闭某些服务，就可以使用了。而不需要把 pom 中引入的组件注释掉。
+- **用途**：这个场景是非常使用的，比如你做了一个组件，或者业务中要增加一些配置。启动或关闭某些服务，就可以使用了。而不需要把 pom 中引入的组件注释掉。
 
 ### 6. 自定义Condition，判断是否实例化对象
 
