@@ -14,6 +14,9 @@ actionLinks:
 - link: https://gaga.plus
   text: 项目 💐
   class: secondary    
+- link: https://618.gaga.plus
+  text: 3.8元/月(云服务器) ☁️
+  class: secondary
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。

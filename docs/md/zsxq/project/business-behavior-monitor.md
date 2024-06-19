@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1705944556&bvid=BV13T421Y7CW&cid=1587275219&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 可以这么说，作为一个想卷到好一些公司，拿到高薪资Offer的程序员，就没有一个只是做CRUD业务流程开发的。他们的简历上，基本都是业务项目不错，又具备开发轮子的手段。轮子的意思就是一个个独立于业务，对于同类功能凝练而成的通用技术类组件，解决同类的共性问题。因此减少业务系统重复功能建设，提高开发效率。`所以一般简历上业务 + 技术，往往是很亮眼的。`
