@@ -290,6 +290,43 @@ sudo systemctl restart docker
 - 参考链接：https://cloud.tencent.com/developer/article/2301228
 - 可信镜像中心：[https://atomhub.openatom.cn/](https://atomhub.openatom.cn/)
 
+**上面的镜像源配置可能失效了，再试试下面的方法**
+
+背景说明：2024年6月，国内几家Docker Hub 镜像服务平台均被要求下架，停止服务。
+
+以下是一种解决方案：
+
+**配置镜像**
+
+```yaml
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+    "registry-mirrors": [
+        "https://do.nark.eu.org"
+    ]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
+
+**用法**
+原拉取镜像命令：
+```bash
+docker pull library/alpine:latest
+```
+
+加速拉取镜像命令：
+```bash
+docker pull do.nark.eu.org/library/alpine:latest
+```
+
+其实加速拉取镜像，就是在原拉取镜像前面加了 `do.nark.eu.org/` 前缀。
+
+- 参考链接：https://gitee.com/wanfeng789/docker-hub
+
+
 ### 13. 远程连接
 
 ```shell script
