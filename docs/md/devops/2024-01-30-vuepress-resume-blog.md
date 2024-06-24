@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1455955421&bvid=BV1ri421a7Aj&cid=1592730106&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 不少小伙伴都想放在简历上放一个动态博客链接，展示自己的过往技术经历和可运行的项目展示。通过这样的方式提高自己在面试中的竞争力。但因为没做过，又不知道从哪开始，找的一些案例教程又都很复杂。所以，小傅哥来帮你一下，让你SoEasy的搞定这东西。

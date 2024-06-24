@@ -47,7 +47,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "小傅哥, bugstack 虫洞栈, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
+            content: "小傅哥, bugstack 虫洞栈, 实战项目, 应用项目, 面试项目, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ['script',
@@ -453,16 +453,16 @@ module.exports = {
                             {
                                 text: 'PDF —— 加入星球免费获取', items: [
                                     {
-                                        text: '免费《字节码编程手册》(密码：Rlxbh1ia)',
-                                        link: 'http://pan.bugstack.cn/?dl=05b281eff1476e2c22eb5114ced0dc4d'
+                                        text: '免费《字节码编程手册》',
+                                        link: 'https://drive.weixin.qq.com/s?k=ACMA4AfQABUJWQ0P92'
                                     },
                                     {
                                         text: '免费《重学Java设计模式》——旧版PDF(密码：FWchEAF6)',
-                                        link: 'http://pan.bugstack.cn/?dl=431e114a26f810655d29b6dea54a680f'
+                                        link: 'https://drive.weixin.qq.com/s?k=ACMA4AfQABUg04LF5X'
                                     },
                                     {
-                                        text: '免费《倚天村 • 图解数据结构》(密码：0SjbAlPa)',
-                                        link: 'http://pan.bugstack.cn/?dl=dbed614f318bf9fc9d3b034ba9502a3c'
+                                        text: '免费《倚天村 • 图解数据结构》',
+                                        link: 'https://drive.weixin.qq.com/s?k=ACMA4AfQABUm2EZtFm'
                                     },
                                     {
                                         text: '付费《Java 面经手册》',
@@ -663,7 +663,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(7)",
+            title: "发布部署(8)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -674,6 +674,7 @@ function genBarGuide() {
                 "ssl.md",
                 "jenkins.md",
                 "buddy.md",
+                // "github-actions-workflows.md",
             ]
         },
         {
@@ -2243,6 +2244,7 @@ function getBarBigMarket() {
                 "extra/big-market-v2.md",
                 "extra/big-market-v3.md",
                 "extra/big-market-v4.md",
+                "extra/big-market-v5.md",
             ]
         }
     ]

@@ -26,7 +26,7 @@ lock: no
 	<img src="https://bugstack.cn/images/article/project/big-market/big-market-introduce-phase-2-03.png" width="750px"/>
 </div>
 
->文末可加入项目课程学习，一次加入可理解获得11个项目学习、4套基础教程、4套技术小册、1套手写源码和86个场景设计案例。
+>文末可加入项目课程学习，一次加入可立即获得11个项目学习、4套基础教程、4套技术小册、1套手写源码和86个场景设计案例。
 
 ## 一、课程大纲
 
