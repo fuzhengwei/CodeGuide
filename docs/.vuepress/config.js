@@ -674,7 +674,7 @@ function genBarGuide() {
                 "ssl.md",
                 "jenkins.md",
                 "buddy.md",
-                // "github-actions-workflows.md",
+                "github-actions-workflows.md",
             ]
         },
         {
