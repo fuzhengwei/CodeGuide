@@ -24,7 +24,7 @@ lock: need
 
 ## 一、案例背景
 
-首先我们要知道，MQ 消息的作用是用于；`解耦过长的业务流程`和`应对流量冲击的消峰`。如；用户下单支付完成后，拿到支付消息推动后续的发货流程。也可以是我们基于 [《MyBatis 使用教程和插件开发》](https://bugstack.cn/md/road-map/mybatis.html) 中的案例场景，给雇员提升级别和薪资的时候，也发送一条MQ消息，用于发送邮件通知给用户。
+首先我们要知道，MQ 消息的作用是用于：`解耦过长的业务流程`和`应对流量冲击的消峰`。如：用户下单支付完成后，拿到支付消息推动后续的发货流程。也可以是我们基于 [《MyBatis 使用教程和插件开发》](https://bugstack.cn/md/road-map/mybatis.html) 中的案例场景，给雇员提升级别和薪资的时候，也发送一条MQ消息，用于发送邮件通知给用户。
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-rocketmq-01.png" width="650px">
@@ -43,9 +43,9 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-rocketmq-02.png" width="850px">
 </div>
 
-- 首先，我们需要在领域模型层，添加一块 event 区域。它的存在是为了定义出于当前领域下所需的事件消息信息。信息的类型可以是model 下的实体对象、聚合对象。
+- 首先，我们需要在领域模型层，添加一块 event 区域。它的存在是为了定义出在当前领域下所需的事件消息信息。信息的类型可以是model 下的实体对象、聚合对象。
 - 之后，消息的发送是放在基础设置层。本身基础设置层就是依赖倒置于模型层，所以在模型层所定义的 event 对象，可以很方便的在基础设置层使用。而且大部分开发的时候，MQ消息的发送与数据库操作都是关联的，采用的方式是，做完数据落库后，推送MQ消息。所以定义在仓储中实现，会更加得心应手、水到渠成。
-- 最后，就是 MQ 的消息，MQ 的消费可以是自身服务所发出的消息，也可以是外部其他微服务的消息。就在小傅哥所整体讲述的这套简明教程中 DDD 部分的触发器层。
+- 最后，就是 MQ 的消费，MQ 的消费可以是自身服务所发出的消息，也可以是外部其他微服务的消息。就在小傅哥所整体讲述的这套简明教程中 DDD 部分的触发器层。
 
 ## 三、环境安装
 
@@ -55,7 +55,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-rocketmq-03.png" width="450px">
 </div>
 
-这里主要介绍 RocketMQ 的安装；
+这里主要介绍 RocketMQ 的安装：
 
 ### 1. 执行 compose yml
 
@@ -65,7 +65,7 @@ lock: need
 version: '3'
 services:
   # https://hub.docker.com/r/xuchengen/rocketmq
-  # 注意修改项；
+  # 注意修改项：
   # 01：data/rocketmq/conf/broker.conf 添加 brokerIP1=127.0.0.1
   # 02：data/console/config/application.properties server.port=9009 - 如果8080端口被占用，可以修改或者添加映射端口
   rocketmq:
@@ -87,7 +87,7 @@ services:
 - 在 IDEA 中打开 rocketmq-docker-compose-mac-amd-arm.yml 你会看到一个绿色的按钮在左侧侧边栏，点击即可安装。或者你也可以使用命令安装：`# /usr/local/bin/docker-compose -f /docs/dev-ops/environment/environment-docker-compose.yml up -d` - 比较适合在云服务器上执行。
 - 首次安装可能使用不了，一个原因是 brokerIP1 未配置IP，另外一个是默认的 8080 端口占用。可以按照如下小傅哥说的方式修改。
 
-### 2. 修改默认配合
+### 2. 修改默认配置
 
 1. 打开 `data/rocketmq/conf/broker.conf` 添加一条 `brokerIP1=127.0.0.1` 在结尾
 
@@ -162,7 +162,7 @@ RocketMQ 此镜像，会在安装后在控制台打印登录账号信息，你�
 </div>
 
 - MQ 的使用无论是 RocketMQ 还是 Kafka 等，都很简单。但在使用之前，要考虑好怎么在架构中合理的使用。如果最初没有定义好这些，那么胡乱的任何地方都能发送和接收MQ，最后的工程将非常难以维护。
-- 所以这里整个MQ的生产和消费，是按照整个 DDD 领域事件结构进行设计。分为在 domain 使用基础层生产消息，再有 trigger 层接收消息。
+- 所以这里整个MQ的生产和消费，是按照整个 DDD 领域事件结构进行设计。分为在 domain 使用基础层生产消息，再由 trigger 层接收消息。
 
 ### 2. 配置文件
 
@@ -199,7 +199,7 @@ rocketmq:
     sendMessageTimeout: 10000
     # 发送消息失败重试次数，默认2
     retryTimesWhenSendFailed: 2
-    # 异步消息重试此处，默认2
+    # 异步消息重试次数，默认2
     retryTimesWhenSendAsyncFailed: 2
     # 消息最大长度，默认1024 * 1024 * 4(默认4M)
     maxMessageSize: 4096
@@ -311,7 +311,7 @@ public String adjustSalary(AdjustSalaryApplyOrderAggregate adjustSalaryApplyOrde
 }
 ```
 
-在 SalaryAdjustRepository 仓储的实现中，做完业务流程开始发送 MQ 消息。这里有2点要注意；
+在 SalaryAdjustRepository 仓储的实现中，做完业务流程开始发送 MQ 消息。这里有2点要注意：
 1. 消息发送，不要写在数据库事务中。因为事务一直占用数据库连接，需要快速释放。
 2. 对于一些强MQ要求的场景，需要在发送MQ前，写入一条数据库 Task 记录，发送消息后更新 Task 状态为成功。如果长时间未更新数据库状态或者为失败的，则需要由任务补偿进行处理。
 
