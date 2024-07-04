@@ -12,7 +12,7 @@ lock: need
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?aid=659288536&bvid=BV1Dh4y1C75i&cid=1223326697&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-本文的宗旨在于通过简单干净实践的方式教会读者，多种类型的任务执行组件使用案例，包括；Quartz 使用、扩展 Spring-Schedule 自动增加任务、XXL-Job 分布式任务调度。其中像 Spring-Schedule 小傅哥还添加了一些 Spring 组件开发的能力可自动扩展任务、对 XXL-Job 的配置引入了 Docker Compose 自动化安装和自动初始化 MySQL 数据库 xxl-job.sql 库表数据。这些都是为了让你在不同的场景选择合适的框架，同时也能更简单的使用这些框架。
+本文的宗旨在于通过简单干净实践的方式教会读者，多种类型的任务执行组件使用案例，包括：Quartz 使用、扩展 Spring-Schedule 自动增加任务、XXL-Job 分布式任务调度。其中像 Spring-Schedule 小傅哥还添加了一些 Spring 组件开发的能力可自动扩展任务、对 XXL-Job 的配置引入了 Docker Compose 自动化安装和自动初始化 MySQL 数据库 xxl-job.sql 库表数据。这些都是为了让你在不同的场景选择合适的框架，同时也能更简单的使用这些框架。
 
 本章节的任务调度组件会放到 DDD 的 Trigger 模块中，也就是触发器层。我们认为所有的调用行为，HTTP、RPC、MQ、任务，都是一个触发的入口，所以对于任务调度也放到这一层使用。
 
@@ -23,7 +23,7 @@ lock: need
 
 ## 一、案例背景
 
-任务调度是一个非常重要的功能组件，常作用于；定时清理数据 - 冷数据迁移、活动状态扫描 - 过期活动关闭、消息发送补偿 - MQ失败重发、支付掉单补偿 - 支付幂等重试，等各类场景都会用到任务调度组件。它可以帮我们执行确定规则的业务或功能流程。
+任务调度是一个非常重要的功能组件，常作用于：定时清理数据 - 冷数据迁移、活动状态扫描 - 过期活动关闭、消息发送补偿 - MQ失败重发、支付掉单补偿 - 支付幂等重试，等各类场景都会用到任务调度组件。它可以帮我们执行确定规则的业务或功能流程。
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-quartz-01.png" width="650px">
@@ -118,9 +118,9 @@ services:
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-quartz-04.png" width="850px">
 </div>
 
-- 在 IDEA 中打开 rocketmq-docker-compose-mac-amd-arm.yml 你会看到一个绿色的按钮在左侧侧边栏，点击即可安装。或者你也可以使用命令安装：`# /usr/local/bin/docker-compose -f /docs/xxl-job/xxl-job-docker-compose.yml up -d` - 比较适合在云服务器上执行。
+- 在 IDEA 中打开 xxl-job-docker-compose.yml 你会看到一个绿色的按钮在左侧侧边栏，点击即可安装。或者你也可以使用命令安装：`# /usr/local/bin/docker-compose -f /docs/xxl-job/xxl-job-docker-compose.yml up -d` - 比较适合在云服务器上执行。
 - 在 compose 中提供了 xxl-job 所需要的库的依赖安装，以及自动加载文件下的初始化库表数据。这个库表数据来自于 xxl-job sql：[https://gitee.com/xuxueli0323/xxl-job/blob/master/doc/db/tables_xxl_job.sql](https://gitee.com/xuxueli0323/xxl-job/blob/master/doc/db/tables_xxl_job.sql) - `这里小傅哥把 SQL 文件下载到了本地，用于初始化安装使用`
-- 标签；`depends_on` - 依赖于谁先安装、`MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'` - 可以设置MySQL无密码安装、`mysql-job-dbdata` - 一个启动安装数据库初始化脚本的镜像。并且需要在 MySQL 安装时使用 `volumes_from` 标签引入。
+- 标签：`depends_on` - 依赖于谁先安装、`MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'` - 可以设置MySQL无密码安装、`mysql-job-dbdata` - 一个启动安装数据库初始化脚本的镜像。并且需要在 MySQL 安装时使用 `volumes_from` 标签引入。
 
 ### 2. 访问 xxl-job
 
@@ -205,7 +205,7 @@ public class XXLJob {
 </dependency>
 ```
 
-- 分别包括；Quartz、XXL-Job 两个组件
+- 分别包括：Quartz、XXL-Job 两个组件
 
 **添加配置**
 
