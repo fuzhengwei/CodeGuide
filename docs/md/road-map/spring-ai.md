@@ -24,8 +24,6 @@ lock: need
 
 接下来，小傅哥会分享 Spring AI + Gpt-4o 的对接使用，以及介绍如何开发应用级的 OpenAI 项目。
 
->文末提供了 OpenAI 应用级实战项目地址，今天加入的伙伴都送 50万 Token Gpt-4o APIKey，对接学习使用。
-
 ## 一、简单介绍
 
 Spring AI 项目，是为开发 AI 应用程序提供了 Spring 友好的 API 和抽象。所有的大模型对接（OpenAI、Ollama、Azure OpenAI、Amazon Bedrock、HuggingFace、Google VertexAI、Mistral AI）都以一种统一标准的形式进行。这样就减少了大家再额外开发对接的成本了，也不用维护和兼容各个 OpenAI 的接口迭代。
