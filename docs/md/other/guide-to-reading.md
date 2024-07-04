@@ -4,25 +4,33 @@ title: 编码指南
 
 # bugstack虫洞栈 | 程序员的编码指南 🔥
 
->你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。
+>你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html)、[《手写MyBatis：渐进式源码实践》](https://item.jd.com/13811216.html) 图书作者，一线互联网 Java 工程师、架构师。
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?aid=298298421&bvid=BV1FF41137q5&cid=578551972&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-一个着迷于技术又喜欢不断折腾的技术活跃者，从13年毕业到进入互联网，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，编写过技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP！
+我是一个着迷于技术，又喜欢不断折腾的技术活跃者，从13年毕业到进入互联网，开发过交易、营销类项目，实现过运营、活动类项目，设计过中间件，组织过系统重构，发表过数十篇技术专利。不仅从事业务系统的开发工作，也经常做一些字节码插桩类的设计和实现，对架构的设计和落地有丰富的经验。在热衷于Java语言的同时，也喜欢研究中继器、I/O板卡、C#和PHP！
 
 除此之外小傅哥并不只满足于CRUD搬砖，也关心业务、运营、产品、数据、测试、运维等各项知识体系的完善学习，就研发架构设计来讲，更全面的学习会更有利于做出更长远的架构设计。同时完善个人知识体系也更有利于个人成长。
 
-所以你会看到小傅哥在工作之外的深夜、周末、假期会折腾于写文章、编小册、出书籍，并十分热情于对粉丝的交流、提问、解惑。并不深沉且少许逗比的我，希望能给大家带来最接地气的帮助和成长。
+所以你会看到小傅哥在工作之外的深夜、周末、假期会折腾于写文章、编小册、出书籍，并十分热情于对粉丝的交流、提问、解惑。并不深沉且少许逗比的我，希望我的沉淀，分享，也可以给你带来收获！
 
 ---
 
 ⏰ **提醒**：在接下来你对本博客的阅读中，如果遇到一些`内容`、`图稿`、`代码`等中的勘误都可以提交Issue或者PR的方式进行反馈，小傅哥会陆续进行完善，感谢您的支持；
-- Issue：[https://github.com/fuzhengwei/CodeGuide/issues](https://github.com/fuzhengwei/CodeGuide/issues)
-- PR：[https://github.com/fuzhengwei/CodeGuide/pulls](https://github.com/fuzhengwei/CodeGuide/pulls) - 你只需要在阅读文章的最下面找到`在 GitHub 上编辑此页`，即可完成克隆和提交PR
-- 考试：[100道八股题考试测验](https://bugstack.cn/md/zsxq/material/exam.html) —— 你可以尝试验证自己的能力，考题范围：数据结构、算法、源码、设计模式、系统架构、中间件、网络通信、实战项目、扩展问题
-- 本站为公众号往期文章整理的小册，关注`公众号`：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 可以知晓最新推文，避免错过最近正在更新的技术系列文章。
-- 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack` - 交个朋友👬🏻，不要错过成为技术同好的机会。
-- 加入星球：[码农会锁](https://bugstack.cn/md/zsxq/introduce.html) - 你可以获得本站所有学习内容的**指导**和**帮助**，还可以学习实战项目！`☕️一顿饭钱的支持，突破技术瓶颈` **小妙招**：关注公众号：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 回复：`星球` 可以获取优惠券
+
+- 贡献
+  - Issue：[https://github.com/fuzhengwei/CodeGuide/issues](https://github.com/fuzhengwei/CodeGuide/issues)
+  - PR：[https://github.com/fuzhengwei/CodeGuide/pulls](https://github.com/fuzhengwei/CodeGuide/pulls) - 你只需要在阅读文章的最下面找到`在 GitHub 上编辑此页`，即可完成克隆和提交PR
+  
+- 学习
+  - 博客 [小傅哥虫洞栈](https://bugstack.cn/) 具备丰富的企业级实战技能，可以综合提高自己的全方面架构、技术、项目、运维，方面知识积累。
+  - 项目 [星球「码农会锁」](https://bugstack.cn/md/zsxq/introduce.html) - 具有非常多的实战类业务项目、组件项目、开源项目等，☕️一顿饭钱的支持，突破技术瓶颈`！
+  - 演示 [嘎嘎强，嘎嘎哒学](https://gaga.plus/) - 应用级实战项目运行演示平台。用户可以体验项目运行效果，并学习每个功能的实现方案。
+
+- 其他
+	- 考试：[100道八股题考试测验](https://bugstack.cn/md/zsxq/material/exam.html) —— 你可以尝试验证自己的能力，考题范围：数据结构、算法、源码、设计模式、系统架构、中间件、网络通信、实战项目、扩展问题
+	- 本站为公众号往期文章整理的小册，关注`公众号`：[bugstack虫洞栈](https://bugstack.cn/images/personal/qrcode.png) 可以知晓最新推文，避免错过最近正在更新的技术系列文章。
+	- 其他：如果你在学习本站内容遇到不能解决的问题，可以联系作者：`小傅哥`，微信：`fustack` - 交个朋友👬🏻，不要错过成为技术同好的机会。
 
 <div align="center">
     <img src="https://bugstack.cn/images/system/zsxq/xingqiu-231018-01.png?raw=true" width="700px">
@@ -37,13 +45,14 @@ title: 编码指南
 
 而这几大块内容也是每一个较贵的 Java 程序员应该掌握的内容，可以包括：
 
+- **编程路书**：开发一套[《Java简明学习路书》](https://bugstack.cn/md/road-map/road-map.html)，通过一个个小案例，为大家讲解这些技术栈的运用。帮助踏上这条路上的伙伴，以更简单明了的方式进入编程学习。最后再通过完整的项目实战，把这些技术栈串联起来运用。
 - **Java&Spring**：以讲解Java、Spring核心知识为基础，用数学逻辑思维分析关于Java、Spring、Mybatis、Dubbo等核心源码技术内容。其中如[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)是一本以面试题为入口讲解 Java 核心内容的技术书籍，书中内容极力的向你证实代码是对数学逻辑的具体实现。包括正在编写的[《手撸 Spring》](https://bugstack.cn/md/spring/develop-spring/2021-05-16-%E7%AC%AC1%E7%AB%A0%EF%BC%9A%E5%BC%80%E7%AF%87%E4%BB%8B%E7%BB%8D%EF%BC%8C%E6%89%8B%E5%86%99Spring%E8%83%BD%E7%BB%99%E4%BD%A0%E5%B8%A6%E6%9D%A5%E4%BB%80%E4%B9%88%EF%BC%9F.html)通过手写简化版 Spring 框架，了解 Spring 核心原理。在手写的过程中会简化 Spring 源码，摘取整体框架中的核心逻辑，简化代码实现过程，保留核心功能，例如：IOC、AOP、Bean生命周期、上下文、作用域、资源处理等内容实现。这些都程序员学习技术成长过程中非常重要的知识，如果能深入学习那么对以后的个人成长帮助非常大。
 - **算法逻辑和数据结构**：这部分内容主要以Java源码为入手，讲解其中的数学知识，包括：扰动函数、负载因子、拉链寻址、开放寻址、斐波那契（Fibonacci）散列法还有黄金分割点的使用等等，这也正是[《Java 面经手册》](https://bugstack.cn/md/project/pdf/2021-01-26-Java%E9%9D%A2%E7%BB%8F%E6%89%8B%E5%86%8CPDF%E4%B8%8B%E8%BD%BD.html)的核心内容所在。
 - **面向对象**：[《Java 设计模式》](https://item.jd.com/13218336.html)的知识是在Java基础铺平，数据结构、算法逻辑有了一定的了解后，在深入学习和使用的技术。同样是一个需求在学过设计模式后，也阅读了不少别人优秀的代码，那么在他实现需求的时候，会拆分出很多的接口和接口的继承、抽象类的职责隔离实现、具体业务模块的分层、功能服务组件的细化、具体实现过程中对设计模式的运用等等。这样的代码实现后会非常具有易扩展和可维护的特点，否则一篇的ifelse不是坑自己就是坑下一个人。
 - **中间件**：可能很大一部分研发并不会接触到中间件，也不太可能有人告诉你可以使用中间件的方式解决一些实际遇到的问题。因为大部分时候你都会认为中间件只是公司专门部门的人写的，或者是技术大牛搞的，总之与你没关系。但其实代码知识对数学逻辑的具体实现，业务开发有业务开发的方式，[《Spring 中间件和开发》](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)也只是对Spring的关于容器中一些特定接口和类的使用，具体的还是普通的逻辑代码，比如暴露服务、采集日志、监控系统等。但如果你能早些学到这样技术的核心思想，那么对于升值、加薪、跳槽，都是非常有帮助的。
 - **通信专题**：其实Netty是一项非常重要的技术，比如在RPC服务实现中的Dubbo、或者MQ、以及很多时候的通信里都是能用到的技术。就连小傅哥的第一次面试大厂也是靠着对Netty的学习，刷进来的！所以小傅哥编写了很多Netty从基础入门讲解到核心原理，告诉你如何处理半包、粘包，怎样定义消息协议，并开发了一个基于Netty的仿微信聊天项目，这些技术内容你都可以在我的博客学习到学习到。
 - **字节码编程**：这项技术可能大多数研发，哪怕35岁的，可能也不一定接触到。但这样的技术你却基本都用过，比如你的IDEA是购买的吗，你怎么给让它能用的！你用过一些非入侵的全链路监控系统的，你通过字节码插桩搞过一些事情吗，那你用过Cglib吧，它的底层就是通过ASM字节码框架对字节码进行的一些列操作。
-- **实战项目**：以实战项目的方式学习互联网大厂开发中应用到的技术，通过这样的实践方式把一些学习的技术应用起来，而不是单单的去背资料，但最终不知道该如何把这些技术内容综合起来使用。所以这里小傅哥以实战项目为主，推出：[Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)
+- **实战项目**：以实战项目的方式学习互联网大厂开发中应用到的技术，通过这样的实践方式把一些学习的技术应用起来，而不是单单的去背资料，但最终不知道该如何把这些技术内容综合起来使用。所以这里小傅哥以实战项目为主，推出：[大营销平台系统](https://bugstack.cn/md/project/big-market/big-market.html)、[OpenAi 大模型应用服务](https://bugstack.cn/md/project/chatgpt/chatgpt.html)、[Lottery 分布式抽奖系统](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)、[透视业务监控系统](https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html)、[动态线程池组件](https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html)、[API网关](https://bugstack.cn/md/assembly/api-gateway/api-gateway.html)等众多项目。
 - **关于**：除了技术学习以外，还有很多伙伴会经常问我一些关于学习、成长以及在职场中怎么活下去。所以我结合我自己在大厂互联网中的学习和成长经历，给读者伙伴写了不少此类的内容。如简历编写、招聘要求、技术资料、代码规范、评审晋升、薪资待遇、副业收入等等。这些内容可能很多会帮助你度过一个安定的职场生涯！
 
 ## 二、学习路线参考
@@ -55,7 +64,7 @@ title: 编码指南
 - Java 面经手册：[https://download.csdn.net/download/Yao__Shun__Yu/14932325](https://download.csdn.net/download/Yao__Shun__Yu/14932325)
 - 重学Java设计模式：[https://download.csdn.net/download/Yao__Shun__Yu/19265731](https://download.csdn.net/download/Yao__Shun__Yu/19265731)
 - SpringBoot 中间件设计和开发：[https://juejin.cn/book/6940996508632219689](https://juejin.cn/book/6940996508632219689)
-- 🔥Lottery 抽奖系统 - DDD 分布式实践：[https://t.zsxq.com/jAi2nUf](https://t.zsxq.com/jAi2nUf)
+- 🔥Lottery Plus 大营销平台系 - DDD 分布式架构技术实践：[https://t.zsxq.com/199mpn9Lt](https://t.zsxq.com/199mpn9Lt)
 - [更多项目](https://gaga.plus)
 
 ## 三、算法
@@ -187,7 +196,38 @@ title: 编码指南
 
 ## 十、实战项目
 
-### 1. IM Netty 仿PC端微信
+### 1. 业务类型
+
+#### 1.1 大营销平台系统
+
+项目：[https://bugstack.cn/md/project/big-market/big-market.html](https://bugstack.cn/md/project/big-market/big-market.html)
+
+这个新项目，结合小傅哥已经带着大家完成的 OpenAi 大模型应用业务场景，做上层的营销活动。这就像互联网公司中有了电商、外卖、出行等场景一样，在场景之上做营销活动。所以我们的新项目是 **《大营销平台系统》**！因为小傅哥的星球之前做过了一个抽奖，那么这个项目会用新的DDD架构，对抽奖系统进行重构，并扩展出`营销账户`、`用户返利`、`积分兑换`等服务，完成一整套的营销平台功能。💥
+
+![](https://bugstack.cn/images/article/project/big-market/roadmap-ddd-stc-05.png)
+
+#### 1.2 OpenAi 大模型应用服务体系构建 - API-SDK、鉴权、公众号、企业微信、支付服务
+
+项目：[https://bugstack.cn/md/project/chatgpt/chatgpt.html](https://bugstack.cn/md/project/chatgpt/chatgpt.html)
+
+此项目以围绕类似 ChatGPT 生成式服务，构建微服务应用架构体系组件。包括；用户鉴权、公众号、多方支付、企业微信等对接方式，满足不同诉求的使用。并以模块化设计，积木式构建应用，让不同的场景诉求都可以配置化对接。
+
+![](https://bugstack.cn/images/article/project/chatgpt/chatgpt-230422-01.png?raw=true)
+
+#### 1.3 Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
+
+- 地址：[Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)
+- 介绍：`Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。
+
+![](https://bugstack.cn/images/article/project/lottery/introduce/system-list.png)
+
+在此项目中你会学习到互联网公司关于C端项目开发时候用到的一些，技术、架构、规范等内容。由于项目为实战类编程项目，在学习的过程中需要上手操作，小傅哥会把系统的搭建拉不同的分支列为每一个章节进行设计和实现并记录到开发日记中，读者在学习的过程中可以结合这部分内容边看文章边写代码实践。
+
+- 技术：SpringBoot、Mybatis、Dubbo、MQ、Redis、Mysql、ELK、分库分表、Otter
+- 架构：DDD 领域驱动设计、充血模型、设计模式
+- 规范：分支提交规范、代码编写规范
+
+#### 1.4 IM Netty 仿PC端微信
 
 - 地址：[IM Netty 仿PC端微信](https://bugstack.cn/md/project/im/2020-03-04-%E3%80%8ANetty+JavaFx%E5%AE%9E%E6%88%98%EF%BC%9A%E4%BB%BF%E6%A1%8C%E9%9D%A2%E7%89%88%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E3%80%8B.html)
 - 介绍：🎭 本项目是作者小傅哥使用JavaFx、Netty4.x、SpringBoot、Mysql等技术栈和偏向于DDD领域驱动设计方式，搭建的仿桌面版微信实现通信核心功能。课程文章已发布到GitChat专栏，欢迎购买。
@@ -203,7 +243,39 @@ title: 编码指南
 
 **第三章节**：**功能实现**。这部分我们主要将通信中的各项功能逐步实现，包括；登录、添加好友、对话通知、消息发送、断线重连等各项功能。最终完成整个项目的开发，同时也可以让你从实践中学会技能。
 
-### 2. 《SpringBoot 中间件设计和开发》
+### 2. 组件类型
+
+#### 2.1 透视业务流程 - 监控系统
+
+项目：[https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html](https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html)
+
+本次项目会采用基于扩展 logback 日志上报数据进行 ognl 配置节点公式的方式进行采集、计算和可视化渲染。在这套项`小而美，小而精`的组件项目中，你可以学习到非常多的实战技能。
+
+这套`透视业务流程的监控系统`，与 `Prometheus + Grafana`、`Skywalking` 有较大的差异。这两款监控都是系统健康度监控，而小傅哥带着大家做的是业务流程监控。*很多中大厂，也都有同类的业务系统*
+
+![img](https://bugstack.cn/images/article/project/business-behavior-monitor/business-behavior-monitor-03.png)
+
+#### 2.2 动态线程池组件实现
+
+项目：[https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html](https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html)
+
+本次带着大家做的这款动态线程池组件项目，也是各个中大厂中都非常常见的组件能力。通过这样的学习，以中大厂的经验补充自身的技术积累，让自己的简历和职业生涯都有东西可讲。
+
+我们知道，线程池（Thread Pool），是一种基于池化思想管理线程的工具，用于降低资源消耗、提高响应速度、提高线程的管理性。池化技术的引入，可以有效的减少线程频繁申请/销毁和调度所带来的额外开销。对于池化思想，我们还能看到；内存池、连接池、化粪池。
+
+![](https://bugstack.cn/images/article/project/dynamic-thread-pool/dynamic-thread-pool-01.png)
+
+#### 2.3 支付SDK设计和开发
+
+项目：[https://bugstack.cn/md/zsxq/project/ltzf-sdk-java.html](https://bugstack.cn/md/zsxq/project/ltzf-sdk-java.html)
+
+在面试中详细了解得知，不少伙伴压根是没有做支付的。而是一个假的模拟支付，修改数据库状态，当做支付而已。这样做有个很大的问题就是没法全面的了解支付流程，包括在`掉单`、`幂等`、`透传`、`回调`等方面的业务是很难清晰的理解的。所以在面试过程中也就压根不知道支付这一块。但不写支付，又觉得整个项目不完整，并且很多公司面试都会问一些支付的内容。那怎么办😰呢？
+
+小傅哥在带着大家做的项目和小场景中，有做过微信支付，支付宝沙箱支付，但想做真实的支付一般是需要个体户或者公司主体的。不过好在市面还有一些专门提供给个人使用的支付，比如；蓝兔、虎皮椒、PayJS。这些支付中，小傅哥测试验证了蓝兔支付，为它提供了一款SDK，让大家像使用微信支付一样简单的使用蓝兔支付。
+
+![](https://bugstack.cn/images/article/project/ltzf-sdk-java/ltzf-sdk-java-04.png)
+
+#### 2.4 《SpringBoot 中间件设计和开发》
 
 - 地址：[《SpringBoot 中间件设计和开发》](https://bugstack.cn/md/project/springboot-middleware/2021-03-31-%E3%80%8ASpringBoot%20%E4%B8%AD%E9%97%B4%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%92%8C%E5%BC%80%E5%8F%91%E3%80%8B%E4%B8%93%E6%A0%8F%E5%B0%8F%E5%86%8C%E4%B8%8A%E7%BA%BF%E5%95%A6%EF%BC%81.html)
 - 介绍：说到底，为什么要扒开CRUD的表面，深入到核心源码实践学一些中间件开发技能，还不是希望自己对技术栈学习有一定的深度，免得面试时被人忽悠压薪资。就像人家问你：类的代理、反射调用是在什么场景用到的？ 自定义注解是怎么和切面一起获取到信息使用的？你需要的yml配置信息是如何被SpringBoot加载并初始化的？Bean 是如何被注入到 Spring 容器，提供服务的？综上，等等这些技术点可能很多时候你所学到的只能称作为背答案、记结果，因为没有实操所以过后就忘而且也扛不住面试官的接连发问。
@@ -217,20 +289,18 @@ title: 编码指南
 - **服务治理**：熔断、降级、限流、切量、黑白名单以及对现有方法的非入侵式扩展增强等，都可以成为是服务治理类组件，原本这类技术在早期是与业务逻辑代码融合的，后来逐步被拆解出来，开发成对应的组件。所以我们可以学习到，关于这类组件的包装、集成是如何做的。
 - **字节码&插件**：在互联网的系统应用运维过程中，你一定会接触到各类的监控系统，而很多监控系统是非入侵的全链路监控，那么这些是如何实现的呢？其实它们是基于字节码插桩，对系统方法的增强，采集相应的运行时信息，进行监控的。再到扩展 JVMTI、IDEA 插件开发，都是为了整个研发过程的可持续交付和上线提高交付质量和降低人效的。
 
+#### 2.5 API网关
+
+项目：[https://bugstack.cn/md/assembly/api-gateway/api-gateway.html](https://bugstack.cn/md/assembly/api-gateway/api-gateway.html)
+
+API网关系统用于统一管理RPC（Dubbo）通信接口，通过协议解析和泛化调用统一对外提供HTTP服务的系统。这套系统是微服务架构设计，分为核心通信、启动引擎、注册中心、管理平台以及上报接口服务。这套API网关也是随着对公司传统庞大的单体应用（All in one）拆分为众多的微服务（Microservice）以后，所引入的统一通信管理系统。用于运行在外部HTTP请求与内部RPC服务之间的一个流量入口，实现对外部请求的协议转换、参数校验、鉴权、切量、熔断、限流、监控、风控等各类共性的通用服务。
+
+![img](https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-0-04.png?raw=true)
+
+这是一整套API网关的核心通信模型结构图，以API网关算力的多套服务注册到网关中心开始，拉取RPC应用接口并完成映射HTTP调用操作。最终允许用户通过 Nginx 访问和路径重写的负载均衡管理，调用到具体的网关算力中执行协议解析和RPC接口的泛化调用并最终返回结果数据。
+
 **综上**，这些贯穿整个互联网系统架构中的各类典型中间件，都会在后续章节中陆续讲解出来，它们是如何设计和实现的，一点点带你解开中间件的神秘面纱，让你的技术栈知识也增加一些有深度的并且是可以亲自操作的内容。
 
-### 3. Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践
-
-- 地址：[Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/project/lottery/introduce/Lottery%E6%8A%BD%E5%A5%96%E7%B3%BB%E7%BB%9F.html)
-- 介绍：`Lottery 抽奖系统` 项目是一款互联网面向C端人群营销活动类的抽奖系统，可以提供抽奖活动玩法策略的创建、参与、记账、发奖等逻辑功能。在使用的过程中运营人员通过创建概率类奖品的抽奖玩法，对用户进行拉新、促活、留存，通常这样的系统会用在电商、外卖、出行、公众号运营等各类场景中。
-
-![](https://bugstack.cn/images/article/project/lottery/introduce/system-list.png)
-
-在此项目中你会学习到互联网公司关于C端项目开发时候用到的一些，技术、架构、规范等内容。由于项目为实战类编程项目，在学习的过程中需要上手操作，小傅哥会把系统的搭建拉不同的分支列为每一个章节进行设计和实现并记录到开发日记中，读者在学习的过程中可以结合这部分内容边看文章边写代码实践。
-
-- 技术：SpringBoot、Mybatis、Dubbo、MQ、Redis、Mysql、ELK、分库分表、Otter
-- 架构：DDD 领域驱动设计、充血模型、设计模式
-- 规范：分支提交规范、代码编写规范
 
 ## 📚PDF 下载
 
