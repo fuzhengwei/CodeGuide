@@ -12,7 +12,7 @@ pay: https://t.zsxq.com/19aanGm3U
 
 - **本章难度**：★★★☆☆
 - **本章重点**：完善接口功能，增加策略加锁key的过期时间，修复一些bug
-- **课程视频**：https://t.zsxq.com/19fVwshWT](https://t.zsxq.com/19fVwshWT)
+- **课程视频**：[https://t.zsxq.com/19wIzfZxN](https://t.zsxq.com/19wIzfZxN)
 
 **版权说明**：©本项目与星球签约合作，受[《中华人民共和国著作权法实施条例》](http://www.gov.cn/zhengce/2020-12/26/content_5573623.htm) 版权法保护，禁止任何理由和任何方式公开(public)源码、资料、视频等内容到Github、Gitee等，违反可追究进一步的法律行动。
 
