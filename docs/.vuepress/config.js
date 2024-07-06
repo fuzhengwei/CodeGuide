@@ -2176,6 +2176,7 @@ function getBarBigMarket() {
             children: [
                 "dev-ops/第1节：使用脚手架创建工程.md",
                 "dev-ops/第2节：第一阶段完成抽奖部署.md",
+                "dev-ops/第3节：引入Nacos+Dubbo框架.md",
             ]
         },
         {
