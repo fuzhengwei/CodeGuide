@@ -396,6 +396,10 @@ module.exports = {
                             {
                                 text: '组件类型', items: [
                                     {
+                                        text: 'OpenAI 代码自动评审',
+                                        link: 'https://bugstack.cn/md/zsxq/project/openai-code-review.html'
+                                    },
+                                    {
                                         text: '透视业务流程-监控系统',
                                         link: 'https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html'
                                     },
@@ -584,11 +588,12 @@ function genBarGuide() {
             ]
         },
         {
-            title: "系统架构(5)",
+            title: "系统架构(6)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "mvc.md",
+                "ddd-guide-01.md",
                 "ddd.md",
                 "ddd-model.md",
                 "mvc2ddd.md",
@@ -1778,6 +1783,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/openai-code-review.md",
                 "project/business-behavior-monitor.md",
                 "project/dynamic-thread-pool.md",
                 "project/ltzf-sdk-java.md",
