@@ -1,9 +1,9 @@
 ---
-title: DDD 是什么？
+title: DDD 概念
 lock: need
 ---
 
-# 《DDD 小册》第1章：DDD 是什么？—— 你以前只会用 Service + 贫血模型！
+# DDD 是什么？—— 你以前只会用 Service + 贫血模型！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
