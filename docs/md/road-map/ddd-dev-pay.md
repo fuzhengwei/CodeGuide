@@ -1,5 +1,5 @@
 ---
-title: DDD 架构 - 交易域
+title: DDD 架构场景 - 交易域
 lock: need
 ---
 

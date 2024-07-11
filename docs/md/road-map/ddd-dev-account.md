@@ -1,5 +1,5 @@
 ---
-title: DDD 架构 - 账户域
+title: DDD 架构场景 - 账户域
 lock: need
 ---
 
