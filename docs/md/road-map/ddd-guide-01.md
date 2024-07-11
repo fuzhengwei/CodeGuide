@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1056091126&bvid=BV1oH4y1w7mN&cid=1610478439&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 DDD 是什么，这应该是每个想使用 DDD 开发项目的研发伙伴，遇到的第一个疑问，只有搞清楚它到底是什么才好上手使用。而 DDD 既不是 MVC 一样的工程结构，也不能直接等同于微服务架构，更不是一种设计模式。
