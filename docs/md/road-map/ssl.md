@@ -26,7 +26,7 @@ lock: need
 
 ## 一、产品介绍
 
-[freessl.cn](https://freessl.cn/) 一个提供免费HTTPS证书申请的网站。已实测体验，确实挺好用。
+[freessl.cn](https://freessl.cn/) 一个提供免费HTTPS证书申请的网站。已实测体验，确实挺好用。另外还有一套 [httpsok.com](https://httpsok.com/?p=4kMR) 也提供了免费的 SSL 自动续签证书。
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-ssl-01.png" width="850px">
