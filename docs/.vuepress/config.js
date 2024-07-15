@@ -680,6 +680,7 @@ function genBarGuide() {
                 "jenkins.md",
                 "buddy.md",
                 "github-actions-workflows.md",
+                "private-docker-hub.md",
             ]
         },
         {
