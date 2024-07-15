@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1706135645&bvid=BV15T421k71h&cid=1616649307&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 这不稳，那不行。这鲜族人过年，要了狗命了！但凡真正进入开发快车道的伙伴，就几乎离不开 DockerHub 的使用，包括拉取 mysql、redis、kafka、nacos 等环境镜像，也包括自己的应用构建镜像。不少伙伴都哭喊，这没法用，写代码都不香啦！
