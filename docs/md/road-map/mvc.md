@@ -1,5 +1,5 @@
 ---
-title: MVC 架构
+title: MVC 架构设计
 lock: need
 ---
 

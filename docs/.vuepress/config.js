@@ -594,6 +594,7 @@ function genBarGuide() {
             children: [
                 "mvc.md",
                 "ddd-guide-01.md",
+                "ddd-guide-02.md",
                 "ddd.md",
                 "ddd-model.md",
                 "mvc2ddd.md",

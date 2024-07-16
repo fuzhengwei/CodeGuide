@@ -1,5 +1,5 @@
 ---
-title: DDD 架构
+title: DDD 架构设计
 lock: need
 ---
 

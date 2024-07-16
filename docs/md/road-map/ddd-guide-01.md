@@ -1,5 +1,5 @@
 ---
-title: DDD 概念
+title: DDD 概念理论
 lock: need
 ---
 

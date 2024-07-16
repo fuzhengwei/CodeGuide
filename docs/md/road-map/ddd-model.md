@@ -1,5 +1,5 @@
 ---
-title: DDD 建模
+title: DDD 建模案例
 lock: need
 ---
 
