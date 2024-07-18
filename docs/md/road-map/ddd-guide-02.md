@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1356220874&bvid=BV1oz421q7x3&cid=1618776762&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 四色建模（风暴事件）是整个 DDD 这套软件设计方法中用于工程拆分界限上下文的非常重要的实践手段。通过建模过程快速识别业务领域中的关键事件和核心流程，也是在这个过程中设计出领域对象的，为后面详细设计和代码开发做指导。
