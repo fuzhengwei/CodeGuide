@@ -123,7 +123,32 @@ Git 附带了用于提交 ( [git-gui](https://git-scm.com/docs/git-gui) ) 和浏
 
 - Git 提供了操作的客户端界面，你可以按需下载使用。
 
-## 五、操作手册
+## 五、开发规范
+
+**分支命名**：日期_姓名首字母缩写_功能单词，如：`210804_xfg_buildFramework`
+
+**提交规范**：`作者，type: desc` 如：`小傅哥，fix：修复查询用户信息逻辑问题` *参考Commit message 规范*
+
+```java
+# 主要type
+feat:     增加新功能
+fix:      修复bug
+
+# 特殊type
+docs:     只改动了文档相关的内容
+style:    不影响代码含义的改动，例如去掉空格、改变缩进、增删分号
+build:    构造工具的或者外部依赖的改动，例如webpack，npm
+refactor: 代码重构时使用
+revert:   执行git revert打印的message
+
+# 暂不使用type
+test:     添加测试或者修改现有测试
+perf:     提高性能的改动
+ci:       与CI（持续集成服务）有关的改动
+chore:    不修改src或者test的其余修改，例如构建过程或辅助工具的变动
+```
+
+## 六、操作手册
 
 - 文档：[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2) - `可以直接对照着操作，练习命令`
 - PDF：[https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf](https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf)
