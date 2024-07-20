@@ -2220,6 +2220,7 @@ function getBarBigMarket() {
                 "api/第26节：积分领域调额服务.md",
                 "api/第27节：积分支付兑换商品.md",
                 "api/第29节：分布式动态配置活动降级.md",
+                "api/第30节：分布式动态限流和熔断.md",
                 "none.md",
             ]
         },
