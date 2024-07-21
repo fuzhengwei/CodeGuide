@@ -1753,6 +1753,7 @@ function getBarZSXQ() {
                 "material/guide.md",
                 "material/student-learn-all.md",
                 "material/student-learn-line.md",
+                "material/student-learn-recruit.md",
             ]
         },
         {
