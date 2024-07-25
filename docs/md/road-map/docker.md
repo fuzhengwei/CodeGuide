@@ -115,13 +115,13 @@ Available Packages
 [root@CodeGuide ~]# sudo yum install docker-ce
 ```
 
-- 安装默认最新版本的 Docker
+- 安装默认最新版本的 Docker `最新版本可能有坑，最好指定版本安装`
 
 ```java
 [root@CodeGuide ~]# sudo yum install <FQPN>
 ```
 
-- 安装指定版本，例如：sudo yum install docker-ce-20.10.11.ce
+- 安装指定版本，例如：`yum install -y docker-ce-25.0.5 docker-ce-cli-25.0.5 containerd.io`
 
 ### 7. 安装Docker-Compose
 
