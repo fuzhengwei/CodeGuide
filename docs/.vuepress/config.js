@@ -588,13 +588,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "系统架构(6)",
+            title: "系统架构(9)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "mvc.md",
                 "ddd-guide-01.md",
                 "ddd-guide-02.md",
+                "ddd-guide-03.md",
                 "ddd.md",
                 "ddd-model.md",
                 "mvc2ddd.md",
