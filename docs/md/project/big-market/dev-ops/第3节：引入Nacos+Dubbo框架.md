@@ -1,6 +1,6 @@
 ---
 title: 第3节：引入Nacos+Dubbo框架
-pay: https://t.zsxq.com/17HkS0CI0
+pay: https://t.zsxq.com/rl0FE
 ---
 
 # 《大营销平台系统设计实现》 - 开发运维 第3节：引入Nacos+Dubbo框架
