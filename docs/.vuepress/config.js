@@ -2223,6 +2223,7 @@ function getBarBigMarket() {
                 "api/第27节：积分支付兑换商品.md",
                 "api/第29节：分布式动态配置活动降级.md",
                 "api/第30节：分布式动态限流和熔断.md",
+                "api/第31节：分库分表数据同步ES.md",
                 "none.md",
             ]
         },
