@@ -570,7 +570,7 @@ function genBarOther() {
 function genBarGuide() {
     return [
         {
-            title: "简明教程(1)",
+            title: "简明教程(2)",
             collapsable: false,
             sidebarDepth: 2,
             children: [
@@ -579,7 +579,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "工程脚手架(1)",
+            title: "工程脚手架(2)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -617,7 +617,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(14)",
+            title: "开发技术(15)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -670,7 +670,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(8)",
+            title: "发布部署(10)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -683,6 +683,7 @@ function genBarGuide() {
                 "buddy.md",
                 "github-actions-workflows.md",
                 "private-docker-hub.md",
+                "docker-idea.md",
             ]
         },
         {
