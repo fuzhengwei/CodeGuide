@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=1556278601&bvid=BV1P142187rg&cid=1636946677&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 我遇到过不少粉丝伙伴因为自己是老 Windows 电脑，部署项目费劲的问题。因为本身 Java 开发完成以后就是部署到 Linux 服务器的，而 Windows 压根不是 Linux 系统。所以不是装虚拟机，就是装 Docker 来模拟这些环境，但很多时候都差强人意，尤其是配置低的 Windows 又跑不动，这咋办！
