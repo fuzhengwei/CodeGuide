@@ -1,5 +1,5 @@
 ---
-title: DDD 脚手架【Maven 仓库版】
+title: DDD 脚手架【Maven 在线版】
 lock: need
 ---
 
@@ -20,7 +20,8 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-archetype-01.png" width="850px">
 </div>
 
-【备用地址 http://maven.gaga.plus/ 】- 如果配置 https://gaga.plus 不可用，可以使用备用地址。
+- 配置地址 https://gaga.plus
+- ddd-scaffold-lite 提供了默认版本和 v2 版本。v2 做了少量调整。将 repository、port 统一归属到 adapter 下管理。
 
 ---
 

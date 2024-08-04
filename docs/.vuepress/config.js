@@ -372,6 +372,10 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
+                                        text: '小型支付电商系统(新)',
+                                        link: '/md/project/s-pay-mall/s-pay-mall.md'
+                                    },
+                                    {
                                         text: '大营销平台系统',
                                         link: '/md/project/big-market/big-market.md'
                                     },
@@ -541,6 +545,7 @@ module.exports = {
                     "/md/project/im/": getBarProjectIM(),
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
                     "/md/project/big-market/": getBarBigMarket(),
+                    "/md/project/s-pay-mall/": getBarSPayMall(),
                     "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
@@ -1776,6 +1781,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/s-pay-mall.md",
                 "project/big-market.md",
                 "project/chatgpt.md",
                 "project/lottery.md",
@@ -2152,6 +2158,76 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.1.md",
                 "extra/ChatGPT-v1.2.md",
                 "extra/ChatGPT-v1.3.md",
+            ]
+        }
+    ]
+}
+
+function getBarSPayMall() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "s-pay-mall.md",
+            ]
+        },
+        {
+            title: "第1部分：架构理论",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-1/第1节：DDD 架构概念.md",
+                "part-1/第2节：DDD 建模方法.md",
+                "part-1/第3节：DDD 工程模型.md",
+            ]
+        },
+        {
+            title: "第2部分：需求设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第1节：小型支付商城需求设计.md",
+                "part-2/第2节：支付商城四色建模设计.md",
+                "part-2/第3节：支付订单场景表设计.md",
+            ]
+        },
+        {
+            title: "第3部分：功能实现 MVC",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-3-mvc/第1节：MVC 工程框架搭建.md",
+                "part-3-mvc/第2节：微信公众号鉴权.md",
+                "part-3-mvc/第3节：登录功能实现.md",
+                "part-3-mvc/第4节：商品下单.md",
+                "part-3-mvc/第5节：对接支付.md",
+                "part-3-mvc/第6节：支付回调.md",
+            ]
+        },
+        {
+            title: "第3部分：功能实现 DDD",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-3-ddd/第1节：DDD 工程框架搭建.md",
+                "part-3-ddd/第2节：DDD 重构，微信公众号鉴权.md",
+                "part-3-ddd/第3节：DDD 重构，登录功能实现.md",
+                "part-3-ddd/第4节：DDD 重构，商品下单.md",
+                "part-3-ddd/第5节：DDD 重构，对接支付.md",
+                "part-3-ddd/第6节：DDD 重构，支付回调.md",
+            ]
+        },
+        {
+            title: "第4部分：开发运维",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-4/第1节：natapp 内网穿透.md",
+                "part-4/第2节：微信公众号测试评审申请.md",
+                "part-4/第3节：支付宝沙箱申请.md",
+                "part-4/第4节：项目上线.md",
             ]
         }
     ]

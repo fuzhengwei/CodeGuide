@@ -27,6 +27,7 @@ lock: no
 ## 一、软件安装
 
 地址：[https://git-scm.com/downloads](https://git-scm.com/downloads) - `选择需要的版本下载`
+演示：[https://learngitbranching.js.org/](https://learngitbranching.js.org/) - `可直接查看动画效果`
 
 ### 1. Mac
 
