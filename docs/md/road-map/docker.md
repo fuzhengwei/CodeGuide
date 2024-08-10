@@ -36,6 +36,7 @@ uname -r
 sudo yum update
 ```
 
+
 ```java
 Last metadata expiration check: 1:15:10 ago on Sat 27 Nov 2021 04:22:53 PM CST.
 Dependencies resolved.
@@ -45,6 +46,25 @@ Complete!
 
 - `sudo yum update`
 - 看到显示 `Complete` 就代表完成了，整个过程需要 5-10 分钟左右
+
+注意：可能会更新失败，那就操作以下指令
+
+~~~~bash
+## 建议备份当前的 yum 源配置，以防万一需要恢复
+sudo cp /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.bak
+
+## 从阿里云下载 CentOS 7 的 yum 源配置文件并替换现有的配置
+sudo curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
+
+## 清理旧的缓存并生成新的缓存
+sudo yum clean all
+sudo yum makecache
+
+## 再次更新
+sudo yum update
+~~~~
+
+
 
 ### 3. 安装Docker所需的依赖包
 
