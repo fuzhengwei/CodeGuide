@@ -2302,6 +2302,7 @@ function getBarBigMarket() {
                 "api/第30节：分布式动态限流和熔断.md",
                 "api/第31节：分库分表数据同步ES.md",
                 "api/第32节：ES-ORM多数据源配置使用.md",
+                "api/第33节：xxl-job分布式任务调度.md",
                 "none.md",
             ]
         },
