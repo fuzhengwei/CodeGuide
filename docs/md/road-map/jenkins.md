@@ -118,6 +118,7 @@ Jenkins Docker 执行安装脚本。
 </div>
 
 - 1~2步，设置镜像源，设置后重启一下 Jenkins。
+  镜像源地址：https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
 - 3~4步，下载插件，先下载安装 chinese 汉化插件，方便不太熟悉 Jenkins 的伙伴更好的知道页面都是啥内容。
 - 5步，所有的插件安装完成后，都需要重启才会生效。`安装完 chinese 插件，重启在进入到 Jenkins 就是汉化的页面了`
 - 除了以上步骤，你还需要同样的方式安装 maven、git、docker 插件。
