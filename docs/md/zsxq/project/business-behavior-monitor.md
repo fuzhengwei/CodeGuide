@@ -21,18 +21,6 @@ lock: no
     <img src="https://bugstack.cn/images/article/project/business-behavior-monitor/business-behavior-monitor-01.png" width="150px">
 </div>
 
-**根据投票，我们先卷这业务透视监控系统**
-
-开始的早，经历的久，在这趟职场生涯中，小傅哥的肚子里积累了非常多的实战经验的。所以小傅哥也计划着陆续的带着大家做出这些应用级别的实战项目。为了看看小伙伴们想先学哪个，小傅哥发起了投票。[投票地址](https://mp.weixin.qq.com/s/TULYFHzxQkgnXnU_Oq99hQ)
-
-<div align="center">
-    <img src="https://bugstack.cn/images/article/project/business-behavior-monitor/business-behavior-monitor-02.png" width="550px">
-</div>
-
-按照投票所展示，排序为；业务透视监控(440票)，优惠券系统(403票)、阶梯拉新(239票)、自动Mock组件(195票)、工程链路地图(132票)、礼账系统(62票)、问卷系统(62票)。
-
-按照投票结果，小傅哥带着大家，启动第一个组件项目，《业务透视监控》教给大家如何采集`系统数据`、`链路分析`、`数据解析`、`可视化渲染等`。
-
 >🧧 文末有优惠加入学习二维码，可以获得除了本文《业务透视监控》外，还有5个业务项目 + 5个组件项目。
 
 ## 一、能学到啥

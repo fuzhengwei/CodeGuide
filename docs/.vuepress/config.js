@@ -665,13 +665,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控(3)",
+            title: "质量监控(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "skywalking.md",
                 "grafana.md",
                 "elk.md",
+                "dump-mat.md",
             ]
         },
         {
