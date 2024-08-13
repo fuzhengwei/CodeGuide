@@ -164,16 +164,22 @@
 
             },
             getToken: async function () {
-				// 浏览器 Cookie true 不限制
-				if(navigator.cookieEnabled){
-					let value = this.getCookie('BAEID');
-					if (!value) {
-						return await this.getFingerprintId();
-					}
-					return value.substring(value.length - 6).toUpperCase();
-				} else{
-					return await this.getFingerprintId();
-				}
+                // 浏览器 Cookie true 不限制
+                if(navigator.cookieEnabled){
+                  let value = this.getCookie('BAEID');
+                  if (!value) {
+                    return await this.getFingerprintId();
+                  }
+
+                  if (value.length <= 12) {
+                      return value.substring(value.length - 6).toUpperCase();
+                  }
+
+                  const currentMonth = new Date().getMonth() + 1; // 获取当前月份（JavaScript 中月份是从 0 开始的）
+                  return value.substring(currentMonth, currentMonth + 6).toUpperCase();
+                } else{
+                  return await this.getFingerprintId();
+                }
                 // return await this.getFingerprintId();
             },
             getFingerprintId: function () {
