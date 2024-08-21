@@ -676,7 +676,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(10)",
+            title: "发布部署(11)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -685,6 +685,7 @@ function genBarGuide() {
                 "portainer.md",
                 "nginx.md",
                 "ssl.md",
+                "ssl-httpsok.md",
                 "jenkins.md",
                 "buddy.md",
                 "github-actions-workflows.md",
