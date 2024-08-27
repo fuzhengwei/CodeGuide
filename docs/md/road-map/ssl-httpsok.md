@@ -192,6 +192,29 @@ services:
 
 这个自动部署非常重要，有了它我们就不用操心是什么时候过期，手动处理了！
 
+如果执行 `crontab -l `缺失命令，则按照下面安装；
+
+1. 进入容器【确保你的Nginx名称是nginx，如果是Nginx更换下】：
+
+   ```sh
+   docker exec -it nginx /bin/bash
+   ```
+
+2. 编辑 `/etc/apt/sources.list` 文件。你可以使用 `nano` 或 `vim`，如果这些编辑器没有安装，可以使用 `echo` 和 `cat` 命令手动编辑。例如：
+
+   ```sh
+   echo 'deb http://deb.debian.org/debian bookworm main' > /etc/apt/sources.list
+   echo 'deb http://security.debian.org/debian-security bookworm-security main' >> /etc/apt/sources.list
+   echo 'deb http://deb.debian.org/debian bookworm-updates main' >> /etc/apt/sources.list
+   ```
+
+3. 安装 `cron`：
+
+   ```sh
+   apt-get update
+   apt-get install -y cron
+   ```
+
 ### 1. 获取脚本
 
 <div align="center">
@@ -213,6 +236,7 @@ services:
 </div>
 
 - 从 Docker Portainer 中的 Nginx 进入执行脚本。
+- 如果提示 `crontab not exits` 可以执行 crontab 安装。
 
 ### 3. 安装查看
 
@@ -221,6 +245,12 @@ services:
 </div>
 
 - 如上表示自动部署正常，当证书剩余15天过期后，会自动部署。
+- 服务器查看
+
+    ```java
+    root@9c0f0d45b3e6:/# crontab -l
+    50 11 * * * '/root/.httpsok/httpsok.sh' -m -r >> '/root/.httpsok/httpsok.log' 2>&1
+    ```
 
 ### 4. 证书监控
 
