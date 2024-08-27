@@ -244,6 +244,12 @@ services:
 </div>
 
 - 如上表示自动部署正常，当证书剩余15天过期后，会自动部署。
+- 服务器查看
+
+    ```java
+    root@9c0f0d45b3e6:/# crontab -l
+    50 11 * * * '/root/.httpsok/httpsok.sh' -m -r >> '/root/.httpsok/httpsok.log' 2>&1
+    ```
 
 ### 4. 证书监控
 
