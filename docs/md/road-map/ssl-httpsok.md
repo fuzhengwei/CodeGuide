@@ -236,6 +236,7 @@ services:
 </div>
 
 - 从 Docker Portainer 中的 Nginx 进入执行脚本。
+- 如果提示 `crontab not exits` 可以执行 crontab 安装。
 
 ### 3. 安装查看
 
