@@ -1134,6 +1134,7 @@ function genBarDevelopDesignPattern() {
             sidebarDepth: 0,
             children: [
                 "2022-03-12-重学Java设计模式B站视频.md",
+                "2024-08-25-chain-tree.md",
             ]
         },
         {
