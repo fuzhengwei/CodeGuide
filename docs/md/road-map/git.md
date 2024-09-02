@@ -146,7 +146,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7eYQiDe46Jq5CJ6vXtIiM0hxUKKgCoSFIkSQucsZo
 
 ### 4. 配置ssh秘钥
 
-#### 4.1 github.com
+#### 4.1 gitcode.net
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-02.png" width="600px">
@@ -154,7 +154,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7eYQiDe46Jq5CJ6vXtIiM0hxUKKgCoSFIkSQucsZo
 
 - 秘钥配置地址：[https://gitcode.net/-/profile/keys](https://gitcode.net/-/profile/keys)
 
-#### 4.2 gitcode.net 
+#### 4.2 github.com
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-03.png" width="600px">
