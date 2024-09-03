@@ -1,6 +1,6 @@
 ---
 title: 第1-3节 DDD 工程模型
-lock: https://t.zsxq.com/iPuAe
+pay: https://t.zsxq.com/iPuAe
 ---
 
 # 《小型支付商城系统》第1-3节 DDD 工程模型

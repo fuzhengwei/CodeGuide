@@ -622,7 +622,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(15)",
+            title: "开发技术(16)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -634,6 +634,7 @@ function genBarGuide() {
                 "kafka.md",
                 "quartz.md",
                 "mysql.md",
+                "mysql-time-zone.md",
                 "db-router.md",
                 "sharding-jdbc.md",
                 "connection-pool.md",
