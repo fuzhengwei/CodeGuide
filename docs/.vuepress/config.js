@@ -677,7 +677,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(11)",
+            title: "发布部署(12)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -692,6 +692,7 @@ function genBarGuide() {
                 "github-actions-workflows.md",
                 "private-docker-hub.md",
                 "docker-idea.md",
+                "frp.md",
             ]
         },
         {
@@ -2527,6 +2528,7 @@ function genBarAbout() {
                 "job/2023-03-19-你简历没项目，你得遭老罪喽！.md",
                 "job/2023-07-11-面试官都问你啥了.md",
                 "job/2023-09-13-工作内推.md",
+                "job/2024-09-08-阿里P7，就是很多人的天花板吗？.md",
             ]
         }
     ];
