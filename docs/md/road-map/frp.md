@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=113121469400785&bvid=BV1uR4jesE3Z&cid=25830556905&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 作为一个研发人员，我们经常有诉求把本机正在开发阶段的应用，通过本地部署的方式让外部其他人进行访问验证。尤其是一些给远程远程客户演示的时候，也是非常需要这样的服务。但本机并不是公网IP，都是内网的，怎么样外部访问呢？
