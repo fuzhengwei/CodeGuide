@@ -1,9 +1,9 @@
 ---
 title: 第4-1节：natapp 内网穿透
-pay: 
+pay: https://t.zsxq.com/qM7uL
 ---
 
-# 《小型支付商城系统》第4-1节：Natapp 内网穿透
+# 《小型支付商城系统》第4-1节：natapp 内网穿透
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
