@@ -1869,6 +1869,7 @@ function getBarZSXQ() {
                 "memorabilia/student-offer.md",
                 "memorabilia/project-plan-v2406.md",
                 "memorabilia/xiaofuge-team.md",
+                "memorabilia/java-interview-experience.md",
             ]
         }
     ]
