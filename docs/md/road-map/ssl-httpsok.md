@@ -137,12 +137,14 @@ server {
 
 #### 1.2 修改证书
 
+#### 方式1
+
 ```java
 version: '3'
 # docker-compose -f docker-compose.yml up -d
 services:
   nginx:
-    image: nginx:1.25.3
+    image: nginx:alpine
     container_name: nginx
     ports:
       - '443:443'
@@ -158,6 +160,35 @@ services:
 ```
 
 - 脚本映射了 ssl、conf.d 等文件内容。
+
+#### 方式2
+
+```java
+# 命令执行 docker-compose up -d
+# docker-compose -f docker-compose-nginx.yml up -d
+# 自动部署 https https://httpsok.com/doc/faq/docker-nginx.html
+version: '3.9'
+services:
+  # yum install -y httpd-tools
+  nginx:
+    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:latest
+    container_name: nginx
+    restart: always
+    ports:
+      - '443:443'
+      - '80:80'
+    environment:
+      HTTPSOK: https://httpsok.com/console/dashboard 写你的 token curl -s https://get.httpsok.com/ | bash -s 【这里的值】
+    volumes:
+      - ./nginx/logs:/var/log/nginx
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/conf/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/conf/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl/
+    privileged: true
+```
+
+- 官网说明：[https://httpsok.com/doc/faq/docker-nginx.html](https://httpsok.com/doc/faq/docker-nginx.html)
 
 ### 2. 上传文件
 
