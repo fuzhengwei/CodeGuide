@@ -677,7 +677,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(12)",
+            title: "发布部署(13)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -685,6 +685,7 @@ function genBarGuide() {
                 "docker.md",
                 "portainer.md",
                 "nginx.md",
+                "1panel.md",
                 "ssl.md",
                 "ssl-httpsok.md",
                 "jenkins.md",
@@ -2249,6 +2250,7 @@ function getBarBigMarket() {
             children: [
                 "big-market.md",
                 "ddd.md",
+                "system-design-diagram.md",
                 "notes.md",
             ]
         },
