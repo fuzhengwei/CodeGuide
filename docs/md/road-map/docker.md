@@ -259,13 +259,19 @@ sudo systemctl daemon-reload
 sudo systemctl restart docker
 ```
 
-**软件配置**
+可用镜像检测：[https://status.1panel.top/status/docker](https://status.1panel.top/status/docker)
+
+#### 12.1 本地Docker软件配置
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-01.png" width="850px">
+</div>
 
 ```yaml
 { "registry-mirrors" : [
-    "https://h1log1d5.mirror.aliyuncs.com",
-    "http://docker.mirrors.ustc.edu.cn",
-    "http://hub-mirror.c.163.com"
+    "https://docker.1panel.live",
+    "https://dc.j8.work",
+    "https://docker.m.daocloud.io"
   ],
   "builder": {
     "gc": {
@@ -288,7 +294,7 @@ sudo systemctl restart docker
 
 这样对国内服务器拉取Docker仓库影响比较大。不过得亏国内有Docker Hub镜像平台。有付费的，有免费的！
 
-**配置镜像**
+#### 12.2 Linux 配置 Docker 镜像
 
 ```yaml
 sudo mkdir -p /etc/docker
