@@ -2334,6 +2334,7 @@ function getBarBigMarket() {
             sidebarDepth: 0,
             children: [
                 "erp/第1节：初始后台运营页面.md",
+                "erp/第2节：querys模块提供查询接口.md",
             ]
         },
         {
