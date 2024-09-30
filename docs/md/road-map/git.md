@@ -47,7 +47,14 @@ Git 是一个软件工具，在使用前需要进行安装。
 - 地址：[https://git-scm.com/downloads](https://git-scm.com/downloads) - `选择需要的版本下载` 网盘资源：[https://www.alipan.com/s/LqwsNfHRx54](https://www.alipan.com/s/LqwsNfHRx54) - `也提供了 Git 软件，在 dev-ops -> 环境 -> git 下`
 - 演示：[https://learngitbranching.js.org/](https://learngitbranching.js.org/) - `可直接查看动画效果，引导式学习Git命令操作。`
 
+**配置代理**
 
+```java
+git config --global http.proxy ip:port
+git config --global https.proxy ip:port
+```
+
+- 如果你有代理地址可以配置
 
 ### 2.1 Mac
 
