@@ -104,6 +104,14 @@ sudo yum install git
 
 >你要做都是配置账户 ssh 秘钥，或者下载的时候输入 git 仓库账号密码（目前很多仓库为了安全，不在支持账号密码方式下载代码了。）
 
+**注意**：gitcode.com、github.com 都需要创建访问令牌当做账号密码的密码使用。而不是直接使用账号里你设置的那个密码。
+
+如 [https://gitcode.com/setting/token-classic](https://gitcode.com/setting/token-classic)
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-20.png" width="850px">
+</div>
+
 ### 1. 配置git账户
 
 ```java
