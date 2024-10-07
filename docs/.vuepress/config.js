@@ -1767,6 +1767,7 @@ function getBarZSXQ() {
                 "material/student-learn-all.md",
                 "material/student-learn-line.md",
                 "material/student-learn-recruit.md",
+                "material/student-learn-advanced.md",
             ]
         },
         {
@@ -2235,7 +2236,6 @@ function getBarSPayMall() {
                 "part-4/第1节：natapp 内网穿透.md",
                 "part-4/第2节：微信公众号测试评审申请.md",
                 "part-4/第3节：支付宝沙箱申请.md",
-                "part-4/第4节：项目上线.md",
             ]
         }
     ]
