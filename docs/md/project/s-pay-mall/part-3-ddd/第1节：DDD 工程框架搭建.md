@@ -1,9 +1,9 @@
 ---
-title: 第3-1节：MVC 工程框架搭建 + 基础配置 + Git 使用
-pay: https://t.zsxq.com/3X9GA
+title: 第3-1节：DDD 工程框架搭建 + 基础配置 + Git 使用
+pay: https://t.zsxq.com/bjFkO
 ---
 
-# 《小型支付商城系统》第3-1节：MVC 工程框架搭建 + 基础配置 + Git 使用
+# 《小型支付商城系统》第3-1节：DDD 工程框架搭建 + 基础配置 + Git 使用
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
