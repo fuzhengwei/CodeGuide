@@ -263,6 +263,10 @@ WARNING: ini format is deprecated and the support will be removed in the future,
 
 地址：[http://117.72.37.243:8080/api/test](http://117.72.37.243:8080/api/test)
 
+## 4. 同类产品
+
+- [EasyTier 一个简单、安全、去中心化的内网穿透 VPN 组网方案](https://www.easytier.top/)
+
 <div align="center">
 	<img src="https://bugstack.cn/images/roadmap/tutorial/road-map-frp-13.png" width="550px"/>
 </div>
