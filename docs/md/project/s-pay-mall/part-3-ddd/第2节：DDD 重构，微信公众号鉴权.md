@@ -1,6 +1,6 @@
 ---
 title: 第3-2节：DDD 重构，微信公众号鉴权
-pay: https://t.zsxq.com/3X9GA
+pay: https://t.zsxq.com/wBobE
 ---
 
 # 《小型支付商城系统》第3-2节：DDD 重构，微信公众号鉴权
