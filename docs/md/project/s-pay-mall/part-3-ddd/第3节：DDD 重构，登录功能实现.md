@@ -1,6 +1,6 @@
 ---
 title: 第3-3节：DDD重构，登录功能设计实现
-pay: https://t.zsxq.com/3X9GA
+pay: https://t.zsxq.com/Vc1Os
 ---
 
 # 《小型支付商城系统》第3-3节：DDD重构，登录功能设计实现
