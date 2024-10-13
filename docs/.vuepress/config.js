@@ -666,7 +666,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控(4)",
+            title: "质量监控(5)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -674,6 +674,7 @@ function genBarGuide() {
                 "grafana.md",
                 "elk.md",
                 "dump-mat.md",
+                "arthas.md",
             ]
         },
         {

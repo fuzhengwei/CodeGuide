@@ -1,6 +1,6 @@
 ---
 title: 第3-5节：DDD 重构，对接支付
-pay: https://t.zsxq.com/3X9GA
+pay: https://t.zsxq.com/NYvtw
 ---
 
 # 《小型支付商城系统》第3-5节：DDD 重构，对接支付
