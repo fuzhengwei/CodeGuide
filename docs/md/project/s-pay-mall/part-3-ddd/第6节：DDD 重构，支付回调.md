@@ -1,6 +1,6 @@
 ---
 title: 第3-6节：DDD 重构，支付回调处理
-pay: https://t.zsxq.com/3X9GA
+pay: https://t.zsxq.com/CWVQM
 ---
 
 # 《小型支付商城系统》第3-6节：DDD 重构，支付回调处理
