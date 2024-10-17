@@ -2214,6 +2214,8 @@ function getBarSPayMall() {
                 "part-3-mvc/第4节：商品下单.md",
                 "part-3-mvc/第5节：对接支付.md",
                 "part-3-mvc/第6节：支付回调.md",
+                "part-3-mvc/第7节：前端页面.md",
+                "part-3-mvc/第8节：Docker构建和部署.md",
             ]
         },
         {
@@ -2227,6 +2229,8 @@ function getBarSPayMall() {
                 "part-3-ddd/第4节：DDD 重构，商品下单.md",
                 "part-3-ddd/第5节：DDD 重构，对接支付.md",
                 "part-3-ddd/第6节：DDD 重构，支付回调.md",
+                "part-3-ddd/第7节：前端页面.md",
+                "part-3-ddd/第8节：Docker构建和部署.md",
             ]
         },
         {

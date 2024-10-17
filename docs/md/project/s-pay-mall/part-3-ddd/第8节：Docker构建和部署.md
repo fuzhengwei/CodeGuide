@@ -1,6 +1,6 @@
 ---
 title: 第3-8节：Docker构建和部署
-pay: https://t.zsxq.com/3X9GA
+pay: https://t.zsxq.com/8vXVI
 ---
 
 # 《小型支付商城系统》第3-8节：Docker构建和部署
