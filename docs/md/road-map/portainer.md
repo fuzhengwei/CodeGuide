@@ -36,6 +36,8 @@ docker.io/portainer/portainer:latest
 
 ### 2. 安装和启动
 
+**注意**：如果是阿里云服务器，还需要先执行 `docker volume crete portainer_data`
+
 ```java
 [root@CodeGuide]# docker run -d --restart=always --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```

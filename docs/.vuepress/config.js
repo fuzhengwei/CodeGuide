@@ -2353,6 +2353,7 @@ function getBarBigMarket() {
                 "extra/big-market-v4.md",
                 "extra/big-market-v5.md",
                 "extra/big-market-v6.md",
+                "extra/big-market-v7.md",
             ]
         }
     ]
