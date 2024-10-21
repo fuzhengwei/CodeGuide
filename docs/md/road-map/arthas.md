@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=113339371947965&bvid=BV1vTyaYeEHq&cid=26380012483&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 👬🏻 兄弟，你被看过手相不，你被号过脉相没。一个没与你生活过就知道你的过去和现在，一个不了解你的日常就知道你是否怀孕是男是女。而你自己亲手开发的Java代码，上线后报错都不知道怎么发生的！！！咋办？
