@@ -2343,6 +2343,16 @@ function getBarBigMarket() {
             ]
         },
         {
+            title: "第6部分：外部对接",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "distributed/第1节：对接OpenAI项目额度奖品接口.md",
+                "distributed/第2节：营销页面接口封装.md",
+                "distributed/第3节：RPC接口对接支付返利.md",
+            ]
+        },
+        {
             title: "番外 - 课程阶段产物",
             collapsable: false,
             sidebarDepth: 0,
