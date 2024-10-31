@@ -176,7 +176,9 @@
                   }
 
                   const currentMonth = new Date().getMonth() + 1; // 获取当前月份（JavaScript 中月份是从 0 开始的）
-                  return value.substring(currentMonth, currentMonth + 6).toUpperCase();
+                  const quarter = Math.floor((currentMonth - 1) / 3); // 计算当前季度
+                  const startIndex = quarter * 3; // 每个季度的起始索引
+                  return value.substring(startIndex, startIndex + 6).toUpperCase();
                 } else{
                   return await this.getFingerprintId();
                 }

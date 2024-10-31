@@ -179,6 +179,20 @@ lock: need
                     </execution>
                 </executions>
             </plugin>
+             <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -214,20 +228,6 @@ lock: need
                                 /Library/Java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin/javadoc
                             </javadocExecutable>
                         </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-gpg-plugin</artifactId>
-                <version>1.5</version>
-                <executions>
-                    <execution>
-                        <id>sign-artifacts</id>
-                        <phase>verify</phase>
-                        <goals>
-                            <goal>sign</goal>
-                        </goals>
                     </execution>
                 </executions>
             </plugin>
@@ -287,7 +287,7 @@ lock: need
 - 注意 groupId、artifactId 名字，如果你有发布诉求，需要和你自己的一致。
 - maven-javadoc-plugin：生成 doc 文档。这里要注意，因为我们脚手架不是代码文件，没有doc的，所以要在工程中加一个任意类名文件。工程中小傅哥加了个 Api 类。
 - maven-source-plugin：生成 source 文件。
-- maven-gpg-plugin：是签名的加密文件，需要本地安装过 gpg 包。
+- maven-gpg-plugin：是签名的加密文件，需要本地安装过 gpg 包。注意；`checksum-maven-plugin` 需要在 `maven-gpg-plugin` 执行，这样就不用做下面的手动 md5 逻辑了。
 - checksum-maven-plugin：生成 md5、sha1 文件，但这里不会对 pom 生成此文件，还需要单独命令处理。
 
 ```shell

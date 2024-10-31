@@ -33,7 +33,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "小傅哥 bugstack 虫洞栈",
-            description: "包含: Java 基础，面经手册，Netty4.x，手写Spring，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，Lottery抽奖系统，字节码编程..."
+            description: "包含: Java 基础，面经手册，Netty4.x，手写MyBatis，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，大营销抽奖系统，Java 实战项目训练，字节码编程..."
         }
     },
     head: [
@@ -47,7 +47,7 @@ module.exports = {
         ["meta", {"http-equiv": "Expires", content: "0"}],
         ["meta", {
             name: "keywords",
-            content: "小傅哥, bugstack 虫洞栈, 实战项目, 应用项目, 面试项目, DDD抽奖系统，数据结构，重学Java设计模式, 字节码编程, 中间件, 手写Spring, 手写MyBatis，Java基础, 面经手册，Java面试题，API网关，SpringBoot Stater, ChatGPT"
+            content: "欢迎来到小傅哥的编程世界，这里是bugstack虫洞栈！无论你是Java初学者还是资深开发者，我们都为你准备了丰富的学习资源和实战项目，包括Java基础教程、实战项目指南、应用项目开发、Java面试题解析、重学Java设计模式、字节码编程、手写Spring与MyBatis、API网关与中间件、DDD抽奖系统、SpringBoot Starter开发，以及ChatGPT与AI技术的应用。我们致力于为你提供最优质的学习体验，帮助你在Java开发的道路上不断进步。欢迎访问我们的官方网站获取更多资源，并加入我们的社交媒体平台，与全球开发者一起交流学习。"
         }],
         ["meta", {name: "apple-mobile-web-app-capable", content: "yes"}],
         ['script',
