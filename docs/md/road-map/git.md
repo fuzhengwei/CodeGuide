@@ -353,7 +353,7 @@ Git 附带了用于提交 ( [git-gui](https://git-scm.com/docs/git-gui) ) 和浏
 
 ## 8. 提交规范
 
-**分支命名**：日期_姓名首字母缩写_功能单词，如：`210804_xfg_buildFramework`
+**分支命名**：日期_姓名首字母缩写_功能单词，如：`210804_xfg_buildFramework` 或者 `2024/10/24/xiaofuge/build_framework` - 这样会自动归类创建文件夹
 
 **提交规范**：`作者，type: desc` 如：`小傅哥，fix：修复查询用户信息逻辑问题` *参考Commit message 规范*
 
