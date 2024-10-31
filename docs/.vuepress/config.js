@@ -609,7 +609,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发环境(6)",
+            title: "开发环境(7)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -619,6 +619,7 @@ function genBarGuide() {
                 "github.md",
                 "gitcode.md",
                 "gitee.md",
+                "mac.md",
             ]
         },
         {
@@ -645,7 +646,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "常用类库(5)",
+            title: "常用类库(6)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -654,6 +655,7 @@ function genBarGuide() {
                 "http.md",
                 "ratelimiter.md",
                 "spring-ai.md",
+                "disruptor.md",
             ]
         },
         {
@@ -2317,7 +2319,6 @@ function getBarBigMarket() {
                 "api/第31节：分库分表数据同步ES.md",
                 "api/第32节：ES-ORM多数据源配置使用.md",
                 "api/第33节：xxl-job分布式任务调度.md",
-                "none.md",
             ]
         },
         {
@@ -2335,7 +2336,7 @@ function getBarBigMarket() {
         },
         {
             title: "第5部分：后台管理",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "erp/第1节：初始后台运营页面.md",
@@ -2344,12 +2345,13 @@ function getBarBigMarket() {
         },
         {
             title: "第6部分：外部对接",
-            collapsable: true,
+            collapsable: false,
             sidebarDepth: 0,
             children: [
                 "distributed/第1节：对接OpenAI项目额度奖品接口.md",
                 "distributed/第2节：营销页面接口封装.md",
                 "distributed/第3节：RPC接口对接支付返利.md",
+                "distributed/第4节：活动上架发布预热对接.md",
             ]
         },
         {

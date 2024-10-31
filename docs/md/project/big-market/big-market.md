@@ -31,6 +31,8 @@ lock: no
     <img src="https://bugstack.cn/images/article/project/big-market/big-market-01-02.png" width="750px">
 </div>
 
+**体验地址**：[https://openai.gaga.plus/](https://openai.gaga.plus/) - 左侧Bar，抽奖进入
+
 这里抽奖模块通过RPC接口，对接到大营销平台。这里不只是抽奖，还要串联账户、奖品、返利等各项内容。接下来，小傅哥就着重介绍下这套信息项目的重点，让大家可以知道学习到哪些知识，掌握哪些技术。
 
 >文末有加入学习方式，还有优惠券可以使用。先到先得！

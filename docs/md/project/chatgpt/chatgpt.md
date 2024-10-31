@@ -7,6 +7,7 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>体验：[https://openai.gaga.plus](https://openai.gaga.plus)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -24,9 +25,9 @@ lock: no
 
 作为一个纯搞技术的号主，我更希望做符合技术人员长期发展的学习事项。如 ChatGPT、文心一言、通义千问、AIGC、Civita，这样的东西会越来越多，而作为研发更应该注重以`生成式服务`所搭建出一套体系化应用微服务。所以小傅哥的星球又要带着大家搞新项目了 **《ChatGPT 微服务应用体系构建》** - 说到又，那小傅哥的星球搞了多少项目🤔？
 
-除技术小册外，星球历经项目5个：- `加入小傅哥的知识星球，相当于付费1个项目的价格，就可以学习所有过往的项目！`
+除技术小册外，星球所有项目都可以学习：- `加入小傅哥的知识星球，相当于付费1个项目的价格，就可以学习所有过往的项目！`
 
-- 《ChatGPT 微服务应用体系构建  - API-SDK、鉴权、公众号对接、微信对接、交易支付》- **5.1日启动** 🌲
+- 《ChatGPT 微服务应用体系构建  - API-SDK、鉴权、公众号对接、微信对接、交易支付》
 - [《ChatGPT AI 问答助手》](https://bugstack.cn/md/project/chatbot-api/chatbot-api.html)
 - [《API网关 - 中间件设计和实践》](https://bugstack.cn/md/assembly/api-gateway/api-gateway.html)
 - [《SpringBoot 中间件设计和开发》](https://bugstack.cn/md/assembly/middleware/2019-12-02-SpringBoot%E6%9C%8D%E5%8A%A1%E6%B2%BB%E7%90%86%E4%B8%AD%E9%97%B4%E4%BB%B6%E4%B9%8B%E7%BB%9F%E4%B8%80%E7%99%BD%E5%90%8D%E5%8D%95%E9%AA%8C%E8%AF%81.html)
@@ -54,7 +55,7 @@ lock: no
 
 ## 三、`开发`的计划
 
-**死鬼**，5.1 假期即将来临，又到了疯狂的带着星球伙伴卷代码的时候。所以从 5.1 放假开始，小傅哥会逐步更新课程内容，粗略计划；
+**死鬼**，又到了疯狂的带着星球伙伴卷代码的时候。
 
 - OpenAI 接口服务 + Nginx SSL 配置
 - OpenAI SDK
