@@ -133,6 +133,7 @@ Available Packages
 
 ```java
 [root@CodeGuide ~]# sudo yum install docker-ce
+[root@CodeGuide ~]# 推荐；sudo yum install -y docker-ce-25.0.5 docker-ce-cli-25.0.5 containerd.io
 ```
 
 - 安装默认最新版本的 Docker `最新版本可能有坑，最好指定版本安装`
@@ -157,8 +158,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 **镜像地址**
 
 ```shell
-# 默认路径
-wget https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-compose-linux-x86_64
 # 指定路径【推荐】
 sudo curl -L https://gitee.com/fustack/docker-compose/releases/download/v2.24.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 # 设置权限
@@ -317,7 +316,7 @@ sudo systemctl restart docker
 - 参考链接：https://cloud.tencent.com/developer/article/2301228
 - 可信镜像中心：[https://atomhub.openatom.cn/](https://atomhub.openatom.cn/)
 
-### 13. 远程连接
+### 13. 远程连接 - 不推荐
 
 ```shell script
 vim /lib/systemd/system/docker.service
