@@ -1,6 +1,6 @@
 ---
 title: 第3节：RPC接口对接支付返利
-pay: https://t.zsxq.com/ByrMx
+pay: https://t.zsxq.com/fFntX
 ---
 
 # 《大营销平台系统设计实现》 - 外部对接 第3节：RPC接口对接支付返利
