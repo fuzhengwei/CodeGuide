@@ -5,7 +5,7 @@ actionLinks:
 - link: /md/other/guide-to-reading.md
   text: 开始阅读 →
   class: primary
-- link: https://t.zsxq.com/09hMHNMEh
+- link: https://wx.zsxq.com/
   text: 知识星球
   class: secondary  
 - link: /md/road-map/road-map.md
@@ -15,7 +15,7 @@ actionLinks:
   text: 项目 💐
   class: secondary    
 - link: https://618.gaga.plus
-  text: 3.8元/月(云服务器) ☁️
+  text: 48元/1年(云服务器) ☁️
   class: secondary
 features:
 - title: 沉淀

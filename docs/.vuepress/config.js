@@ -620,6 +620,7 @@ function genBarGuide() {
                 "gitcode.md",
                 "gitee.md",
                 "mac.md",
+                // "nas.md",
             ]
         },
         {
@@ -2280,6 +2281,7 @@ function getBarBigMarket() {
                 "dev-ops/第1节：使用脚手架创建工程.md",
                 "dev-ops/第2节：第一阶段完成抽奖部署.md",
                 "dev-ops/第3节：引入Nacos+Dubbo框架.md",
+                "dev-ops/openai_big_market.md",
             ]
         },
         {

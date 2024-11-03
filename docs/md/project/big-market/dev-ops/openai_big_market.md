@@ -1,16 +1,21 @@
-# 来啦，项目完结！在线体验，两套微服务&分布式架构项目运行效果！
+---
+title: 第4节：课程完结，上线部署教程
+lock: no
+---
+
+# 第4节：课程完结，上线部署教程
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
-> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+>沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-大家伙，我是技术UP主小傅哥。
+大家好，我是技术UP主小傅哥。
 
-不少小伙伴在面试中总会被提问，你的微服务是哪两套项目对接，你是分布式体现在哪。好像这么一问，平时做的项目既不是微服务，也不是分布式，都不知道怎么回答啦！咋办！？
+不少小伙伴在面试中总会被提问，你的微服务是哪两套项目对接，你是分布式体现在哪。好像这么一问，平时做的项目既不是微服务，也不是分布式，都不知道怎么回答啦！咋办！？🤔
 
 <div align="center">
-    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-idea-00.png" width="600px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-idea-00.png" width="200px">
 </div>
 
 **还是别做玩具项目了！**
@@ -31,6 +36,8 @@
 
 - 地址：[https://openai.gaga.plus/](https://openai.gaga.plus/) - 侧边栏，点击兑换、购物、营销。
 - 说明：你可以体验 OpenAI 兑换、抽奖、兑换、签到等各个功能。这些也都各个互联网公司C端场景的产品设计。
+
+>接下来是一整套的项目的部署执行过程，公司中大家上线，对于中大型项目和需求，也会列出明确的上线执行步骤。
 
 ## 2. 部署结构
 
@@ -404,4 +411,5 @@ curl           docker-compose-environment.yml             java     logstash  nat
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/big-market/big-market-dev-ops-5-13.png" width="550px">
 </div>
+
 > 登录之后，你就可以愉快的玩耍啦！
