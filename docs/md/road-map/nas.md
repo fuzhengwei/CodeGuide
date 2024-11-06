@@ -1,9 +1,9 @@
 ---
-title: nas
+title: Nas
 lock: need
 ---
 
-# Nas - 这是我犹豫了很久才买的一个设备！
+# Nas - 这是我犹豫了很久，才买的设备！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -15,7 +15,7 @@ lock: need
 在这之前我犹豫🦑了好久，一台不错的 Nas 四五千块，买这个东西能帮助我啥呢 🤔？但后来发现，这台 2c8g 双盘位 4TB Nas，等同于个人拥有了一台永久可用的，软件丰富的，具备远程访问能力的，终身 Linux 服务器。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-01.gif" width="200px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-01.gif" width="200px">
 </div>
 
 **谁更适合买一台 Nas？**
@@ -54,7 +54,7 @@ NAS（Network Attached Storage，网络附加存储）是一种通过标准的�
 我买的是一台 `群晖 DS723+` 并配了`8G内存` + `2*2TB`硬盘互备，因为咱们要做 Docker 安装各类软件，内存大一些更好。选择群晖主要就是想着这东西资源丰富，可以像使用 Linux 服务器一样使用 Nas 满足开发和存储需求。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-02.png" width="400px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-02.png" width="400px">
 </div>
 
 > 用了群晖 Nas 有5个月了，越用越爽。电脑里的东西基本都搬到群晖了，电脑只成为一个工具了，不在搞那么多存储。
@@ -74,19 +74,20 @@ NAS（Network Attached Storage，网络附加存储）是一种通过标准的�
 群晖 Nas 提供了非常多的配套软件，适合于不同场景诉求的伙伴使用。所以很多买群晖的伙伴都说，是买软件送设备。嘿嘿，不过我更喜欢这部分编程相关的，尤其是这个 Docker、Git Server，嗖的就安装好。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-03.png" width="850px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-03.png" width="850px">
 </div>
 
-- Nas 还支持配置定时开机关机、休眠，这样会比较省点，也不用一直在那打开着。
+- Nas 还支持配置定时开机关机、休眠，这样会比较省电，也不用一直在那打开着。
+- 另外可以自建frp，让自己的nas服务可以直接被公网访问。一年￥48 2c2g 服务器即可。[https://618.gaga.plus](https://618.gaga.plus) 专属地址。frp 教程在 bugstack.cn - 路书中。
 
 ### 2. Docker 使用
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-04.png" width="850px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-04.png" width="850px">
 </div>
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-05.png" width="850px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-05.png" width="850px">
 </div>
 
 - 你可以在提供的操作界面配置 Docker Compose，完成项目文件的配置和启动。之后的体验就和正常 Linux 安装 Docker 部署软件一样了。
@@ -100,7 +101,7 @@ NAS（Network Attached Storage，网络附加存储）是一种通过标准的�
 - 密码：你的 Nas 登录密码
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-06.png" width="850px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-06.png" width="850px">
 </div>
 
 登录以后，你就可以像使用 Linux 一样操作了，不过大部分执行类命令，要加上 sudo，比如 `sudo docker images`
@@ -110,14 +111,15 @@ NAS（Network Attached Storage，网络附加存储）是一种通过标准的�
 有了 Nas 有个很大的好处就是，你可以本地直接当 Nas 的硬盘是本地的一个文件夹，直接打开就操作。里面的文件直接复制粘贴进去或者拿出来就可以。
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-07.png" width="650px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-07.png" width="650px">
 </div>
 
 通过 IntelliJ IDEA 直接打开 Nas 中的项目即可，之后你可以用它上面的 Docker 对项目进行构建了。如下；
 
 <div align="center">
-    <img src="/Users/fuzhengwei/Desktop/road-map-nas-08.png" width="650px">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-nas-08.png" width="650px">
 </div>
+
 - build.sh 中执行的就是 docker 命令；`docker build -t system/s-pay-mall-mvc-app:1.0 -f ./Dockerfile .`
 - 构建完，就可以部署项目了。Linux 上怎么用，这里你就怎么用。
 

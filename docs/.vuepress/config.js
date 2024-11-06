@@ -620,7 +620,7 @@ function genBarGuide() {
                 "gitcode.md",
                 "gitee.md",
                 "mac.md",
-                // "nas.md",
+                "nas.md",
             ]
         },
         {
