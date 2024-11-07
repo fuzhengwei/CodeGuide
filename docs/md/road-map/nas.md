@@ -78,7 +78,7 @@ NAS（Network Attached Storage，网络附加存储）是一种通过标准的�
 </div>
 
 - Nas 还支持配置定时开机关机、休眠，这样会比较省电，也不用一直在那打开着。
-- 另外可以自建frp，让自己的nas服务可以直接被公网访问。一年￥48 2c2g 服务器即可。[https://618.gaga.plus](https://618.gaga.plus) 专属地址。frp 教程在 bugstack.cn - 路书中。
+- 另外可以自建frp，让自己的nas服务可以直接被公网访问。一年￥48 2c2g 服务器即可。[https://618.gaga.plus](https://618.gaga.plus) 专属地址。[frp](https://bugstack.cn/md/road-map/frp.html) 教程在 bugstack.cn - 路书中。
 
 ### 2. Docker 使用
 

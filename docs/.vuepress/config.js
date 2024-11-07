@@ -290,23 +290,23 @@ module.exports = {
                             }
                         ]
                     },
-                    {
-                        text: '中间件',
-                        items: [
-                            {
-                                text: 'SpringBoot 中间件开发',
-                                link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
-                            },
-                            {
-                                text: 'IDEA Plugin 开发手册',
-                                link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
-                            },
-                            {
-                                text: 'API网关：中间件设计和实践',
-                                link: '/md/assembly/api-gateway/api-gateway.md'
-                            }
-                        ]
-                    },
+                    // {
+                    //     text: '中间件',
+                    //     items: [
+                    //         {
+                    //             text: 'SpringBoot 中间件开发',
+                    //             link: '/md/assembly/middleware/2019-12-02-SpringBoot服务治理中间件之统一白名单验证.md'
+                    //         },
+                    //         {
+                    //             text: 'IDEA Plugin 开发手册',
+                    //             link: '/md/assembly/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md'
+                    //         },
+                    //         {
+                    //             text: 'API网关：中间件设计和实践',
+                    //             link: '/md/assembly/api-gateway/api-gateway.md'
+                    //         }
+                    //     ]
+                    // },
                     {
                         text: 'Netty 4.x',
                         items: [
