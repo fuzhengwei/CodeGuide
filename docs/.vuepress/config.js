@@ -2328,6 +2328,7 @@ function getBarBigMarket() {
                 "ddd.md",
                 "system-design-diagram.md",
                 "notes.md",
+                "qa.md",
             ]
         },
         {
