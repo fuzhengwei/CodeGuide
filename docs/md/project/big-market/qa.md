@@ -1,9 +1,9 @@
 ---
-title: Q&A：常见开发问题错误问题解答
+title: Q&A：常见开发问题错误解答
 lock: no
 ---
 
-# Q&A：常见开发问题错误问题解答
+# Q&A：常见开发问题错误解答
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -105,4 +105,7 @@ lock: no
 
 - 解答：Dao 类缺少 `@DBRouterStrategy(splitTable = true)`
 
+## 三、DevOps
 
+- Docker 拉取不下来镜像，超时；配置镜像地址；[https://t.zsxq.com/EVDc9](https://t.zsxq.com/EVDc9)
+- jdk1.8、maven（含镜像）下载：[https://t.zsxq.com/EVDc9](https://t.zsxq.com/EVDc9)
