@@ -214,7 +214,7 @@ public class NioEventLoopGroup extends MultithreadEventLoopGroup {
 
 		- 在创建Netty服务端的时候，代码中实例化了两个EventLoopGroup分别是parentGroup、childGroup，parentGroup 主要用于接收请求链接，链接成功后交给childGroup处理收发数据等事件。
 
-		- NioEventLoopGroup可以在构造方法中传入需要启动的线程数，默认的情况下他会在采用计算机核心数*2的方式去启动线程数量。另外目前很多计算机采用了超线程技术，那么4核心的机器，超线程后就是8核心，Netty在启动的时候随时会启动8*2=16个线程。
+		- NioEventLoopGroup可以在构造方法中传入需要启动的线程数，默认的情况下他会在采用计算机核心数 * 2的方式去启动线程数量。另外目前很多计算机采用了超线程技术，那么4核心的机器，超线程后就是8核心，Netty在启动的时候随时会启动8*2=16个线程。
 
 		>超线程（HT, Hyper-Threading）是英特尔研发的一种技术，于2002年发布。超线程技术原先只应用于Xeon 处理器中，当时称为“Super-Threading”。之后陆续应用在Pentium 4 HT中。早期代号为Jackson。 [1] 
 通过此技术，英特尔实现在一个实体CPU中，提供两个逻辑线程。之后的Pentium D纵使不支持超线程技术，但就集成了两个实体核心，所以仍会见到两个线程。超线程的未来发展，是提升处理器的逻辑线程。英特尔于2016年发布的Core i7-6950X便是将10核心的处理器，加上超线程技术，使之成为20个逻辑线程的产品。
