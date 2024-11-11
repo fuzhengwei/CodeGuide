@@ -372,7 +372,11 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: '小型支付电商系统(新)',
+                                        text: '拼团交易平台系统（新）',
+                                        link: '/md/project/group-buy-market/group-buy-market.md'
+                                    },
+                                    {
+                                        text: '小型支付电商系统',
                                         link: '/md/project/s-pay-mall/s-pay-mall.md'
                                     },
                                     {
@@ -546,6 +550,7 @@ module.exports = {
                     "/md/project/chatbot-api/": getBarProjectChatBotApi(),
                     "/md/project/big-market/": getBarBigMarket(),
                     "/md/project/s-pay-mall/": getBarSPayMall(),
+                    "/md/project/group-buy-market/": getBarGroupBuyMarket(),
                     "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
@@ -609,10 +614,11 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发环境(7)",
+            title: "开发环境(9)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "tool.md",
                 "intellij-idea.md",
                 "maven.md",
                 "git.md",
@@ -2171,6 +2177,68 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.1.md",
                 "extra/ChatGPT-v1.2.md",
                 "extra/ChatGPT-v1.3.md",
+            ]
+        }
+    ]
+}
+
+function getBarGroupBuyMarket() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "group-buy-market.md",
+            ]
+        },
+        {
+            title: "第1部分：系统设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第1-1节：拼团需求分析.md",
+                "第1-2节：拼团库表设计.md",
+                "第1-3节：研发系统设计.md",
+            ]
+        },
+        {
+            title: "第2部分：服务实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第2-1节：初始工程搭建.md",
+                "第2-2节：拼团活动实现.md",
+                "第2-3节：拼团规则设计.md",
+                "第2-4节：折扣计算规则.md",
+                "第2-5节：人群标签设计.md",
+                "第2-6节：拼团规则服务.md",
+                "第2-7节：参与拼团设计.md",
+                "第2-8节：拼团记账实现.md",
+                "第2-9节：拼团回调实现.md",
+                "第2-10节：拼团结果记录.md",
+                "第2-11节：拼团超时失败检测任务.md",
+                "第2-12节：人群标签生成任务.md",
+                "第2-13节：外部接口设计.md",
+            ]
+        },
+        {
+            title: "第3部分：外部对接",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第3-1节：简易对接案例.md",
+                "第3-2节：对接小型支付，拼团下单.md",
+                "第3-3节：对接OpenAI大营销，拼团下单.md",
+            ]
+        },
+        {
+            title: "第4部分：开发运维",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第4-1节：构建打包部署.md",
+                "第4-2节：HTTPS(ssl)、后端监控、前端监控.md",
             ]
         }
     ]

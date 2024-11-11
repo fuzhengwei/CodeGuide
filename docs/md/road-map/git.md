@@ -281,6 +281,10 @@ IntelliJ IDEA 本身就提供了 Git 的图形化操作，也是最简单最常�
 
 #### 5.3.5 合并分支
 
+在公司中很多时候是大家一起在一个工程开发代码，那么这个时候就会涉及合并代码的。如果有多人共同开发一个接口方法，就会在合并的时候产生冲突。所以要特别注意。
+
+**普通合并**
+
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-12.png" width="750px">
 </div>
@@ -289,11 +293,38 @@ IntelliJ IDEA 本身就提供了 Git 的图形化操作，也是最简单最常�
 - 之后切换到master分支，通过把自己的开发的分支合并回master分支进行提交。
 - 注意：如果多人开发，同时修改一个类，可能会引起合并冲突，这个审核要点开类，查看冲突进行合并，不要把自己和他人的代码合并丢失。
 
+**冲突合并**
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-22.png" width="950px">
+</div>
+
+1. 选择，你要从哪个分支合并到 test 分支。右键选择 Merge into test
+2. 如果你合并到test分支的代码，有其他人也在同一行做了改变或者格式化了代码，就会弹出一个合并冲突。这个时候你需要点 Merge 进行合并。
+3. 在点击 Merge 后，你会看到具体冲突的代码是什么，你可以有选择的从左右合并到中，最后点击 Apply。这个时候要注意不要把让别人的代码合并丢喽。
+4. 合并完的代码，不要直接 push，你要先本地 install 看是否可以打包。以及如果可以运行的话，可以本地先跑一下。 最后 push 提交合并代码即可。
+
 #### 5.3.6 回滚分支
+
+回滚提交和回滚push
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-13.png" width="750px">
 </div>
+
+如果出现了合并代码冲突后，丢失了代码，那么这个时候一般要进行回滚操作，重新合并。
+
+虽然 Git 提供了回滚代码的功能，但一定要谨慎使用。怎么谨慎？第一个谨慎就是 push 的代码一定确保可以构建和运行，否则不要 push！第二个谨慎是要回滚代码，需要和团队中对应的伙伴打招呼，避免影响别人测试或者上线。
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-23.png" width="950px">
+</div>
+
+1. 先选择要在哪个分支的哪次提交上进行回滚。这里选择的是 test 分支上的提交进行回滚。
+2. 这里选择 Hard 回滚。因为我们所有的都是合并到 test 分支，所以 test 分支丢失也没问题。可以重新合并。但要和同组伙伴提前说明。
+3. 回滚后，你会看到代码只剩下从回滚往下的提交内容了。
+4. 回滚后，你不能直接 push 提交了，这个之后会报错；`fast-forward` 因为此时本地分支落后于远程分支。
+5. 所以要通过 `git push origin HEAD --force` 进行强制提交。或者你可以把 test 的远程分支删掉，之后在提交。
 
 ## 6. 提交工程 - IntelliJ IDEA
 
@@ -351,11 +382,29 @@ Git 附带了用于提交 ( [git-gui](https://git-scm.com/docs/git-gui) ) 和浏
 - Git 提供了操作的客户端界面，你可以按需下载使用。
 - 地址：[https://git-scm.com/docs/git-gui](https://git-scm.com/docs/git-gui)
 
-## 8. 提交规范
+## 8. 分支命名
 
-**分支命名**：日期_姓名首字母缩写_功能单词，如：`210804_xfg_buildFramework` 或者 `2024/10/24/xiaofuge/build_framework` - 这样会自动归类创建文件夹
+不同公司中对Git的使用分支命名规范也略有差异，不过整体都会分为；`上线`、`预发`、`开发`、`测试`，这样几个分支。如图是一种比较简单使用的拉取分支方式。
 
-**提交规范**：`作者，type: desc` 如：`小傅哥，fix：修复查询用户信息逻辑问题` *参考Commit message 规范*
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-24.png" width="850px">
+</div>
+
+- master/main 作为主分支，不可直接修改代码代码，只能从分支合并到主分支进行进行提交。同时，master 分支的合并需要进行审批，审批后才能合并。
+- 开发前，先从 master 分支，拉一个开发分支。`2024/10/11/xfg-xxx` 使用带有斜线的分支命名会自动创建文件夹，对于多人开发的项目，可以直接归档。
+- 后开发，也就是研发已经完成了本地的验证。进行测试时，可以把研发的开发分支合并到 test 分支，提交、部署、测试。遇到测试bug，需要回到可发分支修改代码，之后合并到 test 分支部署验证。
+- pre/release 预发分支，用于测试完成后，把研发的开发分支合并到预发分支进行预发上线，上线后测试人员进行验证。最终完成验证后，把开发分支合并到 master 分支，并需要由架构师对合并代码审批通过。最后进行上线开量验证。
+- 如果是修复bug的，可以添加一个 `fix-用户名缩写-具体功能`
+
+## 9. 提交规范
+
+保持一个标准的统一的规范提交代码，在后续的评审、检查、合并，都会非常容易处理。
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-git-21.png" width="450px">
+</div>
+
+**提交规范**：`type:【需求名】desc #id` 如：`feat:【抽奖算法】O1、Ologn 时间复杂度算法实现 #需求id（github pr/行云等会有自动关联）` *参考Commit message 规范*
 
 ```java
 # 主要type
@@ -376,7 +425,9 @@ ci:       与CI（持续集成服务）有关的改动
 chore:    不修改src或者test的其余修改，例如构建过程或辅助工具的变动
 ```
 
-## 9. 操作手册
+> 前提通知，谨慎回滚。如果是回滚 Master 更要特别小心，别把工作回滚丢了。
+
+## 10. 操作手册
 
 - 文档：[https://git-scm.com/book/zh/v2](https://git-scm.com/book/zh/v2) - `可以直接对照着操作，练习命令`
 - PDF：[https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf](https://github.com/progit/progit2-zh/releases/download/2.1.62/progit.pdf)

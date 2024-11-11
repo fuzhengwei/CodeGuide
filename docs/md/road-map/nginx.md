@@ -130,9 +130,10 @@ nginx
 
 ### 4.1 创建证书
 
-SSL 免费的证书，一种是 [freessl - 支持自动续期](https://bugstack.cn/md/road-map/ssl.html) 另外各个云服务厂商都有提供，可以自己申请。这里以阿里云举例；
+SSL 免费的证书，一种是 [ssl - 支持自动续期](https://bugstack.cn/md/road-map/ssl-httpsok.html) 另外各个云服务厂商都有提供，可以自己申请。这里以阿里云/京东云举例；
 
-阿里云免费域名证书：[https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou](https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou)
+- 阿里云免费域名证书：[https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou](https://yundun.console.aliyun.com/?p=cas#/certExtend/free/cn-hangzhou)
+- 京东云免费域名证书：[https://certificate-console.jdcloud.com/jsecssl/create?fastConfig=false&certBrand=TrustAsia&certType=domainType&protectionType=DV-1&gDomainCount=0](https://certificate-console.jdcloud.com/jsecssl/create?fastConfig=false&certBrand=TrustAsia&certType=domainType&protectionType=DV-1&gDomainCount=0) - 选择 TrustAsia 单域名 3个月 0元
 
 ![](https://bugstack.cn/images/article/devops/dev-ops-nginx-230418-02.png)
 

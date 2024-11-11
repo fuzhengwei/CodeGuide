@@ -1867,7 +1867,7 @@
                                  src="https://bugstack.cn/images/roadmap/08-测试/082-性能测试/1-Jemeter/images/Jemeter.png">
                             <a href="https://jmeter.apache.org/" target="_blank"
                                style="color:black;text-decoration:none;">
-                                <span>Jemeter</span>
+                                <span>JMeter</span>
                             </a>
                         </div>
                     </div>

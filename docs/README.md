@@ -15,7 +15,7 @@ actionLinks:
   text: 项目 💐
   class: secondary    
 - link: https://618.gaga.plus
-  text: 48元/1年(云服务器) ☁️
+  text: 9.9元/1月(云服务器) ☁️
   class: secondary
 features:
 - title: 沉淀
@@ -43,6 +43,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 ### 开发的项目
 
 - 业务项目
+    - [拼团交易平台系统（新）](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)
     - [小型支付电商系统 - 一套项目2套架构开发（MVC+DDD）](https://bugstack.cn/md/project/s-pay-mall/s-pay-mall.html)
     - [大营销平台系统 - 前后端 + Dev-Ops 的全栈式综合编程实战DDD项目！](https://bugstack.cn/md/project/big-market/big-market.html)
     - [OpenAi 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
