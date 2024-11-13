@@ -27,6 +27,7 @@ lock: need
 - xfg-dev-tech-linux：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux)
 - 云服务器配置要求：2c2g [https://618.gaga.plus](https://618.gaga.plus)
 - 工程提供了git、 java、maven、redis、mysql 的环境安装，可以让本地连接云服务器的配置，也可以在云服务器拉取项目进行构建操作。
+- 环境软件下载：[https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy](https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy)
 
 >文末有加入学习方式，提供了8个Java实战项目，非常有东西可以学！
 
@@ -86,6 +87,48 @@ chmod +x install-java.sh
 - 验证：`java -version` 此时会输出 Java 的版本。
 - 提示：如果未输出 java，可以手动执行 `source /etc/profile`
 - 卸载：如果不需要 Java 环境了，可以同样方式执行 `./remove-java.sh`
+
+**也可以手动安装**
+
+1. 解压jdk
+
+```java
+tar -zxvf jdk-8u202-linux-x64.tar.gz
+```
+
+2.修改解压后文件的文件名
+
+```java
+mv jdk1.8.0_202 jdk-8u202
+```
+
+3.配置Java环境，编辑/etc/profile文件
+
+```java
+vim /etc/profile
+```
+
+4.打开以后将下面三句输入到文件里面并保存退出
+
+```java
+export JAVA_HOME=/software/jdk-8u202
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
+export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+export PATH=$PATH:${JAVA_PATH}
+```
+
+5.生效profile
+
+```java
+source /etc/profile
+```
+
+6.查询Java版本，出现的版本是自己下载的版本，则安装成功。
+
+```java
+java -version
+```
 
 ### 3. 安装 Maven
 
