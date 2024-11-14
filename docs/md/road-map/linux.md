@@ -24,10 +24,10 @@ lock: need
 
 本文涉及的工程；
 
-- xfg-dev-tech-linux：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux)
+- xfg-dev-tech-linux：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-linux) jdk 从下面的地址下载
 - 云服务器配置要求：2c2g [https://618.gaga.plus](https://618.gaga.plus)
 - 工程提供了git、 java、maven、redis、mysql 的环境安装，可以让本地连接云服务器的配置，也可以在云服务器拉取项目进行构建操作。
-- 环境软件下载：[https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy](https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy)
+- 环境软件下载：[https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy](https://drive.weixin.qq.com/s?k=ACMA4AfQABUYiIGUXy) - 所需的 `jdk-8u202-linux-x64.tar.gz` 从这里下载。
 
 >文末有加入学习方式，提供了8个Java实战项目，非常有东西可以学！
 
