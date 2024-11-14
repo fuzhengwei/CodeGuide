@@ -44,7 +44,8 @@ lock: need
 - Mac 电脑会比较好安装一些，直接在 IntelliJ IDEA 点击小绿色按钮即可完成安装。安装完成后进入 [http://localhost:9000/#!/2/docker/containers](http://localhost:9000/#!/2/docker/containers) 可看到 zookeeper、kafka、kafka-eagle 运行啦。
 - Windows 电脑安装 Docker 需要折腾下
 - Linux 服务器，需要上传整个 dev-ops 后在云服务器执行脚本安装；`docker-compose -f docker-compose.yml up -d`
-- 如图29行，有一个 kafka:9092 这个 kafka 是个 host 地址，就是 SwitchHost 打开后配置本地的 ip地址映射 kafka 
+- 如图29行，有一个 kafka:9092 这个 kafka 是个 host 地址，就是 SwitchHost 打开后配置本地的 ip地址映射 kafka
+- 另外推荐 [kafka king](https://github.com/Bronya0/Kafka-King/releases) 作为管理界面
 
 ### 3. 访问地址
 
