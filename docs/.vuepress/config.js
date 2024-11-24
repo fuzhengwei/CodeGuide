@@ -614,13 +614,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发环境(9)",
+            title: "开发环境(10)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
                 "tool.md",
                 "intellij-idea.md",
                 "maven.md",
+                "maven-central.md",
                 "git.md",
                 "github.md",
                 "gitcode.md",
@@ -2576,6 +2577,7 @@ function genBarAbout() {
                 "me/2023-05-07-51假期代码旅游.md",
                 "me/2024-01-09-从T4到T8，4年时间，4次晋升。技术提升最快的那几年，我做了什么？.md",
                 "me/2024-01-28-大厂架构师小傅哥，上学时都做过哪些项目？.md",
+                "me/2024-11-17-gold-content.md",
             ]
         },
         {
