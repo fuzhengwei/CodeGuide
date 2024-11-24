@@ -651,6 +651,7 @@ function genBarGuide() {
                 "redis.md",
                 "ignite.md",
                 "canal.md",
+                "springcloud-feign.md",
             ]
         },
         {
