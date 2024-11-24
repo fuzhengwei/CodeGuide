@@ -88,7 +88,3 @@ lock: need
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/group-buy-market/group-buy-market-241109-05.png" width="650">
 </div>
-
-## 五、一起学；加入小傅哥社群！
-
-11
