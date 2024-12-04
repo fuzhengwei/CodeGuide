@@ -74,7 +74,3 @@ Docker 安装软件分为直接使用和通过 Docker Compose 脚本。直接使
 
 - 文档：[https://bugstack.cn/md/road-map/docker.html](https://bugstack.cn/md/road-map/docker.html) - 这是一个系列，你可以从左侧目录选择阅读。
 - 视频：[https://www.bilibili.com/video/BV1xw411W7xf](https://www.bilibili.com/video/BV1xw411W7xf) - 对应一整套的视频，手把手操作。
-
-<div align="center">
-    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-04.png" width="750px">
-</div>
