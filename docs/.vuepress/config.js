@@ -631,7 +631,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(16)",
+            title: "开发技术(18)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -652,6 +652,7 @@ function genBarGuide() {
                 "ignite.md",
                 "canal.md",
                 "springcloud-feign.md",
+                "springcloud-stream.md",
             ]
         },
         {
@@ -689,11 +690,12 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(13)",
+            title: "发布部署(14)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "linux.md",
+                "docker-what.md",
                 "docker.md",
                 "portainer.md",
                 "nginx.md",
