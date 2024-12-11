@@ -653,6 +653,7 @@ function genBarGuide() {
                 "canal.md",
                 "springcloud-feign.md",
                 "springcloud-stream.md",
+                "springcloud-bus.md",
             ]
         },
         {
