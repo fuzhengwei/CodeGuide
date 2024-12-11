@@ -9,7 +9,7 @@ actionLinks:
   text: 知识星球
   class: secondary  
 - link: /md/road-map/road-map.md
-  text: 路书 👣
+  text: 编程路书 👣
   class: secondary   
 - link: https://gaga.plus
   text: 项目 💐

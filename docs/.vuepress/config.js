@@ -185,7 +185,7 @@ module.exports = {
                         text: '导读', link: '/md/other/guide-to-reading.md'
                     },
                     {
-                        text: '路书', link: '/md/road-map/road-map.md'
+                        text: '编程路书', link: '/md/road-map/road-map.md'
                     },
                     {
                         text: '算法',
@@ -631,7 +631,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(18)",
+            title: "开发技术(19)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
