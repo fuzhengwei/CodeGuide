@@ -679,7 +679,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控(5)",
+            title: "质量监控(6)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -688,6 +688,7 @@ function genBarGuide() {
                 "elk.md",
                 "dump-mat.md",
                 "arthas.md",
+                "13scan-jdumpspider.md",
             ]
         },
         {
