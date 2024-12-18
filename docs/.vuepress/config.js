@@ -636,6 +636,7 @@ function genBarGuide() {
             sidebarDepth: 0,
             children: [
                 "spring-dependency-injection.md",
+                "spring-security.md",
                 "mybatis.md",
                 "dubbo.md",
                 "rocketmq.md",
