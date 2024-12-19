@@ -631,7 +631,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(19)",
+            title: "开发技术(20)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -2215,7 +2215,7 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "第2-1节：初始工程搭建.md",
-                "第2-2节：拼团活动实现.md",
+                "第2-2节：试算模型抽象模板设计.md",
                 "第2-3节：拼团规则设计.md",
                 "第2-4节：折扣计算规则.md",
                 "第2-5节：人群标签设计.md",
