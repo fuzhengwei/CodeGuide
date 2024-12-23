@@ -1878,6 +1878,7 @@ function getBarZSXQ() {
             collapsable: true,
             sidebarDepth: 0,
             children: [
+                "memorabilia/sideline.md",
                 "memorabilia/seven-thousand.md",
                 "memorabilia/ten-thousand.md",
                 "memorabilia/overall.md",

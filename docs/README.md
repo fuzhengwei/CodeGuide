@@ -5,7 +5,7 @@ actionLinks:
 - link: /md/other/guide-to-reading.md
   text: 开始阅读 →
   class: primary
-- link: https://wx.zsxq.com/
+- link: https://wx.zsxq.com/group/48411118851818
   text: 知识星球
   class: secondary  
 - link: /md/road-map/road-map.md

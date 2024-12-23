@@ -13,6 +13,15 @@
                 <div class="toc-box">
                   <PageSidebarToc :depth="0" :items="pageSidebarItems" :sidebarDepth="3"/>
                 </div>
+                  <hr/>
+                  <div class="pos-box">
+                      <div class="icon-arrow"></div>
+                      <div class="scroll-box" style="text-align:center" >
+                          <span style="font-size:0.8rem;font-weight:bold;">👨🏻‍💻 <a href="https://wx.zsxq.com/group/48411118851818" target="_blank" style="color: #2c3e50">带你学习，实战项目。</a><span style="font-size:12px;color:red;">提高编程思维，锻炼编码能力！</span>14个实战项目，增强面试竞争力！</span>
+                          <img height="180px" src="/images/personal/xingqiu.png"/>
+                          <b>扫码加入，星球</b>：码农会锁
+                      </div>
+                  </div>
               </div>
             </div>
         </div>
@@ -58,14 +67,14 @@
         <span class="show-txt">左栏</span>
       </div>
 
-      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://wx.zsxq.com/dweb2/index/group/48411118851818','_blank')">
+      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://wx.zsxq.com/group/48411118851818','_blank')">
         <img class="nozoom" src="/images/system/xingqiu.png" width="25px" />
         <span class="show-txt">星球</span>
         <div class="toc-container">
           <div class="pos-box">
             <div class="icon-arrow"></div>
             <div class="scroll-box" style="text-align:center" >
-              <span style="font-size:0.8rem;font-weight:bold;">实战项目<span style="font-size:8px;color:red;">「DDD+RPC分布式抽奖系统」</span>、专属小册、问题解答、简历指导、架构图稿、视频课程</span>
+              <span style="font-size:0.8rem;font-weight:bold;">带你学习，实战项目。<span style="font-size:12px;color:red;">提高编程思维，锻炼编码能力！</span>14个实战项目，增强面试竞争力！</span>
               <img height="180px" src="/images/personal/xingqiu.png" style="margin:10px;"/>
               <b>知识星球</b>：码农会锁
             </div>
