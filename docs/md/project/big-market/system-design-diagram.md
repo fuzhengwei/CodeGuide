@@ -115,6 +115,7 @@ lock: no
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/big-market/big-market-system-design-diagram-08.png" width="750px">
 </div>
+
 - 六边形架构，会把本身提供到外部的放到trigger，让接口调用、消息监听、任务调度，都可以统一一个入口处理。而对于需要调用外部同类的能力统一放到 infrastructure 基础设施层，包括；数据库、缓存、配置、调用其他方的接口。
 - querys 模块是为了提供查询设计的模块，这样一些基本简单的查询就不需要再走到 domain 领域层了。
 - 更多关于 DDD 的工程模型，可以在 [bugstack.cn](https://bugstack.cn) 进入《路书》中阅读9篇系统架构部分。
