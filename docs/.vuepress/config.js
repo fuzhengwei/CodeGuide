@@ -1805,6 +1805,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/group-buy-market.md",
                 "project/s-pay-mall.md",
                 "project/big-market.md",
                 "project/chatgpt.md",
