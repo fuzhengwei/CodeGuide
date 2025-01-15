@@ -637,6 +637,7 @@ function genBarGuide() {
             children: [
                 "spring-dependency-injection.md",
                 "spring-security.md",
+                "spring-oauth2.md",
                 "mybatis.md",
                 "dubbo.md",
                 "rocketmq.md",
@@ -1891,6 +1892,7 @@ function getBarZSXQ() {
                 "memorabilia/project-plan-v2406.md",
                 "memorabilia/xiaofuge-team.md",
                 "memorabilia/java-interview-experience.md",
+                "memorabilia/campus-recruitment-offer.md",
             ]
         }
     ]
