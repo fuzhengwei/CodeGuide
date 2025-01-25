@@ -631,13 +631,11 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发技术(20)",
+            title: "开发技术(19)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "spring-dependency-injection.md",
-                "spring-security.md",
-                "spring-oauth2.md",
                 "mybatis.md",
                 "dubbo.md",
                 "rocketmq.md",
@@ -656,6 +654,16 @@ function genBarGuide() {
                 "springcloud-feign.md",
                 "springcloud-stream.md",
                 "springcloud-bus.md",
+            ]
+        },
+        {
+            title: "授权框架(3)",
+            collapsable: true,
+            sidebarDepth: 0,
+            children: [
+                "spring-security.md",
+                "spring-oauth2.md",
+                "spring-oauth2-sso-01.md",
             ]
         },
         {
@@ -2251,6 +2259,16 @@ function getBarGroupBuyMarket() {
             children: [
                 "第4-1节：构建打包部署.md",
                 "第4-2节：HTTPS(ssl)、后端监控、前端监控.md",
+            ]
+        }
+        ,
+        {
+            title: "番外 - 课程阶段产物",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "promotion/group-buy-market-v1.md",
+                "promotion/group-buy-market-v2.md",
             ]
         }
     ]
