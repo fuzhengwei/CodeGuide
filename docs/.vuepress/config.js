@@ -2248,9 +2248,7 @@ function getBarGroupBuyMarket() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "第3-1节：简易对接案例.md",
-                "第3-2节：对接小型支付，拼团下单.md",
-                "第3-3节：对接OpenAI大营销，拼团下单.md",
+                "第3-1节：DeepSeek设计拼团UI.md",
             ]
         },
         {
