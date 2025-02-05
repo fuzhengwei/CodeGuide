@@ -2210,6 +2210,7 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "group-buy-market.md",
+                "qa.md",
             ]
         },
         {
@@ -2257,8 +2258,7 @@ function getBarGroupBuyMarket() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "第4-1节：构建打包部署.md",
-                "第4-2节：HTTPS(ssl)、后端监控、前端监控.md",
+                "第4-1节：第1阶段部署云环境.md",
             ]
         }
         ,
