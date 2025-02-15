@@ -2251,6 +2251,9 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "第3-1节：DeepSeek设计拼团UI.md",
+                "第3-2节：DeepSeek处理UI与接口对接.md",
+                "第3-3节：小商城对接营销锁单.md",
+                "第3-4节：小商城对接营销结算.md",
             ]
         },
         {
@@ -2259,6 +2262,7 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "第4-1节：第1阶段部署云环境.md",
+                "第4-2节：HTTPS(ssl)、后端监控、前端监控.md",
             ]
         }
         ,
@@ -2269,6 +2273,7 @@ function getBarGroupBuyMarket() {
             children: [
                 "promotion/group-buy-market-v1.md",
                 "promotion/group-buy-market-v2.md",
+                "promotion/group-buy-market-v3.md",
             ]
         }
     ]
