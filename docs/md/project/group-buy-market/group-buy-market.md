@@ -11,6 +11,8 @@ lock: no
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=113987928786137&bvid=BV1ThNCegE8P&cid=28343798194&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 🌻 讲道理，为了提升能力冲击面试，不做点C端场景，不搞透业务流程，只是包个壳的小demo项目，真的进入面试官眼不了一点。面试官更喜欢的是他自己做过的真实的业务场景，这些东西都是非常成熟的业务和可上线使用的系统设计。所以，多做点这样的东西，才是提升能力的东西。

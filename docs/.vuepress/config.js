@@ -2210,6 +2210,7 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "group-buy-market.md",
+                "notes.md",
                 "qa.md",
             ]
         },
