@@ -327,4 +327,5 @@ DDD 是软件设计方法，对复杂的项目更为合适。但这里要清楚�
 
 3. incr 这个星球里有很多资料了，分段锁接近于无锁化，乐观锁。而以前的直接加锁，锁全活动是独占锁，悲观锁。我们要的目的就是接近于不加锁，并且保证性能。另外 lua 脚本实际压测性能并不好。incr + 锁，尽可能避免超卖。但不加锁，基本等于裸奔，虽然大概率不出问题，但出问题是不可知的。我们做系统设计，就要考虑它可能存在的风险，尽可能降低，而不是等待它发生。资料；https://t.zsxq.com/F1J0L - 这里的话术可以使用「海恩法则、薛定谔的猫、墨菲定律、蝴蝶效应及熵增原理」。
 
-解答：[https://t.zsxq.com/Gdttm](https://t.zsxq.com/Gdttm)
+- 解答：[https://t.zsxq.com/Gdttm](https://t.zsxq.com/Gdttm)
+- 扩展：[https://t.zsxq.com/FWBzl](https://t.zsxq.com/FWBzl)

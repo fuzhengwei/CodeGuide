@@ -69,7 +69,7 @@ C端场景项目的特点，就是感觉前端展示的很少，但后端往往�
     <img src="https://bugstack.cn/images/article/project/group-buy-market/group-buy-market-241109-03.png" width="550px">
 </div>
 
->体验地址：[https://openai.gaga.plus](https://openai.gaga.plus)
+>体验地址：[http://117.72.38.125:3080/index.html](http://117.72.38.125:3080/index.html)
 
 ### 1. 产品流程 - 核心流程
 
