@@ -702,7 +702,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(14)",
+            title: "发布部署(15)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -720,6 +720,7 @@ function genBarGuide() {
                 "private-docker-hub.md",
                 "docker-idea.md",
                 "frp.md",
+                "ollama.md",
             ]
         },
         {
@@ -1901,6 +1902,7 @@ function getBarZSXQ() {
                 "memorabilia/xiaofuge-team.md",
                 "memorabilia/java-interview-experience.md",
                 "memorabilia/campus-recruitment-offer.md",
+                "memorabilia/job-hire-jd.md",
             ]
         }
     ]
@@ -2263,7 +2265,6 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "第4-1节：第1阶段部署云环境.md",
-                "第4-2节：HTTPS(ssl)、后端监控、前端监控.md",
             ]
         }
         ,
