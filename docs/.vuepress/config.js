@@ -2257,6 +2257,7 @@ function getBarGroupBuyMarket() {
                 "第3-2节：DeepSeek处理UI与接口对接.md",
                 "第3-3节：小商城对接营销锁单.md",
                 "第3-4节：小商城对接营销结算.md",
+                "第3-5节：小商城UI与接口对接.md",
             ]
         },
         {
