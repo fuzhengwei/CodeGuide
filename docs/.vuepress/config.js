@@ -2266,9 +2266,9 @@ function getBarGroupBuyMarket() {
             sidebarDepth: 0,
             children: [
                 "第4-1节：第1阶段部署云环境.md",
+                "第4-2节：第2阶段部署云环境.md",
             ]
-        }
-        ,
+        },
         {
             title: "番外 - 课程阶段产物",
             collapsable: false,
@@ -2277,6 +2277,7 @@ function getBarGroupBuyMarket() {
                 "promotion/group-buy-market-v1.md",
                 "promotion/group-buy-market-v2.md",
                 "promotion/group-buy-market-v3.md",
+                "promotion/group-buy-market-v4.md",
             ]
         }
     ]
