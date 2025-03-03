@@ -372,6 +372,10 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
+                                        text: 'DeepSeek RAG 知识库（新）',
+                                        link: '/md/project/ai-rag-knowledge/ai-rag-knowledge.md'
+                                    },
+                                    {
                                         text: '拼团交易平台系统（新）',
                                         link: '/md/project/group-buy-market/group-buy-market.md'
                                     },
@@ -2199,6 +2203,36 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.1.md",
                 "extra/ChatGPT-v1.2.md",
                 "extra/ChatGPT-v1.3.md",
+            ]
+        }
+    ]
+}
+
+function getBarAiRagKnowledge() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "ai-rag-knowledge.md",
+            ]
+        },
+        {
+            title: "功能",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第1节：AI RAG 知识库，项目介绍.md",
+                "第2节：初始化知识库工程&提交代码.md",
+                "第3接：Ollama DeepSeek 流式应答接口实现.md",
+                "第4节：Ollama DeepSeek 流式应答页面对接.md",
+                "第5节：Ollama RAG 知识库上传、解析和验证.md",
+                "第6节：Ollama RAG 知识库接口服务实现.md",
+                "第7节：基于AI工具，设计知识库UI和接口对接.md",
+                "第8节：Git仓库代码库解析到知识库.md",
+                "第9节：扩展OpenAI模型对接，以及完整AI对接.md",
+                "第10节：云服务器部署知识库（Docker、Nginx）.md",
             ]
         }
     ]
