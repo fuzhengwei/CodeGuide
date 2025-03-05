@@ -1,12 +1,13 @@
 ---
 title: 【更】第1节：AI RAG 知识库，项目介绍
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/bV1QU
 ---
 
 # 《DeepSeek RAG 知识库》第1节：AI RAG 知识库，项目介绍
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/ssFF0](https://t.zsxq.com/ssFF0)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

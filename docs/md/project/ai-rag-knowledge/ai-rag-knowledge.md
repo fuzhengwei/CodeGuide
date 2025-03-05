@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=114106895958308&bvid=BV1ty9sYtEkc&cid=28695397252&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 刚上周，老板说：`”把咱们招聘里也加一条，具备AI应用开发能力的优先！“`。是呀，现在越来越多的企业都在用AI开发能力提效了，如；聊天软件增加一键唯独信息归档提取、工作文档资料携AI对话分析、工程SQL语句脚本辅运营自动完成数据处理、代码编写用AI完成自动评审等等。这些都是在AI的基础上在构建应用，以后也会越来越多！所以，具备AI应用开发能力，也是每个工程师最应该具备的基础能力了。
