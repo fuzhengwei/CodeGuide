@@ -3,7 +3,7 @@ title: DeepSeep RAG 知识库 - 解析文档&Git仓库代码
 lock: no
 ---
 
-# DeepSeep RAG 知识库 - 解析文档&Git仓库代码
+# 《DeepSeep RAG 知识库》 - 解析文档&Git仓库代码
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
