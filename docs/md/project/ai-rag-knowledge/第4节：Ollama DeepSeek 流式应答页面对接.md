@@ -1,12 +1,13 @@
 ---
 title: 【更】第4节：Ollama DeepSeek 流式应答页面对接
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/PN4lw
 ---
 
 # 《DeepSeek RAG 知识库》第3节：Ollama DeepSeek 流式应答接口实现
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/f82uj](https://t.zsxq.com/f82uj)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
