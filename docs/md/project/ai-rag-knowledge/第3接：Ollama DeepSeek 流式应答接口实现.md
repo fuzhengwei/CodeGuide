@@ -1,6 +1,6 @@
 ---
 title: 【更】第3节：Ollama DeepSeek 流式应答接口实现
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/h5VxZ
 ---
 
 # 《DeepSeek RAG 知识库》第3节：Ollama DeepSeek 流式应答接口实现

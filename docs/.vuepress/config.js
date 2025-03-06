@@ -555,6 +555,7 @@ module.exports = {
                     "/md/project/big-market/": getBarBigMarket(),
                     "/md/project/s-pay-mall/": getBarSPayMall(),
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
+                    "/md/project/ai-rag-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
@@ -2219,7 +2220,7 @@ function getBarAiRagKnowledge() {
             ]
         },
         {
-            title: "功能",
+            title: "1阶段 spring-ai v0.8.1",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2233,6 +2234,14 @@ function getBarAiRagKnowledge() {
                 "第8节：Git仓库代码库解析到知识库.md",
                 "第9节：扩展OpenAI模型对接，以及完整AI对接.md",
                 "第10节：云服务器部署知识库（Docker、Nginx）.md",
+            ]
+        },
+        {
+            title: "2阶段 spring-ai v1.0.0",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
             ]
         }
     ]
