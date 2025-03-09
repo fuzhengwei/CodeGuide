@@ -1,12 +1,13 @@
 ---
 title: 【更】第6节：Ollama RAG 知识库接口服务实现
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/EvnBN
 ---
 
 # 《DeepSeek RAG 知识库》第6节：Ollama RAG 知识库接口服务实现
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/yNiZl](https://t.zsxq.com/yNiZl)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

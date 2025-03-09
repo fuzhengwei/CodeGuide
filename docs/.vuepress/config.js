@@ -726,6 +726,7 @@ function genBarGuide() {
                 "docker-idea.md",
                 "frp.md",
                 "ollama.md",
+                "aigc.md",
             ]
         },
         {
