@@ -1,12 +1,13 @@
 ---
 title: 【更】第7节：基于AI工具，设计知识库UI和接口对接
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/Jc7fE
 ---
 
 # 《DeepSeek RAG 知识库》第7节：基于AI工具，设计知识库UI和接口对接
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/BeT7k](https://t.zsxq.com/BeT7k)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
