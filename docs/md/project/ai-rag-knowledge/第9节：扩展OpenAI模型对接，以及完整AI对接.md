@@ -1,12 +1,13 @@
 ---
 title: 【更】第9节：扩展OpenAI模型对接，以及完整AI对接
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/YJxRy
 ---
 
 # 《DeepSeek RAG 知识库》第9节：扩展OpenAI模型对接，以及完整AI对接
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>博客：[https://t.zsxq.com/1JLUq](https://t.zsxq.com/1JLUq)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

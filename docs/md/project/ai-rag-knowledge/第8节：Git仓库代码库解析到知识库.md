@@ -1,12 +1,13 @@
 ---
 title: 【更】第8节：Git仓库代码库解析到知识库
-pay: https://t.zsxq.com/GwNZp
+pay: https://t.zsxq.com/ByovV
 ---
 
 # 《DeepSeek RAG 知识库》第8节：Git仓库代码库解析到知识库
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/EwqZH](https://t.zsxq.com/EwqZH)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

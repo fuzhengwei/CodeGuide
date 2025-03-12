@@ -1821,6 +1821,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/ai-rag-knowledge.md",
                 "project/group-buy-market.md",
                 "project/s-pay-mall.md",
                 "project/big-market.md",
