@@ -2291,6 +2291,7 @@ function getBarGroupBuyMarket() {
                 "第2-13节：交易结算责任链过滤.md",
                 "第2-14节：拼团回调通知任务.md",
                 "第2-15节：根据UI展示封装接口.md",
+                "第2-16节：引入RabbitMQ分布式多端消费.md",
             ]
         },
         {
