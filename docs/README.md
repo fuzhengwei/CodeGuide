@@ -43,7 +43,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 ### 开发的项目
 
 - 业务项目
-    - [DeepSeek RAG 知识库（新）](https://bugstack.cn/md/project/ai-rag-knowledge/ai-rag-knowledge.html)
+    - [DeepSeek RAG&MCP 知识库（新）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
     - [拼团交易平台系统（新）](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)
     - [小型支付电商系统 - 一套项目2套架构开发（MVC+DDD）](https://bugstack.cn/md/project/s-pay-mall/s-pay-mall.html)
     - [大营销平台系统 - 前后端 + Dev-Ops 的全栈式综合编程实战DDD项目！](https://bugstack.cn/md/project/big-market/big-market.html)

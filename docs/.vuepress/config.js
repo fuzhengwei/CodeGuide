@@ -372,8 +372,8 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: 'DeepSeek RAG 知识库（新）',
-                                        link: '/md/project/ai-rag-knowledge/ai-rag-knowledge.md'
+                                        text: 'DeepSeek RAG&MCP 知识库（新）',
+                                        link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
                                     {
                                         text: '拼团交易平台系统（新）',
@@ -1821,7 +1821,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "project/ai-rag-knowledge.md",
+                "project/ai-knowledge.md",
                 "project/group-buy-market.md",
                 "project/s-pay-mall.md",
                 "project/big-market.md",
@@ -2218,7 +2218,7 @@ function getBarAiRagKnowledge() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "ai-rag-knowledge.md",
+                "ai-knowledge.md",
             ]
         },
         {
@@ -2243,8 +2243,7 @@ function getBarAiRagKnowledge() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "第11节：AIMCP部分介绍.md",
-                "第12节：吃上细糠，升级SpringAI框架.md",
+                "第11节：吃上细糠，升级SpringAI框架.md",
             ]
         }
     ]
