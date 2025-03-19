@@ -2222,7 +2222,7 @@ function getBarAiRagKnowledge() {
             ]
         },
         {
-            title: "1阶段 spring-ai v0.8.1",
+            title: "1阶段 RAG spring-ai v0.8.1",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -2239,11 +2239,12 @@ function getBarAiRagKnowledge() {
             ]
         },
         {
-            title: "2阶段 spring-ai v1.0.0",
+            title: "2阶段 MCP spring-ai v1.0.0",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md",
+                "第11节：AIMCP部分介绍.md",
+                "第12节：吃上细糠，升级SpringAI框架.md",
             ]
         }
     ]
