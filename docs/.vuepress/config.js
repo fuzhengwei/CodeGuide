@@ -555,7 +555,7 @@ module.exports = {
                     "/md/project/big-market/": getBarBigMarket(),
                     "/md/project/s-pay-mall/": getBarSPayMall(),
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
-                    "/md/project/ai-rag-knowledge/": getBarAiRagKnowledge(),
+                    "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
