@@ -2244,6 +2244,7 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "第11节：吃上细糠，升级SpringAI框架.md",
+                "第12节：康庄大道，上手 AI MCP 工作流.md",
             ]
         }
     ]

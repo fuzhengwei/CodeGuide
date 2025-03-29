@@ -3,7 +3,7 @@ title: 【更】第11节：吃上细糠，升级SpringAI框架
 pay: https://t.zsxq.com/zT6bl
 ---
 
-# 《DeepSeep MCP AI工作流》第11节：吃上细糠，升级SpringAI框架
+# 《DeepSeek RAG&MCP 增强检索知识库系统》第11节：吃上细糠，升级SpringAI框架
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
