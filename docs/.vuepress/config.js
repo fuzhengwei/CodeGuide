@@ -2219,6 +2219,7 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "ai-knowledge.md",
+                "/promotion/AI MCP 已经帮我“干活”了！.md",
             ]
         },
         {
@@ -2294,6 +2295,7 @@ function getBarGroupBuyMarket() {
                 "第2-15节：根据UI展示封装接口.md",
                 "第2-16节：引入RabbitMQ分布式多端消费.md",
                 "第2-17节：发送MQ结算消息.md",
+                "第2-18节：消费MQ结算消息.md",
             ]
         },
         {
