@@ -2297,6 +2297,7 @@ function getBarGroupBuyMarket() {
                 "第2-16节：引入RabbitMQ分布式多端消费.md",
                 "第2-17节：发送MQ结算消息.md",
                 "第2-18节：消费MQ结算消息.md",
+                "第2-19节：独占锁和无锁化场景运用.md",
             ]
         },
         {
