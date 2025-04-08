@@ -58,6 +58,8 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/roadmap-ssl-httpsok-06.png" width="850px">
 </div>
 
+- 如果验证不成功，可以修改下自己的域名 DNS：`ns1.alidns.com`
+
 ### 步骤5；等待下发
 
 <div align="center">
