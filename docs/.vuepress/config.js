@@ -633,6 +633,7 @@ function genBarGuide() {
                 "gitee.md",
                 "mac.md",
                 "nas.md",
+                "trae.md",
             ]
         },
         {
@@ -2219,7 +2220,7 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "ai-knowledge.md",
-                "/promotion/AI MCP 已经帮我“干活”了！.md",
+                "promotion/AI MCP 已经帮我“干活”了！.md",
             ]
         },
         {
