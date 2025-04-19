@@ -1,9 +1,9 @@
 ---
-title: AI MCP 已经一天24小时，帮我“干活”了！
+title: AI MCP 已经一天24小时，给我“打工”了！
 lock: no
 ---
 
-# AI MCP 已经一天24小时，帮我“干活”了！
+# AI MCP 已经一天24小时，给我“打工”了！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

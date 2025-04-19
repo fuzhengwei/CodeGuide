@@ -2221,6 +2221,7 @@ function getBarAiRagKnowledge() {
             children: [
                 "ai-knowledge.md",
                 "promotion/AI MCP 已经帮我“干活”了！.md",
+                "promotion/AI MCP 再这么用下去，可就要”创业“变现了呀！.md",
             ]
         },
         {
@@ -2248,6 +2249,8 @@ function getBarAiRagKnowledge() {
                 "第11节：吃上细糠，升级SpringAI框架.md",
                 "第12节：康庄大道，上手 AI MCP 工作流.md",
                 "第13节，道山学海，实现MCP自动发帖服务.md",
+                "第14节：海纳百川，上线MCP自动发帖服务.md",
+                "第15节：川流不息，实现MCP微信公众号消息通知服务.md",
             ]
         }
     ]
@@ -2299,6 +2302,7 @@ function getBarGroupBuyMarket() {
                 "第2-17节：发送MQ结算消息.md",
                 "第2-18节：消费MQ结算消息.md",
                 "第2-19节：独占锁和无锁化场景运用.md",
+                "第2-20节：函数式数据缓存和降级到DB处理.md",
             ]
         },
         {
