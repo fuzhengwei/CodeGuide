@@ -408,6 +408,10 @@ module.exports = {
                             {
                                 text: '组件类型', items: [
                                     {
+                                        text: '通用技术组件 - 🔧扳手工程',
+                                        link: 'https://bugstack.cn/md/zsxq/project/xfg-wrench.html'
+                                    },
+                                    {
                                         text: 'OpenAI 代码自动评审',
                                         link: 'https://bugstack.cn/md/zsxq/project/openai-code-review.html'
                                     },
@@ -1837,6 +1841,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/xfg-wrench.md",
                 "project/openai-code-review.md",
                 "project/business-behavior-monitor.md",
                 "project/dynamic-thread-pool.md",
