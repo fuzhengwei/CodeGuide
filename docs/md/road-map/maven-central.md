@@ -282,14 +282,54 @@ lock: no
 </div>
 
 - 发包后，可以到你的仓库查看是否已经将本地包发到了仓库中。
-- 到这里，你的整个研发组，就可以统一使用这套包拉取到自己本来进行使用了。
+- 到这里，你的整个研发组，都配置好来自 [https://packages.aliyun.com/](https://packages.aliyun.com/)  Maven 配置下的下载链接，就可以统一使用这套包拉取到自己本来进行使用了。
 
 ## 五、中心仓库发包 - 全球研发用
 
 官网：[https://central.sonatype.com/publishing](https://central.sonatype.com/publishing)
 文档：[https://central.sonatype.org/publish/publish-portal-upload/](https://central.sonatype.org/publish/publish-portal-upload/)
 
-### 1. 命名空间配置
+### 1. GPG 安装
+
+我们需要一个GPG环境，用来对上传的文件进行加密和签名，保证你的jar包不被篡改。这也是发包到 Maven 中心仓库必须的操心。
+
+>1991年，程序员Phil Zimmermann为了避开政府监视，开发了加密软件PGP。这个软件非常好用，迅速流传开来，成了许多程序员的必备工具。但是，它是商业软件，不能自由使用。所以，自由软件基金会决定，开发一个PGP的替代品，取名为GnuPG。这就是GPG的由来。
+
+#### windows
+
+1. 下载地址：[https://gpg4win.org/download.html](https://gpg4win.org/download.html)
+2. 下载完成后直接安装即可，比较傻瓜式安装很简单，记得选中文(如果你英文硬也可以不选)
+3. 生成密钥(可以使用命令行生成，也可以直接在操作界面生成)
+   1. 文件>新建密钥对(Ctrl+N) -- 创建个人 OpenPGP 密钥对
+   ![](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-1.png)
+   2. 填写个人信息姓名和邮箱 并点击到 新建
+   ![](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-2.png)
+   3. 填写密钥密码
+   ![](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-3.png)
+   4. 将公钥上传到目录服务{如果上传失败，则通过：设置(S)->配置Kleopatra(C)，修改 OpenPGP密钥服务器为：hkp://keyserver.ubuntu.com:80}
+   ![](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-4.png)
+   
+
+#### mac
+
+1. 下载地址：[https://gpgtools.org/](https://gpgtools.org/)
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-19.png" width="650px">
+</div>
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-20.png" width="650px">
+</div>
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-21.png" width="650px">
+</div>
+
+- 下载后安装，打开后。点新建，即可创建新的秘钥。记得点击上传公钥，如果没有点击后续也可以在秘钥上右键上传。
+- 注意新秘钥的名称（姓名）是后续配置到 setting.xml、工程 pom 内的名称。
+
+### 2. 命名空间配置
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-11.png" width="750px">
@@ -303,7 +343,57 @@ Maven 中心仓库发包需要验证你的域名，确保全世界的唯一性�
 
 - 如图配置完添加验证即可，最后验证成功就可以使用了。
 
-### 2. 上传要求
+### 3. maven setting.xml
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+
+  <localRepository>/Users/fuzhengwei/Applications/apache-maven-3.8.4/repository</localRepository>
+
+  <servers>
+    <server>
+      <id>填写，你的秘钥密码</id>
+      <username>l4Mw+E3f</username>
+      <password>你在</password>
+    </server>
+  </servers>
+
+  <profiles>
+    <profile>
+      <id>ossrh</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <gpg.executable>gpg</gpg.executable>
+        <gpg.passphrase>填写，你的秘钥密码</gpg.passphrase>
+        <gpg.homedir>/Users/fuzhengwei/.gnupg/</gpg.homedir>
+      </properties>
+    </profile>
+  </profiles>
+
+  <activeProfiles>
+    <activeProfile>ossrh</activeProfile>
+  </activeProfiles>
+
+</settings>
+````
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-22.png" width="650px">
+</div>
+
+- 注意，打开你的 maven setting.xml 配置文件，完善以上配置内容。
+- servers 下的 username、password，来自于 [https://central.sonatype.com/account](https://central.sonatype.com/account) 
+- 官网使用说明：[https://central.sonatype.org/publish/generate-portal-token/](https://central.sonatype.org/publish/generate-portal-token/)
+
+### 4. 手动上传
+
+#### 4.1 上传要求
 
 文档：[https://central.sonatype.org/publish/publish-portal-upload/](https://central.sonatype.org/publish/publish-portal-upload/)
 
@@ -314,7 +404,7 @@ Maven 中心仓库发包需要验证你的域名，确保全世界的唯一性�
 - 如文档上传要求，你需要把jar、pom、doc、sources 全部打包到 zip 包，同时每个文件的 asc、md5、sha1 也需要打包进来。
 - 这些文件也都是在旧版上传 maven 中央仓库的时候，所需提供的内容。
 
-### 3. 项目配置
+#### 4.2 项目配置
 
 **源码**：[https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-lite/-/tree/master/scaffold-lite](https://gitcode.net/KnowledgePlanet/road-map/xfg-frame-archetype-lite/-/tree/master/scaffold-lite)
 
@@ -528,9 +618,9 @@ shasum ddd-scaffold-lite-1.0.pom > ddd-scaffold-lite-1.0.pom.sha1
 
 - 检查生成后的文件，去掉不需要的内容。
 
-### 4. 构建项目
+#### 4.3 构建项目
 
-#### 4.1 首次构建
+##### 1. 首次构建
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-13.png" width="750px">
@@ -538,7 +628,7 @@ shasum ddd-scaffold-lite-1.0.pom > ddd-scaffold-lite-1.0.pom.sha1
 
 - 需要构建 Release 包。
 
-#### 4.2 执行命令
+##### 2. 执行命令
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-14.png" width="750px">
@@ -551,7 +641,7 @@ shasum xfg-dev-tech-api-1.0.pom > xfg-dev-tech-api-1.0.pom.sha1
 
 - 构建后，执行命令。增加新的校验文件。
 
-#### 4.3 打包文件
+##### 3. 打包文件
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-15.png" width="750px">
@@ -560,9 +650,9 @@ shasum xfg-dev-tech-api-1.0.pom > xfg-dev-tech-api-1.0.pom.sha1
 - 创建一个和构建一样路径的文件夹，mac/linux 操作命名；`mkdir -p cn/bugstack/xfg-dev-tech-api/1.0/`
 - 之后把文件复制到文件夹中打一个zip包。
 
-### 5. 发包
+#### 6. 发包
 
-#### 5.1 提交
+##### 6.1 提交
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-16.png" width="650px">
@@ -570,7 +660,7 @@ shasum xfg-dev-tech-api-1.0.pom > xfg-dev-tech-api-1.0.pom.sha1
 
 - 提交你的压缩包。
 
-#### 5.2 等待通过&发包
+##### 6.2 等待通过&发包
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-17.png" width="650px">
@@ -579,11 +669,333 @@ shasum xfg-dev-tech-api-1.0.pom > xfg-dev-tech-api-1.0.pom.sha1
 - 稍微等待，验证通过后可以点击 Publish 发布。
 - 预计4-12小时后会同步到 maven 中心仓库以及阿里云的仓库。
 
-#### 5.3 发布效果
+##### 6.3 发布效果
 
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-18.png" width="650px">
 </div>
 
 - 地址：[https://mvnrepository.com/search?q=cn.bugstack](https://mvnrepository.com/search?q=cn.bugstack)
+
+### 5. 自动发包（推荐）
+
+#### 5.1 pom 配置
+
+为你的工程配置 pom；
+
+```java
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cn.bugstack</groupId>
+        <artifactId>xfg-dev-tech-micro-service-a</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>xfg-dev-tech-api</artifactId>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <retrofit2.version>2.9.0</retrofit2.version>
+        <slf4j.version>2.0.6</slf4j.version>
+        <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
+        <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
+        <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
+        <maven-checksum-plugin.version>1.10</maven-checksum-plugin.version>
+    </properties>
+
+    <name>xfg-dev-tech-api</name>
+    <description>ce API . Copyright © 2023 bugstack虫洞栈 All rights reserved. 版权所有（C）小傅哥 https://github.com/fuzhengwei</description>
+    <url>https://github.com/fuzhengwei/xfg-dev-tech-micro-service-a</url>
+
+    <licenses>
+        <license>
+            <name>Apache License</name>
+            <url>https://opensource.org/license/apache-2-0/</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>Xiaofuge</id>
+            <name>Xiaofuge</name>
+            <email>184172133@qq.com</email>
+            <url>https://github.com/fuzhengwei</url>
+            <organization>xfg-dev-tech-micro-service-a</organization>
+            <organizationUrl>https://github.com/fuzhengwei/xfg-dev-tech-micro-service-a</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+            </roles>
+            <timezone>Asia/Shanghai</timezone>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:https://github.com/fuzhengwei/xfg-dev-tech-micro-service-a.git</connection>
+        <developerConnection>scm:git:https://github.com/fuzhengwei/xfg-dev-tech-micro-service-a.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/fuzhengwei/xfg-dev-tech-micro-service-a</url>
+    </scm>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.28</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/**</include>
+                </includes>
+            </testResource>
+        </testResources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <resources>
+                        <resource>
+                            <directory>src/main/resources</directory>
+                            <filtering>false</filtering>
+                        </resource>
+                    </resources>
+                </configuration>
+            </plugin>
+
+            <!--   source源码插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!--   javadoc插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <configuration>
+                    <charset>UTF-8</charset>
+                    <encoding>UTF-8</encoding>
+                    <docencoding>UTF-8</docencoding>
+                    <additionalJOption>-Xdoclint:none</additionalJOption>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                        <configuration>
+                            <additionalparam>-Xdoclint:none</additionalparam>
+                            <!--  /Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home/bin/javadoc -->
+                            <javadocExecutable>${java.home}${file.separator}..${file.separator}bin${file.separator}javadoc</javadocExecutable>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!--gpg加密-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <configuration>
+                    <!--指定用于签名的 GPG 密钥名称。-->
+                    <keyname>ossrh</keyname>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>net.nicoulaj.maven.plugins</groupId>
+                <artifactId>checksum-maven-plugin</artifactId>
+                <version>1.10</version>
+                <executions>
+                    <execution>
+                        <id>create-checksums</id>
+                        <goals>
+                            <goal>artifacts</goal>
+                        </goals>
+                        <configuration>
+                            <algorithms>
+                                <algorithm>MD5</algorithm>
+                                <algorithm>SHA-1</algorithm>
+                            </algorithms>
+                            <attachChecksums>true</attachChecksums>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>create-pom-checksums</id>
+                        <goals>
+                            <goal>files</goal>
+                        </goals>
+                        <configuration>
+                            <fileSets>
+                                <fileSet>
+                                    <directory>${project.build.directory}</directory>
+                                    <includes>
+                                        <include>*.pom</include>
+                                    </includes>
+                                </fileSet>
+                            </fileSets>
+                            <algorithms>
+                                <algorithm>MD5</algorithm>
+                                <algorithm>SHA-1</algorithm>
+                            </algorithms>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!--   central发布插件，可配置自动推送和发布。文档；https://central.sonatype.org/publish/publish-portal-maven/#wait-for-publishing  -->
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.4.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <publishingServerId>ossrh</publishingServerId>
+                    <tokenAuth>true</tokenAuth>
+                    <autoPublish>true</autoPublish>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+</project>
+```
+
+##### Maven 插件
+
+项目使用了多个 Maven 插件来支持构建、打包和发布流程:
+1. maven-resources-plugin (v3.2.0)
+	- 用于资源文件处理，确保 UTF-8 编码 
+2. maven-source-plugin (v2.2.1)
+	- 生成源码 jar 包，便于开发者查看源码 
+3. maven-javadoc-plugin (v2.9.1)
+	- 生成 JavaDoc 文档
+	- 配置了 UTF-8 编码
+	- 禁用了文档检查 (-Xdoclint:none) 
+	4 . maven-shade-plugin (v3.2.4)
+	- 用于创建可执行 jar 包
+	- 配置了过滤器排除签名文件 
+5. maven-gpg-plugin (v1.5)
+	- 用于对构建产物进行 GPG 签名
+	- 指定了签名密钥名称: ossrh 
+6. checksum-maven-plugin (v1.10)
+	- 生成构建产物的校验和 (MD5, SHA-1)
+	- 为 jar 包和 pom 文件创建校验和 
+7. central-publishing-maven-plugin (v0.4.0)
+	- 用于将项目发布到 Maven Central 仓库
+	- 配置了自动发布功能
+
+##### 发布配置
+
+项目配置了发布到 Maven Central 仓库的相关信息:
+
+- 发布服务 ID : ossrh
+- 认证方式 : 令牌认证 (tokenAuth=true)
+- 自动发布 : 启用 (autoPublish=true)
+
+文档：[https://central.sonatype.org/publish/publish-portal-maven/#wait-for-publishing](https://central.sonatype.org/publish/publish-portal-maven/#wait-for-publishing)
+
+>每个插件和配置项都为项目的构建、发布和管理提供了特定的功能支持。
+
+#### 5.2 发布
+
+##### 点击发布
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-23.png" width="950px">
+</div>
+
+##### 查看结果
+
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-maven-24.png" width="650px">
+</div>
+
+>发布完成后，需要1-3天，才能同步到 [https://mvnrepository.com/](https://mvnrepository.com/)
 

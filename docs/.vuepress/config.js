@@ -690,12 +690,13 @@ function genBarGuide() {
             ]
         },
         {
-            title: "工程测试(2)",
+            title: "工程测试(3)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "mock.md",
                 "jmeter.md",
+                "intellij-idea-remote-jvm-debug.md",
             ]
         },
         {

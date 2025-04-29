@@ -95,7 +95,7 @@
                                 t._lock(articleObj);
                             } else {
                                 t._unlock(articleObj);
-                                t.setCookie("_unlock", "success", 7);
+                                t.setCookie("_unlock", "success", 45);
                             }
                         },
                         error: function (data) {
@@ -205,9 +205,9 @@
                 if (parts.length === 2)
                     return parts.pop().split(";").shift();
             },
-            setCookie: function (name, value, hours){
+            setCookie: function (name, value, day){
                 let exp = new Date();
-                exp.setTime(exp.getTime() + hours*60*60*1000);
+                exp.setTime(exp.getTime() + day*24*60*60*1000);
                 // ;path=/ cookie全站有效
                 document.cookie = name + "="+ escape (value) + ";path=/;expires=" + exp.toGMTString();
             },
