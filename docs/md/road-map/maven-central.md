@@ -295,7 +295,7 @@ lock: no
 
 >1991年，程序员Phil Zimmermann为了避开政府监视，开发了加密软件PGP。这个软件非常好用，迅速流传开来，成了许多程序员的必备工具。但是，它是商业软件，不能自由使用。所以，自由软件基金会决定，开发一个PGP的替代品，取名为GnuPG。这就是GPG的由来。
 
-#### windows
+#### 1.1 windows
 
 1. 下载地址：[https://gpg4win.org/download.html](https://gpg4win.org/download.html)
 2. 下载完成后直接安装即可，比较傻瓜式安装很简单，记得选中文(如果你英文硬也可以不选)
@@ -310,7 +310,7 @@ lock: no
    ![](https://bugstack.cn/assets/images/pic-content/2019/11/itstack-middleware-schedule-4.png)
    
 
-#### mac
+#### 1.2 mac
 
 1. 下载地址：[https://gpgtools.org/](https://gpgtools.org/)
 
