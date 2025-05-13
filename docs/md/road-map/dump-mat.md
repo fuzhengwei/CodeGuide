@@ -233,3 +233,7 @@ public void test_java_heap_space_list() throws InterruptedException {
 - 我们本案例采用的是 MySql 8.x 如果你使用其他线程池工具，还可能会返回具体的 SQL 语句一起打印出来。方便分析。
 
 好啦，有了这样一个分析过程，你也可以尝试熟悉下工具，分析分析其他的 Java heap space 场景。几次玩下来也就熟悉这个工具了。
+
+--- 
+
+其他工具；[https://visualvm.github.io/](https://visualvm.github.io/)
