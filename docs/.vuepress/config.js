@@ -372,7 +372,7 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: 'DeepSeek RAG&MCP 知识库（新）',
+                                        text: 'DeepSeek RAG&MCP&Agent 智能体（新）',
                                         link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
                                     {
@@ -2258,6 +2258,14 @@ function getBarAiRagKnowledge() {
                 "第14节：海纳百川，上线MCP自动发帖服务.md",
                 "第15节：川流不息，实现MCP微信公众号消息通知服务.md",
                 "第16节：息息相通，MCP 服务部署上线（sse 模式）.md",
+            ]
+        },
+        {
+            title: "3阶段 Agent spring-ai v1.0.0",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "agent/第3-0节：AiAgent 项目介绍和系统演示.md",
             ]
         }
     ]
