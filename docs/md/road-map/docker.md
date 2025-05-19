@@ -243,7 +243,8 @@ Docker version 20.10.11, build dea9396
 
 ### 12. 设置国内源
 
-阿里云提供了镜像源：[https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors) - 登录后你会获得一个专属的地址。
+1. 【推荐】1panel 提供了镜像源 [https://status.1panel.top/status/docker](https://status.1panel.top/status/docker) - `直接进去就可以找到最新的镜像源`
+2. 阿里云提供了镜像源：[https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors](https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors) - 登录后你会获得一个专属的地址。
 
 使用以下命令来设置 Docker 国内源：- 或者你可以通过 `vim /etc/docker/daemon.json` 进入修改添加 registry-mirrors 内容后重启 Docker
 
@@ -314,7 +315,6 @@ sudo systemctl restart docker
 ```
 
 - 参考链接：https://cloud.tencent.com/developer/article/2301228
-- 可信镜像中心：[https://atomhub.openatom.cn/](https://atomhub.openatom.cn/)
 
 ### 13. 远程连接 - 不推荐
 

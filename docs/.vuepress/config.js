@@ -2267,6 +2267,14 @@ function getBarAiRagKnowledge() {
             children: [
                 "agent/第3-0节：AiAgent 项目介绍和系统演示.md",
             ]
+        },
+        {
+            title: "扩展",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "ext/ai-agent-flowgram.md",
+            ]
         }
     ]
 }

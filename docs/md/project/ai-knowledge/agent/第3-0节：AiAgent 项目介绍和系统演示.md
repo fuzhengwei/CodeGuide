@@ -1,9 +1,9 @@
 ---
-title: 【更】第3-0节：AiAgent 项目介绍和系统演示
+title: 【更】第3-0节：Ai Agent 项目介绍和系统演示
 lock: no
 ---
 
-# 《DeepSeek RAG&MCP&Agent 智能体系统》第3-0节：AiAgent 项目介绍和系统演示
+# 《DeepSeek RAG&MCP&Agent 智能体系统》第3-0节：Ai Agent 项目介绍和系统演示
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -51,7 +51,6 @@ RAG 教了，MCP 搞了，那么现在是时候，实现一套自动化的 Ai Ag
   - https://mcpfound.cc/
   - https://mcp.so/
   - https://sai.baidu.com/mcp
-
 
 > 结合知识库、MCP、提示词规划、上下文记忆，可以有非常多的场景可以玩。后续小傅哥还会继续分享可玩场景。
 
