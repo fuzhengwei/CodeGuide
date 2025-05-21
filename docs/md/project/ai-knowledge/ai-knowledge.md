@@ -136,6 +136,10 @@ RAG 教了，MCP 搞了，那么现在是时候，实现一套自动化的 Ai Ag
     <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-0-02.png" width="950px">
 </div>
 
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-agent-station-250517-02.png" width="550px">
+</div>
+
 这套项目，小傅哥为它干了`1.87万`行代码（前后端），`14张`数据库表，全程动态化构建模块 Bean 对象，预热装配 Agent 服务。达到随用随配，自主组建出想要的各类的 Agent 功能服务。就以现在的丰富的 MCP 市场来可以说是，广阔天地，大有可为！在这套项目架构下，可以扩展出非常多的东西。
 
 ### 课程目录
