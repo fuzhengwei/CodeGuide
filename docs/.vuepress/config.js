@@ -2274,6 +2274,7 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "ext/ai-agent-flowgram.md",
+                "ext/ai-agent-mcp-auth.md",
             ]
         }
     ]
