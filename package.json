@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "NODE_OPTIONS='--openssl-legacy-provider --max-old-space-size=24096' vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
@@ -22,7 +22,6 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "@vuepress/core": "^1.8.2",
     "browserslist": "^4.16.3",
-    "caniuse-lite": "^1.0.30001196",
     "screenfull": "^5.1.0",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-code-copy": "^1.0.6",
