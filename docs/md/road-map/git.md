@@ -219,7 +219,7 @@ git clone -b 240720-xfg-init-project git@github.com:fuzhengwei/openai-code-revie
 - git branch -r：查看远程分支列表
 - git pull：拉取分支最新代码
 - git push：推送本地变更的代码。【这样的操作有图形化界面，更方便】
-- git fetch：后去远程仓库最新分支变动，这个很有用。在你想操作分支创建新或者看其他人的分支时候，先操作下 git fetch 看下最新的分支变动。
+- git fetch：获取远程仓库最新分支变动，这个很有用。在你想操作分支创建新或者看其他人的分支时候，先操作下 git fetch 看下最新的分支变动。
 - git merge origin/master：将远程分支的 master 代码合并到本地分支 master 上。【类似这样的操作有图形化界面，点击即可】
 
 ## 5. 检出代码 - IntelliJ IDEA
