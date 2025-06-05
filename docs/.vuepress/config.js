@@ -713,7 +713,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(15)",
+            title: "发布部署(17)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -727,6 +727,7 @@ function genBarGuide() {
                 "ssl-httpsok.md",
                 "jenkins.md",
                 "buddy.md",
+                "aliyun-workbench.md",
                 "github-actions-workflows.md",
                 "private-docker-hub.md",
                 "docker-idea.md",

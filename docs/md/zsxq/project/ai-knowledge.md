@@ -1,9 +1,9 @@
 ---
-title: DeepSeep RAG&MCP 知识库 - 解析文档&Git仓库代码&AI工作流
+title: DeepSeek RAG&MCP&Agent 知识库 - 解析文档&Git仓库代码&AI工作流
 lock: no
 ---
 
-# 《DeepSeep RAG&MCP 知识库》 - 解析文档&Git仓库代码&AI工作流
+# 《DeepSeek RAG&MCP&Agent 知识库》 - 解析文档&Git仓库代码&AI工作流
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
