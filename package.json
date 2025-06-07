@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "NODE_OPTIONS='--openssl-legacy-provider --max-old-space-size=24096' vuepress build docs"
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",
