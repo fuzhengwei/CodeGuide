@@ -3,10 +3,11 @@ title: 【更】第3-0节：Ai Agent 项目介绍和系统演示
 lock: no
 ---
 
-# 《DeepSeek RAG&MCP&Agent 智能体系统》第3-0节：Ai Agent 项目介绍和系统演示
+# 《Ai Agent》第3-0节：Ai Agent 项目介绍和系统演示
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
+<br/>视频：[https://t.zsxq.com/DcL2p](https://t.zsxq.com/DcL2p)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 

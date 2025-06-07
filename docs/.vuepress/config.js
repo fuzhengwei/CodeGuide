@@ -2267,6 +2267,9 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "agent/第3-0节：AiAgent 项目介绍和系统演示.md",
+                "agent/第3-1节：Ai Agent 业务流程、系统架构、库表设计说明.md",
+                "agent/第3-2节：初始化项目工程.md",
+                "agent/第3-3节：AiAgent测试案例.md",
             ]
         },
         {
@@ -2328,6 +2331,8 @@ function getBarGroupBuyMarket() {
                 "第2-18节：消费MQ结算消息.md",
                 "第2-19节：独占锁和无锁化场景运用.md",
                 "第2-20节：函数式数据缓存和降级到DB处理.md",
+                "第2-21节：引入扳手工程.md",
+                "第2-22节：动态限流配置.md",
             ]
         },
         {
