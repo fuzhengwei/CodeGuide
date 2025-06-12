@@ -1,5 +1,5 @@
 ---
-title: Private DockerHub
+title: Docker 私有仓库
 lock: need
 ---
 

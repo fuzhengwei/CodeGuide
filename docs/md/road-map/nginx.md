@@ -1,5 +1,5 @@
 ---
-title: Nginx
+title: Nginx 环境配置
 lock: need
 ---
 

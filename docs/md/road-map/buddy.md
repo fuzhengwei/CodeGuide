@@ -1,9 +1,9 @@
 ---
-title: Buddy
+title: Docker 镜像构建 - Buddy
 lock: need
 ---
 
-# 一款在线使用的，更轻量、更好用的 CI&CD 工具 buddy.works
+# Docker 镜像构建 - Buddy
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

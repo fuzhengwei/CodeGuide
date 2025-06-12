@@ -1,9 +1,9 @@
 ---
-title: Portainer
+title: Docker 管理面板（Portainer）
 lock: need
 ---
 
-# Portainer 环境配置
+# Docker 管理面板（Portainer）
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

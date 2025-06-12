@@ -1,9 +1,9 @@
 ---
-title: Frp
+title: Frp 内网穿透
 lock: need
 ---
 
-# 用云服务器IP，教你搭一套内网穿透服务！
+# Frp 内网穿透，用云服务器IP，教你搭一套内网穿透服务！
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

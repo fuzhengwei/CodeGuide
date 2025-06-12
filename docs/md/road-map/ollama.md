@@ -1,5 +1,5 @@
 ---
-title: Ollama + DeepSeek
+title: Nas + Ollama + DeepSeek
 lock: need
 ---
 

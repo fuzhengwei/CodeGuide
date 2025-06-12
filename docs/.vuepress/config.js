@@ -713,25 +713,26 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(17)",
+            title: "发布部署(18)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "linux.md",
+                "1panel.md",
                 "docker-what.md",
                 "docker.md",
+                "docker-install.md",
                 "portainer.md",
-                "nginx.md",
-                "1panel.md",
-                "ssl.md",
-                "ssl-httpsok.md",
-                "jenkins.md",
-                "buddy.md",
                 "aliyun-workbench.md",
                 "github-actions-workflows.md",
+                "buddy.md",
                 "private-docker-hub.md",
                 "docker-idea.md",
+                "jenkins.md",
                 "frp.md",
+                "nginx.md",
+                "ssl.md",
+                "ssl-httpsok.md",
                 "ollama.md",
                 "aigc.md",
             ]
@@ -2366,6 +2367,7 @@ function getBarGroupBuyMarket() {
                 "promotion/group-buy-market-v2.md",
                 "promotion/group-buy-market-v3.md",
                 "promotion/group-buy-market-v4.md",
+                "promotion/group-buy-market-v5.md",
             ]
         }
     ]

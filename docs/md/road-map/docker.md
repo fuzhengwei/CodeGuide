@@ -1,9 +1,9 @@
 ---
-title: Docker
+title: Docker 环境配置（手动安装）
 lock: need
 ---
 
-# Docker 环境配置
+# Docker 环境配置（手动安装）
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
