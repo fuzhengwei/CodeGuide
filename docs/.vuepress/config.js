@@ -2271,6 +2271,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-1节：Ai Agent 业务流程、系统架构、库表设计说明.md",
                 "agent/第3-2节：初始化项目工程.md",
                 "agent/第3-3节：AiAgent测试案例.md",
+                "agent/第3-4节：根据AiAgent案例，设计库表.md",
             ]
         },
         {
