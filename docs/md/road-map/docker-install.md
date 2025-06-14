@@ -43,6 +43,7 @@ lock: need
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-install-01.png" width="400px">
 </div>
+
 购买地址：[https://618.gaga.plus](https://618.gaga.plus)
 购买地址：[https://618.gaga.plus](https://618.gaga.plus)
 购买地址：[https://618.gaga.plus](https://618.gaga.plus)
@@ -50,9 +51,10 @@ lock: need
 **我适合买哪个服务器？**
 
 - 2c2g 1年，28￥，可部署一套 docker、mysql、redis、SpringBoot 单体项目，用于替代本地电脑的环境部署。
-- 2c4g 1年（非常推荐3年），109￥，可部署一套 docker、mysql、redis、rabbitmq、xxl-job、SpringBoot 分布式微服务项目。
+- 2c4g 1年（非常推荐3年），109￥，可部署一套 docker、mysql、redis、rabbitmq、xxl-job、SpringBoot 分布式微服务项目。 
+- 2c8g 1年，328￥，适合部署星球大部分项目，可以完成多个微服务项目部署。
 
-注意：购买选择系统时，推荐系统镜像，**centos 7.9**
+注意📢：购买选择系统时，推荐系统镜像，**centos 7.9**
 
 >如果自己账号不是新人身份，可以自己注册个新账号，用家里人JD扫码认证一下即可。
 
@@ -68,7 +70,9 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/road-map-docker-install-02.png" width="650px">
 </div>
 
-地址：[https://github.com/fuzhengwei/xfg-dev-tech-docker-install](https://github.com/fuzhengwei/xfg-dev-tech-docker-install)
+- **地址**：<https://github.com/fuzhengwei/xfg-dev-tech-docker-install>
+- **地址**：<https://gitcode.com/Yao__Shun__Yu/xfg-dev-tech-docker-install>
+
 
 ### 2. 脚本说明
 
