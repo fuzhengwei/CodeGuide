@@ -1,5 +1,5 @@
 ---
-title: 1Panel - 运维面板
+title: 1Panel 运维面板
 lock: need
 ---
 
