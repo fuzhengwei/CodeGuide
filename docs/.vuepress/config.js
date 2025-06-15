@@ -2335,6 +2335,7 @@ function getBarGroupBuyMarket() {
                 "第2-20节：函数式数据缓存和降级到DB处理.md",
                 "第2-21节：引入扳手工程.md",
                 "第2-22节：动态限流配置.md",
+                "第2-23节：ELK+AI MCP检索.md",
             ]
         },
         {
