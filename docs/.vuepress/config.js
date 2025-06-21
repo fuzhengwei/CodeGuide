@@ -2336,6 +2336,7 @@ function getBarGroupBuyMarket() {
                 "第2-21节：引入扳手工程.md",
                 "第2-22节：动态限流配置.md",
                 "第2-23节：ELK+AI MCP检索.md",
+                "第2-24节：系统监控+AIMCP分析.md",
             ]
         },
         {
