@@ -15,7 +15,7 @@ actionLinks:
   text: 项目 💐
   class: secondary    
 - link: https://618.gaga.plus
-  text: 9.9元/1月(云服务器) ☁️
+  text: 28元/1年(云服务器) ☁️
   class: secondary
 features:
 - title: 沉淀
