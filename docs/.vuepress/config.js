@@ -2374,6 +2374,7 @@ function getBarGroupBuyMarket() {
                 "promotion/group-buy-market-v3.md",
                 "promotion/group-buy-market-v4.md",
                 "promotion/group-buy-market-v5.md",
+                "promotion/group-buy-market-v6.md",
             ]
         }
     ]
