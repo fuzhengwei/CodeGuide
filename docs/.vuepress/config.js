@@ -2275,6 +2275,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-4节：根据AiAgent案例，设计库表.md",
                 "agent/第3-5节：多数据源和Mapper配置.md",
                 "agent/第3-6节：数据加载模型设计.md",
+                "agent/第3-7节：动态实例化客户端API.md",
             ]
         },
         {
