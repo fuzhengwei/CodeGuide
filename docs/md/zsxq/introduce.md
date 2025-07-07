@@ -27,13 +27,19 @@ lock: no
 **星球 APP / 小程序截图**：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/system-introduce-01.png?raw=true" width="650px">
+    <img src="https://bugstack.cn/images/system/system-introduce-01.png" width="650px">
 </div>
 
 **星球 PC 网页版截图**：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/system/system-introduce-02.png?raw=true" width="650px">
+    <img src="https://bugstack.cn/images/system/system-introduce-02.png" width="650px">
+</div>
+
+**星球 APP/PC 课程入口**
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/zsxq/zsxq-door.png" width="650px">
 </div>
 
 大家可以下载一个知识星球 APP 来提前体验~
@@ -43,8 +49,14 @@ lock: no
 加入星球，你可以获得已经在这条路上摸爬滚打多年的架构师，为你提供的如下服务。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/zsxq/jianli-xiaozhao-07.png?raw=true" width="850px">
+    <img src="https://bugstack.cn/images/article/zsxq/zsxq-241007-02.png" width="650px">
 </div>
+
+这是一整套的实战项目学习进阶路线，从小白到大佬，全程视频手把手带着从0到1，一步步完成项目的设计、开发和上线。在整套内容学习过程中，小傅哥为你提供了非常好的技术交流社群，及时解决学习问题。还包括调试你的问题代码，带你快速🔜出坑！
+
+- 首先，这一整套全体系的学习课程比私教培训实惠，更比培训班上万的培训费便宜。可能也就是培训班1天的💰钱，就能学习到这一整套内容了。
+- 之后，你学习的整套课程，就是小傅哥这个架构师自己全部原创编写的。这也就是说，你所提到的任何问题，小傅哥都能给你解答和讨论。
+- 那么，这么实惠的课程，成体系的课程，还是架构师编写的。还有什么可犹豫的，完全可以撸起来了！
 
 ### 1. 学习项目
 
@@ -52,30 +64,47 @@ lock: no
 
 而加入星球就可以学习到小傅哥为你编写的在大厂水平以上的实战项目，包括你会学习到：分布式架构、微服务设计、领域驱动设计、设计模式实现、规则引擎决策树、秒杀分段锁、API网关通信等等，只有加入大厂才能学习到的核心技能。
 
-#### 1.1 业务项目
+#### 1.1 课程资源
 
-- [大营销平台系统设计实现](https://bugstack.cn/md/project/big-market/big-market.html)
-- [OpenAi 大模型应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
-- [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
-- [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
-- [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
+**课程链接**：- 整个课程路线参考【课程日历图📅】，对应的资源链接汇总如下；
 
-#### 1.2 组件项目
+- 业务项目
 
-- [API网关：中间件设计和实践](https://bugstack.cn/md/zsxq/project/api-gateway.html)
-- [SpringBoot Starter 中间件设计和开发](https://bugstack.cn/md/zsxq/project/springboot-starter.html)
-- [IDEA Plugin 开发手册](https://bugstack.cn/md/zsxq/booklet/idea-plugin.html)
+  - 【3星】[(1.87w) Deepseek RAG、MCP、Agent 智能体](https://t.zsxq.com/Zq7hV)
+  - 【3星】[(1.15w) 拼团交易平台系统 - 微服务&分布式](https://t.zsxq.com/3X9GA)
+  - 【2星】[(0.6w) 小型支付商城系统 - 双架构开发（带小白入门）](https://t.zsxq.com/BDFJJ)
+  - 【4星】[(1.41w) 大营销平台系统 - 微服务&分布式](https://t.zsxq.com/199mpn9Lt)
+  - 【3星】[(0.77w) OpenAi(ChatGPT\ChatGLM) 微服务应用体系构建](https://t.zsxq.com/19aSkDvYB)
+  - 【4星】[(1.28w) Lottery DDD分布式抽奖系统](https://t.zsxq.com/qrUSd)
+  - 【2星】[(0.78w) IM实战(Netty+JavaFx)：仿桌面版微信聊天](https://t.zsxq.com/NcPgw)
+  - 【1星】[(0.12w) ChatGPT AI问答助手](https://t.zsxq.com/zGj7F)
 
-#### 1.3 技术小册
+- 组件项目
 
-- [字节码编程 - ASM、Javassist、Byte-Buddy](https://bugstack.cn/md/zsxq/booklet/bytecode.html)
-- [重学Java设计模式](https://bugstack.cn/md/zsxq/booklet/java-design.html)
-- [Java 面经手册](https://bugstack.cn/md/zsxq/booklet/java-interview.html)
-- [倚天村 • 图解数据结构](https://bugstack.cn/md/zsxq/booklet/data-structures.html)
+  - 【3星】[(0.36w) 通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
+  - 【2星】[(0.11w) OpenAI 代码自动评审组件](https://t.zsxq.com/gYEVX)
+  - 【2星】[(0.23w) BCP透视业务流程 - 监控系统](https://t.zsxq.com/CVzpL)
+  - 【2星】[(0.15w) 动态线程池组件](https://t.zsxq.com/nSebo)
+  - 【2星】[(0.31w) 支付SDK设计和开发](https://t.zsxq.com/19WqNkhr2)
+  - 【5星】[(0.78w) API网关：中间件设计和实践](https://t.zsxq.com/xIe9E)
+  - 【3星】[(0.38w) SpringBoot 中间件设计和开发](https://t.zsxq.com/LZ82D)
+  - 【2星】[(0.39w) IDEA Plugin 插件开发](https://t.zsxq.com/VMaSW)
 
-#### 1.4 手撕源码
+- 其他项目（源码 + 基础）
 
-- [手写Mybatis：渐进式源码实践](https://bugstack.cn/md/zsxq/source-code/develop-mybatis.html)
+  - 【5星】[(1.06w) 手写Mybatis：渐进式源码实践](https://t.zsxq.com/xMQ6W)
+  - 【3星】[分布式技术栈基础教程](https://t.zsxq.com/Hl0W4)
+
+#### 1.2 课程收获
+
+1. 熟练掌握 Spring、SpringBoot、MyBatis 等开发框架技术，并对其使用源码所提供的接口、类、SPI标准开发各类组件，有一定的设计思路和落地能力。
+2. 熟练使用 RPC（Dubbo）、MQ（RabbitMQ、Kafka）、Redis、分库分表、XXL-JOB、Zookeeper、等分布式技术栈，在各个场景的运用。
+3. 深入积累 Spring AI、AI SDK、AI 应用、RAG、MCP、Agent 开发技能和实际项目运用能力
+4. 深度了解 MVC、DDD 架构知识，和框架搭建技巧以及微服务设计思想。
+5. 熟练使用设计模式、设计原则，对各类场景的方案设计和落地能力，深度提高自身编码思维和开发技术能力。
+6. 熟练运用 Docker、Portainer 等Dev-Ops手段，部署和运维 Nginx、Skywalking、Otter、Canal、ELK 等技术框架。
+7. 具备多类项目的开发能力，业务项目、技术项目、组件项目，以及对应的架构模型和设计思路。
+8. 积累八股问题、项目问题、场景问题的解答技巧，同时会有辅助简历编编写优化和评审，提高面试通过率。
 
 ### 2. 问题解答
 
@@ -99,6 +128,30 @@ lock: no
 
 - 提交你的简历：[《面试简历；优化、完善、辅导》简历作业太阳](https://t.zsxq.com/0epLHDzcD)
 
+#### 3.1 简历模板
+
+有好经历，有不错的项目，还需要一套上档次的描述方式，这样才能更加完美的展示出自己的实力！这里小傅哥给大家提供了一个描述经历的结构，这样写的简历会更好的突出自己的能力，提高筛选通过率。
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/zsxq/student-learn-05.png" width="550px">
+</div>
+
+- 首先，个人信息，可以突出下过往的经验积累，包括；在过往的XXX经历中，积累了XXX场景的经验，使个人具备了XXX方面不错的能力。同时兼具着对(技术/场景)的(喜好/热忱)，长期(学习/从事/钻研)某项技术，并做出了对应的(开源)(产品/服务/组件/插件)。此个人XXX发布到XXX市场以后，得到了用户(下载量/点赞量/使用数)的规模，获得了非常好的认可。地址：http://github.com/xxxx/xxxx
+- 之后，描述个人`教育背景`、`实习/实践经历`、`专业技能`和项目的编写。专业技能，要注意描述顺序和内容量，不宜过多，但要把招聘中核心技术栈体现出来。紧接着到项目描述，这部分最好有1~2个业务项目 + 1个组件类型项目，这样的组合简历内容，还是非常好用的。
+- 最后，补充一个自我评价。把自己描述成有技术追求的、有团队精神、有奋斗品质的优秀好青年。
+
+#### 3.2 编写案例
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/zsxq/zsxq-241007-03.png" width="650px">
+</div>
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/zsxq/zsxq-241007-04.png" width="650px">
+</div>
+
+- 在每个大项目下，提供了简历编写案例和问题汇总。举例；[《拼团交易平台系统》，关于面试中的技能、简历、问题汇总](https://bugstack.cn/md/project/group-buy-market/notes.html)
+
 ### 4. 学习氛围
 
 当然，被这样的“鼓励”下，我的周末😭全用在星球上了，不是录制课程视频，就是手写源码，也因为大家的图越画越牛，我也跟着让自己的图更上层楼。点名：课代表阿曦、新晋卷王奥斯卡最佳配角、画图侠诏无言、优秀作业无名氏🧐等等。
@@ -121,6 +174,12 @@ lock: no
 
 ### 5. 用户反馈
 
+经过小傅哥这么多年的努力，👨🏻‍💻认认真真的做编程项目之下，一点点把来自于互联网真实技术教给社群伙伴。也越来越多的被高校老师、在校学生、企业公司、社群粉丝、海外伙伴的认可。
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/group-buy-market/group-buy-market-promotion-250629-02.png" width="750px">
+</div>
+
 - [@待佳人晚归](https://t.zsxq.com/0eAFk84M7)：`写Lottery项目前，因为之前没有接触ddd，也没看过傅哥的视频，想先理解各个模块，然后再编写，傅哥讲的很好，代码太优雅了，一下子就上头了。`
 - [@念](https://t.zsxq.com/0euNUBW9H)：`对Lottery项目分支的开发过程需要多看几遍小傅哥的视频,会有更好的理解.特别是写完之后再去回顾视频,思路会清晰的多`
 - [@星期一](https://t.zsxq.com/0chHS92j5)：`通过两天的学习成功将第五、第六章节跑通并完成了测试，感受最深的是对策略模式和模板模式的进一步了解，之前在看重学java设计模式的时候，对于很多设计模式都处于一知半解的状态，现在结合这个抽奖系统，让我对这两个设计模式有了不一样的理解与认识，感觉真的很棒。这种边记笔记，边学习的感觉真的很好，以前可能看视频学，一天能看很多章节，但其实很多东西都没有弄懂，现在是一天一个章节，慢慢去理解代码怎么编写，怎么完成。这些天虽然还有些地方理解的不是很清楚，我还是继续接着学，到时候回头再来温习一遍。`
@@ -132,7 +191,7 @@ lock: no
 
 ## 三、加入：知识星球
 
-星球价格 **￥159** 一年，老用户续费 **5折** 一年（星球每年都会开发新的学习项目和技术小册等资料）。[查看星球项目](https://bugstack.cn/md/zsxq/other/join.html)
+星球价格 **￥159** 一年（全网最实惠社群），老用户续费 **5折** 一年（星球每年都会开发新的学习项目和技术小册等资料）。[查看星球项目](https://bugstack.cn/md/zsxq/other/join.html)
 
 >加入 3 天内可以全额退款，感兴趣的同学可以先加入体验，自己判断是否有价值。
 

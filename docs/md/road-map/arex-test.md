@@ -1,9 +1,9 @@
 ---
-title: AREX - 流量回放
+title: AREX - 流量录制&回放
 lock: need
 ---
 
-# AREX - 流量回放
+# AREX - 流量录制&回放
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

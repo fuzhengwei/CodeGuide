@@ -701,7 +701,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "质量监控(6)",
+            title: "质量监控(7)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -709,6 +709,7 @@ function genBarGuide() {
                 "grafana.md",
                 "elk.md",
                 "dump-mat.md",
+                "dump-visualvm.md",
                 "arthas.md",
                 "13scan-jdumpspider.md",
             ]
@@ -1806,9 +1807,9 @@ function getBarZSXQ() {
             children: [
                 "introduce.md",
                 "material/guide.md",
-                "material/student-learn-all.md",
+                // "material/student-learn-all.md",
                 "material/student-learn-line.md",
-                "material/student-learn-recruit.md",
+                // "material/student-learn-recruit.md",
                 "material/student-learn-advanced.md",
             ]
         },
@@ -2341,6 +2342,7 @@ function getBarGroupBuyMarket() {
                 "第2-22节：动态限流配置.md",
                 "第2-23节：ELK+AI MCP检索.md",
                 "第2-24节：系统监控+AIMCP分析.md",
+                "第2-25节：逆向流程场景分析.md",
             ]
         },
         {

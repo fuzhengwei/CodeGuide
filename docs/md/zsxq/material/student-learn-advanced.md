@@ -42,6 +42,7 @@ lock: no
 
 **课程链接**：- 整个课程路线参考【课程日历图📅】，对应的资源链接汇总如下；
 
+- 【3星】[(1.87w) Deepseek RAG、MCP、Agent 智能体](https://t.zsxq.com/Zq7hV)
 - 【2星】[(0.6W) 小型支付商城系统 - 双架构开发（带小白入门）](https://t.zsxq.com/3X9GA)
 - 【4星】[(1.41W) 大营销平台系统 - 微服务&分布式](https://t.zsxq.com/199mpn9Lt)
 - 【3星】[(0.77W) OpenAi(ChatGPT\ChatGLM) 微服务应用体系构建](https://t.zsxq.com/19aSkDvYB)

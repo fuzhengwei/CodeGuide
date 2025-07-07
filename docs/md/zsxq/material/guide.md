@@ -56,6 +56,7 @@ lock: no
 申请加入仓库后，小傅哥会按照你的申请信息进行审核授权，授权完成后就可以访问项目地址，看到完整的星球课程学习项目了。地址：[https://gitcode.net/KnowledgePlanet](https://gitcode.net/KnowledgePlanet)
 
 **仓库使用**：`2种使用方式`
+
   1. 密码方式：登录的用户ID为 CSDN 个人中心的用户ID，[https://i.csdn.net/#/user-center/profile](https://i.csdn.net/#/user-center/profile) 密码为 CSDN 登录密码。如果没有密码或者忘记，可以在 CSDN 登录页找回密码。
   2. SSH 秘钥免登录方式，设置：[https://gitcode.net/-/profile/keys](https://gitcode.net/-/profile/keys) 文档：[生成 SSH 密钥](https://gitcode.net/codechina/help-docs/-/wikis/docs/ssh#%E7%94%9F%E6%88%90-ssh-%E5%AF%86%E9%92%A5)
 
@@ -63,15 +64,21 @@ lock: no
     <img src="https://bugstack.cn/images/system/zsxq-project.png?raw=true" width="650px">
 </div>
 
+课程和视频，使用说明；
+
+1. 申请一次仓库后（星球，课程入口，指引，仓库申请），就可以拉取课程代码（git clone），之后idea打开项目，可以切换分支。教程；https://bugstack.cn/md/road-map/git.html
+2. 文档；课程入口，每个项目，进入后，往下翻，会有一个【目录】。目录里的文章，进入后，是评论区，在点击链接进入文章详情。
+3. 视频；每个文章上面会有，视频地址，以及源码地址（审核仓库后直接点击就可以看）
+
 ## 三、课程：学习路线
 
 星球学习项目较多，建议学习路线如下；
 
-1. **为了面试**：Java面经手册(八股)、Lottery 分布式抽奖(项目)、SpringBoot Starter 中间件设计和开发(拉伸技术)、手写Spring/手写Mybatis(2选1)
-2. **夯实能力**：重学Java设计模式、Lottery 分布式抽奖、手写Spring、手写Mybatis
+1. **为了面试**：Java面经手册(八股)、Ai Agent、拼团交易、大营销（Lottery Plus）/Lottery 分布式抽奖(项目)、SpringBoot Starter 中间件设计和开发(拉伸技术)、手写Spring/手写Mybatis(2选1)
+2. **夯实能力**：重学Java设计模式、拼团交易、大营销（Lottery Plus）/Lottery 分布式抽奖(项目)、手写Spring、手写Mybatis、OpenAi 应用项目
 3. **拉伸技术**：字节码、IDEA Plugin 开发手册、SpringBoot Starter、API网关
 4. **网络编程**：Netty 4.x 小册、IM(Netty 4.x + JavaFx)
-5. **应届小白**：重学Java设计模式、Java面经手册、手写Spring/手写Mybatis(2选1)、Lottery 分布式抽奖、SpringBoot Starter 中间件设计和开发，之后学习拉伸技术、网络编程
+5. **应届小白**：重学Java设计模式、Java面经手册、手写Spring/手写Mybatis(2选1)、小型支付商城、SpringBoot Starter 中间件设计和开发，之后学习拉伸技术、网络编程
 6. **创新学习**：IDEA Plugin 插件开发、ChatGPT 微服务应用体系 —— `星球项目较多，也可以自行组合。如 IM + ChatGPT，开发角色智能AI。`
 
 ---
@@ -80,7 +87,7 @@ lock: no
 
 ## 四、简历：项目组合
 
-1. 建议的项目组合是；a【业务】Lottery、IM  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT 项目 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
+1. 建议的项目组合是；a【业务】拼团/大营销、IM  + b【技术】API 网关 + c【组件】SpringBoot Starter + d【创新】ChatGPT 项目 + e【开源】IDEA Plugin 插件发布到 IDEA 插件市场。
     1. 基础组合；a、c
     2. 中级组合；a、c、d/e
     3. 高级组合；a、b、e
