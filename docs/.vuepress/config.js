@@ -2343,6 +2343,7 @@ function getBarGroupBuyMarket() {
                 "第2-23节：ELK+AI MCP检索.md",
                 "第2-24节：系统监控+AIMCP分析.md",
                 "第2-25节：逆向流程场景分析.md",
+                "第2-26节：未支付退单流程.md",
             ]
         },
         {
