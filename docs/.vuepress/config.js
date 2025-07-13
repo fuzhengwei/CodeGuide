@@ -2277,6 +2277,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-5节：多数据源和Mapper配置.md",
                 "agent/第3-6节：数据加载模型设计.md",
                 "agent/第3-7节：动态实例化客户端API.md",
+                "agent/第3-8节：动态实例化对话模型.md",
             ]
         },
         {
@@ -2719,6 +2720,7 @@ function genBarAbout() {
                 "me/2024-01-09-从T4到T8，4年时间，4次晋升。技术提升最快的那几年，我做了什么？.md",
                 "me/2024-01-28-大厂架构师小傅哥，上学时都做过哪些项目？.md",
                 "me/2024-11-17-gold-content.md",
+                "me/2025-07-03-嘎嘎强，嘎嘎哒学v2.0.md",
             ]
         },
         {
