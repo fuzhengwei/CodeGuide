@@ -17,7 +17,7 @@
                   <div class="pos-box">
                       <div class="icon-arrow"></div>
                       <div class="scroll-box" style="text-align:center" >
-                          <span style="font-size:0.8rem;font-weight:bold;">👨🏻‍💻 <a href="https://wx.zsxq.com/group/48411118851818" target="_blank" style="color: #2c3e50">带你学习，实战项目。</a><span style="font-size:12px;color:red;">提高编程思维，锻炼编码能力！</span>14个实战项目，增强面试竞争力！</span>
+                          <span style="font-size:0.8rem;font-weight:bold;">👨🏻‍💻 <a href="https://wx.zsxq.com/group/48411118851818" target="_blank" style="color: #2c3e50">带你学习，实战项目。</a><span style="font-size:12px;color:red;">提高编程思维，锻炼编码能力！</span>17个实战项目，增强面试竞争力！</span>
                           <img height="180px" src="/images/personal/xingqiu.png"/>
                           <b>扫码加入，星球</b>：码农会锁
                       </div>
