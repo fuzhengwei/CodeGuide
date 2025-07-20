@@ -715,10 +715,11 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(18)",
+            title: "发布部署(19)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
+                "cloud-server.md",
                 "linux.md",
                 "1panel.md",
                 "docker-what.md",
@@ -2346,6 +2347,7 @@ function getBarGroupBuyMarket() {
                 "第2-24节：系统监控+AIMCP分析.md",
                 "第2-25节：逆向流程场景分析.md",
                 "第2-26节：未支付退单流程.md",
+                "第2-27节：已支付未成团退单.md",
             ]
         },
         {

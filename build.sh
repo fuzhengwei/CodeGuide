@@ -1,4 +1,4 @@
-# 先切换到指定的 Node.js 版本
+# 先切换到指定的 Node.js 版本 sudo n
 NODE_OPTIONS=--max-old-space-size=24096 npm run build
 
 # 优惠券地址；https://bugstack.cn/images/article/zsxq/zsxq-youhuiquan.png
