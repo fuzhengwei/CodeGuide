@@ -12,10 +12,10 @@ actionLinks:
   text: 编程路书 👣
   class: secondary   
 - link: https://gaga.plus
-  text: 项目 💐
+  text: 项目(+菜鸟教程) 💐
   class: secondary    
 - link: https://618.gaga.plus
-  text: 28元/1年(云服务器) ☁️
+  text: 9.9元/月(云服务器) ☁️
   class: secondary
 features:
 - title: 沉淀

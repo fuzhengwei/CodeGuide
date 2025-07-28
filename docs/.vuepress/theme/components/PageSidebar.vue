@@ -112,6 +112,11 @@
         </div>
       </div>
 
+      <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://gaga.plus','_blank')">
+        <img class="nozoom" src="/images/system/code.png" width="25px" />
+        <span class="show-txt">做项目</span>
+      </div>
+
       <div class="option-box" v-on:mouseout="hideToc($event)" v-on:mouseover="showToc($event)" onclick="javascript:window.open('https://t.zsxq.com/17UIvdgb3','_blank')">
           <img class="nozoom" src="/images/system/interview.png" width="25px" />
           <span class="show-txt">八股文</span>

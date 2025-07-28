@@ -589,12 +589,13 @@ function genBarOther() {
 function genBarGuide() {
     return [
         {
-            title: "简明教程(2)",
+            title: "简明教程(3)",
             collapsable: false,
-            sidebarDepth: 2,
+            sidebarDepth: 3,
             children: [
                 "road-map.md",
-                "introduce.md"
+                "introduce.md",
+                "cainiao.md",
             ]
         },
         {
