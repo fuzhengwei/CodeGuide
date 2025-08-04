@@ -2366,6 +2366,8 @@ function getBarGroupBuyMarket() {
                 "第3-4节：小商城对接营销结算.md",
                 "第3-5节：小商城UI与接口对接.md",
                 "第3-6节：通过浏览器指纹获取登录ticket无痕登录.md",
+                "第3-7节：用户订单列表和退单UI.md",
+                "第3-8节：退单退款服务对接.md",
             ]
         },
         {
@@ -2388,6 +2390,7 @@ function getBarGroupBuyMarket() {
                 "promotion/group-buy-market-v4.md",
                 "promotion/group-buy-market-v5.md",
                 "promotion/group-buy-market-v6.md",
+                "promotion/group-buy-market-v7.md",
             ]
         }
     ]
