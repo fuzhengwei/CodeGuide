@@ -2377,6 +2377,7 @@ function getBarGroupBuyMarket() {
             children: [
                 "第4-1节：第1阶段部署云环境.md",
                 "第4-2节：第2阶段部署云环境.md",
+                "第4-3节：第3阶段部署云环境.md",
             ]
         },
         {
