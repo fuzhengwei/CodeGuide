@@ -2281,6 +2281,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-7节：动态实例化客户端API.md",
                 "agent/第3-8节：动态实例化对话模型.md",
                 "agent/第3-9节：动态实例化对话客户端.md",
+                "agent/第3-10节：Agent执行链路分析.md",
             ]
         },
         {
