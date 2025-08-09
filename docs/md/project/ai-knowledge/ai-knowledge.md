@@ -133,6 +133,10 @@ RAG 教了，MCP 搞了，那么现在是时候，实现一套自动化的 Ai Ag
 </div>
 
 <div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-12-01.png" width="950px">
+</div>
+
+<div align="center">
     <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-0-02.png" width="950px">
 </div>
 
