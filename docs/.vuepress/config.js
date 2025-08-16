@@ -2284,6 +2284,8 @@ function getBarAiRagKnowledge() {
                 "agent/第3-10节：Agent执行链路分析.md",
                 "agent/第3-11节：Agent执行链路设计.md",
                 "agent/第3-12节：Agent服务接口和UI对接.md",
+                "agent/第3-13节，Agent-ELK日志分析场景.md",
+                "agent/第3-14节，Agent-Prometheus监控分析场景.md",
             ]
         },
         {
@@ -2293,6 +2295,7 @@ function getBarAiRagKnowledge() {
             children: [
                 "ext/ai-agent-flowgram.md",
                 "ext/ai-agent-mcp-auth.md",
+                "ext/ai-agent-auto.md",
             ]
         }
     ]

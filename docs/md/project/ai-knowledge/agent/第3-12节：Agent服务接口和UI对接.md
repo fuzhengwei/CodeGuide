@@ -11,7 +11,6 @@ pay: https://t.zsxq.com/T0H6n
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-
 ## 一、本章诉求
 
 以实现 Ai Auto Agent Server-Sent Events (SSE) 流式响应接口为目的，设计 SSE 异步响应结果对象，对 Step 1~4 步骤的过程数据进行异步流式响应返回。开发好接口后，与Ai实现的前端UI界面进行对接。
