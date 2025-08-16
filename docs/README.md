@@ -5,18 +5,18 @@ actionLinks:
 - link: /md/other/guide-to-reading.md
   text: 开始阅读 →
   class: primary
-#- link: https://wx.zsxq.com/group/48411118851818
-#  text: 知识星球
-#  class: secondary  
+- link: https://wx.zsxq.com/group/48411118851818
+  text: 知识星球
+  class: secondary  
 - link: /md/road-map/road-map.md
   text: 编程路书 👣
   class: secondary   
 - link: https://gaga.plus
   text: 项目(+菜鸟教程) 💐
   class: secondary    
-#- link: https://618.gaga.plus
-#  text: 9.9元/月(云服务器) ☁️
-#  class: secondary
+- link: https://618.gaga.plus
+  text: 9.9元/月(云服务器) ☁️
+  class: secondary
 features:
 - title: 沉淀
   details: 承遇朝霞，年少正恰。整装戎马，刻印风华。

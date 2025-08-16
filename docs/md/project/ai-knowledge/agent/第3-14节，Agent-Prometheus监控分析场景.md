@@ -7,7 +7,7 @@ pay: https://t.zsxq.com/8BfkE
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[https://t.zsxq.com/kMjAw](https://t.zsxq.com/kMjAw)
+<br/>视频：[https://t.zsxq.com/ymfSm](https://t.zsxq.com/ymfSm)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
