@@ -2232,7 +2232,7 @@ function getBarAiRagKnowledge() {
             sidebarDepth: 0,
             children: [
                 "ai-knowledge.md",
-                "ai-agent-notes.md",
+                "notes.md",
                 "promotion/AI MCP 已经帮我“干活”了！.md",
                 "promotion/AI MCP 再这么用下去，可就要”创业“变现了呀！.md",
             ]
@@ -2297,6 +2297,7 @@ function getBarAiRagKnowledge() {
                 "ext/ai-agent-flowgram.md",
                 "ext/ai-agent-mcp-auth.md",
                 "ext/ai-agent-auto.md",
+                "ext/ai-agent-notes.md",
             ]
         }
     ]

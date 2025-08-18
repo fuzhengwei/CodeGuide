@@ -44,7 +44,7 @@ lock: no
 
 #### 1.2 视频效果（对比扣子）
 
-占位符！！
+视频：[https://www.bilibili.com/video/BV1VYbczDER6](https://www.bilibili.com/video/BV1VYbczDER6)
 
 ### 2. 日志分析 - ELK 辅助提效（公司里非常需要这样的场景）
 
