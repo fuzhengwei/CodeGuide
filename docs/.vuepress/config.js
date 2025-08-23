@@ -2287,6 +2287,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-12节：Agent服务接口和UI对接.md",
                 "agent/第3-13节，Agent-ELK日志分析场景.md",
                 "agent/第3-14节，Agent-Prometheus监控分析场景.md",
+                "agent/第3-15节：FlowAgent执行链路分析.md",
             ]
         },
         {
