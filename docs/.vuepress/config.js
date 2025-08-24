@@ -1823,6 +1823,7 @@ function getBarZSXQ() {
                 "material/architecture_design.md",
                 "material/interview.md",
                 "material/dialogue-skills.md",
+                "material/speaking-skills.md",
                 "material/notes.md",
                 "material/study-experience.md",
                 "material/exam.md",
