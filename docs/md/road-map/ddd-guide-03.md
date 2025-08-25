@@ -57,7 +57,7 @@ lock: need
 <div align="center">
     <img src="https://bugstack.cn/images/roadmap/tutorial/ddd-easy-guide-03-03.png" width="750px">
 </div>
-无论是六边形架构，还是洋葱架构，或是[张毅老师](http://zhangyi.xyz/)提到的南向网关/北向网关的菱形架构，他们的目标都是以领域服务为核心，隔离内部实现与外部资源的耦合。
+无论是六边形架构，还是洋葱架构，或是 张毅老师 - http://zhangyi.xyz/ 提到的南向网关/北向网关的菱形架构，他们的目标都是以领域服务为核心，隔离内部实现与外部资源的耦合。
 
 在 DDD 分层架构下，以支撑 domain 核心领域实现拆分出基础设施（infrastructure），来承接对外部资源的调用。触发器（trigger）向外部提供服务。之后 app 为应用启动、api 为接口定义、types 为通用信息、case 为编排。
 
