@@ -447,6 +447,10 @@ module.exports = {
                                         text: '小场景训练营',
                                         link: '/md/project/ddd-scene-solution/alipay-sandbox.md'
                                     },
+                                    {
+                                        text: '吉祥外卖',
+                                        link: '/md/project/lucky-tackout/lucky-tackout.md'
+                                    },
                                 ]
                             },
                         ]
