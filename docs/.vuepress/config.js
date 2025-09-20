@@ -442,14 +442,18 @@ module.exports = {
                                 ]
                             },
                             {
-                                text: '其他类型', items: [
+                                text: '自学类型', items: [
                                     {
-                                        text: '小场景训练营',
+                                        text: '场景案例',
                                         link: '/md/project/ddd-scene-solution/alipay-sandbox.md'
                                     },
                                     {
                                         text: '吉祥外卖',
                                         link: '/md/project/lucky-tackout/lucky-tackout.md'
+                                    },
+                                    {
+                                        text: '钓鱼佬',
+                                        link: '/md/project/xfg-fish-pond/xfg-fish-pond.md'
                                     },
                                 ]
                             },
@@ -564,7 +568,7 @@ module.exports = {
                     "/md/project/s-pay-mall/": getBarSPayMall(),
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
-                    "/md/project/ddd-scene-solution/": getBarDDDSceneSolution(),
+                    "/md/project/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
                     "/md/road-map/": genBarGuide(),
@@ -2295,6 +2299,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-15节：FlowAgent执行链路分析.md",
                 "agent/第3-16节：FlowAgent执行链路设计.md",
                 "agent/第3-17节：增加调度器策略执行Agent链路.md",
+                "agent/第3-18节：动态执行智能体任务.md",
             ]
         },
         {
@@ -2615,14 +2620,23 @@ function getBarBigMarket() {
 function getBarDDDSceneSolution() {
     return [
         {
-            title: "课程",
+            title: "案例",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "alipay-sandbox.md",
-                "openai-tldraw.md",
-                "sensitive-word-content-moderation.md",
-                "weixin-login.md",
+                "ddd-scene-solution/alipay-sandbox.md",
+                "ddd-scene-solution/openai-tldraw.md",
+                "ddd-scene-solution/sensitive-word-content-moderation.md",
+                "ddd-scene-solution/weixin-login.md",
+            ]
+        },
+        {
+            title: "项目",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "lucky-tackout/lucky-tackout.md",
+                "xfg-fish-pond/xfg-fish-pond.md",
             ]
         },
     ]
