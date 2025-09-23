@@ -126,6 +126,28 @@ DDD 领域驱动设计的中心，主要在于领域模型的设计，以领域�
 
 当进入领域层开始，也是智力集中体现的开始了。所有你对工程的抽象能力，都在这一块区域体现。
 
+**关于对象定义**；vo、po、dto、entity、aggregate、req、res、response
+
+以下描述使用场景为，在 DDD 领域驱动架构下（六边形、整洁、COLA）
+
+domain 领域层；
+- entity，实体对象，如雇员用户的基本信息、订单信息、配送信息
+- vo（value object），值对象，用于描述实体对象信息。如一个人，这个雇员用户的基本 level 枚举值对象、这个人居住地址四级信息对象。这些对象不具有唯一性，也就是不具有生命特征。就像你，之后你的衣服，你的胡子。
+- aggregate，聚合对象，当我们要写一笔订单入口的时候，需要做事务，事务如果需要一组对象；订单记录、账户记录、库存记录等，这些实体对象+值对象，写入到聚合对象内，一起提交过去。
+
+* 以前的 MVC 下的 XXXVo、XxxReq、XxxRes，现在被领域细分成各个模块下的，实体、聚合、值对象了。*
+
+infrastructure 基础设施层；
+- po 数据库持久化对象，用于映射数据库表字段的。这个对象不要做业务流程，只提供数据库数据
+- dto 数据传输对象，这个对象也会在基础设施层出现，用于与外部的接口对接。比如 rpc 接口、http 接口，出入参的对象，都叫做数据传输对象。命名为 XxxRequestDTO、XxxResponseDTO 支付包的sdk包里就是这样命名的。
+
+api 层：
+- dto 对象，接口的出入参，数据传输对象。命名为 XxxRequestDTO、XxxResponseDTO
+- response<?> 对象，包装结果对象，提供 code、info、data，准确描述错误码以及data数据，data数据是泛型，用于包装 XxxResponseDTO 结果。当你f12浏览器，一些互联网的web服务，观察他的接口，就会看到这样的结构。
+
+case 编排层：
+- 这一层承接 web 的接口编排动作，串联 domain 领域流程。通常2个方案，一个是引入 api 层，定义的对象。另外一个就是多一层转换，在一层定义 api 层对应的 XxxRequestDTO -> XxxRequest、XxxResponseDTO -> XxxResponse
+
 ## 五、工程架构案例
 
 ### 1. 环境
