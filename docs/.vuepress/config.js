@@ -2311,6 +2311,7 @@ function getBarAiRagKnowledge() {
                 "ext/ai-agent-mcp-auth.md",
                 "ext/ai-agent-auto.md",
                 "ext/ai-agent-notes.md",
+                "ext/ai-agent-job.md",
             ]
         }
     ]
