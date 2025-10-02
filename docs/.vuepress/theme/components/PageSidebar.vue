@@ -90,7 +90,7 @@
               <div class="icon-arrow"></div>
               <div class="scroll-box" style="text-align:center" >
                 <span style="font-size:0.8rem;font-weight:bold;">添加小傅哥微信<span style="color:red;">(fustack)</span>进虫洞栈学习交流圈「无任何套路」</span>
-                <img src="/images/personal/fustack.png" height="180px" style="margin:10px;"/>
+                <img src="/images/personal/wx_qiye.png" height="180px" style="margin:10px;"/>
                 PS：添加时请备注<b>读者加群</b>，谢谢！
               </div>
             </div>
