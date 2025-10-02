@@ -2300,6 +2300,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-16节：FlowAgent执行链路设计.md",
                 "agent/第3-17节：增加调度器策略执行Agent链路.md",
                 "agent/第3-18节：动态执行智能体任务.md",
+                "agent/第3-19节：拖拉拽编排数据存储.md",
             ]
         },
         {
