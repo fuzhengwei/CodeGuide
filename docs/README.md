@@ -95,7 +95,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 沉淀、分享、成长，让自己和他人都能有所收获！你也可以扫码添加本站作者小傅哥的微信（记得备注从博客来的）
 
 <div align="center">
-    <img src="https://bugstack.cn/images/personal/wx_little.png?raw=true" width="190" height="190">
+    <img src="https://bugstack.cn/images/personal/wx_little.png?raw=true" width="500">
     <div style="font-size: 9px;">提示：如果添加失败，可以先扫码图中的客服，也可以找到我</div>
     <br/>
 </div>
