@@ -51,6 +51,8 @@ lock: no
 
 ## 一、能学到啥
 
+这是一套综合`前后端 + Dev-Ops`，基于 Spring Ai 框架实现，Ai Agent 智能体。耗时7个多月，38节课程（`视频`+`文档`），从 RAG 到 MCP，再实现出互联网企业级，可编排的 Ai Agent 智能体，现已全部开发完成 + 部署上线。💐
+
 该项目是结合当下最火的 Ollama、DeepSeek、SpringAI 等技术构建的 RAG 知识库实现。从前端到后端到 dev-ops 的全栈式功能手把手实现。
 
 - 前端，基于 AI 工具，设计前端对话页面，完成 HTML、JS、TailwindCSS 的编码工作。
@@ -132,79 +134,189 @@ RAG 教了，MCP 搞了，那么现在是时候，实现一套自动化的 Ai Ag
     <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-0-01.png" width="800px">
 </div>
 
+本项目分为，用户端、管理端和服务端，服务端统一提供接口能力，管理端维护 AI Agent 智能体配置、用户端提供使用服务。
+
+#### 1. 登录界面
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-01.png" width="950px">
+</div>
+
+- 这一部分在数据库表增加了 admin_user 表，有配置登录账号和密码，可以简单做校验。
+
+#### 2. 管理界面
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-02.png" width="950px">
+</div>
+
+- 管理后台目前提供了，代理管理（拖拉拽编排方式配置智能体），资源管理（model、client、mcp、advisor、prompt）
+- 数据分析、系统设置，是样例，你可以继续扩展你所需要的内容。
+
+#### 3. 代理管理
+
+##### 3.1 代理列表
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-03.png" width="950px">
+</div>
+
+- 这里的代理列表，就是通过拖拉拽配置的智能体。可以点击【查看】看到明细，也可以【新建】，还可以删除。
+- 点击【加载】则是调用服务端，把数据加载到 Spring 容器，之后就可以使用了。
+
+##### 3.2 代理配置
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-04.png" width="950px">
+</div>
+
+- 当你点击一个代理配置，则会展示出拖拉拽的数据到页面上。这部分会从数据库读取，之后展示出来，全部可视化。
+- 如果你点击了Save则会做出一份新的，之后对于旧的，你可以自己手动删除。
+
+#### 4. 资源管理
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-05.png" width="950px">
+</div>
+
+- 资源管理下，是配置一个智能体所需的各项资源信息，你可以在这里进行维护。如，MCP 工具管理。
+
+#### 5. 页面使用
+
+##### 5.1 对话交流
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-20-06.png" width="950px">
+</div>
+
+##### 5.2 场景解析
+
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-12-01.png" width="950px">
 </div>
 
-<div align="center">
-    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-0-02.png" width="950px">
-</div>
+##### 5.3 监控分析
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-agent-station-250517-02.png" width="550px">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-14-07.png" width="950px">
 </div>
 
-这套项目，小傅哥为它干了`1.87万`行代码（前后端），`14张`数据库表，全程动态化构建模块 Bean 对象，预热装配 Agent 服务。达到随用随配，自主组建出想要的各类的 Agent 功能服务。就以现在的丰富的 MCP 市场来可以说是，广阔天地，大有可为！在这套项目架构下，可以扩展出非常多的东西。
+- 配置后的智能体，可以在智能体选择里进行获取使用。之后进行提问。
+- 效果还不错，这里小傅哥验证了配置的智能体进行提问。
 
-### 课程目录
+## 三、关于系统设计
 
-#### 第1期 RAG Spring AI 0.8.1 - 完结
+本套系统设计，也是花费了非常大的心思。
 
-1. 【更】AI RAG 知识库，项目介绍&需求分析&环境说明
-2. 【更】初始化知识库工程&部署模型&提交代码
-3. 【更】Ollama DeepSeek 流式应答接口实现
-4. 【更】Ollama DeepSeek 流式应答页面对接
-5. 【更】Ollama RAG 知识库上传、解析和验证
-6. 【更】Ollama RAG 知识库接口服务实现
-7. 【更】基于AI工具，设计前端UI和接口对接
-8. 【更】Git仓库代码库解析到知识库并完善UI对接
-9. 【更】扩展OpenAI模型对接，以及完整AI对接
-10. 【更】云服务器部署知识库（Docker、Nginx）
-
-#### 第2期 MCP Spring AI 1.0.0 - 开冲
-
-11. 【新】AI MCP 项目介绍
-12. 【新】吃上细糠，Spring AI 框架升级 + GPU 部署 AI
-13. 【新】吃上细糠，官网 DeepSeek + open-api 对接
-14. 【新】MCP 服务的应用类演示和使用
-15. 【新】MCP Spring  AI 客户端npx调用，以及资源讲解
-16. 【新】MCP Spring AI 服务端webflux实现
-17. 【新】MCP Spring AI 服务端 + 客户端对接使用
-18. 【新】服务接口实现，增强 RAG 知识库 + MCP 服务使用
-19. 【新】应用服务接口与前端页面对接
-20. ... 随课程开发提供，包括后续的云服务部署。
-
-#### 第3期 Agent Spring AI 1.0.0 - 进行中
-
-0. 第3-0节，AiAgent项目介绍和系统演示
-1. 第3-1节，Ai Agent 业务流程、系统架构、库表设计说明
-2. 第3-2节，初始化工程和库表dao等，提交代码，讲解代码库使用
-3. 第3-3节，硬编码方式讲解 Ai Agent 构建，为后续拆分做准备
-4. 第3-4节，引入扳手工程，规则模型，整体设计Agent预热装配
-5. 第3-5节，规则节点，RootNode 异步加载数据
-6. 第3-6节，规则节点，AiClientToolMcpNode 工具MCP服务构建
-7. 第3-7节，规则节点，AiClientAdvisorNode 顾问角色服务构建
-6. 第3-8节，规则节点，AiClientModelNode 模型构建 bean 对象
-7. 第3-9节，规则节点，AiClientNode 客户端构建
-8. 第3-10节，Agent 服务预热和对话接口封装，使用验证
-9. 第3-11节，知识库接口封装和使用
-10. 第3-12节，智能体动态任务构建
-11. 第3-13节，Admin 管理端 API 接口讲解（CRUD）
-12. 第3-14节，Ai Agent 对话与 UI 页面对接
-13. 第3-15节，构建镜像，上线云服务器
-14. 第3-16节，Agent 场景玩法分享
-14. ... 更多内容，随着课程开始逐步更新。
-
-### 课程计划
-
-课程已全部录制完成，计划在3月3日开更，3月16日之前全部剪辑更新完成。
+### 1. 执行流程
 
 <div align="center">
-	<img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-0-01.png" width="850px"/>
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-15-01.png" width="650px">
 </div>
 
-- 全课程包括文档 + 小册，全程视频手把手带着做。
-- 课程地址：[https://t.zsxq.com/GwNZp](https://t.zsxq.com/GwNZp)
+在整个 Ai Agent 的实现中，小傅哥带着大家分析设计了4种方案，包括；固定执行的、循环执行的、智能分析决策的还有一个按照步骤规划的。这些流程都有适合于自己业务场景使用。在代码中也都有不同方案的实现，之后通过用户选择后进行动态化的策略调度。
+
+### 2. 核心动作
+
+#### 2.1 数据装配
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-9-01.png" width="750px">
+</div>
+
+- 首先，以构建 AiClientNode 的对话客户端为目的，已经完成了相关的元素实例化步骤。本节这里要处理的是，顾问角色的构建，以及构建 AiClientNode 节点。
+- 之后，AiClientNode 的构建，是关联了其他各项元素的，所以在构建时，需要在 AiClientNode 节点，从 Spring 容器通过 getBean 的方式，检索到对应的各项元素。
+
+#### 2.2 动态调度
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-17-01.png" width="750px">
+</div>
+
+- 这里会根据用户的请求，进行策略路由，找到所需的 Ai Agent 执行策略进行处理。这里小傅哥也有意加入不同的策略，让大家可以看到很多的 Ai Agent 设计思路。
+
+#### 2.3 执行策略（01）
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-agent-station-ext-250810-07.png" width="750px">
+</div>
+
+- 以程序启动为开始，进行自动化装配。这个过程我们先把一些想预先启动的数据库中的 agent 配置所需的 client 客户端进行服务初始化。之后写入到 Spring 容器，方便在执行 Agent 时进行使用。`前面有伙伴问，为什么把实例化的对象写入到 Spring 容器，这里就是原因`
+- 客户端（UI），进行 POST 接口请求，这个过程需要封装一个 SSE 流式响应的接口，让 Step 1~4 各个执行步骤，把过程信息写入到流式接口。这里要注意，需要给接口返回的**对象**添加上对应的类型（什么步骤、什么节点、什么过程），以便于反馈给用户 Agent 在做什么。
+
+#### 2.4 执行策略（02）
+
+<div align="center">
+    <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-3-16-01.png" width="750px">
+</div>
+
+- 这是其中的一种 Ai Agent 执行策略方式，通过用户的提问进行分析、规划、列出执行步骤，之后依次执行。
+- 所有的这些实现都有相应的代码，带着大家使用规则树框架清晰的实现出来。
+
+## 四、课程目录
+
+### 1. 课程目录
+
+**第1阶段** spring-ai v0.8.1 - RAG 静态知识库（本阶段，需要配置附件的 setting.xml）
+
+- 第1节：关于 AI RAG 知识库项目介绍
+- 第2节：初始化知识库工程&提交代码
+- 第3节：Ollama DeepSeek 流式应答接口...
+- 第4节：Ollama DeepSeek 流式应答页面...
+- 第5节：Ollama RAG 知识库上传、解析和验证
+- 第6节：Ollama RAG 知识库接口服务实现
+- 第7节：基于AI工具，设计知识库UI和接口对接
+- 第8节：Git仓库代码库解析到知识库
+- 第9节：扩展OpenAI模型对接，以及完整AI对接
+- 第10节：云服务器部署知识库（Docker、Ngin...
+
+**第2阶段** spring-ai v1.0.0 - MCP 动态知识库
+
+- 第11节：吃上细糠，升级SpringAI框架
+- 第12节：康庄大道，上手 AI MCP 工作...
+- 第13节，道山学海，实现MCP自动发帖服务（...
+- 第14节，海纳百川，上线MCP自动发帖服务
+- 第15节，川流不息，实现MCP微信公众号消息通知服务
+- 第16节：息息相通，MCP 服务部署上线（sse 模式）
+
+**第3阶段** spring-ai v1.0.0 - Ai Agent 进行中「如果着急面试，可以直接做3阶段，完成到13节很够面试啦」
+
+- 第3-0节：Ai Agent 项目介绍和系统演示【最初版本，含完整代码】
+- 第3-1节，Ai Agent 业务流程、系统架构、库表设计说明
+- 第3-2节：初始化项目工程
+- 第3-3节：Ai Agent 测试案例
+- 第3-4节：根据 Ai Agent 案例，设计库表
+- 第3-5节：多数据源和Mapper配置
+- 第3-6节：数据加载模型设计
+- 第3-7节：动态实例化客户端API
+- 第3-8节：动态实例化对话模型
+- 第3-9节：实例化对话客户端
+- 第3-10节：Agent执行链路分析
+- 第3-11节：Agent执行链路设计
+- 第3-12节：Agent服务接口和UI对接（第一版AutoAgent效果）
+- 第3-13节，Agent-ELK日志分析场景
+- 第3-14节，Agent-Prometheus监控分析场景
+- 第3-15节：AgentFlow执行链路分析（扩展思路）
+- 第3-16节：FlowAgent执行链路设计（扩展思路）
+- 第3-17节：增加调度器策略执行Agent链路
+- 第3-18节：动态执行智能体任务
+- 第3-19节：拖拉拽编排数据存储
+- 第3-20节：Agent管理后台实现
+- 第3-21节：在云服务器部署上线
+
+### 2. 编程环境
+
+- JDK 17 ~ 21
+- Postgresql
+- SpringBoot 3.2.3 - Spring AI 0.8.1 ~ 1.0.0+
+- Redis
+- Docker
+- Ollama + DeepSeek + GPU -
+- RAG、MCP、Function Call
+
+课程包括文档 + 小册，全程视频带着做。课程地址：[https://t.zsxq.com/GwNZp](https://t.zsxq.com/GwNZp)
+
+> 综上，你可以看到此套项目的完整的介绍，这些也都是企业里非常实用的技能积累。有希望提高自己的编程能力和面试材料的，可以马上加入学习。
 
 ---
 

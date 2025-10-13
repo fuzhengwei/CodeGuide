@@ -2242,8 +2242,6 @@ function getBarAiRagKnowledge() {
             children: [
                 "ai-knowledge.md",
                 "notes.md",
-                "promotion/AI MCP 已经帮我“干活”了！.md",
-                "promotion/AI MCP 再这么用下去，可就要”创业“变现了呀！.md",
             ]
         },
         {
@@ -2302,6 +2300,7 @@ function getBarAiRagKnowledge() {
                 "agent/第3-18节：动态执行智能体任务.md",
                 "agent/第3-19节：拖拉拽编排数据存储.md",
                 "agent/第3-20节：Agent管理后台实现.md",
+                "agent/第3-21节：在云服务器部署上线.md",
             ]
         },
         {
@@ -2314,6 +2313,8 @@ function getBarAiRagKnowledge() {
                 "ext/ai-agent-auto.md",
                 "ext/ai-agent-notes.md",
                 "ext/ai-agent-job.md",
+                "promotion/AI MCP 已经帮我“干活”了！.md",
+                "promotion/AI MCP 再这么用下去，可就要”创业“变现了呀！.md",
             ]
         }
     ]
