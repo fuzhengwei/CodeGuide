@@ -42,7 +42,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 
 ### 开发的项目
 
-- 业务项目
+- 业务项目(8)
     - [DeepSeek RAG&MCP&Agent 智能体（新）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
     - [拼团交易平台系统（新）](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)
     - [小型支付电商系统 - 一套项目2套架构开发（MVC+DDD）](https://bugstack.cn/md/project/s-pay-mall/s-pay-mall.html)
@@ -52,7 +52,8 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
     - [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
     - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
 
-- 组件项目
+- 组件项目(9)
+    - [MCP Gateway 网关服务系统](https://bugstack.cn/md/project/mcp-gateway/mcp-gateway.html)
     - [通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
     - [OpenAI 代码自动评审组件](https://bugstack.cn/md/zsxq/project/openai-code-review.html)
     - [透视业务流程 - 监控系统](https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html)

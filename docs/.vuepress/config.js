@@ -372,11 +372,11 @@ module.exports = {
                             {
                                 text: '业务类型', items: [
                                     {
-                                        text: 'DeepSeek RAG&MCP&Agent 智能体（新）',
+                                        text: 'DeepSeek RAG&MCP&Agent 智能体',
                                         link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
                                     {
-                                        text: '拼团交易平台系统（新）',
+                                        text: '拼团交易平台系统',
                                         link: '/md/project/group-buy-market/group-buy-market.md'
                                     },
                                     {
@@ -407,6 +407,10 @@ module.exports = {
                             },
                             {
                                 text: '组件类型', items: [
+                                    {
+                                        text: 'MCP Gateway 网关服务系统（更新中）',
+                                        link: '/md/project/mcp-gateway/mcp-gateway.md'
+                                    },
                                     {
                                         text: '通用技术组件 - 🔧扳手工程',
                                         link: 'https://bugstack.cn/md/zsxq/project/xfg-wrench.html'
@@ -568,6 +572,7 @@ module.exports = {
                     "/md/project/s-pay-mall/": getBarSPayMall(),
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
+                    "/md/project/mcp-gateway/": getBarMCPGateway(),
                     "/md/project/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
@@ -2230,6 +2235,27 @@ function getBarProjectChatGPT() {
                 "extra/ChatGPT-v1.3.md",
             ]
         }
+    ]
+}
+
+function getBarMCPGateway() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "mcp-gateway.md",
+            ]
+        },
+        {
+            title: "协议",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "none.md",
+            ]
+        },
     ]
 }
 
