@@ -409,7 +409,7 @@ module.exports = {
                                 text: '组件类型', items: [
                                     {
                                         text: 'MCP Gateway 网关服务系统（更新中）',
-                                        link: '/md/project/ai-mcp-gateway/ai-ai-mcp-gateway.md'
+                                        link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
                                         text: '通用技术组件 - 🔧扳手工程',
@@ -2245,14 +2245,15 @@ function getBarAIMCPGateway() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "ai-ai-mcp-gateway.md",
+                "ai-mcp-gateway.md",
             ]
         },
         {
-            title: "协议",
+            title: "第1部分：系统设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "第1-1节：网关需求分析.md",
                 "none.md",
             ]
         },

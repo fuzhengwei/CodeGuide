@@ -53,7 +53,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
     - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
 
 - 组件项目(9)
-    - [MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
+    - [AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
     - [通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
     - [OpenAI 代码自动评审组件](https://bugstack.cn/md/zsxq/project/openai-code-review.html)
     - [透视业务流程 - 监控系统](https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html)
