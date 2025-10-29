@@ -1,9 +1,9 @@
 ---
-title: MCP Gateway 网关服务系统
+title: AI MCP Gateway 网关服务系统
 lock: no
 ---
 
-# 《MCP Gateway 网关服务系统》 - 为各类应用服务接口，便捷转换为MCP服务而设计。
+# 《AI MCP Gateway 网关服务系统》 - 为各类应用服务接口，便捷转换为MCP服务而设计。
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
