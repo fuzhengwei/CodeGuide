@@ -2254,6 +2254,14 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "第1-1节：网关需求分析.md",
+            ]
+        },
+        {
+            title: "第2部分：协议分析",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第2-1节：MCP服务实现.md",
                 "none.md",
             ]
         },
