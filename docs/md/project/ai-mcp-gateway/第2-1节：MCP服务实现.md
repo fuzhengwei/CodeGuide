@@ -9,7 +9,7 @@ pay: https://t.zsxq.com/QdTsG
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>视频：[https://t.zsxq.com/mUHg8](https://t.zsxq.com/mUHg8)
 
-大家好，我是技术UP主小傅哥。
+>大家好，我是技术UP主小傅哥。
 
 进入到第二部分开始，小傅哥会带着大家通过各种手段对 MCP 协议进行细致的实践验证的方式进行分析。这部分包括了实现一个 MCP 服务，完成 MCP 服务的对接，通过代理的方式调试对接中 MCP 接口协议的数据，以及通过开发网页测试工具对接协议等。最后在进行 json-rpc2 定义的协议标准讲解。通过这样一套内容串联，你会对 MCP 有非常强的理解，也能为后面做 MCP 网关实现的学习打下良好的基础。
 

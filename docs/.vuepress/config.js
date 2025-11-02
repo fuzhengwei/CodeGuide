@@ -637,7 +637,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "开发环境(10)",
+            title: "开发环境(12)",
             collapsable: false,
             sidebarDepth: 0,
             children: [
@@ -652,6 +652,7 @@ function genBarGuide() {
                 "mac.md",
                 "nas.md",
                 "trae.md",
+                "joycode.md",
             ]
         },
         {
