@@ -31,7 +31,8 @@ Status: Downloaded newer image for portainer/portainer:latest
 docker.io/portainer/portainer:latest
 ```
 
-- docker pull portainer/portainer
+- 默认镜像：`docker pull portainer/portainer`
+- 代理镜像：`docker pull registry.cn-hangzhou.aliyuncs.com/xfg-studio/portainer:latest`
 - 拉取 portainer
 
 ### 2. 安装和启动
@@ -41,6 +42,8 @@ docker.io/portainer/portainer:latest
 ```java
 [root@CodeGuide]# docker run -d --restart=always --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 ```
+
+代理安装(推荐)：`docker run -d --restart=always --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock registry.cn-hangzhou.aliyuncs.com/xfg-studio/portainer:latest`
 
 ### 3. 访问 Portainer
 
