@@ -2263,6 +2263,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "第2-1节：MCP服务实现.md",
+                "第2-2节：MCP代理调用.md",
                 "none.md",
             ]
         },
