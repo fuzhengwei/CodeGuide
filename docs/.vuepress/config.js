@@ -408,7 +408,7 @@ module.exports = {
                             {
                                 text: '组件类型', items: [
                                     {
-                                        text: 'MCP Gateway 网关服务系统（更新中）',
+                                        text: 'AI MCP Gateway 网关服务系统（更新中）',
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
