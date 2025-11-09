@@ -692,7 +692,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "常用类库(6)",
+            title: "常用类库(7)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -701,6 +701,7 @@ function genBarGuide() {
                 "http.md",
                 "ratelimiter.md",
                 "spring-ai.md",
+                "google-adk.md",
                 "disruptor.md",
             ]
         },
