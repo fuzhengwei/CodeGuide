@@ -390,6 +390,10 @@ module.exports = {
                                     {
                                         text: 'ChatGPT AI 问答助手',
                                         link: '/md/project/chatbot-api/chatbot-api.md'
+                                    },
+                                    {
+                                        text: 'OpenAi SDK 组件项目',
+                                        link: 'https://bugstack.cn/md/zsxq/project/openai-sdk-java.html'
                                     }
                                 ]
                             },
@@ -1849,18 +1853,28 @@ function getBarZSXQ() {
             ]
         },
         {
+            title: "创新项目（AI）",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "project/ai-mcp-gateway.md",
+                "project/ai-knowledge.md",
+                "project/openai-code-review.md",
+                "project/chatgpt.md",
+                "project/chatbot-api.md",
+                "project/openai-sdk-java.md",
+            ]
+        },
+        {
             title: "业务项目",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "project/ai-knowledge.md",
                 "project/group-buy-market.md",
                 "project/s-pay-mall.md",
                 "project/big-market.md",
-                "project/chatgpt.md",
                 "project/lottery.md",
                 "project/im.md",
-                "project/chatbot-api.md",
             ]
         },
         {
@@ -1869,11 +1883,9 @@ function getBarZSXQ() {
             sidebarDepth: 0,
             children: [
                 "project/xfg-wrench.md",
-                "project/openai-code-review.md",
                 "project/business-behavior-monitor.md",
                 "project/dynamic-thread-pool.md",
                 "project/ltzf-sdk-java.md",
-                "project/openai-sdk-java.md",
                 "project/api-gateway.md",
                 "project/springboot-starter.md",
                 "booklet/idea-plugin.md",
