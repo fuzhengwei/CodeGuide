@@ -370,11 +370,31 @@ module.exports = {
                         text: '💯实战项目',
                         items: [
                             {
-                                text: '业务类型', items: [
+                                text: '创新类型（AI）', items: [
+                                    {
+                                        text: 'AI MCP Gateway 网关服务系统（更新中）',
+                                        link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
+                                    },
                                     {
                                         text: 'DeepSeek RAG&MCP&Agent 智能体',
                                         link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
+                                    {
+                                        text: 'OpenAI 代码自动评审',
+                                        link: 'https://bugstack.cn/md/zsxq/project/openai-code-review.html'
+                                    },
+                                    {
+                                        text: 'OpenAi 大模型应用服务体系构建',
+                                        link: '/md/project/chatgpt/chatgpt.md'
+                                    },
+                                    {
+                                        text: 'ChatGPT AI 问答助手',
+                                        link: '/md/project/chatbot-api/chatbot-api.md'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '业务类型', items: [
                                     {
                                         text: '拼团交易平台系统',
                                         link: '/md/project/group-buy-market/group-buy-market.md'
@@ -388,36 +408,20 @@ module.exports = {
                                         link: '/md/project/big-market/big-market.md'
                                     },
                                     {
-                                        text: 'OpenAi 大模型应用服务体系构建',
-                                        link: '/md/project/chatgpt/chatgpt.md'
-                                    },
-                                    {
                                         text: 'Lottery 分布式抽奖系统',
                                         link: '/md/project/lottery/introduce/Lottery抽奖系统.md'
                                     },
                                     {
                                         text: 'IM Netty 仿PC端微信',
                                         link: '/md/project/im/2020-03-04-《Netty+JavaFx实战：仿桌面版微信聊天》.md'
-                                    },
-                                    {
-                                        text: 'ChatGPT AI 问答助手',
-                                        link: '/md/project/chatbot-api/chatbot-api.md'
                                     }
                                 ]
                             },
                             {
                                 text: '组件类型', items: [
                                     {
-                                        text: 'AI MCP Gateway 网关服务系统（更新中）',
-                                        link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
-                                    },
-                                    {
                                         text: '通用技术组件 - 🔧扳手工程',
                                         link: 'https://bugstack.cn/md/zsxq/project/xfg-wrench.html'
-                                    },
-                                    {
-                                        text: 'OpenAI 代码自动评审',
-                                        link: 'https://bugstack.cn/md/zsxq/project/openai-code-review.html'
                                     },
                                     {
                                         text: '透视业务流程-监控系统',
