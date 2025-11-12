@@ -7,7 +7,10 @@ actionLinks:
   class: primary
 #- link: https://wx.zsxq.com/group/48411118851818
 #  text: 知识星球
-#  class: secondary  
+#  class: secondary 
+- link: /md/zsxq/introduce.html
+  text: 知识星球
+  class: secondary  
 - link: /md/road-map/road-map.md
   text: 编程路书 👣
   class: secondary   
