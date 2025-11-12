@@ -74,21 +74,22 @@ lock: no
 
 **课程链接**：- 整个课程路线参考【课程日历图📅】，对应的资源链接汇总如下；
 
-- 业务项目
-
+- 创新项目（AI）
+  - 【3星】[(1.20w) AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
   - 【3星】[(1.87w) Deepseek RAG、MCP、Agent 智能体](https://t.zsxq.com/Zq7hV)
+  - 【2星】[(0.11w) OpenAI 代码自动评审组件](https://t.zsxq.com/gYEVX)
+  - 【3星】[(0.77w) OpenAi(ChatGPT\ChatGLM) 微服务应用体系构建](https://t.zsxq.com/19aSkDvYB)
+  - 【1星】[(0.12w) ChatGPT AI问答助手](https://t.zsxq.com/zGj7F)
+  
+- 业务项目
   - 【3星】[(1.15w) 拼团交易平台系统 - 微服务&分布式](https://t.zsxq.com/3X9GA)
   - 【2星】[(0.6w) 小型支付商城系统 - 双架构开发（带小白入门）](https://t.zsxq.com/BDFJJ)
   - 【4星】[(1.41w) 大营销平台系统 - 微服务&分布式](https://t.zsxq.com/199mpn9Lt)
-  - 【3星】[(0.77w) OpenAi(ChatGPT\ChatGLM) 微服务应用体系构建](https://t.zsxq.com/19aSkDvYB)
   - 【4星】[(1.28w) Lottery DDD分布式抽奖系统](https://t.zsxq.com/qrUSd)
   - 【2星】[(0.78w) IM实战(Netty+JavaFx)：仿桌面版微信聊天](https://t.zsxq.com/NcPgw)
-  - 【1星】[(0.12w) ChatGPT AI问答助手](https://t.zsxq.com/zGj7F)
 
 - 组件项目
-  - 【3星】[(1.20w) AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
   - 【3星】[(0.36w) 通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
-  - 【2星】[(0.11w) OpenAI 代码自动评审组件](https://t.zsxq.com/gYEVX)
   - 【2星】[(0.23w) BCP透视业务流程 - 监控系统](https://t.zsxq.com/CVzpL)
   - 【2星】[(0.15w) 动态线程池组件](https://t.zsxq.com/nSebo)
   - 【2星】[(0.31w) 支付SDK设计和开发](https://t.zsxq.com/19WqNkhr2)
