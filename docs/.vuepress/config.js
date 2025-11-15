@@ -2281,6 +2281,7 @@ function getBarAIMCPGateway() {
             children: [
                 "第2-1节：MCP服务实现.md",
                 "第2-2节：MCP代理调用.md",
+                "第2-3节：MCP通信协议(json-rpc2).md",
                 "none.md",
             ]
         },
