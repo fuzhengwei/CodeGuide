@@ -59,7 +59,8 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
     - [Lottery 分布式抽奖系统 - 基于领域驱动设计的四层架构实践](https://bugstack.cn/md/zsxq/project/lottery.html)
     - [Netty+JavaFx实战：仿桌面版微信聊天](https://bugstack.cn/md/zsxq/project/im.html)
 
-- 组件项目(7)
+- 组件项目(8)
+    - [本地任务消息组件](https://bugstack.cn/md/project/local-task-message/local-task-message.html)
     - [通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
     - [透视业务流程 - 监控系统](https://bugstack.cn/md/zsxq/project/business-behavior-monitor.html)
     - [动态线程池组件](https://bugstack.cn/md/zsxq/project/dynamic-thread-pool.html)

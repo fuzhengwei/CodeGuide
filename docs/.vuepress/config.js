@@ -424,6 +424,10 @@ module.exports = {
                             {
                                 text: '组件类型', items: [
                                     {
+                                        text: '本地任务消息组件',
+                                        link: '/md/project/local-task-message/local-task-message.md'
+                                    },
+                                    {
                                         text: '通用技术组件 - 🔧扳手工程',
                                         link: 'https://bugstack.cn/md/zsxq/project/xfg-wrench.html'
                                     },
@@ -581,6 +585,7 @@ module.exports = {
                     "/md/project/group-buy-market/": getBarGroupBuyMarket(),
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
+                    "/md/project/local-task-message/": getBarLocalTaskMessage(),
                     "/md/project/": getBarDDDSceneSolution(),
                     "/md/zsxq/": getBarZSXQ(),
                     "/md/product/": getBarProduct(),
@@ -1882,6 +1887,7 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "project/local-task-message.md",
                 "project/xfg-wrench.md",
                 "project/business-behavior-monitor.md",
                 "project/dynamic-thread-pool.md",
@@ -2272,6 +2278,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "第1-1节：网关需求分析.md",
+                "第1-2节：系统建模设计.md",
             ]
         },
         {
@@ -2285,6 +2292,32 @@ function getBarAIMCPGateway() {
                 "none.md",
             ]
         },
+    ]
+}
+
+function getBarLocalTaskMessage() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "local-task-message.md",
+            ]
+        },
+        {
+            title: "课程",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第1节：组件需求分析.md",
+                "第2节：SpringEvent事件消息.md",
+                "第3节：任务表设计和数据写入.md",
+                "第4节：通知策略处理(HTTP&MQ).md",
+                "第5节：动态任务补偿处理.md",
+                "第6节：切面拦截任务操作.md",
+            ]
+        }
     ]
 }
 

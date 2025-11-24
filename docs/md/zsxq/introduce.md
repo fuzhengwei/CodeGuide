@@ -89,6 +89,7 @@ lock: no
   - 【2星】[(0.78w) IM实战(Netty+JavaFx)：仿桌面版微信聊天](https://t.zsxq.com/NcPgw)
 
 - 组件项目
+  - 【3星】[(0.21w)本地任务消息组件](https://bugstack.cn/md/zsxq/project/local-task-message.html)
   - 【3星】[(0.36w) 通用技术组件 - 🔧扳手工程](https://bugstack.cn/md/zsxq/project/xfg-wrench.html)
   - 【2星】[(0.23w) BCP透视业务流程 - 监控系统](https://t.zsxq.com/CVzpL)
   - 【2星】[(0.15w) 动态线程池组件](https://t.zsxq.com/nSebo)
