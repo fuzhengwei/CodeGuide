@@ -1,13 +1,13 @@
 ---
 title: 第2节：SpringEvent事件消息
-pay: https://t.zsxq.com/Pfekb
+pay: https://t.zsxq.com/u9vRf
 ---
 
 # 《本地任务消息组件》- 第2节：SpringEvent事件消息
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>课程：[https://t.zsxq.com/Pfekb](https://t.zsxq.com/Pfekb)
+<br/>课程：[https://t.zsxq.com/ySbTf](https://t.zsxq.com/ySbTf)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 

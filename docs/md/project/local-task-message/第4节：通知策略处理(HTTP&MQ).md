@@ -1,13 +1,13 @@
 ---
 title: 第4节：通知策略处理(HTTP&MQ)
-pay: https://t.zsxq.com/Pfekb
+pay: https://t.zsxq.com/AjdgW
 ---
 
 # 《本地任务消息组件》- 第4节：通知策略处理(HTTP&MQ)
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>课程：[https://t.zsxq.com/Pfekb](https://t.zsxq.com/Pfekb)
+<br/>课程：[https://t.zsxq.com/9FgAG](https://t.zsxq.com/9FgAG)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 

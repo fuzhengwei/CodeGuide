@@ -7,7 +7,7 @@ lock: no
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>课程：[https://t.zsxq.com/Pfekb](https://t.zsxq.com/Pfekb)
+<br/>课程：[https://t.zsxq.com/WCWAb](https://t.zsxq.com/WCWAb)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -33,18 +33,18 @@ lock: no
 
 ## 一、能学到啥
 
-【架构】掌握 DDD 分层与端口-适配器模式，清晰划分 domain/infrastructure/trigger/config 模块，提升可维护性与扩展性。
-【后端】学习注解+AOP 方式受理任务消息，结合事务边界进行统一处理，理解 `@LocalTaskMessage` 与切面配合的落地实践。
-【后端】掌握本地消息表设计与分片扫描策略（按门牌号 houseNumber 分片），实现高效拉取与顺序处理，提升系统可靠性。
-【后端】熟悉 Spring Event 事件驱动与异步消费，使用 `ApplicationEvent`+`@EventListener`+`@Async` 实现解耦通知链路。
-【后端】实践策略模式实现可插拔通知能力，支持 HTTP 与 RabbitMQ 两种通知通道，并在成功/失败时更新任务状态。
-【后端】熟练使用 OkHttp3 与 Retrofit2 统一封装 HTTP 网关，掌握动态 URL、Header、Body 的组合与异常处理。
-【后端】了解 RabbitMQ 事件发布的可选依赖注入方式，避免未配置 MQ 时的强依赖导致应用启动失败。
-【配置】掌握 `@ConfigurationProperties` 驱动的多任务组动态调度配置，支持 cron 与 fixedDelay 两种触发方式，并可配置批次大小 limit。
-【运维】学习 `ThreadPoolTaskScheduler` 的线程池化调度管理，合理设置线程名与池大小，提升任务调度的可观测性与稳定性。
-【数据】掌握原生 JDBC 访问与 DAO 封装，完成插入、状态更新、分片条件查询、最小游标查询等落地实现。
-【测试】通过示例命令对象 `TaskMessageEntityCommand` 的构建与调用，理解入参约定、枚举策略与配置对象的协作。
-【实践】提升异常、日志与枚举的综合使用能力，建立稳定的错误处理。
+- 【架构】掌握 DDD 分层与端口-适配器模式，清晰划分 domain/infrastructure/trigger/config 模块，提升可维护性与扩展性。
+- 【后端】学习注解+AOP 方式受理任务消息，结合事务边界进行统一处理，理解 `@LocalTaskMessage` 与切面配合的落地实践。
+- 【后端】掌握本地消息表设计与分片扫描策略（按门牌号 houseNumber 分片），实现高效拉取与顺序处理，提升系统可靠性。
+- 【后端】熟悉 Spring Event 事件驱动与异步消费，使用 `ApplicationEvent`+`@EventListener`+`@Async` 实现解耦通知链路。
+- 【后端】实践策略模式实现可插拔通知能力，支持 HTTP 与 RabbitMQ 两种通知通道，并在成功/失败时更新任务状态。
+- 【后端】熟练使用 OkHttp3 与 Retrofit2 统一封装 HTTP 网关，掌握动态 URL、Header、Body 的组合与异常处理。
+- 【后端】了解 RabbitMQ 事件发布的可选依赖注入方式，避免未配置 MQ 时的强依赖导致应用启动失败。
+- 【配置】掌握 `@ConfigurationProperties` 驱动的多任务组动态调度配置，支持 cron 与 fixedDelay 两种触发方式，并可配置批次大小 limit。
+- 【运维】学习 `ThreadPoolTaskScheduler` 的线程池化调度管理，合理设置线程名与池大小，提升任务调度的可观测性与稳定性。
+- 【数据】掌握原生 JDBC 访问与 DAO 封装，完成插入、状态更新、分片条件查询、最小游标查询等落地实现。
+- 【测试】通过示例命令对象 `TaskMessageEntityCommand` 的构建与调用，理解入参约定、枚举策略与配置对象的协作。
+- 【实践】提升异常、日志与枚举的综合使用能力，建立稳定的错误处理。
 
 ## 二、项目介绍
 
