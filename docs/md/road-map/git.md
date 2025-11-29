@@ -158,7 +158,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC7eYQiDe46Jq5CJ6vXtIiM0hxUKKgCoSFIkSQucsZo
 ```
 
 - 命令：`ssh-keygen -t rsa -C "184172133@qq.com"`
-- 操作：`Your public key has been saved in /root/.ssh/id_rsa.pub.` 按照提示地址，获取 pub 公钥。如果是linux就通过 cat 获取。如果是本机电脑就按照路径打开。
+- 操作：`Your public key has been saved in /root/.ssh/id_rsa.pub.` 按照提示地址，获取 pub 公钥。如果是linux就通过 cat 获取。如果是本机电脑就按照路径打开。如，我的地址（你要更换为你的）：`cat /Users/fuzhengwei/.ssh/id_rsa.pub`
 - 注意：`.ssh` 点开头的文件夹是隐藏文件，Windows/Mac 都可以设置查看隐藏文件。Windows 是设置里配置，Mac 是通过 `Shift + Command + .` 开启和关闭查看隐藏文件。
 
 ### 4. 配置ssh秘钥
