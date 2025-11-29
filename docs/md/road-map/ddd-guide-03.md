@@ -71,7 +71,7 @@ lock: need
     <img src="https://bugstack.cn/images/roadmap/tutorial/ddd-easy-guide-03-04.png" width="750px">
 </div>
 
-- 整洁架构的分包形式，会将所有的外部依赖使用和工程内要对外的，统一定义到适配器层。这里可以理解为对适配和对内适配。
+- 整洁架构的分包形式，会将所有的外部依赖使用和工程内要对外的，统一定义到适配器层。这里可以理解为对外适配和对内适配。
 - 阿里的 cola 偏整洁架构 [阿里架构 cola 的相关内容](https://www.aliyun.com/sswb/610119.html)
 
 ### 2. 六边形架构 - 工程结构
