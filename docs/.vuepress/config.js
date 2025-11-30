@@ -2289,6 +2289,14 @@ function getBarAIMCPGateway() {
                 "第2-1节：MCP服务实现.md",
                 "第2-2节：MCP代理调用.md",
                 "第2-3节：MCP通信协议.md",
+            ]
+        },
+        {
+            title: "第3部分：网关实现",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第3-1节：工程初始化创建.md",
                 "none.md",
             ]
         },
