@@ -717,7 +717,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "AI能力(3)",
+            title: "智能组件「AI」(3)",
             collapsable: true,
             sidebarDepth: 0,
             children: [

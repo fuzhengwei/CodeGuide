@@ -1,9 +1,9 @@
 ---
-title: Draw.io
+title: draw.io + ai agent
 lock: need
 ---
 
-# Draw.io + Ai Agent
+# draw.io + ai Agent，确实打开新思路
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
