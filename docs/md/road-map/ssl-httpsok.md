@@ -173,14 +173,14 @@ version: '3.9'
 services:
   # yum install -y httpd-tools
   nginx:
-    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:latest
+    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:1.28.0-alpine # 原镜像 httpsok/nginx:1.28.0-alpine
     container_name: nginx
     restart: always
     ports:
       - '443:443'
       - '80:80'
     environment:
-      HTTPSOK: https://httpsok.com/console/dashboard 写你的 token curl -s https://get.httpsok.com/ | bash -s 【这里的值】
+      HTTPSOK_TOKEN=https://httpsok.com/console/dashboard 写你的 token curl -s https://get.httpsok.com/ | bash -s 【这里的值】
     volumes:
       - ./nginx/logs:/var/log/nginx
       - ./nginx/html:/usr/share/nginx/html
@@ -190,7 +190,7 @@ services:
     privileged: true
 ```
 
-- 官网说明：[https://httpsok.com/doc/faq/docker-nginx.html](https://httpsok.com/doc/faq/docker-nginx.html)
+- 官网说明：[https://httpsok.com/doc/course/deploy-to-nginx-indocker.html](https://httpsok.com/doc/course/deploy-to-nginx-indocker.html)
 
 ### 2. 上传文件
 
