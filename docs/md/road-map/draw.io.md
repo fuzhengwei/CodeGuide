@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=115652731865787&bvid=BV13ZSaBqE9G&cid=34460795162&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 又到年底了，又要必不可少的开始画图做PPT述职啦 😂，述职的好坏和年终奖都有可能挂钩！这对天天写代码大部分的程序员👨🏻‍💻来说是一件非常头疼的事，但好在这次可以使用个**神器**！
