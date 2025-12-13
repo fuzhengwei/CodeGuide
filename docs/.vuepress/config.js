@@ -2305,6 +2305,8 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "第3-1节：工程初始化创建.md",
+                "第3-2节：会话管理服务实现.md",
+                "第3-3节：会话接口编排.md",
                 "none.md",
             ]
         },
