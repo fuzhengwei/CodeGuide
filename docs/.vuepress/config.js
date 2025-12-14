@@ -717,13 +717,14 @@ function genBarGuide() {
             ]
         },
         {
-            title: "智能组件「AI」(3)",
+            title: "智能组件「AI」(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "spring-ai.md",
                 "google-adk.md",
                 "draw.io.md",
+                "autoglm-phone-agent.md",
             ]
         },
         {
