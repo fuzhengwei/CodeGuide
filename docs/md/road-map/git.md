@@ -12,7 +12,7 @@ lock: need
 
 <iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=113087713643443&bvid=BV1idHUeLECY&cid=25755911382&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
-大家伙，我是技术UP主小傅哥。
+大家好，我是技术UP主小傅哥。
 
 **不会Git操作的伙伴，轻则写不了代码，重则误操作搞丢自己的代码或者干掉别人的代码。** 因为进入公司后，就不只是你一个人在一个工程上写代码，而是所有这个项目组的伙伴都需要在这个工程上写代码，大家要在统一的Git的规范完成代码开发和提交。—— 🤨 不信的话，进入公司乱删个Git分支或者随便任何一个分支提交代码试试。
 
