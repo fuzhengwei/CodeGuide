@@ -74,6 +74,17 @@ brew install git
 
 获取适用于您的 Debian/Ubuntu 版本的最新稳定版本
 
+**如果没有安装npm可以安装**
+
+```
+# sudo apt update
+# sudo apt install nodejs npm
+# node -v
+# npm -v
+```
+
+**安装git**
+
 ```
 # apt-get install git
 ```
