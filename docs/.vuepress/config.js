@@ -717,14 +717,13 @@ function genBarGuide() {
             ]
         },
         {
-            title: "智能组件「AI」(4)",
+            title: "智能组件「AI」(3)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "spring-ai.md",
                 "google-adk.md",
                 "draw.io.md",
-                "autoglm-phone-agent.md",
             ]
         },
         {
@@ -753,7 +752,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "发布部署(19)",
+            title: "发布部署(20)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -763,6 +762,7 @@ function genBarGuide() {
                 "docker-what.md",
                 "docker.md",
                 "docker-install.md",
+                "docker-deploy-project.md",
                 "portainer.md",
                 "aliyun-workbench.md",
                 "github-actions-workflows.md",
@@ -914,6 +914,7 @@ function genAlgorithmModel() {
                 "2023-02-12-chat-gpt.md",
                 "2023-02-18-gpt2-chitchat.md",
                 "2023-05-21-chatglm-6b.md",
+                "autoglm-phone-agent.md",
             ]
         }
     ]
