@@ -26,6 +26,14 @@ lock: need
 
 >文末提供了，5个AI项目、5个业务项目、8个组件项目、1套源码项目，还有非常多的学习资料，你可以全部获取学习，积累来自互联网大厂的经验。
 
+## 零、所需资源
+
+- [购买云服务器 2c4g](http://618.gaga.plus/)
+- [工程案例代码 xfg-dev-tech-docker-deploy](https://github.com/fuzhengwei/xfg-dev-tech-docker-deploy)
+- [云服务器安装脚本](https://gaga.plus/app/dev-ops/index.html)
+- [云服务器连接工具](https://origin.bugstack.cn/md/road-map/tool.html)
+- [阿里云docker镜像仓库](https://cr.console.aliyun.com/cn-hangzhou/instance/repositories)
+
 ## 一、云服务器是什么？
 
 在使用云服务器之前，我们先来理解下云服务器是什么，把定位搞清楚，后面的事才好办。如图；
