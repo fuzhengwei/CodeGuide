@@ -724,6 +724,7 @@ function genBarGuide() {
                 "spring-ai.md",
                 "google-adk.md",
                 "draw.io.md",
+                "ai-ssh-opencode.md",
             ]
         },
         {

@@ -3,7 +3,7 @@ title: Spring AI
 lock: need
 ---
 
-# Spring AI
+# spring ai
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
