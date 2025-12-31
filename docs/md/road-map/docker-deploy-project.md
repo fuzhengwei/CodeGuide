@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=115771615219475&bvid=BV1K6B3BuEwP&cid=34939144626&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 在实践中发现，不少伙伴不了解云服务器是什么，搞不清楚云服务器和本地电脑的关系，也不知道怎么把一个项目部署到云服务器。但作为程序员学习编程，又离不开云服务器，逃避不了一点！
