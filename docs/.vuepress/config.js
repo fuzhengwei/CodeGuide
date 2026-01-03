@@ -2290,6 +2290,7 @@ function getBarAIMCPGateway() {
             children: [
                 "第1-1节：网关需求分析.md",
                 "第1-2节：系统建模设计.md",
+                "第1-3节：网关协议表.md",
             ]
         },
         {

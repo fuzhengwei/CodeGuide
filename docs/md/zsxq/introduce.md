@@ -44,7 +44,7 @@ lock: no
 
 大家可以下载一个知识星球 APP 来提前体验~
 
-## 二、使用指引
+## 二、步骤；使用指引
 
 <div align="center">
 	<img src="https://bugstack.cn/images/system/zsxq/zsxq-user-guide.png" width="950px"/>
