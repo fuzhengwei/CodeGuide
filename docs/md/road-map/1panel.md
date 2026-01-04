@@ -14,9 +14,9 @@ lock: need
 
 在编程的这条路上，大家都经历过小白阶段。在小白阶段，即使是简简单单的环境安装，也都会遇到一堆堆的报错。所以最开始学习编程的时候，我们都希望找到那些简单、方便、好用的工具，让我们线上手✋🏻。
 
-<><div align="center">
-<img src="https://bugstack.cn/images/roadmap/tutorial/springcloud-gateway-01.gif" width="200px"/>
-</div></>
+<div align="center">
+    <img src="https://bugstack.cn/images/roadmap/tutorial/springcloud-gateway-01.gif" width="200px"/>
+</div>
 
 **那云服务器操作有Easy工具吗？🤔**
 

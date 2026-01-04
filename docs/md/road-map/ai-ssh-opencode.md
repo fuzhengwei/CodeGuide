@@ -10,6 +10,8 @@ lock: need
 
 >沉淀、分享、成长，让自己和他人都能有所收获！
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=115811243001489&bvid=BV1hciNB9EsE&cid=35087846352&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 天才般的发明，**ai ssh 命令行工具**，让 ai 的使用不只局限在 `ai 对话提问`、`ai idea 辅助编码`，也可以直接让操作系统具备 ai 能力。其实这才是我一直想要的东西！😄
