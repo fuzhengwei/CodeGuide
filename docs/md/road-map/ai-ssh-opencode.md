@@ -1,9 +1,9 @@
 ---
-title: ai ssh
+title: ai ssh opencode
 lock: need
 ---
 
-# ai ssh 命令行工具（opencode）
+# ai ssh opencode 命令行工具
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
