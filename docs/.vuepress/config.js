@@ -2315,6 +2315,7 @@ function getBarAIMCPGateway() {
                 "第3-4节：会话消息结构设计.md",
                 "第3-5节：消息协议处理案例.md",
                 "第3-6节：基础层数据处理.md",
+                "第3-7节：协议消息处理-Initialize.md",
                 "none.md",
             ]
         },

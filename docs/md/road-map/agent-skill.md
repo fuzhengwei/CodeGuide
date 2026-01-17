@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=115890381129183&bvid=BV1PprJBeEmY&cid=35370763226&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 skill 是什么？它像是一本技能书📚，把一阳指（`mcp/py/shell/js`）和狮吼功（`prompt`）合成了一整招。缩短了从用户把提示词发给AI客户端，进行分析，决策，再到 mcp 执行的过程，**让诉求直达结果**，token 减少了，幻觉减少了！
