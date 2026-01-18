@@ -17,8 +17,8 @@ pay: https://t.zsxq.com/Re6ZW
 
 今天我们来处理第一个协议消息的处理场景，Initialize 初始化部分。这部分学习时，会附带调试 Spring AI 框架中 modelcontextprotocol 关于协议处理部分的源码，让大家有更多的积累。
 
-- https://github.com/modelcontextprotocol/java-sdk
-- https://modelcontextprotocol.io/docs/getting-started/intro
+- [https://github.com/modelcontextprotocol/java-sdk](https://github.com/modelcontextprotocol/java-sdk)
+- [https://modelcontextprotocol.io/docs/getting-started/intro](https://modelcontextprotocol.io/docs/getting-started/intro)
 
 ## 二、功能设计
 
