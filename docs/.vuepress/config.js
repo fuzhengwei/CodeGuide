@@ -717,7 +717,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "智能组件(5)",
+            title: "智能组件(6)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -726,6 +726,7 @@ function genBarGuide() {
                 "agent-skill.md",
                 "draw.io.md",
                 "ai-ssh-opencode.md",
+                "github-models.md",
             ]
         },
         {
@@ -2340,7 +2341,7 @@ function getBarLocalTaskMessage() {
                 "第1节：组件需求分析.md",
                 "第2节：SpringEvent事件消息.md",
                 "第3节：任务表设计和数据写入.md",
-                "第4节：通知策略处理(HTTP&MQ).md",
+                "第4节：通知策略处理.md",
                 "第5节：动态任务补偿处理.md",
                 "第6节：切面拦截任务操作.md",
             ]
