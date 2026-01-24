@@ -1,9 +1,9 @@
 ---
-title: DeepSeek RAG&MCP&Agent 智能体 - 解析文档&Git仓库代码&AI工作流
+title: AI Agent 智能体（RAG、MCP、Prompt） - 解析文档&Git仓库代码&AI工作流
 lock: no
 ---
 
-# 《DeepSeek RAG&MCP&Agent 智能体》 - 解析文档&Git仓库代码&AI工作流
+# 《AI Agent 智能体（RAG、MCP、Prompt）》 - 解析文档&Git仓库代码&AI工作流
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
@@ -11,7 +11,7 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
-<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=114106895958308&bvid=BV1ty9sYtEkc&cid=28695397252&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=115375253488983&bvid=BV1zN4YzGELh&cid=33080280661&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
 
 大家好，我是技术UP主小傅哥。
 

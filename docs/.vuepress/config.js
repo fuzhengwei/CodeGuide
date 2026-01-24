@@ -376,7 +376,7 @@ module.exports = {
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
-                                        text: 'DeepSeek RAG&MCP&Agent 智能体',
+                                        text: 'AI Agent 智能体（RAG、MCP、Prompt）',
                                         link: '/md/project/ai-knowledge/ai-knowledge.md'
                                     },
                                     {
@@ -384,7 +384,7 @@ module.exports = {
                                         link: 'https://bugstack.cn/md/zsxq/project/openai-code-review.html'
                                     },
                                     {
-                                        text: 'OpenAi 大模型应用服务体系构建',
+                                        text: 'OpenAI 大模型应用服务体系构建',
                                         link: '/md/project/chatgpt/chatgpt.md'
                                     },
                                     {
@@ -392,7 +392,7 @@ module.exports = {
                                         link: '/md/project/chatbot-api/chatbot-api.md'
                                     },
                                     {
-                                        text: 'OpenAi SDK 组件项目',
+                                        text: 'OpenAI SDK 组件项目',
                                         link: 'https://bugstack.cn/md/zsxq/project/openai-sdk-java.html'
                                     }
                                 ]

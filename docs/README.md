@@ -46,11 +46,11 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 ### 开发的项目
 
 - 创新项目「AI」(5)
-    - [Ai MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
-    - [Ai Agent 智能体（RAG、MCP、Prompt）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
+    - [AI MCP Gateway 网关服务系统](https://bugstack.cn/md/project/ai-mcp-gateway/ai-mcp-gateway.html)
+    - [AI Agent 智能体（RAG、MCP、Prompt）](https://bugstack.cn/md/project/ai-knowledge/ai-knowledge.html)
     - [OpenAI 代码自动评审组件](https://bugstack.cn/md/zsxq/project/openai-code-review.html)
-    - [OpenAi 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
-    - [ChatGPT Ai 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
+    - [OpenAI 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
+    - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
   
 - 业务项目(5) 
     - [拼团交易平台系统](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)
