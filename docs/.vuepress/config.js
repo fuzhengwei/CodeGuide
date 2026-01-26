@@ -782,11 +782,12 @@ function genBarGuide() {
             ]
         },
         {
-            title: "应用网关(3)",
+            title: "应用网关(4)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
                 "higress.md",
+                "higress-ai.md",
                 "springcloud-gateway.md",
                 "apisix.md",
             ]

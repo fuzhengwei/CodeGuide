@@ -26,7 +26,7 @@ lock: need
 
 那么为了让大家更好的了解下大厂的API，今天我们就来体验一款大厂开发的元原生API网关。有了这样一个学习，在看API网关项目，也会更清楚自己在做什么。
 
-- 官网：[https://higress.io/zh-cn/](https://higress.io/zh-cn/)
+- 官网：[https://higress.io/](https://higress.io/)
 - 源码：[https://github.com/alibaba/higress](https://github.com/alibaba/higress)
 - 部署：[https://github.com/higress-group/higress-standalone](https://github.com/higress-group/higress-standalone) - `独立运行版，用于测试`
 - 案例：[https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-higress](https://gitcode.net/KnowledgePlanet/road-map/xfg-dev-tech-higress) - `部署测试`
