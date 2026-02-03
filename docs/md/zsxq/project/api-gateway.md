@@ -115,5 +115,4 @@ lock: no
     ![](https://bugstack.cn/images/article/assembly/api-gateway/api-gateway-220809-07.png)
 - [x] [第2章：代理RPC泛化调用](https://bugstack.cn/md/assembly/api-gateway/2022-08-20-%E7%AC%AC2%E7%AB%A0%EF%BC%9A%E4%BB%A3%E7%90%86RPC%E6%B3%9B%E5%8C%96%E8%B0%83%E7%94%A8.html)
 - [x] [第3章：分治处理会话流程](https://bugstack.cn/md/assembly/api-gateway/2022-08-27-%E7%AC%AC3%E7%AB%A0%EF%BC%9A%E5%88%86%E6%B2%BB%E5%A4%84%E7%90%86%E4%BC%9A%E8%AF%9D%E6%B5%81%E7%A8%8B.html)
-- [ ] [第4章：方法执行器封装](#)
-- [ ] 梳理中 ... 每周更新
+- 现已全部更新完成
