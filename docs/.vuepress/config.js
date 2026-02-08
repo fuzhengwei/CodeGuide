@@ -718,7 +718,7 @@ function genBarGuide() {
             ]
         },
         {
-            title: "智能组件(6)",
+            title: "智能组件(7)",
             collapsable: true,
             sidebarDepth: 0,
             children: [
@@ -728,6 +728,7 @@ function genBarGuide() {
                 "draw.io.md",
                 "ai-ssh-opencode.md",
                 "github-models.md",
+                "openclaw.md",
             ]
         },
         {
