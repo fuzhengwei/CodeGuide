@@ -10,6 +10,8 @@ lock: need
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116049177479006&bvid=BV1k2Foz7EMx&cid=35973893805&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 🦞OpenClaw，大龙虾，看着挺复杂，其实一点也不简单。都火成这德行了，但也还是有很多伙伴在安装这一块就挂壁了。想体验呀，咋整？
 
 <div align="center">
