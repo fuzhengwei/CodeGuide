@@ -2325,6 +2325,7 @@ function getBarAIMCPGateway() {
                 "第3-9节：协议消息处理-ToolsCall.md",
                 "第3-10节：评审库表升级代码.md",
                 "第3-11节：会话内容编排处理.md",
+                "第3-12节：鉴权功能领域服务.md",
                 "none.md",
             ]
         },
