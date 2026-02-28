@@ -2327,6 +2327,7 @@ function getBarAIMCPGateway() {
                 "第3-11节：会话内容编排处理.md",
                 "第3-12节：鉴权功能领域服务.md",
                 "第3-13节：鉴权功能编排处理.md",
+                "第3-14节：解析Swagger标准OpenAPI协议.md",
                 "none.md",
             ]
         },
