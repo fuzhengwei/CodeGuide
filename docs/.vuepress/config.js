@@ -601,6 +601,14 @@ function genBarOther() {
 function genBarAI() {
     return [
         {
+            title: "从零理解智能体（+八股）",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "introduction.md",
+            ]
+        },
+        {
             title: "框架",
             collapsable: false,
             sidebarDepth: 0,
