@@ -188,7 +188,7 @@ module.exports = {
                         text: '编程路书', link: '/md/road-map/road-map.md'
                     },
                     {
-                        text: 'AI Agent', link: '/md/ai/spring-ai.md'
+                        text: '智能体', link: '/md/ai/introduction.md'
                     },
                     {
                         text: '算法',
