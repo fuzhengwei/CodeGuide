@@ -2351,6 +2351,7 @@ function getBarAIMCPGateway() {
                 "第2-2节：MCP代理调用.md",
                 "第2-3节：MCP通信协议.md",
                 "第2-4节：streamable协议应用案例.md",
+                "第2-5节：streamable协议应用分析.md",
             ]
         },
         {
