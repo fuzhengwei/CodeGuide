@@ -11,6 +11,8 @@ pay: https://t.zsxq.com/U4Ouo
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+大家好，我是技术UP主小傅哥。
+
 ## 一、本章诉求
 
 从 AI 客户端，向 AI MCP 发起请求的过程中，小傅哥已经带着大家处理了；InitializeHandler - 初始化、ToolsListHandler - 获取工具列表，接下来再要处理的就是 ToolsCallHandler 的操作了，接收来自 AI 客户端，用户的请求，转换为对应的参数，发起接口请求（这部分我们会调用 http 接口）。

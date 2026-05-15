@@ -9,7 +9,9 @@ pay: https://t.zsxq.com/OkMLy
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 <br/>视频：[https://t.zsxq.com/UAbZd](https://t.zsxq.com/UAbZd)
 
->大家好，我是技术UP主小傅哥。
+>沉淀、分享、成长，让自己和他人都能有所收获！😄
+
+大家好，我是技术UP主小傅哥。
 
 ## 一、本章诉求
 
