@@ -1915,8 +1915,9 @@ function getBarZSXQ() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "project/ai-agent-scaffold.md",
+                "project/walissh.md",
                 "project/ai-mcp-gateway.md",
+                "project/ai-agent-scaffold.md",
                 "project/ai-knowledge.md",
                 "project/openai-code-review.md",
                 "project/chatgpt.md",
