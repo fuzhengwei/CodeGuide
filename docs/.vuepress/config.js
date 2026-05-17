@@ -2434,7 +2434,7 @@ function getBarWaLiSSH() {
             sidebarDepth: 0,
             children: [
                 "walissh.md",
-                "学习指引.md",
+                "part-0/学习指引.md",
             ]
         },
         {
