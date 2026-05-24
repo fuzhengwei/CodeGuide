@@ -611,6 +611,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
+                "ai-llm.md",
             ]
         },
         {
@@ -2444,6 +2445,7 @@ function getBarWaLiSSH() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
+                "part-1/第1-1节：初始化工程搭建.md",
                 "none.md",
             ]
         },
