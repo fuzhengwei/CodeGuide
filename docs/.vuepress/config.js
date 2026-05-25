@@ -607,7 +607,7 @@ function genBarOther() {
 function genBarAI() {
     return [
         {
-            title: "从零理解智能体（+八股）",
+            title: "理论",
             collapsable: false,
             sidebarDepth: 0,
             children: [
