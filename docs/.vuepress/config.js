@@ -638,12 +638,12 @@ function genBarAI() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "draw.io.md",
+                "walicode.md",
                 "qclaw.md",
                 "openclaw.md",
                 "ai-ssh-opencode.md",
+                "draw.io.md",
                 "github-models.md",
-                "trae.md",
             ]
         },
     ]
