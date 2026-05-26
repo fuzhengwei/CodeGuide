@@ -1042,6 +1042,25 @@ function genBarJavaInterview() {
                 "2021-04-18-面经手册 · 第30篇《关于 Spring 中 getBean 的全流程源码解析》.md",
                 "2021-05-05-面经手册 · 第31篇《Spring Bean IOC、AOP 循环依赖解读》.md",
             ]
+        },
+        {
+            title: "第 7 章 MyBatis",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "2026-05-26-面经手册 · 第32篇《MyBatis 从SQL注入到预编译深度解析》.md",
+                "2026-05-26-面经手册 · 第33篇《MyBatis 是什么？和 Hibernate 有啥区别？半自动 ORM 怎么理解？》.md",
+                "2026-05-26-面经手册 · 第34篇《MyBatis 工作原理是什么？从 SqlSessionFactory 到 SqlSession 全链路解析》.md",
+                "2026-05-26-面经手册 · 第35篇《Mapper 接口没有实现类，怎么执行的？动态代理源码解析》.md",
+                "2026-05-26-面经手册 · 第36篇《MyBatis 动态 SQL 怎么实现的？9个标签用法与 OGNL 解析原理》.md",
+                "2026-05-26-面经手册 · 第37篇《resultMap 和 resultType 有啥区别？字段名不一致怎么映射？》.md",
+                "2026-05-26-面经手册 · 第38篇《MyBatis 一对一、一对多怎么查？延迟加载原理和 N+1 问题怎么解？》.md",
+                "2026-05-26-面经手册 · 第39篇《MyBatis 缓存机制全解析：一级缓存、二级缓存、清理策略和 Redis 整合》.md",
+                "2026-05-26-面经手册 · 第40篇《MyBatis 分页怎么做？RowBounds 和 PageHelper 原理分析》.md",
+                "2026-05-26-面经手册 · 第41篇《MyBatis 插件怎么拦截 SQL？四大核心对象与 Interceptor 原理分析》.md",
+                "2026-05-26-面经手册 · 第42篇《MyBatis 批量插入有几种方式？自增主键怎么获取？多参数怎么传？》.md",
+                "2026-05-26-面经手册 · 第43篇《MyBatis 和 Spring 怎么整合？SqlSessionTemplate 和自动装配原理》.md",
+            ]
         }
     ]
 }
