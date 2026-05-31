@@ -621,7 +621,18 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
-                "ai-llm.md",
+                // "ai-llm.md",
+                "ai-llm-01-history.md",
+                "ai-llm-02-word-continuation.md",
+                "ai-llm-03-token-embedding.md",
+                "ai-llm-04-attention.md",
+                "ai-llm-05-training.md",
+                "ai-llm-06-emergence.md",
+                "ai-llm-07-hallucination.md",
+                "ai-llm-08-agent.md",
+                "ai-llm-09-future.md",
+                "ai-llm-10-practice.md",
+                "ai-llm-11-summary.md",
             ]
         },
         {
