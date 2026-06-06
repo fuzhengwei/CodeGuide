@@ -2510,6 +2510,7 @@ function getBarWaLiSSH() {
             children: [
                 "part-1/第1-1节：初始化工程搭建.md",
                 "part-1/第1-2节：UI 界面设计与实现.md",
+                "part-1/第1-3节：ssh连接云服务器.md",
                 "none.md",
             ]
         },
