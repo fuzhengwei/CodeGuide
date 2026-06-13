@@ -1,13 +1,13 @@
 ---
 title: 【更】第3-25节：验证服务，LLM对接测试Streamable接口
-pay: 
+pay: https://t.zsxq.com/zhIa4
 ---
 
 # 《AI MCP Gateway 网关服务系统》第3-25节：验证服务，LLM对接测试Streamable接口
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[]()
+<br/>视频：[https://t.zsxq.com/e0vQE](https://t.zsxq.com/e0vQE)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 

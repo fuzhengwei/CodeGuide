@@ -621,18 +621,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "introduction.md",
-                // "ai-llm.md",
-                "ai-llm-01-history.md",
-                "ai-llm-02-word-continuation.md",
-                "ai-llm-03-token-embedding.md",
-                "ai-llm-04-attention.md",
-                "ai-llm-05-training.md",
-                "ai-llm-06-emergence.md",
-                "ai-llm-07-hallucination.md",
-                "ai-llm-08-agent.md",
-                "ai-llm-09-future.md",
-                "ai-llm-10-practice.md",
-                "ai-llm-11-summary.md",
+                "ai-llm.md",
             ]
         },
         {
@@ -649,8 +638,9 @@ function genBarAI() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "agent-skill.md",
                 "a2a.md",
+                "agent-skill.md",
+                "xfg-skills-free-token-plan.md",
             ]
         },
         {
@@ -2431,6 +2421,7 @@ function getBarAIMCPGateway() {
                 "第3-23节：调整case层结构设计，处理不同方式的mcp实现.md",
                 "第3-24节：通过case和domain，串联出Streamable协议.md",
                 "第3-25节：验证服务，LLM对接测试Streamable接口.md",
+                "第3-26节：分布式服务设计(redis).md",
                 "none.md",
             ]
         },
