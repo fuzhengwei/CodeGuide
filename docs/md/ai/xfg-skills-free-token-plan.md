@@ -12,7 +12,6 @@
 <div align="center">
 	<img src="https://bugstack.cn/images/article/ai/xfg-skills-free-token-plan-01.png" width="150px"/>
 </div>
-
 **咋整，这滴想想办法呀🤔！**
 
 嘿嘿，有了；自己坐庄，把这些免费的 Token 给它囊括起来。—— `技术架构师，永远都是有问题就有方案。`
@@ -61,7 +60,7 @@ curl https://apihub.agnes-ai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer sk-3f9NQmveWbnL2Pxj4OAdSydKudUUeryh2q498jRuPnNWMJdQ" \
   -d '{
-  "model": "auto-model",
+  "model": "agnes-2.0-flash",
   "messages": [{"role": "user", "content": "1+1"}]
 }'
 ```
@@ -181,8 +180,6 @@ networks:
 <div align="center">
 	<img src="https://bugstack.cn/images/article/ai/xfg-skills-free-token-plan-06.png" width="850px"/>
 </div>
-
-
 - 通过 docker-compose 执行脚本即可安装完成。
 - 如果你使用的是 WaLiCode 那么还可以直接连接云服务器，告诉 AI 在云服务器上配置这套东西就可以了。
 

@@ -349,7 +349,7 @@ module.exports = {
                                         link: '/md/project/walissh/walissh.md'
                                     },
                                     {
-                                        text: 'AI MCP Gateway 网关服务系统（更新中）',
+                                        text: 'AI MCP Gateway 网关服务系统',
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
                                     {
@@ -640,7 +640,6 @@ function genBarAI() {
             children: [
                 "a2a.md",
                 "agent-skill.md",
-                "xfg-skills-free-token-plan.md",
             ]
         },
         {
@@ -2426,6 +2425,14 @@ function getBarAIMCPGateway() {
             ]
         },
         {
+            title: "第4部分：项目部署",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "第4-1节：把网关部署到云服务器.md",
+            ]
+        },
+        {
             title: "日常总结",
             collapsable: false,
             sidebarDepth: 0,
@@ -2502,6 +2509,7 @@ function getBarWaLiSSH() {
                 "part-1/第1-1节：初始化工程搭建.md",
                 "part-1/第1-2节：UI 界面设计与实现.md",
                 "part-1/第1-3节：ssh连接云服务器.md",
+                "part-1/第1-4节：ssh连接配置库表设计.md",
                 "none.md",
             ]
         },
