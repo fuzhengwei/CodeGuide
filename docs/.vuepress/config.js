@@ -2421,7 +2421,6 @@ function getBarAIMCPGateway() {
                 "第3-24节：通过case和domain，串联出Streamable协议.md",
                 "第3-25节：验证服务，LLM对接测试Streamable接口.md",
                 "第3-26节：分布式服务设计(redis).md",
-                "none.md",
             ]
         },
         {

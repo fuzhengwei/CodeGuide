@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116564019905827&bvid=BV1hS5G6tE7m&cid=38291374725&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥！
 
 耗时`1个月`，迭代了`13个`版本，积累了近≈`1万个`，用户安装使用。WaLiCode「[https://walicode.xiaofuge.cn](https://walicode.xiaofuge.cn/) 」 一款小傅哥基于自研的 AI IDE 本地运行 AI 编程助手！**那么，现在我要为你做一个这样的课程版新项目！** 死鬼，开心吗🐴！
