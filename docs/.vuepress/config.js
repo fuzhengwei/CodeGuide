@@ -2437,6 +2437,7 @@ function getBarAIMCPGateway() {
             sidebarDepth: 0,
             children: [
                 "promotion/ai-mcp-gateway-stage-completion.md",
+                "promotion/ai-mcp-gateway-all-complete.md",
             ]
         },
     ]
@@ -2457,7 +2458,15 @@ function getBarAINewParadigm() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md",
+                "第1节：AI Shell 连接云服务器.md",
+                "第2节：Docker Portainer 环境安装与使用.md",
+                "第3节：MySQL 配置和使用.md",
+                "第4节：Redis 配置和使用验证.md",
+                "第5节：SpringBoot 应用开发.md",
+                "第6节：应用部署到云服务器.md",
+                "第7节：压测项目分析性能.md",
+                "第8节：Ollama 模型部署与验证.md",
+                "第9节：智能对话客服集成.md",
             ]
         }
     ]
