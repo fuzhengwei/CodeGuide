@@ -1,13 +1,13 @@
 ---
 title: 第1-5节：连接SSH简单领域设计
-pay: https://t.zsxq.com/galvN
+pay: https://t.zsxq.com/X6zMZ
 ---
 
 # 《WaLiSSH - AI Shell 智能终端》第1-5节：连接SSH简单领域设计
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[https://t.zsxq.com/Wxy9K](https://t.zsxq.com/Wxy9K)
+<br/>视频：[https://t.zsxq.com/BWwZY](https://t.zsxq.com/BWwZY)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 

@@ -349,6 +349,10 @@ module.exports = {
                                         link: '/md/project/walissh/walissh.md'
                                     },
                                     {
+                                        text: 'WaLiCode - AI Coding 辅助编码（更新中）',
+                                        link: '/md/project/walicode/walicode.md'
+                                    },
+                                    {
                                         text: 'AI MCP Gateway 网关服务系统',
                                         link: '/md/project/ai-mcp-gateway/ai-mcp-gateway.md'
                                     },
@@ -583,6 +587,7 @@ module.exports = {
                     "/md/project/ai-knowledge/": getBarAiRagKnowledge(),
                     "/md/project/ai-agent-scaffold/": getBarAIAgentScaffold(),
                     "/md/project/walissh/": getBarWaLiSSH(),
+                    "/md/project/walicode/": getBarWaLiCode(),
                     "/md/project/ai-mcp-gateway/": getBarAIMCPGateway(),
                     "/md/project/ai-new-paradigm/": getBarAINewParadigm(),
                     "/md/project/local-task-message/": getBarLocalTaskMessage(),
@@ -2518,6 +2523,28 @@ function getBarWaLiSSH() {
                 "part-1/第1-2节：UI 界面设计与实现.md",
                 "part-1/第1-3节：ssh连接云服务器.md",
                 "part-1/第1-4节：ssh连接配置库表设计.md",
+                "part-1/第1-5节：连接SSH简单领域设计.md",
+                "none.md",
+            ]
+        },
+    ]
+}
+
+function getBarWaLiCode() {
+    return [
+        {
+            title: "介绍",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "walicode.md",
+            ]
+        },
+        {
+            title: "1阶段 - 需求分析",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
                 "none.md",
             ]
         },
