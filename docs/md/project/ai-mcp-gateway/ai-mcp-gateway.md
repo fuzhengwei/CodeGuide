@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116762494372823&bvid=BV1r3jj6oET5&cid=39173557800&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 两年多了，从2023年1月起，小傅哥就开始关注AI、跟进AI，落地 AI 技术相关的场景项目。`做了 AI 问答自动回复助手`、`OpenAI 应用服务（含支付买额度 + OpenAI SDK 开发）`、`OpenAI 代码评审`、`Ai Agent 智能体（RAG、MCP）`，让一众伙伴积累到了丰富的AI应用开发技术，可以满足当下互联网AI应用开发招聘诉求。**那么接下来，关于 AI 小傅哥还要带着大家什么呢？🤔**

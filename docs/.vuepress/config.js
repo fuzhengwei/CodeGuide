@@ -2524,6 +2524,7 @@ function getBarWaLiSSH() {
                 "part-1/第1-3节：ssh连接云服务器.md",
                 "part-1/第1-4节：ssh连接配置库表设计.md",
                 "part-1/第1-5节：连接SSH简单领域设计.md",
+                "part-1/第1-6节：UI接口对接SSH连接操作.md",
                 "none.md",
             ]
         },
