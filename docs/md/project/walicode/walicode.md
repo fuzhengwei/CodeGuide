@@ -11,6 +11,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=116836179969971&bvid=BV1DyKo6cEWp&cid=39518736244&p=" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 你看到了吗？先是字节 `Trae.ai`，后是阿里 `Qcoder` 通义灵码，还有京东的 `JoyCode`，腾讯也于年初借着 `OpenClaw` 搞了一个 `QClaw` 上船啦 🚢，本月还有小米的 MiMo Code！
