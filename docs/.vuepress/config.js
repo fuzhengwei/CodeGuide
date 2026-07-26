@@ -2617,13 +2617,13 @@ function getBarWaLiAPI() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "part-2/第3-1节：多协议转换引擎.md",
-                "part-2/第3-2节：服务注册框架.md",
-                "part-2/第3-3节：知识库数据模型与文档解析.md",
-                "part-2/第3-4节：向量化与HNSW索引.md",
-                "part-2/第3-5节：知识库检索与RAG问答.md",
-                "part-2/第3-6节：MCP Server服务.md",
-                "part-2/第3-7节：前端增强与自动更新.md",
+                "part-3/第3-1节：多协议转换引擎.md",
+                "part-3/第3-2节：服务注册框架.md",
+                "part-3/第3-3节：知识库数据模型与文档解析.md",
+                "part-3/第3-4节：向量化与HNSW索引.md",
+                "part-3/第3-5节：知识库检索与RAG问答.md",
+                "part-3/第3-6节：MCP Server服务.md",
+                "part-3/第3-7节：前端增强与自动更新.md",
             ]
         },
     ]
