@@ -1,6 +1,6 @@
 ---
 title: 第1-6节：API转发代理核心
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/3IhTX
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第1-6节：API转发代理核心
