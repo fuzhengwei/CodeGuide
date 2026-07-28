@@ -12,7 +12,9 @@ lock: no
 
 大家好，我是技术UP主小傅哥。
 
-本篇内容，为伙伴们推荐一套 AI 从认知、应用、实践、八股和面试的全套流程路线，如下，可以参考「所有的项目，都从 [bugstack.cn](https://bugstack.cn/) 实战项目进入学习」；
+本篇内容，为伙伴们推荐一套 AI 从通识、应用、项目，全套流程路线。你可以刷到 AI 八股，也可以学会 AI VibeCoding 编程，还能实践各类 AI 项目。如，市面的 AI IDE（walissh、walicode）教你做一套市面上的 trae.ai/qcoder 一样的编程工具。WaLiAPI（LLM 负载、日志审计、RAG 知识库）、AI MCP Gateway 教你如何构建 AI Infra 基础设施。
+
+这里的所有内容，所有的项目，都从 [bugstack.cn](https://bugstack.cn/) 实战项目进入学习；
 
 <div align="center">
 	<img src="https://bugstack.cn/images/article/project/ai-agent-scaffold/part-1/1-1/images/ai-agent-scaffold-1-1-10.png" width="650px"/>
@@ -21,6 +23,18 @@ lock: no
 - 首先，小白推荐先进入 AI Agent Guide 基础认知教程：[ai-agent-guide.xiaofuge.cn](https://ai-agent-guide.xiaofuge.cn/) - 涵盖基础概念、八股、面试内容。
 - 之后，如果没有使用过 AI IDE 工具，可以做下 AI 新范式，通过 AI 实践来锻炼。
 - 最后，可以通过项目驱动学习，结果导向的项目实战，可以更好的锻炼 AI 技能，也是为转岗到 AI Agent 应用开发工程师做准备。
+
+**学习建议**
+
+- 学习路线A-完整进阶：0 - 认知和实践、「1阶段」0、1、2、3、9 「2阶段」5、4、7、6、7、8、10
+- 学习路线B-着急面试：0 + (2) | (3) | (5+4) | (5+4+6) | (5+6+7) | (5+4+8) | ...
+
+**阶段成长**
+
+- 第1阶段：OpenAI代码自动评审+(AI Agent 脚手架+场景应用/AIAgent智能体)2选1
+- 第2阶段：OpenAI应用项目(公众号扫码登录、微信支付)+AI MCP网关（+WaLiAPI），时间充足可结合 API Gateway 业务网关
+- 第3阶段：AI MCP Gateway+API网关结合、OpenAI应用+AI Agent +拼团/大营销结合
+- 第4阶段：进阶到 WaLiSSH + WaLiCode 深入到 AI Agent 运行时设计实现
 
 >以上，所有内容，加入星球「[码农会锁](https://wx.zsxq.com/group/48411118851818)」都可以学习到，此外还有其他非常多的内容，都可以获取。
 
