@@ -2547,6 +2547,7 @@ function getBarWaLiSSH() {
                 "part-2/第2-1节：引入Tool，做最小MVP版本智能体.md",
                 "part-2/第2-2节：最小MVP版本，UI对接.md",
                 "part-2/第2-3节：ReAct Case 架构设计与实现.md",
+                "part-2/第2-4节：ReAct 动态 Prompt 上下文增强.md",
                 "none.md",
             ]
         }
