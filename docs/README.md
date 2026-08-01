@@ -15,13 +15,16 @@ actionLinks:
   text: 编程路书 👣
   class: secondary   
 - link: https://gaga.plus
-  text: 项目(+菜鸟教程) 💐
+  text: 编程项目 💐
   class: secondary    
 #- link: https://618.gaga.plus
 #  text: 9.9元/月(云服务器) ☁️
 #  class: secondary
-- link: https://walicode.xiaofuge.cn/
-  text: WaLiCode(平替CodeX)
+#- link: https://walicode.xiaofuge.cn/
+#  text: WaLiCode(平替CodeX)
+#  class: secondary
+- link: https://ai-agent-guide.xiaofuge.cn/
+  text: AI Agent 通识教程
   class: secondary
 features:
 - title: 沉淀
@@ -37,7 +40,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 
 ### 我是小傅哥
 
-- :dog: 13年毕业，互联网大厂架构师，全网40万+粉编程知识博主。
+- :dog: 13年毕业，一线互联网大厂架构师，全网40万+粉编程知识博主。
 - :man_technologist: 成长：[关于我，从小白到架构师的成长经历](https://www.bilibili.com/video/BV1FF41137q5)
 - :bus: 作品：[`CodeGuide | 程序员编码指南`](https://github.com/fuzhengwei/CodeGuide) | [`RoadMap 编程路书`](https://github.com/fuzhengwei/RoadMap) | [`Java 数据结构和算法`](https://github.com/fuzhengwei/java-algorithms) | [`IM 仿微信`](https://github.com/fuzhengwei/NaiveChat) | [`Java 面经手册`](https://github.com/fuzhengwei/interview) | [`IntelliJ IDEA 插件开发`](https://github.com/fuzhengwei/guide-idea-plugin) | [`Lottery 抽奖系统 - 基于领域驱动设计的四层架构实践`](https://github.com/fuzhengwei/Lottery) | [`API网关`](https://github.com/fuzhengwei/api-gateway) | [`手写MyBatis`](https://github.com/fuzhengwei/small-mybatis) | [`重学Java设计模式`](https://github.com/fuzhengwei/itstack-demo-design) | [`Netty 实战案例`](https://github.com/fuzhengwei/itstack-demo-netty) | [`字节码编程`](https://github.com/fuzhengwei/itstack-demo-bytecode) | [`ChatGPT AI 问答助手`](https://github.com/fuzhengwei/chatbot-api) | [`chatglm-sdk-java`](https://github.com/fuzhengwei/chatglm-sdk-java) | [`docker-image-pusher`](https://github.com/fuzhengwei/docker-image-pusher) | [`💱IDEA Plugin vo2dto —— 对象转换插件(15.8k+安装)`](https://bugstack.cn/md/product/idea-plugin/vo2dto.html) | [更多搜索...](https://github.com/fuzhengwei?tab=repositories)
 - :seedling: 干货：[公众号『 bugstack虫洞栈 』](https://bugstack.cn/images/personal/qrcode.png)
@@ -48,7 +51,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
 
 ### 开发的项目
 
-- 创新项目「AI」(10)
+- 创新项目「AI」(11)
     - [AI Agent Guide - 通识教程](https://ai-agent-guide.xiaofuge.cn/) - `做AI项目前，可以先刷下。`
     - [WaLiSSH - AI Shell 智能终端](https://bugstack.cn/md/project/walissh/walissh.html)
     - [WaLiCode - AI Coding/DevOps 可持续交付助手](https://bugstack.cn/md/project/walicode/walicode.html) - `在 walissh 上扩展，代码已经提前提交`
@@ -59,6 +62,7 @@ footer: <a href="http://beian.miit.gov.cn" target="_blank">京ICP备19031103号<
     - [OpenAI 大模型微服务应用体系构建 - API-SDK、鉴权、公众号、微信支付](https://bugstack.cn/md/zsxq/project/chatgpt.html)
     - [ChatGPT AI 问答助手 - 小型，对接知识星球](https://bugstack.cn/md/zsxq/project/chatbot-api.html)
     - [AI 新范式（0编码），开发 + 运维（部署、压测、调优）](https://bugstack.cn/md/project/ai-new-paradigm/ai-new-paradigm.html)
+    - [WaLiAPI - AI LLM LocalGateway 本地网关系统（渠道分发、日志留存、日志审计，知识库）](https://bugstack.cn/md/project/waliapi/waliapi.html)
   
 - 业务项目(5) 
     - [拼团交易平台系统](https://bugstack.cn/md/project/group-buy-market/group-buy-market.html)

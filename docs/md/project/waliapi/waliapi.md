@@ -3,7 +3,7 @@ title: WaLiAPI - AI LLM LocalGateway
 lock: no
 ---
 
-# WaLiAPI - AI LLM LocalGateway 本地网关系统（渠道分发、日志留存、通信审计）
+# WaLiAPI - AI LLM LocalGateway 本地网关系统（渠道分发、日志留存、日志审计、知识库）
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

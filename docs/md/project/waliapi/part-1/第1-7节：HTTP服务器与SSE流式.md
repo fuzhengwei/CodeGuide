@@ -1,6 +1,6 @@
 ---
 title: 第1-7节：HTTP服务器与SSE流式
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/3Z7LR
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第1-7节：HTTP服务器与SSE流式

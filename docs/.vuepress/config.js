@@ -33,7 +33,7 @@ module.exports = {
         "/": {
             lang: "zh-CN",
             title: "小傅哥 bugstack 虫洞栈",
-            description: "包含: Java 基础，面经手册，Netty4.x，手写MyBatis，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，大营销抽奖系统，Java 实战项目训练，字节码编程..."
+            description: "包含: AI Agent、Java 基础，面经手册，Netty4.x，手写MyBatis，用Java实现JVM，重学Java设计模式，SpringBoot中间件开发，IDEA插件开发，大营销抽奖系统，Java 实战项目训练，字节码编程..."
         }
     },
     head: [
