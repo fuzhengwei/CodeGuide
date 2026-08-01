@@ -34,7 +34,7 @@ lock: no
 - 第1阶段：OpenAI代码自动评审+(AI Agent 脚手架+场景应用/AIAgent智能体)2选1
 - 第2阶段：OpenAI应用项目(公众号扫码登录、微信支付)+AI MCP网关（+WaLiAPI），时间充足可结合 API Gateway 业务网关
 - 第3阶段：AI MCP Gateway+API网关结合、OpenAI应用+AI Agent +拼团/大营销结合
-- 第4阶段：进阶到 WaLiSSH + WaLiCode 深入到 AI Agent 运行时设计实现
+- 第4阶段：进阶到 WaLiSSH + WaLiCode 深入到 AI Agent 运行时设计实现 + WaLiAPI（知识库）
 
 >以上，所有内容，加入星球「[码农会锁](https://wx.zsxq.com/group/48411118851818)」都可以学习到，此外还有其他非常多的内容，都可以获取。
 
