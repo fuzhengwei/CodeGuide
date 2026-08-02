@@ -1,13 +1,13 @@
 ---
 title: 第2-4节：ReAct 动态 Prompt 上下文增强
-pay: https://t.zsxq.com/BCuOl
+pay: https://t.zsxq.com/sl2Ip
 ---
 
 # 《WaLiSSH - AI Shell 智能终端》第2-4节：ReAct 动态 Prompt 上下文增强
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[https://t.zsxq.com/HV9Z7](https://t.zsxq.com/HV9Z7)
+<br/>视频：[https://t.zsxq.com/jKjt7](https://t.zsxq.com/jKjt7)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
