@@ -2427,7 +2427,7 @@ function getBarAIMCPGateway() {
                 "第3-14节：解析Swagger标准OpenAPI协议.md",
                 "第3-15节：协议域-协议解析处理.md",
                 "第3-16节：协议域-协议存储处理.md",
-                "第3-17节：网关域-配置数据存储(CRUD).md",
+                "第3-17节：网关域-配置数据存储CRUD.md",
                 "第3-18节：管理端-API功能编排串联.md",
                 "第3-19节：管理端-API与UI对接.md",
                 "第3-20节：验证服务，LLM对接测试MCP接口.md",
@@ -2625,6 +2625,14 @@ function getBarWaLiAPI() {
                 "part-3/第3-5节：知识库检索与RAG问答.md",
                 "part-3/第3-6节：MCP Server服务.md",
                 "part-3/第3-7节：前端增强与自动更新.md",
+            ]
+        },
+        {
+            title: "扩展 - 场景应用",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "other/爽用 Codex，各类 LLM 都可以！.md",
             ]
         },
     ]
