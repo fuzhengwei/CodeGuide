@@ -1,6 +1,6 @@
 ---
 title: 第3-4节：向量化与HNSW索引
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/wBHou
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第3-4节：向量化与HNSW索引
