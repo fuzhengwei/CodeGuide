@@ -1,6 +1,6 @@
 ---
 title: 第3-6节：MCP Server服务
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/cEXT6
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第3-6节：MCP Server服务
