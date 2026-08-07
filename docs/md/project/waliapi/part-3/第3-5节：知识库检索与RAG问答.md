@@ -1,6 +1,6 @@
 ---
 title: 第3-5节：知识库检索与RAG问答
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/3ch0g
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第3-5节：知识库检索与RAG问答
