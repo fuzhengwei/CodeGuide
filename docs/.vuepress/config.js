@@ -2626,6 +2626,8 @@ function getBarWaLiAPI() {
                 "part-3/第3-5节：知识库检索与RAG问答.md",
                 "part-3/第3-6节：MCP Server服务.md",
                 "part-3/第3-7节：前端增强与自动更新.md",
+                "part-3/第3-8节：混合检索调优与检索可视化.md",
+                "part-3/第3-9节：MCP工具扩展与仪表盘增强.md",
             ]
         },
         {
