@@ -1,13 +1,13 @@
 ---
 title: 第2-5节：ReAct Context 上下文管理
-pay: 
+pay: https://t.zsxq.com/389Xp
 ---
 
 # 《WaLiSSH - AI Shell 智能终端》第2-5节：ReAct Context 上下文管理
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[]()
+<br/>视频：[https://t.zsxq.com/ZuQw4](https://t.zsxq.com/ZuQw4)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
