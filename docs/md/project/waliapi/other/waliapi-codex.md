@@ -1,3 +1,8 @@
+---
+title: 能爽用 Codex 啦，各类 LLM 都可以！
+lock: no
+---
+
 # 能爽用 Codex 啦，各类 LLM 都可以！
 
 作者：小傅哥

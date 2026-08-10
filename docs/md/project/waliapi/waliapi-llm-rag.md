@@ -1,9 +1,9 @@
 ---
-title: 端到端，构建企业级知识库。我把它做成项目给你！
+title: WaLiAPI - 端到端，知识库（RAG）
 lock: no
 ---
 
-# 端到端，构建企业级知识库。我把它做成项目给你！
+# WaLiAPI - 端到端，知识库（RAG）
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

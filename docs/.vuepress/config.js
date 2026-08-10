@@ -2585,6 +2585,7 @@ function getBarWaLiAPI() {
             children: [
                 "waliapi.md",
                 "waliapi-llm-rag.md",
+                "waliapi-llm-wiki.md",
                 "part-0/第0-1节：学习指引.md",
             ]
         },
@@ -2631,11 +2632,23 @@ function getBarWaLiAPI() {
             ]
         },
         {
+            title: "4阶段 - llm-wiki",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-4/第4-1节：Wiki数据模型与项目结构.md",
+                "part-4/第4-2节：Wiki文档摄入管道.md",
+                "part-4/第4-3节：Wiki页面管理与命令层.md",
+                "part-4/第4-4节：WikiMCP工具集成.md",
+                "part-4/第4-5节：Wiki前端页面.md",
+            ]
+        },
+        {
             title: "扩展 - 场景应用",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "other/爽用 Codex，各类 LLM 都可以！.md",
+                "other/waliapi-codex.md",
             ]
         },
     ]

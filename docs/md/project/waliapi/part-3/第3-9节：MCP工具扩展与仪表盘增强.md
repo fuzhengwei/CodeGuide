@@ -1,6 +1,6 @@
 ---
 title: 第3-9节：MCP工具扩展与仪表盘增强
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/usLUX
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第3-9节：MCP工具扩展与仪表盘增强
