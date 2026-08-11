@@ -1,6 +1,6 @@
 ---
 title: 第4-1节：Wiki 数据模型与项目结构
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/QCQK9
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第4-1节：Wiki 数据模型与项目结构

@@ -1,6 +1,6 @@
 ---
 title: 第4-2节：Wiki 文档摄入管道
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/0HVMp
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第4-2节：Wiki 文档摄入管道
