@@ -1,6 +1,6 @@
 ---
 title: 第4-4节：Wiki MCP 工具集成
-pay: https://t.zsxq.com/GvUJY
+pay: https://t.zsxq.com/DwMTV
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第4-4节：Wiki MCP 工具集成
