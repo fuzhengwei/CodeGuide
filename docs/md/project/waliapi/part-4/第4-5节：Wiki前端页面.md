@@ -1,6 +1,6 @@
 ---
 title: 第4-5节：Wiki 前端页面
-pay: https://t.zsxq.com/jftYn
+pay: https://t.zsxq.com/5c4I4
 ---
 
 # 《WaLiAPI - 本地 LLM API 网关》第4-5节：Wiki 前端页面
