@@ -1,9 +1,9 @@
 ---
-title: 第8-2节：SSE流式解析与产物自动导出
+title: 第3-2节：Word工具与纯Rust DOCX渲染
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第8-2节：SSE流式解析与产物自动导出
+# 《WaLiOffice - 在线办公服务》第3-2节：Word工具与纯Rust DOCX渲染
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

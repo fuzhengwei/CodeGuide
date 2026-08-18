@@ -1,9 +1,9 @@
 ---
-title: 第2-4节：工具注册表机制
+title: 第3-4节：Excel工具与XLSX渲染
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第2-4节：工具注册表机制
+# 《WaLiOffice - 在线办公服务》第3-4节：Excel工具与XLSX渲染
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

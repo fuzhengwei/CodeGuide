@@ -1,9 +1,9 @@
 ---
-title: 第7-2节：直连模式优化与图片意图区分
+title: 第2-5节：ReAct循环核心实现
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第7-2节：直连模式优化与图片意图区分
+# 《WaLiOffice - 在线办公服务》第2-5节：ReAct循环核心实现
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

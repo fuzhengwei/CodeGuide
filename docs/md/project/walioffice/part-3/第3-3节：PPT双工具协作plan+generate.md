@@ -1,9 +1,9 @@
 ---
-title: 第9-1节：单一二进制构建（rust-embed嵌入）
+title: 第3-3节：PPT双工具协作（plan+generate）
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第9-1节：单一二进制构建（rust-embed嵌入）
+# 《WaLiOffice - 在线办公服务》第3-3节：PPT双工具协作（plan+generate）
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

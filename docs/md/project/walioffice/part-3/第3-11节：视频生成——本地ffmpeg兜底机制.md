@@ -1,9 +1,9 @@
 ---
-title: 第7-3节：视频生成工具与ffmpeg兜底
+title: 第3-11节：视频生成——本地ffmpeg兜底机制
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第7-3节：视频生成工具与ffmpeg兜底
+# 《WaLiOffice - 在线办公服务》第3-11节：视频生成——本地ffmpeg兜底机制
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

@@ -1,9 +1,9 @@
 ---
-title: 第5-1节：Excel工具与XLSX渲染
+title: 第3-5节：ECharts图表工具与前端渲染
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第5-1节：Excel工具与XLSX渲染
+# 《WaLiOffice - 在线办公服务》第3-5节：ECharts图表工具与前端渲染
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

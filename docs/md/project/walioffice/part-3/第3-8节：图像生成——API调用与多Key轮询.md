@@ -1,9 +1,9 @@
 ---
-title: 第5-2节：ECharts图表工具与前端渲染
+title: 第3-8节：图像生成——API调用与多Key轮询
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第5-2节：ECharts图表工具与前端渲染
+# 《WaLiOffice - 在线办公服务》第3-8节：图像生成——API调用与多Key轮询
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

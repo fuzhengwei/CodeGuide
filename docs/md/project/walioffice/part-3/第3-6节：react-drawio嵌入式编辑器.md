@@ -1,9 +1,9 @@
 ---
-title: 第6-2节：前端react-drawio嵌入式编辑器
+title: 第3-6节：react-drawio嵌入式编辑器
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第6-2节：前端react-drawio嵌入式编辑器
+# 《WaLiOffice - 在线办公服务》第3-6节：react-drawio嵌入式编辑器
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

@@ -1,9 +1,9 @@
 ---
-title: 第4-2节：Word工具与纯Rust DOCX渲染
+title: 第2-4节：工具Trait定义与注册表机制
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第4-2节：Word工具与纯Rust DOCX渲染
+# 《WaLiOffice - 在线办公服务》第2-4节：工具Trait定义与注册表机制
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

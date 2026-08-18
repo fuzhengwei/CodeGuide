@@ -1,9 +1,9 @@
 ---
-title: 第3-3节：配置管理与三组LLM端点
+title: 第2-7节：后端Chat路由与SSE端点
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第3-3节：配置管理与三组LLM端点
+# 《WaLiOffice - 在线办公服务》第2-7节：后端Chat路由与SSE端点
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

@@ -1,9 +1,9 @@
 ---
-title: 第2-5节：System Prompt工程与意图识别
+title: 第4-3节：用户认证与JWT
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第2-5节：System Prompt工程与意图识别
+# 《WaLiOffice - 在线办公服务》第4-3节：用户认证与JWT
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
