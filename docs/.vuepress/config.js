@@ -2441,7 +2441,7 @@ function getBarAIMCPGateway() {
                 "第3-23节：调整case层结构设计，处理不同方式的mcp实现.md",
                 "第3-24节：通过case和domain，串联出Streamable协议.md",
                 "第3-25节：验证服务，LLM对接测试Streamable接口.md",
-                "第3-26节：分布式服务设计(redis).md",
+                "第3-26节：分布式服务设计redis.md",
             ]
         },
         {

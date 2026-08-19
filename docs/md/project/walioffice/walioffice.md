@@ -10,6 +10,8 @@ lock: no
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
+<iframe id="B-Video" src="//player.bilibili.com/player.html?isOutside=true&aid=117119345757443&bvid=BV1Lt856LEEY&cid=41046182892&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="480"> </iframe>
+
 大家好，我是技术UP主小傅哥。
 
 `~. 死鬼`，你以为我的瓦力全家桶是闹笑话吗？🤨
