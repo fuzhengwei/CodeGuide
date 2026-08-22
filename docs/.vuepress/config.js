@@ -2554,6 +2554,8 @@ function getBarWaLiSSH() {
                 "part-2/第2-3节：ReAct Case 架构设计与实现.md",
                 "part-2/第2-4节：ReAct 动态 Prompt 上下文增强.md",
                 "part-2/第2-5节：ReAct Context 上下文管理.md",
+                "part-2/第2-6节：ReAct ADK Session 上下文治理与历史净化.md",
+                "part-2/第2-7节：ReAct 意图识别与反馈回路.md",
                 "none.md",
             ]
         }
