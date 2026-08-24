@@ -2669,6 +2669,7 @@ function getBarWaLiOffice() {
             sidebarDepth: 0,
             children: [
                 "walioffice.md",
+                "walioffice-dsh-plugin.md",
                 "part-0/第0-1节：学习指引.md",
             ]
         },
