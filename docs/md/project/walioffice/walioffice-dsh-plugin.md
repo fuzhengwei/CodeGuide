@@ -421,10 +421,10 @@ DeepSeek Harness 把这些能力做成统一的工具接缝，包括：
 - 沙箱与代码运行环境
 - 子进程能力
 - Web 搜索与抓取
-- LSP
-- MCP
+- LSP（Language Server Protocol）语言服务协议
+- MCP（Model Context Protocol） 模型上下文协议
 - Skill
-- Todo / Plan / Goal
+- Todo / Plan / Goal - 任务/计划/目标
 - 子代理与后台任务
 
 这些能力并不是零散接入的，而是通过统一的工具管线调度。
