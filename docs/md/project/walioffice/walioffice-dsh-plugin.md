@@ -270,11 +270,9 @@ graph TB
     end
 ```
 
-### 4.6 一句话总结这套机制
+DSH 插件 = 一个 npm 包同时装宿主端与浏览器端两部分；`package.json` 的 `dsh` 字段是契约，`cordis.patch.yml` 负责“安装时自动改配置”，`tsdown` 产出被 `__ModuleLoader__` 包裹的浏览器产物；宿主启动后经 `__DSH_BOOT__` → 模块加载 → `apply(ctx)` → `slots.register` 把 UI 挂到悬浮层。整个过程**零侵入宿主源码**，这正是“一切皆插件”的落地方式。
 
-> DSH 插件 = 一个 npm 包同时装宿主端与浏览器端两部分；`package.json` 的 `dsh` 字段是契约，`cordis.patch.yml` 负责“安装时自动改配置”，`tsdown` 产出被 `__ModuleLoader__` 包裹的浏览器产物；宿主启动后经 `__DSH_BOOT__` → 模块加载 → `apply(ctx)` → `slots.register` 把 UI 挂到悬浮层。整个过程**零侵入宿主源码**，这正是“一切皆插件”的落地方式。
-
-### 4.7 有意思的技术亮点，以及给 Java 工程师的启发
+### 4.6 有意思的技术亮点，以及给 Java 工程师的启发
 
 这套机制里有几个设计，单看是前端插件的小技巧，但如果你写过多年 Java / Spring，会发现它们和你熟悉的东西**惊人地对得上**。下面用“> 引用”把每个亮点和对应的 Java 概念摆在一起看：
 
