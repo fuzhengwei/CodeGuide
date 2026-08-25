@@ -116,11 +116,205 @@ dsh web
 - 技能地址：[https://github.com/fuzhengwei/xfg-skills-dsp-plugin-template](https://github.com/fuzhengwei/xfg-skills-dsp-plugin-template)
 - 技能安装：你可以把技能下载到本地，让 AI 工具安装到自己的技能库里就可以了。开发 Deepseek Harness 插件的时候，就告诉 AI 参考 Skills 技能进行开发。
 
-## 四、架构原理分析
+## 四、理解插件工程）（以宠物插件举例）
+
+### 4.1 工程结构
+
+DSH 插件是一种“双端插件（dual-face plugin）”：一个 npm 包里同时装着 **宿主端（Node 端，跑在 `dsh` 进程里）** 和 **浏览器端（Client 端，跑在网页里）** 两部分代码。
+
+> 下文出现的“宿主半 / 浏览器半”里的“半”，就是英文 half 的直译，指插件的**这两个组成部分**——一半代码运行在 Node 宿主进程，另一半运行在浏览器页面。它们打包在同一个 npm 包里，但运行环境和职责完全不同。
+
+目录结构如下：
+
+```text
+wali-dsh-plugin/
+├── package.json          # npm 包配置 + DSH 声明（dsh.bundle / dsh.client）
+├── cordis.patch.yml      # 把自己注入到 profile 的浏览器插件表
+├── tsdown.config.ts      # 构建配置：产出 Node 端 + 浏览器端两个产物
+├── tsconfig.json         # 仅产出类型声明（emitDeclarationOnly）
+├── README.md             # 安装/更新/卸载使用说明
+├── MARKET_SUBMISSION.md  # 插件市场提交清单
+└── src/
+    ├── index.ts                  # 宿主侧入口：apply() 空实现（纯 UI 插件）
+    ├── css-modules.d.ts          # CSS Modules 类型声明
+    └── client/                   # 浏览器侧实现（宠物的真正逻辑）
+        ├── index.ts              # 客户端入口：inject 依赖 + 注册 slot
+        ├── runtime-bridge.ts     # 把 ClientContext 暂存给 overlay 组件
+        ├── conversation-peek.ts  # 订阅当前会话快照（会话感知能力）
+        ├── PetPanel.tsx          # 宠物主组件（拖拽、菜单、主题、股票 K 线）
+        ├── PetPanel.module.css   # 宠物样式（CSS Modules）
+        ├── personas.ts           # 地域人设 / 方言语料 / 形象
+        ├── festivals.ts          # 节日祝福（按日期匹配）
+        └── locales.ts            # 中英文词典
+```
+
+各文件职责一句话总结：
+
+| 文件 | 角色 | 作用 |
+|------|------|------|
+| `package.json` | 声明层 | 通过 `dsh.bundle.patch` 和 `dsh.client` 告诉 DSH：我是插件、我有浏览器端、我依赖哪些服务 |
+| `cordis.patch.yml` | 注入层 | `dsh plugin add` 时被读取，自动把 `wali-dsh-plugin` 追加进 profile 的浏览器插件名单 |
+| `src/index.ts` | 宿主端 | `apply()` 是空函数——纯 UI 插件在 Node 端没有行为，只为让插件出现在 Loader 中 |
+| `src/client/index.ts` | 浏览器端入口 | 声明 `inject = ['slots','locale','sessions']`，注册词典、把宠物挂到全局悬浮层 `shell.overlay` |
+| `runtime-bridge.ts` | 桥接 | overlay 组件拿不到会话作用域 props，用模块级变量把 `ctx` 递给组件 |
+| `conversation-peek.ts` | 会话感知 | 通过 `ctx.sessions` 订阅当前对话快照，让宠物“看懂”AI 在干什么（运行中/工具名/token 数） |
+| `PetPanel.tsx` | UI 主体 | 宠物的全部交互：自由拖拽、点击菜单、上传头像/背景、图片主题、股票 K 线主题 |
+
+> **什么是 `ctx`（ClientContext）？** 上面表格和后文反复出现的 `ctx`，是 DSH 交给每个插件的**运行时上下文对象**，可以把它理解成整个应用的“**服务总台 / 能力仓库**”。DSH 启动时会把所有插件装配到一个统一的 `ctx` 上，插件的 `apply(ctx)` 函数被调用时就拿到这个对象，进而从上面按需取用各种能力：
+>
+> - `ctx.slots`：UI 插槽注册表——宠物就是通过 `ctx.slots.register` 挂到页面悬浮层的；
+> - `ctx.locale`：多语言词典注册表——用 `ctx.locale.register` 注册中英文案；
+> - `ctx.sessions`：会话服务——用它订阅当前对话快照，实现“会话感知”；
+> - 还有 `ctx.llm`（模型）、`ctx.tools`（工具）、`ctx.agents`（子代理）等（本插件用不到）。
+>
+> 一句话：**插件不自己 new 服务，而是从宿主给的 `ctx` 上“领”服务**——这正是“一切皆插件、能力可组合”的技术基础。本插件因为在全局悬浮层里拿不到会话作用域的 props，才用 `runtime-bridge.ts` 把 `ctx` 暂存成模块级变量，转交给宠物组件使用。
+
+### 4.2 关键声明：package.json 里的两个约定
+
+插件与宿主之间靠 `package.json` 里 `dsh` 字段这份“契约”对接：
+
+```jsonc
+"dsh": {
+  "bundle": {
+    "patch": "./cordis.patch.yml"        // 安装时注入的 bundle 补丁路径
+  },
+  "client": {
+    "immediately": true,                  // 页面加载后立即挂载
+    "inject": [                           // 浏览器端依赖的宿主客户端能力
+      "@deepseek-ai/dsh-client-runtime",
+      "@deepseek-ai/dsh-client-locale",
+      "@deepseek-ai/dsh-client-ui-layout"
+    ],
+    "platform": "web"                     // 目标平台：web
+  }
+}
+```
+
+同时 `exports["./client"]` 指向 `./lib/client.js`——这是宿主浏览器端加载器要抓取的浏览器产物入口。
+
+### 4.3 构建产物：tsdown 产出两个 bundle
+
+`tsdown.config.ts` 会同时编译出两个截然不同的产物：
+
+1. **`lib/index.js`（Node 端）**：ESM 格式，`platform: node`，就是那个空的 `apply()`。
+2. **`lib/client.js`（浏览器端）**：CJS 格式，`platform: browser`，并被一层特殊的“工厂函数”包裹：
+
+```js
+window.__ModuleLoader__.load({ id: "wali-dsh-plugin", factory: (require) => {
+  var module = { exports: {} }; var exports = module.exports;
+  /* ...打包后的宠物代码... */
+  return module.exports;
+} });
+```
+
+关键设计点：
+- **平台模块外置（external）**：`react`、`@deepseek-ai/cordis`、各 `dsh-client-*` 在浏览器运行时由宿主的模块表提供，插件不重复打包，通过 `require(...)` 现取。
+- **CSS Modules 内联**：`PetPanel.module.css` 经 `lightningcss` 编译为带 hash 的类名，运行时以 `<style data-plugin-css="...">` 注入 `<head>`，避免样式冲突。
+- **类型声明单独产出**：`tsconfig.json` 设 `emitDeclarationOnly`，类型进 `lib/types/`。
+
+### 4.4 加载机制：从 `dsh plugin add` 到宠物出现在页面
+
+整个链路可以分为「安装期」与「运行期」两段。
+
+**安装期（写配置）：**
+
+1. 执行 `dsh plugin --profile web add wali-dsh-plugin`；`删除的话，add 换成 remove`
+2. DSH 从 npm 安装该包，读取 `package.json` 的 `dsh.bundle.patch`；
+3. 按 `cordis.patch.yml` 的 `insert` 指令，把一行 `{ id: ui-pet, name: 'wali-dsh-plugin' }` 追加进该 profile 的浏览器插件名单（`dsh.profile.bundles`）；
+4. **无需改动宿主源码**，配置即插即用。
+
+**运行期（装载执行）：**
+
+1. `dsh web` 启动 Web 服务，扫描 profile 里的浏览器插件行，写入页面全局 `window.__DSH_BOOT__`；
+2. 浏览器 modules 节点据此加载各插件的 `./client` 产物 `lib/client.js`；
+3. 该产物调用 `window.__ModuleLoader__.load(...)` 把宠物模块注册进模块表；
+4. 因 `dsh.client.immediately = true`，加载器立即执行客户端 `apply(ctx)`：
+   - 用 `setPetRuntime(ctx)` 暂存上下文；
+   - 通过 `ctx.locale.register` 注册中英词典；
+   - 通过 `ctx.slots.register` 把 `PetPanel` 挂到全局悬浮层 `shell.overlay`（`id: pet-roamer`）；
+5. `PetPanel` 挂载后，用 `conversation-peek.ts` 订阅 `ctx.sessions` 的会话快照，宠物即可“感知”对话状态并做出反应。
+
+### 4.5 全流程图
+
+```mermaid
+graph TB
+    subgraph 开发构建
+        A[src/index.ts 宿主端] --> B[tsdown 构建]
+        C[src/client/*.ts 浏览器端] --> B
+        B --> D[lib/index.js Node产物]
+        B --> E[lib/client.js 浏览器产物]
+        E --> F[__ModuleLoader__.load 工厂包裹]
+        G[cordis.patch.yml] --> H[npm publish 发布]
+        D --> H
+        E --> H
+    end
+
+    subgraph 安装期
+        H --> I[dsh plugin add wali-dsh-plugin]
+        I --> J[读取 package.json dsh.bundle.patch]
+        J --> K[按 cordis.patch.yml 注入 profile 插件名单]
+    end
+
+    subgraph 运行期
+        K --> L[dsh web 启动]
+        L --> M[扫描插件行写入 window.__DSH_BOOT__]
+        M --> N[浏览器加载 lib/client.js]
+        N --> O[__ModuleLoader__ 注册模块]
+        O --> P[immediately 执行 client.apply ctx]
+        P --> Q[setPetRuntime 暂存 ctx]
+        P --> R[locale.register 注册词典]
+        P --> S[slots.register 挂载 PetPanel 到 shell.overlay]
+        S --> T[PetPanel 渲染悬浮宠物]
+        T --> U[conversation-peek 订阅会话快照]
+        U --> V[宠物感知对话状态并交互]
+    end
+```
+
+### 4.6 一句话总结这套机制
+
+> DSH 插件 = 一个 npm 包同时装宿主端与浏览器端两部分；`package.json` 的 `dsh` 字段是契约，`cordis.patch.yml` 负责“安装时自动改配置”，`tsdown` 产出被 `__ModuleLoader__` 包裹的浏览器产物；宿主启动后经 `__DSH_BOOT__` → 模块加载 → `apply(ctx)` → `slots.register` 把 UI 挂到悬浮层。整个过程**零侵入宿主源码**，这正是“一切皆插件”的落地方式。
+
+### 4.7 有意思的技术亮点，以及给 Java 工程师的启发
+
+这套机制里有几个设计，单看是前端插件的小技巧，但如果你写过多年 Java / Spring，会发现它们和你熟悉的东西**惊人地对得上**。下面用“> 引用”把每个亮点和对应的 Java 概念摆在一起看：
+
+> **亮点 1：`ctx` 依赖注入 —— 类似我们熟悉的 Spring IoC 容器**
+>
+> 插件从不 `new` 服务，而是接收一个 `ctx` 再从上面 `ctx.slots` / `ctx.sessions` 取用，并用 `inject = ['slots','locale','sessions']` 声明依赖。
+> - **对照**：`ctx` ≈ Spring 的 `ApplicationContext`，`inject` ≈ `@Autowired` / 构造器注入，`apply(ctx)` ≈ Bean 的初始化回调（`@PostConstruct` / `InitializingBean`）。
+> - **启发**：控制反转是跨语言的通用解法。DSH 把“Agent 的每种能力”都做成可注入的服务，和 Spring 把“每个业务组件”都做成 Bean 是同一种思维——**面向接口拿能力，而不是面向实现造能力**。
+
+> **亮点 2：`cordis.patch.yml` 声明式注入 —— 等价于 Spring Boot 的 SPI 自动装配**
+>
+> 装插件不用改宿主任何一行源码，只往 `profile` 名单里 `insert` 一行声明，宿主启动时扫描并装配。
+> - **对照**：这几乎就是 `META-INF/spring.factories` / `spring-autoconfigure-metadata` 的翻版，也神似 JDK 的 `ServiceLoader` + `META-INF/services` SPI 机制——**把“我存在、请加载我”写进约定文件，由容器发现**。
+> - **启发**：好的扩展体系都遵循“**开闭原则**”：对扩展开放（丢个包+一行声明就生效），对修改关闭（宿主源码纹丝不动）。这正是 Java 生态 starter 大行其道的原因。
+
+> **亮点 3：`shell.overlay` 插槽注册 —— 前端版的“扩展点 / SPI 接口”**
+>
+> 宿主预留命名插槽（`shell.overlay`），插件用 `ctx.slots.register` 往里挂 UI，还带 `order` 排序。
+> - **对照**：等同于框架预留的**扩展点（Extension Point）**，如 Dubbo SPI、Servlet 的 `Filter` 链、MyBatis 的 `Interceptor` 插件——**宿主定义卡槽，第三方往卡槽里插实现**。
+> - **启发**：平台化的关键不是功能多，而是**卡槽设计得好**。留对了扩展点，生态才能长出来。
+
+> **亮点 4：会话事件源（event log）+ 快照订阅 —— CQRS / 事件溯源的实践**
+>
+> `conversation-peek.ts` 通过 `binding.session.subscribe` 订阅 `ConversationSnapshot`，宠物据此实时反应；DSH 内部则用 session event log 记录全过程，可回放、可恢复。
+> - **对照**：这就是 **Event Sourcing + CQRS**——写入侧是不可变事件流（append-only log，类比 Kafka / EventStore），读取侧是投影出的只读快照（Read Model）。订阅快照 ≈ 观察者模式 / Spring 的 `ApplicationEvent`。
+> - **启发**：Agent 系统里“过程和结果同样重要”。用事件流沉淀过程，就能像回放交易流水一样调试、审计、恢复一次 AI 任务——这对做金融、风控背景的 Java 工程师尤其亲切。
+
+> **亮点 5：`__ModuleLoader__.load` 工厂 + 平台模块外置 —— 自定义 ClassLoader 与依赖隔离**
+>
+> 浏览器产物被包成 `factory: (require) => {...}`，`react`、`cordis` 等由宿主模块表提供、插件不重复打包。
+> - **对照**：`__ModuleLoader__` ≈ 自定义 `ClassLoader`（如 OSGi / Tomcat 的 WebappClassLoader），`external` 依赖 ≈ Maven 的 `<scope>provided</scope>`——**公共依赖由容器提供，插件只带自己独有的部分**，避免“依赖各带一份”导致的冲突和膨胀。
+> - **启发**：插件热插拔与依赖隔离，Java 世界靠 OSGi/ClassLoader 隔离解决，前端这里靠模块表+工厂函数解决，**本质都是“受控的运行时装载”**。
+
+DSH 看着是个 TypeScript 前端框架，骨子里却也有我们在 Java 编程中的思想——**IoC 容器 + SPI 自动装配 + 扩展点插槽 + 事件溯源 + 类加载隔离**。所以后端伙伴学习，也不必被“前端插件”四个字劝退：你在 Spring / RPC / OSGi 上积累的架构直觉，几乎可以 1:1 迁移过来理解和开发 DSH 插件。
+
+## 五、架构原理分析
 
 当我们讨论大模型应用时，很多人首先想到的是“对话”。输入一段话，模型返回一段回答，看起来这件事已经成立了。
 
-但如果要把它做成一个真正能工作的 Agent，问题就会立刻复杂起来：模型怎么调用工具？工具怎么受控？执行过程如何回放？失败怎么恢复？上下文如何持续？前端、CLI、API 能否共用同一套内核？为这些东西，小傅哥还专门写了一套 AI Agent 通识教程。[https://ai-agent-guide.xiaofuge.cn/](https://ai-agent-guide.xiaofuge.cn/)
+但如果要把它做成一个真正能工作的 Agent，问题就会立刻复杂起来：模型怎么调用工具？工具怎么受控？执行过程如何回放？失败怎么恢复？上下文如何持续？前端、CLI、API 能否共用同一套内核？
 
 DeepSeek Harness 关注的，正是这些问题。
 
@@ -182,8 +376,7 @@ DeepSeek Harness 启动时，不是直接 new 一个应用实例，而是先读�
 - `systemPrompt`：负责系统提示词与工具 schema 组装
 - `agents`：管理 Agent 的创建、生命周期与调度
 
-这几块不是普通业务模块，而是稳定的系统能力接口。
-你可以把它们理解成 Agent 内核中的“五大基础设施”。
+这几块不是普通业务模块，而是稳定的系统能力接口。你可以把它们理解成 Agent 内核中的“五大基础设施”。
 
 其中最重要的一点是：这些能力彼此协作，但不是硬编码耦合在一起。
 它们通过统一的上下文和事件机制协同，因此每块都可以扩展、替换，甚至在某些场景下被重新组合。
@@ -208,17 +401,16 @@ DeepSeek Harness 的执行核心是一个典型的 ReAct 循环，也就是：
 
 每个 step 大致会经历下面几个阶段：
 
-1. 认领当前输入，打开 turn  
+1. 认领当前输入，打开 turn  （运转）
 2. 组装 prompt、可见工具和历史消息  
 3. 把请求发送给模型  
 4. 模型流式返回文本、推理内容或工具调用意图  
 5. 工具系统执行调用  
 6. 工具结果写回会话历史  
-7. 模型根据 observation 再决定是否继续下一 step  
+7. 模型根据 observation（观察） 再决定是否继续下一 step  
 8. 如果本轮不再产生 tool call，则结束 turn
 
-这就是 DeepSeek Harness 和普通聊天程序最大的区别。
-它不是“问一次，答一次”，而是**通过多步循环，把模型变成一个会持续决策和执行的 Agent。**
+这就是 DeepSeek Harness 和普通聊天程序最大的区别。它不是“问一次，答一次”，而是**通过多步循环，把模型变成一个会持续决策和执行的 Agent。**
 
 ##### 1.4 能力扩展层：把外部世界接进来
 
@@ -249,7 +441,7 @@ DeepSeek Harness 把这些能力做成统一的工具接缝，包括：
 
 如果一定要提炼 DeepSeek Harness 的架构精髓，我会总结成三点。
 
-#### 2.1 插件化：一切能力都能组合与替换
+##### 2.1 插件化：一切能力都能组合与替换
 
 DeepSeek Harness 并不是围绕某一个固定实现搭建的。
 它从一开始就把“能力”设计成插件，把“系统”设计成组合。
@@ -265,12 +457,12 @@ DeepSeek Harness 并不是围绕某一个固定实现搭建的。
 这种方式特别适合 Agent 系统，因为 Agent 天然是一个多能力协作系统，变化会非常频繁。
 如果没有插件化，后期几乎一定会陷入高耦合和难扩展。
 
-#### 2.2 事件源：系统不是只要结果，还要完整过程
+##### 2.2 事件源：系统不是只要结果，还要完整过程
 
 DeepSeek Harness 很强调 session event log。
-这是因为在 Agent 系统里，“过程”与“结果”同样重要。
+这是因为在 Agent 系统里，“过程”与“结果”同样重要。就是我们看到的轨迹日志。
 
-用户输入了什么、模型什么时候发起请求、工具调用了什么、返回了什么、turn 为什么结束、step 为什么继续，这些都应该是可记录、可回放、可查询的。
+用户输入了什么、模型什么时候发起请求、工具调用了什么、返回了什么、turn（运转） 为什么结束、step 为什么继续，这些都应该是可记录、可回放、可查询的。
 
 事件源设计带来的价值非常大：
 
@@ -281,7 +473,7 @@ DeepSeek Harness 很强调 session event log。
 
 这对于复杂 Agent 来说，不是锦上添花，而是基础设施。
 
-#### 2.3 ReAct 循环：让模型从回答者变成执行者
+##### 2.3 ReAct 循环：让模型从回答者变成执行者
 
 很多系统只是把模型当“文本生成器”。
 而 DeepSeek Harness 则把模型放进一个完整循环里，让它在系统中持续做三件事：
