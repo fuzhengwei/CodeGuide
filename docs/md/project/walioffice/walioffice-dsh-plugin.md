@@ -102,7 +102,7 @@ dsh web
 - API 地址：[https://apihub.agnes-ai.com/v1](https://apihub.agnes-ai.com/v1) - 如果 `.com` 、调用不了，可以换 `.cn` 
 - 模型配置：`agnes-image-2.0-flash`、`agnes-image-2.1-flash`、`agnes-video-v2.0`，主要是配置图片和视频的模型。WaLiOffice 可以自己调用。
 
-## 三、插件开发模板
+## 三、插件开发模板（Skills）
 
 基于以上插件开发的经验，以及 Deepseek Harness 官网提供的插件开发教程，编写了插件开发模板技能。这样我们后续要开发 Deepseek Harness 插件，就不用每次都增加各类描述了。
 
@@ -116,7 +116,7 @@ dsh web
 - 技能地址：[https://github.com/fuzhengwei/xfg-skills-dsp-plugin-template](https://github.com/fuzhengwei/xfg-skills-dsp-plugin-template)
 - 技能安装：你可以把技能下载到本地，让 AI 工具安装到自己的技能库里就可以了。开发 Deepseek Harness 插件的时候，就告诉 AI 参考 Skills 技能进行开发。
 
-## 四、理解插件工程）（以宠物插件举例）
+## 四、理解插件工程（以宠物插件举例）
 
 ### 4.1 工程结构
 
@@ -417,7 +417,7 @@ DeepSeek Harness 启动时，不是直接 new 一个应用实例，而是先读�
 - Web 搜索与抓取
 - LSP（Language Server Protocol）语言服务协议
 - MCP 模型上下文协议
-- Skill
+- Skills
 - Todo / Plan / Goal - 任务/计划/目标
 - 子代理与后台任务
 

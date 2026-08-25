@@ -1,6 +1,6 @@
 ---
 title: 第2-7节：ReAct 意图识别与反馈回路
-pay: https://t.zsxq.com/389Xp
+pay: https://t.zsxq.com/L35SG
 ---
 
 # 《WaLiSSH - AI Shell 智能终端》第2-7节：ReAct 意图识别与反馈回路
