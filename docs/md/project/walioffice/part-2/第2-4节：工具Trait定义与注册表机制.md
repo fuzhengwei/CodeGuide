@@ -5,15 +5,6 @@ pay: https://t.zsxq.com/gh08J
 
 # 《WaLiOffice - AI Agent 智能办公平台》第2-4节：工具Trait定义与注册表机制
 
-- **本章难度**：★★★☆☆
-- **本章重点**：理解 Rust Trait 的工具抽象、ToolContext 执行上下文设计、ToolRegistry 全局单例注册表，以及 ToolResult 和 ToolArtifact 产物规范
-- **本节分支**：ch02-04-tool-registry（Commit: 31a7a63）
-- **课程视频**：[]()
-
----
-
-**版权说明**：©本项目与星球签约合作，受[《中华人民共和国著作权法实施条例》](https://www.gov.cn/gongbao/content/2013/content_2339485.htm) 版权法保护，禁止任何理由和任何方式公开(public)源码、资料、视频等小傅哥发布的星球内容到Github、Gitee等各类平台，违反可追究进一步的法律责任。
-
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
