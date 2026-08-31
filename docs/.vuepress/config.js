@@ -2594,6 +2594,7 @@ function getBarWaLiAPI() {
                 "waliapi.md",
                 "waliapi-llm-rag.md",
                 "waliapi-llm-wiki.md",
+                "waliapi-sub2api-ccswitch.md",
                 "part-0/第0-1节：学习指引.md",
             ]
         },

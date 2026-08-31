@@ -171,7 +171,7 @@ lock: no
 	<img src="https://bugstack.cn/images/article/project/waliapi/waliapi-sub2api-15.png" width="550px"/>
 </div>
 
-- 【WaLiAPI - 本地 LLM API 网关（+RAG、LLM-Wiki） 统一模型配置和负载】本地运行的 LLM API 网关桌面软件，转换各供应商 API 为 OpenAI 兼容协议和 RAG 能力（数据建模、文档解析、tree-sitter AST 符号感知分块、Embedding 渠道复用、HNSW 向量索引构建、FTS5 全文索引、向量 + 关键词混合检索、RAG 问答（多轮对话 + Token 逐级回退 + Deep Research 多轮迭代）+ MCP 服务）。可配合 WaLiCode、Codex、Claude Code、QClaw 等 AI IDE，增强 AI 对话能力，让你知道 AI 对话，到底在说啥。 -
+- 【WaLiAPI - 本地 LLM API 网关（+RAG、LLM-Wiki） 统一模型配置和负载】本地运行的 LLM API 网关桌面软件，转换各供应商 API 为 OpenAI 兼容协议和 RAG 能力（数据建模、文档解析、tree-sitter AST 符号感知分块、Embedding 渠道复用、HNSW 向量索引构建、FTS5 全文索引、向量 + 关键词混合检索、RAG 问答（多轮对话 + Token 逐级回退 + Deep Research 多轮迭代）+ MCP 服务）。可配合 WaLiCode、Codex、Claude Code、QClaw 等 AI IDE，增强 AI 对话能力，让你知道 AI 对话，到底在说啥。 
 - 【WaLiOffice - 基于 Deepseek Harness 复刻 “豆包” 能力】 WaLiOffice 是一个 Web 端 AI Agent 智能办公平台（对接了 docx、ppt、excel、draw.io、echart、画图、做视频），用户通过自然语言对话即可自动生成 PPT、Word、Excel、Draw.io 图表、图片和视频等多种文档。后端用 Rust（axum + rusqlite），前端用 React 18 + TypeScript，数据存储为 SQLite/MySQL（可配置 2 选 1），LLM 对接 OpenAI 兼容端点并支持 SSE 流式输出。包含 DSH 插件 
 - 【AI Coding/DevOps 可持续交付助手 - ai coding、ai 运维、ai 办公（字节 trae.ai）】 该项目，以 WaLiCode 的架构设计为内核标准，分拆 2 套工程（walissh、walicode）讲解。项目使用 Spring AI + Google ADK + Tauri（+Typescript），结合运行时智能体设计，涵盖；`Agent WorkFlow`、`上下文管理（对话追踪、搜索、提示词）`、`意图识别（+LLM）`、`混合窗口裁剪`、`动态提示词（ Prompt 组装器、里程碑追踪）`等，核心设计，构建一整套 AI Agent 智能体服务工具。 用途呢，用于辅助编码，用于辅助运维。除了基本的 AI Coding、SSH +Sftp 能力外，你可以为项目工程，扩展添加 mcp、skills 技能等，为你的服务器做智能化运维服务管理。如；`日志分析`、`系统健康度巡检`、`内存泄漏排查`、`复杂项目链路耗时处理`、`项目压测优化建议等等场景`。这个工具，就是你穿插在云服务器上的智能机器人。现在它已经可以替换我电脑上的其他 SSH 工具了，嘎嘎好用！
 - 【AI MCP Gateway 网关服务系统】 字节内统一把业务接口转换 MCP 服务网关 本项目是 AI Agent 智能体，关于 MCP 协议对接的通用网关服务项目，以解决各类业务接口便捷转换为 MCP 协议而设计实现。通过这样的配置，可以大大的简化从普通 http、rpc 接口到 MCP 协议的转换操作。这样的项目，也是每个互联网公司在做 AI Agent 智能体时，必备的基础设施项目。
