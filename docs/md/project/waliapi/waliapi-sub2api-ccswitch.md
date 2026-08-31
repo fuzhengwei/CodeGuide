@@ -1,3 +1,8 @@
+---
+title: sub2api + cc swtich = waliapi？
+lock: no
+---
+
 # sub2api + cc swtich = waliapi？
 
 作者：小傅哥
