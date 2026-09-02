@@ -3,7 +3,7 @@ title: 第10-3节：walioffice-tools统一工具插件
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第10-3节：walioffice-tools统一工具插件
+# 《WaLiOffice - AI Agent 智能办公平台》第10-3节：walioffice-tools统一工具插件
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

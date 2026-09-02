@@ -3,7 +3,7 @@ title: 第4-1节：配置管理与多组LLM端点
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第4-1节：配置管理与多组LLM端点
+# 《WaLiOffice - AI Agent 智能办公平台》第4-1节：配置管理与多组LLM端点
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

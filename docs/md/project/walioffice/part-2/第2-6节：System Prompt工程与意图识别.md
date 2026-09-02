@@ -3,7 +3,7 @@ title: 第2-6节：System Prompt工程与意图识别
 pay: https://t.zsxq.com/TLIQB
 ---
 
-# 《WaLiOffice - 在线办公服务》第2-6节：System Prompt工程与意图识别
+# 《WaLiOffice - AI Agent 智能办公平台》第2-6节：System Prompt工程与意图识别
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)

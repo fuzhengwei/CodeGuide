@@ -3,7 +3,7 @@ title: 第10-2节：DSH核心插件开发
 pay: https://t.zsxq.com/Cj0j0
 ---
 
-# 《WaLiOffice - 在线办公服务》第10-2节：DSH核心插件开发
+# 《WaLiOffice - AI Agent 智能办公平台》第10-2节：DSH核心插件开发
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
