@@ -2766,6 +2766,7 @@ function getBarDeepseekHarnessJava() {
             sidebarDepth: 0,
             children: [
                 "deepseek-harness-java.md",
+                "dsh-java-plugin.md",
             ]
         },
         {

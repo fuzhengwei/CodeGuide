@@ -192,6 +192,28 @@ echo "停止服务：docker rm -f ${APP_NAME}"
 
 ##### 2.3.2.1 docker compose 部署
 
+**极简体验**
+
+```
+docker run -d --name dsh -p 8090:8090 registry.cn-hangzhou.aliyuncs.com/xfg-studio/deepseek-harness-java:0.1.5
+```
+
+**mysql部署**
+
+```
+docker run -d --name dsh -p 8090:8090 \
+  -e DEEPSEEK_API_KEY=*** \
+  -e SPRING_DATASOURCE_URL="jdbc:mysql://host.docker.internal:3306/deepseek_harness_java?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true" \
+  -e SPRING_DATASOURCE_USERNAME=root \
+  -e SPRING_DATASOURCE_PASSWORD=*** \
+  registry.cn-hangzhou.aliyuncs.com/xfg-studio/deepseek-harness-java:0.1.5 \
+  java -jar app.jar --spring.profiles.active=mysql
+```
+
+- 注意提前导入mysql
+
+**完整脚本**
+
 ```bash
 # docker-compose -f docker-compose-app.yml up -d
 # 镜像名需修改为你自身系统的仓库名；使用项目根目录 Dockerfile 构建推送：
@@ -200,7 +222,7 @@ echo "停止服务：docker rm -f ${APP_NAME}"
 version: '3.8'
 services:
   deepseek-harness-java:
-    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/deepseek-harness-java:0.1.1
+    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/deepseek-harness-java:0.1.5
     container_name: deepseek-harness-java
     restart: on-failure
     ports:
@@ -237,6 +259,7 @@ networks:
 
 ```
 
+- `docker run -d --name dsh -p 8090:8090 registry.cn-hangzhou.aliyuncs.com/xfg-studio/deepseek-harness-java:0.1.5`
 - 如果你对项目进行二次迭代，那么可以在开发后，重新构建镜像后再部署。
 - Compose 配置：暴露 `8090:8090`；默认 `standalone` Profile；挂载 `./data`、`./plugins`、`./.dsh`、`./workspaces`；通过 `DEEPSEEK_API_KEY` / `OPENAI_API_KEY` 注入模型凭据。
 
