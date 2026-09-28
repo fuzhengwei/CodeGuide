@@ -660,6 +660,7 @@ function genBarAI() {
             children: [
                 "introduction.md",
                 "ai-agent-guide.md",
+                "ai-agent-guide-wx.md",
                 "ai-llm.md",
             ]
         },
