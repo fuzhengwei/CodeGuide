@@ -2758,19 +2758,19 @@ function getBarWaLiOffice() {
                 "part-5/第5-2节：云服务器部署配置.md",
             ]
         },
-        {
-            title: "6部分 - DSH Agent引擎集成（预留）",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "part-6/第6-1节：DSH架构设计与混合引擎方案.md",
-                "part-6/第6-2节：DSH核心插件开发.md",
-                "part-6/第6-3节：walioffice-tools统一工具插件.md",
-                "part-6/第6-4节：cordis插件系统与BlockAssembler.md",
-                "part-6/第6-5节：Rust代理路由与工具回调.md",
-                "part-6/第6-6节：前端适配与DSH全链路验证.md",
-            ]
-        },
+        // {
+        //     title: "6部分 - DSH Agent引擎集成（预留）",
+        //     collapsable: false,
+        //     sidebarDepth: 0,
+        //     children: [
+        //         "part-6/第6-1节：DSH架构设计与混合引擎方案.md",
+        //         "part-6/第6-2节：DSH核心插件开发.md",
+        //         "part-6/第6-3节：walioffice-tools统一工具插件.md",
+        //         "part-6/第6-4节：cordis插件系统与BlockAssembler.md",
+        //         "part-6/第6-5节：Rust代理路由与工具回调.md",
+        //         "part-6/第6-6节：前端适配与DSH全链路验证.md",
+        //     ]
+        // },
     ]
 }
 
