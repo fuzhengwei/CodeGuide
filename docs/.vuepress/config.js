@@ -2787,11 +2787,11 @@ function getBarDeepseekHarnessJava() {
             ]
         },
         {
-            title: "1阶段 - 需求分析",
+            title: "0阶段 - 系统信息",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md",
+                "第0-1节：架构设计.md",
             ]
         },
     ]
