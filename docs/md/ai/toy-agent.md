@@ -1,7 +1,12 @@
-# ToyAgent
+---
+title: ToyAgent
+lock: need
+---
+
+# 一套 ToyAgent，教小白上手 AI Agent 开发！
 
 作者：小傅哥
-博客：<https://bugstack.cn>
+<br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
 > 沉淀、分享、成长，让自己和他人都能有所收获！😄
 
@@ -11,20 +16,20 @@
 
 讲良心，一个小白，刚接触 Agent。上来就整 `Claude Code` 真相当于小本毕业🎓撸`钱老`的《工程控制论》！—— 字/码，都摆在那，但就不往脑子里进呀！
 
-<div align="center">    
-	<img src="https://bugstack.cn/images/article/ai/toy-agent-01.gif" width="150px"/>    
+<div align="center">      
+	<img src="https://bugstack.cn/images/article/ai/toy-agent-01.gif" width="150px"/>      
 </div>
 
 所以，就学习来说，你还真得需要一个 Toy 🎮  项目。但 Toy 的，得 Toy 的彻底点。`1，不能搞的太大，你没那多时间呀`、`2，上手得快`、`3，就是必须保证学完不能白学`
 
-<div align="center">    
-	<img src="https://bugstack.cn/images/article/ai/toy-agent-02.png" width="150px"/>    
+<div align="center">      
+	<img src="https://bugstack.cn/images/article/ai/toy-agent-02.png" width="150px"/>      
 </div>
 
 然后，[ToyAgent](https://ai-agent-guide.xiaofuge.cn/toy-agent) 这套玩具项目来啦！一个接口类，就是一个最小 MVP 智能体。用 26个场景，全体量覆盖智能体开发。包括；`提示词工程`、`ReAct 循环`、`工具调用`、`记忆系统`、`子代理`等。
 
-<div align="center">    
-	<img src="https://bugstack.cn/images/article/ai/toy-agent-03.png" width="950px"/>    
+<div align="center">      
+	<img src="https://bugstack.cn/images/article/ai/toy-agent-03.png" width="950px"/>      
 </div>
 
 - 官网：<https://ai-agent-guide.xiaofuge.cn/toy-agent/>
@@ -48,8 +53,8 @@ public interface Agent {
 
 ### 1. 对话使用
 
-<div align="center">    
-	<img src="https://bugstack.cn/images/article/ai/toy-agent-04.png" width="950px"/>    
+<div align="center">      
+	<img src="https://bugstack.cn/images/article/ai/toy-agent-04.png" width="950px"/>      
 </div>
 
 - 首先，左上角有一个设置按钮，点击后可以配置对话模型。（不配置会走官网的或者 Mock 数据）
@@ -93,15 +98,15 @@ public interface Agent {
 
 如图，26个实战场景案例；
 
-<div align="center">    
-	<img src="https://bugstack.cn/images/article/ai/toy-agent-05.png" width="850px"/>    
+<div align="center">      
+	<img src="https://bugstack.cn/images/article/ai/toy-agent-05.png" width="850px"/>      
 </div>
 
 - 工程地址：<https://github.com/fuzhengwei/ToyAgent>
 - 项目说明：每一节源码都很轻量，直击核心。可以启动后在 web 访问，也可以编写单测在本地验证。
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/ai/ai-agent-guide-wx-04.png" width="650px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/ai/ai-agent-guide-wx-04.png" width="650px">      
 </div>
 
 > [https://ai-agent-guide.xiaofuge.cn](https://ai-agent-guide.xiaofuge.cn/)  是小傅哥做的一整套 **AI Agent Guide - 通识教程**，而这套案例，就是配和同时教程所提供的。这套内容，除了 web 版本，也提供了一套小程序版本，你可以扫码使用。
@@ -116,8 +121,8 @@ public interface Agent {
 
 这里的所有内容，所有的项目，都从 [bugstack.cn ](https://bugstack.cn/) 实战项目进入学习；
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/ai-agent-scaffold/part-1/1-1/images/ai-agent-scaffold-1-1-10.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/ai-agent-scaffold/part-1/1-1/images/ai-agent-scaffold-1-1-10.png" width="850px">      
 </div>
 
 - 首先，小白推荐先进入 AI Agent Guide 基础认知教程：[ai-agent-guide.xiaofuge.cn](https://ai-agent-guide.xiaofuge.cn/)- 涵盖基础概念、八股、面试内容。
@@ -143,8 +148,8 @@ public interface Agent {
 
 《DeepSeek Harness Java》—— 基于 Deepseek Harness 源码设计，使用 Java + DDD，进行 1:1 复刻（Java 版本。领域驱动设计，更容易看懂）。
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/deepseek-harness-java/dsh-java-desktop-02.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/deepseek-harness-java/dsh-java-desktop-02.png" width="850px">      
 </div>
 
 - 项目：<https://t.zsxq.com/kYcVt>
@@ -158,12 +163,12 @@ Deepseek Harness 插件化的设计思维，类似于 AI Agent 脚手架。同�
 
 《AI Coding/DevOps 可持续交付助手》 - WaLiCode + WaLiSSH 让 AI 既可以辅助编码，又可以运维云服务器！
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/walissh/product-walissh-user-guide-04.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/walissh/product-walissh-user-guide-04.png" width="850px">      
 </div>
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/walicode/walicode-0-1-2.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/walicode/walicode-0-1-2.png" width="850px">      
 </div>
 
 - 项目：<https://t.zsxq.com/GQ4ae>
@@ -179,8 +184,8 @@ Deepseek Harness 插件化的设计思维，类似于 AI Agent 脚手架。同�
 
 《OpenAi(ChatGPT/ChatGLM) 微服务应用体系构建》- API-SDK、鉴权、公众号、支付交易。
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-03.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/chatgpt/chatgpt-extra-230905-03.png" width="850px">      
 </div>
 
 - 项目：<https://t.zsxq.com/kEhGG>
@@ -190,8 +195,8 @@ Deepseek Harness 插件化的设计思维，类似于 AI Agent 脚手架。同�
 
 《AI MCP Gateway 网关服务系统》 - 以解决各类业务接口(http/rpc)便捷转换为MCP协议接口而设计实现
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/ai-mcp-gateway/ai-mcp-gateway-4-1-06.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/ai-mcp-gateway/ai-mcp-gateway-4-1-06.png" width="850px">      
 </div>
 
 - 项目：<https://t.zsxq.com/NDWBI>
@@ -201,10 +206,9 @@ Deepseek Harness 插件化的设计思维，类似于 AI Agent 脚手架。同�
 
 《AI Agent 脚手架 + 场景应用》- 综合 Spring AI、LangChain4j + Google ADK（a2a、mcp、skills），打造全新智能体架构方案。
 
-<div align="center">    
-    <img src="https://bugstack.cn/images/article/project/ai-agent-scaffold/part-5/5-9/images/ai-agent-scaffold-5-9-03.png" width="850px">    
+<div align="center">      
+    <img src="https://bugstack.cn/images/article/project/ai-agent-scaffold/part-5/5-9/images/ai-agent-scaffold-5-9-03.png" width="850px">      
 </div>
 
 - 项目：<https://t.zsxq.com/UIlv5>
 - 介绍：本套 AI Agent 综合智能体脚手架 项目，主要为降低智能体开发门槛、提升业务系统集成效率而构建。项目涵盖了：工程脚手架自动生成、智能工作流编排、多模态交互（文本/绘图/动作） ，以及手机自动化网关控制等核心功能和场景方案。
-
