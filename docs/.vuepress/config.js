@@ -2791,7 +2791,15 @@ function getBarDeepseekHarnessJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "第0-1节：架构设计.md",
+                "part-0/第0-1节：架构设计.md",
+            ]
+        },
+        {
+            title: "1阶段 - 契约定义",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-1/第1-1节：契约定义(types)，消息与工具.md",
             ]
         },
     ]
