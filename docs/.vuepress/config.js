@@ -2596,11 +2596,11 @@ function getBarWaLiCode() {
             ]
         },
         {
-            title: "1阶段 - 需求分析",
+            title: "0阶段 - 系统设计",
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "none.md",
+                "part-0/第0-1节：架构设计.md",
             ]
         },
     ]
@@ -2799,7 +2799,7 @@ function getBarDeepseekHarnessJava() {
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                "part-1/第1-1节：契约定义(types)，消息与工具.md",
+                "part-1/第1-1节：契约定义-types，消息与工具.md",
             ]
         },
     ]
