@@ -2800,6 +2800,7 @@ function getBarDeepseekHarnessJava() {
             sidebarDepth: 0,
             children: [
                 "part-1/第1-1节：契约定义-types，消息与工具.md",
+                "part-1/第1-2节：契约定义-types，插件SPI机制.md",
             ]
         },
     ]

@@ -20,6 +20,7 @@ lock: no
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/ai-rag-knowledge/ai-rag-knowledge-0-00.png" width="150px">
 </div>
+
 DSH Java 可不是`呆毛（Demo）`项目，它是一套正儿八经的企业级解决方案（**已有企业里的伙伴，拿过去开始使用**）。为了能让这套东西更加成熟稳定，小傅哥连着迭代了8个版本（并且持续跟进 DeepSeek Harness 马具工程 🐴）。为 DSH Java 运行时 Agent 更加全面的达到企业级诉求，也对应实现了 Web 版本，桌面版本 + 数字人（A2A）。并且于 2026年10月14日，AppImage 收入了 DSH Java Desktop 桌面版。[https://github.com/AppImage/appimage.github.io/pull/9999](https://github.com/AppImage/appimage.github.io/pull/9999) - `这个成绩还不错！`
 
 <div align="center">
