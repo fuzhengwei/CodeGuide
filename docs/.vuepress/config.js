@@ -2603,6 +2603,14 @@ function getBarWaLiCode() {
                 "part-0/第0-1节：架构设计.md",
             ]
         },
+        {
+            title: "1阶段 - 库表设计",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-1/第1-1节：持久化，会话消息表.md",
+            ]
+        },
     ]
 }
 
