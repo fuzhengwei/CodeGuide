@@ -2809,6 +2809,7 @@ function getBarDeepseekHarnessJava() {
             children: [
                 "part-1/第1-1节：契约定义-types，消息与工具.md",
                 "part-1/第1-2节：契约定义-types，插件SPI机制.md",
+                "part-1/第1-3节：契约定义-api，接口层定义.md",
             ]
         },
     ]
