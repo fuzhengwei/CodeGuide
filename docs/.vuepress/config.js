@@ -2609,6 +2609,7 @@ function getBarWaLiCode() {
             sidebarDepth: 0,
             children: [
                 "part-1/第1-1节：持久化，会话消息表.md",
+                "part-1/第1-2节：持久化，对话落库.md",
             ]
         },
     ]
