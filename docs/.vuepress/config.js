@@ -662,6 +662,8 @@ function genBarAI() {
                 "ai-agent-guide.md",
                 "ai-agent-guide-wx.md",
                 "ai-llm.md",
+                "toy-agent.md",
+                "toy-agent-coding.md",
             ]
         },
         {
@@ -688,6 +690,7 @@ function genBarAI() {
             sidebarDepth: 0,
             children: [
                 "walicode.md",
+                "walibot.md",
                 "qclaw.md",
                 "openclaw.md",
                 "ai-ssh-opencode.md",
