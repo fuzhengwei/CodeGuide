@@ -1,13 +1,13 @@
 ---
 title: 第2-1节：LLM端口，最小DeepSeek适配器
-pay: 
+pay: https://t.zsxq.com/BhB2C
 ---
 
 # 《DeepSeek Harness Java》第2-1节：LLM端口，最小DeepSeek适配器
 
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
-<br/>视频：[]()
+<br/>视频：[https://t.zsxq.com/H9Voc](https://t.zsxq.com/H9Voc)
 
 >沉淀、分享、成长，让自己和他人都能有所收获！😄
 
