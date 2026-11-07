@@ -2816,6 +2816,14 @@ function getBarDeepseekHarnessJava() {
                 "part-1/第1-3节：契约定义-api，接口层定义.md",
             ]
         },
+        {
+            title: "2阶段 - 模型通信",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：LLM端口，最小DeepSeek适配器.md",
+            ]
+        },
     ]
 }
 
