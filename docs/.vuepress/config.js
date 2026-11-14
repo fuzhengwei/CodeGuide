@@ -2823,6 +2823,7 @@ function getBarDeepseekHarnessJava() {
             sidebarDepth: 0,
             children: [
                 "part-2/第2-1节：LLM端口，最小DeepSeek适配器.md",
+                "part-2/第2-2节：最小对话HTTP入口.md",
             ]
         },
     ]
