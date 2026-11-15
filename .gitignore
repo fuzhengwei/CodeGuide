@@ -7,3 +7,5 @@
 /.site/
 /.walicode/memory/core_memory.json
 /.walicode/output.json
+/.workbuddy/
+/.playwright-cli/
