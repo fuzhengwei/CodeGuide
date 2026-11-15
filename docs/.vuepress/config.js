@@ -2550,6 +2550,7 @@ function getBarWaLiSSH() {
             sidebarDepth: 0,
             children: [
                 "walissh.md",
+                "notes.md",
                 "part-0/学习指引.md",
             ]
         },
@@ -2614,6 +2615,14 @@ function getBarWaLiCode() {
                 "part-1/第1-1节：持久化，会话消息表.md",
                 "part-1/第1-2节：持久化，对话落库.md",
                 "part-1/第1-3节：持久化，里程碑与核心记忆.md",
+            ]
+        },
+        {
+            title: "2阶段 - 模型设置",
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+                "part-2/第2-1节：模型配置，库表驱动的渠道管理.md",
             ]
         },
     ]
