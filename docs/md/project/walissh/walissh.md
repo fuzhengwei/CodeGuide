@@ -37,8 +37,6 @@ lock: no
 	<img src="https://bugstack.cn/images/article/project/walissh/product-walissh-user-guide-00.png" width="200px"/>
 </div>
 
---- 演示视频
-
 <div align="center">
 	<img src="https://bugstack.cn/images/article/project/walissh/product-walissh-user-guide-10.png" width="240px"/>
 </div>
