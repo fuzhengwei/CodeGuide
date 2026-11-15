@@ -142,6 +142,8 @@ module.exports = {
         }],
         // see: https://github.com/tolking/vuepress-plugin-img-lazy
         ['img-lazy', {}],
+        // mermaid 图表渲染支持（本地插件：fence 转换 + 自定义组件修复源码截断问题）
+        [require('path').resolve(__dirname, 'plugins/mermaid-local'), {}],
         ["vuepress-plugin-tags", {
             type: 'default', // 标签预定义样式
             color: '#42b983',  // 标签字体颜色
