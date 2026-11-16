@@ -24,7 +24,8 @@ lock: no
 <div align="center">
     <img src="https://bugstack.cn/images/article/project/walissh/product-walissh-user-guide-02.png" width="850px">
 </div>
-> 项目地址：[https://bugstack.cn/md/project/walissh/walissh.html](https://bugstack.cn/md/project/walissh/walissh.html) - 含有完整课程目录以及课程预览，可以看看。
+
+>项目地址：[https://bugstack.cn/md/project/walissh/walissh.html](https://bugstack.cn/md/project/walissh/walissh.html) - 含有完整课程目录以及课程预览，可以看看。
 
 架构上，它由三部分组成；walissh-client 桌面客户端，由 Tauri 2 + React 19 框架实现。walissh-server 服务端，Spring Boot 3 + Spring AI + Google ADK 1.2，DDD 分层的 Agent 大脑，核心是一条 ReAct 节点链 AiCallNode → LoopDecisionNode → UserFeedbackNode 处理。之后是用于操作服务器的 SSH 连接和工具命令处理。
 
