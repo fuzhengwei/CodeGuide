@@ -2835,6 +2835,7 @@ function getBarDeepseekHarnessJava() {
             children: [
                 "part-2/第2-1节：LLM端口，最小DeepSeek适配器.md",
                 "part-2/第2-2节：最小对话HTTP入口.md",
+                "part-2/第2-3节：最小SSE流式对话.md",
             ]
         },
     ]
