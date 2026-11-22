@@ -2625,6 +2625,7 @@ function getBarWaLiCode() {
             sidebarDepth: 0,
             children: [
                 "part-2/第2-1节：模型配置，库表驱动的渠道管理.md",
+                "part-2/第2-2节：动态模型配置切换.md",
             ]
         },
     ]
