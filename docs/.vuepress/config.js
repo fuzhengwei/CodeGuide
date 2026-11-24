@@ -345,11 +345,23 @@ module.exports = {
                         text: '💯实战项目',
                         items: [
                             {
-                                text: '创新类型（AI）', items: [
+                                text: '入门学习（AI）', items: [
                                     {
-                                        text: 'AI Agent Guide 通识教程（前置课）',
+                                        text: '八股 - AI Agent Guide 通识教程',
                                         link: 'https://ai-agent-guide.xiaofuge.cn/'
                                     },
+                                    {
+                                        text: '案例 - ToyAgent 用 26 个接口类讲清楚智能体',
+                                        link: 'https://ai-agent-guide.xiaofuge.cn/toy-agent/'
+                                    },
+                                    {
+                                        text: '进阶 - ToyHarness 马具工程，一套可视化智能体',
+                                        link: 'https://t.zsxq.com/EdNs3'
+                                    },
+                                ]
+                            },
+                            {
+                                text: '创新类型（AI）', items: [
                                     {
                                         text: 'Java + DDD，1:1 复刻 Deepseek Harness 项目（更新中）',
                                         link: '/md/project/deepseek-harness-java/deepseek-harness-java.md'
@@ -666,6 +678,7 @@ function genBarAI() {
                 "ai-llm.md",
                 "toy-agent.md",
                 "toy-agent-coding.md",
+                "toy-harness.md",
             ]
         },
         {
