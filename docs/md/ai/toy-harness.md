@@ -15,13 +15,12 @@ lock: need
 2026年，是 AI Agent 开发爆发的一年，也是 AI Agent 开发岗位突增的一年。那你上车了吗？🚌 面试久了，其实几句话就能聊出来；你是否会做 AI Agent！
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-01.gif" width="150px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-01.gif" width="150px">
 </div>
 
 我下手面试，其实几句话就能知道，你真的干没干过 Agent 开发；`裁剪的目的是为了节省对话 Token 吗？`、`上下文是边际收益递减的有限资源吗？`、`你了解，每塞进去一个低信号 Token，都会分摊注意力成本，导致Transformer 的 O(n²) 被摊薄的零和竞争吗？`、`思考、派生子代理、向用户提问、记忆、计划、找工具，你是设计为有效的内部机制还是简单的化的设计为工具。答案是工具！`。
 
 > "They are typically just **LLMs using tools based on environmental feedback in a loop**."
-> 
 
 Anthropic 的 [《Building effective agents》](#)，跟几十个团队合作后的开头第一段就写着：表现最好的 Agent 实现，**没有一个用复杂框架或专用库**。他们用的都是简单、可组合的模式。
 
@@ -40,7 +39,7 @@ Anthropic 的 [《Building effective agents》](#)，跟几十个团队合作后
 ToyHarness 是一套**把 Agent 拆开给你看**的实战教学工程：`1000 行` LLM 对接 + `2000 行` Harness 骨架 + Tool 策略 + 前端 UI，没有任何黑盒。你在这里学到的不是"怎么调框架"，而是 Claude Code、Codex 这些顶级 Agent 产品最底层的运行原理——**一张不断变长的工具清单 + 一个循环**。代码即课程，每一行都可以被你读懂、改造、持续迭代加工具。
 
 <div align="center">
-    <img src="images/toyharness-02.png" width="900px">
+    <img src="https://bugstack.cn/images/article/ai/toyharness-02.png" width="900px">
 </div>
 
 **这套🐴 Harness 工程亮点：**
@@ -165,7 +164,7 @@ model:
 你会看到模型并没有直接硬算，而是自主决定先调用 `get_time` 工具查当前时间、再调用 `calculator` 工具算表达式——**两轮循环**之后给出最终回答。中间对话区用卡片展示了每一轮的工具调用（`get_time`、`calculator`，执行完标记 `done`），底部还有本次回答的 Token 统计、耗时和所用模型。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-03.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-03.png" width="900px">
 </div>
 
 与此同时，右侧的执行时序图（SEQUENCE）正在**实时画动线**：`用户 → Harness → 模型 → 工具` 四条生命线上，实线是调用、虚线是回传/观察，`365*24*3600` 的参数和回填结果都标注在动线上，右下角 `loop:2` 说明这次 Agent Loop 一共循环了 2 轮——这就是 Agent 最本质的样子：**模型在循环里根据环境反馈调用工具**。
@@ -179,7 +178,7 @@ ToyHarness 最大的特点是**执行全程可见**。右侧面板从上到下�
 - **上下文压缩 · COMPACTION（执行算法）**：压缩阈值（16 条）、保留最近回合（6 条）、摘要算法（一次 LLM 调用）一目了然，历史水位进度条让你亲眼看到什么时候会触发压缩、17 条历史怎么被压成 7 条。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-04.png" width="380px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-04.png" width="380px">
 </div>
 
 #### 2.3 真实案例
@@ -191,7 +190,7 @@ ToyHarness 最大的特点是**执行全程可见**。右侧面板从上到下�
 **第一回合：多工具探索，人工审批登场。** 提问 *"帮我看看我电脑桌面上的 ai-mcp-gateway 项目，整体是做什么的？"*——模型自主组合 `run_command` 扫目录、`fs_read` 读 README，调研后给出结构化回答。当它要执行白名单外的命令（`sed` 读文件片段）时，Agent Loop 会**暂停并升级给人决策**：页面上弹出审批卡片，写明命令内容、拦截原因和 120 秒超时，点"批准执行"才继续跑。这就是 Claude Code 同款的 human-in-the-loop：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-05.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-05.png" width="900px">
 </div>
 
 ##### 2.3.1 第2-8回合
@@ -203,11 +202,11 @@ ToyHarness 最大的特点是**执行全程可见**。右侧面板从上到下�
 **第 9 回合：上下文压缩自动触发。** 长对话聊到 16 条消息阈值时，压缩算法真的跑了起来——Harness 把 18 条旧历史交给模型压缩成一条摘要、最近 6 条原样保留，对话区直接打出 `HARNESS 12 条旧历史 + 摘要，保留最近 6 条（上下文压缩）` 的横幅卡片；右侧 COMPACTION 面板记录了这次真实执行的数字（18 条压缩前历史 → 12 条旧历史做 LLM 摘要 + 6 条原样保留 → 7 条压缩后历史）：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-06.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-06.png" width="900px">
 </div>
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-07.png" width="500px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-07.png" width="500px">
 </div>
 
 **收尾：一句话纪要。** 最后让模型把全部调研内容整理成"对话纪要 · 5 条重点"——9 轮长对话下来，每一回合消耗多少 Token、什么时候压缩、省下了什么，全部看得见。**你不需要串联任何流程，只提供工具、上下文和环境反馈，剩下的交给模型。**
@@ -239,7 +238,7 @@ ToyHarness 全部代码只有 `32 个 Java 类`，零三方依赖（唯一的依
 如图，工程代码结构；左侧是给你的文档、代码地图，右侧是工程代码。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-08.png" width="500px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-08.png" width="500px">
 </div>
 
 
@@ -312,7 +311,7 @@ public interface ToolStrategy {
 打开 `toyharness-arch.html`，第一眼是这张**导览欢迎框**——它就是你的"开车导航"：点 **「开始导览」**，10 站会沿着一次请求的完整生命周期自动推进（入口装配 → 五阶段对话 → 守卫审批 → 工具执行 → 压缩收尾），每一站自动跳到对应视图、高亮相关节点、展开讲解卡；不想被打断也可以选「自由浏览」，随时点左上角重新进入导览：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-09.png" width="700px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-09.png" width="700px">
 </div>
 
 10 站的完整路线（一条主线串起全书）：
@@ -326,7 +325,7 @@ public interface ToolStrategy {
 全景图页面是三栏结构：**左侧**是真实工程树，**中间**是架构图，**右侧**是每个类的讲解卡。它最爽的用法是**点击联动**——比如在左栏点一下 `Application.java 入口门面`，中间架构图会高亮对应节点并用虚线指过去，右栏同时自动滚动定位到它的讲解卡（启动做了哪三件事、`/api/*` 的 16 个端点分工、审批闸门怎么接）：
 
 <div align="center">
-    <img src="../code-map/toyharness-arch/toyharness-arch-联动预览.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-12.png" width="900px">
 </div>
 
 **想看懂哪个类，就点哪个类**——树、图、卡三边永远保持同步，不用自己在几十个文件之间来回跳。
@@ -336,7 +335,7 @@ public interface ToolStrategy {
 导览的第 3-8 站都会切到**时序图**视图——这是整张地图里最值得放大细看的一张。先看整体：一次对话从 `浏览器页面` 发起，经过 `Application`（HTTP 入口）、`ToyHarness`（chat() 五阶段）、`Guardrails`（三层护栏）、`Skills`（技能壳），再到 `OpenAiChatModel` 和工具层，**每一步调用、每一次回传都是一条带文字标注的动线**：
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-10.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-10.png" width="900px">
 </div>
 
 时序图支持缩放（右上角 ＋/－ 按钮），**放大之后才能看到真正的细节**。下面是放大的前半段——`POST /api/chat/stream` 进来之后发生的事，每条箭头都对应一章的内容：
@@ -348,7 +347,7 @@ public interface ToolStrategy {
 - `invokeWithApproval`：白名单外命令升级人工审批——`SSE event approval 审批卡片` 弹到页面，用户决策经 `POST /api/approve（allow / trust）` 回填，`null = 批准`、`文本 = 拒绝`（第 11 章，正是你在快速体验里亲手点过的那张审批卡）。
 
 <div align="center">
-    <img src="https://bugstack.cn/images/article/ai/toyharness-11.png" width="900px">
+    <img src="https://bugstack.cn/https://bugstack.cn/images/article/ai/article/ai/toyharness-11.png" width="900px">
 </div>
 
 **看图的方式**：从上往下就是时间顺序，实线是调用、虚线是返回，`alt`/`loop` 框是条件与循环——把这张图和 `ToyHarness.chat()` 的源码并排放着对照读，一行代码对应一条箭头，迷路是不可能的。除此之外还有 **流程图** 视图，专门拆 `runLoop`/`compactIfNeeded` 等关键方法内部的分支逻辑，读到第 07 章上下文压缩时记得切过去看看。
